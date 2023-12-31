@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05252::Arthur Meyer Papers.)//EN">KCL05252</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05252::Arthur Meyer Papers.)//EN">KCL05252</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Arthur Meyer Papers<date> 1918-1950</date></titleproper>
@@ -23,16 +23,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>February 22, 2017</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Arthur Meyer Papers<lb/></titleproper>
+			<titleproper>Guide to the Arthur Meyer Papers</titleproper>
 			<num>Collection Number: 5252</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -50,14 +56,14 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Arthur Meyer Papers, <unitdate encodinganalog="MARC 245$f">1918-1950</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Arthur Meyer Papers, 1918-1950
+			</unittitle><unitdate encodinganalog="MARC 245$f">1918-1950</unitdate>
 			<unitid label="Collection Number:">5252</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">Meyer, Arthur</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">4 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">4 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Articles, case files, proceedings, speeches (documents) .</physdesc>
 			<repository label="Repository:">Kheel Center for Labor- Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">Include speeches and articles by Meyer (1941-1950); his correspondence while on the U.S. National War Labor Board (1942-1945); and excerpts from letters written by Meyer (1942-1955). Also materials on the Fact-Finding
@@ -67,21 +73,21 @@
 			</langmaterial>
 		<physdesc><extent>4 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+			
 			<p>Arthur S. Meyer was a member of the New York State Board of Mediation from its inception in 1937. In 1940, he was appointed as its chairman, a position in which he served until his retirement in 1950. Before becoming a mediator, Meyer was a
 				successful businessman, rising to the posts of president and director of the Schulte Real Estate Company and vice-president of the Schulte Retail Stores Corporation. In 1942, Meyer was named chairman of a U.S. War Labor Board panel to rule on
 				the demands of the Steel Workers Organizing Committee for a raise of one dollar per day and union security. The recommendation of Meyer and his committee formed the basis for a subsequent Board ruling known as the "Little Steel Formula".</p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a3">COLLECTION DESCRIPTION</head>
+			
 			<p>Include speeches and articles by Meyer (1941-1950); his correspondence while on the U.S. National War Labor Board (1942-1945); and excerpts from letters written by Meyer (1942-1955). Also materials on the Fact-Finding Committee of the Board of
 				Education, City of New York (1951); transcripts and accompanying documentation regarding the National War Labor Board case of the Electrical Transcription Manufacturing Company vs. the American Federation of Musicians (1942-1943); and
 				miscellaneous arbitration case files (1942-1946).</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Davis, William H. </persname>
 				<persname encodinganalog="MARC 600">Ellickson, Katherine Pollak, 1905-1996. </persname>
 				<persname encodinganalog="MARC 600">Feinsinger, Nathan Paul, 1902-1983. </persname>
@@ -124,7 +130,7 @@
 				<corpname encodinganalog="MARC 610">Westinghouse Electric Corporation </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Arbitration, Industrial--Teachers--New York (State)--New York. </subject>
 				<subject encodinganalog="MARC 650">Arbitration, Industrial--United States--Cases. </subject>
 				<subject encodinganalog="MARC 650">Collective bargaining -- United States. </subject>
@@ -167,34 +173,34 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Arthur Meyer Papers #5252. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05111.html"> 5111: New York City Board of Education Fact Finding Committee Report</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05231.html"> 5231: Arthur S. Meyer Papers</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06045.html"> 6045: Arthur S. Meyer Additional Files and Scrapbooks</extref><lb/>
+			
+			<p>Related Collections:
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05111.html"> 5111: New York City Board of Education Fact Finding Committee Report</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05231.html"> 5231: Arthur S. Meyer Papers</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06045.html"> 6045: Arthur S. Meyer Additional Files and Scrapbooks</extref>
 			</p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link8">Official Report of Proceedings before the National War Labor Board of the Office for Emergency Management in the matter of Electrical Transcription Mfg. and the American Federation of Musicians, AFL</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -204,8 +210,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link9">Case no.111-2499-D Transcript volume 1</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -215,8 +221,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link10">Case no.111-2499-D Transcript volume 2</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -226,8 +232,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link11">Case no.111-2499-D Transcript volume 3</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -237,8 +243,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link12">Case no.111-2499-D Transcript volume 4</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -248,8 +254,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link13">Case no.111-2499-D Transcript volume 5</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -259,8 +265,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link14">Case no.111-2499-D Transcript volume 6</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -270,8 +276,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link15">Case no.111-2499-D Transcript volume 7</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -281,8 +287,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link16">Case no.111-2499-D Transcript volume 8</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -292,8 +298,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link17">Case no.111-2499-D Transcript volume 9</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -303,8 +309,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link18">Case no.111-2499-D Transcript volume 10</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -314,8 +320,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link19">Case no.111-2499-D Transcript volume 11</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -325,8 +331,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link20">Case no.111-2499-D Transcript volume 12</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -336,8 +342,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link21">Case no.111-2499-D Transcript volume 13</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -347,8 +353,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link22">Case no.111-2499-D Transcript volume 14</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -358,8 +364,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link23">Case no.111-2499-D Transcript volume 15</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -369,18 +375,18 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link24">National Association of Broadcasters' Special American Federation of Musicians' Bulletins</unittitle>
-					<unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate>
+					<unitdate normal="1942/1943" type="inclusive">1942-1943</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link25">Notes regarding Case no.111-2499-D</unittitle>
-					<unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate>
+					<unitdate normal="1942/1943" type="inclusive">1942-1943</unitdate>
 				</did>
 				<scopecontent>
 					<p>Silver Anniversary Souvenir (1943) St. Louis Municipal Opera; Questionnaire concerning phonograph records, electrical transcriptions and musicians, put out by USA- Federal Communications Commissions; Statement of Joseph A. Podway
@@ -393,8 +399,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link26">Notes regarding Case no.111-2499-D</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -411,16 +417,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link27">Personnel Directory NY State Bd. Of Mediation </unittitle>
 					<unitdate normal="1950">1950</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link28">Mss. Draft</unittitle>
 					<unitdate normal="1944">1944</unitdate>
 				</did>
@@ -430,8 +436,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link29">Pub by US DOL BLS, National War Labor Bd.</unittitle>
 					<unitdate normal="1922">1922</unitdate>
 				</did>
@@ -441,10 +447,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link30">Office of War Mobilization &amp; Recon. Administrative Etc. (W.R. Daulin) carbons and original letters of letters of Myers to various staff members of office of War, Mobilization and Reconversion </unittitle>
-					<unitdate type="inclusive" normal="1945/1947">1945-1947</unitdate>
+					<unitdate normal="1945/1947" type="inclusive">1945-1947</unitdate>
 				</did>
 				<scopecontent>
 					<p>regarding: travel arrangements expense reimbursement. Also, 2 receipt booklets "Gov't Requests for Transportation" put out by the Office for Emergency Management NWLB &amp; Office of War Mobilization &amp; Reconversion (OWMR)</p>
@@ -452,10 +458,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link31">US Conciliation Service Special File (1945-46) letters with attachments (some telegrams)</unittitle>
-					<unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate>
+					<unitdate normal="1945/1946" type="inclusive">1945-1946</unitdate>
 				</did>
 				<scopecontent>
 					<p>Correspondence between: Meyer &amp; Edgar F. Warren (Director, US Conciliation Service US-DOL), also a few from Meyer's admin. Assistant &amp; Meyers. Regarding: Meyer appointment to Special Advisory Committee Conciliation
@@ -467,8 +473,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link32">National Wage Stab. Bd. General </unittitle>
 					<unitdate normal="1946">1946</unitdate>
 				</did>
@@ -478,10 +484,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link33">Murray Latimer (?) Meyer to Murray Latimer (OWMR) (position not mentioned) </unittitle>
-					<unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate>
+					<unitdate normal="1945/1946" type="inclusive">1945-1946</unitdate>
 				</did>
 				<scopecontent>
 					<p>routine correspondence of requests for copies of reports and appointments including telegrams. Also letters regarding study of the steel industry: guaranteed wage plan in the electrical industry, guaranteed wage study organization (such
@@ -492,10 +498,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link34">Guaranteed Wage (G.W.) General Correspondence. (Literature, books, articles, etc.) </unittitle>
-					<unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate>
+					<unitdate normal="1945/1946" type="inclusive">1945-1946</unitdate>
 				</did>
 				<scopecontent>
 					<p>Report: "Justification of Budget for study of G.W. plans (1945)," "Application of Income Taxes to Funds Implementing Wage Guarantees (1946)." Correspondence between Meyers and Mat Heineman (VP Franklin Buick Advertising Corp); Paul
@@ -508,10 +514,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link35">G.W. Applications for Positions and Related Correspondence </unittitle>
-					<unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate>
+					<unitdate normal="1945/1946" type="inclusive">1945-1946</unitdate>
 				</did>
 				<scopecontent>
 					<p>Correspondent: Meyer and various job applicants regarding positions and salary structure.</p>
@@ -519,8 +525,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link36">Guaranteed Annual Wage </unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -530,8 +536,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link37">NWLB Administrative and General Matters, Reports, etc. File #2 </unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -544,8 +550,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link38">NWLB Administration and General Matters Reports etc. File #1 </unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -558,8 +564,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link39">NWLB Wash. Administrative and General, </unittitle>
 					<unitdate normal="1945">1945</unitdate>
 				</did>
@@ -570,8 +576,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link40">[No title]</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -582,8 +588,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link41">1943-NWLB Compensation, Travel, etc. </unittitle>
 				</did>
 				<scopecontent>
@@ -593,10 +599,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link42">NWLB Fiscal and Travel</unittitle>
-					<unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate>
+					<unitdate normal="1944/1945" type="inclusive">1944-1945</unitdate>
 				</did>
 				<scopecontent>
 					<p>Forms: record of official travel; travel authorization (OEM); request for compensation for per diem personnel; vouchers for per diem and/or reimbursement of expenses incident to official travel; vouchers; telegrams; letters regarding
@@ -605,10 +611,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link43">Region II, NWLB </unittitle>
-					<unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate>
+					<unitdate normal="1944/1945" type="inclusive">1944-1945</unitdate>
 				</did>
 				<scopecontent>
 					<p>Correspondents include Harry Frumenman (Committee Ch. NWLB); Milton Rubin (Committee Mb. NWLB); William S. Hilger (Sub-Regional Director #9 UAW, CIO); Walter Gellhorn (Regional Vice Ch. NWLB); Maw J. Miller (Assignment Officer, NWLB).
@@ -618,8 +624,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link44">Waterfront EEs Assn. Series of Additional Cases, File #2, </unittitle>
 					<unitdate normal="1945">1945</unitdate>
 				</did>
@@ -629,10 +635,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link45">Consolidated Edison (CE) 1942. Consolidated Ed. Of NY vs. International Brotherhood of Electrical Workers and Brotherhood of Consolidated Edison EEs. </unittitle>
-					<unitdate type="inclusive" normal="1941/1943">1941-1943</unitdate>
+					<unitdate normal="1941/1943" type="inclusive">1941-1943</unitdate>
 				</did>
 				<scopecontent>
 					<p>Report of the Hearing Commission, Collective Bargaining Contract, and memo on behalf of CE of NY with Appendix A Report and findings of Meyer, Hearing Commissioner issues. "Mbs. should receive construction work undertaken by the Co. (a)
@@ -641,10 +647,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link46">Pipe Line Case </unittitle>
-					<unitdate type="inclusive" normal="1943/1944">1943-1944</unitdate>
+					<unitdate normal="1943/1944" type="inclusive">1943-1944</unitdate>
 				</did>
 				<scopecontent>
 					<p>Transcontinental pipe lines (nic. The George Bolz Dredging Co., International Hod Carriers, Cominon Laborers Union, International Union of Operating Engineers, United Association of Journeymen Plumbers and Pipe Fitters, Teamsters
@@ -655,8 +661,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link47">Firestone Matter 1943 Firestone Tire and Rubber Company</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -668,10 +674,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link48">National WLB Personnel and other Matters"</unittitle>
-					<unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate>
+					<unitdate normal="1941/1942" type="inclusive">1941-1942</unitdate>
 				</did>
 				<scopecontent>
 					<p>forms and cover letter- voucher for per diem and/or reimbursement of expenses incident to travel; request for compensation for per diem personnel. Routine correspondence regarding travel expenses/reimbursement and "standardized gov't
@@ -680,8 +686,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link49">Regional War Labor Board </unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -695,8 +701,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link50">U.S. Conciliation Service 1946 Press Wireless Inc. </unittitle>
 					<unitdate normal="1946">1946</unitdate>
 				</did>
@@ -709,8 +715,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link51">1946 ASM Press Wireless Inc. 1946, exhibits and minutes. </unittitle>
 					<unitdate normal="1946">1946</unitdate>
 				</did>
@@ -721,10 +727,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link52">U.S. Conciliation Service General Electric and Westinghouse Matters, </unittitle>
-					<unitdate type="inclusive" normal="1944/1946">1944-1946</unitdate>
+					<unitdate normal="1944/1946" type="inclusive">1944-1946</unitdate>
 				</did>
 				<scopecontent>
 					<p>United Electric Radio and Machine workers of Am. (UE) and General Elective Co. (1945). Issues include: wages (elimination of sex differentials and minority hiring in rate. Included in FF are summary and conclusions, copies of
@@ -742,8 +748,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link53">Conciliation Service G.E. and Westinghouse Matters, </unittitle>
 					<unitdate normal="1946">1946</unitdate>
 				</did>
@@ -753,8 +759,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link54">New York Telephone Co. and United Telephone Org. (UTO), Opinion and Award of arb. </unittitle>
 					<unitdate normal="1944">1944</unitdate>
 				</did>
@@ -768,8 +774,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link55">Interborough News Co. and Newspaper and Mail Deliverers Union of Greater NY and vicinity</unittitle>
 					<unitdate normal="1944">1944</unitdate>
 				</did>
@@ -780,10 +786,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link56">Ladies Garment Workers Assoc</unittitle>
-					<unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate>
+					<unitdate normal="1945/1946" type="inclusive">1945-1946</unitdate>
 				</did>
 				<scopecontent>
 					<p>1). American Coat and Suit Manufacturing Assoc. Fnc. and ILGWU (1945-46) before the impartial ch. of the coat and suit industry, union demand for a wage readjustment. Memo- Am. Cloak and Suit Manufacturing Assoc. 2). Memo- ILGWU and Jt.
@@ -793,8 +799,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link57">1947-195 Bdway Corp. and ASUY 195 Broadway Corp. EEs Council Award of Arbitration (1947) and transcripts of the case</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -805,8 +811,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link58">As Meyer 195 Bdway Corp. Exhibits 1947, Union and Co. Exhibits an arbitration between the 195 Corp. and 195 Bdway Corp., EEs Council. </unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -816,8 +822,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link59">Public Service Coordinated Transport &amp; Public Service Interstate Transportation Co. &amp; Amalgamated Association of St., Electric, Railway and Motorcoach EEs of America </unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -828,8 +834,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link60">Envelope #2 1947- Public Service Arbitration (NJSB of M) Union Exhibits and Minutes. </unittitle>
 				</did>
 				<scopecontent>
@@ -839,10 +845,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link61">Envelope #1 1947- Public Service Arbitration (NJSB of M) Co. Exhibit. </unittitle>
-					<unitdate type="inclusive" normal="1940/1947">1940-1947</unitdate>
+					<unitdate normal="1940/1947" type="inclusive">1940-1947</unitdate>
 				</did>
 				<scopecontent>
 					<p>22nd Annual Report of P.S. Corp. of NJ (1940), DOL, BLS reports, miss. notes relating to case, 28th Annual Report of Public Service Corp. of NJ (1946), Public Service Exhibits (Co. Exhibits) regarding wages, maps NY-NY area past
@@ -851,8 +857,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link62">Transcript (3 volumes). </unittitle>
 					<unitdate normal="1950">1950</unitdate>
 				</did>
@@ -862,10 +868,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link63">Local 32-B Exhibits. </unittitle>
-					<unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate>
+					<unitdate normal="1948/1950" type="inclusive">1948-1950</unitdate>
 				</did>
 				<scopecontent>
 					<p>Includes: 1.) Agreements 1948-49 2.) Demands- Local 32-B through the wage scale committee for revision and Amendment of the apt. House Agreement to become effective 1950 3.) Eco Brief in support of the Demands of Local 32-B, Building
@@ -880,8 +886,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link64">Fact Finding Bd. (Realty Advisory Bd. and Local 32-B) Correspondence. </unittitle>
 				</did>
 				<scopecontent>
@@ -892,8 +898,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link65">NYS Bd. of Mediation 1950 RAB and Local 32-B Fact Finding Bd. </unittitle>
 					<unitdate normal="1950">1950</unitdate>
 				</did>
@@ -905,10 +911,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link66">Fact Finding Bd. Recommendations in the RAB and Local 32-B case. </unittitle>
-					<unitdate type="inclusive" normal="1942/1950">1942-1950</unitdate>
+					<unitdate normal="1942/1950" type="inclusive">1942-1950</unitdate>
 				</did>
 				<scopecontent>
 					<p>Before the NWLB "Dispute involving the Realty Advisory Bd. on Labor Relations Inc. and Local 32-B of the B. SEIU Brief statement of the issues in the controversy in accordance with Rule co. of the Bd.'s Rules of Procedures." Also
@@ -919,8 +925,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link67">Testimony (probably grievance cases) Houston, TX </unittitle>
 					<unitdate normal="1918">1918</unitdate>
 				</did>

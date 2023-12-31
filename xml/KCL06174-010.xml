@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06174-010::NYSUT Convention files.)//EN">KCL06174-010</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06174-010::NYSUT Convention files.)//EN">KCL06174-010</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the NYSUT Convention files<date> 1959-2005</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>October 31, 2013</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the NYSUT Convention files<lb/></titleproper>
-			<num type="kidb_reference_number" id="kc98">Collection Number: 6174/010</num>
+			<titleproper>Guide to the NYSUT Convention files</titleproper>
+			<num id="kc98" type="kidb_reference_number">Collection Number: 6174/010</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref>
 					</item>
 				</defitem>
@@ -48,21 +54,21 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">NYSUT Convention files, <unitdate encodinganalog="MARC 245$f">1959-2005</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">NYSUT Convention files, 1959-2005
+			</unittitle><unitdate encodinganalog="MARC 245$f">1959-2005</unitdate>
 			<unitid label="Collection Number:">6174/010</unitid>
 			<origination label="Creator:">
 				<corpname encodinganalog="MARC 110" role="creator">New York State United Teachers (NYSUT)</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">6 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">6 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Reports, pamphlets, correspondence, publications.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<langmaterial label="Language:">Collection material in <language encodinganalog="MARC 041" langcode="eng">English</language>
 			</langmaterial>
 		<physdesc><extent>6 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="organizational history">NYSUT ORGANIZATIONAL HISTORY</head>
+			
 			<p>New York State United Teachers (NYSUT) was created in 1972 by the merger of the New York State Teachers Association (NYSTA) and the United Teachers of New York (UTNY). NYSTA had been affiliated with the National Education Association (NEA), and UTNY with the American Federation of Teachers (AFT). UTNY was the statewide organization whose United Federation of Teachers (UFT), led by Albert Shanker, was the predominant teachers' union in New York City. In joining with United Teachers and affiliating with the AFT, NYSUT also became a member union of the AFL-CIO. </p>
 			<p>In 1976, NYSUT voted to disaffiliate with the NEA. Some locals left NYSUT and created the NYEA (New York Educators Association), which became the state affiliate for the NEA. In the early 1980s, NYEA changed its name to NEA-NY. </p>
 			<p>NYEA/NEA- NY viewed association with the AFL-CIO's industrial unions as undermining the professional image and independence of teachers. The two organizations also differed strongly on aspects of the governance structure, particularly with respect to ethnic minority representation, with NYSUT opposed to mandatory minimums. The rivalry between NYSUT and NYEA/NEA-NY in organizing new locals expended a great deal of resources for both labor organizations. </p>
@@ -70,51 +76,51 @@
 			<p>NEA-N Y merged with NYSUT in 2006, by which time NYSUT had grown to more than half a million members, becoming the largest union in New York State.</p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a3">COLLECTION DESCRIPTION</head>
+			
 			<p>Covers 1970-1999, with some material dating back to 1959. Materials for NYSUT/NYSTA Representative Assembly/Delegate Assembly, the annual convention of the New York State teachers union.</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<corpname encodinganalog="MARC 610">New York State United Teachers. Archives </corpname>
 				<corpname encodinganalog="MARC 610">New York State United Teachers, Representative Assembly </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Teachers' union, New York (State) </subject>
 			</controlaccess>
 			<controlaccess>
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>NYSUT Convention files #6174/010. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06174-013av.html"> 6174/013 AV: New York State United Teachers (NYSUT). Representative Assembly (RA). Audio-visual materials.</extref><lb/> All other 6174 collections </p>
+			
+			<p>Related Collections:
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06174-013av.html"> 6174/013 AV: New York State United Teachers (NYSUT). Representative Assembly (RA). Audio-visual materials.</extref> All other 6174 collections </p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link6">NYSUT Delegate Lists</unittitle>
-					<unitdate type="inclusive" normal="1973/1982">1973-1982</unitdate>
+					<unitdate normal="1973/1982" type="inclusive">1973-1982</unitdate>
 				</did>
 				<scopecontent>
 					<p>Delegate lists and committee assignments for Representative Assembly</p>
@@ -122,8 +128,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link7">NYSUT Representative Assembly (RA) (1 of 2)</unittitle>
 					<unitdate normal="1982">1982</unitdate>
 				</did>
@@ -133,8 +139,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link8">NYSUT RA (2 of 2)</unittitle>
 					<unitdate normal="1982">1982</unitdate>
 				</did>
@@ -144,8 +150,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link9">NYSUT RA (1 of 2)</unittitle>
 					<unitdate normal="1981">1981</unitdate>
 				</did>
@@ -155,8 +161,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link10">NYSUT RA (2 of 2)</unittitle>
 					<unitdate normal="1981">1981</unitdate>
 				</did>
@@ -166,8 +172,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link11">NYSUT RA</unittitle>
 					<unitdate normal="1980">1980</unitdate>
 				</did>
@@ -177,8 +183,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link12">NYSUT RA (1 of 2)</unittitle>
 					<unitdate normal="1979">1979</unitdate>
 				</did>
@@ -188,8 +194,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link13">NYSUT R/A (2 of 2)</unittitle>
 					<unitdate normal="1979">1979</unitdate>
 				</did>
@@ -199,8 +205,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link14">NYSUT RA (1 of 2)</unittitle>
 					<unitdate normal="1978">1978</unitdate>
 				</did>
@@ -210,8 +216,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link15">NYSUT RA (2 of 2)</unittitle>
 					<unitdate normal="1978">1978</unitdate>
 				</did>
@@ -221,8 +227,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link16">Meeting-NYC-New York Hilton</unittitle>
 					<unitdate normal="1977">1977</unitdate>
 				</did>
@@ -232,8 +238,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link17">NYSUT RA</unittitle>
 					<unitdate normal="1978">1978</unitdate>
 				</did>
@@ -243,8 +249,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link18">West Hempstead Maintenance ASSP</unittitle>
 					<unitdate normal="1978">1978</unitdate>
 				</did>
@@ -254,8 +260,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link19">West Hempstead Office Staff ASSP</unittitle>
 					<unitdate normal="1978">1978</unitdate>
 				</did>
@@ -265,8 +271,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link20">Convention Call</unittitle>
 					<unitdate normal="1988">1988</unitdate>
 				</did>
@@ -276,8 +282,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link21">Convention Call</unittitle>
 					<unitdate normal="1989">1989</unitdate>
 				</did>
@@ -287,8 +293,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link22">Convention Call</unittitle>
 					<unitdate normal="1990">1990</unitdate>
 				</did>
@@ -298,8 +304,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link23">RA Delegate Kit</unittitle>
 					<unitdate normal="1990">1990</unitdate>
 				</did>
@@ -309,8 +315,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link24">Convention Call</unittitle>
 					<unitdate normal="1991">1991</unitdate>
 				</did>
@@ -320,8 +326,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link25">RA Delegate Kit</unittitle>
 					<unitdate normal="1991">1991</unitdate>
 				</did>
@@ -331,8 +337,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link26">Convention Call</unittitle>
 					<unitdate normal="1992">1992</unitdate>
 				</did>
@@ -342,8 +348,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link27">Convention Call</unittitle>
 					<unitdate normal="1993">1993</unitdate>
 				</did>
@@ -353,8 +359,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link28">RA Delegate Kit</unittitle>
 					<unitdate normal="1993">1993</unitdate>
 				</did>
@@ -364,8 +370,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link29">Convention Call</unittitle>
 					<unitdate normal="1994">1994</unitdate>
 				</did>
@@ -375,8 +381,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link30">RA Delegate Kit</unittitle>
 					<unitdate normal="1994">1994</unitdate>
 				</did>
@@ -386,8 +392,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link31">Convention Call</unittitle>
 					<unitdate normal="1995">1995</unitdate>
 				</did>
@@ -397,8 +403,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link32">RA Delegate Kit</unittitle>
 					<unitdate normal="1995">1995</unitdate>
 				</did>
@@ -408,8 +414,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link33">Convention Call</unittitle>
 					<unitdate normal="1996">1996</unitdate>
 				</did>
@@ -419,8 +425,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link34">RA Delegate Kit</unittitle>
 					<unitdate normal="1996">1996</unitdate>
 				</did>
@@ -430,8 +436,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link35">Convention Call</unittitle>
 					<unitdate normal="1997">1997</unitdate>
 				</did>
@@ -441,8 +447,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link36">RA Delegate Kit</unittitle>
 					<unitdate normal="1997">1997</unitdate>
 				</did>
@@ -452,8 +458,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link37">Convention Call</unittitle>
 					<unitdate normal="1998">1998</unitdate>
 				</did>
@@ -463,8 +469,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link38">RA Delegate Kit</unittitle>
 					<unitdate normal="1998">1998</unitdate>
 				</did>
@@ -474,8 +480,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link39">Convention Call</unittitle>
 					<unitdate normal="1999">1999</unitdate>
 				</did>
@@ -485,8 +491,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link40">RA Delegate Kit</unittitle>
 					<unitdate normal="1999">1999</unitdate>
 				</did>
@@ -496,10 +502,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link41">Landrum Griffin Act</unittitle>
-					<unitdate type="inclusive" normal="1973/1986">1973-1986</unitdate>
+					<unitdate normal="1973/1986" type="inclusive">1973-1986</unitdate>
 				</did>
 				<scopecontent>
 					<p>Text of relevant provisions; legal memoranda from NYSUT counsel to NYSUT president Tom Hobart; memo from Terry Herndon, executive director of NEA, re applicability of Landrum-Griffin, February 23, 1979; publication by U.S. Department of Labor, "Electing Union Officers," revised 1980; AFL-CIO booklet, "How to Run a Union Meeting," revised December 1980; AFT brochure, "How to Conduct Democratic Union Elections," November 1978; related correspondence</p>
@@ -507,10 +513,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link42">Landrum Griffin</unittitle>
-					<unitdate type="inclusive" normal="1959/1986">1959-1986</unitdate>
+					<unitdate normal="1959/1986" type="inclusive">1959-1986</unitdate>
 				</did>
 				<scopecontent>
 					<p>Landrum-Griffin checklist; publication by U.S. Department of Labor, "Electing Union Officers," revised 1980; text of Labor-Management Reporting and Disclosure Act of 1959, as amended, March 1977; related brochures and bulletins; conference call for fourth annual Representative Assembly, March 4-7, 1976; NYSUT Election Guidelines and Information, 1974; NYSUT Constitution, as amended by the 1981 Representative Assembly; memo, "NYSUT Policy Regarding Local Elections," January 21, 1982; document, "NYSUT Locals and Landrum-Griffin," summarizing provisions with which locals must comply</p>
@@ -518,10 +524,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link43">Delegate List (1 of 5)</unittitle>
-					<unitdate type="inclusive" normal="1972/1999">1972-1999</unitdate>
+					<unitdate normal="1972/1999" type="inclusive">1972-1999</unitdate>
 				</did>
 				<scopecontent>
 					<p>Computer printouts</p>
@@ -529,10 +535,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link44">Delegate List (2 of 5)</unittitle>
-					<unitdate type="inclusive" normal="1972/1999">1972-1999</unitdate>
+					<unitdate normal="1972/1999" type="inclusive">1972-1999</unitdate>
 				</did>
 				<scopecontent>
 					<p>Computer printouts and Who's Who list</p>
@@ -540,10 +546,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link45">Delegate List (3 of 5)</unittitle>
-					<unitdate type="inclusive" normal="1972/1999">1972-1999</unitdate>
+					<unitdate normal="1972/1999" type="inclusive">1972-1999</unitdate>
 				</did>
 				<scopecontent>
 					<p>Computer printouts, Who's Who list, and list of delegates and committee assignments</p>
@@ -551,10 +557,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link46">Delegate List (4 of 5)</unittitle>
-					<unitdate type="inclusive" normal="1972/1999">1972-1999</unitdate>
+					<unitdate normal="1972/1999" type="inclusive">1972-1999</unitdate>
 				</did>
 				<scopecontent>
 					<p>Lists of delegates and committee assignments</p>
@@ -562,10 +568,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link47">Delegate List (5 of 5)</unittitle>
-					<unitdate type="inclusive" normal="1972/1979">1972-1979</unitdate>
+					<unitdate normal="1972/1979" type="inclusive">1972-1979</unitdate>
 				</did>
 				<scopecontent>
 					<p>Lists of representatives (delegates)</p>
@@ -573,10 +579,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link48">New York Teacher</unittitle>
-					<unitdate type="inclusive" normal="1978/2005">1978-2005</unitdate>
+					<unitdate normal="1978/2005" type="inclusive">1978-2005</unitdate>
 				</did>
 				<scopecontent>
 					<p>Original issues for Representative Assembly</p>
@@ -584,10 +590,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link49">New York Teacher</unittitle>
-					<unitdate type="inclusive" normal="1978/2005">1978-2005</unitdate>
+					<unitdate normal="1978/2005" type="inclusive">1978-2005</unitdate>
 				</did>
 				<scopecontent>
 					<p>Original issues for Representative Assembly</p>
@@ -595,10 +601,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link50">New York Teacher</unittitle>
-					<unitdate type="inclusive" normal="1978/2005">1978-2005</unitdate>
+					<unitdate normal="1978/2005" type="inclusive">1978-2005</unitdate>
 				</did>
 				<scopecontent>
 					<p>Original issues for Representative Assembly</p>
@@ -606,10 +612,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link51">Weighted Voting</unittitle>
-					<unitdate type="inclusive" normal="1970/1986">1970-1986</unitdate>
+					<unitdate normal="1970/1986" type="inclusive">1970-1986</unitdate>
 				</did>
 				<scopecontent>
 					<p>Lists of Board of Directors and others</p>
@@ -617,10 +623,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link52">RA Evaluation</unittitle>
-					<unitdate type="inclusive" normal="1991/1999">1991-1999</unitdate>
+					<unitdate normal="1991/1999" type="inclusive">1991-1999</unitdate>
 				</did>
 				<scopecontent>
 					<p>Blank evaluation forms for delegate feedback re Representative Assembly</p>
@@ -628,8 +634,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link53">Representative Assembly</unittitle>
 					<unitdate normal="1973">1973</unitdate>
 				</did>
@@ -639,10 +645,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link54">Election Assembly</unittitle>
-					<unitdate type="inclusive" normal="1996/1998">1996-1998</unitdate>
+					<unitdate normal="1996/1998" type="inclusive">1996-1998</unitdate>
 				</did>
 				<scopecontent>
 					<p>Computer printout of 1996 election results for officers, by E.D.; list of vote totals for officers, 1996 and 1998; 1998 election results printed in New York Teacher</p>
@@ -650,8 +656,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link55">Representative Assembly-Originals for Duplicating</unittitle>
 					<unitdate normal="1973">1973</unitdate>
 				</did>
@@ -661,8 +667,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link56">UTNY Membership and Delegates Entitlement RA</unittitle>
 					<unitdate normal="1973">1973</unitdate>
 				</did>
@@ -672,8 +678,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link57">Representative Assembly-Misc. Material</unittitle>
 					<unitdate normal="1973">1973</unitdate>
 				</did>
@@ -683,10 +689,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link58">Evaluations Recap</unittitle>
-					<unitdate type="inclusive" normal="1990/1999">1990-1999</unitdate>
+					<unitdate normal="1990/1999" type="inclusive">1990-1999</unitdate>
 				</did>
 				<scopecontent>
 					<p>Summaries of evaluations</p>
@@ -694,8 +700,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link59">Representative Assembly</unittitle>
 					<unitdate normal="1991">1991</unitdate>
 				</did>
@@ -705,10 +711,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link60">Bylaw Proposals (NYSTA)</unittitle>
-					<unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+					<unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
 				</did>
 				<scopecontent>
 					<p>Report of the Resolutions Committee to House of Delegates, New York State Teachers Association (NYSTA), November 7, 1971; 1971 Resolutions; NYSTA constitution and bylaws; memo re proposed bylaw changes; related correspondence</p>
@@ -716,10 +722,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link61">NYSUT Constitution Amendments</unittitle>
-					<unitdate type="inclusive" normal="1993/1998">1993-1998</unitdate>
+					<unitdate normal="1993/1998" type="inclusive">1993-1998</unitdate>
 				</did>
 				<scopecontent>
 					<p>Rules of Procedure and Proposed Resolutions for 23rd annual RA, 1995, 22nd RA, 1994, and 24th RA, 1993; Implementation of Actions by the 1993, 1994, and 1998 Representative Assembly; Report of the Resolutions Committees, 1993; Report of the Constitutional Amendments Committee, 1994; Proposed Constitutional Amendments and Resolutions, 1996 and 1997; special orders of business, 1994, 1995, 1996, and 1997</p>
@@ -727,10 +733,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link62">Representative Handbooks</unittitle>
-					<unitdate type="inclusive" normal="1965/1973">1965-1973</unitdate>
+					<unitdate normal="1965/1973" type="inclusive">1965-1973</unitdate>
 				</did>
 				<scopecontent>
 					<p>Delegate handbooks</p>
@@ -738,10 +744,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link63">NYSUT Proposed Constitution Amendments</unittitle>
-					<unitdate type="inclusive" normal="1973/1977">1973-1977</unitdate>
+					<unitdate normal="1973/1977" type="inclusive">1973-1977</unitdate>
 				</did>
 				<scopecontent>
 					<p>Proposed constitutional amendments and resolutions, presented at Representative Assemblies</p>
@@ -749,10 +755,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link64">NYSUT Proposed Constitution Amendments</unittitle>
-					<unitdate type="inclusive" normal="1978/1982">1978-1982</unitdate>
+					<unitdate normal="1978/1982" type="inclusive">1978-1982</unitdate>
 				</did>
 				<scopecontent>
 					<p>Proposed constitutional amendments and resolutions, presented at Representative Assemblies</p>
@@ -760,10 +766,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link65">NYSUT Proposed Constitution Amendments</unittitle>
-					<unitdate type="inclusive" normal="1983/1987">1983-1987</unitdate>
+					<unitdate normal="1983/1987" type="inclusive">1983-1987</unitdate>
 				</did>
 				<scopecontent>
 					<p>Proposed constitutional amendments and resolutions, presented at Representative Assemblies; implementation of actions</p>
@@ -771,10 +777,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link66">Convention Call Wrapper</unittitle>
-					<unitdate type="inclusive" normal="1979/1998">1979-1998</unitdate>
+					<unitdate normal="1979/1998" type="inclusive">1979-1998</unitdate>
 				</did>
 				<scopecontent>
 					<p>Convention calls for Representative Assemblies</p>
@@ -782,10 +788,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link67">Campaign and Election Procedure</unittitle>
-					<unitdate type="inclusive" normal="1992/1998">1992-1998</unitdate>
+					<unitdate normal="1992/1998" type="inclusive">1992-1998</unitdate>
 				</did>
 				<scopecontent>
 					<p>Flyers re NYSUT officer positions to be filled</p>
@@ -793,10 +799,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link68">RA Programs</unittitle>
-					<unitdate type="inclusive" normal="1973/1978">1973-1978</unitdate>
+					<unitdate normal="1973/1978" type="inclusive">1973-1978</unitdate>
 				</did>
 				<scopecontent>
 					<p>Programs for Representative Assemblies</p>
@@ -804,10 +810,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link69">Community Service Award Winners</unittitle>
-					<unitdate type="inclusive" normal="1993/1998">1993-1998</unitdate>
+					<unitdate normal="1993/1998" type="inclusive">1993-1998</unitdate>
 				</did>
 				<scopecontent>
 					<p>Programs for awards, describing local winners</p>
@@ -815,10 +821,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link70">NYSUT Constitutions</unittitle>
-					<unitdate type="inclusive" normal="1985/1999">1985-1999</unitdate>
+					<unitdate normal="1985/1999" type="inclusive">1985-1999</unitdate>
 				</did>
 				<scopecontent>
 					<p>Printed constitutions</p>
@@ -826,10 +832,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link71">Proposed Constitutional Amendments and Resolutions and Implementation of Actions</unittitle>
-					<unitdate type="inclusive" normal="1995/1999">1995-1999</unitdate>
+					<unitdate normal="1995/1999" type="inclusive">1995-1999</unitdate>
 				</did>
 				<scopecontent>
 					<p>Printed materials for Representative Assemblies</p>
@@ -837,10 +843,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link72">Proposed Constitutional Amendments and Resolutions and Implementation of Actions</unittitle>
-					<unitdate type="inclusive" normal="1990/1994">1990-1994</unitdate>
+					<unitdate normal="1990/1994" type="inclusive">1990-1994</unitdate>
 				</did>
 				<scopecontent>
 					<p>Printed materials for Representative Assemblies</p>
@@ -848,10 +854,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link73">Proposed Constitutional Amendments and Resolutions and Implementation of Actions</unittitle>
-					<unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+					<unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
 				</did>
 				<scopecontent>
 					<p>Printed materials for Representative Assemblies</p>
@@ -859,10 +865,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link74">Implementation of Actions</unittitle>
-					<unitdate type="inclusive" normal="1985/1989">1985-1989</unitdate>
+					<unitdate normal="1985/1989" type="inclusive">1985-1989</unitdate>
 				</did>
 				<scopecontent>
 					<p>Materials for Representative Assemblies</p>
@@ -870,10 +876,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link75">Amendments to NYSUT Bylaws/Constitution</unittitle>
-					<unitdate type="inclusive" normal="1973/1989">1973-1989</unitdate>
+					<unitdate normal="1973/1989" type="inclusive">1973-1989</unitdate>
 				</did>
 				<scopecontent>
 					<p>Materials for Representative Assemblies</p>
@@ -881,8 +887,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link76">Amendments: House of Delegates</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -892,10 +898,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link77">Report on Attendance</unittitle>
-					<unitdate type="inclusive" normal="1976/1999">1976-1999</unitdate>
+					<unitdate normal="1976/1999" type="inclusive">1976-1999</unitdate>
 				</did>
 				<scopecontent>
 					<p>Various lists of locals attending the Representative Assembly</p>
@@ -903,10 +909,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link78">New York Teacher-Special RA editions</unittitle>
-					<unitdate type="inclusive" normal="1973/1977">1973-1977</unitdate>
+					<unitdate normal="1973/1977" type="inclusive">1973-1977</unitdate>
 				</did>
 				<scopecontent>
 					<p>Original newspapers</p>

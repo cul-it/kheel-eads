@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06356pubs::National Railroad Adjustment Board, First Division, Awards Publications.)//EN">KCL06356pubs</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06356pubs::National Railroad Adjustment Board, First Division, Awards Publications.)//EN">KCL06356pubs</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the National Railroad Adjustment Board, First Division, Awards Publications<date> 1937-1951</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>October 27, 2015</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the National Railroad Adjustment Board, First Division, Awards Publications<lb/></titleproper>
+			<titleproper>Guide to the National Railroad Adjustment Board, First Division, Awards Publications</titleproper>
 			<num>Collection Number: 6356 PUBS</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,53 +54,53 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">National Railroad Adjustment Board, First Division, Awards Publications, <unitdate encodinganalog="MARC 245$f">1937- 1951</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">National Railroad Adjustment Board, First Division, Awards Publications, 1937- 1951
+			</unittitle><unitdate encodinganalog="MARC 245$f">1937- 1951</unitdate>
 			<unitid label="Collection Number:">6356 PUBS</unitid>
 			<origination label="Creator:">
 				<corpname encodinganalog="MARC 110" role="creator">National Railroad Adjustment Board</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">4 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">4 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<langmaterial label="Language:">Collection material in <language encodinganalog="MARC 041" langcode="eng">English</language>
 			</langmaterial>
 		<physdesc><extent>4 cubic feet</extent></physdesc></did>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>National Railroad Adjustment Board, First Division, Awards Publications #6356 PUBS. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05837.html"> 5837: National Railroad Adjustment Board Case Files</extref><lb/>
+			
+			<p>Related Collections:
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05837.html"> 5837: National Railroad Adjustment Board Case Files</extref>
 			</p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link6">Vol. III: Awards 401-594</unittitle>
 					<unitdate normal="1935">1935</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link7">Item 1: Awards 401 to 594, First Division National Railroad Adjustment Board Volume III</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -109,15 +115,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link8">Vol. IV: Awards 595-788</unittitle>
-					<unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate>
+					<unitdate normal="1935/1936" type="inclusive">1935-1936</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link9">Item 1: Awards 595 to 788, First Division National Railroad Adjustment Board Volume IV</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -132,16 +138,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link10">Vol. V: Awards 789-1000</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link11">Item 1: Awards 789 to 1,000, First Division National Railroad Adjustment Board Volume V</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -156,16 +162,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link12">Vol. VI: Awards 1001-1200</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link13">Item 1: Awards 1001 to 1200, First Division National Railroad Adjustment Board Volume VI</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -180,16 +186,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link14">Vol. VII: Awards 1201-1400</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link15">Item 1: Awards 1201 to 1400, First Division National Railroad Adjustment Board Volume VII</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -204,16 +210,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link16">Vol. VIII: Awards 1401-1600</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link17">Item 1: Awards 1401 to 1600, First Division National Railroad Adjustment Board Volume VIII</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -228,16 +234,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link18">Vol. IX: Awards 1601-1800</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link19">Item 1: Awarrds 1601 to 1800, First Division National Railroad Adjustment Board Volume IX</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -252,16 +258,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link20">Vol. X: Awards 1801-2000</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link21">Item 1: Awards 1801 to 2000, First Division National Railroad Adjustment Board Volume X</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -276,15 +282,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link22">Vol. XI: Awards 2001-2065</unittitle>
-					<unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate>
+					<unitdate normal="1936/1937" type="inclusive">1936-1937</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link23">Item 1: Awards 2001 to 2065, First Division Nationla Adjustment Board Volume XI</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -299,16 +305,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link24">Vol. XII: Awards 2066-2200</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link25">Item 1: Awards 2066 to 2200, First Division National Railroad Adjustment Board Volume XII</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -323,15 +329,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link26">Vol. XIII: Awards 2201-2400</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link27">Item 1: Awards 2201 to 2400, First Division National Railroad Adjustment Board Volume XIII</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -346,15 +352,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link28">Vol. XIV: 2401-2600</unittitle>
-					<unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate>
+					<unitdate normal="1937/1938" type="inclusive">1937-1938</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link29">Item 1: Awards 2401 to 2600, First Division National Railroad Adjustment Board Volume XIV</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -369,16 +375,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link30">Vol. XV: Awards 2601-2800</unittitle>
 					<unitdate normal="1938">1938</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link31">Item 1: Awards 2601 to 2800, First Division National Railroad Adjustment Board Volume XV</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -393,16 +399,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link32">Vol. XVI: Awards 2801-3000</unittitle>
 					<unitdate normal="1938">1938</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link33">Item 1: Awards 2801 to 3000, First Division National Railroad Adjustment Board Volume XVI</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -417,16 +423,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link34">Vol. XVII: Awards 3001-3125</unittitle>
 					<unitdate normal="1938">1938</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link35">Item 1: Awards 3001 to 3125, First Division National Railroad Adjustment Board Volume XVII</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -441,16 +447,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link36">Vol. XVIII: Awards 3126-3200</unittitle>
 					<unitdate normal="1938">1938</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link37">Item 1: Awards 3126 to 2300, First Division National Railroad Adjustment Board Volume XVIII</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -465,15 +471,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link38">Vol. XIX: Awards 3201-3400</unittitle>
-					<unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate>
+					<unitdate normal="1938/1939" type="inclusive">1938-1939</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link39">Item 1: Awards 3201 to 3400, First Division National Railroad Adjustment Board Volume XIX</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -488,16 +494,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link40">Vol. XX: Awards 3401-3600</unittitle>
 					<unitdate normal="1939">1939</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link41">Item 1: Awards 3401 to 3600, First Division National Railroad Adjustment Board Volume XX</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -512,16 +518,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link42">Vol. XXI: Awards 3601-3800</unittitle>
 					<unitdate normal="1939">1939</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link43">Item 1: Awards 3601 to 3800, First Division National Railroad Adjustment Board Volume XXI</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -536,16 +542,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link44">Vol. XXII: Awards 3801-4000</unittitle>
 					<unitdate normal="1939">1939</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link45">Item 1: Awards 3801 to 4000, First Division National Railroad Adjustment Board Volume XXII</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -560,16 +566,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link46">Vol. 33: Awards 4300-4425</unittitle>
 					<unitdate normal="1939">1939</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link47">Item 1: Awards 5501 to 5650, First Division National Railroad Adjustment BoardVolume XXXII</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -584,15 +590,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link48">Vol. 34: Awards 4426-4550</unittitle>
-					<unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate>
+					<unitdate normal="1939/1940" type="inclusive">1939-1940</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link49">Item 1: Awards 5651 to 5800, First Division National Railroad Adjustment Board Volume XXXIII</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -607,16 +613,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link50">Vol. 35: Awards 4551-4675</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link51">Item 1: Awards 6101 to 6250, First Division National Railroad Adjustment Board Volume XXXVII</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -631,16 +637,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link52">Vol. 36: Awards 4676-4785</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link53">Item 1: National Railroad Adjustment Board First Division Vol. 33 4300 to 4425</unittitle>
 						<unitdate normal="1935">1935</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -655,16 +661,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link54">Vol. 37: Awards 4786-4899</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link55">Item 1: National Railroad Adjustment Board First Division Vol. 34 4426 to 4550</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -679,16 +685,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link56">Vol. 38: Awards 4900-5000</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link57">Item 1: National Railroad Adjustment Board First Division Vol. 35 4551 to 4673</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -703,16 +709,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link58">Vol. XXXII: Awards 5501-5650</unittitle>
 					<unitdate normal="1941">1941</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link59">Item 1: National Railroad Adjustment Board First Division Vol. 36 4677 to 4785</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -727,16 +733,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link60">Vol. XXXIII: Awards 5651-5800</unittitle>
 					<unitdate normal="1941">1941</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link61">Item 1: National Railroad Adjustment Board First Division Vol. 37 4786 to 4899</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -751,16 +757,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link62">Vol. XXXVII: Awards 6101-6250</unittitle>
 					<unitdate normal="1941">1941</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link63">Item 1: National Railroad Adjustment Board First Division Vol. 38 4900 to 5000</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -775,15 +781,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link64">Vol. XXXVIII: Awards 6251-6350</unittitle>
-					<unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate>
+					<unitdate normal="1941/1942" type="inclusive">1941-1942</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link65">Item 1: Awards 6251 to 6350, First Division National Railroad Adjustment Board Volume XXXVIII</unittitle>
 						<unitdate normal="1942">1942</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -798,16 +804,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link66">Vol. XXXIX: Awards 6351-6500</unittitle>
 					<unitdate normal="1942">1942</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link67">Item 1: Awards 6351 to 6500, First Division National Railroad Adjustment Board Volume XXXIX</unittitle>
 						<unitdate normal="1942">1942</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -822,16 +828,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link68">Vol. 65: Awards 7590-7708</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link69">Item 1: First Division National Railroad Adjustment Board Chicago, ILL. Volume 60 Awards 9241 to 9415</unittitle>
 						<unitdate normal="1944">1944</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -845,16 +851,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link70">Vol. 66: Awards 7709-7764</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link71">Item 1: First Division National Railroad Adjustment Board Chicago, ILL. Volume 62 Awards 9571 to 9720</unittitle>
 						<unitdate normal="1944">1944</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -868,16 +874,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link72">Vol. 60: Awards 9241-9415</unittitle>
 					<unitdate normal="1944">1944</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link73">Item 1: First Division National Railroad Adjustment Board Chicago, ILL. Volume 63 Awards 9721 to 9870</unittitle>
 						<unitdate normal="1942">1942</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -891,16 +897,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link74">Vol. 62: 9571-9720</unittitle>
 					<unitdate normal="1944">1944</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link75">Item 1: First Division Vol. 63 7421 to 7496</unittitle>
 						<unitdate normal="1942">1942</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -915,16 +921,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link76">Vol. 63: Awards 9721-9870</unittitle>
 					<unitdate normal="1944">1944</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link77">Item 1: First Division Vol. 65 7590 to 7708</unittitle>
 						<unitdate normal="1943">1943</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -939,8 +945,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link78">Vol. 63: Awards 9721-9870</unittitle>
 					<unitdate normal="1944">1944</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
@@ -950,8 +956,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link79">Item 1: First Division Col. 66 7709 to 7764</unittitle>
 						<unitdate normal="1943">1943</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -966,16 +972,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link80">Vol. 70: Awards 10621-10770</unittitle>
 					<unitdate normal="1945">1945</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link81">Item 1: First Division National Railroad Adjustment Board Chicago, ILL. Volume 70 Awards 10621 to 10770</unittitle>
 						<unitdate normal="1945">1945</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -989,16 +995,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link82">Vol. 76: Awards 11501-11625</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link83">Item 1: First Division National Railroad Adjustment Board Chicago IL Volume 76 Awards 11501 to 11625</unittitle>
 						<unitdate normal="1947">1947</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1012,8 +1018,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link84">Vol. 76: Awards 11501-11625</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
@@ -1023,8 +1029,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link85">Item 1: First Division National Railroad Adjustment Board Chicago, ILL. Volume 76 Awards 11501 to 11625</unittitle>
 						<unitdate normal="1947">1947</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1039,16 +1045,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link86">Vol. 77: Awards 11626-11775</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link87">Item 1: First Division National Railroad Adjustment Board Chicago, ILL. Volume 77 Awards 11626 to 11775</unittitle>
 						<unitdate normal="1947">1947</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1063,16 +1069,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link88">Vol. 82: Awards 12355-12504</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link89">Item 1: First Division National Railroad Adjustment Board Chicago, ILL Volume 82 Awards 12355 to 12504</unittitle>
 						<unitdate normal="1948">1948</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1087,16 +1093,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link90">Vol. 85: Awards 12718-12842</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link91">Item 1: First Division National Railroad Adjustment Board Chicago, ILL Volume 85 Awards 12718 to 12842</unittitle>
 						<unitdate normal="1949">1949</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1110,8 +1116,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link92">Vol. 85: Awards 12718-12842</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
@@ -1121,8 +1127,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link93">Item 1: First Division National Railroad Adjustment Board Volume 85 Awards 12718 to 12842</unittitle>
 						<unitdate normal="1949">1949</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1137,16 +1143,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link94">Vol. 118: Awards 13790-13944</unittitle>
 					<unitdate normal="1950">1950</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link95">Item 1: National Railroad Adjustment Board First Division Vol. 118 12790 -12944</unittitle>
 						<unitdate normal="1950">1950</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1161,15 +1167,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link96">Vol. 120: Awards 14056-14175</unittitle>
-					<unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate>
+					<unitdate normal="1950/1951" type="inclusive">1950-1951</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link97">Item 1: National Railroad Adjustment Board First Division Vol. 120 14056-14175</unittitle>
 						<unitdate normal="1951">1951</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1184,16 +1190,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link98">Vol. 123: Awards 14485-14619</unittitle>
 					<unitdate normal="1951">1951</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link99">Item 1: National Railroad Adjustment Board First Division Vol. 123 14485-14619</unittitle>
 						<unitdate normal="1951">1951</unitdate>
 						<physdesc label="Format:">Publication</physdesc>

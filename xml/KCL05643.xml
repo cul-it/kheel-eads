@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05643::Louis Hollander Papers.)//EN">KCL05643</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05643::Louis Hollander Papers.)//EN">KCL05643</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the Louis Hollander Papers<date>
@@ -24,20 +24,26 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>June 06,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
-            <titleproper>Guide to the Louis Hollander Papers<lb/></titleproper>
+            <titleproper>Guide to the Louis Hollander Papers</titleproper>
             <num>Collection Number: 5643</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -56,14 +62,14 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">Louis Hollander Papers, <unitdate encodinganalog="MARC 245$f">1914-1965</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">Louis Hollander Papers, 1914-1965
+            </unittitle><unitdate encodinganalog="MARC 245$f">1914-1965</unitdate>
             <unitid label="Collection Number:">5643</unitid>
             <origination label="Creator:">
                 <persname encodinganalog="MARC 100" role="creator">Hollander, Louis</persname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">11 linear ft.</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">11 linear ft.</physdesc>
             <physdesc label="Forms of Material:">Papers (documents).</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -73,19 +79,19 @@
             </langmaterial>
         <physdesc><extent>11 cubic feet</extent></physdesc></did>
         <scopecontent encodinganalog="MARC 520">
-            <head id="a3">COLLECTION DESCRIPTION</head>
+            
             <p>Boxes 11, 12, 13 contain photographs and are listed under #5643 P</p>
         </scopecontent>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <persname encodinganalog="MARC 600">Hollander, Louis, 1893- </persname>
                 <corpname encodinganalog="MARC 610">Amalgamated Clothing Workers of America
                 </corpname>
             </controlaccess>
             <controlaccess>
-                <head>Subjects: </head>
+                
                 <subject encodinganalog="MARC 650">Labor unions -- Officials and employees
                 </subject>
             </controlaccess>
@@ -93,35 +99,35 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>Louis Hollander Papers #5643. Kheel Center for Labor-Management Documentation and
                     Archives, Cornell University Library.</p>
             </prefercite>
         </descgrp>
         <relatedmaterial>
-            <head id="a6">RELATED MATERIALS</head>
-            <p>Related Collections:<lb/>
+            
+            <p>Related Collections:
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05643p.html"> 5643 P:
-                    Louis Hollander Photographs</extref><lb/>
+                    Louis Hollander Photographs</extref>
             </p>
         </relatedmaterial>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unittitle id="link8">Correspondence: Miscellaneous letters, 1919-1949 (6
                         folders Government letters, 1934-1949 (7 folders) Cornell University,
                         1945-1954 (2 folders) Board of Regents, 1945-1946 Education, 1946-1951 Civil
@@ -129,10 +135,10 @@
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link9">Miscellaneous Letters</unittitle>
-                        <unitdate type="inclusive" normal="1919/1944">1919-1944</unitdate>
+                        <unitdate normal="1919/1944" type="inclusive">1919-1944</unitdate>
                     </did>
                     <scopecontent>
                         <p>1919-1938, 1942-1944</p>
@@ -140,58 +146,58 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link10">Miscellaneous Letters</unittitle>
                         <unitdate normal="1945">1945</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link11">Miscellaneous Letters</unittitle>
                         <unitdate normal="1946">1946</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link12">Miscellaneous Letters</unittitle>
                         <unitdate normal="1947">1947</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link13">Miscellaneous Letters</unittitle>
                         <unitdate normal="1948">1948</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link14">Miscellaneous Letters</unittitle>
                         <unitdate normal="1949">1949</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link15">Government Letters</unittitle>
-                        <unitdate type="inclusive" normal="1948/1949">1948-1949</unitdate>
+                        <unitdate normal="1948/1949" type="inclusive">1948-1949</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link16">Government Letters</unittitle>
-                        <unitdate type="inclusive" normal="1934/1942">1934-1942</unitdate>
+                        <unitdate normal="1934/1942" type="inclusive">1934-1942</unitdate>
                     </did>
                     <scopecontent>
                         <p>1934-1935, 1937-1938, 1942</p>
@@ -199,90 +205,90 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link17">Government Letters</unittitle>
                         <unitdate normal="1947">1947</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link18">Government Letters</unittitle>
                         <unitdate normal="1946">1946</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link19">Government Letters</unittitle>
                         <unitdate normal="1945">1945</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link20">Government Letters</unittitle>
                         <unitdate normal="1944">1944</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link21">Government Letters</unittitle>
                         <unitdate normal="1943">1943</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link22">Correspondence: Cornell University Ithaca,
                             N.Y.</unittitle>
-                        <unitdate type="inclusive" normal="1949/1954">1949-1954</unitdate>
+                        <unitdate normal="1949/1954" type="inclusive">1949-1954</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link23">Board of Regents(Education)</unittitle>
-                        <unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate>
+                        <unitdate normal="1945/1946" type="inclusive">1945-1946</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link24">Correspondence on Education</unittitle>
-                        <unitdate type="inclusive" normal="1946/1951">1946-1951</unitdate>
+                        <unitdate normal="1946/1951" type="inclusive">1946-1951</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link25">Correspondence- Cornell University School of
                             Industrial and Labor Relations</unittitle>
-                        <unitdate type="inclusive" normal="1945/1949">1945-1949</unitdate>
+                        <unitdate normal="1945/1949" type="inclusive">1945-1949</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">18</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">18</container>
                         <unittitle id="link26">Civil Defense</unittitle>
-                        <unitdate type="inclusive" normal="1949/1951">1949-1951</unitdate>
+                        <unitdate normal="1949/1951" type="inclusive">1949-1951</unitdate>
                     </did>
                 </c02>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unittitle id="link27">Correspondence: Government letters, 1951-1953 Sidney
                         Hillman Health Center, 1951 NYS CIO Council, 1951-1953 Europe-Israel, 1951,
                         1953 National Conference of Christians &amp; Jews, 1951-1952
@@ -291,16 +297,16 @@
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link28">Government Letters</unittitle>
-                        <unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate>
+                        <unitdate normal="1951/1953" type="inclusive">1951-1953</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link29">Sidney Hillman Health Center Agreement &amp;
                             Declaration of Trust-Letters Miscellaneous Letters</unittitle>
                         <unitdate normal="1951">1951</unitdate>
@@ -308,10 +314,10 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link30">New York State CIO Council</unittitle>
-                        <unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate>
+                        <unitdate normal="1951/1953" type="inclusive">1951-1953</unitdate>
                     </did>
                     <scopecontent>
                         <p>Speeches and notes, some correspondence</p>
@@ -319,42 +325,42 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link31">Europe Israel</unittitle>
-                        <unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate>
+                        <unitdate normal="1951/1953" type="inclusive">1951-1953</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link32">National Conference of Christians and
                             Jews</unittitle>
-                        <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>
+                        <unitdate normal="1951/1952" type="inclusive">1951-1952</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link33">Miscellaneous Letters 1950</unittitle>
                         <unitdate normal="1950">1950</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link34">University of the State of New York Regents Committee
                             on High School Readjustment</unittitle>
-                        <unitdate type="inclusive" normal="1950/1954">1950-1954</unitdate>
+                        <unitdate normal="1950/1954" type="inclusive">1950-1954</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link35">Correspondence: White House Conference on Education,
                             Washington D.C.</unittitle>
                         <unitdate normal="1950">1950</unitdate>
@@ -362,8 +368,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link36">Correspondence</unittitle>
                         <unitdate normal="1955">1955</unitdate>
                     </did>
@@ -373,32 +379,32 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link37">Correspondence</unittitle>
                         <unitdate normal="1956">1956</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link38">Correspondence</unittitle>
                         <unitdate normal="1954">1954</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link39">Correspondence</unittitle>
-                        <unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate>
+                        <unitdate normal="1955/1957" type="inclusive">1955-1957</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link40">Alcoa Power Hearing</unittitle>
                         <unitdate normal="1955">1955</unitdate>
                     </did>
@@ -408,18 +414,18 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link41">Correspondence</unittitle>
-                        <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>
+                        <unitdate normal="1956/1957" type="inclusive">1956-1957</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link42">Correspondence</unittitle>
-                        <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>
+                        <unitdate normal="1956/1957" type="inclusive">1956-1957</unitdate>
                     </did>
                     <scopecontent>
                         <p>July 1956-August 1957</p>
@@ -428,17 +434,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
+                    <container label="unspecified" type="box">3</container>
                     <unittitle id="link43">Biographical sketches, speeches, NYS Convention
                         Proceedings, 1954.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link44">N.Y. Post Biographical Sketch Jewish American,
                             Speeches</unittitle>
-                        <unitdate type="inclusive" normal="1950/1953">1950-1953</unitdate>
+                        <unitdate normal="1950/1953" type="inclusive">1950-1953</unitdate>
                     </did>
                     <scopecontent>
                         <p>September 3, 1950 July 3, 1953</p>
@@ -446,8 +452,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link45">Proceedings of the 13th Annual Convention New York
                             State--CIO</unittitle>
                         <unitdate normal="1952">1952</unitdate>
@@ -458,8 +464,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link46">Proceeding 14th Annual Convention New York State CIO
                             Council</unittitle>
                         <unitdate normal="1953">1953</unitdate>
@@ -470,8 +476,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link47">New York State AFL-CIO Convention
                             Proceedings</unittitle>
                         <unitdate normal="1962">1962</unitdate>
@@ -482,8 +488,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link48">Proceedings Constitutional convention of the New York
                             State Industrial Union Council</unittitle>
                         <unitdate normal="1956">1956</unitdate>
@@ -494,8 +500,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link49">Proceedings of the 15th Annual Constitutional
                             Convention of the New York State CIO</unittitle>
                         <unitdate normal="1954">1954</unitdate>
@@ -507,45 +513,45 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
+                    <container label="unspecified" type="box">4</container>
                     <unittitle id="link50">Clippings.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link51">Clippings 1</unittitle>
                         <unitdate normal="1965">1965</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link52">Clippings 2</unittitle>
                         <unitdate normal="1965">1965</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link53">Clippings 3</unittitle>
                         <unitdate normal="1965">1965</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link54">Clippings 4</unittitle>
                         <unitdate normal="1965">1965</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link55">Clippings 5</unittitle>
                         <unitdate normal="1965">1965</unitdate>
                     </did>
@@ -553,14 +559,14 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
+                    <container label="unspecified" type="box">5</container>
                     <unittitle id="link56">Political Clipp Nov. 1937-June 1938 (2
                         scrapbooks).</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link57">Louis Hollander, American Labor Party Councilman
                             Scrapbook Clippings</unittitle>
                         <unitdate normal="1937">1937</unitdate>
@@ -568,8 +574,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link58">Louis Hollander Scrapbook Clippings 2</unittitle>
                         <unitdate normal="1937">1937</unitdate>
                     </did>
@@ -577,23 +583,23 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">6</container>
+                    <container label="unspecified" type="box">6</container>
                     <unittitle id="link59">Scrapbook NYS Convention, CIO, 1947; Proceedings, 1947;
                         Miscellaneous publications; The Hat and General Clippings, 1952-1953;
                         Dewey's Labor Day Message, 1947 (clippings).</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link60">Scrapbook Clippings Taft-Hartley</unittitle>
                         <unitdate normal="1947">1947</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link61">Eighth Annual Convention of the New York State CIO
                             Council</unittitle>
                         <unitdate normal="1947">1947</unitdate>
@@ -604,8 +610,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link62">17th Biennial National Convention of Women's American
                             ORT</unittitle>
                         <unitdate normal="1963">1963</unitdate>
@@ -616,8 +622,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link63">Summary of Information on Projects and Activities in
                             the Field of Rehabilitation of the Disabled During 1963</unittitle>
                         <unitdate normal="1963">1963</unitdate>
@@ -625,17 +631,17 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link64">The Johnson Foundation, a Program Report</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link65">The Hat and General Clippings</unittitle>
-                        <unitdate type="inclusive" normal="1950/1953">1950-1953</unitdate>
+                        <unitdate normal="1950/1953" type="inclusive">1950-1953</unitdate>
                     </did>
                     <scopecontent>
                         <p>April 1950-February 1953</p>
@@ -643,16 +649,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link66">Dewey's Labor Day Message</unittitle>
                         <unitdate normal="1947">1947</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link67">Annual Report Governor's Committee on "Employ the
                             Physically Handicapped"</unittitle>
                         <unitdate normal="1959">1959</unitdate>
@@ -661,7 +667,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">7</container>
+                    <container label="unspecified" type="box">7</container>
                     <unittitle id="link68">Clipping Scrapbooks: 1943-1948 CIO Clippings; 1947
                         Congressional Hearing On Hi Cost of Living; 1948 Clippings on Action by
                         State CIO Third Party and Henry Wallace; 1949 National CIO Convention,
@@ -669,32 +675,32 @@
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link69">Clippings CIO</unittitle>
                         <unitdate normal="1943">1943</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link70">Clippings CIO</unittitle>
                         <unitdate normal="1944">1944</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link71">CIO Clippings</unittitle>
                         <unitdate normal="1945">1945</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link72">1946 CIO Convention</unittitle>
                         <unitdate normal="1946">1946</unitdate>
                     </did>
@@ -704,8 +710,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link73">1946 Clippings</unittitle>
                         <unitdate normal="1946">1946</unitdate>
                     </did>
@@ -715,8 +721,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link74">Clippings 1946</unittitle>
                         <unitdate normal="1946">1946</unitdate>
                     </did>
@@ -726,8 +732,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link75">CIO Clippings</unittitle>
                         <unitdate normal="1947">1947</unitdate>
                     </did>
@@ -737,10 +743,10 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link76">Clippings</unittitle>
-                        <unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate>
+                        <unitdate normal="1947/1948" type="inclusive">1947-1948</unitdate>
                     </did>
                     <scopecontent>
                         <p>November 1947-1948</p>
@@ -748,8 +754,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link77">1948 Clippings on Action by State CIO on Third Party
                             and Henry Wallace</unittitle>
                         <unitdate normal="1948">1948</unitdate>
@@ -757,8 +763,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link78">Congressional Hearing on High Cost of
                             Living</unittitle>
                         <unitdate normal="1947">1947</unitdate>
@@ -766,8 +772,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link79">National CIO Convention</unittitle>
                         <unitdate normal="1948">1948</unitdate>
                     </did>
@@ -777,8 +783,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link80">Saratoga State CIO Convention Political
                             News</unittitle>
                         <unitdate normal="1949">1949</unitdate>
@@ -790,7 +796,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">8</container>
+                    <container label="unspecified" type="box">8</container>
                     <unittitle id="link81">Clipping Scrapbooks: City CIO, 1949-1950; General CIO
                         Clippings 1949-1950; Old Pension-NYS Publishers Associated Meeting Board of
                         Examiners 1945-1950; State CIO Convention and NYS Election Campaign, 1950;
@@ -798,10 +804,10 @@
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link82">City CIO Clippings</unittitle>
-                        <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate>
+                        <unitdate normal="1949/1950" type="inclusive">1949-1950</unitdate>
                     </did>
                     <scopecontent>
                         <p>March 1949-Jan 1950</p>
@@ -809,10 +815,10 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link83">General CIO Clippings</unittitle>
-                        <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate>
+                        <unitdate normal="1949/1950" type="inclusive">1949-1950</unitdate>
                     </did>
                     <scopecontent>
                         <p>December 1949-January 1950</p>
@@ -820,17 +826,17 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link84">Old Age Pension N.Y. State Publishers Associated
                             Meeting Board of Examiners</unittitle>
-                        <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate>
+                        <unitdate normal="1949/1950" type="inclusive">1949-1950</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link85">State CIO Convention</unittitle>
                         <unitdate normal="1950">1950</unitdate>
                     </did>
@@ -840,8 +846,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link86">State CIO PAC &amp; State CIO Convention
                             April 1950-December 31,1950</unittitle>
                         <unitdate normal="1950">1950</unitdate>
@@ -849,8 +855,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link87">Clippings</unittitle>
                         <unitdate normal="1951">1951</unitdate>
                     </did>
@@ -860,11 +866,11 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link88">Governor's Nomination &amp; Election N.Y.
                             State</unittitle>
-                        <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate>
+                        <unitdate normal="1950/1951" type="inclusive">1950-1951</unitdate>
                     </did>
                     <scopecontent>
                         <p>Sept. 1950-January 1951</p>
@@ -872,8 +878,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link89">National Conference of Christians and Jews Cornell
                             University</unittitle>
                         <unitdate normal="1951">1951</unitdate>
@@ -884,8 +890,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link90">New York State CIO Convention, Legislative and
                             General News Clippings</unittitle>
                         <unitdate normal="1951">1951</unitdate>
@@ -897,7 +903,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">9</container>
+                    <container label="unspecified" type="box">9</container>
                     <unittitle id="link91">Clipping Scrapbooks: NYS CIO Convention, 1952; General
                         Clippings, 1935; Convention 1953 and Political Clippings 1953; General
                         Clippings 1954 NUS CIO Convention 1954, Political and General 1954; General
@@ -905,8 +911,8 @@
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">9</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link92">Clippings New York State CIO Convention</unittitle>
                         <unitdate normal="1952">1952</unitdate>
                     </did>
@@ -916,16 +922,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">9</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link93">General Clippings</unittitle>
                         <unitdate normal="1953">1953</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">9</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link94">Clippings of: N.Y. State CIO Convention &amp;
                             Political Clippings</unittitle>
                         <unitdate normal="1953">1953</unitdate>
@@ -936,16 +942,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">9</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link95">General Clippings</unittitle>
                         <unitdate normal="1954">1954</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">9</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link96">Clippings of N.Y. State CIO Convention &amp;
                             Political &amp; General Clippings</unittitle>
                         <unitdate normal="1954">1954</unitdate>
@@ -956,8 +962,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">9</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link97">Clippings, N.Y. State CIO Convention &amp;
                             Political &amp; General Clippings</unittitle>
                         <unitdate normal="1954">1954</unitdate>
@@ -968,24 +974,24 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">9</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link98">General Clippings</unittitle>
                         <unitdate normal="1955">1955</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">9</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link99">General Clippings</unittitle>
                         <unitdate normal="1955">1955</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">9</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link100">General Clippings</unittitle>
                         <unitdate normal="1955">1955</unitdate>
                     </did>
@@ -995,16 +1001,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">9</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link101">General Clippings</unittitle>
                         <unitdate normal="1956">1956</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">9</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link102">Clippings, New York State CIO Convention</unittitle>
                         <unitdate normal="1956">1956</unitdate>
                     </did>
@@ -1016,7 +1022,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">10</container>
+                    <container label="unspecified" type="box">10</container>
                     <unittitle id="link103">Clipping Scrapbooks: 1957 General Clippings; NYS CIO
                         Convention, 1956; General Clippings 1957-1958; General Clippings 1958-1959;
                         C] Merger of State CIO and AFL, 1958; Policy of Po.J Action 1959-1962;
@@ -1024,8 +1030,8 @@
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link104">General Clippings</unittitle>
                         <unitdate normal="1957">1957</unitdate>
                     </did>
@@ -1035,10 +1041,10 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link105">Clippings, New York State CIO Convention</unittitle>
-                        <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>
+                        <unitdate normal="1956/1957" type="inclusive">1956-1957</unitdate>
                     </did>
                     <scopecontent>
                         <p>August 23-25 Albany N.Y.</p>
@@ -1046,10 +1052,10 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link106">General Clippings</unittitle>
-                        <unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
+                        <unitdate normal="1957/1958" type="inclusive">1957-1958</unitdate>
                     </did>
                     <scopecontent>
                         <p>December 1957-January 1958</p>
@@ -1057,16 +1063,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link107">General Clippings</unittitle>
-                        <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate>
+                        <unitdate normal="1958/1959" type="inclusive">1958-1959</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link108">General Clippings</unittitle>
                         <unitdate normal="1958">1958</unitdate>
                     </did>
@@ -1076,8 +1082,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link109">Merger of N.Y. State CIO &amp; N.Y. State
                             CFL</unittitle>
                         <unitdate normal="1958">1958</unitdate>
@@ -1085,8 +1091,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link110">Clippings, Merger of N.Y. State CIO &amp;
                             N.Y. State AFL</unittitle>
                         <unitdate normal="1958">1958</unitdate>
@@ -1094,10 +1100,10 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link111">Clippings, Policy of Political Action</unittitle>
-                        <unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate>
+                        <unitdate normal="1959/1960" type="inclusive">1959-1960</unitdate>
                     </did>
                     <scopecontent>
                         <p>September 1959-1960</p>
@@ -1105,46 +1111,46 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link112">Clippings, Policy of Political Action</unittitle>
-                        <unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate>
+                        <unitdate normal="1959/1962" type="inclusive">1959-1962</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link113">General Clippings</unittitle>
                         <unitdate normal="1962">1962</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link114">General Clippings</unittitle>
-                        <unitdate type="inclusive" normal="1962/1964">1962-1964</unitdate>
+                        <unitdate normal="1962/1964" type="inclusive">1962-1964</unitdate>
                     </did>
                 </c02>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">14</container>
+                    <container label="unspecified" type="box">14</container>
                     <unittitle id="link115">Miscellaneous publications.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">14</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">14</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link116">Amalgamated Clothing Workers of America</unittitle>
-                        <unitdate type="inclusive" normal="1914/1964">1914-1964</unitdate>
+                        <unitdate normal="1914/1964" type="inclusive">1914-1964</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">14</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">14</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link117">Amalgamated Clothing Workers of America</unittitle>
                         <unitdate normal="1950">1950</unitdate>
                     </did>

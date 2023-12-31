@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
- <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-  <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06036-083av::Gerald Hirschfeld 'With These Hands'. Audio-Visual.)//EN">KCL06036-083av</eadid>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06036-083av::Gerald Hirschfeld 'With These Hands'. Audio-Visual.)//EN">KCL06036-083av</eadid>
   <filedesc>
    <titlestmt>
     <titleproper>Guide to the Gerald Hirschfeld "With These Hands". Audio-Visual<date> 1950-1950</date></titleproper>
@@ -21,16 +21,22 @@
   <profiledesc>
    <creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>March 25, 2013</date></creation>
   </profiledesc>
- </eadheader>
+ <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
  <frontmatter>
   <titlepage>
-   <titleproper>Guide to the Gerald Hirschfeld "With These Hands". Audio-Visual<lb/></titleproper>
-   <num type="kidb_reference_number" id="kc3333">Collection Number: 6036/083 AV</num>
+   <titleproper>Guide to the Gerald Hirschfeld "With These Hands". Audio-Visual</titleproper>
+   <num id="kc3333" type="kidb_reference_number">Collection Number: 6036/083 AV</num>
    <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
    <list type="deflist">
     <defitem>
      <label>Contact Information:</label>
-     <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+     <item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
       <extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref>
      </item>
     </defitem>
@@ -48,9 +54,9 @@
  </frontmatter>
  <archdesc level="collection">
   <did>
-   <head id="a1">DESCRIPTIVE SUMMARY</head>
-   <unittitle label="Title:" encodinganalog="MARC 245$a">Gerald Hirschfeld "With These Hands". Audio-Visual, <unitdate encodinganalog="MARC 245$f">1950-1950</unitdate>
-   </unittitle>
+   
+   <unittitle encodinganalog="MARC 245$a" label="Title:">Gerald Hirschfeld "With These Hands". Audio-Visual, 1950-1950
+   </unittitle><unitdate encodinganalog="MARC 245$f">1950-1950</unitdate>
    <unitid label="Collection Number:">6036/083 AV</unitid>
    <origination label="Creator:">
     <corpname encodinganalog="MARC 110" role="creator">ILGWU</corpname>
@@ -58,7 +64,7 @@
     <persname encodinganalog="MARC 100" role="creator">Hirschfeld, Gerald</persname>
     <corpname encodinganalog="MARC 110" role="creator">Screen Savers</corpname>
    </origination>
-   <physdesc label="Quantity:" encodinganalog="MARC 300">0.2 linear ft.</physdesc>
+   <physdesc encodinganalog="MARC 300" label="Quantity:">0.2 linear ft.</physdesc>
    <physdesc label="Forms of Material:">Film.</physdesc>
    <repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
    <abstract label="Abstract:">The collection consists of an original black and white 16 mm print of the documentary "With These Hands," as well as a digitized version on DVD.</abstract>
@@ -66,15 +72,15 @@
    </langmaterial>
   <physdesc><extent>0.22 cubic feet</extent></physdesc></did>
   <bioghist encodinganalog="MARC 545">
-   <head id="a2" altrender="organizational history">ILGWU ORGANIZATIONAL HISTORY</head>
+   
    <p>Founded in 1900 by local union delegates representing about 2,000 members in cities in the northeastern United States, the ILGWU grew in geographical scope, membership size, political influence to become one of the most powerful forces in American organized labor by mid-century. Representing workers in the women's garment industry, the ILGWU worked to improve working and living conditions of its members through collective bargaining agreements, training programs, health care facilities, cooperative housing, educational opportunities, and other efforts. In 1995, the ILGWU merged with the Amalgamated Clothing and Textile Workers Union (ACTWU) to form the Union of Needletrades, Industrial and Textile Employees (UNITE).</p>
   </bioghist>
   <bioghist encodinganalog="MARC 545">
-   <head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+   
    <p>Gerald Hirschfeld was the director of photography for the film "With These Hands." Hirschfeld was born on April 25, 1921 and became interested in photography at an early age. He began to work in films in the late 1940s as a cinematographer but soon moved to commercials. Hirschfeld returned to movies when he was hired by Sidney Lumet for the 1964 movie "Fail-Safe." He would continue to work as a director of photography on such films as "Diary of a Mad Housewife," "Young Frankenstein," and "My Favorite Year," as well as television movies.</p>
   </bioghist>
   <scopecontent encodinganalog="MARC 520">
-   <head id="a3">COLLECTION DESCRIPTION</head>
+   
    <p>"Academy Award Nominated!" "Internationally Acclaimed!" "Beloved by Audiences!" </p>
    <p>The headlines and reviews enthusiastically lauded the International Ladies' Garment Workers' Union (ILGWU) 1950 film "With These Hand" with praises not normally associated with a motion picture produced by a labor union. Through its history, the ILGWU knew the importance and benefits of utilizing entertainment and media to spread their message. The union owned FM radio stations, produced radio programs, sponsored paid television broadcasts, and ran advertisements in newspapers. Surprisingly, the union even had success in the field of Broadway with the popular 1937 show "Pins &amp;amp; Needles," which featured a cast of garment workers and became a hit with critics and audiences. Hollywood and a foray into motion pictures soon beckoned the union. Previous attempts by other labor unions to create institutional films tended to be amateurish and propaganda that would not draw large crowds outside the intended audience of union members. The ILGWU and President David Dubinsky wanted to
     change the perception of labor films and try the impossibleto create a movie that celebrated the first fifty years of the union while providing genuine entertainment and appealing to the general public. To ensure a professional production, the union secured veterans in the entertainment industry, and Jack Arnold and Lee Goodman were hired to direct and produce a story written by Morton Wishengrad. Arnold would later go on to become a famous science fiction director of such movies as "It Came from Outer Space" and "Creature From the Black Lagoon," as well as television episodes of "Gilligan's Island," "The Brady Bunch," and "The Love Boat." Well known stage and Broadway actors were also hired to perform the lead roles in the film. Sam Levene plays the main character Alexander Brody. Levene started in Hollywood in the 1930s, starring alongside William Powell and Myrna Loy in the "Thin Man" movies, and he had a successful career on Broadway as well, originating the role of Nathan
@@ -88,9 +94,9 @@
     the union's summer resort Unity House, and medical care provided at the Union Health Center. Throughout the film, Brody marvels at the journey of the ILGWU and its members and how far his hands have taken him since he started in 1910.</p>
   </scopecontent>
   <controlaccess>
-   <head id="a8">SUBJECTS</head>
+   
    <controlaccess>
-    <head>Names: </head>
+    
     <persname encodinganalog="MARC 600"> Hirschfeld, Gerald. </persname>
     <persname encodinganalog="MARC 600"> Arnold, Jack. </persname>
     <persname encodinganalog="MARC 600"> Levene, Sam. </persname>
@@ -102,41 +108,41 @@
     </controlaccess>
   </controlaccess>
   <descgrp>
-   <head id="a10">INFORMATION FOR USERS</head>
+   
    <accessrestrict>
-    <head>Access Restrictions:</head>
+    
     <p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
    </accessrestrict>
    <userestrict>
-    <head>Restrictions on Use:</head>
+    
     <p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
    </userestrict>
    <prefercite>
-    <head>Cite As:</head>
+    
     <p>Gerald Hirschfeld "With These Hands". Audio-Visual #6036/083 AV. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
    </prefercite>
   </descgrp>
   <relatedmaterial>
-   <head id="a6">RELATED MATERIALS</head>
-   <p>Related Collections:<lb/>
-    <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780.html"> 5780: ILGWU records</extref><lb/>
-    <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780f.html"> 5780 F: ILGWU. Motion Picture Films</extref><lb/> 5780 AV: ILGWU. Audio-Visual (AV)<lb/>
+   
+   <p>Related Collections:
+    <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780.html"> 5780: ILGWU records</extref>
+    <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780f.html"> 5780 F: ILGWU. Motion Picture Films</extref> 5780 AV: ILGWU. Audio-Visual (AV)
    </p>
   </relatedmaterial>
   <dsc type="in-depth">
-   <head>CONTAINER LIST</head>
+   
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link7">"With These Hands" DVD</unittitle>
      <unitdate normal="1950">1950</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link8">"With These Hands" 16 mm film</unittitle>
      <unitdate normal="1950">1950</unitdate>
     </did>

@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05699::William Bardsley Collection of United States National Recovery Administrations and National War Labor Board Printed and Mimeographed Documents.)//EN">KCL05699</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05699::William Bardsley Collection of United States National Recovery Administrations and National War Labor Board Printed and Mimeographed Documents.)//EN">KCL05699</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the William Bardsley Collection of United States National
@@ -27,22 +27,28 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>March 27,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
             <titleproper>Guide to the William Bardsley Collection of United States National Recovery
                 Administrations and National War Labor Board Printed and Mimeographed
-                Documents<lb/></titleproper>
+                Documents</titleproper>
             <num>Collection Number: 5699</num>
             <publisher>Kheel Center for Labor- Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -61,20 +67,20 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">William Bardsley Collection of
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">William Bardsley Collection of
                 United States National Recovery Administrations and National War Labor Board Printed
-                and Mimeographed Documents, <unitdate encodinganalog="MARC 245$f">1933-1945</unitdate>
-            </unittitle>
+                and Mimeographed Documents, 1933-1945
+            </unittitle><unitdate encodinganalog="MARC 245$f">1933-1945</unitdate>
             <unitid label="Collection Number:">5699</unitid>
             <origination label="Creator:">
-                <persname encodinganalog="MARC 100" role="creator">Bardsley, William</persname>;<lb/>
+                <persname encodinganalog="MARC 100" role="creator">Bardsley, William</persname>;
                 <corpname encodinganalog="MARC 110" role="creator"> National Recovery
-                    Administrations (NRA)</corpname>;<lb/>
+                    Administrations (NRA)</corpname>;
                 <corpname encodinganalog="MARC 110" role="creator"> National War Labor Board
                     (NWLB)</corpname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">8 linear ft.</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">8 linear ft.</physdesc>
             <physdesc label="Forms of Material:">Records (documents).</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -82,9 +88,9 @@
             </langmaterial>
         <physdesc><extent>8 cubic feet</extent></physdesc></did>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <persname encodinganalog="MARC 600">Bardsley, William W., </persname>
                 <corpname encodinganalog="MARC 610">United States. National Recovery
                     Administration--Sources. </corpname>
@@ -95,19 +101,19 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>William Bardsley Collection of United States National Recovery Administrations
                     and National War Labor Board Printed and Mimeographed Documents #5699. Kheel
                     Center for Labor-Management Documentation and Archives, Cornell University
@@ -115,85 +121,85 @@
             </prefercite>
         </descgrp>
         <relatedmaterial>
-            <head id="a6">RELATED MATERIALS</head>
-            <p>Related Collections:<lb/>
+            
+            <p>Related Collections:
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05391.html"> 5391: U.S.
                     National Recovery Administration Printed Documents from the Division
-                    Review</extref><lb/>
+                    Review</extref>
             </p>
         </relatedmaterial>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unittitle id="link8">A-C</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link9">Actions of the National Industrial Recovery Board
                             (Sept. 28, 1934-May 27, 1935)</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link10">Actions of the National Industrial Recovery Board
                             Part 2</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link11">Administrative Orders</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link12">The NRA Policy Group Vol 1 (A to D
                             Inclusive)</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link13">The NRA Policy Group Vol. II (E to P
                             Inclusive)</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link14">The NRA Policy Group Vol. III (R to Y
                             Inclusive)</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link15">Compendium of Policy Abstracts</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link16">Statement of Policy - NRA</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link17">Executive Order: Creating a Committee to Complete the
                             Summary of the Results and Accomplishments of the National Recovery
                             Administration and Report Thereon</unittitle>
@@ -201,244 +207,244 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link18">The Development and Application of NRA Policies as to
                             the Provisions of the Codes</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link19">Organization, Procedures and Administrative Problems
                             of the National Recovery Administration</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link20">National Recovery Administration Division of Research
                             and Planning - Gertrude Working (11/20/1934)</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link21">General NRA Information</unittitle>
                     </did>
                 </c02>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unittitle id="link22">D1-D29</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link23">National Recovery Administration Division of Review -
                             Work Materials #1</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link24">National Recovery Administration Division of Review -
                             Work Materials #2</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link25">NRA Division of Review - Work Materials
                             #3</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link26">NRA Division of Review - Work Review #4</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link27">NRA Division of Review - Work Materials
                             #5</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link28">NRA Division of Review - Work Materials
                             #6</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link29">NRA Division of Review - Work Materials
                             #7</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link30">NRA Division of Review - Work Materials
                             #8</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link31">NRA Division of Review - Work Materials #9 Vol.
                             1</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link32">NRA Division of Review - Work Materials #9 Vol.
                             2</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link33">NRA Division of Review - Work Materials #9 Vol.
                             3</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link34">NRA Division of Review - Work Materials
                             #11</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link35">NRA Division of Review - Work Materials
                             #12</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link36">NRA Division of Review - Work Materials
                             #13</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link37">NRA Division of Review - Work Materials
                             #15</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link38">NRA Division of Review - Work Materials
                             #16</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link39">NRA Division of Review - Work Materials
                             #19</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">18</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">18</container>
                         <unittitle id="link40">NRA Division o f Review - Work Materials #17 Part
                             A-C</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">19</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">19</container>
                         <unittitle id="link41">NRA Division of Review - Work Materials #17 Part
                             D-F</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">20</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">20</container>
                         <unittitle id="link42">NRA Division of Review - Work Materials
                             #20-21</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">21</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">21</container>
                         <unittitle id="link43">NRA Division of Review - Work Materials
                             #22-23</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">22</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">22</container>
                         <unittitle id="link44">NRA Division of Review - Work Materials
                             #24</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">23</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">23</container>
                         <unittitle id="link45">NRA Division of Review - Work Materials
                             #25</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">24</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">24</container>
                         <unittitle id="link46">NRA Division of Review - Work Materials
                             #26-27</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">25</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">25</container>
                         <unittitle id="link47">NRA Division of Review - Work Materials
                             #28</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">26</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">26</container>
                         <unittitle id="link48">NRA Division of Review - Work Materials
                             #29</unittitle>
                     </did>
@@ -446,165 +452,165 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
+                    <container label="unspecified" type="box">3</container>
                     <unittitle id="link49">D30-D44</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link50">NRA Division of Review - Work Materials
                             #30</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link51">NRA Division of Review - Work Materials
                             #31</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link52">NRA Division of Review - Work Materials
                             #32</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link53">NRA Division of Review - Work Materials
                             #33</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link54">NRA Division of Review - Work Materials
                             #34</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link55">NRA Division of Review - Work Materials #35NRA
                             Division of Review - Work Materials #35 (1 of 4)</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link56">NRA Division of Review - Work Materials #35 (2 of
                             4)</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link57">NRA Division of Review - Work Materials #35 (3 of
                             4)</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link58">NRA Division of Review - Work Materials #35 (4 of
                             4)</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link59">NRA Division of Review - Work Materials
                             #36</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link60">NRA Division of Review - Work Materials #37 Vol.
                             1</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link61">NRA Division of Review - Work Materials #37 Vol.
                             2</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link62">NRA Division of Review - Work Materials
                             #38</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link63">NRA Division of Review - Work Materials
                             #40</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link64">NRA Division of Review - Work Materials
                             #39</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link65">NRA Division of Review - Work Materials
                             #40</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link66">NRA Division of Review - Work Materials
                             #41</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link67">NRA Division of Review - Work Materials
                             #42</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">18</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">18</container>
                         <unittitle id="link68">NRA Division of Review - Work Materials
                             #43</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">19</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">19</container>
                         <unittitle id="link69">NRA Division of Review - Work Materials
                             #44</unittitle>
                     </did>
@@ -612,149 +618,149 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
+                    <container label="unspecified" type="box">4</container>
                     <unittitle id="link70">D45-D59</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link71">Office of National Recovery Administration - Division
                             of Review - Work Materials #45 Part A</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link72">Office of National Recovery Administration - Division
                             of Review - Work Materials #45 Part B</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link73">Office of National Recovery Administration - Division
                             of Review - Work Materials No. 45 Pt. C</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link74">Office of National Recovery Administration - Division
                             of Review - Work Materials #45 Pt C</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link75">Office of National Recovery Administration - Division
                             of Review - Work Materials #45 Pt D</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link76">Office of National Recovery Administration - Division
                             of Review - Work Materials #45 Pt D</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link77">Office of National Recovery Administration - Division
                             of Review - Work Materials #45 Pt D</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link78">Office of National Recovery Administration - Division
                             of Review - Work Material #45 Pt E</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link79">Office of National Recovery Administration - Division
                             of Review - Work Materials #46</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link80">Office of National Recovery Administration - Division
                             of Review - Work Materials #47</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link81">Office of National Recovery Administration - Division
                             of Review - Work Materials #48 and 49</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link82">Office of National Recovery Administration - Division
                             of Review - Work Materials #50</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link83">Office of National Recovery Administration - Division
                             of Review - Work Materials #51</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link84">Office of National Recovery Administration - Division
                             of Review - Work Materials #52</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link85">Office of National Recovery Administration - Division
                             of Review - Work Materials #53 and 54</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link86">Office of National Recovery Administration - Division
                             of Review - Work Materials #55 and 56</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link87">Office of National Recovery Administration - Division
                             of Review - Work Materials #57</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">18</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">18</container>
                         <unittitle id="link88">Office of National Recovery Administration - Division
                             of Review - Work Materials #58 and 59</unittitle>
                     </did>
@@ -762,125 +768,125 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
+                    <container label="unspecified" type="box">5</container>
                     <unittitle id="link89">D60-D75</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link90">NRA Division of Review - Work Materials
                             #60</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link91">NRA Division of Review - Work Materials
                             #61</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link92">NRA Division of Review - Work Materials
                             #62</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link93">NRA Division of Review - Work Materials
                             #63</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link94">NRA Division of Review - Work Materials
                             #64</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link95">NRA Division of Review - Work Materials
                             #65</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link96">NRA Division of Review - Work Materials
                             #66-68</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link97">NRA Division of Review - Work Materials #69 Vol.
                             1</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link98">NRA Division of Review - Work Materials #69 Vol.
                             2</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link99">NRA Division of Review - Work Materials
                             #70</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link100">NRA Division of Review - Work Materials
                             #71</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link101">NRA Division of Review - Work Materials
                             #72</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link102">NRA Division of Review - Work Materials
                             #73</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link103">NRA Division of Review - Work Materials
                             #74</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link104">NRA Division of Review - Work Materials
                             #75</unittitle>
                     </did>
@@ -888,117 +894,117 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">6</container>
+                    <container label="unspecified" type="box">6</container>
                     <unittitle id="link105">D76-D86</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link106">Office of National Recovery Administration -
                             Division of Review - Work Materials #80</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link107">Office of National Recovery Administration -
                             Division of Review - Work Materials #80</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link108">Office of National Recovery Administration -
                             Division of Review - Work Materials #82</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link109">Office of National Recovery Administration -
                             Division of Review - Work Materials #83</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link110">Office of National Recovery Administration -
                             Division of Review - Work Materials #84</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link111">Office of National Recovery Administration -
                             Division of Review - Work Materials #85</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link112">Office of National Recovery Administration -
                             Division of Review - Work Materials #86</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link113">Office of National Recovery Administration - The
                             Tobacco Study</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link114">Office of National Recovery Administration -
                             Division of Review - Work Materials #76 Vol. 1</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link115">Office of National Recovery Administration -
                             Division of Review - Work Materials #76 Vol. 2</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link116">Office of National Recovery Administration -
                             Division of Review - Work Materials #77</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link117">Office of National Recovery Administration -
                             Division of Review - Work Materials #78 Vol. 1</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link118">Office of the National Recovery Administration -
                             Division of Review - Work Materials #78 Vol. 2</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link119">Office of National Recovery Administration -
                             Division of Review - Work Materials #79</unittitle>
                     </did>
@@ -1006,13 +1012,13 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">7</container>
+                    <container label="unspecified" type="box">7</container>
                     <unittitle id="link120">D/E - E 1 of 3</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link121">National Recovery Administration: Report on the
                             Aluminum Industry and the Preliminary Report on Automobile
                             Industry</unittitle>
@@ -1020,199 +1026,199 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link122">National Recovery Administration: Preliminary Report
                             in the Automobile Industry - Appendix A and B</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link123">National Recovery Administration: Automobile
                             Industry - Appendix C</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link124">Office of National Recovery Administration -
                             Division of Review - Statistical Materials #128 and 410</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link125">Report of National Recovery Administration: Iron and
                             Steel Industry</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link126">Iron and Steel Industry Report: Appendix
                             A-D</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link127">Iron and Steel Report: Appendix E</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link128">NRA Code: Report on Wholesale and Retail Changes
                             Between 1929 and 1933</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link129">US Department of Commerce - Retail Distribution
                             (1933)</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link130">NRA Research and Planning Division - Serial Number
                             30E and 31</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link131">NRA Research and Planning Division - Serial #33 and
                             34</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link132">NRA Research and Planning Division - Serial
                             #35-37</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link133">NRA Research and Planning Division - Serial
                             #39-42</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link134">NRA Research and Planning Division - Serial
                             #45</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link135">NRA Research and Planning Division - Serial
                             #48-50</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link136">NRA Research and Planning Division - Serial
                             #52-55</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link137">NRA Research and Planning Division - Serial #57, 58,
                             61, and 62</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">18</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">18</container>
                         <unittitle id="link138">NRA Research and Planning Division - Serial #64,
                             67-70</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">19</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">19</container>
                         <unittitle id="link139">NRA Research and Planning Division - Serial
                             #71-74</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">20</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">20</container>
                         <unittitle id="link140">NRA Research and Planning Division - Serial #76-79,
                             82-86</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">21</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">21</container>
                         <unittitle id="link141">NRA Research and Planning Division - Serial
                             #88-93</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">22</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">22</container>
                         <unittitle id="link142">NRA Research and Planning Division - Serial
                             #95-101</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">23</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">23</container>
                         <unittitle id="link143">NRA Research and Planning Division - Serial
                             #103-109</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">24</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">24</container>
                         <unittitle id="link144">NRA Research and Planning Division - Serial
                             #110-115</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">25</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">25</container>
                         <unittitle id="link145">NRA Research and Planning Division - Serial
                             #117-123</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">26</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">26</container>
                         <unittitle id="link146">NRA Research and Planning Division - Serial
                             #126-130</unittitle>
                     </did>
@@ -1220,138 +1226,138 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">8</container>
+                    <container label="unspecified" type="box">8</container>
                     <unittitle id="link147">E 2 and 3 of 3 and miscellaneous and books</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link148">NRA Research and Planning Division -
                             1/30-2/2/1935</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link149">NRA Code - Prices and Price Provisions in
                             Codes</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link150">NRA Code: Hours, Wages and Employment Under the
                             Codes</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link151">NRA Code: Tabulation of Labor Provisions in Codes
                             Approved by August 8, 1934</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link152">NRA Code: Geographic and Population Differentials in
                             Minimum Wages</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link153">NRA Code: Report on the Operation of
                             NIRA</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link154">NRA Code: Charts on the Operation of
                             NIRA</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link155">NRA Code: Tables on the Operation of
                             NIRA</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link156">NIRA Miscellaneous</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link157">NRA Poster</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link158">NRA Articles (1935)</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link159">Minutes of Meetings of Third Regional Labor Supply
                             Committee</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link160">Hours and Wages Provisions in NRA Codes - by Leon c.
                             Marshall</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link161">The National Recovery Administration: An Analysis
                             and an Appraisal</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link162">National Recovery Administration: Codes of Fair
                             Competition No. 1-57 Vol. ! (6/14-10/11/1933)</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link163">The Problem of Abuse in Unemployment
                             Benefits</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link164">The Rainbow - Donald R. Richberg</unittitle>
                     </did>
                 </c02>

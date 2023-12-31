@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06036-079::Martin Morand papers.)//EN">KCL06036-079</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06036-079::Martin Morand papers.)//EN">KCL06036-079</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Martin Morand papers<date> 1950-2010</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>October 30, 2015</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Martin Morand papers<lb/></titleproper>
+			<titleproper>Guide to the Martin Morand papers</titleproper>
 			<num>Collection Number: 6036/079</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,15 +54,15 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Martin Morand papers, <unitdate encodinganalog="MARC 245$f">1950-2010</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Martin Morand papers, 1950-2010
+			</unittitle><unitdate encodinganalog="MARC 245$f">1950-2010</unitdate>
 			<unitid label="Collection Number:">6036/079</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">Morand, Martin</persname>
 				<corpname encodinganalog="MARC 110" role="creator"> International Ladies' Garment Workers' Union (ILGWU)</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">1.1 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">1.1 linear ft.</physdesc>
 			<physdesc label="Forms of Material:"> Papers.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">This collection consists of Martin Morand's correspondence, writings, and collected printed material, documenting his work with the International Ladies' Garment Workers' Union and Professor of Industrial and Labor
@@ -65,7 +71,7 @@
 			</langmaterial>
 		<physdesc><extent>1.11 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="organizational history">ILGWU ORGANIZATIONAL HISTORY</head>
+			
 			<p>The International Ladies' Garment Workers' Union was once one of the largest labor unions in the United States founded in 1900 by local union delegates representing about 2,000 members in cities in the northeastern United States. It was one of
 				the first U.S. Unions to have a membership consisting of mostly females, and it played a key role in the labor history of the 1920s and 1930s. The union is generally referred to as the "ILGWU" or the "ILG". The ILGWU grew in geographical scope,
 				membership size, and political influence to become one of the most powerful forces in American organized labor by mid-century. Representing workers in the women's garment industry, the ILGWU worked to improve working and living conditions of
@@ -74,7 +80,7 @@
 				1995 represented only 250,000 workers between them, down from the ILGWU's peak membership of 450,000 in 1969.</p>
 		</bioghist>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+			
 			<p>Martin Morand was born in New York City on December 18, 1927, and raised in the Amalgamated Housing Cooperative in the Bronx. He began college at the City College of New York in 1944, while working (and a member of the Office and Professional
 				Employees International Union). Morand transferred to the School of Industrial and Labor Relations at Cornell. </p>
 			<p> </p>
@@ -82,16 +88,16 @@
 				National Education Association (NEA). In 1976, he helped to establish the master's degree program in Industrial and Labor Relations at Indiana University of Pennsylvania; Morand taught in that program until his retirement in 2000.</p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a3">COLLECTION DESCRIPTION</head>
+			
 			<p>The collection contains correspondence, letters written by Morand, and printed email messages, as well as articles and histories he had written and collected. The majority of the collection consists of material during Morand's tenure with the
 				ILGWU. Included are the newsletters "UNITE! Insight," and the ILGWU "Southeaster News" and the "Southern Garment Worker," which were published bi-monthly by the Southeast Region, of which Morand was director. Morand wrote the "Director's
 				Column," which was a column that appeared in those publications. There are also various publications from ILGW departments and locals in Pennsylvania. Morand collected numerous clippings and copies of articles that discuss the union or that
 				mention himself. Also available is a DVD of an oral history interview entitled "Martin Morand: Labor and Social Activist" recorded in Santa Fe, New Mexico on May 13, 2008.</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600"> Morand, Martin J. </persname>
 				<corpname encodinganalog="MARC 610"> International Ladies' Garment Workers' Union. </corpname>
 			</controlaccess>
@@ -99,33 +105,33 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Martin Morand papers #6036/079. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780.html"> 5780: ILGWU records</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-058.html"> 5780/058: ILGWU Southeast Region Records</extref><lb/>
+			
+			<p>Related Collections:
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780.html"> 5780: ILGWU records</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-058.html"> 5780/058: ILGWU Southeast Region Records</extref>
 			</p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link6">Martin Morand: Labor and Social Activist</unittitle>
 					<unitdate normal="2008">2008</unitdate>
 				</did>
@@ -135,10 +141,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link7">Correspondence</unittitle>
-					<unitdate type="inclusive" normal="1998/2010">1998-2010</unitdate>
+					<unitdate normal="1998/2010" type="inclusive">1998-2010</unitdate>
 				</did>
 				<scopecontent>
 					<p>Also includes undated correspondence</p>
@@ -146,8 +152,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link8">Writings</unittitle>
 				</did>
 				<scopecontent>
@@ -156,8 +162,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link9">Negotiations Workbook</unittitle>
 				</did>
 				<scopecontent>
@@ -166,8 +172,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link10">"My Name Is Mary Brown"</unittitle>
 					<unitdate normal="1950">1950</unitdate>
 				</did>
@@ -177,10 +183,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link11">UNITE! Insight</unittitle>
-					<unitdate type="inclusive" normal="1996/1998">1996-1998</unitdate>
+					<unitdate normal="1996/1998" type="inclusive">1996-1998</unitdate>
 				</did>
 				<scopecontent>
 					<p>Publication of UNITE Northeast, Western Pennyslvania, and Ohio Department</p>
@@ -188,8 +194,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link12">Southeastern News</unittitle>
 					<unitdate normal="1966">1966</unitdate>
 				</did>
@@ -199,10 +205,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link13">Southern Garment Worker</unittitle>
-					<unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+					<unitdate normal="1966/1967" type="inclusive">1966-1967</unitdate>
 				</did>
 				<scopecontent>
 					<p>Publication of ILGWU Southeast Department</p>
@@ -210,10 +216,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link14">Southern Garment Worker</unittitle>
-					<unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
+					<unitdate normal="1968/1969" type="inclusive">1968-1969</unitdate>
 				</did>
 				<scopecontent>
 					<p>Publication of ILGWU Southeast Department</p>
@@ -221,23 +227,23 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link15">Pennsylvania ILGWU publications</unittitle>
-					<unitdate type="inclusive" normal="1963/1990">1963-1990</unitdate>
+					<unitdate normal="1963/1990" type="inclusive">1963-1990</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link16">Copies</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link17">Folder closed to researchers</unittitle>
 				</did>
 				<scopecontent>
@@ -246,28 +252,28 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link18">Notes for Cheryl - Dominican Republic invasion 1965 Convention</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link19">ILGWU South; MJM Missing People 1-3, Ben Stein Comments; Seniority, Work-sharing; Union of Offices; DD + South + Race; Morand/MaCoy</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link20">ILG PA - Testimonials</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unittitle id="link21">Martin Morand : Labor and Social Activist - May 13, 2008</unittitle>
 				</did>
 			</c01>

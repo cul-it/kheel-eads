@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL04088::Kheel Center Office Files.)//EN">KCL04088</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL04088::Kheel Center Office Files.)//EN">KCL04088</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Kheel Center Office Files<date> 1947-1989</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>September 30, 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Kheel Center Office Files<lb/></titleproper>
+			<titleproper>Guide to the Kheel Center Office Files</titleproper>
 			<num>Collection Number: /4088</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,26 +54,26 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Kheel Center Office Files, <unitdate encodinganalog="MARC 245$f">1947-1989</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Kheel Center Office Files, 1947-1989
+			</unittitle><unitdate encodinganalog="MARC 245$f">1947-1989</unitdate>
 			<unitid label="Collection Number:">/4088</unitid>
 			<origination label="Creator:">
-				<corpname encodinganalog="MARC 110" role="creator">New York State School of Industrial and Labor Relations (NYSSILR)</corpname>;<lb/>
-				<corpname encodinganalog="MARC 110" role="creator"> Martin P. Catherwood Library</corpname>;<lb/>
-				<corpname encodinganalog="MARC 110" role="creator"> Labor-Management Documentation Center (LMDC)</corpname>;<lb/>
+				<corpname encodinganalog="MARC 110" role="creator">New York State School of Industrial and Labor Relations (NYSSILR)</corpname>;
+				<corpname encodinganalog="MARC 110" role="creator"> Martin P. Catherwood Library</corpname>;
+				<corpname encodinganalog="MARC 110" role="creator"> Labor-Management Documentation Center (LMDC)</corpname>;
 				<corpname encodinganalog="MARC 110" role="creator"> Kheel Center</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">3.5 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">3.5 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Records (documents) .</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<langmaterial label="Language:">Collection material in <language encodinganalog="MARC 041" langcode="eng">English</language>, <language encodinganalog="MARC 041" langcode="fre">French</language>, <language encodinganalog="MARC 041" langcode="por">Portuguese</language>
 			</langmaterial>
 		<physdesc><extent>3.5 cubic feet</extent></physdesc></did>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<corpname encodinganalog="MARC 610">New York State School of Industrial and Labor Relations </corpname>
 				<corpname encodinganalog="MARC 610">Martin P. Catherwood Library </corpname>
 				<corpname encodinganalog="MARC 610">Kheel Center for Labor-Management Documentation and Archives </corpname>
@@ -76,158 +82,158 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Kheel Center Office Files #/4088. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04012.html"> /4012: Kheel Center Files and Circulation Reserve List</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04049.html"> /4049: Kheel Center Additional Office Files</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04051.html"> /4051: Kheel Center Additional Office Files</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04072.html"> /4072: Kheel Center Additional Files</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04074.html"> /4074: Kheel Center Additional Office Files, User Applications</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04090.html"> /4090: Kheel Center R. Strassberg Conservation Files</extref><lb/> 
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04141.html"> /4141: Kheel Center Additional Administrative Files</extref><lb/>
+			
+			<p>Related Collections:
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04012.html"> /4012: Kheel Center Files and Circulation Reserve List</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04049.html"> /4049: Kheel Center Additional Office Files</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04051.html"> /4051: Kheel Center Additional Office Files</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04072.html"> /4072: Kheel Center Additional Files</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04074.html"> /4074: Kheel Center Additional Office Files, User Applications</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04090.html"> /4090: Kheel Center R. Strassberg Conservation Files</extref> 
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04141.html"> /4141: Kheel Center Additional Administrative Files</extref>
 			</p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link8">Miscellaneous Correspondence Beginning with A</unittitle>
-					<unitdate type="inclusive" normal="1966/1985">1966-1985</unitdate>
+					<unitdate normal="1966/1985" type="inclusive">1966-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link9">American Federation of Labor-Congress of Industrial Organizations</unittitle>
-					<unitdate type="inclusive" normal="1951/1986">1951-1986</unitdate>
+					<unitdate normal="1951/1986" type="inclusive">1951-1986</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link10">Society of American Archivists</unittitle>
-					<unitdate type="inclusive" normal="1982/1985">1982-1985</unitdate>
+					<unitdate normal="1982/1985" type="inclusive">1982-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link11">Society of American Archivists</unittitle>
-					<unitdate type="inclusive" normal="1978/1981">1978-1981</unitdate>
+					<unitdate normal="1978/1981" type="inclusive">1978-1981</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link12">Society of American Archivists</unittitle>
-					<unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate>
+					<unitdate normal="1976/1977" type="inclusive">1976-1977</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link13">Society of American Archivists. Building and Technical Processes Committee</unittitle>
-					<unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate>
+					<unitdate normal="1978/1979" type="inclusive">1978-1979</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link14">Society of American Archivists. Professional Organizations. Building and Technical Processes Committee</unittitle>
-					<unitdate type="inclusive" normal="1978/1983">1978-1983</unitdate>
+					<unitdate normal="1978/1983" type="inclusive">1978-1983</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link15">Society of American Archivists. Conservation Professional Affinity Group</unittitle>
-					<unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate>
+					<unitdate normal="1982/1983" type="inclusive">1982-1983</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link16">Society of American Archivists</unittitle>
-					<unitdate type="inclusive" normal="1976/1980">1976-1980</unitdate>
+					<unitdate normal="1976/1980" type="inclusive">1976-1980</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link17">American Institute for Conservation of Historic and Artistic Works</unittitle>
-					<unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate>
+					<unitdate normal="1979/1980" type="inclusive">1979-1980</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link18">Folder B</unittitle>
-					<unitdate type="inclusive" normal="1977/1985">1977-1985</unitdate>
+					<unitdate normal="1977/1985" type="inclusive">1977-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link19">Folder C</unittitle>
-					<unitdate type="inclusive" normal="1976/1985">1976-1985</unitdate>
+					<unitdate normal="1976/1985" type="inclusive">1976-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link20">Public Archives of Canada</unittitle>
-					<unitdate type="inclusive" normal="1976/1985">1976-1985</unitdate>
+					<unitdate normal="1976/1985" type="inclusive">1976-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link21">Amalgamated Clothing and Textile Workers Union Baltimore Regional Joint Board</unittitle>
 					<unitdate normal="1980">1980</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link22">Clothing and Textile Workers Union Amalgamated. Chicago Joint Board</unittitle>
 					<unitdate normal="1979">1979</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link23">Amalgamated Clothing and Textile Workers Union. Laundry Workers Department</unittitle>
 					<unitdate normal="1981">1981</unitdate>
 				</did>
@@ -237,10 +243,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link24">Amalgamated Clothing and Textile Workers Union. New England Joint Board</unittitle>
-					<unitdate type="inclusive" normal="1979/1981">1979-1981</unitdate>
+					<unitdate normal="1979/1981" type="inclusive">1979-1981</unitdate>
 				</did>
 				<scopecontent>
 					<p>July 30 1979 - April 24 1981</p>
@@ -248,85 +254,85 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link25">Amalgamated Clothing and Textile Workers Union. New York Joint Board</unittitle>
-					<unitdate type="inclusive" normal="1980/1982">1980-1982</unitdate>
+					<unitdate normal="1980/1982" type="inclusive">1980-1982</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link26">Amalgamated Clothing and Textile Workers Union. Potofsky Family</unittitle>
-					<unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate>
+					<unitdate normal="1979/1980" type="inclusive">1979-1980</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link27">Report to National Historical Publications and Records Commission to Survey the Record Situation of those Railroads Absorbed into the Conrail</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link28">Cornell University Memos</unittitle>
-					<unitdate type="inclusive" normal="1977/1985">1977-1985</unitdate>
+					<unitdate normal="1977/1985" type="inclusive">1977-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link29">CUL Ad Hoc Task Force on Conservation. Calendar and Staff Directory</unittitle>
 					<unitdate normal="1987">1987</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link30">CUL Ad Hoc Task Force on Conservation. Interview Questions</unittitle>
 					<unitdate normal="1987">1987</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link31">CUL Ad-Hoc Task Force on Conservation. Letters Sent Out</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link32">CUL Conservation Committee. Mailing Labels</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link33">Cornell University Libraries. Academic Assembly Steering Committee</unittitle>
-					<unitdate type="inclusive" normal="1978/1983">1978-1983</unitdate>
+					<unitdate normal="1978/1983" type="inclusive">1978-1983</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link34">Academic Assembly Steering Committee. Docketed Documents</unittitle>
 					<unitdate normal="1979">1979</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link35">Cornell University Libraries. Academic Assembly Steering Committee Docket. Supporting Documents</unittitle>
 					<unitdate normal="1979">1979</unitdate>
 				</did>
@@ -336,8 +342,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link36">Cornell University Libraries. Ballots</unittitle>
 					<unitdate normal="1978">1978</unitdate>
 				</did>
@@ -347,8 +353,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link37">Cornell University Libraries. Grants</unittitle>
 					<unitdate normal="1980">1980</unitdate>
 				</did>
@@ -358,58 +364,58 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle id="link38">Cornell University Libraries. Memos</unittitle>
 					<unitdate normal="1988">1988</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle id="link39">Cornell University Libraries. Memos</unittitle>
-					<unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate>
+					<unitdate normal="1986/1987" type="inclusive">1986-1987</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle id="link40">Cornell University Libraries. Memos</unittitle>
-					<unitdate type="inclusive" normal="1982/1985">1982-1985</unitdate>
+					<unitdate normal="1982/1985" type="inclusive">1982-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle id="link41">Cornell University Libraries. Memos</unittitle>
-					<unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate>
+					<unitdate normal="1980/1981" type="inclusive">1980-1981</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">35</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">35</container>
 					<unittitle id="link42">Cornell University Libraries. Memos</unittitle>
-					<unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate>
+					<unitdate normal="1977/1979" type="inclusive">1977-1979</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">36</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">36</container>
 					<unittitle id="link43">Cornell University Libraries. New York Historical Resources Project Preliminary Program Statement</unittitle>
 					<unitdate normal="1978">1978</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">37</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">37</container>
 					<unittitle id="link44">Cornell University Libraries. Reports</unittitle>
-					<unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate>
+					<unitdate normal="1977/1979" type="inclusive">1977-1979</unitdate>
 				</did>
 				<scopecontent>
 					<p>November and December 1977. April 1979</p>
@@ -417,65 +423,65 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">38</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">38</container>
 					<unittitle id="link45">CUL Safety, Emergencies and Disasters Committee. Mailing Labels</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">39</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">39</container>
 					<unittitle id="link46">Cornell University Libraries. Steering Committee</unittitle>
-					<unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate>
+					<unitdate normal="1978/1979" type="inclusive">1978-1979</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">40</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">40</container>
 					<unittitle id="link47">Folder D</unittitle>
-					<unitdate type="inclusive" normal="1977/1985">1977-1985</unitdate>
+					<unitdate normal="1977/1985" type="inclusive">1977-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">41</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">41</container>
 					<unittitle id="link48">Folder E</unittitle>
-					<unitdate type="inclusive" normal="1976/1981">1976-1981</unitdate>
+					<unitdate normal="1976/1981" type="inclusive">1976-1981</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">42</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">42</container>
 					<unittitle id="link49">Folder F</unittitle>
-					<unitdate type="inclusive" normal="1977/1985">1977-1985</unitdate>
+					<unitdate normal="1977/1985" type="inclusive">1977-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">43</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">43</container>
 					<unittitle id="link50">Folder G</unittitle>
-					<unitdate type="inclusive" normal="1978/1984">1978-1984</unitdate>
+					<unitdate normal="1978/1984" type="inclusive">1978-1984</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">44</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">44</container>
 					<unittitle id="link51">Folder H</unittitle>
-					<unitdate type="inclusive" normal="1977/1985">1977-1985</unitdate>
+					<unitdate normal="1977/1985" type="inclusive">1977-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link52">Folder I</unittitle>
-					<unitdate type="inclusive" normal="1978/1985">1978-1985</unitdate>
+					<unitdate normal="1978/1985" type="inclusive">1978-1985</unitdate>
 				</did>
 				<scopecontent>
 					<p>French and English</p>
@@ -483,74 +489,74 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link53">ILR Catherwood Library. Memos</unittitle>
-					<unitdate type="inclusive" normal="1984/1986">1984-1986</unitdate>
+					<unitdate normal="1984/1986" type="inclusive">1984-1986</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link54">ILR Catherwood Library. Memos</unittitle>
-					<unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate>
+					<unitdate normal="1982/1983" type="inclusive">1982-1983</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link55">ILR Catherwood Library. Memos</unittitle>
-					<unitdate type="inclusive" normal="1977/1981">1977-1981</unitdate>
+					<unitdate normal="1977/1981" type="inclusive">1977-1981</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link56">ILR School. Memos</unittitle>
-					<unitdate type="inclusive" normal="1984/1986">1984-1986</unitdate>
+					<unitdate normal="1984/1986" type="inclusive">1984-1986</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link57">ILR School. Memos</unittitle>
-					<unitdate type="inclusive" normal="1982/1983">1982-1983</unitdate>
+					<unitdate normal="1982/1983" type="inclusive">1982-1983</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link58">ILR School. Memos</unittitle>
-					<unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate>
+					<unitdate normal="1980/1981" type="inclusive">1980-1981</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link59">ILR School. Memos</unittitle>
-					<unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate>
+					<unitdate normal="1977/1979" type="inclusive">1977-1979</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link60">International Ladies Garment Workers Union</unittitle>
-					<unitdate type="inclusive" normal="1975/1985">1975-1985</unitdate>
+					<unitdate normal="1975/1985" type="inclusive">1975-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link61">Folder J</unittitle>
-					<unitdate type="inclusive" normal="1982/1985">1982-1985</unitdate>
+					<unitdate normal="1982/1985" type="inclusive">1982-1985</unitdate>
 				</did>
 				<scopecontent>
 					<p>January 5 1982 - May 3 1984</p>
@@ -558,88 +564,88 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link62">Folder K</unittitle>
-					<unitdate type="inclusive" normal="1977/1985">1977-1985</unitdate>
+					<unitdate normal="1977/1985" type="inclusive">1977-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link63">Folder L</unittitle>
-					<unitdate type="inclusive" normal="1977/1985">1977-1985</unitdate>
+					<unitdate normal="1977/1985" type="inclusive">1977-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link64">Library of Congress</unittitle>
-					<unitdate type="inclusive" normal="1977/1983">1977-1983</unitdate>
+					<unitdate normal="1977/1983" type="inclusive">1977-1983</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link65">Folder M</unittitle>
-					<unitdate type="inclusive" normal="1977/1985">1977-1985</unitdate>
+					<unitdate normal="1977/1985" type="inclusive">1977-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link66">Archives and Libraries. University of Michigan</unittitle>
-					<unitdate type="inclusive" normal="1978/1983">1978-1983</unitdate>
+					<unitdate normal="1978/1983" type="inclusive">1978-1983</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link67">Microfilming Corporation of America</unittitle>
-					<unitdate type="inclusive" normal="1973/1983">1973-1983</unitdate>
+					<unitdate normal="1973/1983" type="inclusive">1973-1983</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link68">Folder N</unittitle>
-					<unitdate type="inclusive" normal="1977/1985">1977-1985</unitdate>
+					<unitdate normal="1977/1985" type="inclusive">1977-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link69">US National Archives and Records Service</unittitle>
-					<unitdate type="inclusive" normal="1977/1985">1977-1985</unitdate>
+					<unitdate normal="1977/1985" type="inclusive">1977-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link70">New York State Historical Resources Center</unittitle>
-					<unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate>
+					<unitdate normal="1978/1979" type="inclusive">1978-1979</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link71">New York State Archives</unittitle>
-					<unitdate type="inclusive" normal="1977/1985">1977-1985</unitdate>
+					<unitdate normal="1977/1985" type="inclusive">1977-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link72">New York State Studies Group Newsletter</unittitle>
 					<unitdate normal="1978">1978</unitdate>
 				</did>
@@ -649,34 +655,34 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link73">Florence Nixon</unittitle>
-					<unitdate type="inclusive" normal="1978/1980">1978-1980</unitdate>
+					<unitdate normal="1978/1980" type="inclusive">1978-1980</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link74">Northeast Document Conservation Center</unittitle>
-					<unitdate type="inclusive" normal="1977/1985">1977-1985</unitdate>
+					<unitdate normal="1977/1985" type="inclusive">1977-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link75">Folder O</unittitle>
-					<unitdate type="inclusive" normal="1977/1985">1977-1985</unitdate>
+					<unitdate normal="1977/1985" type="inclusive">1977-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link76">Folder P</unittitle>
-					<unitdate type="inclusive" normal="1977/1985">1977-1985</unitdate>
+					<unitdate normal="1977/1985" type="inclusive">1977-1985</unitdate>
 				</did>
 				<scopecontent>
 					<p>English and French</p>
@@ -684,104 +690,104 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link77">Folder Q</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link78">Folder R</unittitle>
-					<unitdate type="inclusive" normal="1977/1985">1977-1985</unitdate>
+					<unitdate normal="1977/1985" type="inclusive">1977-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link79">Research Libraries Group. RLIN</unittitle>
-					<unitdate type="inclusive" normal="1980/1985">1980-1985</unitdate>
+					<unitdate normal="1980/1985" type="inclusive">1980-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link80">Research Libraries Group. RLIN</unittitle>
-					<unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate>
+					<unitdate normal="1978/1979" type="inclusive">1978-1979</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link81">Research Libraries Group. Preservation Members.</unittitle>
-					<unitdate type="inclusive" normal="1981/1983">1981-1983</unitdate>
+					<unitdate normal="1981/1983" type="inclusive">1981-1983</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle id="link82">Research Libraries Group. Conservation</unittitle>
-					<unitdate type="inclusive" normal="1979/1985">1979-1985</unitdate>
+					<unitdate normal="1979/1985" type="inclusive">1979-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle id="link83">Research Libraries Group. Conservation</unittitle>
-					<unitdate type="inclusive" normal="1981/1983">1981-1983</unitdate>
+					<unitdate normal="1981/1983" type="inclusive">1981-1983</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle id="link84">Research Libraries Group. Manuscript Committee Ad Hoc</unittitle>
-					<unitdate type="inclusive" normal="1980/1982">1980-1982</unitdate>
+					<unitdate normal="1980/1982" type="inclusive">1980-1982</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle id="link85">Strassberg. Bibliographies. "Sources of Information in Industrial and Labor Relations"</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">35</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">35</container>
 					<unittitle id="link86">State University of New York (SUNY). General</unittitle>
-					<unitdate type="inclusive" normal="1972/1977">1972-1977</unitdate>
+					<unitdate normal="1972/1977" type="inclusive">1972-1977</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">36</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">36</container>
 					<unittitle id="link87">Folder S</unittitle>
-					<unitdate type="inclusive" normal="1976/1986">1976-1986</unitdate>
+					<unitdate normal="1976/1986" type="inclusive">1976-1986</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">37</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">37</container>
 					<unittitle id="link88">Folder T</unittitle>
-					<unitdate type="inclusive" normal="1977/1984">1977-1984</unitdate>
+					<unitdate normal="1977/1984" type="inclusive">1977-1984</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">38</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">38</container>
 					<unittitle id="link89">Folder U</unittitle>
-					<unitdate type="inclusive" normal="1977/1985">1977-1985</unitdate>
+					<unitdate normal="1977/1985" type="inclusive">1977-1985</unitdate>
 				</did>
 				<scopecontent>
 					<p>Contains one photograph</p>
@@ -789,50 +795,50 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">39</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">39</container>
 					<unittitle id="link90">United States Department of Labor</unittitle>
-					<unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate>
+					<unitdate normal="1979/1980" type="inclusive">1979-1980</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">40</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">40</container>
 					<unittitle id="link91">Folder W</unittitle>
-					<unitdate type="inclusive" normal="1977/1984">1977-1984</unitdate>
+					<unitdate normal="1977/1984" type="inclusive">1977-1984</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">41</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">41</container>
 					<unittitle id="link92">Archives and Libraries. Wayne State University Library</unittitle>
-					<unitdate type="inclusive" normal="1969/1983">1969-1983</unitdate>
+					<unitdate normal="1969/1983" type="inclusive">1969-1983</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">42</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">42</container>
 					<unittitle id="link93">Archives and Libraries. Wisconsin State Historical Society</unittitle>
-					<unitdate type="inclusive" normal="1978/1985">1978-1985</unitdate>
+					<unitdate normal="1978/1985" type="inclusive">1978-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">43</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">43</container>
 					<unittitle id="link94">Folder X,Y,Z</unittitle>
-					<unitdate type="inclusive" normal="1977/1985">1977-1985</unitdate>
+					<unitdate normal="1977/1985" type="inclusive">1977-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">44</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">44</container>
 					<unittitle id="link95">Yale University. Documents</unittitle>
-					<unitdate type="inclusive" normal="1977/1984">1977-1984</unitdate>
+					<unitdate normal="1977/1984" type="inclusive">1977-1984</unitdate>
 				</did>
 				<scopecontent>
 					<p>English and Portuguese</p>
@@ -840,16 +846,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link96">SP. Archival Manpower</unittitle>
 					<unitdate normal="1977">1977</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link97">SP. Archival Supply Catalog Project</unittitle>
 					<unitdate normal="1980">1980</unitdate>
 				</did>
@@ -859,42 +865,42 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link98">SP. Cataloging Grant. NEH</unittitle>
-					<unitdate type="inclusive" normal="1979/1983">1979-1983</unitdate>
+					<unitdate normal="1979/1983" type="inclusive">1979-1983</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link99">SP. Cataloging grant (NEH). Field Definition Table Mailing List</unittitle>
-					<unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate>
+					<unitdate normal="1979/1980" type="inclusive">1979-1980</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link100">SP. Cataloging Grant (NEH). Manuscript Cataloger General File</unittitle>
-					<unitdate type="inclusive" normal="1979/1982">1979-1982</unitdate>
+					<unitdate normal="1979/1982" type="inclusive">1979-1982</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link101">SP. Cataloging Grant (NEH). Manuscript Cataloger Position</unittitle>
-					<unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate>
+					<unitdate normal="1981/1982" type="inclusive">1981-1982</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link102">SP. Cataloging Grant. Chairman's Grant Application</unittitle>
-					<unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate>
+					<unitdate normal="1981/1982" type="inclusive">1981-1982</unitdate>
 				</did>
 				<scopecontent>
 					<p>December 1 1981 - February 28 1982</p>
@@ -902,40 +908,40 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link103">SP. Cataloging Grant (NEH). Financial Records. 2nd Grant</unittitle>
-					<unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate>
+					<unitdate normal="1979/1980" type="inclusive">1979-1980</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link104">SP. Cataloging Grant (NEH). Reports</unittitle>
-					<unitdate type="inclusive" normal="1981/1985">1981-1985</unitdate>
+					<unitdate normal="1981/1985" type="inclusive">1981-1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link105">SP. Cataloging Grant (NEH). Reports</unittitle>
 					<unitdate normal="1985">1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link106">SP. Cataloging Grant (NEH). Reports</unittitle>
 					<unitdate normal="1986">1986</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link107">SP. Cataloging Grant (NEH). Forms</unittitle>
 					<unitdate normal="1986">1986</unitdate>
 				</did>
@@ -945,47 +951,47 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link108">SP. Grant. National Endowment for the Humanities</unittitle>
-					<unitdate type="inclusive" normal="1976/1981">1976-1981</unitdate>
+					<unitdate normal="1976/1981" type="inclusive">1976-1981</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link109">SP. NEH Guide Grant. Proposals</unittitle>
-					<unitdate type="inclusive" normal="1977/1981">1977-1981</unitdate>
+					<unitdate normal="1977/1981" type="inclusive">1977-1981</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link110">SP. Cataloging Grant. Software and Field Definition Tables</unittitle>
 					<unitdate normal="1980">1980</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link111">SP. Cataloging Grant Project. Software Information. MIN-ISIS</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link112">SP. City Central Project</unittitle>
-					<unitdate type="inclusive" normal="1979/1982">1979-1982</unitdate>
+					<unitdate normal="1979/1982" type="inclusive">1979-1982</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link113">SP. Collection Analysis Project. CUL</unittitle>
 					<unitdate normal="1978">1978</unitdate>
 				</did>
@@ -995,16 +1001,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link114">SP. CUL. Conservation Committee</unittitle>
-					<unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate>
+					<unitdate normal="1986/1987" type="inclusive">1986-1987</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link115">SP. Conservation Conference on Collection Security</unittitle>
 					<unitdate normal="1985">1985</unitdate>
 				</did>
@@ -1014,24 +1020,24 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link116">SP. Conservation. Discretionary Grant Program</unittitle>
-					<unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+					<unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link117">SP. Conservation Committee Report</unittitle>
 					<unitdate normal="1974">1974</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link118">SP. Conservation Repository</unittitle>
 					<unitdate normal="1986">1986</unitdate>
 				</did>
@@ -1041,8 +1047,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link119">SP. CUL Disaster Prevention Audit</unittitle>
 					<unitdate normal="1982">1982</unitdate>
 				</did>
@@ -1052,8 +1058,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link120">SP. Labor History Manuscript Collections in the US and Canada</unittitle>
 					<unitdate normal="1975">1975</unitdate>
 				</did>
@@ -1063,16 +1069,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link121">SP. Lake Ontario Archival Conference</unittitle>
-					<unitdate type="inclusive" normal="1978/1986">1978-1986</unitdate>
+					<unitdate normal="1978/1986" type="inclusive">1978-1986</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link122">SP. Management Theory Conference</unittitle>
 					<unitdate normal="1981">1981</unitdate>
 				</did>
@@ -1082,25 +1088,25 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link123">SP. Manpower Grant</unittitle>
-					<unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate>
+					<unitdate normal="1976/1977" type="inclusive">1976-1977</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link124">SP. MP Catherwood Library Space Videotape</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link125">SP. New York Chinatown History Project</unittitle>
-					<unitdate type="inclusive" normal="1985/1987">1985-1987</unitdate>
+					<unitdate normal="1985/1987" type="inclusive">1985-1987</unitdate>
 				</did>
 				<scopecontent>
 					<p>English and Mandarin</p>
@@ -1108,8 +1114,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle id="link126">SP. New York City Extension Inventory</unittitle>
 					<unitdate normal="1977">1977</unitdate>
 				</did>
@@ -1119,32 +1125,32 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle id="link127">SP. New York Document Conservation Advisory Council</unittitle>
-					<unitdate type="inclusive" normal="1984/1986">1984-1986</unitdate>
+					<unitdate normal="1984/1986" type="inclusive">1984-1986</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle id="link128">Labor-management Documentation Center Oddball Documents</unittitle>
 					<unitdate normal="1964">1964</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle id="link129">SP. Oral History. Miscellaneous</unittitle>
 					<unitdate normal="1979">1979</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">35</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">35</container>
 					<unittitle id="link130">SP. University Personnel Services. Training and Development Program</unittitle>
 					<unitdate normal="1981">1981</unitdate>
 				</did>
@@ -1154,32 +1160,32 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">36</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">36</container>
 					<unittitle id="link131">SP. Processing Manual. Manual of Archival and Manuscript Processing Procedure</unittitle>
 					<unitdate normal="1974">1974</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">37</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">37</container>
 					<unittitle id="link132">SP. Rare Books</unittitle>
 					<unitdate normal="1974">1974</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">38</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">38</container>
 					<unittitle id="link133">SP. Russian Visit</unittitle>
 					<unitdate normal="1982">1982</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">39</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">39</container>
 					<unittitle id="link134">SP. Smithsonian Conservation Lectures</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
@@ -1189,8 +1195,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">40</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">40</container>
 					<unittitle id="link135">SP. Sessions Award</unittitle>
 					<unitdate normal="1986">1986</unitdate>
 				</did>
@@ -1200,31 +1206,31 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">41</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">41</container>
 					<unittitle id="link136">SP. Space Planning. Cornell University Libraries</unittitle>
-					<unitdate type="inclusive" normal="1980/1982">1980-1982</unitdate>
+					<unitdate normal="1980/1982" type="inclusive">1980-1982</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">42</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">42</container>
 					<unittitle id="link137">SP. Textile Workers Records Being Held</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">43</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">43</container>
 					<unittitle id="link138">SP. Thefts of Manuscripts. Newspaper Clippings</unittitle>
 					<unitdate normal="1987">1987</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">44</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">44</container>
 					<unittitle id="link139">SP. University Records Management</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
@@ -1234,16 +1240,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">45</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">45</container>
 					<unittitle id="link140">SP. Security</unittitle>
 					<unitdate normal="1985">1985</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link141">Extension Lectures Number 1 - 5. New York State School of Industrial and Labor Relations</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -1253,8 +1259,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link142">Second Annual Conference of the Teaching of Labor Economics. Preliminary Digest of Conference Discussions.</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -1264,8 +1270,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link143">Sample Wage Dispersions of Five Jobs in Nonmanufacturing Enterprises of a Local Community</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1275,8 +1281,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link144">Unionization and Union Security in Manufacturing and Public Utilities in Chemung County, NY</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1286,8 +1292,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link145">Experiences in Occupational Classification: An Informal Talk</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -1297,8 +1303,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link146">A Course of Study in Industrial and Labor relations for Pupils in the Vocational High Schools of New York State</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>

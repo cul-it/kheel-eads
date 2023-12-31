@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
- <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-  <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-123::ILGWU.  Research Department records.)//EN">KCL05780-123</eadid>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-123::ILGWU.  Research Department records.)//EN">KCL05780-123</eadid>
   <filedesc>
    <titlestmt>
     <titleproper>Guide to ILGWU. Research Department records<date> 1907-1980</date></titleproper>
@@ -23,20 +23,26 @@
    <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>May 25,
     2012</date></creation>
   </profiledesc>
- </eadheader>
+ <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
  <frontmatter>
   <titlepage>
-   <titleproper>Guide to the ILGWU. Research Department records<lb/></titleproper>
-   <num type="kidb_reference_number" id="kc1208">Collection Number: 5780/123</num>
+   <titleproper>Guide to the ILGWU. Research Department records</titleproper>
+   <num id="kc1208" type="kidb_reference_number">Collection Number: 5780/123</num>
    <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University
     Library </publisher>
    <list type="deflist">
     <defitem>
      <label>Contact Information:</label>
-     <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood
-      Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-      255-3183<lb/>
-      <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+     <item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood
+      Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607)
+      255-3183
+      <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 <extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref>
      </item>
     </defitem>
@@ -55,16 +61,16 @@
  </frontmatter>
  <archdesc level="collection">
   <did>
-   <head id="a1">DESCRIPTIVE SUMMARY</head>
-   <unittitle label="Title:" encodinganalog="MARC 245$a">ILGWU. Research Department records,
-     <unitdate encodinganalog="MARC 245$f">1907-1980</unitdate>
-   </unittitle>
+   
+   <unittitle encodinganalog="MARC 245$a" label="Title:">ILGWU. Research Department records
+     1907-1980
+   </unittitle><unitdate encodinganalog="MARC 245$f">1907-1980</unitdate>
    <unitid label="Collection  Number:">5780/123</unitid>
    <origination label="Creator:">
     <corpname encodinganalog="MARC 110" role="creator">International Ladies' Garment Workers'
      Union</corpname>
    </origination>
-   <physdesc label="Quantity:" encodinganalog="MARC 300">11 linear ft.</physdesc>
+   <physdesc encodinganalog="MARC 300" label="Quantity:">11 linear ft.</physdesc>
    <physdesc label="Forms of Material:">Articles, reprints, pamphlets, correspondence,
     photographs.</physdesc>
    <repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives,
@@ -77,7 +83,7 @@
    </langmaterial>
   <physdesc><extent>11 cubic feet</extent></physdesc></did>
   <bioghist encodinganalog="MARC 545">
-   <head id="a2" altrender="organizational history">ILGWU ORGANIZATIONAL HISTORY</head>
+   
    <p>Founded in 1900 by local union delegates representing about 2,000 members in cities in the
     northeastern United States, the ILGWU grew in geographical scope, membership size, political
     influence to become one of the most powerful forces in American organized labor by mid-century.
@@ -88,8 +94,7 @@
     the Union of Needletrades, Industrial and Textile Employees (UNITE).</p>
   </bioghist>
   <bioghist encodinganalog="MARC 545">
-   <head id="a5" altrender="organizational history">RESEARCH DEPARTMENT ORGANIZATIONAL
-    HISTORY</head>
+   
    <p>Formed in 1937, the Research Department of the International Ladies' Garment Workers' Union
     (ILGWU) supported the administrative operations of the Union and coordinated the ILGWU's
     investigative operations. It provided union leaders with information on wages, working
@@ -109,7 +114,7 @@
     York City in 1985.</p>
   </bioghist>
   <scopecontent encodinganalog="MARC 520">
-   <head id="a3">COLLECTION DESCRIPTION</head>
+   
    <p>The Research Department records reflect the department's varied functions, documenting its
     role in gathering and analyzing information for international and local union leadership,
     representing the union before government and labor organizations, and gathering materials of
@@ -138,15 +143,15 @@
     reports.</p>
   </scopecontent>
   <controlaccess>
-   <head id="a8">SUBJECTS</head>
+   
    <controlaccess>
-    <head>Names: </head>
+    
     <corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union. </corpname>
     <corpname encodinganalog="MARC  610">International Ladies' Garment Workers' Union. Research
      Dept. </corpname>
    </controlaccess>
    <controlaccess>
-    <head>Subjects: </head>
+    
     <subject encodinganalog="MARC 650">Women's clothing industry--United States. </subject>
     <subject encodinganalog="MARC 650">Labor unions--Clothing workers--United States. </subject>
     <subject encodinganalog="MARC 650">Clothing workers--United States. </subject>
@@ -157,47 +162,47 @@
    </controlaccess>
   </controlaccess>
   <descgrp>
-   <head id="a10">INFORMATION FOR USERS</head>
+   
    <accessrestrict>
-    <head>Access Restrictions:</head>
+    
     <p>Access to the collections in the Kheel Center is restricted. Please contact a reference
      archivist for access to these materials.</p>
    </accessrestrict>
    <userestrict>
-    <head>Restrictions on Use:</head>
+    
     <p>This collection must be used in keeping with the Kheel Center Information Sheet and
      Procedures for Document Use.</p>
    </userestrict>
    <prefercite>
-    <head>Cite As:</head>
+    
     <p>ILGWU. Research Department records #5780/123. Kheel Center for Labor- Management
      Documentation and Archives, Cornell University Library.</p>
    </prefercite>
   </descgrp>
   <relatedmaterial>
-   <head id="a6">RELATED MATERIALS</head>
-   <p>Related Collections:<lb/>
-    <extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05780.html"> 5780: ILGWU records</extref><lb/>
+   
+   <p>Related Collections:
+    <extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05780.html"> 5780: ILGWU records</extref>
     <extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05780-045.html"> 5780/045: ILGWU. Research
-     Department records</extref><lb/>
+     Department records</extref>
     <extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05780-056.html"> 5780/056: ILGWU. Research
-     Department collected documents</extref><lb/>
+     Department collected documents</extref>
     <extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05780-078.html"> 5780/078: ILGWU. Research
-     Department reports</extref><lb/>
+     Department reports</extref>
     <extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05780-105.html"> 5780/105: ILGWU. Research
-     Department records</extref><lb/>
+     Department records</extref>
     <extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05780-  168.html"> 5780/168: ILGWU.
-     Research Department records</extref><lb/>
+     Research Department records</extref>
     <extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05780-209.html"> 5780/209: ILGWU. Research
-     Department records</extref><lb/>
+     Department records</extref>
    </p>
   </relatedmaterial>
   <dsc type="in-depth">
-   <head>CONTAINER LIST</head>
+   
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link1">National Coat and Suit Industry Recovery Board: Statement of Receipts and
       Disbursements</unittitle>
      <unitdate normal="1936">1936</unitdate>
@@ -205,8 +210,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link2">National Coat and Suit Industry Recovery Board: Statement of Receipts and
       Disbursements</unittitle>
      <unitdate normal="1937">1937</unitdate>
@@ -214,8 +219,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link3">National Coat and Suit Industry Recovery Board: Statement of Receipts and
       Disbursements</unittitle>
      <unitdate normal="1938">1938</unitdate>
@@ -223,8 +228,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link4">National Coat and Suit Industry Recovery Board: Statement of Receipts and
       Disbursements</unittitle>
      <unitdate normal="1939">1939</unitdate>
@@ -232,8 +237,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link5">National Coat and Suit Industry Recovery Board: Statement of Receipts and
       Disbursements</unittitle>
      <unitdate normal="1940">1940</unitdate>
@@ -241,8 +246,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link6">National Coat and Suit Industry Recovery Board: Statement of Receipts and
       Disbursements</unittitle>
      <unitdate normal="1941">1941</unitdate>
@@ -250,8 +255,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link7">National Coat and Suit Industry Recovery Board: Statement of Receipts and
       Disbursements</unittitle>
      <unitdate normal="1942">1942</unitdate>
@@ -259,8 +264,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link8">National Coat and Suit Industry Recovery Board: Statement of Receipts and
       Disbursements</unittitle>
      <unitdate normal="1943">1943</unitdate>
@@ -268,8 +273,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link9">National Coat and Suit Industry Recovery Board: Statement of Receipts and
       Disbursements</unittitle>
      <unitdate normal="1944">1944</unitdate>
@@ -277,8 +282,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link10">National Coat and Suit Industry Recovery Board: Statement of Receipts
       and Disbursements</unittitle>
      <unitdate normal="1945">1945</unitdate>
@@ -286,8 +291,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link11">National Coat and Suit Industry Recovery Board: Statement of Receipts
       and Disbursements</unittitle>
      <unitdate normal="1946">1946</unitdate>
@@ -295,8 +300,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link12">National Coat and Suit Industry Recovery Board: Statement of Receipts
       and Disbursements</unittitle>
      <unitdate normal="1947">1947</unitdate>
@@ -304,8 +309,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link13">National Coat and Suit Industry Recovery Board: Statement of Receipts
       and Disbursements</unittitle>
      <unitdate normal="1948">1948</unitdate>
@@ -313,8 +318,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link14">National Coat and Suit Industry Recovery Board: Statement of Receipts
       and Disbursements</unittitle>
      <unitdate normal="1949">1949</unitdate>
@@ -322,8 +327,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link15">National Coat and Suit Industry Recovery Board: Statement of Receipts
       and Disbursements</unittitle>
      <unitdate normal="1950">1950</unitdate>
@@ -331,8 +336,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link16">National Coat and Suit Industry Recovery Board: Statement of Receipts
       and Disbursements</unittitle>
      <unitdate normal="1951">1951</unitdate>
@@ -340,8 +345,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link17">National Coat and Suit Industry Recovery Board: Statement of Receipts
       and Disbursements</unittitle>
      <unitdate normal="1952">1952</unitdate>
@@ -349,8 +354,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link18">National Coat and Suit Industry Recovery Board: Statement of Receipts
       and Disbursements</unittitle>
      <unitdate normal="1953">1953</unitdate>
@@ -358,8 +363,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link19">National Coat and Suit Industry Recovery Board: Statement of Receipts
       and Disbursements</unittitle>
      <unitdate normal="1954">1954</unitdate>
@@ -367,8 +372,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link20">National Coat and Suit Industry Recovery Board: Statement of Receipts
       and Disbursements</unittitle>
      <unitdate normal="1955">1955</unitdate>
@@ -376,8 +381,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link21">National Coat and Suit Industry Recovery Board: Statement of Receipts
       and Disbursements</unittitle>
      <unitdate normal="1956">1956</unitdate>
@@ -385,8 +390,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link22">National Coat and Suit Industry Recovery Board: Statement of Receipts
       and Disbursements</unittitle>
      <unitdate normal="1957">1957</unitdate>
@@ -394,8 +399,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link23">National Coat and Suit Industry Recovery Board: Statement of Receipts
       and Disbursements</unittitle>
      <unitdate normal="1958">1958</unitdate>
@@ -403,8 +408,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link24">National Coat and Suit Industry Recovery Board: Statement of Receipts
       and Disbursements</unittitle>
      <unitdate normal="1959">1959</unitdate>
@@ -412,8 +417,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link25">National Coat and Suit Industry Recovery Board: Statement of Receipts
       and Disbursements</unittitle>
      <unitdate normal="1960">1960</unitdate>
@@ -421,8 +426,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">26</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">26</container>
      <unittitle id="link26">National Coat and Suit Industry Recovery Board: Statement of Receipts
       and Disbursements</unittitle>
      <unitdate normal="1961">1961</unitdate>
@@ -430,8 +435,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">27</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">27</container>
      <unittitle id="link27">National Coat and Suit Industry Recovery Board: Statement of Receipts
       and Disbursements</unittitle>
      <unitdate normal="1962">1962</unitdate>
@@ -439,8 +444,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">28</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">28</container>
      <unittitle id="link28">National Board of the Coat and Suit Industry: Statement of Receipts and
       Disbursements</unittitle>
      <unitdate normal="1963">1963</unitdate>
@@ -448,8 +453,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">29</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">29</container>
      <unittitle id="link29">National Board of the Coat and Suit Industry: Statement of Receipts and
       Disbursements</unittitle>
      <unitdate normal="1964">1964</unitdate>
@@ -457,8 +462,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">30</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">30</container>
      <unittitle id="link30">National Board of the Coat and Suit Industry: Statement of Receipts and
       Disbursements</unittitle>
      <unitdate normal="1965">1965</unitdate>
@@ -466,8 +471,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link31">National Board of the Coat and Suit Industry: Statement of Receipts and
       Disbursements</unittitle>
      <unitdate normal="1966">1966</unitdate>
@@ -475,8 +480,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link32">National Board of the Coat and Suit Industry: Statement of Receipts and
       Disbursements</unittitle>
      <unitdate normal="1967">1967</unitdate>
@@ -484,8 +489,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link33">National Board of the Coat and Suit Industry: Statement of Receipts and
       Disbursements</unittitle>
      <unitdate normal="1968">1968</unitdate>
@@ -493,8 +498,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link34">National Board of the Coat and Suit Industry: Statement of Receipts and
       Disbursements</unittitle>
      <unitdate normal="1969">1969</unitdate>
@@ -502,8 +507,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link35">National Board of the Coat and Suit Industry: Statement of Receipts and
       Disbursements</unittitle>
      <unitdate normal="1970">1970</unitdate>
@@ -511,8 +516,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link36">National Board of the Coat and Suit Industry: Statement of Receipts and
       Disbursements</unittitle>
      <unitdate normal="1971">1971</unitdate>
@@ -520,8 +525,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link37">National Board of the Coat and Suit Industry: Cessation of
       Operations</unittitle>
      <unitdate normal="1972">1972</unitdate>
@@ -529,17 +534,17 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link38">National Coat and Suit Industry Recovery Board: Label Division
       Report</unittitle>
-     <unitdate type="inclusive" normal="1941/1959">1941-1959</unitdate>
+     <unitdate normal="1941/1959" type="inclusive">1941-1959</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link39">National Coat and Suit Industry Recovery Board: Label Division
       Report</unittitle>
      <unitdate normal="1960">1960</unitdate>
@@ -547,8 +552,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link40">National Coat and Suit Industry Recovery Board: Label Division
       Report</unittitle>
      <unitdate normal="1961">1961</unitdate>
@@ -556,8 +561,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link41">National Coat and Suit Industry Recovery Board: Label Division
       Report</unittitle>
      <unitdate normal="1962">1962</unitdate>
@@ -565,8 +570,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link42">National Coat and Suit Industry Recovery Board: Label Division
       Report</unittitle>
      <unitdate normal="1963">1963</unitdate>
@@ -574,8 +579,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link43">National Board of the Suit and Coat Industry: Label Division
       Report</unittitle>
      <unitdate normal="1964">1964</unitdate>
@@ -583,8 +588,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link44">National Board of the Suit and Coat Industry: Label Division
       Report</unittitle>
      <unitdate normal="1965">1965</unitdate>
@@ -592,8 +597,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link45">National Board of the Suit and Coat Industry: Label Division
       Report</unittitle>
      <unitdate normal="1966">1966</unitdate>
@@ -601,8 +606,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link46">National Board of the Suit and Coat Industry: Label Division
       Report</unittitle>
      <unitdate normal="1967">1967</unitdate>
@@ -610,8 +615,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link47">National Board of the Suit and Coat Industry: Label Division
       Report</unittitle>
      <unitdate normal="1968">1968</unitdate>
@@ -619,8 +624,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link48">National Board of the Suit and Coat Industry: Label Division
       Report</unittitle>
      <unitdate normal="1969">1969</unitdate>
@@ -628,8 +633,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link49">National Board of the Suit and Coat Industry: Label Division
       Report</unittitle>
      <unitdate normal="1970">1970</unitdate>
@@ -637,8 +642,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link50">National Board of the Suit and Coat Industry: Label Division
       Report</unittitle>
      <unitdate normal="1971">1971</unitdate>
@@ -646,8 +651,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link51">National Board of the Suit and Coat Industry: Label Division
       Report</unittitle>
      <unitdate normal="1972">1972</unitdate>
@@ -655,777 +660,777 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link52">National Board of the Suit and Coat Industry: Label Sales
       History</unittitle>
-     <unitdate type="inclusive" normal="1936/1966">1936-1966</unitdate>
+     <unitdate normal="1936/1966" type="inclusive">1936-1966</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link53">Inter-office Correspondence [folder 1 of 2]</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link54">Inter-office Correspondence [folder 2 of 2]</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link55">Form Letters</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">26</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">26</container>
      <unittitle id="link56">Central States Region (Siems)</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">27</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">27</container>
      <unittitle id="link57">Cloak Joint Board and Cloak Out-of-Town</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">28</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">28</container>
      <unittitle id="link58">Eastern Region Department</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">29</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">29</container>
      <unittitle id="link59">Midwest (Bialis)</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">30</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">30</container>
      <unittitle id="link60">New York City Locals</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">31</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">31</container>
      <unittitle id="link61">Northeast Department (Gingold)</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">32</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">32</container>
      <unittitle id="link62">Ohio-Kentucky</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">33</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">33</container>
      <unittitle id="link63">Puerto Rico</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">34</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">34</container>
      <unittitle id="link64">Southern New Jersey-Philadelphia</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">35</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">35</container>
      <unittitle id="link65">Southeast</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">36</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">36</container>
      <unittitle id="link66">Upper South Department</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">37</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">37</container>
      <unittitle id="link67">Western States Region</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">38</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">38</container>
      <unittitle id="link68">December</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">39</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">39</container>
      <unittitle id="link69">November</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">40</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">40</container>
      <unittitle id="link70">October</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">41</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">41</container>
      <unittitle id="link71">September</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">42</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">42</container>
      <unittitle id="link72">August</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">43</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">43</container>
      <unittitle id="link73">July</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">44</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">44</container>
      <unittitle id="link74">June</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">45</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">45</container>
      <unittitle id="link75">May</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">46</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">46</container>
      <unittitle id="link76">April</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">47</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">47</container>
      <unittitle id="link77">March</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">48</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">48</container>
      <unittitle id="link78">February</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">49</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">49</container>
      <unittitle id="link79">January</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">50</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">50</container>
      <unittitle id="link80">A: General</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">51</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">51</container>
      <unittitle id="link81">Americans for Democratic Action</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">52</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">52</container>
      <unittitle id="link82">COPE Political Memos</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">53</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">53</container>
      <unittitle id="link83">COPE House Marginal Congressional Districts</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link84">AFL-CIO COPE General [folder 1 of 2]</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link85">AFL-CIO COPE General [folder 2 of 2]</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link86">AFL-CIO General</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link87">COPE Area Conferences</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link88">AFL-CIO Industrial Union Department General</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link89">B: General</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link90">C: General</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link91">Consumer Federation of America</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link92">Phil Kramer</unittitle>
-     <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+     <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link93">Central States Region</unittitle>
-     <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate>
+     <unitdate normal="1970/1972" type="inclusive">1970-1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link94">Cloak Joint Board and Cloak Out-of-Town Department</unittitle>
-     <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+     <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link95">Eastern Region</unittitle>
-     <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+     <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link96">Midwest Region</unittitle>
-     <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate>
+     <unitdate normal="1970/1972" type="inclusive">1970-1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link97">Northeast Department</unittitle>
-     <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate>
+     <unitdate normal="1970/1972" type="inclusive">1970-1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link98">Souther New Jersey-Philadelphia</unittitle>
-     <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+     <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link99">Ohio-Kentucky Region</unittitle>
-     <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+     <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link100">Pacific Coast Region</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link101">Southeast Department</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link102">Upper South Department</unittitle>
-     <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+     <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link103">New York City Locals</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link104">Gore Campaign Letter</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link105">Contributions: Alaska</unittitle>
-     <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+     <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link106">Contributions: Arizona</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link107">Contributions: Arkansas</unittitle>
      <unitdate normal="1971">1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link108">Contributions: California</unittitle>
-     <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate>
+     <unitdate normal="1970/1972" type="inclusive">1970-1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">26</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">26</container>
      <unittitle id="link109">Contributions: Colorado</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">27</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">27</container>
      <unittitle id="link110">Contributions: Connecticut</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">28</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">28</container>
      <unittitle id="link111">Contributions: Delaware</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">29</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">29</container>
      <unittitle id="link112">Contributions: Florida</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">30</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">30</container>
      <unittitle id="link113">Contributions: Georgia</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">31</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">31</container>
      <unittitle id="link114">Contributions: Illinois</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">32</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">32</container>
      <unittitle id="link115">Contributions: Indiana</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">33</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">33</container>
      <unittitle id="link116">Contributions: Iowa</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">34</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">34</container>
      <unittitle id="link117">Contributions: Kansas</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">35</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">35</container>
      <unittitle id="link118">Contributions: Louisiana</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">36</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">36</container>
      <unittitle id="link119">Contributions: Maine</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">37</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">37</container>
      <unittitle id="link120">Contributions: Maryland</unittitle>
-     <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+     <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">38</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">38</container>
      <unittitle id="link121">Contributions: Massachusetts</unittitle>
-     <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+     <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">39</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">39</container>
      <unittitle id="link122">Contributions: Michigan</unittitle>
-     <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate>
+     <unitdate normal="1970/1972" type="inclusive">1970-1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">40</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">40</container>
      <unittitle id="link123">Contributions: Minnesota</unittitle>
-     <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+     <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">41</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">41</container>
      <unittitle id="link124">Contributions: Mississippi</unittitle>
      <unitdate normal="1971">1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">42</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">42</container>
      <unittitle id="link125">Contributions: Missouri</unittitle>
-     <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+     <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">43</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">43</container>
      <unittitle id="link126">Contributions: Montana</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">44</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">44</container>
      <unittitle id="link127">Contributions: Nevada</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">45</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">45</container>
      <unittitle id="link128">Contributions: New Hampshire</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">46</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">46</container>
      <unittitle id="link129">Contributions: New Jersey</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">47</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">47</container>
      <unittitle id="link130">Contributions: New Mexico</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">48</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">48</container>
      <unittitle id="link131">Contributions: New York</unittitle>
-     <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate>
+     <unitdate normal="1970/1972" type="inclusive">1970-1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">49</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">49</container>
      <unittitle id="link132">Contributions: North Dakota</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">50</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">50</container>
      <unittitle id="link133">Contributions: Ohio</unittitle>
-     <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate>
+     <unitdate normal="1970/1972" type="inclusive">1970-1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">51</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">51</container>
      <unittitle id="link134">Contributions: Oklahoma</unittitle>
      <unitdate normal="1972">1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">52</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">52</container>
      <unittitle id="link135">Contributions: Oregon</unittitle>
-     <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate>
+     <unitdate normal="1970/1972" type="inclusive">1970-1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">53</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">53</container>
      <unittitle id="link136">Contributions: Pennsylvania</unittitle>
-     <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+     <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">54</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">54</container>
      <unittitle id="link137">Contributions: South Dakota</unittitle>
      <unitdate normal="1972">1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">55</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">55</container>
      <unittitle id="link138">Contributions: Tennessee</unittitle>
-     <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate>
+     <unitdate normal="1970/1972" type="inclusive">1970-1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">56</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">56</container>
      <unittitle id="link139">Contributions: Texas</unittitle>
-     <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate>
+     <unitdate normal="1970/1972" type="inclusive">1970-1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">57</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">57</container>
      <unittitle id="link140">Contributions: Utah</unittitle>
-     <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+     <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">58</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">58</container>
      <unittitle id="link141">Contributions: Vermont</unittitle>
-     <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
+     <unitdate normal="1971/1972" type="inclusive">1971-1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">59</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">59</container>
      <unittitle id="link142">Contributions: Virginia</unittitle>
-     <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+     <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">60</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">60</container>
      <unittitle id="link143">Contributions: Washington</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">61</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">61</container>
      <unittitle id="link144">Contributions: West Virginia</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">62</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">62</container>
      <unittitle id="link145">Contributions: Wisconsin</unittitle>
-     <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+     <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">63</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">63</container>
      <unittitle id="link146">Contributions: Wyoming</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">64</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">64</container>
      <unittitle id="link147">Voting Records</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link148">Undocumented Workers: Jay Mazur</unittitle>
      <unitdate normal="1980">1980</unitdate>
     </did>
@@ -1435,24 +1440,24 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link149">Tribute to Retirees</unittitle>
      <unitdate normal="1975">1975</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link150">International Industrialization</unittitle>
      <unitdate normal="1960">1960</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link151">U.S. Federal Security Agency: Survey of needs and problems of the
       members of the ILGWU prior to retirement and after retirement</unittitle>
      <unitdate normal="1951">1951</unitdate>
@@ -1463,16 +1468,16 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link152">Merging Funds: Louis Rolnick</unittitle>
      <unitdate normal="1951">1951</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link153">Address to the 24th Annual Meeting of the National Coat and Suit
       Industry Recovery Board: David Dubinsky</unittitle>
      <unitdate normal="1960">1960</unitdate>
@@ -1480,8 +1485,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link154">National Coat and Suit Industry Recovery Board: Label Division
       Report</unittitle>
      <unitdate normal="1936">1936</unitdate>
@@ -1489,134 +1494,134 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link155">National Coat and Suit Industry Recovery Board: Label Division
       Report</unittitle>
-     <unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate>
+     <unitdate normal="1937/1938" type="inclusive">1937-1938</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link156">National Coat and Suit Industry Recovery Board: Label Division
       Report</unittitle>
-     <unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate>
+     <unitdate normal="1939/1940" type="inclusive">1939-1940</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link157">National Coat and Suit Industry Recovery Board: Label Division
       Report</unittitle>
-     <unitdate type="inclusive" normal="1941/1945">1941-1945</unitdate>
+     <unitdate normal="1941/1945" type="inclusive">1941-1945</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link158">National Coat and Suit Industry Recovery Board: Label Division
       Report</unittitle>
-     <unitdate type="inclusive" normal="1946/9650">1946-19650</unitdate>
+     <unitdate normal="1946/9650" type="inclusive">1946-19650</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link159">National Coat and Suit Industry Recovery Board: Label Division
       Report</unittitle>
-     <unitdate type="inclusive" normal="1951/1955">1951-1955</unitdate>
+     <unitdate normal="1951/1955" type="inclusive">1951-1955</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link160">National Coat and Suit Industry Recovery Board: Label Division
       Report</unittitle>
-     <unitdate type="inclusive" normal="1956/1960">1956-1960</unitdate>
+     <unitdate normal="1956/1960" type="inclusive">1956-1960</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link161">National Coat and Suit Industry Recovery Board: Label Division
       Report</unittitle>
-     <unitdate type="inclusive" normal="1961/1965">1961-1965</unitdate>
+     <unitdate normal="1961/1965" type="inclusive">1961-1965</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link162">National Board of the Coat and Suit Industry: Label Division
       Report</unittitle>
-     <unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate>
+     <unitdate normal="1966/1969" type="inclusive">1966-1969</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link163">National Coat and Suit Industry Recovery Board: Label Division Report
       by Month</unittitle>
-     <unitdate type="inclusive" normal="1935/1941">1935-1941</unitdate>
+     <unitdate normal="1935/1941" type="inclusive">1935-1941</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link164">National Coat and Suit Industry Recovery Board: Label Division Report
       by Month</unittitle>
-     <unitdate type="inclusive" normal="1942/1953">1942-1953</unitdate>
+     <unitdate normal="1942/1953" type="inclusive">1942-1953</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link165">National Coat and Suit Industry Recovery Board: Label Sales History
       [folder 1 of 2]</unittitle>
-     <unitdate type="inclusive" normal="1936/1959">1936-1959</unitdate>
+     <unitdate normal="1936/1959" type="inclusive">1936-1959</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link166">National Coat and Suit Industry Recovery Board: Label Sales History
       [folder 2 of 2]</unittitle>
-     <unitdate type="inclusive" normal="1936/1959">1936-1959</unitdate>
+     <unitdate normal="1936/1959" type="inclusive">1936-1959</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link167">National Coat and Suit Industry Recovery Board: Miscellaneous Reports
       [folder 1 of 2]</unittitle>
-     <unitdate type="inclusive" normal="1939/1959">1939-1959</unitdate>
+     <unitdate normal="1939/1959" type="inclusive">1939-1959</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link168">National Coat and Suit Industry Recovery Board: Miscellaneous Reports
       [folder 2 of 2]</unittitle>
-     <unitdate type="inclusive" normal="1939/1959">1939-1959</unitdate>
+     <unitdate normal="1939/1959" type="inclusive">1939-1959</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link169">National Coat and Suit Industry Recovery Board: By-laws</unittitle>
      <unitdate normal="1942">1942</unitdate>
     </did>
@@ -1626,19 +1631,19 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link170">National Coat and Suit Industry Recovery Board: By-laws</unittitle>
      <unitdate normal="1956">1956</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link171">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
-     <unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate>
+     <unitdate normal="1935/1936" type="inclusive">1935-1936</unitdate>
     </did>
     <scopecontent>
      <p>July 25-26, 1935 and January 9, 1936</p>
@@ -1646,8 +1651,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link172">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1936">1936</unitdate>
@@ -1658,8 +1663,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link173">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1937">1937</unitdate>
@@ -1670,8 +1675,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link174">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1937">1937</unitdate>
@@ -1682,8 +1687,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link175">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1938">1938</unitdate>
@@ -1694,8 +1699,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link176">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1938">1938</unitdate>
@@ -1706,8 +1711,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link177">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1939">1939</unitdate>
@@ -1718,8 +1723,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link178">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1940">1940</unitdate>
@@ -1730,8 +1735,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link179">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1941">1941</unitdate>
@@ -1742,8 +1747,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link180">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1943">1943</unitdate>
@@ -1754,8 +1759,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link181">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1944">1944</unitdate>
@@ -1766,8 +1771,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link182">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1945">1945</unitdate>
@@ -1778,8 +1783,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link183">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1946">1946</unitdate>
@@ -1790,8 +1795,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link184">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1947">1947</unitdate>
@@ -1802,8 +1807,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link185">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1947">1947</unitdate>
@@ -1814,8 +1819,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link186">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1949">1949</unitdate>
@@ -1826,11 +1831,11 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link187">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
-     <unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate>
+     <unitdate normal="1950/1951" type="inclusive">1950-1951</unitdate>
     </did>
     <scopecontent>
      <p>January 3-5, 1950 and January 2-4, 1951</p>
@@ -1838,8 +1843,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link188">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1952">1952</unitdate>
@@ -1850,8 +1855,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link189">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1953">1953</unitdate>
@@ -1862,8 +1867,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link190">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1954">1954</unitdate>
@@ -1874,8 +1879,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link191">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1955">1955</unitdate>
@@ -1886,8 +1891,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link192">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1957">1957</unitdate>
@@ -1898,8 +1903,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link193">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1958">1958</unitdate>
@@ -1910,8 +1915,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link194">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1959">1959</unitdate>
@@ -1922,8 +1927,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link195">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1960">1960</unitdate>
@@ -1934,8 +1939,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link196">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1961">1961</unitdate>
@@ -1946,8 +1951,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link197">National Coat and Suit Industry Recovery Board: Meeting
       Minutes</unittitle>
      <unitdate normal="1963">1963</unitdate>
@@ -1958,8 +1963,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link198">National Board of the Coat and Suit Industry: Meeting
       Minutes</unittitle>
      <unitdate normal="1966">1966</unitdate>
@@ -1970,8 +1975,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link199">National Board of the Coat and Suit Industry: Meeting
       Minutes</unittitle>
      <unitdate normal="1967">1967</unitdate>
@@ -1982,8 +1987,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link200">National Board of the Coat and Suit Industry: Meeting
       Minutes</unittitle>
      <unitdate normal="1970">1970</unitdate>
@@ -1994,17 +1999,17 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link201">National Coat and Suit Industry Recover Board: Committee Minutes
       Reports</unittitle>
-     <unitdate type="inclusive" normal="1942/1959">1942-1959</unitdate>
+     <unitdate normal="1942/1959" type="inclusive">1942-1959</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link202">National Coat and Suit Industry Recovery Board: Reports and
       Resolutions</unittitle>
      <unitdate normal="1950">1950</unitdate>
@@ -2012,8 +2017,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link203">National Coat and Suit Industry Recovery Board: Reports and
       Resolutions</unittitle>
      <unitdate normal="1951">1951</unitdate>
@@ -2021,8 +2026,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link204">National Coat and Suit Industry Recovery Board: Reports and
       Resolutions</unittitle>
      <unitdate normal="1952">1952</unitdate>
@@ -2030,8 +2035,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link205">National Coat and Suit Industry Recovery Board: Reports and
       Resolutions</unittitle>
      <unitdate normal="1953">1953</unitdate>
@@ -2039,8 +2044,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link206">National Coat and Suit Industry Recovery Board: Reports and
       Resolutions</unittitle>
      <unitdate normal="1954">1954</unitdate>
@@ -2048,8 +2053,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link207">National Coat and Suit Industry Recovery Board: Reports and
       Resolutions</unittitle>
      <unitdate normal="1955">1955</unitdate>
@@ -2057,8 +2062,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link208">National Coat and Suit Industry Recovery Board: Reports and
       Resolutions</unittitle>
      <unitdate normal="1956">1956</unitdate>
@@ -2069,8 +2074,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link209">National Coat and Suit Industry Recovery Board: Reports and
       Resolutions</unittitle>
      <unitdate normal="1957">1957</unitdate>
@@ -2078,8 +2083,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link210">National Coat and Suit Industry Recovery Board: Reports and
       Resolutions</unittitle>
      <unitdate normal="1958">1958</unitdate>
@@ -2087,8 +2092,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link211">National Coat and Suit Industry Recovery Board: Reports and
       Resolutions</unittitle>
      <unitdate normal="1959">1959</unitdate>
@@ -2096,8 +2101,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link212">National Coat and Suit Industry Recovery Board: Reports and
       Resolutions</unittitle>
      <unitdate normal="1960">1960</unitdate>
@@ -2105,8 +2110,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link213">National Coat and Suit Industry Recovery Board: Reports and
       Resolutions</unittitle>
      <unitdate normal="1961">1961</unitdate>
@@ -2117,11 +2122,11 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link214">National Coat and Suit Industry Recovery Board: Bulletins Sent to
       Members</unittitle>
-     <unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate>
+     <unitdate normal="1936/1937" type="inclusive">1936-1937</unitdate>
     </did>
     <scopecontent>
      <p>June 1936 - January 1937</p>
@@ -2129,8 +2134,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link215">National Coat and Suit Industry Recovery Board: Bulletins Sent to
       Members</unittitle>
      <unitdate normal="1937">1937</unitdate>
@@ -2141,8 +2146,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link216">National Coat and Suit Industry Recovery Board: Bulletins Sent to
       Members</unittitle>
      <unitdate normal="1937">1937</unitdate>
@@ -2153,11 +2158,11 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link217">National Coat and Suit Industry Recovery Board: Bulletins Sent to
       Members</unittitle>
-     <unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate>
+     <unitdate normal="1937/1938" type="inclusive">1937-1938</unitdate>
     </did>
     <scopecontent>
      <p>August 1937 - December 1938</p>
@@ -2165,17 +2170,17 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link218">National Coat and Suit Industry Recovery Board: Bulletins Sent to
       Members</unittitle>
-     <unitdate type="inclusive" normal="1939/1941">1939-1941</unitdate>
+     <unitdate normal="1939/1941" type="inclusive">1939-1941</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link219">National Coat and Suit Industry Recovery Board: Bulletins Sent to
       Members</unittitle>
      <unitdate normal="1942">1942</unitdate>
@@ -2183,17 +2188,17 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link220">National Coat and Suit Industry Recovery Board: Bulletins Sent to
       Members</unittitle>
-     <unitdate type="inclusive" normal="1943/1944">1943-1944</unitdate>
+     <unitdate normal="1943/1944" type="inclusive">1943-1944</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link221">National Coat and Suit Industry Recovery Board: Bulletins Sent to
       Members</unittitle>
      <unitdate normal="1945">1945</unitdate>
@@ -2201,35 +2206,35 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link222">National Coat and Suit Industry Recovery Board: Bulletins Sent to
       Members</unittitle>
-     <unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate>
+     <unitdate normal="1946/1947" type="inclusive">1946-1947</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link223">National Coat and Suit Industry Recovery Board: Monthly
       Bulletin</unittitle>
-     <unitdate type="inclusive" normal="1939/1941">1939-1941</unitdate>
+     <unitdate normal="1939/1941" type="inclusive">1939-1941</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link224">National Coat and Suit Industry Recovery Board: Monthly
       Bulletin</unittitle>
-     <unitdate type="inclusive" normal="1942/1945">1942-1945</unitdate>
+     <unitdate normal="1942/1945" type="inclusive">1942-1945</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link225">National Coat and Suit Industry Recovery Board: Daily Label
       Sales</unittitle>
      <unitdate normal="1940">1940</unitdate>
@@ -2237,8 +2242,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link226">National Coat and Suit Industry Recovery Board: Daily Label
       Sales</unittitle>
      <unitdate normal="1941">1941</unitdate>
@@ -2246,8 +2251,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link227">National Coat and Suit Industry Recovery Board: Daily Label
       Sales</unittitle>
      <unitdate normal="1942">1942</unitdate>
@@ -2255,80 +2260,80 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link228">National Coat and Suit Industry Recovery Board: Daily Label
       Sales</unittitle>
-     <unitdate type="inclusive" normal="1943/1944">1943-1944</unitdate>
+     <unitdate normal="1943/1944" type="inclusive">1943-1944</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link229">National Coat and Suit Industry Recovery Board: Daily Label
       Sales</unittitle>
-     <unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate>
+     <unitdate normal="1945/1946" type="inclusive">1945-1946</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link230">National Coat and Suit Industry Recovery Board: Daily Label
       Sales</unittitle>
-     <unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate>
+     <unitdate normal="1947/1948" type="inclusive">1947-1948</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link231">National Coat and Suit Industry Recovery Board: Daily Label
       Sales</unittitle>
-     <unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate>
+     <unitdate normal="1949/1950" type="inclusive">1949-1950</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link232">National Coat and Suit Industry Recovery Board: Daily Label
       Sales</unittitle>
-     <unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>
+     <unitdate normal="1951/1952" type="inclusive">1951-1952</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link233">National Coat and Suit Industry Recovery Board: Daily Label
       Sales</unittitle>
-     <unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>
+     <unitdate normal="1953/1954" type="inclusive">1953-1954</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link234">National Coat and Suit Industry Recovery Board: Daily Label
       Sales</unittitle>
-     <unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate>
+     <unitdate normal="1958/1959" type="inclusive">1958-1959</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link235">National Coat and Suit Industry Recovery Board: Daily Label
       Sales</unittitle>
-     <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate>
+     <unitdate normal="1960/1961" type="inclusive">1960-1961</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link236">National Coat and Suit Industry Recovery Board: Bulletins Sent to
       Members</unittitle>
      <unitdate normal="1937">1937</unitdate>
@@ -2336,221 +2341,221 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link237">National Coat and Suit Industry Recovery Board: Bulletins Sent to
       Members [folder 1 of 2]</unittitle>
-     <unitdate type="inclusive" normal="1947/1950">1947-1950</unitdate>
+     <unitdate normal="1947/1950" type="inclusive">1947-1950</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link238">National Coat and Suit Industry Recovery Board: Bulletins Sent to
       Members [folder 2 of 2]</unittitle>
-     <unitdate type="inclusive" normal="1947/1950">1947-1950</unitdate>
+     <unitdate normal="1947/1950" type="inclusive">1947-1950</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link239">National Coat and Suit Industry Recovery Board: Meetings and
       Reports</unittitle>
-     <unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate>
+     <unitdate normal="1948/1950" type="inclusive">1948-1950</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link240">National Coat and Suit Industry Recovery Board: Meetings and
       Reports</unittitle>
-     <unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate>
+     <unitdate normal="1951/1953" type="inclusive">1951-1953</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link241">National Board of the Coat and Suit Industry: Meetings and
       Reports</unittitle>
-     <unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate>
+     <unitdate normal="1963/1967" type="inclusive">1963-1967</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link242">Legal</unittitle>
-     <unitdate type="inclusive" normal="1907/1912">1907-1912</unitdate>
+     <unitdate normal="1907/1912" type="inclusive">1907-1912</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link243">Legal: Lubin Testimony</unittitle>
      <unitdate normal="1913">1913</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link244">Legal</unittitle>
      <unitdate normal="1913">1913</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link245">Legal</unittitle>
-     <unitdate type="inclusive" normal="1915/1916">1915-1916</unitdate>
+     <unitdate normal="1915/1916" type="inclusive">1915-1916</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link246">Legal: Appellate Court of Illinois [folder 1 of 5]</unittitle>
      <unitdate normal="1917">1917</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link247">Legal: Appellate Court of Illinois [folder 2 of 5]</unittitle>
      <unitdate normal="1917">1917</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link248">Legal: Appellate Court of Illinois [folder 3 of 5]</unittitle>
      <unitdate normal="1917">1917</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link249">Legal: Appellate Court of Illinois [folder 4 of 5]</unittitle>
      <unitdate normal="1917">1917</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link250">Legal: Appellate Court of Illinois [folder 5 of 5]</unittitle>
      <unitdate normal="1917">1917</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link251">Legal</unittitle>
-     <unitdate type="inclusive" normal="1918/1920">1918-1920</unitdate>
+     <unitdate normal="1918/1920" type="inclusive">1918-1920</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link252">Legal</unittitle>
      <unitdate normal="1921">1921</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link253">Legal: Joint Appendix</unittitle>
      <unitdate normal="1921">1921</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link254">Legal [folder 1 of 2]</unittitle>
      <unitdate normal="1922">1922</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link255">Legal [folder 2 of 2]</unittitle>
      <unitdate normal="1922">1922</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link256">Legal</unittitle>
      <unitdate normal="1924">1924</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link257">Legal</unittitle>
      <unitdate normal="1925">1925</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link258">Legal: Appellate Court of Illinois [folder 1 of 3]</unittitle>
      <unitdate normal="1925">1925</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link259">Legal: Appellate Court of Illinois [folder 2 of 3]</unittitle>
      <unitdate normal="1925">1925</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link260">Legal: Appellate Court of Illinois [folder 3 of 3]</unittitle>
      <unitdate normal="1925">1925</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link261">Legal</unittitle>
      <unitdate normal="1927">1927</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link262">Legal</unittitle>
-     <unitdate type="inclusive" normal="1929/1931">1929-1931</unitdate>
+     <unitdate normal="1929/1931" type="inclusive">1929-1931</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link263">Legal: Supreme Court Dubinsky versus Joseph Love
       Incorporated</unittitle>
      <unitdate normal="1945">1945</unitdate>

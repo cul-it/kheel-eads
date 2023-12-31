@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06200pubs::UNITE HERE Publications.)//EN">KCL06200pubs</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06200pubs::UNITE HERE Publications.)//EN">KCL06200pubs</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the UNITE HERE Publications<date> 2004</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>October 27, 2015</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the UNITE HERE Publications<lb/></titleproper>
+			<titleproper>Guide to the UNITE HERE Publications</titleproper>
 			<num>Collection Number: 6200 PUBS</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,23 +54,23 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">UNITE HERE Publications, <unitdate encodinganalog="MARC 245$f">2004</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">UNITE HERE Publications, 2004
+			</unittitle><unitdate encodinganalog="MARC 245$f">2004</unitdate>
 			<unitid label="Collection Number:">6200 PUBS</unitid>
 			<origination label="Creator:">
 				<corpname encodinganalog="MARC 110" role="creator">UNITE HERE</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">1.5 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">1.5 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Publications.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<langmaterial label="Language:">Collection material in <language encodinganalog="MARC 041" langcode="eng">English</language>
 			</langmaterial>
 		<physdesc><extent>1.5 cubic feet</extent></physdesc></did>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<corpname encodinganalog="MARC 610">Hotel Employees &amp; Restaurant Employees International Union </corpname>
 				<corpname encodinganalog="MARC 610">UNITE HERE (Organization) </corpname>
 			</controlaccess>
@@ -72,32 +78,32 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>UNITE HERE Publications #6200 PUBS. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link6">Atlantic City Casino Strike</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link7">Item 1: Atlantic City. Casino Strike.</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -109,8 +115,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link8">Item 2: Atlantic City. Casino Strike.</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -123,8 +129,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link9">Item 3: Atlantic City. Casino Strike.</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -138,15 +144,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link10">Brookfield Uniforms</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link11">Item 1: Brookfield Uniforms.</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -158,8 +164,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link12">Item 2: Brookfield Uniforms.</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -172,8 +178,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link13">Conducting Your Union Meeting</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
@@ -182,8 +188,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link14">Item 1: Conducting Your Union Meeting. </unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -195,8 +201,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link15">Item 2: Como conducir su asamblea sindical.</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -208,8 +214,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link16">Item 3: Comment mener une asseble syndicale.</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -222,16 +228,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link17">Constitution</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link18">Item 1: Constitution.</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -244,8 +250,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link19">Item 2: Constitution.</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -258,8 +264,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link20">Item 3: Constitution.</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -273,8 +279,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link21">Item 4: Constitution.</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -289,8 +295,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link22">The Family and Medical Leave Act</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
@@ -299,8 +305,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link23">Item 1: The Family and Medical Leave Act. La Ley de Permiso de Ausencia por Razones Mdicas y Familiares.</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -312,8 +318,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link24">Item 2: The Family and Medical Leave Act. La Ley de Permiso de Ausencia por Razones Mdicas y Familiares.</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -326,8 +332,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link25">Item 3: The Family and Medical Leave Act. La Ley de Permiso de Ausencia por Razones Mdicas y Familiares.</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -341,8 +347,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link26">How Much Power is in a Penny?</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
@@ -351,8 +357,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link27">Item 1: Local 25 Cunto Poder hay en un Cantavo?</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -364,8 +370,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link28">Item 2: How Much Power is in a Penny? Local 25 </unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -377,8 +383,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link29">Item 3: Local 25 Cunto Poder hay en un Cantavo?</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -391,8 +397,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link30">Item 4: Local 25 Cunto Poder hay en un Cantavo?</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -405,8 +411,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link31">Item 5: Local 25 Cunto Poder hay en un Cantavo?</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -419,8 +425,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link32">Item 6: How Much Power is in a Penny? Local 25</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -433,8 +439,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link33">Item 7: How Much Power is in a Penny? Local 25</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -447,8 +453,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link34">Item 8: How Much Power is in a Penny? Local 25</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -462,15 +468,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link35">Open Letter to Health Care Workers</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link36">Item 1: Open Letter to Health Care Workers.</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -483,8 +489,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link37">Organize! Mobilize!</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
@@ -493,8 +499,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link38">Item 1: Organize! Mobilize! A organizarse! A movilizarse!</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -506,8 +512,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link39">Item 2: Organize! Mobilize! A organizarse! A movilizarse!</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -521,8 +527,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link40">Stewards Handbook</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
@@ -531,8 +537,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link41">Item 1: Stewards Handbook.</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -544,8 +550,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link42">Item 2: Manual del Delegado Sindical</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -558,15 +564,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link43">A Strike on May 5: Do We Have a Choice?</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link44">Item 1: A Strike on May 5: Do We Have a Choice?</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -579,8 +585,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link45">Item 2: A Strike on May 5: Do We Have a Choice?</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -594,15 +600,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link46">The Truth About Angelika: Bad for the Community</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link47">Item 1: The Truth About Angelika: Bad for the Community.</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -615,8 +621,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link48">Item 2: The Truth About Angelika: Bad for the Community.</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -630,8 +636,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link49">Unfair Labor Practice Report</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
@@ -640,8 +646,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link50">Item 1: Unfair Labor Pratice Report. Blank forms. Booklet.</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -654,8 +660,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link51">Unite Here!</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
@@ -665,8 +671,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link52">Item 1: Unite Here!</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -680,8 +686,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link53">Item 2: Unite Here!</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -695,8 +701,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link54">Item 3: Unite Here!</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -711,8 +717,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link55">Unite Here!</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
@@ -722,8 +728,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link56">Item 1: Unite Here! Annual Report: Fall 2005.</unittitle>
 						<unitdate normal="2005">2005</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -737,8 +743,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link57">Unite Here!</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
@@ -748,8 +754,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link58">Item 1: Unite Here! Annual Report: Fall 2006.</unittitle>
 						<unitdate normal="2006">2006</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -762,8 +768,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link59">Item 2: Unite Here! Annual Report: Fall 2006.</unittitle>
 						<unitdate normal="2006">2006</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -778,15 +784,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link60">A Winning Combination</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link61">Item 1: Unite Here!</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -800,8 +806,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link62">Item 2: Unite Here!</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -815,8 +821,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link63">Item 3: Unite Here!</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -831,16 +837,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link64">Affiliate Legal &amp; Financial Training</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link65">Item 1: Affiliate Legal and Financial Training Seminar</unittitle>
 						<unitdate normal="2005">2005</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -855,16 +861,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link66">Affiliate Legal and Financial Training</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link67">Item 1: Affiliate Legal and Financial Training Seminar</unittitle>
 						<unitdate normal="2006">2006</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -879,16 +885,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link68">Affiliate Legal and Financial Training</unittitle>
 					<unitdate normal="2007">2007</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link69">Item 1: Affiliate Legal and Financial Training Seminar</unittitle>
 						<unitdate normal="2007">2007</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -903,16 +909,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link70">Affiliate Legal and Financial Training</unittitle>
 					<unitdate normal="2008">2008</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link71">Item 1: Affiliate Legal and Financial Training Seminar</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -927,16 +933,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link72">Bargaining Low Cost Health Benefits</unittitle>
 					<unitdate normal="2007">2007</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link73">Item 1: Bargaining Low Cost Health Benefits Workshop</unittitle>
 						<unitdate normal="2007">2007</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -951,16 +957,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link74">Jewish Labor Committee. Human Rights Award Dinner</unittitle>
 					<unitdate normal="2008">2008</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link75">Item 1: Human Rights Award Dinner</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -975,16 +981,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link76">A Celebration of Women in the Labor Movement Jewish Labor Committee</unittitle>
 					<unitdate normal="2008">2008</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link77">Item 1: A Celebration of Women in the Labor Movement</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -998,15 +1004,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link78">Hospitality with Dignity</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link79">Item 1: Hospitality With Dignity: Ethical Workplace Standards for Hotel Housekeepers</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -1019,16 +1025,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link80">Fashion Center</unittitle>
 					<unitdate normal="2008">2008</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link81">Item 1: Fashion Center</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1043,16 +1049,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link82">Conduct Unbecoming</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link83">Item 1: Conduct Unbecoming: Sweatshops and the U. S. Military Uniform Industry</unittitle>
 						<unitdate normal="2006">2006</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1066,15 +1072,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link84">UNITE HERE - benefit booklets</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link85">Item 1: UNITE HERE GHI Benefit Program Member Handbook</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1087,8 +1093,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link86">Item 2: Your UNITE HERE Health and Welfare Summary Plan Description</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -1101,15 +1107,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link87">Labor Council for Latin American Advancement - Gala Dinner Programs</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link88">Item 1: Labor Celebration and Gala Dinner Dance</unittitle>
 						<unitdate normal="2007">2007</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1123,8 +1129,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link89">Item 2: Garment Industry Development Corporation 20th Anniversary Cocktail Gala</unittitle>
 						<unitdate normal="2005">2005</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1138,8 +1144,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link90">Item 3: Labor Celebration and Gala Dinner Dance</unittitle>
 						<unitdate normal="2007">2007</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1154,16 +1160,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link91">UNITE HERE Constitution (draft) 2004</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link92">Item 1: UNITE HERE Constitution</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1178,15 +1184,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link93">UNITE HERE - Pension Booklets</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link94">Item 1: Your Pension Benefit Summary</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1199,8 +1205,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link95">Item 2: Your Pension Benefit Summary</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1214,8 +1220,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link96">Item 3: Your Pension Benefit Summary</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1229,8 +1235,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link97">Item 4: UNITE HERE Fondo de Jubilacion Nacional</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1243,8 +1249,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link98">Item 5: UNITE HERE Fondo de Jubilacion Nacional</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1258,8 +1264,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link99">Item 6: UNITE HERE Fondo de Jubilacion Nacional</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1274,15 +1280,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link100">New York Metro - ARGA Joint Board News - English and Spanish</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link101">Item 1: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2005">2005</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1296,8 +1302,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link102">Item 2: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2005">2005</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1311,8 +1317,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link103">Item 3: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2005">2005</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1326,8 +1332,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link104">Item 4: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2006">2006</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1341,8 +1347,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link105">Item 5: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2006">2006</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1356,8 +1362,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link106">Item 6: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2006">2006</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1371,8 +1377,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link107">Item 7: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2007">2007</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1386,8 +1392,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link108">Item 8: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1401,8 +1407,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link109">Item 9: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1416,8 +1422,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link110">Item 10: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1431,8 +1437,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link111">Item 11: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2007">2007</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1446,8 +1452,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link112">Item 12: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2007">2007</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1462,15 +1468,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link113">NY Metro Area Joint Board News (Chinese)</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link114">Item 1: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2005">2005</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1484,8 +1490,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link115">Item 2: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2005">2005</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1499,8 +1505,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link116">Item 3: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2005">2005</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1514,8 +1520,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link117">Item 4: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2006">2006</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1529,8 +1535,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link118">Item 5: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2006">2006</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1544,8 +1550,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link119">Item 6: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2006">2006</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1559,8 +1565,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link120">Item 7: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1574,8 +1580,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link121">Item 8: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1589,8 +1595,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link122">Item 9: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2007">2007</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1604,8 +1610,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link123">Item 10: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1619,8 +1625,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link124">Item 11: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2007">2007</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1634,8 +1640,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link125">Item 12: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2007">2007</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1650,16 +1656,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link126">Retiree News</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link127">Item 1: Retiree News</unittitle>
 						<unitdate normal="2005">2005</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1673,8 +1679,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link128">Item 2: Retiree News</unittitle>
 						<unitdate normal="2005">2005</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1689,15 +1695,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link129">CAFTA and Free Trade</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link130">Item 1: CAFTA and Free Trade: What Every American Should Know</unittitle>
 						<unitdate normal="2005">2005</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1712,16 +1718,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link131">Constitution</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link132">Item 1: Constitution</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1736,15 +1742,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link133">Calendars</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link134">Item 1: Calendar</unittitle>
 						<unitdate normal="2006">2006</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1757,8 +1763,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link135">Item 2: Calendar</unittitle>
 						<unitdate normal="2006">2006</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1772,8 +1778,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link136">Item 3: Calendar</unittitle>
 						<unitdate normal="2007">2007</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1786,8 +1792,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link137">Item 4: Calendar</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1801,15 +1807,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link138">The Family and Medical Leave Act</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link139">Item 1: The Family and Medical Leave Act: How to Make It Work For You</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -1823,16 +1829,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link140">UNITED HERE! Annual Report</unittitle>
 					<unitdate normal="2008">2008</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link141">Item 1: UNITE HERE! Annual Report 2008</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1846,16 +1852,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link142">A Salute to Norman Hill</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link143">Item 1: A Salute to Horman Hill</unittitle>
 						<unitdate normal="2005">2005</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1870,16 +1876,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link144">The Triangle Shirtwaist Factory Fire</unittitle>
 					<unitdate normal="2007">2007</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link145">Item 1: The Triangle Shirtwaist Factory Fire: March 25, 1911</unittitle>
 						<unitdate normal="2007">2007</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1894,15 +1900,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link146">Hotel Workers United</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link147">Item 1: Hotel Workers United</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1916,8 +1922,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link148">Item 2: Hotel Workers United</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1931,8 +1937,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link149">Item 3: Hotel Workers United</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1947,16 +1953,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link150">UNITE HERE Annual Report</unittitle>
 					<unitdate normal="2007">2007</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link151">Item 1: UNITE HERE Annual Report 2007</unittitle>
 						<unitdate normal="2007">2007</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1969,8 +1975,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link152">Item 2: UNITE HERE Annual Report 2007</unittitle>
 						<unitdate normal="2007">2007</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1985,15 +1991,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link153">Your Prescription Drug Benefit Handbook</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link154">Item 1: Your Prescription Drub Benefit Handbook</unittitle>
 						<unitdate normal="2005">2005</unitdate>
 						<physdesc label="Format:">Publication</physdesc>

@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06365::Colette Walls Collection of UAW District 65 Cornell Organizing Materials.)//EN">KCL06365</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06365::Colette Walls Collection of UAW District 65 Cornell Organizing Materials.)//EN">KCL06365</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Colette Walls Collection of UAW District 65 Cornell Organizing Materials<date> 1980-2014</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>October 27, 2015</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Colette Walls Collection of UAW District 65 Cornell Organizing Materials<lb/></titleproper>
+			<titleproper>Guide to the Colette Walls Collection of UAW District 65 Cornell Organizing Materials</titleproper>
 			<num>Collection Number: 6365</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,9 +54,9 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Colette Walls Collection of UAW District 65 Cornell Organizing Materials, <unitdate encodinganalog="MARC 245$f">1980- 2014</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Colette Walls Collection of UAW District 65 Cornell Organizing Materials, 1980- 2014
+			</unittitle><unitdate encodinganalog="MARC 245$f">1980- 2014</unitdate>
 			<unitid label="Collection Number:">6365</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">Walls, Colette</persname>
@@ -58,7 +64,7 @@
 				<corpname encodinganalog="MARC 110" role="creator"> UAW District 65 Cornell Chapter</corpname>
 				<corpname encodinganalog="MARC 110" role="creator"> Active Concerned Employees (ACE)</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">0.5 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">0.5 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Records.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">Materials relating to the UAW organizing committees at Cornell University during the early 1980s.</abstract>
@@ -66,7 +72,7 @@
 			</langmaterial>
 		<physdesc><extent>0.5 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+			
 			<p>Colette Walls began working at Cornell University in June 1976. During the early part of 1980 she became involved with the UAW/District 65 Cornell union drive as a member of the organizing committee. Ms. Walls was also a member of the Clerical
 				Organizing Committee working to organize the office workers. The significant goal in unionization for the Clerical unit was for women in those traditionally female jobs to have a say in the issues facing them: automation, occupational stress,
 				low pay, low status, and lack of appreciation. </p>
@@ -74,7 +80,7 @@
 			<p>After the unsuccessful drive came to an end Ms. Walls continued on her Cornell career, retiring in 2013 as a department administrative manager.</p>
 		</bioghist>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+			
 			<p>The Active Concerned Employees (ACE) committee was formed in early 1979 in an effort to improve the working life of Cornell employees. By 1980 their efforts began to take the form of unionization and ACE started an organizing campaign. District
 				65 initially led the drive, but as the drive progressed District 65 affiliated with UAW and by the end of the drive organizing at Cornell was clearly a UAW effort. </p>
 			<p>Althought the organizing drive initially included a wide array of employees differences in the card-signing rates led to a split. The service and maintenance employees were ready to vote for unionization by the end of 1980, well before the
@@ -84,14 +90,14 @@
 				never reach the 30% threshold for signatures and was abandoned after over three years of effort.</p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a3">COLLECTION DESCRIPTION</head>
+			
 			<p>This collection consists largely of the publications produced by the UAW organizing committees at Cornell University during the early 1980s. The best represented are "The Bear Facts" and "Clout!" There is only one issue of "Backbone." Also
 				included is a narrative about the organizing effort, written by Colette Walls, who was active in the effort. There is also a 2006 interview with the professional organizer from the UAW, Barbara Rahke.</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Cupery, Steve </persname>
 				<persname encodinganalog="MARC 600">Davidoff, Al </persname>
 				<persname encodinganalog="MARC 600">Edelman, John </persname>
@@ -120,44 +126,44 @@
 				<corpname encodinganalog="MARC 610">International Union, United Automobile Workers of America (CIO) Local 2300 </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Labor Unions, Organizing </subject>
 				<subject encodinganalog="MARC 650">Universities and colleges, Employees, Labor unions</subject>
 			</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Colette Walls Collection of UAW District 65 Cornell Organizing Materials #6365. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04252m.html"> /4252m: ILR School Student publication "The Cornell Worker"</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05016.html"> 5016: Cornell University Union Representation Material</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05117.html"> 5117: UAW-Cornell University Organizing Documents</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05411mf.html"> 5411 mf: Public Review Board Cases #11 &amp; #48 on Microfilm</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06094.html"> 6094: UAW Public Review Boaard Decisions</extref><lb/>
+			
+			<p>Related Collections:
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04252m.html"> /4252m: ILR School Student publication "The Cornell Worker"</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05016.html"> 5016: Cornell University Union Representation Material</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05117.html"> 5117: UAW-Cornell University Organizing Documents</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05411mf.html"> 5411 mf: Public Review Board Cases #11 &amp; #48 on Microfilm</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06094.html"> 6094: UAW Public Review Boaard Decisions</extref>
 			</p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link6">Colette Walls Narrative</unittitle>
-					<unitdate type="inclusive" normal="2013/2014">2013-2014</unitdate>
+					<unitdate normal="2013/2014" type="inclusive">2013-2014</unitdate>
 				</did>
 				<scopecontent>
 					<p>Brief history of UAW District 65 organizing at Cornell University. Includes a November 2013 draft and a February 2014 final copy.</p>
@@ -165,8 +171,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link7">Barbara Rahke Interview</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
@@ -176,8 +182,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link8">Fact sheets</unittitle>
 				</did>
 				<scopecontent>
@@ -186,8 +192,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link9">Organizing Zone Map</unittitle>
 					<unitdate normal="1980">1980</unitdate>
 				</did>
@@ -197,8 +203,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link10">Broadsides</unittitle>
 				</did>
 				<scopecontent>
@@ -207,10 +213,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link11">News clippings</unittitle>
-					<unitdate type="inclusive" normal="1980/2014">1980-2014</unitdate>
+					<unitdate normal="1980/2014" type="inclusive">1980-2014</unitdate>
 				</did>
 				<scopecontent>
 					<p>From the Cornell Daily Sun, The New York Times, and other publications</p>
@@ -218,15 +224,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link12">Cornell UAW Cards</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link13">Backbone</unittitle>
 					<unitdate normal="1980">1980</unitdate>
 				</did>
@@ -235,8 +241,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link14">Item 1: Backbone</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -251,8 +257,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link15">The Bear Facts</unittitle>
 					<unitdate normal="1980">1980</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
@@ -262,8 +268,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link16">Item 1: The Bear Facts</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -277,8 +283,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link17">Item 2: The Bear Facts</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -292,8 +298,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link18">Item 3: The Bear Facts</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -307,8 +313,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link19">Item 4: The Bear Facts</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -322,8 +328,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link20">Item 5: The Bear Facts</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -337,8 +343,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link21">Item 6: The Bear Facts</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -352,8 +358,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link22">Item 7: The Bear Facts</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -367,8 +373,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link23">Item 8: The Bear Facts</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -382,8 +388,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link24">Item 9: The Bear Facts</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -397,8 +403,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link25">Item 10: The Bear Facts</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -412,8 +418,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link26">Item 11: The Bear Facts</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -427,8 +433,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link27">Item 12: The Bear Facts</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -442,8 +448,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link28">Item 13: The Bear Facts</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -457,8 +463,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link29">Item 14: The Bear Facts</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -472,8 +478,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link30">Item 15: The Bear Facts</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -487,8 +493,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link31">Item 16: The Bear Facts</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -502,8 +508,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link32">Item 17: The Bear Facts</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -517,8 +523,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link33">Item 18: The Bear Facts</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -533,8 +539,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link34">The Bear Facts</unittitle>
 					<unitdate normal="1981">1981</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
@@ -544,8 +550,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link35">Item 1: The Bear Facts</unittitle>
 						<unitdate normal="1981">1981</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -559,8 +565,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link36">Item 2: The Bear Facts</unittitle>
 						<unitdate normal="1981">1981</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -574,8 +580,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link37">Item 3: The Bear Facts</unittitle>
 						<unitdate normal="1981">1981</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -589,8 +595,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link38">Item 4: The Bear Facts</unittitle>
 						<unitdate normal="1981">1981</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -604,8 +610,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link39">Item 5: The Bear Facts</unittitle>
 						<unitdate normal="1981">1981</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -619,8 +625,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link40">Item 6: The Bear Facts</unittitle>
 						<unitdate normal="1981">1981</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -634,8 +640,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link41">Item 7: The Bear Facts</unittitle>
 						<unitdate normal="1981">1981</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -649,8 +655,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link42">Item 8: The Bear Facts</unittitle>
 						<unitdate normal="1981">1981</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -664,8 +670,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link43">Item 9: The Bear Facts</unittitle>
 						<unitdate normal="1981">1981</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -680,8 +686,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link44">The Bear Facts</unittitle>
 					<unitdate normal="1982">1982</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
@@ -691,8 +697,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link45">Item 1: The Bear Facts</unittitle>
 						<unitdate normal="1982">1982</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -706,8 +712,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link46">Item 2: The Bear Facts</unittitle>
 						<unitdate normal="1982">1982</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -721,8 +727,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link47">Item 3: The Bear Facts</unittitle>
 						<unitdate normal="1982">1982</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -736,8 +742,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link48">Item 4: The Bear Facts</unittitle>
 						<unitdate normal="1982">1982</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -751,8 +757,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link49">Item 5: The Bear Facts</unittitle>
 						<unitdate normal="1982">1982</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -766,8 +772,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link50">Item 6: The Bear Facts</unittitle>
 						<unitdate normal="1982">1982</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -781,8 +787,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link51">Item 7: The Bear Facts</unittitle>
 						<unitdate normal="1982">1982</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -796,8 +802,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link52">Item 8: The Bear Facts</unittitle>
 						<unitdate normal="1982">1982</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -811,8 +817,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link53">Item 9: The Bear Facts</unittitle>
 						<unitdate normal="1982">1982</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -826,8 +832,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link54">Item 10: The Bear Facts</unittitle>
 						<unitdate normal="1982">1982</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -841,8 +847,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link55">Item 11: The Bear Facts</unittitle>
 						<unitdate normal="1982">1982</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -856,8 +862,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link56">Item 12: The Bear Facts</unittitle>
 						<unitdate normal="1982">1982</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -872,18 +878,18 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link57">Clout!</unittitle>
-					<unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate>
+					<unitdate normal="1980/1981" type="inclusive">1980-1981</unitdate>
 				</did>
 				<scopecontent>
 					<p>Publication of the UAW Clerical Organizing Committee</p>
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link58">Item 1: Clout!</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -897,8 +903,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link59">Item 2: Clout!</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -912,8 +918,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link60">Item 3: Clout!</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -927,8 +933,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link61">Item 4: Clout!</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -942,8 +948,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link62">Item 5: Clout!</unittitle>
 						<unitdate normal="1981">1981</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -957,8 +963,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link63">Item 6: Clout!</unittitle>
 						<unitdate normal="1982">1982</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -972,8 +978,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link64">Item 7: Clout!</unittitle>
 						<unitdate normal="1983">1983</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -987,8 +993,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link65">Item 8: Clout!</unittitle>
 						<unitdate normal="1983">1983</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1003,8 +1009,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link66">Union Songs</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
@@ -1013,8 +1019,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link67">Item 1: Union Songs</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -1026,8 +1032,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link68">Item 2: Union Songs</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -1041,15 +1047,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link69">UAW Publications</unittitle>
-					<unitdate type="inclusive" normal="1981/1983">1981-1983</unitdate>
+					<unitdate normal="1981/1983" type="inclusive">1981-1983</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link70">Item 1: Solidarity</unittitle>
 						<unitdate normal="1981">1981</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1063,8 +1069,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link71">Item 2: UAW Ammo</unittitle>
 						<unitdate normal="1982">1982</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1079,8 +1085,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link72">60 Words A Minute and What Do You Get? Clerical Workers Today</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
@@ -1089,8 +1095,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link73">Item 1: 60 Words A Minute And What Do You Get? Clerical Workers Today</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -1103,8 +1109,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link74">Cornell Chapter District 65, UAW</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
@@ -1114,8 +1120,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link75">Buttons</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
@@ -1124,8 +1130,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link76">Item 1: Join UAW Vote: Organizing Committee</unittitle>
 						<physdesc label="Format:">Memorabilia</physdesc>
 					</did>
@@ -1136,8 +1142,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link77">Item 2: Local 2300 UAW</unittitle>
 						<physdesc label="Format:">Memorabilia</physdesc>
 					</did>
@@ -1148,8 +1154,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link78">Item 3: District 65 of the UAW Cornell Chapter</unittitle>
 						<physdesc label="Format:">Memorabilia</physdesc>
 					</did>

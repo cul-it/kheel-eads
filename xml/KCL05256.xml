@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05256::Adolph Germer Papers.)//EN">KCL05256</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05256::Adolph Germer Papers.)//EN">KCL05256</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Adolph Germer Papers<date> 1945-1947</date></titleproper>
@@ -23,16 +23,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>February 22, 2017</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Adolph Germer Papers<lb/></titleproper>
+			<titleproper>Guide to the Adolph Germer Papers</titleproper>
 			<num>Collection Number: 5256</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -50,14 +56,14 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Adolph Germer Papers, <unitdate encodinganalog="MARC 245$f">1945-1947</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Adolph Germer Papers, 1945-1947
+			</unittitle><unitdate encodinganalog="MARC 245$f">1945-1947</unitdate>
 			<unitid label="Collection Number:">5256</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">Germer, Adolph</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">1 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">1 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Records (documents).</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">This collection consists of the papers Adolph Germer collected on his trip to the W.F.T.U. meeting and his membersip of the W.F.T.U. Committee for German Affairs.</abstract>
@@ -65,7 +71,7 @@
 			</langmaterial>
 		<physdesc><extent>1 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+			
 			<p>Mr. Germer was born in Welan, Germany In 1881 and came to the United States in 1888. His father was a miner, and Adolph went to work in the coal mines of Staunton, Illinois, when he was eleven years old. He joined the United Mine Workers of
 				America in 1894 and held various offices; among them the United Mine Workers representative to the World Miners Congress in Amsterdam in 1912. He participated in the Colorado strike in 1913. </p>
 			<p>He joined the Socialist Party in 1900, and was its national secretary from 1916 to 1919. He was arrested, tried and convicted of subversion in the famous trial of 1918. With Eugene V. Debs and Victor L. Berger he wrote the Socialist Party report
@@ -74,14 +80,14 @@
 				World Federation of Trade Unions meeting in Prague in 1947.</p>
 		</bioghist>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Germer, Adolph </persname>
 				<corpname encodinganalog="MARC 610">World Federation of Trade Unions </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Labor unions -- Organizing -- United States </subject>
 				<subject encodinganalog="MARC 650">Strikes and lockouts -- Coal mining -- United States </subject>
 				<subject encodinganalog="MARC 650">Coal miners -- Labor unions -- United States </subject>
@@ -91,48 +97,48 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Adolph Germer Papers #5256. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05396mf.html"> 5396 mf: World Federation of Trade Unions Reports and Minutes on Microfilm</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05595.html"> 5595: World Federation of Trade Unions Records</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05809mf.html"> 5809 mf: Adolph Germer Papers on Microfilm</extref><lb/>
+			
+			<p>Related Collections:
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05396mf.html"> 5396 mf: World Federation of Trade Unions Reports and Minutes on Microfilm</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05595.html"> 5595: World Federation of Trade Unions Records</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05809mf.html"> 5809 mf: Adolph Germer Papers on Microfilm</extref>
 			</p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link8">Personal Correspondence, etc.</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link9">World Federation of Trade Unions</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link10">Pamphlets from London Conference</unittitle>
 					<unitdate normal="1945">1945</unitdate>
 				</did>
@@ -142,8 +148,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link11">Reports to Executive Bureau Meeting</unittitle>
 					<unitdate normal="1946">1946</unitdate>
 				</did>
@@ -153,8 +159,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link12">Reports of the Meeting of Trade Unions of Trieste</unittitle>
 					<unitdate normal="1946">1946</unitdate>
 				</did>
@@ -164,8 +170,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link13">Reports to Executive Bureau Meeting</unittitle>
 					<unitdate normal="1946">1946</unitdate>
 				</did>
@@ -175,8 +181,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link14">Reports to the General Council Meeting</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -186,8 +192,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link15">Resolutions presented to the General Council</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -197,8 +203,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link16">Speeches at Executive Council Meeting</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -208,8 +214,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link17">Pan-African Trade Union Conference</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -219,16 +225,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link18">Minutes of the talks between the A.F.T.U. and the Austrian Trade Union</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link19">Report of the 2nd A.F.T.U. Inquiry Commission on the situation in Germany</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -238,8 +244,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link20">Office of the Military Government for Germany U.S.: Daily excerpts from the Berlin Press, Field Reports</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -249,29 +255,29 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link21">Freier Deutscher Gewerkschaftsbund</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link22">Releases and Publications</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link23">Czechoslovakia</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link24">Pamphlets on the economy and trade union movement</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>

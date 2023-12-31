@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06346pubs::Seyfarth Shaw Labor Publications.)//EN">KCL06346pubs</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06346pubs::Seyfarth Shaw Labor Publications.)//EN">KCL06346pubs</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Seyfarth Shaw Labor Publications<date> 1949-1996</date></titleproper>
@@ -23,16 +23,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>March 07, 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Seyfarth Shaw Labor Publications<lb/></titleproper>
+			<titleproper>Guide to the Seyfarth Shaw Labor Publications</titleproper>
 			<num>Collection Number: 6346 PUBS</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -50,63 +56,63 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Seyfarth Shaw Labor Publications, <unitdate encodinganalog="MARC 245$f">1949-1996</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Seyfarth Shaw Labor Publications, 1949-1996
+			</unittitle><unitdate encodinganalog="MARC 245$f">1949-1996</unitdate>
 			<unitid label="Collection Number:">6346 PUBS</unitid>
 			<origination label="Creator:">
 				<corpname encodinganalog="MARC 110" role="creator">Seyfarth Shaw LLP</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">1 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">1 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Publications.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<langmaterial label="Language:">Collection material in <language encodinganalog="MARC 041" langcode="eng">English</language>
 			</langmaterial>
 		<physdesc><extent>1 cubic feet</extent></physdesc></did>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Shaw, Seyfarth </persname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Publications </subject>
 			</controlaccess>
 			<controlaccess>
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Seyfarth Shaw Labor Publications #6346 PUBS. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link8">AFL-CIO General</unittitle>
-					<unitdate type="inclusive" normal="1963/1995">1963-1995</unitdate>
+					<unitdate normal="1963/1995" type="inclusive">1963-1995</unitdate>
 				</did>
 				<scopecontent>
 					<p>magazine articles, news clippings</p>
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link9">Item 1: Trade Adjustment: The New Realism</unittitle>
 						<unitdate normal="1962">1962</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -119,8 +125,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link10">Item 2: This is the AFL-CIO</unittitle>
 						<unitdate normal="1966">1966</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -133,8 +139,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link11">Item 3: The Export of American Jobs</unittitle>
 						<unitdate normal="1970">1970</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -148,8 +154,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link12">Item 4: The National Economy 1973</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -160,8 +166,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link13">Item 5: Power- for What?</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -173,8 +179,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link14">Item 6: Labor's Key Role in Workplace Training</unittitle>
 						<unitdate normal="1994">1994</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -188,8 +194,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link15">Item 7: The Decline of the AFL-CIO</unittitle>
 						<unitdate normal="1962">1962</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -203,8 +209,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link16">Item 8: The House of Labor</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -214,8 +220,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link17">Item 9: Circular no. 205: A-12</unittitle>
 						<unitdate normal="1962">1962</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -228,8 +234,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link18">Item 10: Reuther Ties Riots to Meany</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -243,8 +249,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link19">Item 11: The AFL-CIO's Inner Struggle</unittitle>
 						<unitdate normal="1965">1965</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -258,8 +264,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link20">Item 12: Proposals in AFL-CIO Report Called Incredibly Timid and Puny</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -273,8 +279,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link21">Item 13: Does Meany Speak for the Rank and File?</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -287,8 +293,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link22">Item 14: Does Meany Speak for the Rank and File?</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -301,8 +307,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link23">Item 15: Conference Celebration</unittitle>
 						<unitdate normal="1971">1971</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -315,8 +321,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link24">Item 16: The Hands that Build America</unittitle>
 						<unitdate normal="1963">1963</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -330,8 +336,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link25">Item 17: Negro Loses State AFL-CIO Post</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -344,8 +350,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link26">Item 18: Feud Marks Eve of State Labor Parley</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -359,8 +365,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link27">Item 19: Senate Kills Labor Unit Vote Fund Ban</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -374,8 +380,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link28">Item 20: Iron Grip Harder to Maintain</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -388,8 +394,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link29">Item 21: AFL-CIO Political Fund Dinner Nov. 7</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -403,8 +409,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link30">Item 22: 2 Cabinet Aids at Labor's Parley</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -418,8 +424,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link31">Item 23: Meany Rips Reuther, War Foes</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -433,8 +439,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link32">Item 24: Meany Beaming: AFL-CIO Meets on Happy Note</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -448,8 +454,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link33">Item 25: Meany Tells AFL-CIO: No Union Fights Alone</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -463,8 +469,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link34">Item 26: Will Reuther Tackle the Revived Meany?</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -478,8 +484,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link35">Item 27: AFL-CIO Delegates Cite Gains</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -493,8 +499,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link36">Item 28: AFL-CIO Elects George Meany to 6th 2-Year Term</unittitle>
 						<unitdate normal="1965">1965</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -508,8 +514,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link37">Item 29: Meany Hits White House Pay Guidelines, Calls Them First Step to Federal Control</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -523,8 +529,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link38">Item 30: Meany Censures Johnson on Pay</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -538,8 +544,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link39">Item 31: Meany Opposes Johnson on U.S. Wage Guidelines</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -553,8 +559,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link40">Item 32: Meany Deplores U.S. Joblessness</unittitle>
 						<unitdate normal="1963">1963</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -568,8 +574,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link41">Item 33: Johnson Wage-Price Guides Hit by Meany</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -583,8 +589,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link42">Item 34: Meany Rejects the Guidelines</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -598,8 +604,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link43">Item 35: AFL-CIO Rejects Wage Guidelines</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -613,8 +619,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link44">Item 36: AFL-CIO Rejects Johnson's 'Guideposts' Seeking Wage Restraints in Contract Talks</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -628,8 +634,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link45">Item 37: Jersey Labor Split by Power Struggle</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -643,8 +649,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link46">Item 38: Labor Plans on U.S. Funds</unittitle>
 						<unitdate normal="1965">1965</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -658,8 +664,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link47">Item 39: AFL-CIO Zeroes in on Southern California</unittitle>
 						<unitdate normal="1962">1962</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -673,8 +679,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link48">Item 40: Politics to Occupy AFL-CIO Council Here</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -688,8 +694,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link49">Item 41: Local AFL-CIO Rips BGS's Stand on City Pay Scales</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -702,8 +708,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link50">Item 42: Industry Piling Up Too Much Cash: AFL-CIO</unittitle>
 						<unitdate normal="1965">1965</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -717,8 +723,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link51">Item 43: Union Chiefs Gird to Fight Pay Charges</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -732,8 +738,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link52">Item 44: Excerpts from Speech by Peter Henle</unittitle>
 						<unitdate normal="1957">1957</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -747,8 +753,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link53">Item 45: United We Stand</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -762,8 +768,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link54">Item 46: Labor's 'Big Challenge': Unorganized Areas Show Job Pickup</unittitle>
 						<unitdate normal="1962">1962</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -776,8 +782,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link55">Item 47: Labor's Policies Defended</unittitle>
 						<unitdate normal="1962">1962</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -791,8 +797,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link56">Item 48: Lessons for Labor: AFL-CIO Alters Approach as Drive for Members Lags</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -806,8 +812,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link57">Item 49: AFL-CIO Promotes Ex-Communist Chief</unittitle>
 						<unitdate normal="1963">1963</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -821,8 +827,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link58">Item 50: Management Ass. Told 35-Hr. Week is 'Hoax' on Labor</unittitle>
 						<unitdate normal="1963">1963</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -836,8 +842,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link59">Item 51: Power but No Push</unittitle>
 						<unitdate normal="1963">1963</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -851,8 +857,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link60">Item 52: No Executive Unit Seen as Reuther Blow</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -866,8 +872,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link61">Item 53: Pious Nonsense at Miami Beach</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -881,8 +887,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link62">Item 54: AFL-CIO Invites Hubert to Speak</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -896,8 +902,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link63">Item 55: Labor Parley Snubs Dirksen and Percy</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -911,8 +917,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link64">Item 56: Kirkland Feels Heat to Quit: AFL-CIO Boss Refuses to Budge</unittitle>
 						<unitdate normal="1995">1995</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -926,8 +932,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link65">Item 57: Services for the Unemployed</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -938,8 +944,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link66">Item 58: Remarks Prepared for Delivery by Ray Marshall before 32nd AFL-CIO Union-Industries Show</unittitle>
 						<unitdate normal="1977">1977</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -952,8 +958,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link67">Item 59: The Pocketbook Issues: AFL-CIO Recommendations for 1992</unittitle>
 						<unitdate normal="1991">1991</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -964,8 +970,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link68">Item 60: The Pocketbook Issues: AFL-CIO Policy Recommendations for 1992</unittitle>
 						<unitdate normal="1992">1992</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -978,8 +984,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link69">Item 61: The Permanent Replacement of Workers Striking Over Health Care Benefits in 1990</unittitle>
 						<unitdate normal="1991">1991</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -994,8 +1000,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link70">AFL-CIO 4th Constitutional Convention</unittitle>
 					<unitdate normal="1961">1961</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
@@ -1005,8 +1011,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link71">Item 1: Proceedings of the AFL-CIO 4th Constitutional Convention: Volume 1 Daily Proceedings</unittitle>
 						<unitdate normal="1961">1961</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1019,8 +1025,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link72">Item 2: Proceedings of the AFL-CIO 4th Constitutional Convention: Volume 1 Executive Council Reports</unittitle>
 						<unitdate normal="1961">1961</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1033,8 +1039,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link73">Item 3: Report of the AFL-CIO Executive Council: Seventh Convention</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1048,15 +1054,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link74">AFL-CIO Presidential Campaigns</unittitle>
-					<unitdate type="inclusive" normal="1960/1984">1960-1984</unitdate>
+					<unitdate normal="1960/1984" type="inclusive">1960-1984</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link75">Item 1: The AFL-CIO Platform Proposals</unittitle>
 						<unitdate normal="1984">1984</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1067,8 +1073,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link76">Item 2: The AFL-CIO Platform Proposals</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1079,8 +1085,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link77">Item 3: The Making of a Campaign Issue: Nixon at the AFL-CIO Convention</unittitle>
 						<unitdate normal="1971">1971</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1091,8 +1097,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link78">Item 4: The AFL-CIO Platform Proposals</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1103,8 +1109,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link79">Item 5: Platform Proposals of the AFL-CIO to the Republican and Democratic National Conventions 1964</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1116,18 +1122,18 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link80">AFL-CIO Congress</unittitle>
-					<unitdate type="inclusive" normal="1973/1984">1973-1984</unitdate>
+					<unitdate normal="1973/1984" type="inclusive">1973-1984</unitdate>
 				</did>
 				<scopecontent>
 					<p>Legislative reports</p>
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link81">Item 1: Labor Looks at the 94th Congress</unittitle>
 						<unitdate normal="1977">1977</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1141,8 +1147,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link82">Item 2: Labor Looks at the 93rd Congress</unittitle>
 						<unitdate normal="1975">1975</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1156,8 +1162,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link83">Item 3: The People's Lobby: AFL-CIO Report on the 98th Congress 1983-84</unittitle>
 						<unitdate normal="1985">1985</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1170,8 +1176,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link84">Item 4: Labor Looks at Congress 1973</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1185,8 +1191,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link85">Item 5: The People's Lobby: An AFL-CIO Report on the 97th Congress</unittitle>
 						<unitdate normal="1983">1983</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1200,18 +1206,18 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link86">AIDS</unittitle>
-					<unitdate type="inclusive" normal="1984/1986">1984-1986</unitdate>
+					<unitdate normal="1984/1986" type="inclusive">1984-1986</unitdate>
 				</did>
 				<scopecontent>
 					<p>pamphlets and brochures</p>
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link87">Item 1: Why You Should be Informed about AIDS</unittitle>
 						<unitdate normal="1985">1985</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1222,8 +1228,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link88">Item 2: The Family's Guide to AIDS: Responding with Your Heart</unittitle>
 						<unitdate normal="1984">1984</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1236,8 +1242,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link89">Item 3: Coping with AIDS</unittitle>
 						<unitdate normal="1984">1984</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1248,8 +1254,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link90">Item 4: Medical Answers About AIDS</unittitle>
 						<unitdate normal="1985">1985</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1262,8 +1268,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link91">Item 5: AIDS: The Emerging Ethical Dilemmas</unittitle>
 						<unitdate normal="1985">1985</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1274,8 +1280,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link92">Item 6: Surgeon General's Report on Acquired Immune Deficiency Syndrome</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -1285,8 +1291,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link93">Item 7: Your Child and AIDS</unittitle>
 						<unitdate normal="1986">1986</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1297,8 +1303,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link94">Item 8: AIDS in the Workplace: A Supervisory Guide</unittitle>
 						<unitdate normal="1986">1986</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1309,8 +1315,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link95">Item 9: AIDS and Your Job- Are There Risks?</unittitle>
 						<unitdate normal="1986">1986</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1321,8 +1327,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link96">Item 10: Coping with AIDS: Psychological and Social Considerations in Helping People with HTLV-III Infection</unittitle>
 						<unitdate normal="1986">1986</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1333,8 +1339,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link97">Item 11: AIDS Medical Guide</unittitle>
 						<unitdate normal="1986">1986</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1347,8 +1353,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link98">Item 12: Coping with ARC</unittitle>
 						<unitdate normal="1986">1986</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1361,8 +1367,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link99">Item 13: Acquired Immune Deficiency Syndrome: 100 Questions and Answers</unittitle>
 						<unitdate normal="1986">1986</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1376,15 +1382,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link100">AIDS</unittitle>
-					<unitdate type="inclusive" normal="1987/1991">1987-1991</unitdate>
+					<unitdate normal="1987/1991" type="inclusive">1987-1991</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link101">Item 1: Caring for Someone with AIDS</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -1394,8 +1400,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link102">Item 2: AIDS: Dilemma in the Workplace</unittitle>
 						<unitdate normal="1990">1990</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1406,8 +1412,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link103">Item 3: Recommendations for Preventing Transmission of Human Immunodeficiency Virus and Hepatitis B Virus to Patients During Exposure-Prone Invasive Procedures</unittitle>
 						<unitdate normal="1991">1991</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1421,8 +1427,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link104">Item 4: Protection Against Occupational Exposure to Hepatitis B Virus (HBV) and Human Immunodeficiency Virus (HIV)</unittitle>
 						<unitdate normal="1987">1987</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1435,8 +1441,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link105">Item 5: Recommendations for Prevention of HIV Transmission in Health-Care Settings</unittitle>
 						<unitdate normal="1987">1987</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1450,8 +1456,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link106">Item 6: American Corporate Policy: AIDS and Employment</unittitle>
 						<unitdate normal="1987">1987</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1462,8 +1468,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link107">Item 7: Guidelines for the Handling and Treatment of Medical/Infectious Waste</unittitle>
 						<unitdate normal="1989">1989</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1474,8 +1480,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link108">Item 8: Understanding AIDS</unittitle>
 						<unitdate normal="1991">1991</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1489,15 +1495,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link109">Absenteeism</unittitle>
-					<unitdate type="inclusive" normal="1952/1981">1952-1981</unitdate>
+					<unitdate normal="1952/1981" type="inclusive">1952-1981</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link110">Item 1: How to Cut Absenteeism</unittitle>
 						<unitdate normal="1952">1952</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1508,8 +1514,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link111">Item 2: Absenteeism and Lateness</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -1519,8 +1525,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link112">Item 3: What About Women's Absenteeism and Labor Turnover?</unittitle>
 						<unitdate normal="1965">1965</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1532,18 +1538,18 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link113">Age Discrimination</unittitle>
-					<unitdate type="inclusive" normal="1956/1978">1956-1978</unitdate>
+					<unitdate normal="1956/1978" type="inclusive">1956-1978</unitdate>
 				</did>
 				<scopecontent>
 					<p>pamphlets</p>
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link114">Item 1: 1978 Age Discrimination Act Amendments</unittitle>
 						<unitdate normal="1978">1978</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1554,8 +1560,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link115">Item 2: 1978 Age Discrimination Act Amendments</unittitle>
 						<unitdate normal="1978">1978</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1568,8 +1574,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link116">Item 3: The Law Against Age Discrimination in Employment</unittitle>
 						<unitdate normal="1970">1970</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1580,8 +1586,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link117">Item 4: The Law Against Age Discrimination in Employment</unittitle>
 						<unitdate normal="1970">1970</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1594,8 +1600,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link118">Item 5: Age Discrimination in Employment Act of 1967 with Explanation</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1608,8 +1614,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link119">Item 6: Captain of a Mighty Host: A Note on the Retirement of John L. Lewis</unittitle>
 						<unitdate normal="1960">1960</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1622,8 +1628,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link120">Item 7: Job Performance and Age: A Study in Measurement</unittitle>
 						<unitdate normal="1956">1956</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1635,15 +1641,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link121">Apprenticeship</unittitle>
-					<unitdate type="inclusive" normal="1955/1973">1955-1973</unitdate>
+					<unitdate normal="1955/1973" type="inclusive">1955-1973</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link122">Item 1: Apprenticeship Standards with Schedules of Work Processes and Related Instructions</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -1655,8 +1661,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link123">Item 2: Apprenticeship and CETA</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1667,8 +1673,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link124">Item 3: Apprenticeship Past and Present</unittitle>
 						<unitdate normal="1955">1955</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1682,16 +1688,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link125">Arbitration</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link126">Item 1: Report of Committee on Ethics on Standards of Conduct for Labor Arbitrators</unittitle>
 						<unitdate normal="1949">1949</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1704,8 +1710,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link127">Item 2: Procedural and Substantive Aspects of Labor-Management Arbitration</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -1715,8 +1721,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link128">Item 3: The Process of Arbitration</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -1729,8 +1735,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link129">Arbitration</unittitle>
 					<unitdate normal="1957">1957</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
@@ -1740,8 +1746,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link130">Item 1: Bar, Bench, and Table: An Arbitral Drama</unittitle>
 						<unitdate normal="1957">1957</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1754,8 +1760,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link131">Item 2: "Ask Any Fair-Minded Man"</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -1765,8 +1771,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link132">Item 3: The Arbitration of Discharge Cases: What Happens After Reinstatement</unittitle>
 						<unitdate normal="1957">1957</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1780,18 +1786,18 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link133">Arbitration</unittitle>
-					<unitdate type="inclusive" normal="1961/1965">1961-1965</unitdate>
+					<unitdate normal="1961/1965" type="inclusive">1961-1965</unitdate>
 				</did>
 				<scopecontent>
 					<p>pamphlets, news clippings</p>
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link134">Item 1: Arbitration for Buyers and Sellers</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -1801,8 +1807,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link135">Item 2: Guidelines for Arbitration Witnesses: Suggestions for the Witness in Appearing at an Arbitration Hearing</unittitle>
 						<unitdate normal="1963">1963</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1815,8 +1821,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link136">Item 3: Arbitration in the Public Sector</unittitle>
 						<unitdate normal="1969">1969</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1829,8 +1835,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link137">Item 4: Preparation for Arbitration and Hearing Procedure: A Summary of Advice and Information for Company and Union Representatives</unittitle>
 						<unitdate normal="1962">1962</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1844,8 +1850,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link138">Item 5: Model Arbitration Clauses to Protect Management Rights</unittitle>
 						<unitdate normal="1961">1961</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1856,8 +1862,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link139">Item 6: A Supreme Court Justice Looks at Arbitration</unittitle>
 						<unitdate normal="1965">1965</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1871,8 +1877,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link140">Item 7: What's Wrong with Labor Arbitration?</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -1884,8 +1890,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link141">Item 8: Resistance to Grievance Arbitration</unittitle>
 						<unitdate normal="1962">1962</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1898,8 +1904,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link142">Item 9: Labor Arbitration: Procedures and Techniques</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -1909,8 +1915,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link143">Item 10: Arbitration in Illinois- Need for Change</unittitle>
 						<unitdate normal="1961">1961</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1924,8 +1930,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link144">Item 11: Hotta Attacks Arbitration Bill; Says Jails Would be Swamped</unittitle>
 						<unitdate normal="1963">1963</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1939,8 +1945,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link145">Item 12: Railroads Urge a Ban on Strikes</unittitle>
 						<unitdate normal="1963">1963</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1954,8 +1960,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link146">Item 13: On Arbitration: Critics Feel It Violates Basic Freedoms and Doesn't Work</unittitle>
 						<unitdate normal="1963">1963</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1969,8 +1975,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link147">Item 14: A Review of Arbitration in Labor Contracts</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -1983,15 +1989,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link148">Arbitration</unittitle>
-					<unitdate type="inclusive" normal="1972/1979">1972-1979</unitdate>
+					<unitdate normal="1972/1979" type="inclusive">1972-1979</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link149">Item 1: Evidence &amp; Proof in Arbitration</unittitle>
 						<unitdate normal="1977">1977</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2004,8 +2010,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link150">Item 2: Judicial and Administrative Deference to Arbitration</unittitle>
 						<unitdate normal="1972">1972</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2018,8 +2024,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link151">Item 3: The Coming End of Arbitration's Golden Age</unittitle>
 						<unitdate normal="1977">1977</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2032,8 +2038,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link152">Item 4: The Impact of External Law Upon Labor Arbitration</unittitle>
 						<unitdate normal="1976">1976</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2046,8 +2052,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link153">Item 5: Arbitration as a Substitute for Other Legal Remedies</unittitle>
 						<unitdate normal="1972">1972</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2060,8 +2066,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link154">Item 6: Analysis of Michigan Experience with Last Offer Compulsory Arbitration of Police and Fire Labor Disputes</unittitle>
 						<unitdate normal="1979">1979</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2076,15 +2082,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link155">Arbitration</unittitle>
-					<unitdate type="inclusive" normal="1980/1989">1980-1989</unitdate>
+					<unitdate normal="1980/1989" type="inclusive">1980-1989</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link156">Item 1: Alternative Dispute Resolution and Enforcement of Statutory Rights</unittitle>
 						<unitdate normal="1989">1989</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2098,8 +2104,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link157">Item 2: An Experiment in the Mediation of Grievances</unittitle>
 						<unitdate normal="1982">1982</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2112,8 +2118,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link158">Item 3: Decisional Thinking of Labor Arbitrators and Federal Judges as Triers of Fact</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2128,16 +2134,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link159">Arbitration</unittitle>
 					<unitdate normal="1996">1996</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link160">Item 1: Six Principles of Neutrality and Fairness for Employment Dispute Resolution Practice</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2149,15 +2155,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link161">Arbitration Compulsory</unittitle>
-					<unitdate type="inclusive" normal="1961/1965">1961-1965</unitdate>
+					<unitdate normal="1961/1965" type="inclusive">1961-1965</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link162">Item 1: The Pros and Cons of Compulsory Arbitration</unittitle>
 						<unitdate normal="1961">1961</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2170,8 +2176,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link163">Item 2: The Pros and Cons of Compulsory Arbitration</unittitle>
 						<unitdate normal="1965">1965</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2182,8 +2188,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link164">Item 3: Compulsory Arbitration: Panacea or Millstone?</unittitle>
 						<unitdate normal="1965">1965</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2197,15 +2203,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link165">Automation</unittitle>
-					<unitdate type="inclusive" normal="1962/1970">1962-1970</unitdate>
+					<unitdate normal="1962/1970" type="inclusive">1962-1970</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link166">Item 1: Automation Management: The Social Perspective</unittitle>
 						<unitdate normal="1970">1970</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2218,8 +2224,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link167">Item 2: Implications of Automation and Other Technological Developments</unittitle>
 						<unitdate normal="1962">1962</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2231,15 +2237,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link168">Autoworkers (UAW) General</unittitle>
-					<unitdate type="inclusive" normal="1963/1973">1963-1973</unitdate>
+					<unitdate normal="1963/1973" type="inclusive">1963-1973</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link169">Item 1: Labor Looks at Labor</unittitle>
 						<unitdate normal="1963">1963</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2250,8 +2256,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link170">Item 2: Solidarity House</unittitle>
 						<unitdate normal="1965">1965</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2264,8 +2270,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link171">Item 3: This Union Cause</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -2275,8 +2281,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link172">Item 4: Solidarity House</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -2287,15 +2293,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link173">Autoworkers (UAW) Public Review Board</unittitle>
-					<unitdate type="inclusive" normal="1957/1960">1957-1960</unitdate>
+					<unitdate normal="1957/1960" type="inclusive">1957-1960</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link174">Item 1: A More Perfect Union</unittitle>
 						<unitdate normal="1957">1957</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2306,10 +2312,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link175">Item 2: Second Annual Report of the Public Review Board to the Membership of the UAW</unittitle>
-						<unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate>
+						<unitdate normal="1958/1959" type="inclusive">1958-1959</unitdate>
 					</did>
 					<scopecontent>
 						<p>Language: English.</p>
@@ -2317,8 +2323,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link176">Item 3: Democracy and Public Review: An Analysis of the UAW Public Review Board</unittitle>
 						<unitdate normal="1960">1960</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2332,15 +2338,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link177">Autoworkers (UAW) Collective Bargaining Convention</unittitle>
-					<unitdate type="inclusive" normal="1967/1979">1967-1979</unitdate>
+					<unitdate normal="1967/1979" type="inclusive">1967-1979</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link178">Item 1: Workers' Problems Are Democracy's Problems</unittitle>
 						<unitdate normal="1961">1961</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2353,8 +2359,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link179">Item 2: UAW National Collective Bargaining Convention: Resolution-1979 Collective Bargaining Program</unittitle>
 						<unitdate normal="1979">1979</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2367,8 +2373,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link180">Item 3: Special Collective Bargaining Convention Proceedings</unittitle>
 						<unitdate normal="1961">1961</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2382,16 +2388,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link181">Autoworkers (UAW) 15th Constitutional Convention</unittitle>
 					<unitdate normal="1955">1955</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link182">Item 1: Report of Walter P. Reuther to the 15th Constitutional Convention</unittitle>
 						<unitdate normal="1955">1955</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2406,16 +2412,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link183">Autoworkers (UAW) Constitutional Convention</unittitle>
 					<unitdate normal="1958">1958</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link184">Item 1: Special Constitutional Convention Proceedings</unittitle>
 						<unitdate normal="1958">1958</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2429,16 +2435,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link185">Autoworkers (UAW) 18th Constitutional Convention</unittitle>
 					<unitdate normal="1962">1962</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link186">Item 1: 18th Constitutional Convention Proceedings</unittitle>
 						<unitdate normal="1962">1962</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2452,16 +2458,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link187">Autoworkers (UAW) 19th Constitutional Convention</unittitle>
 					<unitdate normal="1964">1964</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link188">Item 1: Report of President Walter P. Reuther to the 19th UAW Constitutional Convention</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 						<physdesc label="Format:">Publication</physdesc>

@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL04298::ILR School Faculty Arbitration Awards.)//EN">KCL04298</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL04298::ILR School Faculty Arbitration Awards.)//EN">KCL04298</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the ILR School Faculty Arbitration Awards<date> 1948-1967</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>October 05, 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the ILR School Faculty Arbitration Awards<lb/></titleproper>
+			<titleproper>Guide to the ILR School Faculty Arbitration Awards</titleproper>
 			<num>Collection Number: /4298</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,23 +54,23 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">ILR School Faculty Arbitration Awards, <unitdate encodinganalog="MARC 245$f">1948-1967</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">ILR School Faculty Arbitration Awards, 1948-1967
+			</unittitle><unitdate encodinganalog="MARC 245$f">1948-1967</unitdate>
 			<unitid label="Collection Number:">/4298</unitid>
 			<origination label="Creator:">
-				<corpname encodinganalog="MARC 110" role="creator">New York State School of Industrial and Labor Relations (NYSSILR)</corpname>;<lb/>
-				<persname encodinganalog="MARC 100" role="creator"> Alexander, Gabriel N.</persname>;<lb/>
-				<persname encodinganalog="MARC 100" role="creator"> Campbell, Ralph N.</persname>;<lb/>
-				<persname encodinganalog="MARC 100" role="creator"> Dunlop, John T.</persname>;<lb/>
-				<persname encodinganalog="MARC 100" role="creator"> Fuller, John J.</persname>;<lb/>
-				<persname encodinganalog="MARC 100" role="creator"> Jensen, Vernon H.</persname>;<lb/>
-				<persname encodinganalog="MARC 100" role="creator"> McKelvey, Jean T.</persname>;<lb/>
-				<persname encodinganalog="MARC 100" role="creator"> Mintz, Frederick M.</persname>;<lb/>
-				<persname encodinganalog="MARC 100" role="creator"> Raimon, Robert L.</persname>;<lb/>
+				<corpname encodinganalog="MARC 110" role="creator">New York State School of Industrial and Labor Relations (NYSSILR)</corpname>;
+				<persname encodinganalog="MARC 100" role="creator"> Alexander, Gabriel N.</persname>;
+				<persname encodinganalog="MARC 100" role="creator"> Campbell, Ralph N.</persname>;
+				<persname encodinganalog="MARC 100" role="creator"> Dunlop, John T.</persname>;
+				<persname encodinganalog="MARC 100" role="creator"> Fuller, John J.</persname>;
+				<persname encodinganalog="MARC 100" role="creator"> Jensen, Vernon H.</persname>;
+				<persname encodinganalog="MARC 100" role="creator"> McKelvey, Jean T.</persname>;
+				<persname encodinganalog="MARC 100" role="creator"> Mintz, Frederick M.</persname>;
+				<persname encodinganalog="MARC 100" role="creator"> Raimon, Robert L.</persname>;
 				<persname encodinganalog="MARC 100" role="creator"> Waldrin, John E.</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">0.5 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">0.5 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Awards.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor- Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">This is a collection of arbitration awards where the arbitrator was a member of the faculty of the New York State School of Industrial and Labor Relations. There are seventy awards ranging in date from 1948 to 1967. The
@@ -73,9 +79,9 @@
 			</langmaterial>
 		<physdesc><extent>0.5 cubic feet</extent></physdesc></did>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Alexander, Gabriel N., 1910- </persname>
 				<persname encodinganalog="MARC 600">Campbell, Ralph N.(Ralph Norton), 1910- </persname>
 				<persname encodinganalog="MARC 600">Dunlop, John T.(John Thomas), 1914-2003 </persname>
@@ -91,46 +97,46 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>ILR School Faculty Arbitration Awards #/4298. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL03001.html"> /3001: Jean T. McKelvey Papers</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL03002.html"> /3002: Vernon Jensen Papers</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL03041.html"> /3041: Ralph Campbell Papers</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL03062.html"> /3062: ILR School Public Information Center Publications</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04007.html"> /4007: Vernon Jensen Additional Records</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04128.html"> /4128: Vernon Jensen Additional Papers</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04137.html"> /4137: Vernon Jensen Additional Files</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04180.html"> /4180: Jean T. McKelvey Additional Papers</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04202.html"> /4202: Jean T. McKelvey Additional Files</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05133.html"> 5133: Gabriel Alexander Arbitration Files</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05602.html"> 5602: Gabriel Alexander Additional Arbitration Files</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05678.html"> 5678: Gabriel Alexander Additional Arbitration Files</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05789.html"> 5789: Gabriel Alexander Additional Arbitration Files</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05839.html"> 5839: Vernon Jenson Additional Arbitration Files</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05902.html"> 5902: Vernon Jensen Additional Arbitration Files</extref><lb/>
+			
+			<p>Related Collections:
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL03001.html"> /3001: Jean T. McKelvey Papers</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL03002.html"> /3002: Vernon Jensen Papers</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL03041.html"> /3041: Ralph Campbell Papers</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL03062.html"> /3062: ILR School Public Information Center Publications</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04007.html"> /4007: Vernon Jensen Additional Records</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04128.html"> /4128: Vernon Jensen Additional Papers</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04137.html"> /4137: Vernon Jensen Additional Files</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04180.html"> /4180: Jean T. McKelvey Additional Papers</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04202.html"> /4202: Jean T. McKelvey Additional Files</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05133.html"> 5133: Gabriel Alexander Arbitration Files</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05602.html"> 5602: Gabriel Alexander Additional Arbitration Files</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05678.html"> 5678: Gabriel Alexander Additional Arbitration Files</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05789.html"> 5789: Gabriel Alexander Additional Arbitration Files</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05839.html"> 5839: Vernon Jenson Additional Arbitration Files</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05902.html"> 5902: Vernon Jensen Additional Arbitration Files</extref>
 			</p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link8">Alexander, Gabriel N.</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -140,10 +146,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link9">Campbell, Ralph N.</unittitle>
-					<unitdate type="inclusive" normal="1955/1959">1955-1959</unitdate>
+					<unitdate normal="1955/1959" type="inclusive">1955-1959</unitdate>
 				</did>
 				<scopecontent>
 					<p>Five arbitration awards</p>
@@ -151,10 +157,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link10">Campbell, Ralph N.</unittitle>
-					<unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate>
+					<unitdate normal="1960/1965" type="inclusive">1960-1965</unitdate>
 				</did>
 				<scopecontent>
 					<p>Four arbitration awards</p>
@@ -162,8 +168,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link11">Dunlop, John T.</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -173,8 +179,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link12">Flagler, John J.</unittitle>
 					<unitdate normal="1962">1962</unitdate>
 				</did>
@@ -184,8 +190,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link13">Jensen, Vernon H.</unittitle>
 					<unitdate normal="1964">1964</unitdate>
 				</did>
@@ -195,8 +201,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link14">Jensen, Vernon H.</unittitle>
 					<unitdate normal="1965">1965</unitdate>
 				</did>
@@ -206,8 +212,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link15">Jensen, Vernon H.</unittitle>
 					<unitdate normal="1966">1966</unitdate>
 				</did>
@@ -217,10 +223,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link16">McKelvey, Jean T.</unittitle>
-					<unitdate type="inclusive" normal="1953/1958">1953-1958</unitdate>
+					<unitdate normal="1953/1958" type="inclusive">1953-1958</unitdate>
 				</did>
 				<scopecontent>
 					<p>Six arbitration awards</p>
@@ -228,10 +234,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link17">McKelvey, Jean T.</unittitle>
-					<unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate>
+					<unitdate normal="1962/1967" type="inclusive">1962-1967</unitdate>
 				</did>
 				<scopecontent>
 					<p>Eight arbitration awards</p>
@@ -239,8 +245,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link18">Mintz, Frederick M.</unittitle>
 					<unitdate normal="1955">1955</unitdate>
 				</did>
@@ -250,10 +256,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link19">Raimon, Robert L.</unittitle>
-					<unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate>
+					<unitdate normal="1960/1962" type="inclusive">1960-1962</unitdate>
 				</did>
 				<scopecontent>
 					<p>Two arbitration awards</p>
@@ -261,8 +267,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link20">Waldrin, John E.</unittitle>
 					<unitdate normal="1967">1967</unitdate>
 				</did>
@@ -272,8 +278,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link21">Arbitrator not stated</unittitle>
 					<unitdate normal="1960">1960</unitdate>
 				</did>

@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-121::ILGWU Archives Department, Robert Lazar Papers.)//EN">KCL05780-121</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-121::ILGWU Archives Department, Robert Lazar Papers.)//EN">KCL05780-121</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the ILGWU Archives Department, Robert Lazar Papers<date>
@@ -25,21 +25,27 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>April 15,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
             <titleproper>Guide to the ILGWU Archives Department, Robert Lazar
-                Papers<lb/></titleproper>
+                Papers</titleproper>
             <num>Collection Number: 5780/121</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -58,17 +64,17 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">ILGWU Archives Department, Robert
-                Lazar Papers, <unitdate encodinganalog="MARC 245$f">1890-1985</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">ILGWU Archives Department, Robert
+                Lazar Papers, 1890-1985
+            </unittitle><unitdate encodinganalog="MARC 245$f">1890-1985</unitdate>
             <unitid label="Collection Number:">5780/121</unitid>
             <origination label="Creator:">
-                <persname encodinganalog="MARC 100" role="creator">Lazar, Robert</persname>;<lb/>
+                <persname encodinganalog="MARC 100" role="creator">Lazar, Robert</persname>;
                 <corpname encodinganalog="MARC 110" role="creator"> International Ladies' Garment
                     Workers' Union (ILGWU)</corpname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">4.3 linear ft.</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">4.3 linear ft.</physdesc>
             <physdesc label="Forms of Material:">Records (documents).</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -80,7 +86,7 @@
             </langmaterial>
         <physdesc><extent>4.33 cubic feet</extent></physdesc></did>
         <bioghist encodinganalog="MARC 545">
-            <head id="a2" altrender="organizational history">ILGWU ORGANIZATIONAL HISTORY</head>
+            
             <p>The International Ladies' Garment Workers' Union was once one of the largest labor
                 unions in the United States founded in 1900 by local union delegates representing
                 about 2,000 members in cities in the northeastern United States. It was one of the
@@ -100,7 +106,7 @@
                 in 1969.</p>
         </bioghist>
         <bioghist encodinganalog="MARC 545">
-            <head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+            
             <p>The ILGWU Archives were established in New York City in 1973, under the direction of
                 Henoch Mendelsund. Robert Lazar served as archivist. The archives sought to collect
                 union correspondence, meeting minutes, collective bargaining agreements,
@@ -108,7 +114,7 @@
                 ILGWU Archives were transferred to the Kheel Center.</p>
         </bioghist>
         <scopecontent encodinganalog="MARC 520">
-            <head id="a3">COLLECTION DESCRIPTION</head>
+            
             <p>The records of the Archives Department include administrative records files relating
                 to the establishment and operation of the unit, subject files containing photocopies
                 of archival material, archival records maintained by the department, and
@@ -144,15 +150,15 @@
                 (5780/121) is published sheet music.</p>
         </scopecontent>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <persname encodinganalog="MARC 600">Lazar, Robert </persname>
                 <corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union.
                 </corpname>
             </controlaccess>
             <controlaccess>
-                <head>Subjects: </head>
+                
                 <subject encodinganalog="MARC 650">Women's clothing industry--United States. </subject>
                 <subject encodinganalog="MARC 650">Clothing workers--Labor unions--United States. </subject>
                 <subject encodinganalog="MARC 650">Clothing workers--United States. </subject>
@@ -162,36 +168,36 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>ILGWU Archives Department, Robert Lazar Papers #5780/121. Kheel Center for
                     Labor-Management Documentation and Archives, Cornell University Library.</p>
             </prefercite>
         </descgrp>
         <relatedmaterial>
-            <head id="a6">RELATED MATERIALS</head>
-            <p>Related Collections:<lb/>
+            
+            <p>Related Collections:
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780.html"> 5780:
-                    ILGWU records</extref><lb/>
+                    ILGWU records</extref>
             </p>
         </relatedmaterial>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link8">Schoenwald: Labor Studies Center -- Retirement
                         Planning</unittitle>
                     <unitdate normal="1973">1973</unitdate>
@@ -199,8 +205,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link9">Schoenwald: Friendly Visitors Program (Office for the
                         Aging)</unittitle>
                     <unitdate normal="1972">1972</unitdate>
@@ -208,8 +214,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link10">Schoenwald: Office for the Aging (Governor's Advisory
                         Committee)</unittitle>
                     <unitdate normal="1982">1982</unitdate>
@@ -217,16 +223,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link11">Age Discrimination in Employment Act of 1967</unittitle>
                     <unitdate normal="1967">1967</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link12">Aging: White House Conference on Aging -- Correspondence
                         and Surveys</unittitle>
                     <unitdate normal="1982">1982</unitdate>
@@ -234,8 +240,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link13">Aging: White House Conference on Aging -- Articles
                         (Clippings)</unittitle>
                     <unitdate normal="1981">1981</unitdate>
@@ -243,17 +249,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link14">Social Security: Bert Seidman --
                         Correspondence</unittitle>
-                    <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+                    <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link15">Social Security: Hearings of the Select Committee on
                         Aging (Shoenwald)</unittitle>
                     <unitdate normal="1983">1983</unitdate>
@@ -261,32 +267,32 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link16">Schneider, Ed: Correspondence</unittitle>
-                    <unitdate type="inclusive" normal="1978/1983">1978-1983</unitdate>
+                    <unitdate normal="1978/1983" type="inclusive">1978-1983</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link17">ILGWU Retirees Membership Meeting</unittitle>
-                    <unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate>
+                    <unitdate normal="1959/1961" type="inclusive">1959-1961</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link18">Civil Rights Complaint Against ILGWU</unittitle>
                     <unitdate normal="1968">1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link19">Daily Labor Report and Miscellaneous Legal
                         Updates</unittitle>
                     <unitdate normal="1968">1968</unitdate>
@@ -294,20 +300,20 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link20">Local 89 (Dressmakers Union): Executive Board
                         Minutes</unittitle>
-                    <unitdate type="inclusive" normal="1976/1984">1976-1984</unitdate>
+                    <unitdate normal="1976/1984" type="inclusive">1976-1984</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link21">Local 89 (Italian Dressmakers Union): Executive Board
                         Minutes</unittitle>
-                    <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate>
+                    <unitdate normal="1974/1976" type="inclusive">1974-1976</unitdate>
                 </did>
                 <scopecontent>
                     <p>Bound volume</p>
@@ -315,49 +321,49 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link22">Local 89 (Dress and Waistmakers' Union): Summer Colony
                         Minutes and Audit</unittitle>
-                    <unitdate type="inclusive" normal="1923/1927">1923-1927</unitdate>
+                    <unitdate normal="1923/1927" type="inclusive">1923-1927</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link23">Local 2585/414: Minutes</unittitle>
-                    <unitdate type="inclusive" normal="1940/1945">1940-1945</unitdate>
+                    <unitdate normal="1940/1945" type="inclusive">1940-1945</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link24">Local 414: Minutes</unittitle>
-                    <unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate>
+                    <unitdate normal="1945/1946" type="inclusive">1945-1946</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link25">Local 414: Minutes</unittitle>
-                    <unitdate type="inclusive" normal="1946/1961">1946-1961</unitdate>
+                    <unitdate normal="1946/1961" type="inclusive">1946-1961</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link26">Local 48: Executive Board Minutes</unittitle>
-                    <unitdate type="inclusive" normal="1978/1981">1978-1981</unitdate>
+                    <unitdate normal="1978/1981" type="inclusive">1978-1981</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link27">Appeal Committee, ILGWU: Hearings re Charges Against
                         Local 9</unittitle>
                     <unitdate normal="1933">1933</unitdate>
@@ -368,10 +374,10 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link28">Dress Code Authority: Minutes</unittitle>
-                    <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate>
+                    <unitdate normal="1933/1934" type="inclusive">1933-1934</unitdate>
                 </did>
                 <scopecontent>
                     <p>Bound volume</p>
@@ -379,34 +385,34 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">22</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">22</container>
                     <unittitle id="link29">Dubinsky: Gov. Cuomo Citation</unittitle>
                     <unitdate normal="1983">1983</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link30">Biflex Foundations: Agreement with ILGWU, Corset and
                         Brassiere Workers of NY Local 32 and Amalgamated Ladies' Garment Cutters'
                         Union Local 10</unittitle>
-                    <unitdate type="inclusive" normal="1954/1958">1954- 1958</unitdate>
+                    <unitdate normal="1954/1958" type="inclusive">1954- 1958</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link31">Sophie R. Quinn Scholarship Fund</unittitle>
                     <unitdate normal="1970">1970</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link32">Walterboro Dress Corp. (William Baliush, President):
                         Promissory Note to ILGWU Revolving Fund</unittitle>
                     <unitdate normal="1958">1958</unitdate>
@@ -414,8 +420,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link33">Wind 'n' Sky (Saul Weinstein): Promissory Note to ILGWU
                         Southeast Region</unittitle>
                     <unitdate normal="1967">1967</unitdate>
@@ -423,8 +429,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link34">YIVO Institute for Jewish Research, Inc.: Mortgage Note
                         with ILGWU</unittitle>
                     <unitdate normal="1979">1979</unitdate>
@@ -432,52 +438,52 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link35">Mortgage Loans, Georgia</unittitle>
                     <unitdate normal="1965">1965</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link36">One-Ninety Corporation: Articles of Incorporation,
                         By-Laws, Stock (Knit Goods Workers Union, Local 190,
                         Philadelphia)</unittitle>
-                    <unitdate type="inclusive" normal="1960/1976">1960-1976</unitdate>
+                    <unitdate normal="1960/1976" type="inclusive">1960-1976</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link37">One-Ninety Corporation: Tax Exemption Letter</unittitle>
                     <unitdate normal="1961">1961</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link38">One-Ninety Corporation: Tax Returns (Form
                         990)</unittitle>
-                    <unitdate type="inclusive" normal="1965/1981">1965-1981</unitdate>
+                    <unitdate normal="1965/1981" type="inclusive">1965-1981</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link39">Arbitration Awards: Cases Heard by Raymond V.
                         Ingersoll</unittitle>
-                    <unitdate type="inclusive" normal="1924/1926">1924-1926</unitdate>
+                    <unitdate normal="1924/1926" type="inclusive">1924-1926</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link40">Arbitration Awards: Cases Heard by Arthur S.
                         Meyer</unittitle>
                     <unitdate normal="1946">1946</unitdate>
@@ -485,8 +491,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link41">Arbitration Awards: Cases Heard by Harry
                         Hopkins</unittitle>
                     <unitdate normal="1945">1945</unitdate>
@@ -494,8 +500,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link42">ILGWU Local 25, Dress and Waist Manufacturers'
                         Association: Conference</unittitle>
                     <unitdate normal="1915">1915</unitdate>
@@ -503,8 +509,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link43">ILGWU, Cloak, Suit and Skirt Manufacturers' Protective
                         Association, NY Joint Board of Cloak and Skirt Makers' Union: Council of
                         Conciliation Findings and Recommendations</unittitle>
@@ -513,8 +519,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link44">Joint Board of Cloak, Skirt and Reefer Makers' Union of
                         Greater NY: Correspondence</unittitle>
                     <unitdate normal="1920">1920</unitdate>
@@ -522,8 +528,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link45">Industrial Council of Cloak, Skirt, and Suit
                         Manufacturers: Legal Briefs</unittitle>
                     <unitdate normal="1926">1926</unitdate>
@@ -534,210 +540,210 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link46">Los Angeles Cloak Joint Board</unittitle>
-                    <unitdate type="inclusive" normal="1959/1963">1959-1963</unitdate>
+                    <unitdate normal="1959/1963" type="inclusive">1959-1963</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link47">Amphenol-Borg (Delavan and Jefferson)
                         Agreements/Negotiations</unittitle>
-                    <unitdate type="inclusive" normal="1962/1966">1962-1966</unitdate>
+                    <unitdate normal="1962/1966" type="inclusive">1962-1966</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link48">Borg Textiles: Bunker-Ramos Corporation (Delavan and
                         Jefferson) -- Negotiations and Agreement</unittitle>
-                    <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+                    <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link49">H. W. Gossard: Agreement with ILGWU</unittitle>
                     <unitdate normal="1970">1970</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link50">Wausau: Marathon Rubber Products --
                         Negotiations</unittitle>
-                    <unitdate type="inclusive" normal="1970/1973">1970-1973</unitdate>
+                    <unitdate normal="1970/1973" type="inclusive">1970-1973</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">22</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">22</container>
                     <unittitle id="link51">Wausau: Negotiations</unittitle>
                     <unitdate normal="1963">1963</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">23</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">23</container>
                     <unittitle id="link52">Wausau: Local 374 -- NLRB Election -- Correspondence and
                         Contract Notes</unittitle>
-                    <unitdate type="inclusive" normal="1946/1950">1946-1950</unitdate>
+                    <unitdate normal="1946/1950" type="inclusive">1946-1950</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">24</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">24</container>
                     <unittitle id="link53">Central States Region: Meyer Perlstein (ILGWU Vice
                         President) -- Correspondence</unittitle>
-                    <unitdate type="inclusive" normal="1937/1951">1937-1951</unitdate>
+                    <unitdate normal="1937/1951" type="inclusive">1937-1951</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">25</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">25</container>
                     <unittitle id="link54">Central States Region: Agreements and Cases</unittitle>
-                    <unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate>
+                    <unitdate normal="1937/1940" type="inclusive">1937-1940</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">26</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">26</container>
                     <unittitle id="link55">Central States Region (Chicago): Agreement,
                         Injunction</unittitle>
-                    <unitdate type="inclusive" normal="1890/1924">1890-1924</unitdate>
+                    <unitdate normal="1890/1924" type="inclusive">1890-1924</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">27</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">27</container>
                     <unittitle id="link56">Unity House/Pike County Hotels Corporation: Dining Room
                         Salaries, Income Statement</unittitle>
-                    <unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate>
+                    <unitdate normal="1935/1936" type="inclusive">1935-1936</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">28</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">28</container>
                     <unittitle id="link57">Unity House/Pike County Hotels Corporation: Financial
                         Reports</unittitle>
-                    <unitdate type="inclusive" normal="1937/1941">1937-1941</unitdate>
+                    <unitdate normal="1937/1941" type="inclusive">1937-1941</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">29</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">29</container>
                     <unittitle id="link58">Unity House: Tax-Exempt Status</unittitle>
                     <unitdate normal="1968">1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">30</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">30</container>
                     <unittitle id="link59">Grossinger's and Local 1 Dining Room
                         Employees</unittitle>
-                    <unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate>
+                    <unitdate normal="1963/1965" type="inclusive">1963-1965</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">31</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">31</container>
                     <unittitle id="link60">Unity Broadcasting Corporation of Massachusetts: Stock
                         Certificates</unittitle>
-                    <unitdate type="inclusive" normal="1945/1947">1945-1947</unitdate>
+                    <unitdate normal="1945/1947" type="inclusive">1945-1947</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">32</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">32</container>
                     <unittitle id="link61">Union Dues</unittitle>
                     <unitdate normal="1974">1974</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link62">50th Anniversary: Local 178</unittitle>
                     <unitdate normal="1984">1984</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link63">All American Fashion Show</unittitle>
                     <unitdate normal="1985">1985</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link64">Chaikin 10th Anniversary Invitations</unittitle>
                     <unitdate normal="1985">1985</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link65">Affiliated Dress Manufacturers: Agreement</unittitle>
                     <unitdate normal="1976">1976</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link66">Affiliated Dress Manufacturing: Agreement</unittitle>
                     <unitdate normal="1979">1979</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link67">Liberal Party Primary: Gus Tyler</unittitle>
                     <unitdate normal="1968">1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link68">Liberal Party Primary: Javits</unittitle>
                     <unitdate normal="1968">1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link69">Liberal Party Primary: Johnson</unittitle>
                     <unitdate normal="1968">1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link70">Liberal Party Primary: Republican-Liberal Collaboration
                         Scandal -- Newspaper Clippings</unittitle>
                     <unitdate normal="1973">1973</unitdate>
@@ -745,48 +751,48 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link71">Liberal Party Primary: Newspaper Clippings</unittitle>
-                    <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate>
+                    <unitdate normal="1966/1968" type="inclusive">1966-1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link72">Local 10: 1968 Election</unittitle>
                     <unitdate normal="1968">1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link73">ILGWU: Newspaper Clippings</unittitle>
-                    <unitdate type="inclusive" normal="1975/1982">1975-1982</unitdate>
+                    <unitdate normal="1975/1982" type="inclusive">1975-1982</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link74">ILGWU: Convention and Election</unittitle>
                     <unitdate normal="1962">1962</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link75">ILGWU: Convention and Election</unittitle>
                     <unitdate normal="1968">1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link76">Meyer London Biography Manuscript by Marx
                         Lewis</unittitle>
                     <unitdate normal="1985">1985</unitdate>
@@ -794,16 +800,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link77">National Maritime Union Election</unittitle>
-                    <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+                    <unitdate normal="1967/1968" type="inclusive">1967-1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link78">Trade Union Advisory Committee on International Affairs:
                         German Trade Unions</unittitle>
                     <unitdate normal="1948">1948</unitdate>
@@ -811,16 +817,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link79">Union Labor Life Insurance Company</unittitle>
-                    <unitdate type="inclusive" normal="1961/1970">1961-1970</unitdate>
+                    <unitdate normal="1961/1970" type="inclusive">1961-1970</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link80">Union Health Center: 50th Anniversary Commemorative Medal
                         (JFK)</unittitle>
                     <unitdate normal="1963">1963</unitdate>
@@ -828,25 +834,25 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link81">Correspondence, Miscellaneous</unittitle>
-                    <unitdate type="inclusive" normal="1982/1985">1982-1985</unitdate>
+                    <unitdate normal="1982/1985" type="inclusive">1982-1985</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link82">Education Department: Training for Trade Union Service
                         Course</unittitle>
-                    <unitdate type="inclusive" normal="1935/1940">1935-1940</unitdate>
+                    <unitdate normal="1935/1940" type="inclusive">1935-1940</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">22</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">22</container>
                     <unittitle id="link83">Venezuela Labor Mission and Exhibition, "Unions In
                         Action"</unittitle>
                     <unitdate normal="1970">1970</unitdate>
@@ -854,11 +860,11 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">23</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">23</container>
                     <unittitle id="link84">Progressive Dressmakers Workmen's Circle Branch 122:
                         Scrapbook</unittitle>
-                    <unitdate type="inclusive" normal="1943/1945">1943-1945</unitdate>
+                    <unitdate normal="1943/1945" type="inclusive">1943-1945</unitdate>
                 </did>
                 <scopecontent>
                     <p>Some material in Hebrew alphabet</p>
@@ -866,8 +872,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link85">Union Label</unittitle>
                     <unitdate normal="1975">1975</unitdate>
                 </did>
@@ -877,8 +883,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link86">Have a Heart, Taft-Hartley</unittitle>
                     <unitdate normal="1947">1947</unitdate>
                 </did>
@@ -888,8 +894,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link87">Men Awake!</unittitle>
                     <unitdate normal="1937">1937</unitdate>
                 </did>
@@ -899,8 +905,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link88">I Hear America Singing</unittitle>
                     <unitdate normal="1951">1951</unitdate>
                 </did>
@@ -910,8 +916,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link89">Cradle Song</unittitle>
                 </did>
                 <scopecontent>
@@ -920,8 +926,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link90">Af a Fule Voch</unittitle>
                 </did>
                 <scopecontent>
@@ -930,8 +936,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link91">Cavalleria Rusticana</unittitle>
                 </did>
                 <scopecontent>
@@ -940,8 +946,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link92">Di Shvue</unittitle>
                 </did>
                 <scopecontent>
@@ -950,8 +956,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link93">Four Russian Folk Songs</unittitle>
                 </did>
                 <scopecontent>
@@ -960,8 +966,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link94">It's a Grand Night for Singing: Williamson Music, Inc.,
                         Choral Series</unittitle>
                     <unitdate normal="1945">1945</unitdate>
@@ -972,8 +978,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link95">Jota</unittitle>
                 </did>
                 <scopecontent>
@@ -982,8 +988,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link96">Les Millions D'Arlequin</unittitle>
                 </did>
                 <scopecontent>
@@ -992,8 +998,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link97">Lustspiel Overture</unittitle>
                 </did>
                 <scopecontent>
@@ -1002,8 +1008,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link98">Minuett from G Minor Symphony</unittitle>
                 </did>
                 <scopecontent>
@@ -1012,8 +1018,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link99">Orientale</unittitle>
                 </did>
                 <scopecontent>
@@ -1022,8 +1028,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link100">March of the Sardar</unittitle>
                 </did>
                 <scopecontent>
@@ -1032,8 +1038,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link101">Romanza Andaluza</unittitle>
                 </did>
                 <scopecontent>
@@ -1042,8 +1048,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link102">Sarabande and Gavotte</unittitle>
                 </did>
                 <scopecontent>
@@ -1052,8 +1058,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link103">Serenade D'Autrefois</unittitle>
                 </did>
                 <scopecontent>
@@ -1062,8 +1068,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link104">Serenade in Four Movements (Eine Kleine
                         Nachtmusik)</unittitle>
                 </did>
@@ -1073,8 +1079,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link105">Slavonic Dance</unittitle>
                 </did>
                 <scopecontent>
@@ -1083,8 +1089,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">22</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">22</container>
                     <unittitle id="link106">S'Loifen S'Yogen</unittitle>
                 </did>
                 <scopecontent>
@@ -1093,8 +1099,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">23</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">23</container>
                     <unittitle id="link107">Transcriptions for Mandolin Orchestra</unittitle>
                 </did>
                 <scopecontent>
@@ -1103,8 +1109,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">24</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">24</container>
                     <unittitle id="link108">Titus</unittitle>
                 </did>
                 <scopecontent>
@@ -1113,8 +1119,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">25</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">25</container>
                     <unittitle id="link109">Bach: Aria and Minuet</unittitle>
                 </did>
                 <scopecontent>
@@ -1123,8 +1129,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">26</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">26</container>
                     <unittitle id="link110">Bach: First Mandolin</unittitle>
                 </did>
                 <scopecontent>
@@ -1133,8 +1139,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">27</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">27</container>
                     <unittitle id="link111">Gopak</unittitle>
                 </did>
                 <scopecontent>
@@ -1143,8 +1149,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">28</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">28</container>
                     <unittitle id="link112">Gopak Complete</unittitle>
                 </did>
                 <scopecontent>
@@ -1153,8 +1159,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">29</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">29</container>
                     <unittitle id="link113">Slave March (Tschaikowsky)</unittitle>
                 </did>
                 <scopecontent>
@@ -1163,8 +1169,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">30</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">30</container>
                     <unittitle id="link114">Hungarian Dance No. 5 (Brahms)</unittitle>
                 </did>
                 <scopecontent>
@@ -1173,8 +1179,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">31</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">31</container>
                     <unittitle id="link115">Symphony No. 6 Surprise and Miscellaneous</unittitle>
                 </did>
                 <scopecontent>
@@ -1183,8 +1189,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">32</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">32</container>
                     <unittitle id="link116">Prelude in G Minor and Miscellaneous</unittitle>
                 </did>
                 <scopecontent>
@@ -1193,8 +1199,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">33</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">33</container>
                     <unittitle id="link117">Anitra's Dance</unittitle>
                 </did>
                 <scopecontent>
@@ -1203,8 +1209,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">34</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">34</container>
                     <unittitle id="link118">Minuet in G (Beethoven)</unittitle>
                 </did>
                 <scopecontent>
@@ -1213,8 +1219,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">35</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">35</container>
                     <unittitle id="link119">The Nightingale</unittitle>
                 </did>
                 <scopecontent>
@@ -1223,8 +1229,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">36</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">36</container>
                     <unittitle id="link120">Aria and Minuet (Bach)</unittitle>
                 </did>
                 <scopecontent>
@@ -1233,8 +1239,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">37</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">37</container>
                     <unittitle id="link121">National School Orchestra: On the Volga and
                         Miscellaneous</unittitle>
                 </did>
@@ -1244,8 +1250,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">38</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">38</container>
                     <unittitle id="link122">Schirmer's Band Music: Second Hungarian Rhapsody and
                         Miscellaneous</unittitle>
                 </did>
@@ -1255,8 +1261,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">39</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">39</container>
                     <unittitle id="link123">Festival Fantasy, Cielito Lindo (Paparello)</unittitle>
                 </did>
                 <scopecontent>
@@ -1265,8 +1271,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">40</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">40</container>
                     <unittitle id="link124">La Golondrina and Miscellaneous</unittitle>
                 </did>
                 <scopecontent>
@@ -1275,8 +1281,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">41</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">41</container>
                     <unittitle id="link125">Prelude (Rachmaninoff)</unittitle>
                 </did>
                 <scopecontent>
@@ -1285,8 +1291,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">42</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">42</container>
                     <unittitle id="link126">Marche Militaire</unittitle>
                     <unitdate normal="1917">1917</unitdate>
                 </did>
@@ -1296,8 +1302,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">43</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">43</container>
                     <unittitle id="link127">Largo</unittitle>
                     <unitdate normal="1925">1925</unitdate>
                 </did>
@@ -1307,10 +1313,10 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link128">Accounting Ledgers: Central States (book 1)</unittitle>
-                    <unitdate type="inclusive" normal="1934/1938">1934-1938</unitdate>
+                    <unitdate normal="1934/1938" type="inclusive">1934-1938</unitdate>
                 </did>
                 <scopecontent>
                     <p>Brittle, bound; oversized box</p>
@@ -1318,10 +1324,10 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link129">Accounting Ledgers: Central States (book 2)</unittitle>
-                    <unitdate type="inclusive" normal="1934/1938">1934-1938</unitdate>
+                    <unitdate normal="1934/1938" type="inclusive">1934-1938</unitdate>
                 </did>
                 <scopecontent>
                     <p>Brittle, bound; oversized box</p>

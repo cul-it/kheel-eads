@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05247::Mitchell Sviridoff Papers.)//EN">KCL05247</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05247::Mitchell Sviridoff Papers.)//EN">KCL05247</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Mitchell Sviridoff Papers<date> 1877-1958</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>February 22, 2017</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Mitchell Sviridoff Papers<lb/></titleproper>
+			<titleproper>Guide to the Mitchell Sviridoff Papers</titleproper>
 			<num>Collection Number: 5247</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,14 +54,14 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Mitchell Sviridoff Papers, <unitdate encodinganalog="MARC 245$f">1877-1958</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Mitchell Sviridoff Papers, 1877-1958
+			</unittitle><unitdate encodinganalog="MARC 245$f">1877-1958</unitdate>
 			<unitid label="Collection Number:">5247</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">Sviridoff, Mitchell</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">8 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">8 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Correspondence, papers (documents), correspondence.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">Correspondence, speeches and writings about Connecticut labor, economic and agricultural history.</abstract>
@@ -63,13 +69,13 @@
 			</langmaterial>
 		<physdesc><extent>8 cubic feet</extent></physdesc></did>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Sviridoff, Mitchell, 1918- </persname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Connecticut -- Economic conditions </subject>
 				<subject encodinganalog="MARC 650">Connecticut -- Economic policy </subject>
 				<subject encodinganalog="MARC 690">Israel. Foreign relations. United States. </subject>
@@ -81,26 +87,26 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Mitchell Sviridoff Papers #5247. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">All</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">All</container>
 					<unittitle id="link8">Speeches, writings, and Correspondence</unittitle>
 				</did>
 				<scopecontent>
@@ -113,15 +119,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">All</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">All</container>
 					<unittitle id="link9">Tapes, phonograph records, articles, speeches</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">All</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">All</container>
 					<unittitle id="link10">Materials</unittitle>
 				</did>
 				<scopecontent>
@@ -132,31 +138,31 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link11">Economy and history of the State. Agricultural History; Economic and Social Structure; wage data</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link12">Ethnicity of Connecticut. Ethnic surveys.</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link13">Connecticut Labor Before 1850 (paper)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link14">Connecticut Labor </unittitle>
-					<unitdate type="inclusive" normal="1877/1914">1877-1914</unitdate>
+					<unitdate normal="1877/1914" type="inclusive">1877-1914</unitdate>
 				</did>
 				<scopecontent>
 					<p>Immigration, Knights of Labor, Industrial Conflict, Conn. Fed. of Labor (papers)</p>
@@ -164,8 +170,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link15">Miscellaneous: Hartford Labor History</unittitle>
 				</did>
 				<scopecontent>
@@ -174,98 +180,98 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link16">Hartford Times clippings</unittitle>
-					<unitdate type="inclusive" normal="1915/1920">1915-1920</unitdate>
+					<unitdate normal="1915/1920" type="inclusive">1915-1920</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link17">Hartford Times clippings</unittitle>
 					<unitdate normal="1930">1930</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link18">Hartford Times clippings</unittitle>
 					<unitdate normal="1932">1932</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link19">Hartford Times clippings</unittitle>
 					<unitdate normal="1933">1933</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link20">Hartford Times clippings</unittitle>
 					<unitdate normal="1934">1934</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link21">Hartford Times clippings</unittitle>
 					<unitdate normal="1935">1935</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link22">Hartford Times clippings</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link23">Hartford Times clippings</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link24">Hartford Times clippings</unittitle>
 					<unitdate normal="1938">1938</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">14a</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">14a</container>
 					<unittitle id="link25">Hartford Times clippings</unittitle>
 					<unitdate normal="1939">1939</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link26">Hartford Daily Courant</unittitle>
-					<unitdate type="inclusive" normal="1913/1938">1913-1938</unitdate>
+					<unitdate normal="1913/1938" type="inclusive">1913-1938</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link27">Strikes</unittitle>
-					<unitdate type="inclusive" normal="1919/1935">1919-1935</unitdate>
+					<unitdate normal="1919/1935" type="inclusive">1919-1935</unitdate>
 				</did>
 				<scopecontent>
 					<p>clippings from Hartford Courant and Hartford Times</p>
@@ -273,8 +279,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link28">Miscellaneous notes </unittitle>
 				</did>
 				<scopecontent>
@@ -283,22 +289,22 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link29">Individual Unions- before 1902 (Alphabetically by City)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link30">Individual Unions- histories</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link31">Connecticut Valley Worker</unittitle>
 					<unitdate normal="1921">1921</unitdate>
 				</did>
@@ -308,8 +314,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">20a</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">20a</container>
 					<unittitle id="link32">Connecticut Craftsman</unittitle>
 					<unitdate normal="1901">1901</unitdate>
 				</did>
@@ -319,84 +325,84 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link33">Anthony Mukenna: Federal Writers Work Project, Research Report</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link34">Labor Union Directory</unittitle>
 					<unitdate normal="1917">1917</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link35">Political Handbills- Labor, Socialist Parties</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link36">Poster on Immigrants, "Plymouth Rock and Ellis Island"</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link37">List of Factories in Connecticut - Dept. of Factory Inspection</unittitle>
 					<unitdate normal="1935">1935</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link38">Brotherhood of Railroad Trainmen, Newsletter</unittitle>
 					<unitdate normal="1938">1938</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link39">Letters- City of Bridgeport; NYU</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link40">Investigation into the Affairs of Local 937, UAW. </unittitle>
 					<unitdate normal="1950">1950</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">29-30</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">29-30</container>
 					<unittitle id="link41">Conntcticut State CIO Yearbook</unittitle>
-					<unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>
+					<unitdate normal="1956/1957" type="inclusive">1956-1957</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">31-32</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">31-32</container>
 					<unittitle id="link42">Connecticut State Labor Council Yearbook</unittitle>
-					<unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
+					<unitdate normal="1957/1958" type="inclusive">1957-1958</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">All</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">All</container>
 					<unittitle id="link43">Materials</unittitle>
 				</did>
 				<scopecontent>
@@ -407,8 +413,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">All</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">All</container>
 					<unittitle id="link44">Materials</unittitle>
 				</did>
 				<scopecontent>
@@ -418,13 +424,13 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unittitle id="link45">Record lathe/dictation machine</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unittitle id="link46">Images digitized from the collection.</unittitle>
 				</did>
 			</c01>

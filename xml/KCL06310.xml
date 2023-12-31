@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06310::State of Connecticut Board of Labor Relations Decisions.)//EN">KCL06310</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06310::State of Connecticut Board of Labor Relations Decisions.)//EN">KCL06310</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the State of Connecticut Board of Labor Relations Decisions<date> 1992-2016</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>August 31, 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the State of Connecticut Board of Labor Relations Decisions<lb/></titleproper>
+			<titleproper>Guide to the State of Connecticut Board of Labor Relations Decisions</titleproper>
 			<num>Collection Number: 6310</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,59 +54,59 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">State of Connecticut Board of Labor Relations Decisions, <unitdate encodinganalog="MARC 245$f">1992-2016</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">State of Connecticut Board of Labor Relations Decisions, 1992-2016
+			</unittitle><unitdate encodinganalog="MARC 245$f">1992-2016</unitdate>
 			<unitid label="Collection Number:">6310</unitid>
 			<origination label="Creator:">
-				<corpname encodinganalog="MARC 110" role="creator">State of Connecticut Board of Labor Relations</corpname>;<lb/>
+				<corpname encodinganalog="MARC 110" role="creator">State of Connecticut Board of Labor Relations</corpname>;
 				<corpname encodinganalog="MARC 110" role="creator"> Kheel Center</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">4 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">4 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Decisions.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<langmaterial label="Language:">Collection material in <language encodinganalog="MARC 041" langcode="eng">English</language>
 			</langmaterial>
 		<physdesc><extent>4 cubic feet</extent></physdesc></did>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<corpname encodinganalog="MARC 610">State of Connectivut Board of Labor. </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Collective labor agreements--Connecticut--Officials and employees </subject>
 			</controlaccess>
 			<controlaccess>
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>State of Connecticut Board of Labor Relations Decisions #6310. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unittitle id="link8">Decision no.3000 (1992:Apr. 22) - no.3646 (1998:Dec. 15).</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link9">Decisions 3000 - 3050</unittitle>
 						<unitdate normal="1992">1992</unitdate>
 					</did>
@@ -110,10 +116,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link10">Decisions 3053 - 3072</unittitle>
-						<unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate>
+						<unitdate normal="1992/1993" type="inclusive">1992-1993</unitdate>
 					</did>
 					<scopecontent>
 						<p>November 9, 1992 - January 25, 1993</p>
@@ -121,8 +127,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link11">Decisions 3076 - 3097</unittitle>
 						<unitdate normal="1993">1993</unitdate>
 					</did>
@@ -132,8 +138,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link12">Decisions 3100 - 3119</unittitle>
 						<unitdate normal="1993">1993</unitdate>
 					</did>
@@ -143,8 +149,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link13">Decisions 3126 - 3146</unittitle>
 						<unitdate normal="1993">1993</unitdate>
 					</did>
@@ -154,10 +160,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link14">Decisions 3147 - 3175</unittitle>
-						<unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate>
+						<unitdate normal="1993/1994" type="inclusive">1993-1994</unitdate>
 					</did>
 					<scopecontent>
 						<p>November 5, 1993 - January 13, 1994</p>
@@ -165,8 +171,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link15">Decisions 3186 - 3216</unittitle>
 						<unitdate normal="1994">1994</unitdate>
 					</did>
@@ -176,8 +182,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link16">Decisions 3216A - 3240</unittitle>
 						<unitdate normal="1994">1994</unitdate>
 					</did>
@@ -187,10 +193,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link17">Decisions 3243 - 3261A</unittitle>
-						<unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate>
+						<unitdate normal="1994/1995" type="inclusive">1994-1995</unitdate>
 					</did>
 					<scopecontent>
 						<p>October 21, 1994 - April 25, 1995</p>
@@ -198,8 +204,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link18">Decisions 3268 - 3298</unittitle>
 						<unitdate normal="1995">1995</unitdate>
 					</did>
@@ -209,8 +215,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link19">Decisions 3309 - 3335</unittitle>
 						<unitdate normal="1995">1995</unitdate>
 					</did>
@@ -220,8 +226,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link20">Decisions 3336 - 3379</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 					</did>
@@ -231,8 +237,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link21">Decisions 3356 - 3379</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 					</did>
@@ -242,8 +248,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link22">Decisions 3383 - 3423</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 					</did>
@@ -253,8 +259,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link23">Decisions 3424 - 3447</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 					</did>
@@ -264,10 +270,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link24">Decisions 3448 - 3484</unittitle>
-						<unitdate type="inclusive" normal="1996/1997">1996-1997</unitdate>
+						<unitdate normal="1996/1997" type="inclusive">1996-1997</unitdate>
 					</did>
 					<scopecontent>
 						<p>October 22, 1996 - March 24, 1997</p>
@@ -275,8 +281,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link25">Decisions 3486 - 3499</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 					</did>
@@ -286,8 +292,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link26">Decisions 3500 - 3526</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 					</did>
@@ -297,10 +303,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link27">Decisions 3527 - 3575</unittitle>
-						<unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate>
+						<unitdate normal="1997/1998" type="inclusive">1997-1998</unitdate>
 					</did>
 					<scopecontent>
 						<p>August 28, 1997 - February 19, 1998</p>
@@ -308,8 +314,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link28">Decisions 3576 - 3597</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 					</did>
@@ -319,8 +325,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link29">Decisions 3600 - 3646</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 					</did>
@@ -331,15 +337,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unittitle id="link30">Decision no.3648 (1998:Dec. 17) - no.4319 (2008:Apr. 28).</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link31">Decisions 3648 - 3666</unittitle>
-						<unitdate type="inclusive" normal="1998/1999">1998-1999</unitdate>
+						<unitdate normal="1998/1999" type="inclusive">1998-1999</unitdate>
 					</did>
 					<scopecontent>
 						<p>December 17, 1998 - March 10, 1999</p>
@@ -347,8 +353,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link32">Decisions 3667 - 3698</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 					</did>
@@ -358,8 +364,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link33">Decisions 3701 - 3724</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 					</did>
@@ -369,10 +375,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link34">Decisions 3725 - 3748</unittitle>
-						<unitdate type="inclusive" normal="1999/2000">1999-2000</unitdate>
+						<unitdate normal="1999/2000" type="inclusive">1999-2000</unitdate>
 					</did>
 					<scopecontent>
 						<p>September 2, 1999 - January 27, 2000</p>
@@ -380,8 +386,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link35">Decisions 3749 - 3778</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 					</did>
@@ -391,8 +397,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link36">Decisions 3779 - 3797</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 					</did>
@@ -402,8 +408,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link37">Decisions 3803 - 3846</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 					</did>
@@ -413,10 +419,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link38">Decisions 3847 - 3898</unittitle>
-						<unitdate type="inclusive" normal="2001/2003">2001-2003</unitdate>
+						<unitdate normal="2001/2003" type="inclusive">2001-2003</unitdate>
 					</did>
 					<scopecontent>
 						<p>October 25, 2001 - February 13, 2003</p>
@@ -424,10 +430,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link39">Decisions 3902 - 3945</unittitle>
-						<unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate>
+						<unitdate normal="2003/2004" type="inclusive">2003-2004</unitdate>
 					</did>
 					<scopecontent>
 						<p>March 6, 2003 - February 26, 2004</p>
@@ -435,8 +441,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link40">Decisions 3946 - 3977</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 					</did>
@@ -446,8 +452,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link41">Decisions 3978 - 3999</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 					</did>
@@ -457,10 +463,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link42">Decisions 4000 - 4030</unittitle>
-						<unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate>
+						<unitdate normal="2004/2005" type="inclusive">2004-2005</unitdate>
 					</did>
 					<scopecontent>
 						<p>September 13, 2004 - March 16, 2005</p>
@@ -468,8 +474,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link43">Decisions 4031 - 4065</unittitle>
 						<unitdate normal="2005">2005</unitdate>
 					</did>
@@ -479,8 +485,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link44">Decisions 4066 - 4088</unittitle>
 						<unitdate normal="2005">2005</unitdate>
 					</did>
@@ -490,8 +496,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link45">Decisions 4089 - 4105</unittitle>
 						<unitdate normal="2005">2005</unitdate>
 					</did>
@@ -501,10 +507,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link46">Decisions 4106 - 4128</unittitle>
-						<unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate>
+						<unitdate normal="2005/2006" type="inclusive">2005-2006</unitdate>
 					</did>
 					<scopecontent>
 						<p>December 29, 2005 - March 2, 2006</p>
@@ -512,8 +518,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link47">Decisions 4129 - 4158</unittitle>
 						<unitdate normal="2006">2006</unitdate>
 					</did>
@@ -523,10 +529,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link48">Decisions 4159 - 4207</unittitle>
-						<unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate>
+						<unitdate normal="2006/2007" type="inclusive">2006-2007</unitdate>
 					</did>
 					<scopecontent>
 						<p>May 12, 2006 - February 16, 2007</p>
@@ -534,8 +540,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link49">Decisions 4208 - 4233</unittitle>
 						<unitdate normal="2007">2007</unitdate>
 					</did>
@@ -545,8 +551,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link50">Decisions 4235 - 4258</unittitle>
 						<unitdate normal="2007">2007</unitdate>
 					</did>
@@ -556,10 +562,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link51">Decisions 4259 - 4280</unittitle>
-						<unitdate type="inclusive" normal="2007/2008">2007-2008</unitdate>
+						<unitdate normal="2007/2008" type="inclusive">2007-2008</unitdate>
 					</did>
 					<scopecontent>
 						<p>September 27, 2007 - January 9, 2008</p>
@@ -567,8 +573,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link52">Decisions 4281 - 4319</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 					</did>
@@ -579,13 +585,13 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unittitle id="link53">Decision no.4320 (2008:Apr. 28) - no.4809 (2015:Mar. 31).</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link54">Decisions 4320 - 4336</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 					</did>
@@ -595,8 +601,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link55">Decisions 4337 - 4356</unittitle>
 						<unitdate normal="2008">2008</unitdate>
 					</did>
@@ -606,10 +612,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link56">Decisions 4357 - 4376</unittitle>
-						<unitdate type="inclusive" normal="2008/2009">2008-2009</unitdate>
+						<unitdate normal="2008/2009" type="inclusive">2008-2009</unitdate>
 					</did>
 					<scopecontent>
 						<p>December 18, 2008 - March 19, 2009</p>
@@ -617,8 +623,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link57">Decisions 4377 - 4399</unittitle>
 						<unitdate normal="2009">2009</unitdate>
 					</did>
@@ -628,8 +634,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link58">Decisions 4400 - 4427</unittitle>
 						<unitdate normal="2009">2009</unitdate>
 					</did>
@@ -639,10 +645,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link59">Decisions 4428 - 4453</unittitle>
-						<unitdate type="inclusive" normal="2009/2010">2009-2010</unitdate>
+						<unitdate normal="2009/2010" type="inclusive">2009-2010</unitdate>
 					</did>
 					<scopecontent>
 						<p>December 16, 2009 - March 12, 2010</p>
@@ -650,8 +656,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link60">Decisions 4454 - 4472</unittitle>
 						<unitdate normal="2010">2010</unitdate>
 					</did>
@@ -661,10 +667,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link61">Decisions 4473 - 4493</unittitle>
-						<unitdate type="inclusive" normal="2010/2011">2010-2011</unitdate>
+						<unitdate normal="2010/2011" type="inclusive">2010-2011</unitdate>
 					</did>
 					<scopecontent>
 						<p>July 28, 2010 - February 11, 2011</p>
@@ -672,8 +678,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link62">Decisions 4494 - 4524</unittitle>
 						<unitdate normal="2011">2011</unitdate>
 					</did>
@@ -683,8 +689,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link63">Decisions 4525 - 4537</unittitle>
 						<unitdate normal="2011">2011</unitdate>
 					</did>
@@ -694,8 +700,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link64">Decisions 4538 - 4554</unittitle>
 						<unitdate normal="2011">2011</unitdate>
 					</did>
@@ -705,8 +711,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link65">Decisions 4555 - 4566</unittitle>
 						<unitdate normal="2011">2011</unitdate>
 					</did>
@@ -716,10 +722,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link66">Decisions 4568 - 4588</unittitle>
-						<unitdate type="inclusive" normal="2011/2012">2011-2012</unitdate>
+						<unitdate normal="2011/2012" type="inclusive">2011-2012</unitdate>
 					</did>
 					<scopecontent>
 						<p>December 7, 2011 - March 8, 2012</p>
@@ -727,8 +733,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link67">Decisions 4589 - 4602</unittitle>
 						<unitdate normal="2012">2012</unitdate>
 					</did>
@@ -738,8 +744,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link68">Decisions 4603 - 4616</unittitle>
 						<unitdate normal="2012">2012</unitdate>
 					</did>
@@ -749,8 +755,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link69">Decisions 4617 - 4626</unittitle>
 						<unitdate normal="2012">2012</unitdate>
 					</did>
@@ -760,10 +766,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link70">Decisions 4627 - 4643</unittitle>
-						<unitdate type="inclusive" normal="2012/2013">2012-2013</unitdate>
+						<unitdate normal="2012/2013" type="inclusive">2012-2013</unitdate>
 					</did>
 					<scopecontent>
 						<p>December 19, 2012 - March 12, 2013</p>
@@ -771,8 +777,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link71">Decisions 4646 - 4656</unittitle>
 						<unitdate normal="2013">2013</unitdate>
 					</did>
@@ -782,8 +788,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link72">Decisions 4657 - 4671</unittitle>
 						<unitdate normal="2013">2013</unitdate>
 					</did>
@@ -793,8 +799,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link73">Decisions 4672 - 4882</unittitle>
 						<unitdate normal="2013">2013</unitdate>
 					</did>
@@ -804,10 +810,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link74">Decisions 4683 - 4698</unittitle>
-						<unitdate type="inclusive" normal="2013/2014">2013-2014</unitdate>
+						<unitdate normal="2013/2014" type="inclusive">2013-2014</unitdate>
 					</did>
 					<scopecontent>
 						<p>October 21, 2013 - February 24, 2014</p>
@@ -815,8 +821,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link75">Decisions 4699 - 4713</unittitle>
 						<unitdate normal="2014">2014</unitdate>
 					</did>
@@ -826,8 +832,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link76">Decisions 4729A</unittitle>
 						<unitdate normal="2014">2014</unitdate>
 					</did>
@@ -837,8 +843,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link77">Decisions 4736 - 4749</unittitle>
 						<unitdate normal="2014">2014</unitdate>
 					</did>
@@ -848,8 +854,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link78">Decisions 4750 - 4757</unittitle>
 						<unitdate normal="2014">2014</unitdate>
 					</did>
@@ -859,8 +865,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link79">Decisions 4758 - 4771</unittitle>
 						<unitdate normal="2014">2014</unitdate>
 					</did>
@@ -870,8 +876,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link80">Decisions 4772 - 4797</unittitle>
 						<unitdate normal="2015">2015</unitdate>
 					</did>
@@ -881,8 +887,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle id="link81">Decisions 4798 - 4809</unittitle>
 						<unitdate normal="2015">2015</unitdate>
 					</did>
@@ -893,13 +899,13 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unittitle id="link82">Decision no.4844 (2015:Oct. 8) - no.4888 (2016:July 26).</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link83">Decisions 4844 - 4856</unittitle>
 						<unitdate normal="2015">2015</unitdate>
 					</did>
@@ -909,8 +915,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link84">Decisions 4857 - 4871</unittitle>
 						<unitdate normal="2016">2016</unitdate>
 					</did>
@@ -920,8 +926,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link85">Decisions 4872 - 4888</unittitle>
 						<unitdate normal="2016">2016</unitdate>
 					</did>
@@ -931,8 +937,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link86">Decisions 4889 - 4899</unittitle>
 						<unitdate normal="2016">2016</unitdate>
 					</did>
@@ -942,8 +948,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link87">Decisions 4901 - 4913</unittitle>
 						<unitdate normal="2016">2016</unitdate>
 					</did>

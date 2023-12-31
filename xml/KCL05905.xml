@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05905::W.I. White Papers.)//EN">KCL05905</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05905::W.I. White Papers.)//EN">KCL05905</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the W. I. White Papers<date> 1906-1943</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>February 17, 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the W. I. White Papers<lb/></titleproper>
+			<titleproper>Guide to the W. I. White Papers</titleproper>
 			<num>Collection Number: 5905</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,23 +54,23 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">W. I. White Papers, <unitdate encodinganalog="MARC 245$f">1906-1943</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">W. I. White Papers, 1906-1943
+			</unittitle><unitdate encodinganalog="MARC 245$f">1906-1943</unitdate>
 			<unitid label="Collection Number:">5905</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">White, W. I.</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">4 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">4 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Papers.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<langmaterial label="Language:">Collection material in <language encodinganalog="MARC 041" langcode="eng">English</language>
 			</langmaterial>
 		<physdesc><extent>4 cubic feet</extent></physdesc></did>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Stein, Leon, 1912- </persname>
 				<persname encodinganalog="MARC 600">Thomas, W. I. </persname>
 			</controlaccess>
@@ -72,376 +78,376 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>W. I. White Papers #5905. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unittitle id="link8">Series 1: Chronological Order</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link9">January 1906</unittitle>
 						<unitdate normal="1906">1906</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link10">March 1906</unittitle>
 						<unitdate normal="1906">1906</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link11">August 1906</unittitle>
 						<unitdate normal="1906">1906</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link12">May 1939</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link13">June 1939</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link14">July-December 1939</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link15">January-March 1940</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link16">December 1940</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link17">January-December 1941</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link18">January-September 1942</unittitle>
 						<unitdate normal="1942">1942</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link19">Discarded Bintel Brief</unittitle>
 					</did>
 				</c02>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unittitle id="link20">Series II: Subject Files</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link21">Personal</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link22">Personal</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link23">The American Experience</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link24">Asking Definitions</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link25">Asking Definitions</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link26">Bitter Heart</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link27">Nave Humorous</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link28">Exploratory</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link29">Testimony</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link30">Testimony</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link31">Asking Editor to Reprove</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link32">Trivial</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link33">Outsider Writes</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link34">Kin</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link35">Family and Marriage as Ritual</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link36">Family and Marriage as Ritual</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link37">Desertion, Divorce, and Reunion</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link38">Compulsions</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link39">Overt Emotion</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link40">Fear of Scandal</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link41">Inability to Live Alone</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link42">Boarder</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link43">Bundle</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link44">Shall I tell?</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link45">Family and Community Solidarity</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link46">Instances where help is given</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link47">Gossip</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle id="link48">Relatives</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">29</container>
 						<unittitle id="link49">Relatives</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">30</container>
 						<unittitle id="link50">Children of Dead Relatives</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">31</container>
 						<unittitle id="link51">Children of Dead Relatives</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">32</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">32</container>
 						<unittitle id="link52">Children of Dead Relatives</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">33</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">33</container>
 						<unittitle id="link53">Savior of Fallen Girls</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">34</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">34</container>
 						<unittitle id="link54">Conscience, Confession, Apology</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">35</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">35</container>
 						<unittitle id="link55">Solidarity</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">36</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">36</container>
 						<unittitle id="link56">Solidarity</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">37</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">37</container>
 						<unittitle id="link57">Unsocial March 1943 WISH</unittitle>
 						<unitdate normal="1943">1943</unitdate>
 					</did>
@@ -451,594 +457,594 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">38</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">38</container>
 						<unittitle id="link58">Social Devotion</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">39</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">39</container>
 						<unittitle id="link59">Social Devotion</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">40</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">40</container>
 						<unittitle id="link60">Shall I go?</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">41</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">41</container>
 						<unittitle id="link61">Shall They Invite Him</unittitle>
 					</did>
 				</c02>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unittitle id="link62">Series II: Subject Files (continued)</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link63">Disorganization</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link64">Disharmony of Generations</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link65">Disharmony of Generations</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link66">Disharmony of Generations</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link67">Disharmony of Generations</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link68">Disharmony of Generations</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link69">Rejection and Ritual</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link70">Rejection</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link71">Evil Tongues</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link72">Missionary</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link73">Betrayals in Marriage</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link74">Betrayals in Courtship</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link75">Alleged Insanity</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link76">Mobility in Marriage (Divorce)</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link77">Mixed Marriage</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link78">Mixed Marriage</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link79">Mixed Marriage</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link80">Seduction and Ruin</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link81">Marital Difficulties</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link82">Marital Difficulties</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link83">Marital Difficulties</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link84">Marital Difficulties</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link85">Marital Difficulties</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link86">Family Mad</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link87">Vent</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link88">Silent</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link89">Stony Heart</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle id="link90">Jealous Mix</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">29</container>
 						<unittitle id="link91">Karger</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">30</container>
 						<unittitle id="link92">Gambler</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">31</container>
 						<unittitle id="link93">The All Right Nilc</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">32</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">32</container>
 						<unittitle id="link94">The White Slaver</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">33</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">33</container>
 						<unittitle id="link95">The Boarder as an Organizing Force</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">34</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">34</container>
 						<unittitle id="link96">Alcoholism</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">35</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">35</container>
 						<unittitle id="link97">Business Opportunism</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">36</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">36</container>
 						<unittitle id="link98">Business Opportunism</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">37</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">37</container>
 						<unittitle id="link99">Mobility as a form of adjustment</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">38</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">38</container>
 						<unittitle id="link100">Mobility as a form of adjustment</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">39</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">39</container>
 						<unittitle id="link101">Learning as Distinction</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">40</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">40</container>
 						<unittitle id="link102">Ritual</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">41</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">41</container>
 						<unittitle id="link103">Stubborn</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">42</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">42</container>
 						<unittitle id="link104">Nave</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">43</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">43</container>
 						<unittitle id="link105">Bizarre</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">44</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">44</container>
 						<unittitle id="link106">Bizarre</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">45</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">45</container>
 						<unittitle id="link107">Cynical</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">46</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">46</container>
 						<unittitle id="link108">Fanatic</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">47</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">47</container>
 						<unittitle id="link109">Depressed</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">48</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">48</container>
 						<unittitle id="link110">Inquisitiveness in General</unittitle>
 					</did>
 				</c02>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unittitle id="link111">Series III: Names (Stories by Person) - Miscellaneous Files</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link112">Miscellaneous Files</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link113">Antonoff, Rosa</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link114">Barinowsky, Jacob</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link115">Borenstein, Jacob</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link116">Eisenman, Bunim</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link117">Friedman, Leibke</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link118">Hornsohn, David</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link119">Kahn, Liza</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link120">Katzin, Daniel</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link121">Kossovsky, Abraham</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link122">Kossovsky, Minnie</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link123">Landsberg, Anna</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link124">Levin, Meyer</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link125">Mandel, Bessie</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link126">Margolis, Esther</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link127">Menes, Adela</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link128">Newman, Simcha</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link129">Ohrbach, John</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link130">Olishevsky, Henry</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link131">Perlman, Anna</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link132">Perlstein, Eta</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link133">Preedland, J.</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link134">Sandberg, Eta</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link135">Schlesel, Isador</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link136">Silver, Judith</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link137">Silver, Sam</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link138">Sonnenshein, Abraham</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle id="link139">Spenser, Sarah</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">29</container>
 						<unittitle id="link140">Steinman, Sarah</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">30</container>
 						<unittitle id="link141">Weiser, Gustav</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">31</container>
 						<unittitle id="link142">Miscellaneous</unittitle>
 					</did>
 				</c02>

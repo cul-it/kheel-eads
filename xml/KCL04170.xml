@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL04170::J. Gormly Miller Additional Papers.)//EN">KCL04170</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL04170::J. Gormly Miller Additional Papers.)//EN">KCL04170</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the J. Gormly Miller Additional Papers<date> 1974-1995</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>October 03, 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the J. Gormly Miller Additional Papers<lb/></titleproper>
+			<titleproper>Guide to the J. Gormly Miller Additional Papers</titleproper>
 			<num>Collection Number: /4170</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,21 +54,21 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">J. Gormly Miller Additional Papers, <unitdate encodinganalog="MARC 245$f">1974-1995</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">J. Gormly Miller Additional Papers, 1974-1995
+			</unittitle><unitdate encodinganalog="MARC 245$f">1974-1995</unitdate>
 			<unitid label="Collection Number:">/4170</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">Miller, J. Gormly</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">9 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">9 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Papers (documents).</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<langmaterial label="Language:">Collection material in <language encodinganalog="MARC 041" langcode="eng">English</language>
 			</langmaterial>
 		<physdesc><extent>9 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+			
 			<p>J. Gormly Miller (1975-1979) - J. Gormly Miller received a Bachelor of Arts degree from University of Rochester in 1936 and a bachelor's degree in Library Service from Columbia University in 1938. He worked at the Rochester Public Library from
 				1938 to 1942, and served in the United States Army during World War II. </p>
 			<p>In 1946, Miller came to Cornell University as a librarian in the newly established School of Industrial and Labor Relations. From 1949 until his retirement in 1977, he served on the faculty of the ILR School as an associate professor and then a
@@ -75,9 +81,9 @@
 				Common Council's Finance Committee. He retired from his post as University Librarian in 1979, but returned to serve as Acting Librarian in 1985.</p>
 		</bioghist>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Miller, J. Gormly. </persname>
 				<corpname encodinganalog="MARC 610">Martin P. Catherwood Library. </corpname>
 			</controlaccess>
@@ -85,1910 +91,1910 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>J. Gormly Miller Additional Papers #/4170. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04133.html"> /4133: J. Gormly Miller Papers</extref><lb/>
+			
+			<p>Related Collections:
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04133.html"> /4133: J. Gormly Miller Papers</extref>
 			</p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link8">ILR Faculty Bibliography First Revision (1 of 4)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link9">ILR Faculty Bibliography First Revision (2 of 4)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link10">ILR Faculty Bibliography First Revision (3 of 4)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link11">ILR Faculty Bibliography First Revision (4 of 4)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link12">ILR 50th Anniversary Original Preliminary Draft (1/23/1995)</unittitle>
 					<unitdate normal="1995">1995</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link13">ILR 50th Anniversary Draft (2 of 3)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link14">ILR 50th Anniversary Draft (3 of 3)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link15">Irving M. Ives - An Upstate Progressive</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link16">50th Anniversary Book</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link17">ILR School 50th Anniversary - General</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link18">McKersie Project - Goldberg, Elaine Greenfeld (Communications and Editorial Work)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link19">LMS-McKersie Project - Notes</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link20">McKersie Project Notes - Meeting w/ McKersie, Goldberg and Supplements (5/23/1995)</unittitle>
 					<unitdate normal="1995">1995</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link21">McKersie Project - Notes, Status Reports (May-June 1995)</unittitle>
 					<unitdate normal="1995">1995</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link22">McKersie Project - Current Action</unittitle>
 					<unitdate normal="1995">1995</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link23">McKersie Project - Notes, Meeting with Lipsky - Elaine Goldberg (3/20/1995)</unittitle>
 					<unitdate normal="1995">1995</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link24">LMS-McKersie Project - Notes and Reference Documents</unittitle>
 					<unitdate normal="1995">1995</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link25">McKersie Project - Messages and Correspondence (August-December 1994)</unittitle>
 					<unitdate normal="1994">1994</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link26">McKersie Project - Timeline</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link27">McKersie Project - Faculty Bibliography</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link28">Fassimile Transmission of Faculty Bibliography and Timeline (7/28/1995)</unittitle>
 					<unitdate normal="1995">1995</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link29">McKersie Project - McGinnis</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link30">McKersie Project - Materials from R. McKersie for Sarvkis</unittitle>
 					<unitdate normal="1994">1994</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link31">LMS-McKersie Project - Professor Emeritus Correspondence</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link32">LMS - Correspondence, McKersie Robert B. Project</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link33">McKersie Project - Glycopantis (3/95)</unittitle>
 					<unitdate normal="1995">1995</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link34">LMS-McKersie Project - Reference Documents</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link35">McKersie Project - Reference Documents, Faculty Lists</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link36">LMS-McKersie Project - Contributions Part 1</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link37">LMS-McKersie Project - Contributions Part 2</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link38">LMS-McKersie Project - Contributions Part 3</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link39">McKersie Project - Contributions, Frank Miller, History of Human Resource Studies Department</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link40">McKersie Project - Preliminary Draft Complete (1/23/1995)</unittitle>
 					<unitdate normal="1995">1995</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link41">McKersie Project - Preliminary Draft Supplementary Documents/Duplicates</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link42">LMS-McKersie Project - Photographs</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link43">ILR 50th Anniversary - Chapter 1-3, 8</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link44">Information System Services - CISER</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link45">Information Systems and Services - Dialogue Business Connection</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link46">Information System and Services - HIRN</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link47">Information System and Services - ILR Library</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link48">Information Systems and Services - ISI</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link49">Information Systems and Services - Labor Notes</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link50">Information Systems and Services - Proquest</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link51">Information Systems and Services - Human Resources Abstracts</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link52">Information Systems and Services - LRP Publications</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link53">Information Systems and Services - Software</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link54">Information Systems and Services - Wilson Info. System</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link55">LMS/WC Project - Reference Documents, Electronic Resources</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link56">Bibliographical Records</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link57">Monographs</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link58">Periodicals and Serial Films Miscellaneous</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link59">Periodicals and Serials - Employee Advocacy News</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link60">Periodicals and Serials - Baywood Publ. Journal of Individual Employment</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link61">LMS - Whitney-Carnegie Project</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link62">ILR for Students</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link63">LMS - Whitney-Carnegie Project - Academic Institutions References</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link64">LMS/WC Project - References Documents, Stetson University College of Law</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link65">LMS/WC Project - References, University Council of Industrial Relations</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link66">LMS/WC Project - Government References</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link67">LMS/WC Project - Survey of Organizations</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link68">LMS/WC Project - Survey of Organizations, Letter 11/93</unittitle>
 					<unitdate normal="1993">1993</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link69">LMS/WC Project - Associations</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link70">LMS/WC Project - Associations References</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link71">LMS/WC Project - American Association for Affirmative Action</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link72">LMS/WC Project - American Bar Association</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link73">LMS/WC Project - American Compensation Association</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle id="link74">LMS/WC - American Compensation Association</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle id="link75">LMS/WC - American Industrial Hygiene Association</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle id="link76">LMS/WC Project - American Management Association</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle id="link77">LMS/WC Project - American Payroll Association</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">35</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">35</container>
 					<unittitle id="link78">LMS/WC Project - American Productivity and Quality Center</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">36</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">36</container>
 					<unittitle id="link79">LMS/WC Project - American Society for Training and Development</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">37</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">37</container>
 					<unittitle id="link80">LMS/WC Project - Association for Quality and Participation</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">38</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">38</container>
 					<unittitle id="link81">LMS/WC Project - Association for Union Democracy</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">39</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">39</container>
 					<unittitle id="link82">LMS/WC Project - Association of Human Resource Professionals</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">40</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">40</container>
 					<unittitle id="link83">LMS/WC Project - Association of Women Resource Systems Professionals</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">41</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">41</container>
 					<unittitle id="link84">LMS/WC Project - Association of Private Pension and Welfare Plans</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">42</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">42</container>
 					<unittitle id="link85">LMS/WC Project - CNYCOSH</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">43</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">43</container>
 					<unittitle id="link86">LMS/WC Project - Classification and Compensation Society</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">44</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">44</container>
 					<unittitle id="link87">LMS/WC Project - College and University Personnel Association</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">45</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">45</container>
 					<unittitle id="link88">LMS/WC Project - Associations Conference Board</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">46</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">46</container>
 					<unittitle id="link89">LMS/WC Project - Employee Assistance Professionals Associations</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">47</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">47</container>
 					<unittitle id="link90">LMS/WC Project - Employee Assistance Professionals Association</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">48</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">48</container>
 					<unittitle id="link91">LMS/WC Project - Employee Benefit Research Institute</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">49</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">49</container>
 					<unittitle id="link92">LMS/WC Project - Employers Council on Flexible Compensation</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">50</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">50</container>
 					<unittitle id="link93">LMS - Employment Management Association</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">51</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">51</container>
 					<unittitle id="link94">LMS/WC Project - Employment Policy Foundation</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">52</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">52</container>
 					<unittitle id="link95">LMS/WC Project - Human Factors and Economic Society</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">53</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">53</container>
 					<unittitle id="link96">LMS/WC Project - Human Resources Planning Society</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">54</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">54</container>
 					<unittitle id="link97">LMS/WC Project - Human Resources Research Organizations</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">55</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">55</container>
 					<unittitle id="link98">LMS/WC Project - Industrial Relations Counselors</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">56</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">56</container>
 					<unittitle id="link99">LMS/WC Project - Industrial Relations Research Association</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">57</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">57</container>
 					<unittitle id="link100">LMS/WC Project - Institute for Management</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">58</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">58</container>
 					<unittitle id="link101">LMS/WC Project - Institute of Industrial Engineers</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link102">LMS/WC Project - Institute of Management Sciences</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link103">LMS/WC Project - International Foundation of Employee Benefit Plans</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link104">LMS/WC Project - International Labor Communications Assoc.</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link105">LMS/WC Project - International Labor Organization</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link106">LMS/WC Project - International Personnel Management Association</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link107">LMS/WC Project - Labor Institute of Public Affairs</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link108">LMS/WC Project - Labor Policy Association</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link109">LMS - Labor Research Association</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link110">LMS/WC Project - Midwest Center for Labor Research</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link111">LMS/WC Project - National Association of Manufacturers</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link112">LMS/WC Project - National Association of Personnel Consultants</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link113">LMS/WC Project - National Bureau of Economic Research</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link114">LMS/WC Project - National Center for Employee Ownership</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link115">LMS/WC Project - National Center for the Workplace</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link116">LMS/WC Project - National Committee on Pay Equity</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link117">LMS/WC Project - National Council on Employment Policy</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link118">LMS/WC Project - National Employee Services and Recreation Association</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link119">LMS/WC Project - National Employment Counseling Association</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link120">LMS/WC Project - National Lawyers Guild</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link121">LMS/WC Project - National Research Bureau</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link122">LMS/WC Project - Profit Sharing Council of America</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link123">LMS/WC Project - Research Institute of America</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link124">LMS/WC Project - Russell Sage Foundation</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link125">LMS/WC Project - Human Resource Management</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link126">LMS/WC Project - SPIDR</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link127">LMS/WC Project - Urban Institute</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link128">LMS/WC Project - W.E. Upjohn Institute for Employment</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link129">LMS/WC Project - Work in America Institute</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link130">LMS/WC Project - Workers Compensation Research Institute</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link131">LMS/WC Project - Miscellaneous Associations</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle id="link132">LMS/WC Project - Current Reference Materials</unittitle>
-					<unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate>
+					<unitdate normal="1991/1992" type="inclusive">1991-1992</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle id="link133">LMS/WC Project - Computer Readable Database</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle id="link134">LMS/WC Project - Trial Formats, Professional Organizations</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle id="link135">JGM Working Folder - Reference Lists for Encyclopida of Business Information</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">35</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">35</container>
 					<unittitle id="link136">LMS/WC Project - Conferences</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">36</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">36</container>
 					<unittitle id="link137">LMS/WC Project - Publications</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">37</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">37</container>
 					<unittitle id="link138">WC Project Grant Application (Proposal)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">38</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">38</container>
 					<unittitle id="link139">WC Project - SLA Grant Application (Proposal)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">39</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">39</container>
 					<unittitle id="link140">Whitney-Carnegie Project Outline</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">40</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">40</container>
 					<unittitle id="link141">Whitney-Carnegie Project - Trial Formats Part 3</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">41</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">41</container>
 					<unittitle id="link142">Whitney-Carnegie Project - Guide to Labor Law and Regulations</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">42</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">42</container>
 					<unittitle id="link143">Whitney-Carnegie Project - CIRL</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">43</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">43</container>
 					<unittitle id="link144">LMS/WC Project - General Correspondence</unittitle>
 					<unitdate normal="1991">1991</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">44</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">44</container>
 					<unittitle id="link145">Whitney-Carnegie Project - Working Papers</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">45</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">45</container>
 					<unittitle id="link146">Whitney-Carnegie Project (1991)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">46</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">46</container>
 					<unittitle id="link147">Whitney-Carnegie Awards Proposal (Duplicate Copies)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">47</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">47</container>
 					<unittitle id="link148">Whitney-Carnegie Awards Proposals (9/13/1990)</unittitle>
 					<unitdate normal="1990">1990</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">48</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">48</container>
 					<unittitle id="link149">LMS/WC Project - General (1990)</unittitle>
 					<unitdate normal="1990">1990</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">49</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">49</container>
 					<unittitle id="link150">Whitney-Carnegie Awards - March 1990</unittitle>
 					<unitdate normal="1990">1990</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">50</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">50</container>
 					<unittitle id="link151">Whitney-Carnegie Project - Greenwood Publishing Group (Duplicate Documents)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">51</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">51</container>
 					<unittitle id="link152">Whitney-Carnegie Project - General Publication Plans</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">52</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">52</container>
 					<unittitle id="link153">Whitney-Carnegie Project - Publication Plans, BNA</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">53</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">53</container>
 					<unittitle id="link154">Whitney-Carnegie Project - Publication Plans</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link155">Lexis Guide 1-45</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link156">Guide to Information Resources Outline (7/5/1993)</unittitle>
 					<unitdate normal="1993">1993</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link157">Guide to Information Resources Associate Database (2/23/1994)</unittitle>
 					<unitdate normal="1994">1994</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link158">Guide to Information Resources - "Series" List (6/6/1994)</unittitle>
 					<unitdate normal="1994">1994</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link159">Whitney-Carnegie Project - Guide to Info Resources on Employment Relations in the US (8/12/1991)</unittitle>
 					<unitdate normal="1991">1991</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link160">Whitney-Carnegie Project - Guide to Info Resources Book G-N (8/12/1991)</unittitle>
 					<unitdate normal="1991">1991</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link161">Whitney-Carnegie Project - Guide to Info Resources Book O-Z (8/12/1991)</unittitle>
 					<unitdate normal="1991">1991</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link162">Pro-Cite Database: B1B1 (12/11/1990)</unittitle>
 					<unitdate normal="1990">1990</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link163">Pro-Cite Database: B1B11 (3/21/1991)</unittitle>
 					<unitdate normal="1991">1991</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link164">LMS Current Petition Pending</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link165">LMS/WC Project - Academic Institutions, Misc. Notes</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link166">LMS/WC Project - Associations, Misc. Notes</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link167">LMS/WC Project - Conferences, Misc. Notes</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link168">Miscellaneous Notes and Files</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link169">B1B100 (1991)</unittitle>
 					<unitdate normal="1991">1991</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link170">Subject/Title Indexes</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link171">Whitney-Carnegie Project - New Publications Development, Gale Research</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link172">\Whitney-Carnegie Project - Haworth Press</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link173">Whitney-Carnegie Project - Publication Plans, ILR Press</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link174">Whitney-Carnegie Project - LRP Publications</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link175">Whitney-Carnegie Project - Enclosures Submitted w/ Publishing Proposals</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link176">Whitney-Carnegie Project - ILR Staff Planning Group</unittitle>
 					<unitdate normal="1991">1991</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link177">Whitney-Carnegie Awards - Guide to Information Sources</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link178">Whitney-Carnegie Project - Guide to Information Sources</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link179">LMS/WC Project - PROCITE</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link180">Affirmative Action Requirements</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link181">LMS/WC Project - Information Systems, BNA</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link182">Comparison of Cornell Libraries with other Academic and Research Libraries (Parts 1-3)</unittitle>
 					<unitdate normal="1980">1980</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link183">Report of a Review of Staffing Levels Within the Cornell University Library System (Sept. 18, 1987)</unittitle>
 					<unitdate normal="1987">1987</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link184">Report of a Review of Staffing Levels Within the Cornell University Library System (Sept. 18, 1987)</unittitle>
 					<unitdate normal="1987">1987</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link185">Microcomputers in Libraries (Oct. 1980)</unittitle>
 					<unitdate normal="1980">1980</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link186">Microcomputers in Libraries (Oct. 1980)</unittitle>
 					<unitdate normal="1980">1980</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link187">Preliminary Review of Potential Microcomputer Use in Libraries</unittitle>
 					<unitdate normal="1980">1980</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link188">LMS/WC Project - Work Schedules, Training Plans</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link189">LMS/WC Project - PBM Memos</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link190">Whitney-Carnegie Project - General Bibliography (&gt;1969)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link191">LMS/WC Project - Associations Reference Documents</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link192">LMS/WC Project - Survey of Academic Institutes</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link193">Whitney-Carnegie Project - Databases</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link194">LMS/WC Project - Government Agencies, Working Papers</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link195">LMS/WC Project - Government Agencies, Reference Documents</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link196">LMS/WC Project - Statistics, Working Papers</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link197">Library Acquisitions</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link198">Labor Law Letters and Regulations</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link199">Cornell Jobs and Task Forces</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link200">B1B43 - B1B52 Acquisitions</unittitle>
-					<unitdate type="inclusive" normal="1992/1993">1992-1993</unitdate>
+					<unitdate normal="1992/1993" type="inclusive">1992-1993</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link201">I.C.</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link202">B1B23 - B1B27</unittitle>
 					<unitdate normal="1991">1991</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link203">B1B28 - B1B32</unittitle>
 					<unitdate normal="1991">1991</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link204">B1B33 - B1B37</unittitle>
-					<unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate>
+					<unitdate normal="1991/1992" type="inclusive">1991-1992</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link205">B1B38 - B1B42</unittitle>
 					<unitdate normal="1992">1992</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link206">BIB-A and BIB-B (B1B100)</unittitle>
 					<unitdate normal="1991">1991</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link207">BIB-C and BIB-D (B1B100)</unittitle>
 					<unitdate normal="1991">1991</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link208">BIB-E (B1B100)</unittitle>
 					<unitdate normal="1991">1991</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link209">Guide to Information Resources - Gonvancy Database</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link210">LMS/WC Project - Guide Introduction (Draft) (1993)</unittitle>
 					<unitdate normal="1993">1993</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link211">LMS/WC Project - "Guide to " Outline</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link212">LMS/WC Project - "Guide" Draft</unittitle>
 					<unitdate normal="1993">1993</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link213">Whitney-Carnegie Project - Part 1 General</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link214">Whitney-Carnegie Project - Part 1 General, Current Working Documents</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link215">BNA Databases on the Lexis Service</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link216">LMS/WC Project - Labor Law and Regulations, Reference Documents</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link217">LMS/WC Project - Labor Law and Regulations, Working Papers</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link218">LMS/WC Project - Notes on Labor Law and Regulation</unittitle>
 					<unitdate normal="1991">1991</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link219">Guide to Information Resources - Series</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link220">Current Working Folder</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link221">Whitney-Carnegie Project - Current Bibliographical Reference Documents</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link222">Whitney-Carnegie Project - Current Reference Documents</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link223">Whitney-Carnegie Project - Bibliographical Reference Documents</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link224">Whitney-Carnegie Project - Bibliographical Style Guide, PBM Trial Formats</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link225">LMS/WC Project - Appendices (Drafts)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link226">Whitney-Carnegie Project - "Guide to" Draft (3/17/93)</unittitle>
 					<unitdate normal="1993">1993</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link227">JGM/File - CU, General</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link228">Cornell Campaign Report Vol. 15</unittitle>
 					<unitdate normal="1992">1992</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link229">Cornell Campaign Communique Vol. 16</unittitle>
 					<unitdate normal="1993">1993</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link230">Cornell Campaign Communique Vol. 18</unittitle>
 					<unitdate normal="1994">1994</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link231">Cornell Campaign Communique Vol. 19</unittitle>
 					<unitdate normal="1995">1995</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link232">JGM/Files - General/Libraries</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link233">Cornell University Library - Development and Public Affairs</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link234">CU General Libraries - Planning and Policy Board</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link235">JGM/Files - General Technical Series</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link236">University Library Archives</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link237">ILR Library</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link238">ILR - Catherwood Library Advisory Council</unittitle>
 					<unitdate normal="1995">1995</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link239">Cornell ILR General</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link240">ILR Library - John Goddard/Other Staff</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link241">ILR Library - Planning Group</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link242">ILR Library - Planning Project, 1993 References</unittitle>
 					<unitdate normal="1993">1993</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link243">ILR Library - Shirley F. Harper</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link244">ILO Library</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link245">CUL - J.G. Miller - Personnel</unittitle>
 					<unitdate normal="1990">1990</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link246">JGM Files - Curriculum Vitz</unittitle>
 					<unitdate normal="1990">1990</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link247">ILO - United Nations - ACCIS</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link248">JGM/Files - Law Library</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link249">Tompkins County Public Library - CRP Project, "Books for You"</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link250">J.G. Miller - Letters of Recommendation</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link251">Statistics - CUL</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link252">JGM - Personal</unittitle>
 					<unitdate normal="1993">1993</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link253">EDUCOM Consulting Group</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link254">CU - Emeritus Professors' Tutorial Project</unittitle>
 					<unitdate normal="1991">1991</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link255">ILR - Alumni/School Relations</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link256">JGM Files - S.A. McCarthy Memorial Room</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link257">JGM Files - S.A. McCarthy Memorial Dedications</unittitle>
 					<unitdate normal="1994">1994</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link258">JGM - Cornell University Library Association, Stephen A. McCarthy Memorial Service</unittitle>
 					<unitdate normal="1990">1990</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link259">JGM Files - Stephen A. McCarthy</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link260">JGM Files - University of Michigan, School Inform and Library Studies, Karen Markey</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link261">CUL Director's File - CUL Annual Reports</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link262">JGM/Files - Library Associates</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link263">JGM/Files - Mann Library, Core Agricultural Literature Project</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link264">JGM File - Academic Assembly</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link265">JGM/File: CU Department of Rare Books</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link266">JGM/Files: Industrial and Labor Relations Library</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link267">JGM - Columbia University School of Library Services, Review</unittitle>
-					<unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate>
+					<unitdate normal="1989/1990" type="inclusive">1989-1990</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link268">Cornell University Libraries - Director's Files</unittitle>
 				</did>
 			</c01>

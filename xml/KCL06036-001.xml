@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
- <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-  <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06036-001::Lieberman, Elias. Manuscripts..)//EN">KCL06036-001</eadid>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06036-001::Lieberman, Elias. Manuscripts..)//EN">KCL06036-001</eadid>
   <filedesc>
    <titlestmt>
-    <titleproper>Guide to the Lieberman, Elias. Manuscripts.<date> </date></titleproper>
+    <titleproper>Guide to the Lieberman, Elias. Manuscripts.</titleproper>
     <titleproper type="sort">Lieberman, Elias. Manuscripts.</titleproper>
     <author>Compiled by Kheel Staff</author>
    </titlestmt>
@@ -23,19 +23,25 @@
    <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kathryn Dowgiewicz, <date>March 25,
      2013</date></creation>
   </profiledesc>
- </eadheader>
+ <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
  <frontmatter>
   <titlepage>
-   <titleproper>Guide to the Lieberman, Elias. Manuscripts.<lb/></titleproper>
-   <num type="kidb_reference_number" id="kc477">Collection Number: 6036/001</num>
+   <titleproper>Guide to the Lieberman, Elias. Manuscripts.</titleproper>
+   <num id="kc477" type="kidb_reference_number">Collection Number: 6036/001</num>
    <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University
     Library </publisher>
    <list type="deflist">
     <defitem>
      <label>Contact Information:</label>
-     <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood
-      Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt;
-       <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+     <item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood
+      Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt;
+       <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
       <extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref>
      </item>
     </defitem>
@@ -54,14 +60,14 @@
  </frontmatter>
  <archdesc level="collection">
   <did>
-   <head id="a1">DESCRIPTIVE SUMMARY</head>
-   <unittitle label="Title:" encodinganalog="MARC 245$a">Lieberman, Elias. Manuscripts., <unitdate encodinganalog="MARC 245$f"/>
+   
+   <unittitle encodinganalog="MARC 245$a" label="Title:">Lieberman, Elias. Manuscripts., 
    </unittitle>
    <unitid label="Collection Number:">6036/001</unitid>
    <origination label="Creator:">
     <persname encodinganalog="MARC 100" role="creator">Lieberman, Elias</persname>
    </origination>
-   <physdesc label="Quantity:" encodinganalog="MARC 300">1 linear ft.</physdesc>
+   <physdesc encodinganalog="MARC 300" label="Quantity:">1 linear ft.</physdesc>
    <physdesc label="Forms of Material:">Articles, manuscripts.
     </physdesc>
    <repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives,
@@ -74,9 +80,9 @@
     Man and an Era."</abstract>
    <langmaterial label="Language:">Collection material in <language encodinganalog="MARC 041" langcode="eng">English</language>
    </langmaterial>
-  <physdesc><extent>1 cubic feet</extent></physdesc></did>
+  <physdesc><extent>1 cubic feet</extent></physdesc><unitdate normal="0000/2999">0000-2999</unitdate></did>
   <bioghist encodinganalog="MARC 545">
-   <head id="a2" altrender="organizational history">ILGWU ORGANIZATIONAL HISTORY</head>
+   
    <p>Founded in 1900 by local union delegates representing about 2,000 members in cities in the
     northeastern United States, the ILGWU grew in geographical scope, membership size, political
     influence to become one of the most powerful forces in American organized labor by mid-century.
@@ -87,7 +93,7 @@
     the Union of Needletrades, Industrial and Textile Employees (UNITE).</p>
   </bioghist>
   <bioghist encodinganalog="MARC 545">
-   <head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+   
    <p>Elias Lieberman had a long history and career with the ILGWU. Born on November 10, 1888, he
     came from Russia in 1909. He was the deputy clerk of Local 25 from 1913-1916 and the chief clerk
     from 1916-1917. Lieberman was the chairman of the union's Educational Committee in 1917, and
@@ -102,7 +108,7 @@
     Rights in the United States" (1950). Lieberman died in October 1969.</p>
   </bioghist>
   <scopecontent encodinganalog="MARC 520">
-   <head id="a3">COLLECTION DESCRIPTION</head>
+   
    <p>The collection contains the unpublished manuscripts of Elias Lieberman. As a lawyer,
     Lieberman's manuscripts often involve legal matters, including trials, testimonies and
     transcripts. But with Lieberman's lengthy involvement with the ILGWU, the historical accounts
@@ -191,9 +197,9 @@
     documents the life and legacy of Morris Sigman.</p>
   </scopecontent>
   <controlaccess>
-   <head id="a8">SUBJECTS</head>
+   
    <controlaccess>
-    <head>Names: </head>
+    
     <persname encodinganalog="MARC 600"> Lieberman, Elias, -- b. 1888. </persname>
     <persname encodinganalog="MARC 600"> Sigman, Morris. </persname>
     <persname encodinganalog="MARC 600"> Poyntz, Juliet. </persname>
@@ -203,36 +209,36 @@
     </controlaccess>
   </controlaccess>
   <descgrp>
-   <head id="a10">INFORMATION FOR USERS</head>
+   
    <accessrestrict>
-    <head>Access Restrictions:</head>
+    
     <p>Access to the collections in the Kheel Center is restricted. Please contact a reference
      archivist for access to these materials.</p>
    </accessrestrict>
    <userestrict>
-    <head>Restrictions on Use:</head>
+    
     <p>This collection must be used in keeping with the Kheel Center Information Sheet and
      Procedures for Document Use.</p>
    </userestrict>
    <prefercite>
-    <head>Cite As:</head>
+    
     <p>Lieberman, Elias. Manuscripts. #6036/001. Kheel Center for Labor-Management Documentation and
      Archives, Cornell University Library.</p>
    </prefercite>
   </descgrp>
   <relatedmaterial>
-   <head id="a6">RELATED MATERIALS</head>
-   <p>Related Collections:<lb/>
+   
+   <p>Related Collections:
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780.html"> 5780: ILGWU
-    records</extref><lb/>
+    records</extref>
    </p>
   </relatedmaterial>
   <dsc type="in-depth">
-   <head>CONTAINER LIST</head>
+   
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link6">A Portrait of a Leader: A True Labor Story of a Man and an Era [Folder 1
       of 14]</unittitle>
     </did>
@@ -242,8 +248,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link7">A Portrait of a Leader: A True Labor Story of a Man and an Era [Folder 2
       of 14]</unittitle>
     </did>
@@ -253,8 +259,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link8">A Portrait of a Leader: A True Labor Story of a Man and an Era [Folder 3
       of 14]</unittitle>
     </did>
@@ -264,8 +270,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link9">A Portrait of a Leader: A True Labor Story of a Man and an Era [Folder 4
       of 14]</unittitle>
     </did>
@@ -275,8 +281,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link10">A Portrait of a Leader: A True Labor Story of a Man and an Era [Folder 5
       of 14]</unittitle>
     </did>
@@ -286,8 +292,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link11">A Portrait of a Leader: A True Labor Story of a Man and an Era [Folder 6
       of 14]</unittitle>
     </did>
@@ -297,8 +303,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link12">A Portrait of a Leader: A True Labor Story of a Man and an Era [Folder 7
       of 14]</unittitle>
     </did>
@@ -308,8 +314,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link13">A Portrait of a Leader: A True Labor Story of a Man and an Era [Folder 8
       of 14]</unittitle>
     </did>
@@ -319,8 +325,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link14">A Portrait of a Leader: A True Labor Story of a Man and an Era [Folder 9
       of 14]</unittitle>
     </did>
@@ -330,8 +336,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link15">A Portrait of a Leader: A True Labor Story of a Man and an Era [Folder
       10 of 14]</unittitle>
     </did>
@@ -341,8 +347,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link16">A Portrait of a Leader: A True Labor Story of a Man and an Era [Folder
       11 of 14]</unittitle>
     </did>
@@ -352,8 +358,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link17">A Portrait of a Leader: A True Labor Story of a Man and an Era [Folder
       12 of 14]</unittitle>
     </did>
@@ -363,8 +369,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link18">A Portrait of a Leader: A True Labor Story of a Man and an Era [Folder
       13 of 14]</unittitle>
     </did>
@@ -374,8 +380,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link19">A Portrait of a Leader: A True Labor Story of a Man and an Era [Folder
       14 of 14]</unittitle>
     </did>
@@ -385,8 +391,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link20">The Changing Images of Americna Trade Unionism: A Threat to Labor and a
       Challenge to the Statesment of Labor</unittitle>
     </did>
@@ -396,8 +402,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link21">The Mysterious Disappearance of Juliet or A Lady Communist Vanishes (A
       True Story)</unittitle>
     </did>
@@ -407,8 +413,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link22">A Portrait of Seventh Avenue: Events and Human-Interest Stories Of, By
       and About the Garment Center in New York City</unittitle>
     </did>

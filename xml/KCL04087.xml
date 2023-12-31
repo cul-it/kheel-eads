@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL04087::William Foote Whyte  Additional Papers.)//EN">KCL04087</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL04087::William Foote Whyte  Additional Papers.)//EN">KCL04087</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the William Foote Whyte Additional Papers<date> 1928-1990</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>September 30, 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the William Foote Whyte Additional Papers<lb/></titleproper>
+			<titleproper>Guide to the William Foote Whyte Additional Papers</titleproper>
 			<num>Collection Number: /4087</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,21 +54,21 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">William Foote Whyte Additional Papers, <unitdate encodinganalog="MARC 245$f">1928-1990</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">William Foote Whyte Additional Papers, 1928-1990
+			</unittitle><unitdate encodinganalog="MARC 245$f">1928-1990</unitdate>
 			<unitid label="Collection Number:">/4087</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">Whyte, William Foote</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">8 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">8 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Papers (documents).</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<langmaterial label="Language:">Collection material in <language encodinganalog="MARC 041" langcode="eng">English</language>
 			</langmaterial>
 		<physdesc><extent>8 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+			
 			<p>William Foote Whyte (June 27, 1914-July 16, 2000) was a sociologist chiefly known for his ethnographic study in urban sociology, Street Corner Society. Whyte, from an upper middle class background, showed an early interest in writing, economics
 				and social reform. After graduating from Swarthmore College, he was selected for the Junior Fellows program, where his landmark research was done. After his research in Boston, he entered the sociology doctoral program at the University of
 				Chicago. Street Corner Society was published by the University of Chicago Press in 1943. He spent a year teaching at the University of Oklahoma, but developed polio in 1943 and spent two years in physical therapy at the Warm Springs Foundation.
@@ -72,9 +78,9 @@
 				including an autobiography. He is considered a pioneer in industrial sociology.</p>
 		</bioghist>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Whyte, William Foote,1914-2000. </persname>
 				<corpname encodinganalog="MARC 610">New York State School of Industrial and Labor Relations --Faculty. </corpname>
 			</controlaccess>
@@ -82,304 +88,304 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>William Foote Whyte Additional Papers #/4087. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04149av.html"> /4149 AV: "ASA Award Presentation to William Foote Whyte by Jacqueline Scheier" Audio-Visual Materials</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04058.html"> /4058: William Foote Whyte Office Records</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04094.html"> /4094: William Foote Whyte Additional Papers</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04102.html"> /4102: William Foote Whyte Additional Papers</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04149.html"> /4149: William Foote Whyte Additional Papers</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04151.html"> /4151: William Foote Whyte Additional Papers</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04163.html"> /4163: William Foote Whyte Additional Papers</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04168.html"> /4168: William Foote Whyte Additional Papers</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04173.html"> /4173: William Foote Whyte Additional Papers</extref><lb/>
+			
+			<p>Related Collections:
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04149av.html"> /4149 AV: "ASA Award Presentation to William Foote Whyte by Jacqueline Scheier" Audio-Visual Materials</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04058.html"> /4058: William Foote Whyte Office Records</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04094.html"> /4094: William Foote Whyte Additional Papers</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04102.html"> /4102: William Foote Whyte Additional Papers</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04149.html"> /4149: William Foote Whyte Additional Papers</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04151.html"> /4151: William Foote Whyte Additional Papers</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04163.html"> /4163: William Foote Whyte Additional Papers</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04168.html"> /4168: William Foote Whyte Additional Papers</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04173.html"> /4173: William Foote Whyte Additional Papers</extref>
 			</p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link8">Langone Politics</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link9">Nortons</unittitle>
-					<unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate>
+					<unitdate normal="1937/1938" type="inclusive">1937-1938</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link10">Notes and Papers Street Corner Society Structure + Informal Groups</unittitle>
 					<unitdate normal="1939">1939</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link11">Racketeers Lives and Businesses</unittitle>
 					<unitdate normal="1938">1938</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link12">Nortons and Leadership I; List of Nicknames</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link13">The Nortons- Leadership II</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link14">Nortons Following I VU</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link15">Langone Politics II (Fitzgerald)</unittitle>
-					<unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate>
+					<unitdate normal="1937/1938" type="inclusive">1937-1938</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link16">"Chichi"</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link17">Leo's Coffee House</unittitle>
-					<unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate>
+					<unitdate normal="1938/1939" type="inclusive">1938-1939</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link18">North End Clippings</unittitle>
-					<unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate>
+					<unitdate normal="1941/1942" type="inclusive">1941-1942</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link19">Race Relations: The Irish vs. the Italians</unittitle>
 					<unitdate normal="1939">1939</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link20">Misc. Beginnings - Housing Survey, etc.</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link21">Religion and The Feasts</unittitle>
-					<unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate>
+					<unitdate normal="1938/1939" type="inclusive">1938-1939</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link22">Miscellaneous</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link23">The Mass March</unittitle>
 					<unitdate normal="1939">1939</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link24">Slum Sex Code</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link25">Richmond and North Streets Jannes Club</unittitle>
 					<unitdate normal="1938">1938</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link26">Original 13</unittitle>
 					<unitdate normal="1939">1939</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link27">Settlement House, Recreational Centers</unittitle>
-					<unitdate type="inclusive" normal="1937/1939">1937-1939</unitdate>
+					<unitdate normal="1937/1939" type="inclusive">1937-1939</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link28">J. Howard's Material</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link29">John F. Fitzgerald Clippings</unittitle>
 					<unitdate normal="1938">1938</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link30">Social Anthropological Study of a North End Family- Jimmy Spatz</unittitle>
-					<unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate>
+					<unitdate normal="1938/1939" type="inclusive">1938-1939</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link31">DiCarlis, Christine Serra</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link32">The Racketeer in the Cornerville S. and A. Club</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link33">SCS Orientation Literature- Nature of City Life</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link34">Political Meetings</unittitle>
-					<unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate>
+					<unitdate normal="1938/1939" type="inclusive">1938-1939</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link35">Police and Politics</unittitle>
-					<unitdate type="inclusive" normal="1937/1942">1937-1942</unitdate>
+					<unitdate normal="1937/1942" type="inclusive">1937-1942</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link36">North North End</unittitle>
-					<unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate>
+					<unitdate normal="1938/1939" type="inclusive">1938-1939</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link37">Politics and the Local Structure</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle id="link38">Book II, Part I. The Social Structure of Racketeering</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle id="link39">The Nortons and their Leader</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle id="link40">The Rise and Fall of the Community Club</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle id="link41">Two Worlds [folder 1 of 2]</unittitle>
 				</did>
 				<scopecontent>
@@ -388,8 +394,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link42">Two Worlds [folder 2 of 2]</unittitle>
 				</did>
 				<scopecontent>
@@ -398,486 +404,486 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link43">Articles by Whyte</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link44">Misc. Notes Part I</unittitle>
 					<unitdate normal="1939">1939</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link45">Misc. Notes Part II</unittitle>
-					<unitdate type="inclusive" normal="1939/1941">1939-1941</unitdate>
+					<unitdate normal="1939/1941" type="inclusive">1939-1941</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link46">Misc. Notes Part III</unittitle>
 					<unitdate normal="1939">1939</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link47">Hanover Associates</unittitle>
-					<unitdate type="inclusive" normal="1939/1941">1939-1941</unitdate>
+					<unitdate normal="1939/1941" type="inclusive">1939-1941</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link48">Italian Fellowship League</unittitle>
-					<unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate>
+					<unitdate normal="1937/1940" type="inclusive">1937-1940</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link49">Phillips Petrol Part I</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link50">Phillips Petrol. Part II</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link51">People in Petroleum</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link52">Report on the Radisson- Manuscript</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link53">Chandler's Restaurant Part I</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link54">Chandler's Restaurant Part II</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link55">Phillip's Correspondence</unittitle>
-					<unitdate type="inclusive" normal="1943/1944">1943-1944</unitdate>
+					<unitdate normal="1943/1944" type="inclusive">1943-1944</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link56">Phillips Part I</unittitle>
-					<unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate>
+					<unitdate normal="1942/1943" type="inclusive">1942-1943</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link57">Phillips Part II</unittitle>
-					<unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate>
+					<unitdate normal="1942/1943" type="inclusive">1942-1943</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link58">Plans for Organizing Studies</unittitle>
-					<unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate>
+					<unitdate normal="1936/1937" type="inclusive">1936-1937</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link59">Letters on Writings</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link60">Notes on North End</unittitle>
-					<unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate>
+					<unitdate normal="1989/1990" type="inclusive">1989-1990</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link61">Phillips Co. Letters</unittitle>
 					<unitdate normal="1944">1944</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link62">North End Letters</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link63">Misc. Letters</unittitle>
-					<unitdate type="inclusive" normal="1937/1939">1937-1939</unitdate>
+					<unitdate normal="1937/1939" type="inclusive">1937-1939</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link64">Plans</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link65">Letters on St. Corner Society</unittitle>
-					<unitdate type="inclusive" normal="1941/1944">1941-1944</unitdate>
+					<unitdate normal="1941/1944" type="inclusive">1941-1944</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link66">Personal Letters</unittitle>
-					<unitdate type="inclusive" normal="1939/1941">1939-1941</unitdate>
+					<unitdate normal="1939/1941" type="inclusive">1939-1941</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link67">North End Letters</unittitle>
-					<unitdate type="inclusive" normal="1937/1942">1937-1942</unitdate>
+					<unitdate normal="1937/1942" type="inclusive">1937-1942</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link68">College Writings</unittitle>
 					<unitdate normal="1941">1941</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link69">Various Letters</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link70">Correspondence</unittitle>
 					<unitdate normal="1935">1935</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link71">Grade Reports</unittitle>
-					<unitdate type="inclusive" normal="1928/1934">1928-1934</unitdate>
+					<unitdate normal="1928/1934" type="inclusive">1928-1934</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link72">Buchsbaum I</unittitle>
 					<unitdate normal="1946">1946</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link73">Buchsbaum II</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link74">Stouffer's Notes I</unittitle>
 					<unitdate normal="1944">1944</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link75">Stouffer's Notes II</unittitle>
 					<unitdate normal="1944">1944</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link76">Stouffer's Notes III</unittitle>
 					<unitdate normal="1944">1944</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link77">Marshall Field Restaurant Interviews</unittitle>
-					<unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate>
+					<unitdate normal="1944/1945" type="inclusive">1944-1945</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link78">Correspondence and Clippings</unittitle>
-					<unitdate type="inclusive" normal="1953/1968">1953-1968</unitdate>
+					<unitdate normal="1953/1968" type="inclusive">1953-1968</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link79">Union-Management Cooperation</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link80">Sidney Garfield</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link81">Phillips</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link82">Inland Steel Container</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link83">Inland Steel Container Documents I</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link84">Inland Steel Container Documents II</unittitle>
-					<unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate>
+					<unitdate normal="1948/1950" type="inclusive">1948-1950</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link85">Inland Steel</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link86">Restaurant Association/ Restaurant Book</unittitle>
 					<unitdate normal="1945">1945</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link87">Unwritten Book (Loomis-CMA) Research Group</unittitle>
-					<unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate>
+					<unitdate normal="1942/1943" type="inclusive">1942-1943</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link88">Research Group</unittitle>
 					<unitdate normal="1946">1946</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link89">Oklahoma Teaching Notes</unittitle>
 					<unitdate normal="1942">1942</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link90">Bundy, continued</unittitle>
-					<unitdate type="inclusive" normal="1945/1947">1945-1947</unitdate>
+					<unitdate normal="1945/1947" type="inclusive">1945-1947</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link91">Bundy Paper</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link92">Age Grading</unittitle>
 					<unitdate normal="1942">1942</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link93">Chicago Teaching</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link94">Rocco #1</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link95">Rocco #2</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link96">Swarthmore Writing</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link97">Novel "Campaign"</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link98">North End Fiction</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link99">North End Fiction - cont.</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link100">Municipal Finance</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link101">Govt. + Business Paper</unittitle>
 					<unitdate normal="1934">1934</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link102">Bill Whyte Writings</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link103">TVA Project</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unittitle id="link104">Text digitized from the collection.</unittitle>
 				</did>
 			</c01>

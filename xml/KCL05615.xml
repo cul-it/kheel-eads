@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05615::Sanford E. Thompson Papers.)//EN">KCL05615</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05615::Sanford E. Thompson Papers.)//EN">KCL05615</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the Sanford E. Thompson Papers<date>
@@ -24,20 +24,26 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>March 21,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
-            <titleproper>Guide to the Sanford E. Thompson Papers<lb/></titleproper>
+            <titleproper>Guide to the Sanford E. Thompson Papers</titleproper>
             <num>Collection Number: 5615</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -56,15 +62,15 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">Sanford E. Thompson Papers,
-                    <unitdate encodinganalog="MARC 245$f">1888-1978</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">Sanford E. Thompson Papers
+                    1888-1978
+            </unittitle><unitdate encodinganalog="MARC 245$f">1888-1978</unitdate>
             <unitid label="Collection Number:">5615</unitid>
             <origination label="Creator:">
                 <persname encodinganalog="MARC 100" role="creator">Thompson, Sanford E.</persname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">8.5 linear ft.</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">8.5 linear ft.</physdesc>
             <physdesc label="Forms of Material:">Articles, first drafts, patents, photographs,
                 papers (documents).</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
@@ -76,7 +82,7 @@
             </langmaterial>
         <physdesc><extent>8.5 cubic feet</extent></physdesc></did>
         <bioghist encodinganalog="MARC 545">
-            <head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+            
             <p>Sanford E. Thompson, construction engineer, scientific management practitioner, and
                 consultant, is best known for his application of Frederick W. Taylor's principles of
                 scientific management to various construction and manufacturing problems, in an
@@ -89,7 +95,7 @@
                 Thompson also served in a number of governmental posts between 1921 and 1943.</p>
         </bioghist>
         <scopecontent encodinganalog="MARC 520">
-            <head id="a3">COLLECTION DESCRIPTION</head>
+            
             <p>The papers include routine job measurement forms; charts; notes and reports;
                 correspondence with management theorists, including Frederick W. Taylor and Frank
                 Gilbreth; and publications and reports by Thompson. Papers of Frederick W. Taylor,
@@ -187,9 +193,9 @@
                 (1915).</p>
         </scopecontent>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <persname encodinganalog="MARC 600">Barth, Carl. </persname>
                 <persname encodinganalog="MARC 600">Danforth, William. </persname>
                 <persname encodinganalog="MARC 600">Feiss, Richard A. (Richard Albert), 1878-1954 </persname>
@@ -219,7 +225,7 @@
                 <corpname encodinganalog="MARC 610">United States. War Department </corpname>
             </controlaccess>
             <controlaccess>
-                <head>Subjects: </head>
+                
                 <subject encodinganalog="MARC 650">Business cycles -- United States. </subject>
                 <subject encodinganalog="MARC 650">Concrete construction. </subject>
                 <subject encodinganalog="MARC 650">Concrete testing. </subject>
@@ -255,69 +261,69 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>Sanford E. Thompson Papers #5615. Kheel Center for Labor-Management Documentation
                     and Archives, Cornell University Library.</p>
             </prefercite>
         </descgrp>
         <relatedmaterial>
-            <head id="a6">RELATED MATERIALS</head>
-            <p>Related Collections:<lb/>
+            
+            <p>Related Collections:
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06217.html"> 6217: John
-                    D. and Valerie C. Stelling Collection of Sanford Thompson Files</extref><lb/>
+                    D. and Valerie C. Stelling Collection of Sanford Thompson Files</extref>
             </p>
         </relatedmaterial>
         <arrangement>
-            <head>SERIES LIST</head>
+            
             <p>
-                <emph render="bold"><ref linktype="simple" target="link8" show="replace" actuate="onrequest">Series I. PROFESSIONAL PAPERS, 1888-1949</ref></emph>
+                <emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link8">Series I. PROFESSIONAL PAPERS, 1888-1949</ref></emph>
             </p>
             <p>
-                <emph render="bold"><ref linktype="simple" target="link60" show="replace" actuate="onrequest">Series II. CORRESPONDENCE, 1892-1949</ref></emph>
+                <emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link60">Series II. CORRESPONDENCE, 1892-1949</ref></emph>
             </p>
             <p>
-                <emph render="bold"><ref linktype="simple" target="link90" show="replace" actuate="onrequest">Series III. PUBLICATIONS, 1925-1946</ref></emph>
+                <emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link90">Series III. PUBLICATIONS, 1925-1946</ref></emph>
             </p>
             <p>
-                <emph render="bold"><ref linktype="simple" target="link133" show="replace" actuate="onrequest">Series IV. THOMPSON &amp; LICHTNER COMPANY FILES,
+                <emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link133">Series IV. THOMPSON &amp; LICHTNER COMPANY FILES,
                         1906-1947</ref></emph>
             </p>
             <p>
-                <emph render="bold"><ref linktype="simple" target="link149" show="replace" actuate="onrequest">Series V. FREDERICK W. TAYLOR FILES
+                <emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link149">Series V. FREDERICK W. TAYLOR FILES
                     1892-1915</ref></emph>
             </p>
             <p>
-                <ref linktype="simple" target="link150" show="replace" actuate="onrequest">Sub-Series 1. R.W. Taylor/Sanford Thompson Correspondence, 1892-1915</ref>
-                <lb/>
-                <ref linktype="simple" target="link167" show="replace" actuate="onrequest">Sub-Series 2. Taylor/Thompson Experiment Documents 1905-1915</ref>
-                <lb/>
-                <ref linktype="simple" target="link177" show="replace" actuate="onrequest">Sub-Series 3. A. Miscellaneous Taylor Files 1892-1963</ref>
-                <lb/>
-                <ref linktype="simple" target="link192" show="replace" actuate="onrequest">Sub-Series 3. B. Publications</ref>
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link150">Sub-Series 1. R.W. Taylor/Sanford Thompson Correspondence, 1892-1915</ref>
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link167">Sub-Series 2. Taylor/Thompson Experiment Documents 1905-1915</ref>
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link177">Sub-Series 3. A. Miscellaneous Taylor Files 1892-1963</ref>
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link192">Sub-Series 3. B. Publications</ref>
             </p>
         </arrangement>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="series">
                 <did>
                     <unittitle id="link8">Series I. PROFESSIONAL PAPERS, 1888-1949</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link9">Certificate of Am. Society of Mechanical
                             Engineers</unittitle>
                         <unitdate normal="1947">1947</unitdate>
@@ -325,95 +331,95 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link10">Consultant to Secretary of War</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link11">Contract between Taylor and Thompson</unittitle>
                         <unitdate normal="1895">1895</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link12">Engineer's Certificate</unittitle>
                         <unitdate normal="1936">1936</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">5-7</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5-7</container>
                         <unittitle id="link13">Job and Man Rating Course</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link14">Management Book (Chapter 4)</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link15">Management Book (Chapter 5)</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link16">Management Book (Chapter 6)</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link17">Management Book (Chapter 7)</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link18">Management Book (Chapter 18)</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link19">Manufacturing Investment Company</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link20">Material on Apprenticeships</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link21">Miscellaneous</unittitle>
-                        <unitdate type="inclusive" normal="1892/1893">1892-1893</unitdate>
+                        <unitdate normal="1892/1893" type="inclusive">1892-1893</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link22">Miscellaneous</unittitle>
                     </did>
                     <scopecontent>
@@ -422,8 +428,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link23">Miscellaneous</unittitle>
                     </did>
                     <scopecontent>
@@ -432,15 +438,15 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">18</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">18</container>
                         <unittitle id="link24">Miscellaneous Notes</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">19</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">19</container>
                         <unittitle id="link25">Miscellaneous Papers of E.C. Harwood</unittitle>
                     </did>
                     <scopecontent>
@@ -449,17 +455,17 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">20-23</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">20-23</container>
                         <unittitle id="link26">Miscellaneous Professional Articles</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">24</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">24</container>
                         <unittitle id="link27">Notebook</unittitle>
-                        <unitdate type="inclusive" normal="1888/1889">1888-1889</unitdate>
+                        <unitdate normal="1888/1889" type="inclusive">1888-1889</unitdate>
                     </did>
                     <scopecontent>
                         <p>MIT</p>
@@ -467,10 +473,10 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">25</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">25</container>
                         <unittitle id="link28">Notebook</unittitle>
-                        <unitdate type="inclusive" normal="1889/1890">1889-1890</unitdate>
+                        <unitdate normal="1889/1890" type="inclusive">1889-1890</unitdate>
                     </did>
                     <scopecontent>
                         <p>Moosehead Paper Co.</p>
@@ -478,8 +484,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link29">Notebook</unittitle>
                         <unitdate normal="1892">1892</unitdate>
                     </did>
@@ -490,8 +496,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">2-3</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">2-3</container>
                         <unittitle id="link30">Notebook</unittitle>
                         <unitdate normal="1893">1893</unitdate>
                     </did>
@@ -501,40 +507,40 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link31">Notebook</unittitle>
                         <unitdate normal="1896">1896</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link32">Notes on Conference</unittitle>
                         <unitdate normal="1941">1941</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link33">Notes for book on Scientific Management</unittitle>
                         <unitdate normal="1940">1940</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link34">Press Releases</unittitle>
-                        <unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate>
+                        <unitdate normal="1931/1932" type="inclusive">1931-1932</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link35">Schwarzenbach Huber Co. - Miscellaneous
                             forms</unittitle>
                     </did>
@@ -544,8 +550,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link36">Schwarzenbach Huber Co.</unittitle>
                     </did>
                     <scopecontent>
@@ -554,8 +560,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link37">Schwarzenbach Huber Co.</unittitle>
                     </did>
                     <scopecontent>
@@ -564,8 +570,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">11-12</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">11-12</container>
                         <unittitle id="link38">Schwarzenbach Huber Co.</unittitle>
                     </did>
                     <scopecontent>
@@ -574,8 +580,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link39">Schwarzenbach Huber Co.</unittitle>
                     </did>
                     <scopecontent>
@@ -584,8 +590,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link40">Schwarzenbach Huber Co.</unittitle>
                     </did>
                     <scopecontent>
@@ -594,8 +600,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link41">Schwarzenbach Huber Co.</unittitle>
                     </did>
                     <scopecontent>
@@ -604,16 +610,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link42">"Survey of Wool Spinning Mill..."</unittitle>
                         <unitdate normal="1936">1936</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link43">"Survey of Wool Spinning Mill..."</unittitle>
                         <unitdate normal="1936">1936</unitdate>
                     </did>
@@ -623,8 +629,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">18</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">18</container>
                         <unittitle id="link44">Tabor Manufacturing Co. "Instructions for
                             Foundries"</unittitle>
                         <unitdate normal="1914">1914</unitdate>
@@ -632,16 +638,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">19-21</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">19-21</container>
                         <unittitle id="link45">Tabor Manufacturing Company</unittitle>
                         <unitdate normal="1915">1915</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">22</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">22</container>
                         <unittitle id="link46">Time Study Sheets A-1 and B-2</unittitle>
                         <unitdate normal="1896">1896</unitdate>
                     </did>
@@ -651,24 +657,24 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">23-25</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">23-25</container>
                         <unittitle id="link47">Unemployment Conference</unittitle>
                         <unitdate normal="1921">1921</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">26</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">26</container>
                         <unittitle id="link48">Unemployment Conference - Miscellaneous
                             Papers</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link49">Ludlow Manufacturing, Correspondence</unittitle>
                         <unitdate normal="1914">1914</unitdate>
                     </did>
@@ -678,16 +684,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">2-4</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">2-4</container>
                         <unittitle id="link50">Ludlow Manufacturing. Correspondence</unittitle>
                         <unitdate normal="1915">1915</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link51">Ludlow Manufacturing. "Daily Doffing Records for
                             Spinning Rooms"</unittitle>
                         <unitdate normal="1915">1915</unitdate>
@@ -695,15 +701,15 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">6-11</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">6-11</container>
                         <unittitle id="link52">Ludlow Manufacturing Diagrams, Charts</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">12-14</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">12-14</container>
                         <unittitle id="link53">Ludlow Manufacturing - Miscellaneous
                             Papers</unittitle>
                         <unitdate normal="1914">1914</unitdate>
@@ -711,8 +717,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">15-18</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">15-18</container>
                         <unittitle id="link54">Ludlow Manufacturing - Miscellaneous
                             Papers</unittitle>
                         <unitdate normal="1915">1915</unitdate>
@@ -720,8 +726,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">1-4</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">1-4</container>
                         <unittitle id="link55">Ludlow Manufacturing - Miscellaneous
                             Papers</unittitle>
                         <unitdate normal="1915">1915</unitdate>
@@ -729,8 +735,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">5-7</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">5-7</container>
                         <unittitle id="link56">Ludlow Manufacturing - "Time Studies in Winding
                             Dept."</unittitle>
                         <unitdate normal="1916">1916</unitdate>
@@ -741,17 +747,17 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link57">Ludlow Manufacturing - Miscellaneous
                             Papers</unittitle>
-                        <unitdate type="inclusive" normal="1914/1917">1914-1917</unitdate>
+                        <unitdate normal="1914/1917" type="inclusive">1914-1917</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link58">Ludlow Manufacturing - Miscellaneous
                             Papers</unittitle>
                         <unitdate normal="1916">1916</unitdate>
@@ -759,8 +765,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link59">Ludlow Manufacturing - Miscellaneous
                             Papers</unittitle>
                     </did>
@@ -775,42 +781,42 @@
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link61">Correspondence</unittitle>
-                        <unitdate type="inclusive" normal="1892/1893">1892-1893</unitdate>
+                        <unitdate normal="1892/1893" type="inclusive">1892-1893</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link62">Correspondence</unittitle>
                         <unitdate normal="1894">1894</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link63">Correspondence</unittitle>
                         <unitdate normal="1895">1895</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link64">Correspondence</unittitle>
                         <unitdate normal="1896">1896</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link65">Correspondence</unittitle>
-                        <unitdate type="inclusive" normal="1897/1899">1897-1899</unitdate>
+                        <unitdate normal="1897/1899" type="inclusive">1897-1899</unitdate>
                     </did>
                     <scopecontent>
                         <p>includes correspondence with Frank Gilbreth</p>
@@ -818,10 +824,10 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link66">Correspondence</unittitle>
-                        <unitdate type="inclusive" normal="1901/1904">1901-1904</unitdate>
+                        <unitdate normal="1901/1904" type="inclusive">1901-1904</unitdate>
                     </did>
                     <scopecontent>
                         <p>includes correspondence with Frank Gilbreth</p>
@@ -829,10 +835,10 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link67">Correspondence</unittitle>
-                        <unitdate type="inclusive" normal="1901/1904">1901-1904</unitdate>
+                        <unitdate normal="1901/1904" type="inclusive">1901-1904</unitdate>
                     </did>
                     <scopecontent>
                         <p>illegible</p>
@@ -840,16 +846,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link68">Correspondence</unittitle>
                         <unitdate normal="1905">1905</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link69">Correspondence</unittitle>
                         <unitdate normal="1905">1905</unitdate>
                     </did>
@@ -859,24 +865,24 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link70">Correspondence</unittitle>
-                        <unitdate type="inclusive" normal="1907/1914">1907-1914</unitdate>
+                        <unitdate normal="1907/1914" type="inclusive">1907-1914</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link71">Correspondence</unittitle>
-                        <unitdate type="inclusive" normal="1915/1917">1915-1917</unitdate>
+                        <unitdate normal="1915/1917" type="inclusive">1915-1917</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link72">Correspondence</unittitle>
                         <unitdate normal="1923">1923</unitdate>
                     </did>
@@ -887,42 +893,42 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link73">Correspondence</unittitle>
                         <unitdate normal="1927">1927</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link74">Correspondence</unittitle>
-                        <unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate>
+                        <unitdate normal="1930/1931" type="inclusive">1930-1931</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link75">Correspondence</unittitle>
                         <unitdate normal="1932">1932</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link76">Correspondence</unittitle>
                         <unitdate normal="1933">1933</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">17-18</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">17-18</container>
                         <unittitle id="link77">Correspondence</unittitle>
-                        <unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate>
+                        <unitdate normal="1934/1935" type="inclusive">1934-1935</unitdate>
                     </did>
                     <scopecontent>
                         <p>includes correspondence with E.C. Harwood, Director, American Institute
@@ -931,72 +937,72 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">19</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">19</container>
                         <unittitle id="link78">Correspondence</unittitle>
-                        <unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate>
+                        <unitdate normal="1936/1938" type="inclusive">1936-1938</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">20</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">20</container>
                         <unittitle id="link79">Correspondence</unittitle>
                         <unitdate normal="1939">1939</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">21</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">21</container>
                         <unittitle id="link80">Correspondence</unittitle>
                         <unitdate normal="1941">1941</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">22</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">22</container>
                         <unittitle id="link81">Correspondence</unittitle>
                         <unitdate normal="1942">1942</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">23</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">23</container>
                         <unittitle id="link82">Correspondence</unittitle>
                         <unitdate normal="1943">1943</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">24</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">24</container>
                         <unittitle id="link83">Correspondence</unittitle>
-                        <unitdate type="inclusive" normal="1945/1947">1945-1947</unitdate>
+                        <unitdate normal="1945/1947" type="inclusive">1945-1947</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">25</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">25</container>
                         <unittitle id="link84">Correspondence</unittitle>
                         <unitdate normal="1948">1948</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">26</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">26</container>
                         <unittitle id="link85">Correspondence</unittitle>
-                        <unitdate type="inclusive" normal="1949/1952">1949-1952</unitdate>
+                        <unitdate normal="1949/1952" type="inclusive">1949-1952</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link86">Correspondence</unittitle>
                         <unitdate normal="1903">1903</unitdate>
                     </did>
@@ -1006,16 +1012,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link87">Correspondence</unittitle>
-                        <unitdate type="inclusive" normal="1903/1904">1903-1904</unitdate>
+                        <unitdate normal="1903/1904" type="inclusive">1903-1904</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link88">Correspondence</unittitle>
                         <unitdate normal="1904">1904</unitdate>
                     </did>
@@ -1025,8 +1031,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link89">Correspondence</unittitle>
                         <unitdate normal="1905">1905</unitdate>
                     </did>
@@ -1041,8 +1047,8 @@
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">1-2</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">1-2</container>
                         <unittitle id="link91">"Adjusting Production to Tomorrow's
                             Market"</unittitle>
                         <unitdate normal="1932">1932</unitdate>
@@ -1050,16 +1056,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link92">From Am. Society of Mechanical Engineers</unittitle>
                         <unitdate normal="1936">1936</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">4-5</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">4-5</container>
                         <unittitle id="link93">"Application of Costs"</unittitle>
                     </did>
                     <scopecontent>
@@ -1068,8 +1074,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">6-7</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">6-7</container>
                         <unittitle id="link94">"Application of Selling and Distribution
                             Costs"</unittitle>
                         <unitdate normal="1930">1930</unitdate>
@@ -1077,8 +1083,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">8-9</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">8-9</container>
                         <unittitle id="link95">"Application of Time Standards in Retail
                             Stores"</unittitle>
                         <unitdate normal="1928">1928</unitdate>
@@ -1086,8 +1092,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link96">(W.W. Freeland) "Better Management Pays in
                             Textiles"</unittitle>
                         <unitdate normal="1925">1925</unitdate>
@@ -1095,24 +1101,24 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link97">Biographical article with list of selected
                             publications</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">12-13</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">12-13</container>
                         <unittitle id="link98">"Compensating for Profit Control"</unittitle>
                         <unitdate normal="1933">1933</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link99">"Construction Revival is Essential to
                             Prosperity"</unittitle>
                         <unitdate normal="1932">1932</unitdate>
@@ -1120,16 +1126,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">15-17</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">15-17</container>
                         <unittitle id="link100">Contribution to Symposium on F.W. Taylor</unittitle>
                         <unitdate normal="1933">1933</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">18</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">18</container>
                         <unittitle id="link101">Cost Accounting</unittitle>
                     </did>
                     <scopecontent>
@@ -1138,16 +1144,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">19</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">19</container>
                         <unittitle id="link102">Current buying...</unittitle>
                         <unitdate normal="1927">1927</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">20</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">20</container>
                         <unittitle id="link103">(With H.T. Rollins) "The Development of a Modern
                             Hosiery Plant"</unittitle>
                         <unitdate normal="1924">1924</unitdate>
@@ -1155,16 +1161,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">21</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">21</container>
                         <unittitle id="link104">"Discussion on Distribution Costs"</unittitle>
                         <unitdate normal="1933">1933</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">22</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">22</container>
                         <unittitle id="link105">"What Must the Manufacturer Do!"</unittitle>
                     </did>
                     <scopecontent>
@@ -1173,61 +1179,61 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">23-24</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">23-24</container>
                         <unittitle id="link106">"Engineered Marketing"</unittitle>
                         <unitdate normal="1945">1945</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">25</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">25</container>
                         <unittitle id="link107">"Lack of Skill Seen in Marketing Goods"</unittitle>
                         <unitdate normal="1932">1932</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">26</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">26</container>
                         <unittitle id="link108">Miscellaneous Articles</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">27-29</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">27-29</container>
                         <unittitle id="link109">Notes for "Engineered Marketing"</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">30</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">30</container>
                         <unittitle id="link110">"Increased Production for Defense Needs"</unittitle>
                         <unitdate normal="1940">1940</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">31</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">31</container>
                         <unittitle id="link111">"The Influence of Scientific Management"</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">32</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">32</container>
                         <unittitle id="link112">"Labor and Changing Technology"</unittitle>
                         <unitdate normal="1940">1940</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">33</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">33</container>
                         <unittitle id="link113">"A New Association for Treatment of Economic
                             Problems"</unittitle>
                         <unitdate normal="1932">1932</unitdate>
@@ -1235,24 +1241,24 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">34-35</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">34-35</container>
                         <unittitle id="link114">"Optimum Productivity in the Workshop"</unittitle>
                         <unitdate normal="1939">1939</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">36</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">36</container>
                         <unittitle id="link115">"Post-War Cost Reductions"</unittitle>
                         <unitdate normal="1944">1944</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">37</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">37</container>
                         <unittitle id="link116">"The Quality of Product in Piece-Work"</unittitle>
                     </did>
                     <scopecontent>
@@ -1261,8 +1267,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">38</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">38</container>
                         <unittitle id="link117">"Relation of Unit Production to Our Business
                             Depression..."</unittitle>
                         <unitdate normal="1931">1931</unitdate>
@@ -1270,8 +1276,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">39</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">39</container>
                         <unittitle id="link118">"Savings Through Management in Rubber
                             Industry"</unittitle>
                         <unitdate normal="1925">1925</unitdate>
@@ -1279,40 +1285,40 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">40</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">40</container>
                         <unittitle id="link119">(Radio Speech) on Salvation Army</unittitle>
                         <unitdate normal="1939">1939</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">41</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">41</container>
                         <unittitle id="link120">"Smoothing the Wrinkles from Management"</unittitle>
                         <unitdate normal="1927">1927</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">42</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">42</container>
                         <unittitle id="link121">"Stepping Toward Prosperity"</unittitle>
                         <unitdate normal="1931">1931</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">43</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">43</container>
                         <unittitle id="link122">"Synchronized Arms Production"</unittitle>
                         <unitdate normal="1941">1941</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">44</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">44</container>
                         <unittitle id="link123">"The Taylor Piece-Rate System, Being a Step Toward
                             Partial Solution of the Labor Problem"</unittitle>
                     </did>
@@ -1322,8 +1328,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">45</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">45</container>
                         <unittitle id="link124">Technological Development</unittitle>
                     </did>
                     <scopecontent>
@@ -1332,16 +1338,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">46</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">46</container>
                         <unittitle id="link125">"Today's Management and Its Problems"</unittitle>
                         <unitdate normal="1936">1936</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">47</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">47</container>
                         <unittitle id="link126">"Unemployment: A Basis for Solution"</unittitle>
                     </did>
                     <scopecontent>
@@ -1350,24 +1356,24 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">48</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">48</container>
                         <unittitle id="link127">"What's Holding Back Prosperity?"</unittitle>
                         <unitdate normal="1931">1931</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">49</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">49</container>
                         <unittitle id="link128">"Winter Construction"</unittitle>
                         <unitdate normal="1926">1926</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">9</container>
-                        <container type="folder">1-19</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">1-19</container>
                         <unittitle id="link129">Sanford E. Thompson &amp; Edward Smulski. Reinforced
                             Concrete Bridges</unittitle>
                     </did>
@@ -1377,8 +1383,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">1-23</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">1-23</container>
                         <unittitle id="link130">Sanford E. Thompson &amp; Edward Smulski. Reinforced
                             Concrete Bridges.</unittitle>
                     </did>
@@ -1388,8 +1394,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">11</container>
-                        <container type="folder">1-3</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">1-3</container>
                         <unittitle id="link131">Sanford E. Thompson &amp; Edward Smulski. Reinforced
                             Concrete Bridges</unittitle>
                     </did>
@@ -1399,10 +1405,10 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">11</container>
-                        <container type="folder">4-19</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">4-19</container>
                         <unittitle id="link132">Unpublished Manuscript. Marketing Book</unittitle>
-                        <unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate>
+                        <unitdate normal="1946/1947" type="inclusive">1946-1947</unitdate>
                     </did>
                     <scopecontent>
                         <p>Includes notes for the book, chapters, etc.</p>
@@ -1416,16 +1422,16 @@
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link134">"Consulting Practice in Management of Thompson &amp;
                             Lichtner Co."</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link135">"Hoover Approach to Current Economic
                             Problems"</unittitle>
                         <unitdate normal="1930">1930</unitdate>
@@ -1433,8 +1439,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link136">"A Study of Means to Increase Purchasing
                             Power"</unittitle>
                         <unitdate normal="1932">1932</unitdate>
@@ -1442,8 +1448,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link137">"Survey of Opinions of Retailers and
                             Manufacturers"</unittitle>
                         <unitdate normal="1946">1946</unitdate>
@@ -1451,8 +1457,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link138">"The Thompson &amp; Lichtner Operating
                             Audit..."</unittitle>
                         <unitdate normal="1937">1937</unitdate>
@@ -1460,32 +1466,32 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link139">"Vertical Integration by Advertising"</unittitle>
                         <unitdate normal="1946">1946</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">7-12</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">7-12</container>
                         <unittitle id="link140">"Bricklaying"</unittitle>
-                        <unitdate type="inclusive" normal="1902/1908">1902-1908</unitdate>
+                        <unitdate normal="1902/1908" type="inclusive">1902-1908</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link141">Correspondence</unittitle>
-                        <unitdate type="inclusive" normal="1930/1947">1930-1947</unitdate>
+                        <unitdate normal="1930/1947" type="inclusive">1930-1947</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link142">Description of Services offered by the
                             Company</unittitle>
                     </did>
@@ -1495,8 +1501,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link143">Miscellaneous</unittitle>
                     </did>
                     <scopecontent>
@@ -1505,16 +1511,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link144">Newsletter: "The Merry Tinker"</unittitle>
                         <unitdate normal="1928">1928</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link145">"History of Scientific Management in
                             America"</unittitle>
                         <unitdate normal="1938">1938</unitdate>
@@ -1522,16 +1528,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">18</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">18</container>
                         <unittitle id="link146">"Planning for Post-War Costs..."</unittitle>
                         <unitdate normal="1944">1944</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">19</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">19</container>
                         <unittitle id="link147">"Problems of Management"</unittitle>
                     </did>
                     <scopecontent>
@@ -1540,8 +1546,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">20</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">20</container>
                         <unittitle id="link148">"Wage Incentives"</unittitle>
                         <unitdate normal="1946">1946</unitdate>
                     </did>
@@ -1559,10 +1565,10 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="box">13</container>
-                            <container type="folder">1</container>
+                            <container label="unspecified" type="box">13</container>
+                            <container label="unspecified" type="folder">1</container>
                             <unittitle id="link151">Correspondence</unittitle>
-                            <unitdate type="inclusive" normal="1891/1893">1891-1893</unitdate>
+                            <unitdate normal="1891/1893" type="inclusive">1891-1893</unitdate>
                         </did>
                         <scopecontent>
                             <p>Includes letter of advice from Taylor to Thompson</p>
@@ -1570,88 +1576,88 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">13</container>
-                            <container type="folder">2</container>
+                            <container label="unspecified" type="box">13</container>
+                            <container label="unspecified" type="folder">2</container>
                             <unittitle id="link152">Correspondence</unittitle>
                             <unitdate normal="1894">1894</unitdate>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">13</container>
-                            <container type="folder">3-4</container>
+                            <container label="unspecified" type="box">13</container>
+                            <container label="unspecified" type="folder">3-4</container>
                             <unittitle id="link153">Correspondence</unittitle>
                             <unitdate normal="1895">1895</unitdate>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">13</container>
-                            <container type="folder">5-8</container>
+                            <container label="unspecified" type="box">13</container>
+                            <container label="unspecified" type="folder">5-8</container>
                             <unittitle id="link154">Correspondence</unittitle>
                             <unitdate normal="1896">1896</unitdate>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">13</container>
-                            <container type="folder">9</container>
+                            <container label="unspecified" type="box">13</container>
+                            <container label="unspecified" type="folder">9</container>
                             <unittitle id="link155">Correspondence</unittitle>
                             <unitdate normal="1897">1897</unitdate>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">13</container>
-                            <container type="folder">10</container>
+                            <container label="unspecified" type="box">13</container>
+                            <container label="unspecified" type="folder">10</container>
                             <unittitle id="link156">Correspondence</unittitle>
-                            <unitdate type="inclusive" normal="1901/1903">1901-1903</unitdate>
+                            <unitdate normal="1901/1903" type="inclusive">1901-1903</unitdate>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">13</container>
-                            <container type="folder">11-12</container>
+                            <container label="unspecified" type="box">13</container>
+                            <container label="unspecified" type="folder">11-12</container>
                             <unittitle id="link157">Correspondence</unittitle>
                             <unitdate normal="1904">1904</unitdate>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">13</container>
-                            <container type="folder">13</container>
+                            <container label="unspecified" type="box">13</container>
+                            <container label="unspecified" type="folder">13</container>
                             <unittitle id="link158">Correspondence</unittitle>
                             <unitdate normal="1905">1905</unitdate>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">13</container>
-                            <container type="folder">14-17</container>
+                            <container label="unspecified" type="box">13</container>
+                            <container label="unspecified" type="folder">14-17</container>
                             <unittitle id="link159">Correspondence</unittitle>
                             <unitdate normal="1906">1906</unitdate>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">13</container>
-                            <container type="folder">18</container>
+                            <container label="unspecified" type="box">13</container>
+                            <container label="unspecified" type="folder">18</container>
                             <unittitle id="link160">Correspondence</unittitle>
                             <unitdate normal="1907">1907</unitdate>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">13</container>
-                            <container type="folder">19-22</container>
+                            <container label="unspecified" type="box">13</container>
+                            <container label="unspecified" type="folder">19-22</container>
                             <unittitle id="link161">Correspondence</unittitle>
                             <unitdate normal="1908">1908</unitdate>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">13</container>
-                            <container type="folder">23</container>
+                            <container label="unspecified" type="box">13</container>
+                            <container label="unspecified" type="folder">23</container>
                             <unittitle id="link162">Correspondence</unittitle>
                             <unitdate normal="1908">1908</unitdate>
                         </did>
@@ -1661,32 +1667,32 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">13</container>
-                            <container type="folder">24</container>
+                            <container label="unspecified" type="box">13</container>
+                            <container label="unspecified" type="folder">24</container>
                             <unittitle id="link163">Correspondence</unittitle>
                             <unitdate normal="1911">1911</unitdate>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">13</container>
-                            <container type="folder">25</container>
+                            <container label="unspecified" type="box">13</container>
+                            <container label="unspecified" type="folder">25</container>
                             <unittitle id="link164">Correspondence</unittitle>
                             <unitdate normal="1913">1913</unitdate>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">13</container>
-                            <container type="folder">26</container>
+                            <container label="unspecified" type="box">13</container>
+                            <container label="unspecified" type="folder">26</container>
                             <unittitle id="link165">Correspondence</unittitle>
                             <unitdate normal="1914">1914</unitdate>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">13</container>
-                            <container type="folder">27</container>
+                            <container label="unspecified" type="box">13</container>
+                            <container label="unspecified" type="folder">27</container>
                             <unittitle id="link166">Taylor/Thompson (?)</unittitle>
                         </did>
                         <scopecontent>
@@ -1701,8 +1707,8 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="box">14</container>
-                            <container type="folder">1-16</container>
+                            <container label="unspecified" type="box">14</container>
+                            <container label="unspecified" type="folder">1-16</container>
                             <unittitle id="link168">Concrete Experiments Data</unittitle>
                             <unitdate normal="1907">1907</unitdate>
                         </did>
@@ -1713,8 +1719,8 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">15</container>
-                            <container type="folder">1-5</container>
+                            <container label="unspecified" type="box">15</container>
+                            <container label="unspecified" type="folder">1-5</container>
                             <unittitle id="link169">Soil and grass experiments</unittitle>
                             <unitdate normal="1910">1910</unitdate>
                         </did>
@@ -1724,10 +1730,10 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">15</container>
-                            <container type="folder">6</container>
+                            <container label="unspecified" type="box">15</container>
+                            <container label="unspecified" type="folder">6</container>
                             <unittitle id="link170">Soil and grass experiments</unittitle>
-                            <unitdate type="inclusive" normal="1912/1915">1912-1915</unitdate>
+                            <unitdate normal="1912/1915" type="inclusive">1912-1915</unitdate>
                         </did>
                         <scopecontent>
                             <p>Correspondence - S. Thompson with H. Van DuZee</p>
@@ -1735,8 +1741,8 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">15</container>
-                            <container type="folder">7</container>
+                            <container label="unspecified" type="box">15</container>
+                            <container label="unspecified" type="folder">7</container>
                             <unittitle id="link171">Soil and grass experiments</unittitle>
                         </did>
                         <scopecontent>
@@ -1745,8 +1751,8 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">15</container>
-                            <container type="folder">8-13</container>
+                            <container label="unspecified" type="box">15</container>
+                            <container label="unspecified" type="folder">8-13</container>
                             <unittitle id="link172">Soil and grass experiments</unittitle>
                             <unitdate normal="1909">1909</unitdate>
                         </did>
@@ -1756,8 +1762,8 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">15</container>
-                            <container type="folder">14-19</container>
+                            <container label="unspecified" type="box">15</container>
+                            <container label="unspecified" type="folder">14-19</container>
                             <unittitle id="link173">Soil and grass experiments</unittitle>
                             <unitdate normal="1910">1910</unitdate>
                         </did>
@@ -1767,8 +1773,8 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">15</container>
-                            <container type="folder">20</container>
+                            <container label="unspecified" type="box">15</container>
+                            <container label="unspecified" type="folder">20</container>
                             <unittitle id="link174">Soil and grass experiments</unittitle>
                             <unitdate normal="1911">1911</unitdate>
                         </did>
@@ -1778,8 +1784,8 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">15</container>
-                            <container type="folder">21-22</container>
+                            <container label="unspecified" type="box">15</container>
+                            <container label="unspecified" type="folder">21-22</container>
                             <unittitle id="link175">Soil and grass experiments</unittitle>
                             <unitdate normal="1912">1912</unitdate>
                         </did>
@@ -1789,8 +1795,8 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">15</container>
-                            <container type="folder">23</container>
+                            <container label="unspecified" type="box">15</container>
+                            <container label="unspecified" type="folder">23</container>
                             <unittitle id="link176">Soil and grass experiments.
                                 Miscellaneous</unittitle>
                         </did>
@@ -1806,27 +1812,27 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="box">16</container>
-                            <container type="folder">1</container>
+                            <container label="unspecified" type="box">16</container>
+                            <container label="unspecified" type="folder">1</container>
                             <unittitle id="link178">"Principles of Scientific Management",
                                 "Success".</unittitle>
-                            <unitdate type="inclusive" normal="1906/1912">1906-1912</unitdate>
+                            <unitdate normal="1906/1912" type="inclusive">1906-1912</unitdate>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">16</container>
-                            <container type="folder">2</container>
+                            <container label="unspecified" type="box">16</container>
+                            <container label="unspecified" type="folder">2</container>
                             <unittitle id="link179">Articles</unittitle>
-                            <unitdate type="inclusive" normal="1911/1914">1911-1914</unitdate>
+                            <unitdate normal="1911/1914" type="inclusive">1911-1914</unitdate>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">16</container>
-                            <container type="folder">3</container>
+                            <container label="unspecified" type="box">16</container>
+                            <container label="unspecified" type="folder">3</container>
                             <unittitle id="link180">Correspondence</unittitle>
-                            <unitdate type="inclusive" normal="1891/1892">1891-1892</unitdate>
+                            <unitdate normal="1891/1892" type="inclusive">1891-1892</unitdate>
                         </did>
                         <scopecontent>
                             <p>Manufacturing Instruments Company letters</p>
@@ -1834,10 +1840,10 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">16</container>
-                            <container type="folder">4</container>
+                            <container label="unspecified" type="box">16</container>
+                            <container label="unspecified" type="folder">4</container>
                             <unittitle id="link181">Correspondence</unittitle>
-                            <unitdate type="inclusive" normal="1901/1914">1901-1914</unitdate>
+                            <unitdate normal="1901/1914" type="inclusive">1901-1914</unitdate>
                         </did>
                         <scopecontent>
                             <p>Includes correspondence with Frank Gilbreth.</p>
@@ -1845,16 +1851,16 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">16</container>
-                            <container type="folder">5</container>
+                            <container label="unspecified" type="box">16</container>
+                            <container label="unspecified" type="folder">5</container>
                             <unittitle id="link182">Correspondence</unittitle>
                             <unitdate normal="1915">1915</unitdate>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">16</container>
-                            <container type="folder">6</container>
+                            <container label="unspecified" type="box">16</container>
+                            <container label="unspecified" type="folder">6</container>
                             <unittitle id="link183">Correspondence with Richard Feiss</unittitle>
                             <unitdate normal="1915">1915</unitdate>
                         </did>
@@ -1865,8 +1871,8 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">16</container>
-                            <container type="folder">7</container>
+                            <container label="unspecified" type="box">16</container>
+                            <container label="unspecified" type="folder">7</container>
                             <unittitle id="link184">Letter establishing F.W. Taylor
                                 Co-operators</unittitle>
                             <unitdate normal="1915">1915</unitdate>
@@ -1878,56 +1884,56 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">16</container>
-                            <container type="folder">8</container>
+                            <container label="unspecified" type="box">16</container>
+                            <container label="unspecified" type="folder">8</container>
                             <unittitle id="link185">Miscellaneous Information on Taylor</unittitle>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">16</container>
-                            <container type="folder">9</container>
+                            <container label="unspecified" type="box">16</container>
+                            <container label="unspecified" type="folder">9</container>
                             <unittitle id="link186">F. W. Taylor. Patents</unittitle>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">16</container>
-                            <container type="folder">10</container>
+                            <container label="unspecified" type="box">16</container>
+                            <container label="unspecified" type="folder">10</container>
                             <unittitle id="link187">Professional Papers</unittitle>
                             <unitdate normal="1892">1892</unitdate>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">16</container>
-                            <container type="folder">11</container>
+                            <container label="unspecified" type="box">16</container>
+                            <container label="unspecified" type="folder">11</container>
                             <unittitle id="link188">Professional Papers. Consulting Data for
                                 Philadelphia Civil Service Commission</unittitle>
-                            <unitdate type="inclusive" normal="1912/1913">1912-1913</unitdate>
+                            <unitdate normal="1912/1913" type="inclusive">1912-1913</unitdate>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">16</container>
-                            <container type="folder">12</container>
+                            <container label="unspecified" type="box">16</container>
+                            <container label="unspecified" type="folder">12</container>
                             <unittitle id="link189">Professional Papers. Consulting Data for
                                 Philadelphia Civil Service</unittitle>
-                            <unitdate type="inclusive" normal="1913/1914">1913-1914</unitdate>
+                            <unitdate normal="1913/1914" type="inclusive">1913-1914</unitdate>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">16</container>
-                            <container type="folder">13</container>
+                            <container label="unspecified" type="box">16</container>
+                            <container label="unspecified" type="folder">13</container>
                             <unittitle id="link190">Professional Papers. "Pig Iron
                                 Reports"</unittitle>
                         </did>
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">16</container>
-                            <container type="folder">14</container>
+                            <container label="unspecified" type="box">16</container>
+                            <container label="unspecified" type="folder">14</container>
                             <unittitle id="link191">Professional Papers. Photographs,
                                 Diagrams</unittitle>
                         </did>
@@ -1942,8 +1948,8 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="box">16</container>
-                            <container type="folder">15-17</container>
+                            <container label="unspecified" type="box">16</container>
+                            <container label="unspecified" type="folder">15-17</container>
                             <unittitle id="link193">"Bulletin of the Taylor Society"</unittitle>
                         </did>
                         <scopecontent>
@@ -1952,8 +1958,8 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">16</container>
-                            <container type="folder">18</container>
+                            <container label="unspecified" type="box">16</container>
+                            <container label="unspecified" type="folder">18</container>
                             <unittitle id="link194">Misc. &amp; publications. "Classification for
                                 Filing Correspondence Relating to Taylor System and Taylor System
                                 Appliances"</unittitle>
@@ -1964,8 +1970,8 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">16</container>
-                            <container type="folder">19</container>
+                            <container label="unspecified" type="box">16</container>
+                            <container label="unspecified" type="folder">19</container>
                             <unittitle id="link195">F.W. Taylor - Miscellaneous and Publications. "A
                                 Collection of Original Frederick W. Taylor Documents"</unittitle>
                             <unitdate normal="1978">1978</unitdate>
@@ -1973,8 +1979,8 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">17</container>
-                            <container type="folder">1-10</container>
+                            <container label="unspecified" type="box">17</container>
+                            <container label="unspecified" type="folder">1-10</container>
                             <unittitle id="link196">Professional Papers - Publications. "Industrial
                                 Management" by Taylor &amp; Morris Cooke</unittitle>
                             <unitdate normal="1909">1909</unitdate>
@@ -1982,8 +1988,8 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="box">17</container>
-                            <container type="folder">11</container>
+                            <container label="unspecified" type="box">17</container>
+                            <container label="unspecified" type="folder">11</container>
                             <unittitle id="link197">Miscellaneous and publications. Photograph of
                                 F.W. Taylor</unittitle>
                         </did>

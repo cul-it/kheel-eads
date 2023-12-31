@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05430mf::Morris Hillquit Papers on Microfilm.)//EN">KCL05430mf</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05430mf::Morris Hillquit Papers on Microfilm.)//EN">KCL05430mf</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Morris Hillquit Papers on Microfilm<date> 1886-1940</date></titleproper>
@@ -23,16 +23,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>April 02, 2015</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Morris Hillquit Papers on Microfilm<lb/></titleproper>
+			<titleproper>Guide to the Morris Hillquit Papers on Microfilm</titleproper>
 			<num>Collection Number: 5430 mf</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -50,24 +56,24 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Morris Hillquit Papers on Microfilm, <unitdate encodinganalog="MARC 245$f">1886-1940</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Morris Hillquit Papers on Microfilm, 1886-1940
+			</unittitle><unitdate encodinganalog="MARC 245$f">1886-1940</unitdate>
 			<unitid label="Collection Number:">5430 mf</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">Hillquit, Morris</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">10 microfilm reels</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">10 microfilm reels</physdesc>
 			<physdesc label="Forms of Material:">Articles, reports, pamphlets, correspondence, photographs, news clippings, microfilm.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">Includes materials pertaining to the following broad subjects: socialist unity, growth and conflict, 1900- 1913; the war years, 1914-1919; Bolshevism and red-baiting, 1918-1921; fusion politics, 1922-1924; reconstruction
-				and decline of the Socialist Party, 1925-1933; and trade unionism, 1909-1933. <lb/>
-				<lb/> This is a microfilm edition of the Morris Hillquit papers, the originals are at the Wisconsin State Historical Society.</abstract>
+				and decline of the Socialist Party, 1925-1933; and trade unionism, 1909-1933. 
+				 This is a microfilm edition of the Morris Hillquit papers, the originals are at the Wisconsin State Historical Society.</abstract>
 			<langmaterial label="Language:">Collection material in <language encodinganalog="MARC 041" langcode="eng">English</language>
 			</langmaterial>
 		<physdesc><extent>1.11 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+			
 			<p>Morris Hillquit is considered by some to have been the foremost spokesman and theoretician of the Socialist Party of America from its founding in 1901 until his death in 1933. As author, politician and labor attorney, Hillquit took a centrist
 				position in the Party and worked to further the Social Democratic ideals of political activism, unionism and international brotherhood among workers. </p>
 			<p>Morris Hillquit emigrated to the United States from Russia in 1896 and worked first in the New York City garment trade until joining the staff of the ARBEITER ZEITUNG in 1890. A member of the Socialist Labor Party, Hillquit led the "Rochester
@@ -147,7 +153,7 @@
 				socialist and labor leader.</p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a3">COLLECTION DESCRIPTION</head>
+			
 			<p>Individual correspondents of note include Friedrich Adler (1910-1933); Victor L. Berger (1903-1926); Julius Henry Cohen (1914-1915); Eugene V. Debs (1903-1925); Charles Dobbs (1903-1916); Julius Gerber (1920-1934); Adolph F. Germer (1917-1929);
 				Maxim Gorki (1906-1928); Job Harriman (1900-1925); Camille Huysmans (1905-1917); Harry W. Laidler (1919-1933); Algernon Lee (1904-1933); James Oneal (1923-1934); Clarence O. Senior (1929-1934); Norman Thomas (1922- 1934); and Bertha Hale White
 				(1924-1925). </p>
@@ -170,9 +176,9 @@
 				the ILGWU's internal struggles with communist factions and the New York Joint Board of Cloak Makers' Unions.</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Adler, Friedrich, 1879-1960. </persname>
 				<persname encodinganalog="MARC 600">Berger, Victor Luitpold, 1860-1929 </persname>
 				<persname encodinganalog="MARC 600">Cohen, Julius Henry, b. 1873. </persname>
@@ -205,7 +211,7 @@
 				<corpname encodinganalog="MARC 610">Socialist Party (U.S.) </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Anti-communist movements--United States. </subject>
 				<subject encodinganalog="MARC 650">Cloakmakers' Strike, New York, N.Y., 1909. </subject>
 				<subject encodinganalog="MARC 650">Labor unions--United States--Political activity. </subject>
@@ -226,31 +232,31 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Morris Hillquit Papers on Microfilm #5430 mf. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/> <extref href="http://digital library wisc edu/1711 dl/wiarchives uw-whs-ny00h">Morris Hillquit Papers (Wisconsin Historical Society)</extref></p>
+			
+			<p>Related Collections: <extref href="http://digital library wisc edu/1711 dl/wiarchives uw-whs-ny00h">Morris Hillquit Papers (Wisconsin Historical Society)</extref></p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="reel">1</container>
+					<container label="unspecified" type="reel">1</container>
 					<unittitle id="link6">General Correspondence</unittitle>
-					<unitdate type="inclusive" normal="1895/1910">1895-1910</unitdate>
+					<unitdate normal="1895/1910" type="inclusive">1895-1910</unitdate>
 				</did>
 				<scopecontent>
 					<p>no.1-500</p>
@@ -258,9 +264,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="reel">2</container>
+					<container label="unspecified" type="reel">2</container>
 					<unittitle id="link7">General Correspondence</unittitle>
-					<unitdate type="inclusive" normal="1911/1923">1911-1923</unitdate>
+					<unitdate normal="1911/1923" type="inclusive">1911-1923</unitdate>
 				</did>
 				<scopecontent>
 					<p>no.501-1011</p>
@@ -268,9 +274,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="reel">3</container>
+					<container label="unspecified" type="reel">3</container>
 					<unittitle id="link8">General Correspondence</unittitle>
-					<unitdate type="inclusive" normal="1924/1930">1924-1930</unitdate>
+					<unitdate normal="1924/1930" type="inclusive">1924-1930</unitdate>
 				</did>
 				<scopecontent>
 					<p>no.1012-1552</p>
@@ -278,9 +284,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="reel">4</container>
+					<container label="unspecified" type="reel">4</container>
 					<unittitle id="link9">General Correspondence</unittitle>
-					<unitdate type="inclusive" normal="1931/1934">1931-1934</unitdate>
+					<unitdate normal="1931/1934" type="inclusive">1931-1934</unitdate>
 				</did>
 				<scopecontent>
 					<p>no. 1553-2536, Includes 60th Birthday Greetings and Condolence Correspondence</p>
@@ -288,9 +294,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="reel">5</container>
+					<container label="unspecified" type="reel">5</container>
 					<unittitle id="link10">Loose Leaves Correspondence and Writings</unittitle>
-					<unitdate type="inclusive" normal="1901/1928">1901-1928</unitdate>
+					<unitdate normal="1901/1928" type="inclusive">1901-1928</unitdate>
 				</did>
 				<scopecontent>
 					<p>Includes correspondence from the Gorki Archives, 1906-1928 (no.2537-2598) and writings, 1901-1918 (no.1-109)</p>
@@ -298,9 +304,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="reel">6</container>
+					<container label="unspecified" type="reel">6</container>
 					<unittitle id="link11">Writings</unittitle>
-					<unitdate type="inclusive" normal="1919/1931">1919-1931</unitdate>
+					<unitdate normal="1919/1931" type="inclusive">1919-1931</unitdate>
 				</did>
 				<scopecontent>
 					<p>no.110-246</p>
@@ -308,9 +314,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="reel">7</container>
+					<container label="unspecified" type="reel">7</container>
 					<unittitle id="link12">Writings</unittitle>
-					<unitdate type="inclusive" normal="1886/1932">1886-1932</unitdate>
+					<unitdate normal="1886/1932" type="inclusive">1886-1932</unitdate>
 				</did>
 				<scopecontent>
 					<p>no.247-317. Includes photographs, 1886-1944 and broadsides and circulars 1906-1932</p>
@@ -318,9 +324,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="reel">8</container>
+					<container label="unspecified" type="reel">8</container>
 					<unittitle id="link13">Press Releases</unittitle>
-					<unitdate type="inclusive" normal="1905/1919">1905-1919</unitdate>
+					<unitdate normal="1905/1919" type="inclusive">1905-1919</unitdate>
 				</did>
 				<scopecontent>
 					<p>Includes general newspaper and periodical clippings</p>
@@ -328,16 +334,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="reel">9</container>
+					<container label="unspecified" type="reel">9</container>
 					<unittitle id="link14">Clippings and Press Releases</unittitle>
-					<unitdate type="inclusive" normal="1920/1931">1920-1931</unitdate>
+					<unitdate normal="1920/1931" type="inclusive">1920-1931</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="reel">10</container>
+					<container label="unspecified" type="reel">10</container>
 					<unittitle id="link15">Clippings and Press Releases</unittitle>
-					<unitdate type="inclusive" normal="1903/1940">1903-1940</unitdate>
+					<unitdate normal="1903/1940" type="inclusive">1903-1940</unitdate>
 				</did>
 				<scopecontent>
 					<p>Includes clippings and press releases, 1932-1933; book reviews, 1903-1934; and obituaries, 1933-1940</p>

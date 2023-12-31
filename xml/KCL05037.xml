@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05037::U.S. Emergency Board No. 81 Records.)//EN">KCL05037</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05037::U.S. Emergency Board No. 81 Records.)//EN">KCL05037</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the U.S. Emergency Board No. 81 Records<date>
@@ -24,20 +24,26 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>March 04,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
-            <titleproper>Guide to the U.S. Emergency Board No. 81 Records<lb/></titleproper>
+            <titleproper>Guide to the U.S. Emergency Board No. 81 Records</titleproper>
             <num>Collection Number: 5037</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -56,15 +62,15 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">U.S. Emergency Board No. 81
-                Records, <unitdate encodinganalog="MARC 245$f">1950</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">U.S. Emergency Board No. 81
+                Records, 1950
+            </unittitle><unitdate encodinganalog="MARC 245$f">1950</unitdate>
             <unitid label="Collection Number:">5037</unitid>
             <origination label="Creator:">
                 <corpname encodinganalog="MARC 110" role="creator">U.S. Emergency Board</corpname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">2 linear ft.</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">2 linear ft.</physdesc>
             <physdesc label="Forms of Material:">Records (documents) .</physdesc>
             <repository label="Repository:">Kheel Center for Labor- Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -74,7 +80,7 @@
             </langmaterial>
         <physdesc><extent>2 cubic feet</extent></physdesc></did>
         <bioghist encodinganalog="MARC 545">
-            <head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+            
             <p>An Executive order of the President dated February 24, 1950 resulted in the
                 appointment of a board composed of Hon. Roger I. McDonough, justice, Supreme Court
                 of Utah, Chairman, Hon. Mart J. O'Malley former justice, Supreme Court of Indiana;
@@ -120,7 +126,7 @@
                 83 and 84).</p>
         </bioghist>
         <scopecontent encodinganalog="MARC 520">
-            <head id="a3">COLLECTION DESCRIPTION</head>
+            
             <p>Consist of carrier and employee exhibits; awards, reports, etc.; also documents
                 pertaining to the General Rules Movement. </p>
             <p>Records include carrier exhibits dealing with work rules, wage rates and
@@ -132,9 +138,9 @@
                 origin relating to the questions considered by this Board.</p>
         </scopecontent>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <corpname encodinganalog="MARC 610">Brotherhood of Railroad Trainmen </corpname>
                 <corpname encodinganalog="MARC 610">Eastern Carriers' Conference Committee </corpname>
                 <corpname encodinganalog="MARC 610">Order of Railway Conductors and Brakemen </corpname>
@@ -144,7 +150,7 @@
                 <corpname encodinganalog="MARC 610">Western Carriers' Conference Committee </corpname>
             </controlaccess>
             <controlaccess>
-                <head>Subjects: </head>
+                
                 <subject encodinganalog="MARC 650">Mediation and conciliation, Industrial--United
                     States--Cases. </subject>
                 <subject encodinganalog="MARC 650">Wages and labor productivity--United States. </subject>
@@ -171,29 +177,29 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>U.S. Emergency Board No. 81 Records #5037. Kheel Center for Labor-Management
                     Documentation and Archives, Cornell University Library.</p>
             </prefercite>
         </descgrp>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link8">Conductors' and Trainmen's 40 Hour Week and Rules Case,
                         Carriers' Exhibit B, History of the General Rules Movement Involving the
                         Class I Rail carriers and Their Engine, Train, and Yard Service
@@ -203,8 +209,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link9">Conductors' and Trainmen's 40 Hour Week and Rules Case,
                         Carriers' Exhibit C, Statutes, Awards and Agreements Involved in the Great
                         Rules Movements</unittitle>
@@ -213,8 +219,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link10">Conductors' and Trainmen's 40 Hour Week and Rules case,
                         Carriers' Exhibit D, Misc. Reports, Awards, Agreements, and Interpretations
                         Involving Wages and Working Conditions of Railroad Employees</unittitle>
@@ -223,8 +229,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link11">Conductors' and Trainmen's 40 Hour Week and Rules Case,
                         Carriers' Exhibit 19, L. W. Horning, Basic Day and Overtime Rule in
                         Passenger Service</unittitle>
@@ -233,8 +239,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link12">Conductors' and Trainmen's 40-Hour Week and Rules Case,
                         Carriers' Exhibit 16, Use of Road Crews to Perform Work in Yard</unittitle>
                     <unitdate normal="1950">1950</unitdate>
@@ -242,8 +248,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link13">Conductors' and Trainmen's 40-Hour Week and Rules Case,
                         Carriers' Exhibit 4, History of The Diesel Rules Movement</unittitle>
                     <unitdate normal="1950">1950</unitdate>
@@ -251,8 +257,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link14">Conductor's and Trainmen's 40-Hour Week and Rules Case,
                         Carriers' Exhibit E, 40-Hour Work Week for Railroad Employees and for
                         Railway Express Agency Employees</unittitle>
@@ -261,8 +267,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link15">Emergency Board No. 81, Case A-3290, Carriers Represented
                         by Eastern, Western, and Southeastern Carriers' Conference Committees and
                         Order of Railway Conductors Brotherhood of Railroad Trainmen</unittitle>
@@ -271,8 +277,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link16">Conductors' and Trainmen's 40-Hour Week and Rules Case,
                         Carriers' Exhibit A, The Proposals of the Parties and The Issues Before the
                         Board</unittitle>
@@ -281,8 +287,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link17">Conductors' and trainmen's 40-Hour Week and Rules Case,
                         Carriers' Exhibit No. 5, Witness: GP Brock</unittitle>
                     <unitdate normal="1950">1950</unitdate>
@@ -290,8 +296,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link18">Conductors' and Trainmen's 40-Hour Week and Rules Case,
                         Carriers' Exhibit No. 3, Witness: JM Budd</unittitle>
                     <unitdate normal="1950">1950</unitdate>
@@ -299,8 +305,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link19">Conductors' and Trainmen's 40-Hour Week and Rules Case,
                         Carriers' Exhibit No. 2, Witness: JM Symes</unittitle>
                     <unitdate normal="1950">1950</unitdate>
@@ -308,8 +314,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link20">Conductors' and trainmen's 40-Hour Week and Rules Case,
                         Carriers' Exhibit 15, Use of Trainmen and Yardmen to Couple and Uncouple
                         Hose, Chain and Unchain Cars and Make Air Tests</unittitle>
@@ -318,8 +324,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link21">Conductors' and Trainmen's 40-Hour Week and Rules Case,
                         Carriers' Exhibit 14, Rate of Pay for Footboard Yardmaster</unittitle>
                     <unitdate normal="1950">1950</unitdate>
@@ -327,8 +333,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link22">Conductor's and Trainmen's 40-Hour Week and Rules Case,
                         Carriers' Exhibit 13, Rate of Pay for Car Retarder Operators</unittitle>
                     <unitdate normal="1950">1950</unitdate>
@@ -336,8 +342,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link23">Conductors' and Trainmen's 40 Hour Week and Rules Case,
                         Carriers' Exhibit 12, Penalty Pay for Work on Sundays and Holidays in Yard
                         Service</unittitle>
@@ -346,8 +352,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link24">Conductors and Trainmen's 40 Hour Week and Rules Case,
                         Carriers' Exhibit 11, Starting Time for Yard Crews</unittitle>
                     <unitdate normal="1950">1950</unitdate>
@@ -355,8 +361,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link25">Conductors' and Trainmen's 40 Hour Week and Rules Case,
                         Carriers' Exhibit, 10-a, Witness: DP Loomis, Appendices Referred to in
                         Carriers Exhibit Entitled 48 Hours Pay for 40 Hours of Work</unittitle>
@@ -365,8 +371,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link26">Conductors' and Trainmen 40 Hour Week and Rules Case,
                         Carriers' Exhibit, DP Loomis, 48 Hours Pay for 40 Hours of Work</unittitle>
                     <unitdate normal="1950">1950</unitdate>
@@ -374,8 +380,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link27">Conductors' and Trainmen's 40 Hour Week and Rules Case,
                         Carriers' Exhibit 9, Witness: DP Loomis, Rates of Pay for Yard Service
                         Employees</unittitle>
@@ -384,8 +390,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link28">Conductor's and Trainmen's 40 Hour Week and Rules Case,
                         Carriers' Exhibit 8, Duties of Firemen on Diesel Locomotives, Employees'
                         Exhibit No. 66, Firemen's Diesel Case</unittitle>
@@ -394,8 +400,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">22</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">22</container>
                     <unittitle id="link29">Conductor's and Trainmen's 40-Hour Week and Rules Case,
                         Carrier's Exhibit 7 Duties of Enginemen in Diesel Engine Rooms, Employees
                         Exhibit No. 17, Engineers' Diesel Case</unittitle>
@@ -404,8 +410,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">23</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">23</container>
                     <unittitle id="link30">Conductor's and Trainmen's 40 Hour Week and Rules Case,
                         Carriers' Exhibit 6, Duties of Engineer and Assistant on Diesel Locomotives,
                         Employees' Exhibit No. 15, Engineers' Diesel Case</unittitle>
@@ -414,8 +420,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">24</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">24</container>
                     <unittitle id="link31">Conductors' and Trainmen's 40-Hour Week and Rules Case,
                         Carriers' Exhibit 38, Financial Condition of the Railroads</unittitle>
                     <unitdate normal="1950">1950</unitdate>
@@ -423,8 +429,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">25</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">25</container>
                     <unittitle id="link32">Conductors' and Trainmen's 40-Hour Week and Rules Case,
                         Carriers' Exhibit 38, Witness: J. Elmer Monroe, Financial Condition of the
                         Railroads</unittitle>
@@ -433,8 +439,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">26</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">26</container>
                     <unittitle id="link33">Conductors' and trainmen's 40-Hour Week and Rules Case,
                         Carriers' Exhibit no. 35, Safety</unittitle>
                     <unitdate normal="1950">1950</unitdate>
@@ -442,8 +448,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">27</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">27</container>
                     <unittitle id="link34">Conductors' and Trainmen's 40-Hour Week and Rules Case,
                         Carriers' Exhibit No. 31, LD Comer</unittitle>
                     <unitdate normal="1950">1950</unitdate>
@@ -451,8 +457,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">28</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">28</container>
                     <unittitle id="link35">Conductors' and Trainmen's 40 Hour Week and Rules Case,
                         Carriers' Exhibit 30, Witness: LD Comer, Right of Management to Fix the Time
                         of Reporting For Road Crews</unittitle>
@@ -461,8 +467,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">29</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">29</container>
                     <unittitle id="link36">Conductors' and Trainmen's 40-Hour Week and Rules Case,
                         Carriers' Exhibit 29, Additional pay for Initial Terminal</unittitle>
                     <unitdate normal="1950">1950</unitdate>
@@ -470,8 +476,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">30</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">30</container>
                     <unittitle id="link37">Conductors' and trainmen's 40-Hour Week and Rules case,
                         Carriers' Exhibit 28, Witness: LD Comer, Pay For Expenses Away From
                         Home</unittitle>
@@ -480,8 +486,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">31</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">31</container>
                     <unittitle id="link38">Conductors' and Trainmen's 40-Hour Week and Rules Case,
                         Carriers' Exhibit No. 23, Witness: DC Raffensparger</unittitle>
                     <unitdate normal="1950">1950</unitdate>
@@ -489,8 +495,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">32</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">32</container>
                     <unittitle id="link39">Conductors' and trainmen's 40-Hour Week and Rules Case,
                         Carriers' Exhibit 20, Witness: LW Horning, Overtime Rate in Passenger
                         Service</unittitle>
@@ -499,8 +505,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">33</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">33</container>
                     <unittitle id="link40">Conductors' and Trainmen's 40 Hour Week and Rules Case,
                         Carriers' Exhibit 18, Witness: JJ Sullivan, Road Employees Performing More
                         Than One Class of Road Service</unittitle>
@@ -509,8 +515,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">34</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">34</container>
                     <unittitle id="link41">Emergency Board No. 81, Case A-3290, Carriers Represented
                         by Eastern, Western, and Southeastern Carriers' Conference Committees and
                         Order of Railway Conductors, Brotherhood of Railroad Trainmen, Brief on
@@ -520,8 +526,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">35</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">35</container>
                     <unittitle id="link42">Conductors and Trainmen's 40 Hour Week and Rules Case,
                         Carriers' Exhibit No. 1</unittitle>
                     <unitdate normal="1950">1950</unitdate>
@@ -529,8 +535,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link43">Index to Opening Case of Order of Railway Conductors and
                         Brotherhood of Railroad Trainmen</unittitle>
                     <unitdate normal="1949">1949</unitdate>
@@ -538,66 +544,66 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link44">Employees' Exhibit Nos. 1-7</unittitle>
                     <unitdate normal="1949">1949</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link45">Employees Exhibits Nos. 8-12</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link46">Employees Exhibits Nos. 13-19</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link47">Employees Exhibits Nos. 20-25</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link48">Employees Exhibit Nos. 26-30</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link49">Employees Exhibits Nos. 30-40</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link50">Employees Exhibits Nos. 41-48</unittitle>
                     <unitdate normal="1949">1949</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link51">Employees Exhibits Nos. 49-55</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link52">Index to Carriers' Case Employees' Rebuttal and Closing
                         Arguments</unittitle>
                     <unitdate normal="1949">1949</unitdate>
@@ -605,24 +611,24 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link53">Employees' Rebuttal Exhibit Nos. 57-62</unittitle>
-                    <unitdate type="inclusive" normal="1948/1950">1948-1950</unitdate>
+                    <unitdate normal="1948/1950" type="inclusive">1948-1950</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link54">Employees' Rebuttal Exhibit Nos. 63-69</unittitle>
                     <unitdate normal="1949">1949</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link55">Employees' Exhibit Nos. 76-86</unittitle>
                 </did>
             </c01>

@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05474::National Civic Federation Pamphlets.)//EN">KCL05474</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05474::National Civic Federation Pamphlets.)//EN">KCL05474</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the National Civic Federation Pamphlets<date> 1908-1991</date></titleproper>
@@ -23,16 +23,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>April 03, 2015</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the National Civic Federation Pamphlets<lb/></titleproper>
+			<titleproper>Guide to the National Civic Federation Pamphlets</titleproper>
 			<num>Collection Number: 5474</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -50,14 +56,14 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">National Civic Federation Pamphlets, <unitdate encodinganalog="MARC 245$f">1908-1991</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">National Civic Federation Pamphlets, 1908-1991
+			</unittitle><unitdate encodinganalog="MARC 245$f">1908-1991</unitdate>
 			<unitid label="Collection Number:">5474</unitid>
 			<origination label="Creator:">
 				<corpname encodinganalog="MARC 110" role="creator">National Civic Federation</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">0.3 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">0.3 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Reports, pamphlets, publications.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">Publications of the National Civic Federation.</abstract>
@@ -65,41 +71,41 @@
 			</langmaterial>
 		<physdesc><extent>0.33 cubic feet</extent></physdesc></did>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<corpname encodinganalog="MARC 610">National Civic Federation </corpname>
 			</controlaccess>
 			<controlaccess>
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>National Civic Federation Pamphlets #5474. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05650mf.html"> 5650 mf: National Civic Federation Howell-Barkley Bill Correspondence on Microfilm</extref><lb/>
+			
+			<p>Related Collections:
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05650mf.html"> 5650 mf: National Civic Federation Howell-Barkley Bill Correspondence on Microfilm</extref>
 			</p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link6">Report and Explanatory Statement Upon Tentative Draft Workmen's Compensation Bill for Uniform State Legislation</unittitle>
 					<unitdate normal="1910">1910</unitdate>
 				</did>
@@ -108,8 +114,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link7">Item 1: Unbinding the Eyes of Justice</unittitle>
 						<unitdate normal="1908">1908</unitdate>
 					</did>
@@ -122,8 +128,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link8">Item 2: Report and Explanatory Statement Upon Tentative Draft Workmen's Compensation Bill for Uniform State Legislation</unittitle>
 						<unitdate normal="1910">1910</unitdate>
 					</did>
@@ -136,8 +142,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link9">Item 3: Memorandum Relative to the Respective Advantages and Disadvantages of Various Forms of Compensation Law</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -149,8 +155,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link10">Item 4: Draft of an Act to Provide Compensation for Workmen Injured in Hazardous Industries</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -162,8 +168,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link11">Item 5: A Memorial Requesting the Recommendation of . . .</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -176,8 +182,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link12">Item 6: Compliments of the Department on Compensation for Industrial Accidents and Their Prevention</unittitle>
 						<unitdate normal="1991">1991</unitdate>
 					</did>
@@ -189,8 +195,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link13">Item 7: Memorandum against the adoption of the the so-called Elective Compensation Plan</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -204,8 +210,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link14">Memorandum Relative to the Respective Advantages and Disadvantages of Various Forms of Compensation Law</unittitle>
 					<unitdate normal="1911">1911</unitdate>
 				</did>
@@ -214,8 +220,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link15">Item 1: Unbinding the Eyes of Justice</unittitle>
 						<unitdate normal="1908">1908</unitdate>
 					</did>
@@ -228,8 +234,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link16">Item 2: Report and Explanatory Statement Upon Tentative Draft Workmen's Compensation Bill for Uniform State Legislation</unittitle>
 						<unitdate normal="1910">1910</unitdate>
 					</did>
@@ -242,8 +248,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link17">Item 3: Memorandum Relative to the Respective Advantages and Disadvantages of Various Forms of Compensation Law</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -255,8 +261,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link18">Item 4: Draft of an Act to Provide Compensation for Workmen Injured in Hazardous Industries</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -268,8 +274,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link19">Item 5: A Memorial Requesting the Recommendation of . . .</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -282,8 +288,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link20">Item 6: Compliments of the Department on Compensation for Industrial Accidents and Their Prevention</unittitle>
 						<unitdate normal="1991">1991</unitdate>
 					</did>
@@ -295,8 +301,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link21">Item 7: Memorandum against the adoption of the the so-called Elective Compensation Plan</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -310,15 +316,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link22">Draft of an Act to Provide Compensation for Workmen Injured in Hazardous Industries</unittitle>
 					<unitdate normal="1911">1911</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link23">Item 1: Unbinding the Eyes of Justice</unittitle>
 						<unitdate normal="1908">1908</unitdate>
 					</did>
@@ -331,8 +337,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link24">Item 2: Report and Explanatory Statement Upon Tentative Draft Workmen's Compensation Bill for Uniform State Legislation</unittitle>
 						<unitdate normal="1910">1910</unitdate>
 					</did>
@@ -345,8 +351,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link25">Item 3: Memorandum Relative to the Respective Advantages and Disadvantages of Various Forms of Compensation Law</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -358,8 +364,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link26">Item 4: Draft of an Act to Provide Compensation for Workmen Injured in Hazardous Industries</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -371,8 +377,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link27">Item 5: A Memorial Requesting the Recommendation of . . .</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -385,8 +391,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link28">Item 6: Compliments of the Department on Compensation for Industrial Accidents and Their Prevention</unittitle>
 						<unitdate normal="1991">1991</unitdate>
 					</did>
@@ -398,8 +404,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link29">Item 7: Memorandum against the adoption of the the so-called Elective Compensation Plan</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -413,8 +419,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link30">A Memorial Requesting the Recommendation of . . .</unittitle>
 					<unitdate normal="1911">1911</unitdate>
 				</did>
@@ -423,8 +429,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link31">Item 1: Unbinding the Eyes of Justice</unittitle>
 						<unitdate normal="1908">1908</unitdate>
 					</did>
@@ -437,8 +443,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link32">Item 2: Report and Explanatory Statement Upon Tentative Draft Workmen's Compensation Bill for Uniform State Legislation</unittitle>
 						<unitdate normal="1910">1910</unitdate>
 					</did>
@@ -451,8 +457,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link33">Item 3: Memorandum Relative to the Respective Advantages and Disadvantages of Various Forms of Compensation Law</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -464,8 +470,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link34">Item 4: Draft of an Act to Provide Compensation for Workmen Injured in Hazardous Industries</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -477,8 +483,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link35">Item 5: A Memorial Requesting the Recommendation of . . .</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -491,8 +497,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link36">Item 6: Compliments of the Department on Compensation for Industrial Accidents and Their Prevention</unittitle>
 						<unitdate normal="1991">1991</unitdate>
 					</did>
@@ -504,8 +510,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link37">Item 7: Memorandum against the adoption of the the so-called Elective Compensation Plan</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -519,15 +525,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link38">Compliments of the Department on Compensation for Industrial Accidents and Their Prevention</unittitle>
 					<unitdate normal="1991">1991</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link39">Item 1: Unbinding the Eyes of Justice</unittitle>
 						<unitdate normal="1908">1908</unitdate>
 					</did>
@@ -540,8 +546,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link40">Item 2: Report and Explanatory Statement Upon Tentative Draft Workmen's Compensation Bill for Uniform State Legislation</unittitle>
 						<unitdate normal="1910">1910</unitdate>
 					</did>
@@ -554,8 +560,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link41">Item 3: Memorandum Relative to the Respective Advantages and Disadvantages of Various Forms of Compensation Law</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -567,8 +573,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link42">Item 4: Draft of an Act to Provide Compensation for Workmen Injured in Hazardous Industries</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -580,8 +586,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link43">Item 5: A Memorial Requesting the Recommendation of . . .</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -594,8 +600,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link44">Item 6: Compliments of the Department on Compensation for Industrial Accidents and Their Prevention</unittitle>
 						<unitdate normal="1991">1991</unitdate>
 					</did>
@@ -607,8 +613,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link45">Item 7: Memorandum against the adoption of the the so-called Elective Compensation Plan</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -622,8 +628,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link46">Memorandum against the adoption of the the so-called Elective Compensation Plan</unittitle>
 					<unitdate normal="1911">1911</unitdate>
 				</did>
@@ -632,8 +638,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link47">Item 1: Unbinding the Eyes of Justice</unittitle>
 						<unitdate normal="1908">1908</unitdate>
 					</did>
@@ -646,8 +652,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link48">Item 2: Report and Explanatory Statement Upon Tentative Draft Workmen's Compensation Bill for Uniform State Legislation</unittitle>
 						<unitdate normal="1910">1910</unitdate>
 					</did>
@@ -660,8 +666,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link49">Item 3: Memorandum Relative to the Respective Advantages and Disadvantages of Various Forms of Compensation Law</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -673,8 +679,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link50">Item 4: Draft of an Act to Provide Compensation for Workmen Injured in Hazardous Industries</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -686,8 +692,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link51">Item 5: A Memorial Requesting the Recommendation of . . .</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -700,8 +706,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link52">Item 6: Compliments of the Department on Compensation for Industrial Accidents and Their Prevention</unittitle>
 						<unitdate normal="1991">1991</unitdate>
 					</did>
@@ -713,8 +719,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link53">Item 7: Memorandum against the adoption of the the so-called Elective Compensation Plan</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -728,8 +734,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link54">Unbinding the Eyes of Justice</unittitle>
 					<unitdate normal="1908">1908</unitdate>
 				</did>
@@ -738,8 +744,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link55">Item 1: Unbinding the Eyes of Justice</unittitle>
 						<unitdate normal="1908">1908</unitdate>
 					</did>
@@ -752,8 +758,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link56">Item 2: Report and Explanatory Statement Upon Tentative Draft Workmen's Compensation Bill for Uniform State Legislation</unittitle>
 						<unitdate normal="1910">1910</unitdate>
 					</did>
@@ -766,8 +772,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link57">Item 3: Memorandum Relative to the Respective Advantages and Disadvantages of Various Forms of Compensation Law</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -779,8 +785,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link58">Item 4: Draft of an Act to Provide Compensation for Workmen Injured in Hazardous Industries</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -792,8 +798,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link59">Item 5: A Memorial Requesting the Recommendation of . . .</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -806,8 +812,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link60">Item 6: Compliments of the Department on Compensation for Industrial Accidents and Their Prevention</unittitle>
 						<unitdate normal="1991">1991</unitdate>
 					</did>
@@ -819,8 +825,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link61">Item 7: Memorandum against the adoption of the the so-called Elective Compensation Plan</unittitle>
 						<unitdate normal="1911">1911</unitdate>
 					</did>
@@ -834,8 +840,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link62">Compulsory Health Insurance</unittitle>
 					<unitdate normal="1917">1917</unitdate>
 				</did>
@@ -844,8 +850,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link63">Item 1: Draft Outline of a Model Safety Law</unittitle>
 						<unitdate normal="1912">1912</unitdate>
 					</did>
@@ -858,8 +864,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link64">Item 2: Report of the Committee on Occupational Diseases</unittitle>
 						<unitdate normal="1914">1914</unitdate>
 					</did>
@@ -872,8 +878,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link65">Item 3: Tentative Draft: Memorandum of Suggestions upon Main Provisions Requisite to an Adequate Compulsory Workmen's Compensation Law</unittitle>
 						<unitdate normal="1914">1914</unitdate>
 					</did>
@@ -886,8 +892,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link66">Item 4: Memorandum of Suggestions upon Main Provisions Requisite to an Adequate Compulsory Workmen's Compensation Law</unittitle>
 						<unitdate normal="1915">1915</unitdate>
 					</did>
@@ -900,8 +906,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link67">Item 5: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -914,8 +920,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link68">Item 6: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -928,8 +934,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link69">Item 7: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -942,8 +948,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link70">Item 8: Executive Council of the National Civic Federation</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -957,8 +963,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link71">Draft Outline of a Model Safety Law</unittitle>
 					<unitdate normal="1912">1912</unitdate>
 				</did>
@@ -967,8 +973,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link72">Item 1: Draft Outline of a Model Safety Law</unittitle>
 						<unitdate normal="1912">1912</unitdate>
 					</did>
@@ -981,8 +987,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link73">Item 2: Report of the Committee on Occupational Diseases</unittitle>
 						<unitdate normal="1914">1914</unitdate>
 					</did>
@@ -995,8 +1001,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link74">Item 3: Tentative Draft: Memorandum of Suggestions upon Main Provisions Requisite to an Adequate Compulsory Workmen's Compensation Law</unittitle>
 						<unitdate normal="1914">1914</unitdate>
 					</did>
@@ -1009,8 +1015,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link75">Item 4: Memorandum of Suggestions upon Main Provisions Requisite to an Adequate Compulsory Workmen's Compensation Law</unittitle>
 						<unitdate normal="1915">1915</unitdate>
 					</did>
@@ -1023,8 +1029,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link76">Item 5: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1037,8 +1043,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link77">Item 6: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1051,8 +1057,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link78">Item 7: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1065,8 +1071,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link79">Item 8: Executive Council of the National Civic Federation</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1080,8 +1086,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link80">Report of the Committee on Occupational Diseases</unittitle>
 					<unitdate normal="1914">1914</unitdate>
 				</did>
@@ -1090,8 +1096,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link81">Item 1: Draft Outline of a Model Safety Law</unittitle>
 						<unitdate normal="1912">1912</unitdate>
 					</did>
@@ -1104,8 +1110,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link82">Item 2: Report of the Committee on Occupational Diseases</unittitle>
 						<unitdate normal="1914">1914</unitdate>
 					</did>
@@ -1118,8 +1124,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link83">Item 3: Tentative Draft: Memorandum of Suggestions upon Main Provisions Requisite to an Adequate Compulsory Workmen's Compensation Law</unittitle>
 						<unitdate normal="1914">1914</unitdate>
 					</did>
@@ -1132,8 +1138,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link84">Item 4: Memorandum of Suggestions upon Main Provisions Requisite to an Adequate Compulsory Workmen's Compensation Law</unittitle>
 						<unitdate normal="1915">1915</unitdate>
 					</did>
@@ -1146,8 +1152,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link85">Item 5: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1160,8 +1166,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link86">Item 6: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1174,8 +1180,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link87">Item 7: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1188,8 +1194,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link88">Item 8: Executive Council of the National Civic Federation</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1203,8 +1209,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link89">Memorandum of Suggestions upon Main Provisions Requisite to an Adequate Compulsory Workmen's Compensation Law</unittitle>
 					<unitdate normal="1915">1915</unitdate>
 				</did>
@@ -1213,8 +1219,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link90">Item 1: Draft Outline of a Model Safety Law</unittitle>
 						<unitdate normal="1912">1912</unitdate>
 					</did>
@@ -1227,8 +1233,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link91">Item 2: Report of the Committee on Occupational Diseases</unittitle>
 						<unitdate normal="1914">1914</unitdate>
 					</did>
@@ -1241,8 +1247,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link92">Item 3: Tentative Draft: Memorandum of Suggestions upon Main Provisions Requisite to an Adequate Compulsory Workmen's Compensation Law</unittitle>
 						<unitdate normal="1914">1914</unitdate>
 					</did>
@@ -1255,8 +1261,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link93">Item 4: Memorandum of Suggestions upon Main Provisions Requisite to an Adequate Compulsory Workmen's Compensation Law</unittitle>
 						<unitdate normal="1915">1915</unitdate>
 					</did>
@@ -1269,8 +1275,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link94">Item 5: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1283,8 +1289,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link95">Item 6: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1297,8 +1303,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link96">Item 7: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1311,8 +1317,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link97">Item 8: Executive Council of the National Civic Federation</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1326,8 +1332,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link98">Compulsory Health Insurance</unittitle>
 					<unitdate normal="1917">1917</unitdate>
 				</did>
@@ -1336,8 +1342,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link99">Item 1: Draft Outline of a Model Safety Law</unittitle>
 						<unitdate normal="1912">1912</unitdate>
 					</did>
@@ -1350,8 +1356,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link100">Item 2: Report of the Committee on Occupational Diseases</unittitle>
 						<unitdate normal="1914">1914</unitdate>
 					</did>
@@ -1364,8 +1370,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link101">Item 3: Tentative Draft: Memorandum of Suggestions upon Main Provisions Requisite to an Adequate Compulsory Workmen's Compensation Law</unittitle>
 						<unitdate normal="1914">1914</unitdate>
 					</did>
@@ -1378,8 +1384,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link102">Item 4: Memorandum of Suggestions upon Main Provisions Requisite to an Adequate Compulsory Workmen's Compensation Law</unittitle>
 						<unitdate normal="1915">1915</unitdate>
 					</did>
@@ -1392,8 +1398,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link103">Item 5: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1406,8 +1412,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link104">Item 6: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1420,8 +1426,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link105">Item 7: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1434,8 +1440,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link106">Item 8: Executive Council of the National Civic Federation</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1449,8 +1455,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link107">Compulsory Health Insurance</unittitle>
 					<unitdate normal="1917">1917</unitdate>
 				</did>
@@ -1459,8 +1465,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link108">Item 1: Draft Outline of a Model Safety Law</unittitle>
 						<unitdate normal="1912">1912</unitdate>
 					</did>
@@ -1473,8 +1479,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link109">Item 2: Report of the Committee on Occupational Diseases</unittitle>
 						<unitdate normal="1914">1914</unitdate>
 					</did>
@@ -1487,8 +1493,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link110">Item 3: Tentative Draft: Memorandum of Suggestions upon Main Provisions Requisite to an Adequate Compulsory Workmen's Compensation Law</unittitle>
 						<unitdate normal="1914">1914</unitdate>
 					</did>
@@ -1501,8 +1507,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link111">Item 4: Memorandum of Suggestions upon Main Provisions Requisite to an Adequate Compulsory Workmen's Compensation Law</unittitle>
 						<unitdate normal="1915">1915</unitdate>
 					</did>
@@ -1515,8 +1521,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link112">Item 5: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1529,8 +1535,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link113">Item 6: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1543,8 +1549,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link114">Item 7: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1557,8 +1563,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link115">Item 8: Executive Council of the National Civic Federation</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1572,8 +1578,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link116">Executive Council of the National Civic Federation</unittitle>
 					<unitdate normal="1917">1917</unitdate>
 				</did>
@@ -1582,8 +1588,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link117">Item 1: Draft Outline of a Model Safety Law</unittitle>
 						<unitdate normal="1912">1912</unitdate>
 					</did>
@@ -1596,8 +1602,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link118">Item 2: Report of the Committee on Occupational Diseases</unittitle>
 						<unitdate normal="1914">1914</unitdate>
 					</did>
@@ -1610,8 +1616,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link119">Item 3: Tentative Draft: Memorandum of Suggestions upon Main Provisions Requisite to an Adequate Compulsory Workmen's Compensation Law</unittitle>
 						<unitdate normal="1914">1914</unitdate>
 					</did>
@@ -1624,8 +1630,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link120">Item 4: Memorandum of Suggestions upon Main Provisions Requisite to an Adequate Compulsory Workmen's Compensation Law</unittitle>
 						<unitdate normal="1915">1915</unitdate>
 					</did>
@@ -1638,8 +1644,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link121">Item 5: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1652,8 +1658,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link122">Item 6: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1666,8 +1672,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link123">Item 7: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1680,8 +1686,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link124">Item 8: Executive Council of the National Civic Federation</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1695,8 +1701,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link125">Tentative Draft: Memorandum of Suggestions upon Main Provisions Requisite to an Adequate Compulsory Workmen's Compensation Law</unittitle>
 					<unitdate normal="1914">1914</unitdate>
 				</did>
@@ -1705,8 +1711,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link126">Item 1: Draft Outline of a Model Safety Law</unittitle>
 						<unitdate normal="1912">1912</unitdate>
 					</did>
@@ -1719,8 +1725,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link127">Item 2: Report of the Committee on Occupational Diseases</unittitle>
 						<unitdate normal="1914">1914</unitdate>
 					</did>
@@ -1733,8 +1739,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link128">Item 3: Tentative Draft: Memorandum of Suggestions upon Main Provisions Requisite to an Adequate Compulsory Workmen's Compensation Law</unittitle>
 						<unitdate normal="1914">1914</unitdate>
 					</did>
@@ -1747,8 +1753,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link129">Item 4: Memorandum of Suggestions upon Main Provisions Requisite to an Adequate Compulsory Workmen's Compensation Law</unittitle>
 						<unitdate normal="1915">1915</unitdate>
 					</did>
@@ -1761,8 +1767,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link130">Item 5: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1775,8 +1781,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link131">Item 6: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1789,8 +1795,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link132">Item 7: Compulsory Health Insurance</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1803,8 +1809,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link133">Item 8: Executive Council of the National Civic Federation</unittitle>
 						<unitdate normal="1917">1917</unitdate>
 					</did>
@@ -1818,14 +1824,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link134">Tentative Draft of An Act to Provide Compensation for Workmen Injured in Hazardous Industries</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link135">Item 1: Second Report of the Committee on Foreign Inquiry</unittitle>
 						<unitdate normal="1920">1920</unitdate>
 					</did>
@@ -1838,8 +1844,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link136">Item 2: Old Age Annuities: a Practical Guide for an Economically Sound Solution of the Pension Problem</unittitle>
 						<unitdate normal="1925">1925</unitdate>
 					</did>
@@ -1852,8 +1858,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link137">Item 3: Supplementary Proposal: Old Age Annuities: Recommendations to Industrial Establishments for the Study and Formulation of Funded Pension Plans</unittitle>
 						<unitdate normal="1926">1926</unitdate>
 					</did>
@@ -1866,8 +1872,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link138">Item 4: Preventable Accidents: a Tragic Page in American Industrial History</unittitle>
 					</did>
 					<scopecontent>
@@ -1878,8 +1884,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link139">Item 5: Survey of Social and Industrial Conditions</unittitle>
 					</did>
 					<scopecontent>
@@ -1890,8 +1896,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link140">Item 6: Tentative Draft of An Act to Provide Compensation for Workmen Injured in Hazardous Industries</unittitle>
 					</did>
 					<scopecontent>
@@ -1903,8 +1909,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link141">Second Report of the Committee on Foreign Inquiry</unittitle>
 					<unitdate normal="1920">1920</unitdate>
 				</did>
@@ -1913,8 +1919,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link142">Item 1: Second Report of the Committee on Foreign Inquiry</unittitle>
 						<unitdate normal="1920">1920</unitdate>
 					</did>
@@ -1927,8 +1933,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link143">Item 2: Old Age Annuities: a Practical Guide for an Economically Sound Solution of the Pension Problem</unittitle>
 						<unitdate normal="1925">1925</unitdate>
 					</did>
@@ -1941,8 +1947,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link144">Item 3: Supplementary Proposal: Old Age Annuities: Recommendations to Industrial Establishments for the Study and Formulation of Funded Pension Plans</unittitle>
 						<unitdate normal="1926">1926</unitdate>
 					</did>
@@ -1955,8 +1961,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link145">Item 4: Preventable Accidents: a Tragic Page in American Industrial History</unittitle>
 					</did>
 					<scopecontent>
@@ -1967,8 +1973,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link146">Item 5: Survey of Social and Industrial Conditions</unittitle>
 					</did>
 					<scopecontent>
@@ -1979,8 +1985,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link147">Item 6: Tentative Draft of An Act to Provide Compensation for Workmen Injured in Hazardous Industries</unittitle>
 					</did>
 					<scopecontent>
@@ -1992,8 +1998,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link148">Old Age Annuities: a Practical Guide for an Economically Sound Solution of the Pension Problem</unittitle>
 					<unitdate normal="1925">1925</unitdate>
 				</did>
@@ -2002,8 +2008,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link149">Item 1: Second Report of the Committee on Foreign Inquiry</unittitle>
 						<unitdate normal="1920">1920</unitdate>
 					</did>
@@ -2016,8 +2022,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link150">Item 2: Old Age Annuities: a Practical Guide for an Economically Sound Solution of the Pension Problem</unittitle>
 						<unitdate normal="1925">1925</unitdate>
 					</did>
@@ -2030,8 +2036,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link151">Item 3: Supplementary Proposal: Old Age Annuities: Recommendations to Industrial Establishments for the Study and Formulation of Funded Pension Plans</unittitle>
 						<unitdate normal="1926">1926</unitdate>
 					</did>
@@ -2044,8 +2050,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link152">Item 4: Preventable Accidents: a Tragic Page in American Industrial History</unittitle>
 					</did>
 					<scopecontent>
@@ -2056,8 +2062,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link153">Item 5: Survey of Social and Industrial Conditions</unittitle>
 					</did>
 					<scopecontent>
@@ -2068,8 +2074,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link154">Item 6: Tentative Draft of An Act to Provide Compensation for Workmen Injured in Hazardous Industries</unittitle>
 					</did>
 					<scopecontent>
@@ -2081,8 +2087,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link155">Supplementary Proposal: Old Age Annuities: Recommendations to Industrial Establishments for the Study and Formulation of Funded Pension Plans</unittitle>
 					<unitdate normal="1926">1926</unitdate>
 				</did>
@@ -2091,8 +2097,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link156">Item 1: Second Report of the Committee on Foreign Inquiry</unittitle>
 						<unitdate normal="1920">1920</unitdate>
 					</did>
@@ -2105,8 +2111,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link157">Item 2: Old Age Annuities: a Practical Guide for an Economically Sound Solution of the Pension Problem</unittitle>
 						<unitdate normal="1925">1925</unitdate>
 					</did>
@@ -2119,8 +2125,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link158">Item 3: Supplementary Proposal: Old Age Annuities: Recommendations to Industrial Establishments for the Study and Formulation of Funded Pension Plans</unittitle>
 						<unitdate normal="1926">1926</unitdate>
 					</did>
@@ -2133,8 +2139,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link159">Item 4: Preventable Accidents: a Tragic Page in American Industrial History</unittitle>
 					</did>
 					<scopecontent>
@@ -2145,8 +2151,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link160">Item 5: Survey of Social and Industrial Conditions</unittitle>
 					</did>
 					<scopecontent>
@@ -2157,8 +2163,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link161">Item 6: Tentative Draft of An Act to Provide Compensation for Workmen Injured in Hazardous Industries</unittitle>
 					</did>
 					<scopecontent>
@@ -2170,8 +2176,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link162">Preventable Accidents: a Tragic Page in American Industrial History</unittitle>
 				</did>
 				<scopecontent>
@@ -2179,8 +2185,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link163">Item 1: Second Report of the Committee on Foreign Inquiry</unittitle>
 						<unitdate normal="1920">1920</unitdate>
 					</did>
@@ -2193,8 +2199,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link164">Item 2: Old Age Annuities: a Practical Guide for an Economically Sound Solution of the Pension Problem</unittitle>
 						<unitdate normal="1925">1925</unitdate>
 					</did>
@@ -2207,8 +2213,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link165">Item 3: Supplementary Proposal: Old Age Annuities: Recommendations to Industrial Establishments for the Study and Formulation of Funded Pension Plans</unittitle>
 						<unitdate normal="1926">1926</unitdate>
 					</did>
@@ -2221,8 +2227,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link166">Item 4: Preventable Accidents: a Tragic Page in American Industrial History</unittitle>
 					</did>
 					<scopecontent>
@@ -2233,8 +2239,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link167">Item 5: Survey of Social and Industrial Conditions</unittitle>
 					</did>
 					<scopecontent>
@@ -2245,8 +2251,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link168">Item 6: Tentative Draft of An Act to Provide Compensation for Workmen Injured in Hazardous Industries</unittitle>
 					</did>
 					<scopecontent>
@@ -2258,14 +2264,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link169">Survey of Social and Industrial Conditions</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link170">Item 1: Second Report of the Committee on Foreign Inquiry</unittitle>
 						<unitdate normal="1920">1920</unitdate>
 					</did>
@@ -2278,8 +2284,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link171">Item 2: Old Age Annuities: a Practical Guide for an Economically Sound Solution of the Pension Problem</unittitle>
 						<unitdate normal="1925">1925</unitdate>
 					</did>
@@ -2292,8 +2298,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link172">Item 3: Supplementary Proposal: Old Age Annuities: Recommendations to Industrial Establishments for the Study and Formulation of Funded Pension Plans</unittitle>
 						<unitdate normal="1926">1926</unitdate>
 					</did>
@@ -2306,8 +2312,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link173">Item 4: Preventable Accidents: a Tragic Page in American Industrial History</unittitle>
 					</did>
 					<scopecontent>
@@ -2318,8 +2324,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link174">Item 5: Survey of Social and Industrial Conditions</unittitle>
 					</did>
 					<scopecontent>
@@ -2330,8 +2336,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link175">Item 6: Tentative Draft of An Act to Provide Compensation for Workmen Injured in Hazardous Industries</unittitle>
 					</did>
 					<scopecontent>

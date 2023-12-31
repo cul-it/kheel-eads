@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06305av::William B. Wolf Audio-Visual.)//EN">KCL06305av</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06305av::William B. Wolf Audio-Visual.)//EN">KCL06305av</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the William B. Wolf Audio-Visual<date> 1978-2000</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>August 31, 2015</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the William B. Wolf Audio-Visual<lb/></titleproper>
+			<titleproper>Guide to the William B. Wolf Audio-Visual</titleproper>
 			<num>Collection Number: 6305 AV</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,14 +54,14 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">William B. Wolf Audio-Visual, <unitdate encodinganalog="MARC 245$f">1978-2000</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">William B. Wolf Audio-Visual, 1978-2000
+			</unittitle><unitdate encodinganalog="MARC 245$f">1978-2000</unitdate>
 			<unitid label="Collection Number:">6305 AV</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">Wolf, William B.</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">14.2 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">14.2 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Oral histories, audiovisual material.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">This is a collection of Oral Histories done by William B. Wolf and recorded on cassette and VHS tapes.</abstract>
@@ -63,7 +69,7 @@
 			</langmaterial>
 		<physdesc><extent>15.22 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+			
 			<p>Arbitrator, labor mediator and attorney; visiting professor, New York State School of Industrial and Labor Relations, Cornell University. Wolf served as permanent arbitrator between the New York City Board of Education and the United Federation
 				of Teachers; New York City and the American Federation of State, County, and Municipal Employees (AFSCME); the New York City Off-Track Betting Corp. and AFSCME; New York State and AFSCME; the State University of New York and the Senate
 				Professional Association; A. Goodman and the American Bakery and Confectionery Workers' Union; and between the Simmons Company and the Upholsterers International Union. Wolf also served as impartial chairman for American Airlines and the
@@ -85,9 +91,9 @@
 				Fuel Corp. &amp;amp;amp;amp; Local 365 UAW.</p>
 		</bioghist>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Barnard, Chester Irving, 1886-1961 </persname>
 				<persname encodinganalog="MARC 600">Bradford, Lee </persname>
 				<persname encodinganalog="MARC 600">Brewington, Anne </persname>
@@ -116,7 +122,7 @@
 				<corpname encodinganalog="MARC 610">University of Chicago. School of Business </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Oral histories </subject>
 				<subject encodinganalog="MARC 650">Personnel management </subject>
 				<subject encodinganalog="MARC 650">Organizational behavior </subject>
@@ -127,37 +133,37 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>William B. Wolf Audio-Visual #6305 AV. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05305.html"> 5305: Benjamin H. Wolf Papers</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05477.html"> 5477: Benjamin Wolf Papers</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05511.html"> 5511: Benjamin Wolf Additional Papers</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05539.html"> 5539: Benjamin H. Wolf Additional Arbitration Files</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05803.html"> 5803: Benjamin Wolf Additional Arbitration Files</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06305.html"> 6305: William B. Wolf Papers</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06305p.html"> 6305 P: William B. Wolf Photographs</extref><lb/>
+			
+			<p>Related Collections:
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05305.html"> 5305: Benjamin H. Wolf Papers</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05477.html"> 5477: Benjamin Wolf Papers</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05511.html"> 5511: Benjamin Wolf Additional Papers</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05539.html"> 5539: Benjamin H. Wolf Additional Arbitration Files</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05803.html"> 5803: Benjamin Wolf Additional Arbitration Files</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06305.html"> 6305: William B. Wolf Papers</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06305p.html"> 6305 P: William B. Wolf Photographs</extref>
 			</p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link6">William F. Whyte - Interview with W.B. Wolf - 12/12/1978</unittitle>
 					<unitdate normal="1978">1978</unitdate>
@@ -168,7 +174,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Item ">2</unitid>
 					<unittitle id="link7">William F. Whyte - Interview with W.B. Wolf - 12/12/1978</unittitle>
 					<unitdate normal="1978">1978</unitdate>
@@ -179,7 +185,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Item ">3</unitid>
 					<unittitle id="link8">Bill Whyte Interview with W.B. Wolf - 12/12/1978</unittitle>
 					<unitdate normal="1978">1978</unitdate>
@@ -187,7 +193,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link9">James Worthy - 10/12/1991</unittitle>
 					<unitdate normal="1991">1991</unitdate>
@@ -198,7 +204,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link10">James Worthy - 10/21/1991</unittitle>
 					<unitdate normal="1991">1991</unitdate>
@@ -209,7 +215,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link11">Jim Worthy - Symposium - 5/2/1991</unittitle>
 					<unitdate normal="1991">1991</unitdate>
@@ -217,7 +223,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link12">Hamada Anthro Studies of Organization - 10/2/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -225,7 +231,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
+					<container label="unspecified" type="box">9</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link13">Jim Worthy - 8/10/1992 -- Las Vegas</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -233,7 +239,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link14">Worthy, Moore, Gardner -- Committee on HR in Industry -- 8/1986, Chicago</unittitle>
 					<unitdate normal="1986">1986</unitdate>
@@ -244,7 +250,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link15">Burleigh Gardner - 5/9/1980</unittitle>
 					<unitdate normal="1980">1980</unitdate>
@@ -252,7 +258,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link16">Harriet Moore - I - 3/17/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -260,7 +266,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link17">Harriet Moore II - 3/17/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -268,7 +274,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link18">Chicago Headquarters - Jack London -- 12/2/1984</unittitle>
 					<unitdate normal="1984">1984</unitdate>
@@ -276,14 +282,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link19">Bob Dubin &amp;amp;amp;amp; Bill Wolf - Discussion of the Univ. of Chicago</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link20">Bob Dubin - Univ. of Chicago - 1990</unittitle>
 					<unitdate normal="1990">1990</unitdate>
@@ -291,7 +297,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link21">Chas. Henry - 7/31/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -299,7 +305,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link22">Earl Kahn - Applied Behavioral Science - 12/29/1991</unittitle>
 					<unitdate normal="1991">1991</unitdate>
@@ -310,7 +316,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">19</container>
+					<container label="unspecified" type="box">19</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link23">Whyte by Student Lyn Fass - 12/5/1972</unittitle>
 					<unitdate normal="1972">1972</unitdate>
@@ -318,7 +324,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">20</container>
+					<container label="unspecified" type="box">20</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link24">Whyte - by Lyn Fass -- 12/2/1972</unittitle>
 					<unitdate normal="1972">1972</unitdate>
@@ -329,7 +335,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">21</container>
+					<container label="unspecified" type="box">21</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link25">Sidney Levy - 3/10/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -340,7 +346,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">22</container>
+					<container label="unspecified" type="box">22</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link26">Sid Levy - 10/12/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -351,7 +357,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
+					<container label="unspecified" type="box">23</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link27">Sid Levy - II - 3/2/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -359,7 +365,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">24</container>
+					<container label="unspecified" type="box">24</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link28">Dave Moore &amp;amp;amp;amp; Burleigh Gardner - Committee on HR in Industry</unittitle>
 					<unitdate normal="1986">1986</unitdate>
@@ -367,7 +373,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">25</container>
+					<container label="unspecified" type="box">25</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link29">James Worthy &amp;amp;amp;amp; W.B. Wolf - tape IV - 10/21/1991</unittitle>
 					<unitdate normal="1991">1991</unitdate>
@@ -375,7 +381,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">26</container>
+					<container label="unspecified" type="box">26</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link30">James Worthy &amp;amp;amp;amp; W.B. Wolf - 10/19/1991</unittitle>
 					<unitdate normal="1991">1991</unitdate>
@@ -386,7 +392,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">27</container>
+					<container label="unspecified" type="box">27</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link31">Sid Levy - 3/19/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -397,21 +403,21 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">28</container>
+					<container label="unspecified" type="box">28</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link32">William Whyte - Interview by W. Wolf</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">29</container>
+					<container label="unspecified" type="box">29</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link33">Whyte - tape 2</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">30</container>
+					<container label="unspecified" type="box">30</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link34">Hamada - Applied Anthro - 10/2/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -422,7 +428,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">31</container>
+					<container label="unspecified" type="box">31</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link35">Earl Kahn - SRI Applied Behavioral Science -- 12/29/1991</unittitle>
 					<unitdate normal="1991">1991</unitdate>
@@ -433,14 +439,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">31</container>
+					<container label="unspecified" type="box">31</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link36">Billy Goetz</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">32</container>
+					<container label="unspecified" type="box">32</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link37">Fred Massarik - 7/6/1972 - Sensitivity Training</unittitle>
 					<unitdate normal="1972">1972</unitdate>
@@ -448,7 +454,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">32</container>
+					<container label="unspecified" type="box">32</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link38">Classes in Development of Mgt. </unittitle>
 					<unitdate normal="1989">1989</unitdate>
@@ -459,7 +465,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">33</container>
+					<container label="unspecified" type="box">33</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link39">Whyte - 6/10/1970</unittitle>
 					<unitdate normal="1970">1970</unitdate>
@@ -467,7 +473,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">33</container>
+					<container label="unspecified" type="box">33</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link40">Oral Hist. Univ. of Chicago School of Business - Anne Brewington &amp;amp;amp;amp; William B. Wolf - 1989</unittitle>
 					<unitdate normal="1989">1989</unitdate>
@@ -475,14 +481,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">34</container>
+					<container label="unspecified" type="box">34</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link41">Billy Goetz</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">34</container>
+					<container label="unspecified" type="box">34</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link42">Bill Whyte - 6/27/1970</unittitle>
 					<unitdate normal="1970">1970</unitdate>
@@ -493,7 +499,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">35</container>
+					<container label="unspecified" type="box">35</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link43"> Herbert Simon, Karl Wrek, Burleigh Gardener, Jim Worthy, Bill Wolf, Bill Whyte -- 8/13/1986</unittitle>
 					<unitdate normal="1986">1986</unitdate>
@@ -501,7 +507,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">36</container>
+					<container label="unspecified" type="box">36</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link44">William Whyte - 11/2/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -509,7 +515,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">41</container>
+					<container label="unspecified" type="box">41</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link45">Academy of Mgt. - 8/10/1979</unittitle>
 					<unitdate normal="1979">1979</unitdate>
@@ -517,7 +523,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">42</container>
+					<container label="unspecified" type="box">42</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link46">W.B. Wolf - 8/14/1989 - Reflect. Of Hist. of Mgt.</unittitle>
 					<unitdate normal="1989">1989</unitdate>
@@ -525,21 +531,21 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">43</container>
+					<container label="unspecified" type="box">43</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link47">Academy - Cumming - J.C. Penny</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">44</container>
+					<container label="unspecified" type="box">44</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link48">Interview of Bateson &amp;amp;amp;amp; Mead -- Re: Macy Conferences - Read by Students</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">45</container>
+					<container label="unspecified" type="box">45</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link49">10-9-1991 -- Interview with Dave Moore</unittitle>
 					<unitdate normal="1991">1991</unitdate>
@@ -547,7 +553,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">46</container>
+					<container label="unspecified" type="box">46</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link50">6/25/1984Senn - 6/30/2000</unittitle>
 					<unitdate normal="2000">2000</unitdate>
@@ -558,7 +564,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">47</container>
+					<container label="unspecified" type="box">47</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link51">Professor Mano - 3/29/1979</unittitle>
 					<unitdate normal="1979">1979</unitdate>
@@ -569,7 +575,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">48</container>
+					<container label="unspecified" type="box">48</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link52">Professor Voris - 01/09/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -580,7 +586,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">49</container>
+					<container label="unspecified" type="box">49</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link53">5/31/1971 -- Session</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -588,7 +594,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">50</container>
+					<container label="unspecified" type="box">50</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link54">Academy of Mgt. Annual meeting - 8/14/1989</unittitle>
 					<unitdate normal="1989">1989</unitdate>
@@ -596,7 +602,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">51</container>
+					<container label="unspecified" type="box">51</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link55">Charles Wrege - Phone Conversation - 7/4/1994</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -604,14 +610,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">52</container>
+					<container label="unspecified" type="box">52</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link56">Mary Cushing Nite</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">53</container>
+					<container label="unspecified" type="box">53</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link57">Roundtree - 10/24/1972</unittitle>
 					<unitdate normal="1972">1972</unitdate>
@@ -619,14 +625,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">54</container>
+					<container label="unspecified" type="box">54</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link58">History of Mgt.</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">55</container>
+					<container label="unspecified" type="box">55</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link59">3/3/1985 - Mayo Rountree</unittitle>
 					<unitdate normal="1985">1985</unitdate>
@@ -634,7 +640,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">56</container>
+					<container label="unspecified" type="box">56</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link60">10/17/1972</unittitle>
 					<unitdate normal="1972">1972</unitdate>
@@ -642,7 +648,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">57</container>
+					<container label="unspecified" type="box">57</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link61">October 10</unittitle>
 				</did>
@@ -652,7 +658,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">58</container>
+					<container label="unspecified" type="box">58</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link62">October 10</unittitle>
 				</did>
@@ -662,7 +668,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">59</container>
+					<container label="unspecified" type="box">59</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link63">3/3/1984 - Elton Mayo</unittitle>
 					<unitdate normal="1984">1984</unitdate>
@@ -670,7 +676,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">60</container>
+					<container label="unspecified" type="box">60</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link64">Mary Parker Fillett - 10/3/1972</unittitle>
 					<unitdate normal="1972">1972</unitdate>
@@ -678,7 +684,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">61</container>
+					<container label="unspecified" type="box">61</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link65">Mary Parker Fallett - 10/3/1972</unittitle>
 					<unitdate normal="1972">1972</unitdate>
@@ -686,7 +692,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">62</container>
+					<container label="unspecified" type="box">62</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link66">10/17/1972</unittitle>
 					<unitdate normal="1972">1972</unitdate>
@@ -694,7 +700,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">63</container>
+					<container label="unspecified" type="box">63</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link67">Lyn Urwick - 11/28/1972</unittitle>
 					<unitdate normal="1972">1972</unitdate>
@@ -702,21 +708,21 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">64</container>
+					<container label="unspecified" type="box">64</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link68">Whyte - Lyn Fass</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">65</container>
+					<container label="unspecified" type="box">65</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link69">Pete Drucker</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">66</container>
+					<container label="unspecified" type="box">66</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link70">10/10/1972</unittitle>
 					<unitdate normal="1972">1972</unitdate>
@@ -724,7 +730,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">67</container>
+					<container label="unspecified" type="box">67</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link71">10/17/1972</unittitle>
 					<unitdate normal="1972">1972</unitdate>
@@ -732,7 +738,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">68</container>
+					<container label="unspecified" type="box">68</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link72">A. Rowntree - 3/3/1984</unittitle>
 					<unitdate normal="1984">1984</unitdate>
@@ -740,7 +746,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">69</container>
+					<container label="unspecified" type="box">69</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link73">Peter Drucker - 11/21/1972</unittitle>
 					<unitdate normal="1972">1972</unitdate>
@@ -748,7 +754,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">70</container>
+					<container label="unspecified" type="box">70</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link74">3/4/1984</unittitle>
 					<unitdate normal="1984">1984</unitdate>
@@ -756,7 +762,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">71</container>
+					<container label="unspecified" type="box">71</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link75">9/12/1972</unittitle>
 					<unitdate normal="1972">1972</unitdate>
@@ -764,7 +770,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">72</container>
+					<container label="unspecified" type="box">72</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link76">Wolf Lecture - 9/12/1972</unittitle>
 					<unitdate normal="1972">1972</unitdate>
@@ -772,7 +778,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">73</container>
+					<container label="unspecified" type="box">73</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link77">Rountree - 10/24/1972</unittitle>
 					<unitdate normal="1972">1972</unitdate>
@@ -780,7 +786,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">74</container>
+					<container label="unspecified" type="box">74</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link78">9/26/1972</unittitle>
 					<unitdate normal="1972">1972</unitdate>
@@ -788,7 +794,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">75</container>
+					<container label="unspecified" type="box">75</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link79">China Hotel - 10/30/1980</unittitle>
 					<unitdate normal="1980">1980</unitdate>
@@ -796,7 +802,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">76</container>
+					<container label="unspecified" type="box">76</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link80">Interviewer - 9/24/1980</unittitle>
 					<unitdate normal="1980">1980</unitdate>
@@ -804,7 +810,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">77</container>
+					<container label="unspecified" type="box">77</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link81">Lee Bradford - 1966</unittitle>
 					<unitdate normal="1966">1966</unitdate>
@@ -812,7 +818,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">78</container>
+					<container label="unspecified" type="box">78</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link82">Ross Peterson (2nd Casey) - Reading of W.B.W. &amp;amp;amp;amp; Steve Wolf - Sept. 1988</unittitle>
 					<unitdate normal="1988">1988</unitdate>
@@ -820,7 +826,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">79</container>
+					<container label="unspecified" type="box">79</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link83">Herbert Simon - ASDA Meeting - 7/28/1997, Philadelphia</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -828,7 +834,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">80</container>
+					<container label="unspecified" type="box">80</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link84">Hans Levy &amp;amp;amp;amp; Bill Wolf - 1986</unittitle>
 					<unitdate normal="1986">1986</unitdate>
@@ -836,7 +842,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">81</container>
+					<container label="unspecified" type="box">81</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link85">William B. Wolf-The Water Lite Co. - told to students in Univ. of Wash. Class - 1/16/1990</unittitle>
 					<unitdate normal="1990">1990</unitdate>
@@ -844,7 +850,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">82</container>
+					<container label="unspecified" type="box">82</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link86">Larry Senn - 6/30/2000</unittitle>
 					<unitdate normal="2000">2000</unitdate>
@@ -852,7 +858,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">83</container>
+					<container label="unspecified" type="box">83</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link87">Larry Senn Interview by B. Wolf - 6/30/2000</unittitle>
 					<unitdate normal="2000">2000</unitdate>
@@ -863,7 +869,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">84</container>
+					<container label="unspecified" type="box">84</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link88">Academy of Mgt. - Meeting - 8/20/1994</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -871,7 +877,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">85</container>
+					<container label="unspecified" type="box">85</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link89">Session I - 1/25/1979 -- ILR 690</unittitle>
 					<unitdate normal="1979">1979</unitdate>
@@ -879,21 +885,21 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">86</container>
+					<container label="unspecified" type="box">86</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link90">Hawaii - Music</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">87</container>
+					<container label="unspecified" type="box">87</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link91">Unlabeled</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">88</container>
+					<container label="unspecified" type="box">88</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link92">2/28/1974</unittitle>
 					<unitdate normal="1974">1974</unitdate>
@@ -904,14 +910,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">89</container>
+					<container label="unspecified" type="box">89</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link93">John Henessey - Re: t-groups in NW 1996 or 1997</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">90</container>
+					<container label="unspecified" type="box">90</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link94">Interview with Chester I. Barnard by William B. Wolf: April 1961</unittitle>
 					<unitdate normal="1961">1961</unitdate>
@@ -919,7 +925,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">91</container>
+					<container label="unspecified" type="box">91</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link95">Excerpt - Henderson 1961</unittitle>
 					<unitdate normal="1961">1961</unitdate>
@@ -930,14 +936,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">92</container>
+					<container label="unspecified" type="box">92</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link96">How Barnard came to write the (?)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">93</container>
+					<container label="unspecified" type="box">93</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link97">4/5/1961 (Chester I. Barnard)</unittitle>
 					<unitdate normal="1961">1961</unitdate>
@@ -948,7 +954,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">94</container>
+					<container label="unspecified" type="box">94</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link98">4/6/1961 (Chester I. Barnard)</unittitle>
 					<unitdate normal="1961">1961</unitdate>
@@ -959,14 +965,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">95</container>
+					<container label="unspecified" type="box">95</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link99">Prof. J. Karino</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">96</container>
+					<container label="unspecified" type="box">96</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link100">Wm. B. Wolf : Reflections of Chester I. Barnard: April 1961</unittitle>
 					<unitdate normal="1961">1961</unitdate>
@@ -974,35 +980,35 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">97</container>
+					<container label="unspecified" type="box">97</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link101">Excerpts from CIB tapes</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">98</container>
+					<container label="unspecified" type="box">98</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link102">Barnard Excerpts</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">99</container>
+					<container label="unspecified" type="box">99</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link103">Barnard Excerpts - non-logical </unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">100</container>
+					<container label="unspecified" type="box">100</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link104">Open System Re-Design</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">101</container>
+					<container label="unspecified" type="box">101</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link105">Improving International Relations and Effectiveness within Multinational Organizations</unittitle>
 				</did>
@@ -1012,126 +1018,126 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">102</container>
+					<container label="unspecified" type="box">102</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link106">The Client as Theorist: An Approach to Individual &amp;amp;amp;amp; Org. Development</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">103</container>
+					<container label="unspecified" type="box">103</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link107">A "Mixed Model" Strategy for Changing Medical Centers</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">104</container>
+					<container label="unspecified" type="box">104</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link108">Reducing Job Stress Related to coronary Heart Disease: A Pilot Org. Development Project</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">105</container>
+					<container label="unspecified" type="box">105</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link109">Training in autonomy and initiative</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">106</container>
+					<container label="unspecified" type="box">106</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link110">OD in a Macrosystem--A Three Year Progress Report</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">107</container>
+					<container label="unspecified" type="box">107</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link111">Motivation, Organization Development &amp;amp;amp;amp; Individual Career Achievement</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">108</container>
+					<container label="unspecified" type="box">108</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link112">OD in large systems</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">109</container>
+					<container label="unspecified" type="box">109</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link113">Lecture 5</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">110</container>
+					<container label="unspecified" type="box">110</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link114">Lecture 4, Part 2</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">111</container>
+					<container label="unspecified" type="box">111</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link115">Lecture 4, Part 1</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">112</container>
+					<container label="unspecified" type="box">112</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link116">Lecture 3, Part 2</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">113</container>
+					<container label="unspecified" type="box">113</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link117">Lecture 3, Part 1</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">114</container>
+					<container label="unspecified" type="box">114</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link118">Lecture 2</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">115</container>
+					<container label="unspecified" type="box">115</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link119">Lecture 12</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">116</container>
+					<container label="unspecified" type="box">116</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link120">Lecture 11</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">117</container>
+					<container label="unspecified" type="box">117</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link121">Lecture 10, Part 2</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">118</container>
+					<container label="unspecified" type="box">118</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link122">Lecture 9, Part 2</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">119</container>
+					<container label="unspecified" type="box">119</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link123">Chen ? - Part Sec. for Factory (?)</unittitle>
 				</did>
@@ -1141,14 +1147,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">120</container>
+					<container label="unspecified" type="box">120</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link124">Taishan Chemical Factory</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">121</container>
+					<container label="unspecified" type="box">121</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link125">The Council of Foreign Economic of Taishan (Kwangtung) - Liu Kin Sang -- 11/8/1985</unittitle>
 					<unitdate normal="1985">1985</unitdate>
@@ -1156,21 +1162,21 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">122</container>
+					<container label="unspecified" type="box">122</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link126">Taishan County Machinery &amp;amp;amp; Electrical Appliances</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">123</container>
+					<container label="unspecified" type="box">123</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link127">Yentel</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">124</container>
+					<container label="unspecified" type="box">124</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link128">Garden Hotel - 11/20/1985</unittitle>
 					<unitdate normal="1985">1985</unitdate>
@@ -1178,7 +1184,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">125</container>
+					<container label="unspecified" type="box">125</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link129">Balyon Hotel - 11/28/1985</unittitle>
 					<unitdate normal="1985">1985</unitdate>
@@ -1186,7 +1192,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">126</container>
+					<container label="unspecified" type="box">126</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link130">Garden Hotel</unittitle>
 				</did>
@@ -1196,7 +1202,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">127</container>
+					<container label="unspecified" type="box">127</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link131">Bayon Hotel -- 11/28/1985</unittitle>
 					<unitdate normal="1985">1985</unitdate>
@@ -1204,7 +1210,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">128</container>
+					<container label="unspecified" type="box">128</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link132">China Hotel - 10/30/1985</unittitle>
 				</did>
@@ -1214,7 +1220,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">129</container>
+					<container label="unspecified" type="box">129</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link133">Lecture 8, Part 1</unittitle>
 				</did>

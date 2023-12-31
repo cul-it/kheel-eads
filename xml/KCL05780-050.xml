@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
- <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-  <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-050::ILGWU. Northeast Department records.)//EN">KCL05780-050</eadid>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-050::ILGWU. Northeast Department records.)//EN">KCL05780-050</eadid>
   <filedesc>
    <titlestmt>
     <titleproper>Guide to the ILGWU. Northeast Department records<date>
@@ -24,19 +24,25 @@
    <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kathryn Dowgiewicz, <date>June 06,
      2013</date></creation>
   </profiledesc>
- </eadheader>
+ <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
  <frontmatter>
   <titlepage>
-   <titleproper>Guide to the ILGWU. Northeast Department records<lb/></titleproper>
-   <num type="kidb_reference_number" id="kc1290">Collection Number: 5780/050</num>
+   <titleproper>Guide to the ILGWU. Northeast Department records</titleproper>
+   <num id="kc1290" type="kidb_reference_number">Collection Number: 5780/050</num>
    <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University
     Library </publisher>
    <list type="deflist">
     <defitem>
      <label>Contact Information:</label>
-     <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood
-      Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt;
-       <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+     <item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood
+      Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt;
+       <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
       <extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref>
      </item>
     </defitem>
@@ -55,16 +61,16 @@
  </frontmatter>
  <archdesc level="collection">
   <did>
-   <head id="a1">DESCRIPTIVE SUMMARY</head>
-   <unittitle label="Title:" encodinganalog="MARC 245$a">ILGWU. Northeast Department records,
-     <unitdate encodinganalog="MARC 245$f">1933-1983</unitdate>
-   </unittitle>
+   
+   <unittitle encodinganalog="MARC 245$a" label="Title:">ILGWU. Northeast Department records
+     1933-1983
+   </unittitle><unitdate encodinganalog="MARC 245$f">1933-1983</unitdate>
    <unitid label="Collection Number:">5780/050</unitid>
    <origination label="Creator:">
     <corpname encodinganalog="MARC 110" role="creator">International Ladies' Garment Workers'
      Union</corpname>
    </origination>
-   <physdesc label="Quantity:" encodinganalog="MARC 300">2.3 linear ft.</physdesc>
+   <physdesc encodinganalog="MARC 300" label="Quantity:">2.3 linear ft.</physdesc>
    <physdesc label="Forms of Material:">Speeches, appointment books, calendars, reports.</physdesc>
    <repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives,
     Cornell University Library </repository>
@@ -77,7 +83,7 @@
    </langmaterial>
   <physdesc><extent>2.33 cubic feet</extent></physdesc></did>
   <bioghist encodinganalog="MARC 545">
-   <head id="a2" altrender="organizational history">ILGWU ORGANIZATIONAL HISTORY</head>
+   
    <p>Founded in 1900 by local union delegates representing about 2,000 members in cities in the
     northeastern United States, the ILGWU grew in geographical scope, membership size, political
     influence to become one of the most powerful forces in American organized labor by mid-century.
@@ -88,7 +94,7 @@
     the Union of Needletrades, Industrial and Textile Employees (UNITE).</p>
   </bioghist>
   <bioghist encodinganalog="MARC 545">
-   <head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+   
    <p>David Gingold was born in Poland on December 10, 1896, arrived in the United States in 1912 as
     a teenager, and began working in the raincoat trade, joining Rainwear Local 20. He held several
     offices in Local 20 including a member of the executive board in 1922 and vice-chairman in 1923.
@@ -100,7 +106,7 @@
     GEB in 1946. He died on December 15, 1980 at the age of 84.</p>
   </bioghist>
   <bioghist encodinganalog="MARC 545">
-   <head id="a5" altrender="organizational history">NORTHEAST DEPARTMENT ORGANIZATIONAL HISTORY </head>
+   
    <p>The Cotton Garment and Miscellaneous Trades Department was established in 1935, and renamed
     the Northeast Department In 1946. At the time of its formation, the department was responsible
     for Pennsylvania (outside of Philadelphia), Massachusetts (outside of Boston), New York (north
@@ -124,7 +130,7 @@
     Western Pennsylvania and Ohio Department from 1977 until 1995.</p>
   </bioghist>
   <scopecontent encodinganalog="MARC 520">
-   <head id="a3">COLLECTION DESCRIPTION</head>
+   
    <p>The collection consists of two types of records, those relating to David Gingold in his role
     as director of the Northeast Department and the administrative records of the department. </p>
    <p> </p>
@@ -145,16 +151,16 @@
     Scranton PA.</p>
   </scopecontent>
   <controlaccess>
-   <head id="a8">SUBJECTS</head>
+   
    <controlaccess>
-    <head>Names: </head>
+    
     <persname encodinganalog="MARC 600"> Gingold, David. </persname>
     <corpname encodinganalog="MARC 610"> International Ladies' Garment Workers' Union. </corpname>
     <corpname encodinganalog="MARC 610"> International Ladies' Garment Workers' Union. -- Northeast
      Department. </corpname>
    </controlaccess>
    <controlaccess>
-    <head>Subjects: </head>
+    
     <subject encodinganalog="MARC 650"> Women's clothing industry -- United States. </subject>
     <subject encodinganalog="MARC 650"> Women's clothing industry -- New York. </subject>
     <subject encodinganalog="MARC 650"> Labor unions -- United States -- Clothing workers. </subject>
@@ -168,52 +174,52 @@
     </controlaccess>
   </controlaccess>
   <descgrp>
-   <head id="a10">INFORMATION FOR USERS</head>
+   
    <accessrestrict>
-    <head>Access Restrictions:</head>
+    
     <p>Access to the collections in the Kheel Center is restricted. Please contact a reference
      archivist for access to these materials.</p>
    </accessrestrict>
    <userestrict>
-    <head>Restrictions on Use:</head>
+    
     <p>This collection must be used in keeping with the Kheel Center Information Sheet and
      Procedures for Document Use.</p>
    </userestrict>
    <prefercite>
-    <head>Cite As:</head>
+    
     <p>ILGWU. Northeast Department records #5780/050. Kheel Center for Labor-Management
      Documentation and Archives, Cornell University Library.</p>
    </prefercite>
   </descgrp>
   <relatedmaterial>
-   <head id="a6">RELATED MATERIALS</head>
-   <p>Related Collections:<lb/>
+   
+   <p>Related Collections:
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780.html"> 5780: ILGWU
-     records</extref><lb/>
+     records</extref>
    </p>
   </relatedmaterial>
   <dsc type="in-depth">
-   <head>CONTAINER LIST</head>
+   
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link6">David Gingold Speeches</unittitle>
-     <unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate>
+     <unitdate normal="1958/1960" type="inclusive">1958-1960</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link7">David Gingold. Appointment Book and Daily Memoranda</unittitle>
      <unitdate normal="1961">1961</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link8">[No Name]. Appointment Book and Daily Memoranda</unittitle>
      <unitdate normal="1964">1964</unitdate>
     </did>
@@ -223,56 +229,56 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link9">S. C. Chaiken. Appointment Book and Daily Memoranda</unittitle>
      <unitdate normal="1965">1965</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link10">David Gingold. Appointment Book and Daily Memoranda</unittitle>
      <unitdate normal="1965">1965</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link11">S. C. Chaiken. Appointment Book and Daily Memoranda</unittitle>
      <unitdate normal="1966">1966</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link12">David Gingold. Appointment Book and Daily Memoranda</unittitle>
      <unitdate normal="1966">1966</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link13">S. C. Chaiken. Appointment Book and Daily Memoranda</unittitle>
      <unitdate normal="1967">1967</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link14">David Gingold. Appointment Book and Daily Memoranda</unittitle>
      <unitdate normal="1967">1967</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link15">[No Name]. Appointment Book and Daily Memoranda</unittitle>
      <unitdate normal="1968">1968</unitdate>
     </did>
@@ -282,24 +288,24 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link16">S. C. Chaiken. Appointment Book and Daily Memoranda</unittitle>
      <unitdate normal="1969">1969</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link17">David Gingold. Appointment Book and Daily Memoranda</unittitle>
      <unitdate normal="1969">1969</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link18">[No Name]. Appointment Book and Daily Memoranda</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
@@ -309,88 +315,88 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link19">[No Name]. Appointment Book and Daily Memoranda</unittitle>
      <unitdate normal="1971">1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link20">S. C. Chaiken. Appointment Book and Daily Memoranda</unittitle>
      <unitdate normal="1971">1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link21">S. C. Chaiken. Appointment Book and Daily Memoranda</unittitle>
      <unitdate normal="1972">1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link22">[No Name]. Daily Business Journal</unittitle>
      <unitdate normal="1950">1950</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link23">[No Name]. Daily Business Journal. (1 of 2)</unittitle>
-     <unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate>
+     <unitdate normal="1951/1953" type="inclusive">1951-1953</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link24">[No Name]. Daily Business Journal. (2 of 2)</unittitle>
-     <unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate>
+     <unitdate normal="1951/1953" type="inclusive">1951-1953</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link25">[No Name]. Daily Business Journal</unittitle>
-     <unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate>
+     <unitdate normal="1956/1958" type="inclusive">1956-1958</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link26">David Gingold Speeches</unittitle>
      <unitdate normal="1946">1946</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link27">David Gingold Speeches</unittitle>
-     <unitdate type="inclusive" normal="1946/1955">1946-1955</unitdate>
+     <unitdate normal="1946/1955" type="inclusive">1946-1955</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link28">David Gingold Speeches</unittitle>
-     <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>
+     <unitdate normal="1956/1957" type="inclusive">1956-1957</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link29">A Policy Guide on Enforcing the Union Agreement</unittitle>
     </did>
     <scopecontent>
@@ -399,16 +405,16 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link30">Minutes. Reading Local 93</unittitle>
-     <unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate>
+     <unitdate normal="1933/1934" type="inclusive">1933-1934</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link31">ILGWU. Northeast Department. Report to the General Execuritve
       Board</unittitle>
      <unitdate normal="1944">1944</unitdate>
@@ -416,8 +422,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link32">ILGWU Northeast Department. Guide in Setting Piece Rates in Dress Joint
       Council Shops</unittitle>
      <unitdate normal="1963">1963</unitdate>
@@ -425,40 +431,40 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link33">ILGWU. Northeast Department. Dress Guide for Piece Rates</unittitle>
      <unitdate normal="1968">1968</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link34">Minutes Book of the David Crystal Shop</unittitle>
-     <unitdate type="inclusive" normal="1943/1959">1943-1959</unitdate>
+     <unitdate normal="1943/1959" type="inclusive">1943-1959</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link35">Minutes. Finance Committee. Local 109 and 131</unittitle>
-     <unitdate type="inclusive" normal="1938/1948">1938-1948</unitdate>
+     <unitdate normal="1938/1948" type="inclusive">1938-1948</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link36">Minutes. Local 131</unittitle>
-     <unitdate type="inclusive" normal="1935/1940">1935-1940</unitdate>
+     <unitdate normal="1935/1940" type="inclusive">1935-1940</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link37">Your Union. Wyoming Valley District Council. Northeast Department.
       ILGWU</unittitle>
     </did>
@@ -468,24 +474,24 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link38">Correspondence</unittitle>
      <unitdate normal="1966">1966</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link39">Newspaper Clippings</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link40">28th Convention Report</unittitle>
     </did>
     <scopecontent>
@@ -494,8 +500,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link41">The Principles of Unionis (Questions and Answers). ILGWU Education
       Department</unittitle>
      <unitdate normal="1936">1936</unitdate>
@@ -503,40 +509,40 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link42">Newspaper Clippings</unittitle>
-     <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate>
+     <unitdate normal="1960/1961" type="inclusive">1960-1961</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link43">Holiday Messages</unittitle>
-     <unitdate type="inclusive" normal="1960/1973">1960-1973</unitdate>
+     <unitdate normal="1960/1973" type="inclusive">1960-1973</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link44">Union Newsletters</unittitle>
-     <unitdate type="inclusive" normal="1960/1979">1960-1979</unitdate>
+     <unitdate normal="1960/1979" type="inclusive">1960-1979</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link45">Union Newspapers/Newsletters</unittitle>
-     <unitdate type="inclusive" normal="1961/1975">1961-1975</unitdate>
+     <unitdate normal="1961/1975" type="inclusive">1961-1975</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link46">An Outline of Grievance Procedures in the Garment Industry. Northeast
       Department. ILGWU</unittitle>
      <unitdate normal="1965">1965</unitdate>
@@ -544,8 +550,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link47">Staff Conference Report. Northeast Department. ILGWU</unittitle>
      <unitdate normal="1967">1967</unitdate>
     </did>
@@ -555,16 +561,16 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link48">Pamphlet. 35th Anniversary. Tri-district Health Center</unittitle>
      <unitdate normal="1983">1983</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link49">Politics and the Garment Worker. Parts 1 and 2. Northeast Department.
       ILGWU</unittitle>
     </did>
@@ -574,24 +580,24 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link50">Policy Guides on Enforcing the Union Agreement</unittitle>
-     <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+     <unitdate normal="1966/1967" type="inclusive">1966-1967</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link51">Dress Guide for Piece Rates. Northeast Department. ILGWU</unittitle>
-     <unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate>
+     <unitdate normal="1968/1971" type="inclusive">1968-1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link52">Notes</unittitle>
     </did>
     <scopecontent>

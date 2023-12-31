@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
- <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-  <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780mb::ILGWU Memorabilia.)//EN">KCL05780mb</eadid>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780mb::ILGWU Memorabilia.)//EN">KCL05780mb</eadid>
   <filedesc>
    <titlestmt>
     <titleproper>Guide to the ILGWU Memorabilia<date> 1965-2002</date></titleproper>
@@ -23,19 +23,25 @@
    <creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>June 26,
      2019</date></creation>
   </profiledesc>
- </eadheader>
+ <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
  <frontmatter>
   <titlepage>
-   <titleproper>Guide to the ILGWU Memorabilia<lb/></titleproper>
+   <titleproper>Guide to the ILGWU Memorabilia</titleproper>
    <num>Collection Number: 5780 MB</num>
    <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University
     Library </publisher>
    <list type="deflist">
     <defitem>
      <label>Contact Information:</label>
-     <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood
-      Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-      <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+     <item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood
+      Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183
+      <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
       <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
      </item>
     </defitem>
@@ -54,15 +60,15 @@
  </frontmatter>
  <archdesc level="collection">
   <did>
-   <head id="a1">DESCRIPTIVE SUMMARY</head>
-   <unittitle label="Title:" encodinganalog="MARC 245$a">ILGWU Memorabilia, <unitdate encodinganalog="MARC 245$f">1965-2002</unitdate>
-   </unittitle>
+   
+   <unittitle encodinganalog="MARC 245$a" label="Title:">ILGWU Memorabilia, 1965-2002
+   </unittitle><unitdate encodinganalog="MARC 245$f">1965-2002</unitdate>
    <unitid label="Collection Number:">5780 MB</unitid>
    <origination label="Creator:">
     <corpname encodinganalog="MARC 110" role="creator">International Ladies' Garment Workers' Union
      (ILGWU)</corpname>
    </origination>
-   <physdesc label="Quantity:" encodinganalog="MARC 300">35.3 linear ft.</physdesc>
+   <physdesc encodinganalog="MARC 300" label="Quantity:">35.3 linear ft.</physdesc>
    <physdesc label="Forms of Material:">Memorabilia, memorabilia.</physdesc>
    <repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives,
     Cornell University Library </repository>
@@ -74,7 +80,7 @@
    </langmaterial>
   <physdesc><extent>35.33 cubic feet</extent></physdesc></did>
   <bioghist encodinganalog="MARC 545">
-   <head id="a2" altrender="organizational history">ILGWU ORGANIZATIONAL HISTORY</head>
+   
    <p>The International Ladies' Garment Workers' Union was once one of the largest labor unions in
     the United States founded in 1900 by local union delegates representing about 2,000 members in
     cities in the northeastern United States. It was one of the first U.S. Unions to have a
@@ -92,15 +98,15 @@
     450,000 in 1969.</p>
   </bioghist>
   <scopecontent encodinganalog="MARC 520">
-   <head id="a3">COLLECTION DESCRIPTION</head>
+   
    <p>This collection consists of various collectibles from the ILGWU, such as badges, buttons,
     ball-point pens, tie tacks, money clips, newspaper articles, plaques, photos, scarf, t-shirt,
     books, banners and more.</p>
   </scopecontent>
   <controlaccess>
-   <head id="a8">SUBJECTS</head>
+   
    <controlaccess>
-    <head>Names: </head>
+    
     <persname encodinganalog="MARC 600">Barroff, Abraham. </persname>
     <persname encodinganalog="MARC 600">Clinton, Bill, 1946- </persname>
     <persname encodinganalog="MARC 600">Dubinsky, David, 1892-1982 </persname>
@@ -137,43 +143,43 @@
     </corpname>
    </controlaccess>
    <controlaccess>
-    <head>Subjects: </head>
+    
     <subject encodinganalog="MARC 650">Labor unions--Collectibles. </subject>
    </controlaccess>
    <controlaccess>
     </controlaccess>
   </controlaccess>
   <descgrp>
-   <head id="a10">INFORMATION FOR USERS</head>
+   
    <accessrestrict>
-    <head>Access Restrictions:</head>
+    
     <p>Access to the collections in the Kheel Center is restricted. Please contact a reference
      archivist for access to these materials.</p>
    </accessrestrict>
    <userestrict>
-    <head>Restrictions on Use:</head>
+    
     <p>This collection must be used in keeping with the Kheel Center Information Sheet and
      Procedures for Document Use.</p>
    </userestrict>
    <prefercite>
-    <head>Cite As:</head>
+    
     <p>ILGWU Memorabilia #5780 MB. Kheel Center for Labor-Management Documentation and Archives,
      Cornell University Library.</p>
    </prefercite>
   </descgrp>
   <relatedmaterial>
-   <head id="a6">RELATED MATERIALS</head>
-   <p>Related Collections:<lb/>
+   
+   <p>Related Collections:
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-002.html"> 5780/002: ILGWU
-     David Dubinsky Correspondence</extref><lb/>
+     David Dubinsky Correspondence</extref>
    </p>
   </relatedmaterial>
   <dsc type="in-depth">
-   <head>CONTAINER LIST</head>
+   
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link8">International Ladies' Garment Workers' Union - Badges</unittitle>
      <unitdate normal="1983">1983</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -187,8 +193,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link9">International Ladies' Garment Workers' Union - Badges (Dupl)</unittitle>
      <unitdate normal="1983">1983</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -196,8 +202,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link10">International Ladies' Garment Workers' Union - Badges (Dupl)</unittitle>
      <unitdate normal="1983">1983</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -205,8 +211,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link11">International Ladies' Garment Workers' Union - Badges, buttons,
       push-pins, sewing kits, pens</unittitle>
      <unitdate normal="1910">1910</unitdate>
@@ -220,10 +226,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link12">International Ladies' Garment Workers' Union - Badges</unittitle>
-     <unitdate type="inclusive" normal="1971/1983">1971-1983</unitdate>
+     <unitdate normal="1971/1983" type="inclusive">1971-1983</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -233,10 +239,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link13">International Ladies' Garment Workers' Union - Badges</unittitle>
-     <unitdate type="inclusive" normal="1944/1980">1944-1980</unitdate>
+     <unitdate normal="1944/1980" type="inclusive">1944-1980</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -248,11 +254,11 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link14">International Ladies' Garment Workers' Union &amp; AFL-CIO -
       Badges</unittitle>
-     <unitdate type="inclusive" normal="1952/1983">1952-1983</unitdate>
+     <unitdate normal="1952/1983" type="inclusive">1952-1983</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -263,11 +269,11 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link15">Badges for N.J. State Federation of Labor, Military Order of Cootie,
       ILGWU</unittitle>
-     <unitdate type="inclusive" normal="1940/1961">1940-1961</unitdate>
+     <unitdate normal="1940/1961" type="inclusive">1940-1961</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -279,10 +285,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link16">Buttons and badges - miscellaneous</unittitle>
-     <unitdate type="inclusive" normal="1948/1984">1948-1984</unitdate>
+     <unitdate normal="1948/1984" type="inclusive">1948-1984</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -294,8 +300,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link17">ILGWU - buttons</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -305,8 +311,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link18">ILGWU - buttons</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -318,8 +324,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link19">ILGWU - buttons</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -333,10 +339,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link20">ILGWU - badges</unittitle>
-     <unitdate type="inclusive" normal="1956/1965">1956-1965</unitdate>
+     <unitdate normal="1956/1965" type="inclusive">1956-1965</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -348,10 +354,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link21">ILGWU - badges</unittitle>
-     <unitdate type="inclusive" normal="1968/1983">1968-1983</unitdate>
+     <unitdate normal="1968/1983" type="inclusive">1968-1983</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -363,10 +369,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link22">ILGWU - badges</unittitle>
-     <unitdate type="inclusive" normal="1937/1944">1937-1944</unitdate>
+     <unitdate normal="1937/1944" type="inclusive">1937-1944</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -377,8 +383,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link23">ILGWU - buttons &amp; political buttons</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -389,8 +395,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link24">ILGWU - badges</unittitle>
      <unitdate normal="1947">1947</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -402,10 +408,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link25">ILGWU - badges</unittitle>
-     <unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate>
+     <unitdate normal="1937/1940" type="inclusive">1937-1940</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -415,10 +421,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link26">AFL-CIO - badges</unittitle>
-     <unitdate type="inclusive" normal="1955/1963">1955-1963</unitdate>
+     <unitdate normal="1955/1963" type="inclusive">1955-1963</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -430,10 +436,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link27">AFL-CIO - badges</unittitle>
-     <unitdate type="inclusive" normal="1965/1985">1965-1985</unitdate>
+     <unitdate normal="1965/1985" type="inclusive">1965-1985</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -445,10 +451,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link28">AFL-CIO &amp; ILGWU - badges</unittitle>
-     <unitdate type="inclusive" normal="1932/1963">1932-1963</unitdate>
+     <unitdate normal="1932/1963" type="inclusive">1932-1963</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -459,10 +465,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link29">Badges and ribbons, miscellaneous organizations</unittitle>
-     <unitdate type="inclusive" normal="1914/1970">1914-1970</unitdate>
+     <unitdate normal="1914/1970" type="inclusive">1914-1970</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -474,10 +480,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link30">Miscellaneous pendants, pins &amp; badges.</unittitle>
-     <unitdate type="inclusive" normal="1918/1985">1918-1985</unitdate>
+     <unitdate normal="1918/1985" type="inclusive">1918-1985</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -487,8 +493,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link31">Miscellaneous pins, push pins, money clip, tie tack, key
       chain</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -500,10 +506,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link32">Miscellaneous memorabilia</unittitle>
-     <unitdate type="inclusive" normal="1964/1995">1964-1995</unitdate>
+     <unitdate normal="1964/1995" type="inclusive">1964-1995</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -515,8 +521,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link33">ILGWU - scrapbook articles in mostly Yiddish, a few English</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -526,8 +532,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link34">ILGWU - notes on strikes that took place</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -537,8 +543,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link35">Leon Stein, library request sheets</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -549,8 +555,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link36">Justice articles laminated to plaques</unittitle>
      <unitdate normal="1964">1964</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -562,8 +568,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link37">Plaques, one with a Justice article, and on from the United Jewish
       Appeal</unittitle>
      <unitdate normal="1964">1964</unitdate>
@@ -576,8 +582,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link38">Photograph of an Union label</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -588,8 +594,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link39">Pot holders, ILGWU</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -599,8 +605,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link40">Buttons &amp; material chalk</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -611,8 +617,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link41">Satin scarf - ILGWU</unittitle>
      <unitdate normal="1953">1953</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -624,8 +630,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link42">Satin scarf - ILGWU</unittitle>
      <unitdate normal="1950">1950</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -636,8 +642,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link43">ILGWU t-shirt</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -648,8 +654,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link44">ILGWU - cloth</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -660,8 +666,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link45">Bound arbitration hearing between American Cloak and Suit Manufacturers'
       Assoc. &amp; ILGWU</unittitle>
      <unitdate normal="1926">1926</unitdate>
@@ -674,8 +680,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link46">ILGWU - Apron</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -686,8 +692,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link47">ILGWU - button up shirt</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -698,8 +704,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link48">ILGWU - miscellaneous memorabilia</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -713,8 +719,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link49">Union Health Center, watch</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -724,8 +730,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link50">ILGWU - miscellaneous buttons and pendants, memorabilia</unittitle>
      <unitdate normal="1965">1965</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -738,10 +744,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link51">ILGWU - miscellaneous memorabilia</unittitle>
-     <unitdate type="inclusive" normal="1912/1947">1912-1947</unitdate>
+     <unitdate normal="1912/1947" type="inclusive">1912-1947</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -752,8 +758,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link52">ILGWU, shopping bags</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -764,8 +770,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link53">ILGWU - Constitution and receipt book in Yiddish</unittitle>
      <unitdate normal="1914">1914</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -776,8 +782,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link54">ILGWU - Funeral badge</unittitle>
      <unitdate normal="1911">1911</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -791,8 +797,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link55">Miscellaneous buttons</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -804,8 +810,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link56">ILGWU key chain and button</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -816,8 +822,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link57">ILGWU - misc. buttons, pins</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -830,8 +836,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">26</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">26</container>
      <unittitle id="link58">ILWGU - misc. buttons</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -843,8 +849,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">27</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">27</container>
      <unittitle id="link59">ILGWU , vented caps [loose in box]</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -855,8 +861,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">28</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">28</container>
      <unittitle id="link60">ILGWU - neck ties [loose in box]</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -866,8 +872,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">29</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">29</container>
      <unittitle id="link61">AFL-CIO plastic cup [loose in box]</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -877,8 +883,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link62">Wooden desk note pad, engraved for David Dubinsky</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -889,8 +895,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link63">Paper weight from the National Conference of Christians and
       Jews</unittitle>
      <unitdate normal="1963">1963</unitdate>
@@ -904,8 +910,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link64">Sealmaker for the Apparel Job Training and Research Corp.</unittitle>
      <unitdate normal="1978">1978</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -917,8 +923,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link65">Sealmaker for the Italian Suit &amp; Skirt Makers Union of
       New York</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -930,8 +936,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link66">Ceramic bust of David Dubinsky</unittitle>
      <unitdate normal="1952">1952</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -942,8 +948,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link67">Satin banner 'Golden Jubilee' of the ILGWU, 1900-1950.</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -954,8 +960,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link68">Knives</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -965,8 +971,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link69">Knife</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -976,8 +982,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9.2</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">9.2</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link70">ILGWU banner</unittitle>
      <physdesc label="Format:">Banners; Memorabilia</physdesc>
     </did>
@@ -987,8 +993,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9.3</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">9.3</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link71">ILGWU banner</unittitle>
      <physdesc label="Format:">Banners; Memorabilia</physdesc>
     </did>
@@ -999,34 +1005,34 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link72">ILGWU badges (dupls.)</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link73">ILGWU badges (dupls.)</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">12</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">12</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link74">ILGWU badges (dupls.)</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link75">Official dues cards</unittitle>
-     <unitdate type="inclusive" normal="1972/1977">1972-1977</unitdate>
+     <unitdate normal="1972/1977" type="inclusive">1972-1977</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -1036,8 +1042,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link76">ILGWU - Miscellaneous labels</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1050,8 +1056,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link77">ILGWU - paper hats and sweat band</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1062,8 +1068,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link78">ILGWU - souvenirs</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1075,8 +1081,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link79">ILGWU - souvenirs</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1088,8 +1094,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link80">ILGWU - campaign flyers</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1101,8 +1107,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link81">ILGWU - booklets</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1113,8 +1119,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link82">ILGWU - Miscellaneous souvenirs</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1126,8 +1132,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link83">ILGWU - Miscellaneous souvenirs</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1138,8 +1144,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link84">ILGWU - Tie</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1150,8 +1156,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link85">ILGWU - Miscellaneous souvenirs</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1163,8 +1169,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link86">ILGWU - buttons</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1177,8 +1183,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link87">ILGWU - buttons</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1192,8 +1198,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link88">ILGWU - buttons</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1206,8 +1212,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link89">ILGWU - buttons</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1219,8 +1225,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link90">ILGWU - Miscellaneous buttons</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1231,8 +1237,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link91">ILGWU - Miscellaneous</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1245,8 +1251,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link92">ILGWU - Badges, buttons, UNITE badge</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1258,8 +1264,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link93">ILGWU - Badges, tie tack, cuff links, buttons</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1270,8 +1276,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link94">ILGWU - Patches, buttons, pins, etc.</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1284,8 +1290,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link95">ILGWU - Miscellaneous souvenirs</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1297,8 +1303,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link96">ILGWU - sign</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1310,8 +1316,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link97">ILGWU - Pins, buttons</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1324,8 +1330,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link98">CLUW [Coalition of Labor Union Women] - Patches, book mark</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1337,8 +1343,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link99">Bronzed shoe</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1350,8 +1356,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link100">ILGWU clothing labels</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1362,8 +1368,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link101">ILGWU aprons</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1374,8 +1380,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link102">ILGWU aprons</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1385,8 +1391,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link103">ILGWU scarves</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1397,8 +1403,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link104">ILGWU button-up cotton shirt</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1408,8 +1414,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link105">ILGWU 'convention' fans</unittitle>
      <unitdate normal="1992">1992</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -1421,8 +1427,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link106">ILGWU shower cap</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1432,8 +1438,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link107">ILGWU flowered cotton material pieces</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1444,8 +1450,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link108">ILGWU plastic 'bag'</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1455,8 +1461,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link109">ILGWU plastic aprons</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1467,8 +1473,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link110">ILGWU cotton window curtain</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1479,8 +1485,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link111">ILGWU cotton window curtain</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1491,8 +1497,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link112">ILGWU ball point pen and key chain</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1503,8 +1509,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link113">Unit House silver spoon</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1515,8 +1521,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link114">AFL-CIO News, vol. XXVI, No. 39, Sept. 26, 1981</unittitle>
      <unitdate normal="1981">1981</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -1528,8 +1534,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link115">Justice, Vol. LXIII, No. 9, September 1981, No. 10 October
       1981</unittitle>
      <unitdate normal="1981">1981</unitdate>
@@ -1542,10 +1548,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link116">Newspaper articles about Solidarity Day</unittitle>
-     <unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate>
+     <unitdate normal="1981/1982" type="inclusive">1981-1982</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -1557,8 +1563,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link117">Solidarity Day banner, visor</unittitle>
      <unitdate normal="1981">1981</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -1571,8 +1577,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link118">ILGWU: buttons, campaign stickers</unittitle>
      <unitdate normal="1983">1983</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -1587,8 +1593,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link119">ILGWU rubber stamp</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1598,8 +1604,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link120">ILGWU - wooden block</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1610,8 +1616,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link121">ILGWU - ball point pens, markers, pencil</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1626,8 +1632,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link122">ILGWU bookends</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1638,8 +1644,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link123">Coalition of Labor Union Women, paper weight</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1649,8 +1655,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link124">ILGWU - decks of playing cards</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1662,8 +1668,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">26</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">26</container>
      <unittitle id="link125">Unity House picture viewers</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1674,8 +1680,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">27</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">27</container>
      <unittitle id="link126">ILGWU Mug and Unite House plastic cup</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1686,8 +1692,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">28</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">28</container>
      <unittitle id="link127">ILGWU wrist watch</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1697,10 +1703,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link128">Miscellaneous name cards, ribbons, etc.</unittitle>
-     <unitdate type="inclusive" normal="1995/1997">1995-1997</unitdate>
+     <unitdate normal="1995/1997" type="inclusive">1995-1997</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -1709,8 +1715,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link129">Roll of adhesive labels -</unittitle>
      <unitdate normal="1994">1994</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -1721,8 +1727,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link130">Hand book for Label Custodians</unittitle>
      <unitdate normal="1924">1924</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -1734,8 +1740,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link131">Miscellaneous - adhesive union labels, booklet of ILGWU stamps, glass
       cleaning cloth</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -1748,8 +1754,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link132">Stencils for posters</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1759,8 +1765,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link133">"Union Shop" signs, a California Legislature Assembly, Certificate of
       Recognition, and a program from the Northern California Labor Hall of Fame</unittitle>
      <unitdate normal="1990">1990</unitdate>
@@ -1775,10 +1781,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link134">Miscellaneous - aspirin box, mirror, calendars</unittitle>
-     <unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate>
+     <unitdate normal="1974/1977" type="inclusive">1974-1977</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -1789,8 +1795,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link135">Miscellaneous - hat, pencil, rulers, key chains, sewing kit</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1800,8 +1806,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link136">Paper tape measure, gold medallion</unittitle>
      <unitdate normal="1964">1964</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -1814,11 +1820,11 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link137">Sample ballot for Knitgoods Workers' Union, Local 155. Certificate from
       the National Council of Senior Citizens. Dues card from the ILGWU, Local 155. Memo</unittitle>
-     <unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate>
+     <unitdate normal="1968/1972" type="inclusive">1968-1972</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -1829,8 +1835,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link138">Paper weight</unittitle>
      <unitdate normal="1983">1983</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -1842,8 +1848,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link139">ILGWU - 'hats'</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1853,8 +1859,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link140">ILGWU - 'hats'</unittitle>
      <unitdate normal="1973">1973</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -1865,8 +1871,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link141">Knitgoods Workers Union - key chain</unittitle>
      <unitdate normal="1973">1973</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -1878,8 +1884,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link142">ILGWU - 'hats'</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1889,8 +1895,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link143">ILGWU Convention 'fan'</unittitle>
      <unitdate normal="1992">1992</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -1902,8 +1908,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link144">ILGWU - 'hats'</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1913,8 +1919,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link145">ILGWU - 'hats'</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1924,8 +1930,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link146">ILGWU - 'hats'</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -1935,8 +1941,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link147">Bus tickets for Local 155, ILGWU 25th Jubilee Outing</unittitle>
      <unitdate normal="1958">1958</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -1948,10 +1954,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link148">Miscellaneous</unittitle>
-     <unitdate type="inclusive" normal="1918/1975">1918-1975</unitdate>
+     <unitdate normal="1918/1975" type="inclusive">1918-1975</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -1964,8 +1970,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link149">Local signs for ILGWU convention tables, and wooden block
       holders</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -1978,10 +1984,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link150">ILGWU - membership and dues cards, union dues book</unittitle>
-     <unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate>
+     <unitdate normal="1937/1938" type="inclusive">1937-1938</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -1990,8 +1996,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link151">Sewing kit</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2001,8 +2007,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link152">ILGWU - Pins, buttons</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2013,8 +2019,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">26</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">26</container>
      <unittitle id="link153">ILGWU: badges, belt buckle</unittitle>
      <unitdate normal="1986">1986</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2027,8 +2033,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">27</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">27</container>
      <unittitle id="link154">ILGWU - small banner</unittitle>
      <unitdate normal="1963">1963</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2040,8 +2046,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">16</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">16</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link155">Framed memorabilia - Newspaper clipping/picture of "Mrs. Roosevelt" ; a
       thimble and letter from Del Monte Hickey Company, presented to Pietro Paolella.</unittitle>
      <unitdate normal="1933">1933</unitdate>
@@ -2055,8 +2061,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">17</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">17</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link156">Plaque - Presented to the ILGWU from the Workmen's Circle Home
       &amp; Infirmary for the Aged</unittitle>
      <unitdate normal="1976">1976</unitdate>
@@ -2070,10 +2076,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">18</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">18</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link157">Broadsides, Charters, Proclamation</unittitle>
-     <unitdate type="inclusive" normal="1916/1947">1916-1947</unitdate>
+     <unitdate normal="1916/1947" type="inclusive">1916-1947</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -2084,8 +2090,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">18</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">18</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link158">Proclamation, Charter</unittitle>
      <unitdate normal="1940">1940</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2099,10 +2105,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">19</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">19</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link159">Certificates, plaque, awards, charter, etc.</unittitle>
-     <unitdate type="inclusive" normal="1917/1980">1917-1980</unitdate>
+     <unitdate normal="1917/1980" type="inclusive">1917-1980</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -2115,8 +2121,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">19</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">19</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link160">Certificates, plaque, awards, charter, sketch, etc.</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2130,8 +2136,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">19</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">19</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link161">Certificates, plaque, awards, charter, sketch, etc.</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2146,8 +2152,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">19</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">19</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link162">Certificates, plaque, awards, charter, sketch, etc.</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2163,8 +2169,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link163">Award mounted on wood</unittitle>
      <unitdate normal="1983">1983</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2175,8 +2181,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link164">Cartoon mounted on wood</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2187,8 +2193,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link165">Framed award</unittitle>
      <unitdate normal="1973">1973</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2199,8 +2205,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link166">Award mounted on wood</unittitle>
      <unitdate normal="1986">1986</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2211,8 +2217,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link167">Award mounted on wood</unittitle>
      <unitdate normal="1984">1984</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2224,8 +2230,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link168">Award mounted on wood</unittitle>
      <unitdate normal="1978">1978</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2236,8 +2242,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link169">Inaugural speech of Pres. Kennedy</unittitle>
      <unitdate normal="1969">1969</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2249,8 +2255,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link170">ILGWU Scrap book</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2261,8 +2267,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link171">Local 23-25 News, Vol. 30, no. 5 (Oct. 1981)</unittitle>
      <unitdate normal="1981">1981</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2270,8 +2276,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link172">ILGWU souvenirs</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2282,8 +2288,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link173">ILGWU posters</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2296,8 +2302,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link174">ILGWU advertisement</unittitle>
      <unitdate normal="1991">1991</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2309,8 +2315,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link175">ILGWU Charter of Affiliation</unittitle>
      <unitdate normal="1982">1982</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2323,8 +2329,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link176">ILGWU election advertisement</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2335,8 +2341,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link177">ILGWU sign</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2346,8 +2352,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link178">ILGWU Plaque</unittitle>
      <unitdate normal="1985">1985</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2359,8 +2365,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link179">David Dubinsky photo album (empty)</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2370,8 +2376,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link180">Newspaper print plate</unittitle>
      <unitdate normal="1919">1919</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2382,8 +2388,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link181">Statue of Liberty print plate</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2393,8 +2399,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link182">ILGWU Scrap book</unittitle>
      <unitdate normal="1981">1981</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2405,8 +2411,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link183">Photo album/scrap book</unittitle>
      <unitdate normal="1950">1950</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2419,8 +2425,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link184">Bucilla Initial Book</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2431,8 +2437,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link185">Medical card ; Union Clothing label ; Ticket to House of
       Representatives Art Gallery ; Reserved Platform Ticket ; Access near Platform but not on
       Platform - ticket ; ticket to meet Walter Mondale and Geraldine Ferraro</unittitle>
@@ -2450,8 +2456,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link186">ILGWU - souvenir bag</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2462,8 +2468,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link187">JUSTICE - souvenir program</unittitle>
      <unitdate normal="1944">1944</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2475,10 +2481,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link188">Stocks and bonds</unittitle>
-     <unitdate type="inclusive" normal="1917/1943">1917-1943</unitdate>
+     <unitdate normal="1917/1943" type="inclusive">1917-1943</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -2489,8 +2495,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link189">Certificate from State of Arkansas</unittitle>
      <unitdate normal="1957">1957</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2503,8 +2509,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link190">Program and souvenir pens from ILGWU, Local 178 Golden Anniversary.
       Dinner</unittitle>
      <unitdate normal="1984">1984</unitdate>
@@ -2517,8 +2523,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link191">Certificate from Fashion Institute of Technology</unittitle>
      <unitdate normal="1990">1990</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2530,8 +2536,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link192">Certificate - Mr. and Mrs. David Dubinsky</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2542,10 +2548,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link193">ILGWU - pins, medals</unittitle>
-     <unitdate type="inclusive" normal="1937/1986">1937-1986</unitdate>
+     <unitdate normal="1937/1986" type="inclusive">1937-1986</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -2556,8 +2562,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">27</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">27</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link194">ILGWU "Fight Nazism and Fascism" poster (Mitchell Loeb, 1934), and
       misc. ILGWU posters</unittitle>
      <unitdate normal="1934">1934</unitdate>
@@ -2565,8 +2571,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">28</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">28</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link195">Justice Menu ; Proclamation from the Office of the Mayor, City of New
       York (declaring) March 21st to 29th, 1961 as New York's Spring Festival of Fashion
       Week</unittitle>
@@ -2575,8 +2581,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">29</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">29</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link196">ILGWU clothing</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2588,8 +2594,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">30</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">30</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link197">ILGWU clothing</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2601,8 +2607,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">31</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">31</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link198">ILGWU cloth bags</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2615,15 +2621,15 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">32</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">32</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link199">Sewing kit -- "Look for this Union Label"</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">32</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">32</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link200">ILGWU stamps (raised seal presses)</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2635,8 +2641,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link201">The Spirit of '89</unittitle>
      <unitdate normal="1950">1950</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2648,8 +2654,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link202">Fiftieth Anniversary Coins from the First Union Health Center:
       1914-1964</unittitle>
      <unitdate normal="1964">1964</unitdate>
@@ -2661,11 +2667,11 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link203">ILGWU badges - orig. owned by Ms. Mary Goff Schuster - transferred from
       5780/022 (box 17)</unittitle>
-     <unitdate type="inclusive" normal="1937/1980">1937-1980</unitdate>
+     <unitdate normal="1937/1980" type="inclusive">1937-1980</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -2674,8 +2680,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link204">ILGWU buttons/pins</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2685,8 +2691,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link205">ILGWU rubber stamp</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2698,8 +2704,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link206">ILGWU rubber stamp</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2710,8 +2716,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link207">Award</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2723,8 +2729,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link208">Plaque</unittitle>
      <unitdate normal="1975">1975</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2737,8 +2743,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link209">Notepad</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2748,8 +2754,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link210">ILGWU Wage Record Book ; ILGWU Union Label (flyer)</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2759,8 +2765,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link211">ILGWU Award</unittitle>
      <unitdate normal="1981">1981</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2773,8 +2779,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link212">ILGWU - flyer</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2784,8 +2790,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link213">ILGWU pens and nail file</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2796,8 +2802,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link214">ILGWU - jar opener, sponge</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2809,8 +2815,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link215">ILGWU balloons</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2820,8 +2826,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link216">ILGWU- memo books, rulers, tape measure, rain hat</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2831,8 +2837,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link217">ILGWU- sewing kit, scissors, folder</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2843,8 +2849,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link218">ILGWU - Rainbows - ILGWU Worker-Family Education Program, Local
       23-25-Chinatown Site</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2855,8 +2861,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link219">ILGWU - pins</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2866,8 +2872,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link220">ILGWU coasters</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2877,8 +2883,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">33</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">33</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link221">ILGWU seal press</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2888,10 +2894,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">34</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">34</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link222">ILGWU calendars</unittitle>
-     <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
+     <unitdate normal="1971/1972" type="inclusive">1971-1972</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -2900,8 +2906,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">35</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">35</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link223">Plastic bag with union slogans printed on it</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2911,8 +2917,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">35</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">35</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link224">Emergency sleeve for car antenna (ILGWU)</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2923,8 +2929,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">35</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">35</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link225">Plaque - Coalition of Labor Union Women</unittitle>
      <unitdate normal="1981">1981</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2935,8 +2941,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">35</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">35</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link226">Award</unittitle>
      <unitdate normal="1955">1955</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2948,8 +2954,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">35</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">35</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link227">Award</unittitle>
      <unitdate normal="1978">1978</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2961,8 +2967,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">35</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">35</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link228">Advertisement</unittitle>
      <unitdate normal="1938">1938</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2974,8 +2980,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">35</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">35</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link229">Sign</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -2985,8 +2991,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">35</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">35</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link230">Award</unittitle>
      <unitdate normal="1943">1943</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -2998,8 +3004,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">36</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">36</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link231">Small flags</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -3011,8 +3017,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">36</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">36</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link232">Banner/flag</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -3023,8 +3029,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">36</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">36</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link233">Banner/flag</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -3035,8 +3041,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">36</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">36</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link234">Banner/flag</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -3047,8 +3053,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">37</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">37</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link235">Lions Club award</unittitle>
      <unitdate normal="1994">1994</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -3061,8 +3067,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">37</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">37</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link236">Award for Edgar Romney</unittitle>
      <unitdate normal="1989">1989</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -3075,8 +3081,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">37</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">37</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link237">Award from American ORT Federation</unittitle>
      <unitdate normal="1985">1985</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -3090,8 +3096,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">37</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">37</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link238">Award from American ORT Federation</unittitle>
      <unitdate normal="1990">1990</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -3103,8 +3109,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">37</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">37</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link239">Award from the National Association for the Advancement of Colored
       People</unittitle>
      <unitdate normal="1995">1995</unitdate>
@@ -3118,8 +3124,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">37</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">37</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link240">ILGWU hats, place card</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -3129,8 +3135,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">37</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">37</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link241">ILGWU - bumper sticker, letter openers, ruler</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -3142,8 +3148,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">37</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">37</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link242">Banner/flag</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -3154,8 +3160,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">37</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">37</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link243">ILGWU key chains ; ILGWU pin</unittitle>
      <unitdate normal="1983">1983</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -3167,8 +3173,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">37</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">37</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link244">ILGWU paper eight</unittitle>
      <unitdate normal="1983">1983</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -3179,11 +3185,11 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">37</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">37</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link245">Certificate of Recognition ; ILGWU Award ; George Meany Award ; ILGWU
       Award</unittitle>
-     <unitdate type="inclusive" normal="1987/1994">1987-1994</unitdate>
+     <unitdate normal="1987/1994" type="inclusive">1987-1994</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -3199,8 +3205,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">37</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">37</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link246">CBTU paper weight</unittitle>
      <unitdate normal="2002">2002</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -3214,8 +3220,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">37</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">37</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link247">ILGWU pin cushion</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -3225,8 +3231,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">37</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">37</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link248">ILGWU 'house'</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -3236,10 +3242,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">37</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">37</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link249">Assorted badges - moved from 5780/087</unittitle>
-     <unitdate type="inclusive" normal="1965/1980">1965-1980</unitdate>
+     <unitdate normal="1965/1980" type="inclusive">1965-1980</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
     <scopecontent>
@@ -3251,8 +3257,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">38</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">38</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link250">Proclamation</unittitle>
      <unitdate normal="2001">2001</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -3266,8 +3272,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">38</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">38</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link251">ILGWU broadside</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -3279,8 +3285,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">38</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">38</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link252">ILGWU sign</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -3291,8 +3297,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">38</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">38</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link253">watercolor picture</unittitle>
      <unitdate normal="1989">1989</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -3304,8 +3310,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">38</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">38</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link254">Charter, United Hebrew Trades</unittitle>
      <unitdate normal="1945">1945</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -3318,8 +3324,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">38</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">38</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link255">Charter, ILGWU</unittitle>
      <unitdate normal="1956">1956</unitdate>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -3331,8 +3337,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">38</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">38</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link256">Award - Educational and Cultural Fund of the Electrical
       Industry</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
@@ -3344,8 +3350,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">39</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">39</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link257">48 star American flag</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -3355,8 +3361,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">40</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">40</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link258">ILGWU banner</unittitle>
      <physdesc label="Format:">Memorabilia</physdesc>
     </did>
@@ -3367,8 +3373,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">41</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">41</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link259">Banner: ILGWU SLAUTES AMERICA</unittitle>
      <physdesc label="Format:">Banners</physdesc>
     </did>
@@ -3380,8 +3386,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">42</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">42</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link260">Funeral procession for victims of the Triangle Fire - [enlarged
       photograph on a frame: 3'x3'11"]</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
@@ -3389,8 +3395,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">42</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">42</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link261">Photo of women walking down the driveway at Unity House (?) - side by
       side with their arms around each other and smiling. [photo with a metal backing: 2'8" x
       3'6"]</unittitle>
@@ -3399,37 +3405,37 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">44</container>
+     <container label="unspecified" type="box">44</container>
      <unittitle id="link262">Images digitized from the collection.</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
     <c02 level="file">
      <did>
-      <container type="box">46</container>
-      <container type="folder">4</container>
+      <container label="unspecified" type="box">46</container>
+      <container label="unspecified" type="folder">4</container>
       <unittitle id="link263">Plastic ILGWU apron</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">46</container>
-      <container type="folder">3</container>
+      <container label="unspecified" type="box">46</container>
+      <container label="unspecified" type="folder">3</container>
       <unittitle id="link264">Sewing kits (2) ; ILGWU address books ; Local 11 cloth money
        bag</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">46</container>
-      <container type="folder">2</container>
+      <container label="unspecified" type="box">46</container>
+      <container label="unspecified" type="folder">2</container>
       <unittitle id="link265">Plastic bag - red/white/blue - lettered with ILGWU and Union
        labels</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">46</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">46</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle id="link266">Cotton Jacket - White with blue lettering [back] Phila-South Jersey
        District Council ; [front left lapel] Union label</unittitle>
      </did>
@@ -3437,22 +3443,22 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">45</container>
+     <container label="unspecified" type="box">45</container>
      <unittitle id="link267">Images digitized from the collection.</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">46</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">46</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link268">Paper shopping bag from the ILGWU - 'Judy Bond Inc. On Strike Don't Buy
       Judy Bond Blouses [red, white, and blue]</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">47</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">47</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link269">flyer - "Retailers! See How Others Participate and Profit! "Hallmark of
       Fashion" Promotion"</unittitle>
     </did>
@@ -3462,16 +3468,16 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">47</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">47</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link270">Paper shopping bag w/handle - "Look for this LABELin ladies' and
       children's wear"</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">47</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">47</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link271">Letter openers (2) ; raincoats in pockets (3) ; key chains (2) ; comb
       in pocket (1) ; heart shaped mini pillows (2) ; ruler</unittitle>
     </did>

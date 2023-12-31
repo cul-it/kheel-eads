@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL04091::Emil Mesics Papers.)//EN">KCL04091</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL04091::Emil Mesics Papers.)//EN">KCL04091</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the Emil Mesics Papers<date> 1946-1969</date></titleproper>
@@ -23,20 +23,26 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>March 01,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
-            <titleproper>Guide to the Emil Mesics Papers<lb/></titleproper>
+            <titleproper>Guide to the Emil Mesics Papers</titleproper>
             <num>Collection Number: /4091</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -55,14 +61,14 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">Emil Mesics Papers, <unitdate encodinganalog="MARC 245$f">1946-1969</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">Emil Mesics Papers, 1946-1969
+            </unittitle><unitdate encodinganalog="MARC 245$f">1946-1969</unitdate>
             <unitid label="Collection Number:">/4091</unitid>
             <origination label="Creator:">
                 <persname encodinganalog="MARC 100" role="creator">Mesics, Emil</persname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">4 linear ft.</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">4 linear ft.</physdesc>
             <physdesc label="Forms of Material:">Papers (documents) .</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -70,53 +76,53 @@
             </langmaterial>
         <physdesc><extent>4 cubic feet</extent></physdesc></did>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <persname encodinganalog="MARC 600">Mesics, Emil </persname>
             </controlaccess>
             <controlaccess>
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>Emil Mesics Papers #/4091. Kheel Center for Labor-Management Documentation and
                     Archives, Cornell University Library.</p>
             </prefercite>
         </descgrp>
         <relatedmaterial>
-            <head id="a6">RELATED MATERIALS</head>
-            <p>Related Collections:<lb/>
+            
+            <p>Related Collections:
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04297.html"> /4297: ILR
-                    School Biography Files</extref><lb/>
+                    School Biography Files</extref>
             </p>
         </relatedmaterial>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link8">Wage, Salary and Cost of Living Documents</unittitle>
-                    <unitdate type="inclusive" normal="1956/1959">1956-1959</unitdate>
+                    <unitdate normal="1956/1959" type="inclusive">1956-1959</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link9">"Compensating Expatriates for the Cost of Living
                         Abroad"</unittitle>
                     <unitdate normal="1955">1955</unitdate>
@@ -127,22 +133,22 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link10">Harvard Business School Case Examples</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link11">Attitude Survey</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link12">'An Inquiry into the Nature and Use of
                         Authority"</unittitle>
                 </did>
@@ -152,8 +158,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link13">'An Inquiry into the Nature and Use of Authority"
                         Continued</unittitle>
                 </did>
@@ -163,24 +169,24 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link14">Documents on Automation</unittitle>
-                    <unitdate type="inclusive" normal="1955/1965">1955-1965</unitdate>
+                    <unitdate normal="1955/1965" type="inclusive">1955-1965</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link15">Documents on Automation</unittitle>
-                    <unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate>
+                    <unitdate normal="1960/1965" type="inclusive">1960-1965</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link16">"Automation: Boon or Bogeyman?"</unittitle>
                     <unitdate normal="1960">1960</unitdate>
                 </did>
@@ -190,32 +196,32 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link17">Automation</unittitle>
-                    <unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
+                    <unitdate normal="1961/1962" type="inclusive">1961-1962</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link18">Automation</unittitle>
-                    <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
+                    <unitdate normal="1962/1963" type="inclusive">1962-1963</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link19">Automation</unittitle>
                     <unitdate normal="1962">1962</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link20">"Xerox Corporation: A Case Study in
                         Retraining"</unittitle>
                     <unitdate normal="1962">1962</unitdate>
@@ -226,8 +232,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link21">"Impact of Technological Change Upon Jobs and Labor
                         Relations"</unittitle>
                     <unitdate normal="1956">1956</unitdate>
@@ -239,8 +245,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link22">"Expanded Training Opportunities for Out-of-School
                         Youth"</unittitle>
                 </did>
@@ -250,31 +256,31 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link23">Benefits Documents</unittitle>
-                    <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate>
+                    <unitdate normal="1964/1965" type="inclusive">1964-1965</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link24">Benefits Documents</unittitle>
-                    <unitdate type="inclusive" normal="1957/1961">1957-1961</unitdate>
+                    <unitdate normal="1957/1961" type="inclusive">1957-1961</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link25">Business Cycle</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link26">"The GE Approach to Industrial Relations: A MAP
                         Study"</unittitle>
                     <unitdate normal="1962">1962</unitdate>
@@ -285,16 +291,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link27">Collective Bargaining Documents</unittitle>
-                    <unitdate type="inclusive" normal="1963/1966">1963-1966</unitdate>
+                    <unitdate normal="1963/1966" type="inclusive">1963-1966</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link28">"The Woodward Governor Approach to Industrial Relations:
                         The Concept of the Corporate Partnership"</unittitle>
                     <unitdate normal="1964">1964</unitdate>
@@ -305,8 +311,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">22</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">22</container>
                     <unittitle id="link29">"Guide to College Recruiting Procedure"</unittitle>
                     <unitdate normal="1952">1952</unitdate>
                 </did>
@@ -316,16 +322,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">23</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">23</container>
                     <unittitle id="link30">Communication</unittitle>
                     <unitdate normal="1965">1965</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">24</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">24</container>
                     <unittitle id="link31">Conference Leadership</unittitle>
                     <unitdate normal="1951">1951</unitdate>
                 </did>
@@ -335,8 +341,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">25</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">25</container>
                     <unittitle id="link32">Conference leadership: Training Department Johnson &amp;
                         Johnson</unittitle>
                     <unitdate normal="1954">1954</unitdate>
@@ -344,8 +350,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">26</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">26</container>
                     <unittitle id="link33">Conference Leadership</unittitle>
                     <unitdate normal="1951">1951</unitdate>
                 </did>
@@ -355,8 +361,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">27</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">27</container>
                     <unittitle id="link34">Manual for Developing Conference Leaders</unittitle>
                 </did>
                 <scopecontent>
@@ -365,8 +371,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">28</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">28</container>
                     <unittitle id="link35">"A Report of the Meetings on the Explanation and
                         Discussion of a 'Management Conference Program'"</unittitle>
                     <unitdate normal="1951">1951</unitdate>
@@ -377,23 +383,23 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">29</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">29</container>
                     <unittitle id="link36">Conference and Discussion Leadership</unittitle>
                     <unitdate normal="1957">1957</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">30</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">30</container>
                     <unittitle id="link37">Management Consultants</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">31</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">31</container>
                     <unittitle id="link38">"How to Delegate--Effectively"</unittitle>
                     <unitdate normal="1964">1964</unitdate>
                 </did>
@@ -403,18 +409,18 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">32</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">32</container>
                     <unittitle id="link39">Economics</unittitle>
                     <unitdate normal="1962">1962</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">33</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">33</container>
                     <unittitle id="link40">Economic Education</unittitle>
-                    <unitdate type="inclusive" normal="1950/1962">1950-1962</unitdate>
+                    <unitdate normal="1950/1962" type="inclusive">1950-1962</unitdate>
                 </did>
                 <scopecontent>
                     <p>April 1 1950 - August 1962</p>
@@ -422,8 +428,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">34</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">34</container>
                     <unittitle id="link41">Educational Principles and Training Manuals</unittitle>
                     <unitdate normal="1952">1952</unitdate>
                 </did>
@@ -433,31 +439,31 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">35</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">35</container>
                     <unittitle id="link42">Employee Personnel Records</unittitle>
                     <unitdate normal="1958">1958</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">36</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">36</container>
                     <unittitle id="link43">Employee Relations</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">37</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">37</container>
                     <unittitle id="link44">Employment</unittitle>
-                    <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
+                    <unitdate normal="1963/1964" type="inclusive">1963-1964</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">38</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">38</container>
                     <unittitle id="link45">The Telford Classification Manual: How to Make and Use an
                         Occupational Classification of the Positions in a Public or Commercial
                         Organization</unittitle>
@@ -469,18 +475,18 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">39</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">39</container>
                     <unittitle id="link46">Employment</unittitle>
-                    <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate>
+                    <unitdate normal="1964/1965" type="inclusive">1964-1965</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">40</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">40</container>
                     <unittitle id="link47">Executives</unittitle>
-                    <unitdate type="inclusive" normal="1962/1965">1962-1965</unitdate>
+                    <unitdate normal="1962/1965" type="inclusive">1962-1965</unitdate>
                 </did>
                 <scopecontent>
                     <p>July 1962 - September 15 1965</p>
@@ -488,24 +494,24 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">41</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">41</container>
                     <unittitle id="link48">Interview Development</unittitle>
                     <unitdate normal="1968">1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">42</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">42</container>
                     <unittitle id="link49">Labor Relations Accommodations</unittitle>
                     <unitdate normal="1964">1964</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">43</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">43</container>
                     <unittitle id="link50">"Labor Turnover: Calculation and Cost"</unittitle>
                     <unitdate normal="1960">1960</unitdate>
                 </did>
@@ -515,8 +521,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">44</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">44</container>
                     <unittitle id="link51">"The Potential of Programmed Mechanical Devices as Aids
                         in the Maintenance and Repair of Airborne Electronic Equipment"</unittitle>
                 </did>
@@ -526,79 +532,79 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">45</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">45</container>
                     <unittitle id="link52">Legislation: Training and Retraining</unittitle>
                     <unitdate normal="1964">1964</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">46</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">46</container>
                     <unittitle id="link53">Numeric Control Training</unittitle>
                     <unitdate normal="1966">1966</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link54">Orientation: "Your Job with Otis"</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link55">Performance Appraisals</unittitle>
-                    <unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate>
+                    <unitdate normal="1965/1967" type="inclusive">1965-1967</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link56">Personnel</unittitle>
-                    <unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate>
+                    <unitdate normal="1964/1967" type="inclusive">1964-1967</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link57">Personnel Administration</unittitle>
-                    <unitdate type="inclusive" normal="1956/1964">1956-1964</unitdate>
+                    <unitdate normal="1956/1964" type="inclusive">1956-1964</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link58">Personnel Function</unittitle>
-                    <unitdate type="inclusive" normal="1953/1968">1953-1968</unitdate>
+                    <unitdate normal="1953/1968" type="inclusive">1953-1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link59">Personnel Research</unittitle>
-                    <unitdate type="inclusive" normal="1958/1968">1958-1968</unitdate>
+                    <unitdate normal="1958/1968" type="inclusive">1958-1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link60">Personnel Salary Administration</unittitle>
-                    <unitdate type="inclusive" normal="1960/1964">1960-1964</unitdate>
+                    <unitdate normal="1960/1964" type="inclusive">1960-1964</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link61">Policy Statements</unittitle>
                     <unitdate normal="1964">1964</unitdate>
                 </did>
@@ -608,56 +614,56 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link62">Poverty</unittitle>
                     <unitdate normal="1962">1962</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link63">Programmed Instruction</unittitle>
-                    <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate>
+                    <unitdate normal="1960/1961" type="inclusive">1960-1961</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link64">Programmed Learning</unittitle>
-                    <unitdate type="inclusive" normal="1961/1964">1961-1964</unitdate>
+                    <unitdate normal="1961/1964" type="inclusive">1961-1964</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link65">Remuneration</unittitle>
-                    <unitdate type="inclusive" normal="1953/1964">1953-1964</unitdate>
+                    <unitdate normal="1953/1964" type="inclusive">1953-1964</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link66">Retirement Planning</unittitle>
-                    <unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate>
+                    <unitdate normal="1964/1965" type="inclusive">1964-1965</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link67">Retraining Older Workers</unittitle>
                     <unitdate normal="1961">1961</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link68">"On Preventing Conflicts of Interest in
                         Government-Sponsored Research at Universities</unittitle>
                     <unitdate normal="1964">1964</unitdate>
@@ -668,32 +674,32 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link69">Safety</unittitle>
-                    <unitdate type="inclusive" normal="1954/1966">1954-1966</unitdate>
+                    <unitdate normal="1954/1966" type="inclusive">1954-1966</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link70">Study Method</unittitle>
-                    <unitdate type="inclusive" normal="1957/1962">1957-1962</unitdate>
+                    <unitdate normal="1957/1962" type="inclusive">1957-1962</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link71">Tests</unittitle>
-                    <unitdate type="inclusive" normal="1947/1966">1947-1966</unitdate>
+                    <unitdate normal="1947/1966" type="inclusive">1947-1966</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link72">Tests</unittitle>
                     <unitdate normal="1966">1966</unitdate>
                 </did>
@@ -703,8 +709,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link73">Training Evaluation</unittitle>
                     <unitdate normal="1958">1958</unitdate>
                 </did>
@@ -714,23 +720,23 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link74">Unemployment Newspaper Clippings</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">22</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">22</container>
                     <unittitle id="link75">Unions</unittitle>
-                    <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
+                    <unitdate normal="1963/1964" type="inclusive">1963-1964</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">23</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">23</container>
                     <unittitle id="link76">The Proper Climate for Labor Relations</unittitle>
                     <unitdate normal="1962">1962</unitdate>
                 </did>
@@ -740,80 +746,80 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">24</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">24</container>
                     <unittitle id="link77">Vocational Education</unittitle>
-                    <unitdate type="inclusive" normal="1952/1966">1952-1966</unitdate>
+                    <unitdate normal="1952/1966" type="inclusive">1952-1966</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">25</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">25</container>
                     <unittitle id="link78">Vocational Education</unittitle>
-                    <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+                    <unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">26</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">26</container>
                     <unittitle id="link79">Voluntary Education</unittitle>
-                    <unitdate type="inclusive" normal="1963/1966">1963-1966</unitdate>
+                    <unitdate normal="1963/1966" type="inclusive">1963-1966</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">27</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">27</container>
                     <unittitle id="link80">Voluntary Education</unittitle>
-                    <unitdate type="inclusive" normal="1964/1966">1964-1966</unitdate>
+                    <unitdate normal="1964/1966" type="inclusive">1964-1966</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">28</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">28</container>
                     <unittitle id="link81">Wages and Salary Transparencies</unittitle>
-                    <unitdate type="inclusive" normal="1962/1965">1962-1965</unitdate>
+                    <unitdate normal="1962/1965" type="inclusive">1962-1965</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">29</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">29</container>
                     <unittitle id="link82">Working Women</unittitle>
-                    <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
+                    <unitdate normal="1962/1963" type="inclusive">1962-1963</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">30</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">30</container>
                     <unittitle id="link83">Work</unittitle>
-                    <unitdate type="inclusive" normal="1962/1964">1962-1964</unitdate>
+                    <unitdate normal="1962/1964" type="inclusive">1962-1964</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">31</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">31</container>
                     <unittitle id="link84">Work Measurement</unittitle>
                     <unitdate normal="1962">1962</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link85">A Closer Look at Peer Ratings</unittitle>
                     <unitdate normal="1966">1966</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link86">Adaptability of Older Workers to Technological
                         Change</unittitle>
                 </did>
@@ -823,8 +829,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link87">Administration of the Personnel Programs a Line
                         Responsibility</unittitle>
                     <unitdate normal="1960">1960</unitdate>
@@ -835,8 +841,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link88">American Products Company "In Basket"
                         Simulation</unittitle>
                     <unitdate normal="1962">1962</unitdate>
@@ -844,8 +850,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link89">An Analysis of the Teaching Machine Field and
                         Implications for Home Study Courses</unittitle>
                     <unitdate normal="1961">1961</unitdate>
@@ -856,8 +862,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link90">Analysis of the Training Director's Job</unittitle>
                     <unitdate normal="1961">1961</unitdate>
                 </did>
@@ -867,22 +873,22 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link91">A Note on Counseling Procedures</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link92">Angelica's Purse</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link93">Annotated Bibliography: The Hard-Core
                         Unemployed</unittitle>
                 </did>
@@ -892,16 +898,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link94">An Overview of the Essentials of Management Development
                         Programs</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link95">An Uneasy Look at Performance Appraisal</unittitle>
                 </did>
                 <scopecontent>
@@ -910,8 +916,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link96">Assessing Management Talent</unittitle>
                     <unitdate normal="1967">1967</unitdate>
                 </did>
@@ -921,8 +927,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link97">Appraisal and Interview: A Personal Approach to
                         Management Development</unittitle>
                 </did>
@@ -932,8 +938,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link98">Westinghouse Lamp Division Apprentice Training
                         Program</unittitle>
                     <unitdate normal="1958">1958</unitdate>
@@ -941,8 +947,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link99">Are Personnel Policies Different in a Non-Union
                         Plant?</unittitle>
                     <unitdate normal="1957">1957</unitdate>
@@ -953,17 +959,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link100">Bibliography</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link101">Case Incidents 561-565</unittitle>
-                    <unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate>
+                    <unitdate normal="1957/1959" type="inclusive">1957-1959</unitdate>
                 </did>
                 <scopecontent>
                     <p>January 6 1957 - May 21 1959</p>
@@ -971,8 +977,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link102">Case Incident No. 8 Arbitrator's Decision Grievance
                         1416</unittitle>
                     <unitdate normal="1959">1959</unitdate>
@@ -983,8 +989,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link103">Categories of Changes Expected to Result from Laboratory
                         Training</unittitle>
                     <unitdate normal="1965">1965</unitdate>
@@ -992,8 +998,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link104">Check List for Orientation of New Employees Kemper
                         Insurance</unittitle>
                     <unitdate normal="1957">1957</unitdate>
@@ -1001,8 +1007,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link105">Check Sheet for Starting New Employees on the
                         Job</unittitle>
                     <unitdate normal="1957">1957</unitdate>
@@ -1010,16 +1016,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">22</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">22</container>
                     <unittitle id="link106">The Communication Process</unittitle>
                     <unitdate normal="1958">1958</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">23</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">23</container>
                     <unittitle id="link107">Comparison of Four Basic Systems of Job
                         Evaluation</unittitle>
                     <unitdate normal="1957">1957</unitdate>
@@ -1027,16 +1033,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">24</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">24</container>
                     <unittitle id="link108">Conference Leadership</unittitle>
                     <unitdate normal="1958">1958</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">25</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">25</container>
                     <unittitle id="link109">Coordination in Obtaining and Utilizing Manpower Data
                         for Vocational-Technical Education Planning</unittitle>
                     <unitdate normal="1968">1968</unitdate>
@@ -1047,8 +1053,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">26</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">26</container>
                     <unittitle id="link110">"Dear Lord"</unittitle>
                     <unitdate normal="1958">1958</unitdate>
                 </did>
@@ -1058,16 +1064,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">27</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">27</container>
                     <unittitle id="link111">Definition of Job Evaluation</unittitle>
                     <unitdate normal="1964">1964</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">28</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">28</container>
                     <unittitle id="link112">The Developing Revolution in Management
                         Practices</unittitle>
                     <unitdate normal="1962">1962</unitdate>
@@ -1078,37 +1084,37 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">29</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">29</container>
                     <unittitle id="link113">Discussion Leadership Manual</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">30</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">30</container>
                     <unittitle id="link114">Education Intent of Policy</unittitle>
-                    <unitdate type="inclusive" normal="1959/1966">1959-1966</unitdate>
+                    <unitdate normal="1959/1966" type="inclusive">1959-1966</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">31</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">31</container>
                     <unittitle id="link115">Effective Speaking</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">32</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">32</container>
                     <unittitle id="link116">Employment Interview Assessing the Applicant</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">33</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">33</container>
                     <unittitle id="link117">Evaluating the Effectiveness of Laboratory Training in
                         Industry</unittitle>
                 </did>
@@ -1118,8 +1124,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">34</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">34</container>
                     <unittitle id="link118">Evaluation form for Interviewers</unittitle>
                     <unitdate normal="1961">1961</unitdate>
                 </did>
@@ -1129,11 +1135,11 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">35</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">35</container>
                     <unittitle id="link119">The Evolution and Revolution of the Teaching
                         Machine</unittitle>
-                    <unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate>
+                    <unitdate normal="1960/1961" type="inclusive">1960-1961</unitdate>
                 </did>
                 <scopecontent>
                     <p>Stanley L Levine and Leonard C Silvern. December 1960 - January 1961</p>
@@ -1141,8 +1147,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">36</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">36</container>
                     <unittitle id="link120">Executive Manpower Audit, Development and
                         Control</unittitle>
                 </did>
@@ -1152,15 +1158,15 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">37</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">37</container>
                     <unittitle id="link121">Exodus 18-13:23</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">38</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">38</container>
                     <unittitle id="link122">Fast-Changing Technology--Its Impact on Labor
                         Problems</unittitle>
                     <unitdate normal="1959">1959</unitdate>
@@ -1171,8 +1177,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">39</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">39</container>
                     <unittitle id="link123">Functions Relating to Manpower - Line or
                         Staff</unittitle>
                     <unitdate normal="1960">1960</unitdate>
@@ -1183,8 +1189,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">40</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">40</container>
                     <unittitle id="link124">The Fundamental Purpose for Training</unittitle>
                     <unitdate normal="1959">1959</unitdate>
                 </did>
@@ -1194,15 +1200,15 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">41</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">41</container>
                     <unittitle id="link125">General Areas of Industrial Training</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">42</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">42</container>
                     <unittitle id="link126">"George F's Happy Valley"</unittitle>
                     <unitdate normal="1962">1962</unitdate>
                 </did>
@@ -1212,8 +1218,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">43</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">43</container>
                     <unittitle id="link127">Ghetto Youth See Right through Hypocrisy: 'No Gimmicks,
                         please, Whitey'</unittitle>
                     <unitdate normal="1960">1960</unitdate>
@@ -1224,8 +1230,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">44</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">44</container>
                     <unittitle id="link128">Grievance No. 57-12</unittitle>
                     <unitdate normal="1960">1960</unitdate>
                 </did>
@@ -1235,31 +1241,31 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">45</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">45</container>
                     <unittitle id="link129">Hourly Employee Induction Checklist</unittitle>
                     <unitdate normal="1960">1960</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">46</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">46</container>
                     <unittitle id="link130">Hourly Employee Induction Program</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">47</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">47</container>
                     <unittitle id="link131">Identifying Training Needs</unittitle>
                     <unitdate normal="1959">1959</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">48</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">48</container>
                     <unittitle id="link132">Identifying Training Needs from Appraisals--Basic
                         Performance Factors</unittitle>
                     <unitdate normal="1959">1959</unitdate>
@@ -1267,8 +1273,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">49</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">49</container>
                     <unittitle id="link133">The Incident Process of Supervising Training: Case Study
                         of Experience in a Small Plant</unittitle>
                     <unitdate normal="1954">1954</unitdate>
@@ -1279,8 +1285,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">50</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">50</container>
                     <unittitle id="link134">The Role of Colleges and Universities in the Industrial
                         Training Process</unittitle>
                     <unitdate normal="1963">1963</unitdate>
@@ -1291,16 +1297,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">51</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">51</container>
                     <unittitle id="link135">The Interest Factors found in Various Jobs</unittitle>
                     <unitdate normal="1957">1957</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">52</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">52</container>
                     <unittitle id="link136">Is Training a Profession?</unittitle>
                     <unitdate normal="1960">1960</unitdate>
                 </did>
@@ -1310,23 +1316,23 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">53</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">53</container>
                     <unittitle id="link137">Job Analysis Schedule--Electrician</unittitle>
                     <unitdate normal="1958">1958</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">54</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">54</container>
                     <unittitle id="link138">Job Analysis Schedule--Typist Clerk</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">55</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">55</container>
                     <unittitle id="link139">Job Description--Plant Personnel Manager</unittitle>
                     <unitdate normal="1957">1957</unitdate>
                 </did>
@@ -1336,37 +1342,37 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">56</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">56</container>
                     <unittitle id="link140">Job Breakdown Sheet</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">57</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">57</container>
                     <unittitle id="link141">Job Description--Training Director</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">58</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">58</container>
                     <unittitle id="link142">Job Instruction Training</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">59</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">59</container>
                     <unittitle id="link143">Training Within Industry: Job Instructor Training Check
                         Sheet</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">60</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">60</container>
                     <unittitle id="link144">Lecture vs Group Decision in Changing
                         Behavior</unittitle>
                     <unitdate normal="1968">1968</unitdate>
@@ -1377,39 +1383,39 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">61</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">61</container>
                     <unittitle id="link145">Learning About Learning</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">62</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">62</container>
                     <unittitle id="link146">Learning and the Instruction Process</unittitle>
                     <unitdate normal="1966">1966</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">63</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">63</container>
                     <unittitle id="link147">Learning Experiment Number Sheet</unittitle>
                     <unitdate normal="1964">1964</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">64</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">64</container>
                     <unittitle id="link148">Class Procedure--Learning Process
                         Demonstration</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">65</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">65</container>
                     <unittitle id="link149">Life in the Automatic Factory</unittitle>
                     <unitdate normal="1962">1962</unitdate>
                 </did>
@@ -1419,8 +1425,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">66</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">66</container>
                     <unittitle id="link150">Man Specifications</unittitle>
                     <unitdate normal="1967">1967</unitdate>
                 </did>
@@ -1430,8 +1436,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">67</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">67</container>
                     <unittitle id="link151">Management in the 1980's</unittitle>
                     <unitdate normal="1962">1962</unitdate>
                 </did>
@@ -1441,8 +1447,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">68</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">68</container>
                     <unittitle id="link152">The Management of Learning</unittitle>
                     <unitdate normal="1960">1960</unitdate>
                 </did>
@@ -1452,8 +1458,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">69</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">69</container>
                     <unittitle id="link153">Management Promotion Policy</unittitle>
                     <unitdate normal="1968">1968</unitdate>
                 </did>
@@ -1463,47 +1469,47 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">70</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">70</container>
                     <unittitle id="link154">RCA "Manager and His Staff" Performance Goals Review
                         Meetings</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">71</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">71</container>
                     <unittitle id="link155">Managerial or Supervisory Job</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">72</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">72</container>
                     <unittitle id="link156">Methods of Determining Training Needs</unittitle>
                     <unitdate normal="1956">1956</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">73</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">73</container>
                     <unittitle id="link157">Muhlenberg Manufacturing Company Employee Performance
                         Review Olan</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">74</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">74</container>
                     <unittitle id="link158">Muhlenberg Manufacturing Company Kingston
                         Plant--Supervisory Training Survey</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">75</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">75</container>
                     <unittitle id="link159">Muhlenberg Manufacturing Company Production-Supervisor
                         Training Program</unittitle>
                     <unitdate normal="1959">1959</unitdate>
@@ -1514,8 +1520,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link160">No Room at the Top: The Problem of the "Average"
                         Executive</unittitle>
                     <unitdate normal="1959">1959</unitdate>
@@ -1526,8 +1532,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link161">New Union Frontier: White-Collar Workers</unittitle>
                     <unitdate normal="1962">1962</unitdate>
                 </did>
@@ -1537,8 +1543,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link162">The Organization Man Chapters 1 and 2</unittitle>
                     <unitdate normal="1956">1956</unitdate>
                 </did>
@@ -1548,23 +1554,23 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link163">Organizational Training Techniques</unittitle>
                     <unitdate normal="1969">1969</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link164">Personnel Administration--A Chronology</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link165">Personnel Journals in the ILR Library</unittitle>
                     <unitdate normal="1966">1966</unitdate>
                 </did>
@@ -1574,8 +1580,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link166">A Personnel Man Looks at the Case Method</unittitle>
                     <unitdate normal="1954">1954</unitdate>
                 </did>
@@ -1585,15 +1591,15 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link167">Plan for Job Training Program</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link168">Pointing the Way to Better Human Relations through the
                         Case Method</unittitle>
                     <unitdate normal="1956">1956</unitdate>
@@ -1601,8 +1607,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link169">Policies and Procedures governing Tuition Refund
                         Plan</unittitle>
                     <unitdate normal="1965">1965</unitdate>
@@ -1613,24 +1619,24 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link170">Principles of Learning</unittitle>
                     <unitdate normal="1964">1964</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link171">The Principles of Scientific Management</unittitle>
                     <unitdate normal="1911">1911</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link172">The Problem of change in the Advanced Industrial Economy
                         of the United States</unittitle>
                     <unitdate normal="1962">1962</unitdate>
@@ -1641,16 +1647,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link173">The Process of Communication</unittitle>
                     <unitdate normal="1966">1966</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link174">Programmed Instruction--What It is and Where It is
                         Going</unittitle>
                     <unitdate normal="1966">1966</unitdate>
@@ -1661,8 +1667,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link175">Programmed Learning</unittitle>
                     <unitdate normal="1966">1966</unitdate>
                 </did>
@@ -1672,40 +1678,40 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link176">Purposes of the Training Function at RCA</unittitle>
                     <unitdate normal="1964">1964</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link177">Questionnaire--Labor Relations</unittitle>
                     <unitdate normal="1964">1964</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link178">Range of Group Discussion Levels</unittitle>
                     <unitdate normal="1965">1965</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link179">Case Incident No. A: The Reprimand Situation</unittitle>
                     <unitdate normal="1964">1964</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link180">Research Concerning Barriers to Effective Two-Way
                         Communication</unittitle>
                     <unitdate normal="1966">1966</unitdate>
@@ -1716,8 +1722,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">22</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">22</container>
                     <unittitle id="link181">The Rich Grow Richer: Results of Studies Relating
                         Development Readiness to Business Success</unittitle>
                     <unitdate normal="1966">1966</unitdate>
@@ -1728,16 +1734,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">23</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">23</container>
                     <unittitle id="link182">Sensitivity Training - What is It?</unittitle>
                     <unitdate normal="1964">1964</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">24</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">24</container>
                     <unittitle id="link183">Sensitivity Training in Business Organizations: Some
                         Limitations</unittitle>
                 </did>
@@ -1747,24 +1753,24 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">25</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">25</container>
                     <unittitle id="link184">Social Requirements of a Job</unittitle>
                     <unitdate normal="1957">1957</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">26</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">26</container>
                     <unittitle id="link185">Some Important Learning Principles</unittitle>
                     <unitdate normal="1964">1964</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">27</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">27</container>
                     <unittitle id="link186">Some Problems and Opportunities Facing Training
                         Men</unittitle>
                     <unitdate normal="1962">1962</unitdate>
@@ -1775,8 +1781,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">28</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">28</container>
                     <unittitle id="link187">Some Problems of Adult Learning in the Work
                         Environment</unittitle>
                     <unitdate normal="1966">1966</unitdate>
@@ -1787,8 +1793,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">29</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">29</container>
                     <unittitle id="link188">Chapter 1: Supervision or Leadership?</unittitle>
                     <unitdate normal="1964">1964</unitdate>
                 </did>
@@ -1799,16 +1805,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">30</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">30</container>
                     <unittitle id="link189">Supervisory Questionnaire</unittitle>
                     <unitdate normal="1957">1957</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">31</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">31</container>
                     <unittitle id="link190">Supervisory Training</unittitle>
                     <unitdate normal="1960">1960</unitdate>
                 </did>
@@ -1818,8 +1824,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">32</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">32</container>
                     <unittitle id="link191">Supervisory Training Survey, Department
                         Managers</unittitle>
                     <unitdate normal="1957">1957</unitdate>
@@ -1827,8 +1833,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">33</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">33</container>
                     <unittitle id="link192">Talking with your People: An Approach to Discussing a
                         Man's Strengths and Weaknesses</unittitle>
                     <unitdate normal="1958">1958</unitdate>
@@ -1836,8 +1842,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">34</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">34</container>
                     <unittitle id="link193">Team Job Training: A New Strategy for
                         Industry</unittitle>
                     <unitdate normal="1962">1962</unitdate>
@@ -1848,8 +1854,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">35</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">35</container>
                     <unittitle id="link194">Tests: Their Use and Misuse in Selection</unittitle>
                     <unitdate normal="1957">1957</unitdate>
                 </did>
@@ -1859,8 +1865,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">36</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">36</container>
                     <unittitle id="link195">Theory X: The Traditional View of Direction and
                         Control</unittitle>
                     <unitdate normal="1962">1962</unitdate>
@@ -1871,32 +1877,32 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">37</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">37</container>
                     <unittitle id="link196">Tips on Interviewing</unittitle>
                     <unitdate normal="1957">1957</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">38</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">38</container>
                     <unittitle id="link197">Tips for Troublesome Discussion Situations</unittitle>
                     <unitdate normal="1958">1958</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">39</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">39</container>
                     <unittitle id="link198">Training Needs of the New Engineer</unittitle>
                     <unitdate normal="1965">1965</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">40</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">40</container>
                     <unittitle id="link199">Policies and Procedures Governing Tuition Refund
                         Plan</unittitle>
                     <unitdate normal="1965">1965</unitdate>
@@ -1904,8 +1910,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">41</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">41</container>
                     <unittitle id="link200">Types of Temperamental Requirements Found in Various
                         Jobs</unittitle>
                     <unitdate normal="1957">1957</unitdate>
@@ -1913,24 +1919,24 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">42</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">42</container>
                     <unittitle id="link201">Esso Training Materials</unittitle>
-                    <unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate>
+                    <unitdate normal="1955/1957" type="inclusive">1955-1957</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">43</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">43</container>
                     <unittitle id="link202">General Electric Training Program</unittitle>
-                    <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>
+                    <unitdate normal="1956/1957" type="inclusive">1956-1957</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">44</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">44</container>
                     <unittitle id="link203">Training Manual for Working Group Leaders in Leadership
                         Techniques and Skills</unittitle>
                     <unitdate normal="1955">1955</unitdate>
@@ -1941,11 +1947,11 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">45</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">45</container>
                     <unittitle id="link204">Economic Training, Technical Bulletins Nos. 22 and
                         40</unittitle>
-                    <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>
+                    <unitdate normal="1956/1957" type="inclusive">1956-1957</unitdate>
                 </did>
                 <scopecontent>
                     <p>Office of Industrial Resources, International Cooperation Administration</p>
@@ -1953,40 +1959,40 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">46</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">46</container>
                     <unittitle id="link205">Goodyear Office Management Conferences</unittitle>
-                    <unitdate type="inclusive" normal="1953/1957">1953-1957</unitdate>
+                    <unitdate normal="1953/1957" type="inclusive">1953-1957</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">47</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">47</container>
                     <unittitle id="link206">Goodyear Factory Supervision Training</unittitle>
-                    <unitdate type="inclusive" normal="1954/1956">1954-1956</unitdate>
+                    <unitdate normal="1954/1956" type="inclusive">1954-1956</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">48</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">48</container>
                     <unittitle id="link207">Goodyear Supervision Training</unittitle>
-                    <unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate>
+                    <unitdate normal="1952/1954" type="inclusive">1952-1954</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">49</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">49</container>
                     <unittitle id="link208">Supervision Training Conferences</unittitle>
-                    <unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>
+                    <unitdate normal="1956/1957" type="inclusive">1956-1957</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">50</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">50</container>
                     <unittitle id="link209">Linde Air Products Company</unittitle>
                     <unitdate normal="1957">1957</unitdate>
                 </did>
@@ -1996,33 +2002,33 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">51</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">51</container>
                     <unittitle id="link210">The Port of New York Authority</unittitle>
                     <unitdate normal="1945">1945</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">52</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">52</container>
                     <unittitle id="link211">Public Service Electric and Gas Company</unittitle>
-                    <unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate>
+                    <unitdate normal="1955/1957" type="inclusive">1955-1957</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">53</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">53</container>
                     <unittitle id="link212">The Seamen's Bank for Saving</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">54</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">54</container>
                     <unittitle id="link213">Sinclair Oil Corporation</unittitle>
-                    <unitdate type="inclusive" normal="1946/1957">1946-1957</unitdate>
+                    <unitdate normal="1946/1957" type="inclusive">1946-1957</unitdate>
                 </did>
             </c01>
         </dsc>

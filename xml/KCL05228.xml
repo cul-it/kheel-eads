@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05228::Charles Uhlinger Papers.)//EN">KCL05228</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05228::Charles Uhlinger Papers.)//EN">KCL05228</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Charles Uhlinger Papers<date> 1912-1955</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>February 21, 2017</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Charles Uhlinger Papers<lb/></titleproper>
+			<titleproper>Guide to the Charles Uhlinger Papers</titleproper>
 			<num>Collection Number: 5228</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,14 +54,14 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Charles Uhlinger Papers, <unitdate encodinganalog="MARC 245$f">1912-1955</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Charles Uhlinger Papers, 1912-1955
+			</unittitle><unitdate encodinganalog="MARC 245$f">1912-1955</unitdate>
 			<unitid label="Collection Number:">5228</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">Uhlinger, Charles</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">3 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">3 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Records (documents).</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">Papers on the maritime industry collected by Mr. Uhlinger in preparing his doctor's thesis, The Wages of American Seamen 1934-1952.</abstract>
@@ -63,7 +69,7 @@
 			</langmaterial>
 		<physdesc><extent>3 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+			
 			<p>Charles W. Uhlinger received his B.A. from Hofstra College in 1941 and a B.S. from the United States Merchant Marine Academy in 19^. He received his M.A. from Columbia University in 1948 and in 1956 he was awarded the Ph. D. from Fordham
 				University. </p>
 			<p>This collection consists of papers on the maritime industry collected by Mr. Uhlinger in preparing his doctor's thesis, The Wages of American Seamen 1939- 1952. Mr. Uhlinger was well qualified to write in this area as he had served aboard
@@ -71,14 +77,14 @@
 			<p>served on the faculty of the New York State University Maritime College.</p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a3">COLLECTION DESCRIPTION</head>
+			
 			<p>This collection consists of papers on the maritime industry collected by Mr. Uhlinger in preparing his doctor's thesis, The Wages of American Seamen 1934- 1952. </p>
 			<p>The collection is organized along the lines of Mr. Uhlinger's thesis as far as possible. The School has a copy of the thesis on microfilm which is shelved with the cataloged microfilm, No. 229.</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Axtell, Silas Blake, 1885- </persname>
 				<persname encodinganalog="MARC 600">Curran, Joseph Edwin, d 1906-1981 </persname>
 				<persname encodinganalog="MARC 600">Uhlinger, Charles </persname>
@@ -99,7 +105,7 @@
 				<corpname encodinganalog="MARC 610">United States. President's Advisory Committee on the Merchant Marine. </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Transport workers -- United States </subject>
 				<subject encodinganalog="MARC 650">Wages -- Transport workers -- United States </subject>
 				<subject encodinganalog="MARC 650">Transport workers -- Labor unions -- United States </subject>
@@ -114,52 +120,52 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Charles Uhlinger Papers #5228. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<arrangement>
-			<head>SERIES LIST</head>
+			
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link8" show="replace" actuate="onrequest">Series Section 1</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link8">Series Section 1</ref></emph>
 			</p>
 			<p>
-				<ref linktype="simple" target="link9" show="replace" actuate="onrequest">Sub-Series Part 1</ref>
-				<lb/>
-				<ref linktype="simple" target="link41" show="replace" actuate="onrequest">Sub-Series Part 2</ref>
+				<ref actuate="onrequest" linktype="simple" show="replace" target="link9">Sub-Series Part 1</ref>
+				
+				<ref actuate="onrequest" linktype="simple" show="replace" target="link41">Sub-Series Part 2</ref>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link62" show="replace" actuate="onrequest">Series Section 2</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link62">Series Section 2</ref></emph>
 			</p>
 			<p>
-				<ref linktype="simple" target="link63" show="replace" actuate="onrequest">Sub-Series Part 1</ref>
-				<lb/>
-				<ref linktype="simple" target="link80" show="replace" actuate="onrequest">Sub-Series Part 2</ref>
-				<lb/>
-				<ref linktype="simple" target="link85" show="replace" actuate="onrequest">Sub-Series Part 3</ref>
-				<lb/>
-				<ref linktype="simple" target="link91" show="replace" actuate="onrequest">Sub-Series Part 4</ref>
-				<lb/>
-				<ref linktype="simple" target="link104" show="replace" actuate="onrequest">Sub-Series Part 5</ref>
-				<lb/>
-				<ref linktype="simple" target="link114" show="replace" actuate="onrequest">Sub-Series Part 6</ref>
+				<ref actuate="onrequest" linktype="simple" show="replace" target="link63">Sub-Series Part 1</ref>
+				
+				<ref actuate="onrequest" linktype="simple" show="replace" target="link80">Sub-Series Part 2</ref>
+				
+				<ref actuate="onrequest" linktype="simple" show="replace" target="link85">Sub-Series Part 3</ref>
+				
+				<ref actuate="onrequest" linktype="simple" show="replace" target="link91">Sub-Series Part 4</ref>
+				
+				<ref actuate="onrequest" linktype="simple" show="replace" target="link104">Sub-Series Part 5</ref>
+				
+				<ref actuate="onrequest" linktype="simple" show="replace" target="link114">Sub-Series Part 6</ref>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link123" show="replace" actuate="onrequest">Series Section 3</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link123">Series Section 3</ref></emph>
 			</p>
 		</arrangement>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="series">
 				<did>
 					<unittitle id="link8">Series Section 1</unittitle>
@@ -170,231 +176,231 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">1</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">1</container>
 							<unittitle id="link10">Marine Labor History </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">2</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">2</container>
 							<unittitle id="link11">Bibliography: Transportation </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">3</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">3</container>
 							<unittitle id="link12">Bibliography: Water Transportation </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">4</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">4</container>
 							<unittitle id="link13">Coastwise and Intercoastal Shipping: Economic Importance of </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">5</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">5</container>
 							<unittitle id="link14">Coastwise and Intercoastal Shipping: Economic Survey of </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">6</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">6</container>
 							<unittitle id="link15">Coastwise and Intercoastal Shipping: San Francisco Bay Ports Area</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">7</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">7</container>
 							<unittitle id="link16">Glossary of Shipping Terms</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">8</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">8</container>
 							<unittitle id="link17">Great Lakes Shipping: St. Lawrence Seaway </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">9</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">9</container>
 							<unittitle id="link18">Great Lakes Shipping: Survey of</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">10</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">10</container>
 							<unittitle id="link19">Job Descriptions</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">11</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">11</container>
 							<unittitle id="link20">Manning: Normal Manning Practices </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">12</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">12</container>
 							<unittitle id="link21">Manning: Ships and Manning Scales</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">13</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">13</container>
 							<unittitle id="link22">Manpower Requirements and Labor Supply</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">14</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">14</container>
 							<unittitle id="link23">Merchant Marine: Attainable National Objectives for </unittitle>
 							<unitdate normal="1953">1953</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">15</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">15</container>
 							<unittitle id="link24">Merchant Marine: Economic Survey of </unittitle>
 							<unitdate normal="1937">1937</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">16</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">16</container>
 							<unittitle id="link25">Merchant Marine: History and Function Policies, Practices, &amp; Problems </unittitle>
 							<unitdate normal="1955">1955</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">17</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">17</container>
 							<unittitle id="link26">Merchant Marine: Postwar Outlook </unittitle>
 							<unitdate normal="1946">1946</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">18</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">18</container>
 							<unittitle id="link27">Merchant Marine: Problems &amp; Policies </unittitle>
-							<unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate>
+							<unitdate normal="1952/1954" type="inclusive">1952-1954</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">19</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">19</container>
 							<unittitle id="link28">Merchant Marine: Report of Presidents Advisory Committee </unittitle>
 							<unitdate normal="1947">1947</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">20</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">20</container>
 							<unittitle id="link29">Merchant Marine: Restoration of American Shipping </unittitle>
 							<unitdate normal="1947">1947</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">21</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">21</container>
 							<unittitle id="link30">Merchant Marine: Size, Composition, and Quality Survey </unittitle>
 							<unitdate normal="1952">1952</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">22</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">22</container>
 							<unittitle id="link31">Merchant Marine: Military Jurisdiction over Merchant Seamen</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">23</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">23</container>
 							<unittitle id="link32">Overseas Trade, Participation of American Ships: </unittitle>
-							<unitdate type="inclusive" normal="1912/1951">1912-1951</unitdate>
+							<unitdate normal="1912/1951" type="inclusive">1912-1951</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">24</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">24</container>
 							<unittitle id="link33">Seamen: Andrew Furuseth </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">25</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">25</container>
 							<unittitle id="link34">Seamen: Training and Education</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">26</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">26</container>
 							<unittitle id="link35">Tanker Fleet: U.S. Tanker Fleet Survey</unittitle>
 							<unitdate normal="1954">1954</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">27</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">27</container>
 							<unittitle id="link36">Tanker Fleet: World Tanker Fleet Review</unittitle>
 							<unitdate normal="1953">1953</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">28</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">28</container>
 							<unittitle id="link37">Tramp Shipping, Its Value, Need and Cost</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">29</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">29</container>
 							<unittitle id="link38">Working Conditions</unittitle>
 							<unitdate normal="1937">1937</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">30</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">30</container>
 							<unittitle id="link39">Working Conditions: River Towboats </unittitle>
 							<unitdate normal="1937">1937</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">31</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">31</container>
 							<unittitle id="link40">Working Conditions: Shipyards </unittitle>
 							<unitdate normal="1945">1945</unitdate>
 						</did>
@@ -406,67 +412,67 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">32</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">32</container>
 							<unittitle id="link42">Federal Transportation Program, Issues Involved</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">33</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">33</container>
 							<unittitle id="link43">Government Aid: Foreign and U.S. </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">34</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">34</container>
 							<unittitle id="link44">Government Aid: Present Shipping Policy</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">35</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">35</container>
 							<unittitle id="link45">Government Subsidies: Congressional Hearings </unittitle>
 							<unitdate normal="1950">1950</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">36</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">36</container>
 							<unittitle id="link46">Government Subsidies: Analysis of Construction and Operating Subsidies </unittitle>
 							<unitdate normal="1953">1953</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">37</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">37</container>
 							<unittitle id="link47">Government Subsidies: Effects of Devaluation of Foreign Money </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">38</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">38</container>
 							<unittitle id="link48">Government Subsidies: Financial Data </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">39</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">39</container>
 							<unittitle id="link49">Government Subsidies: Maritime Subsidy Policy </unittitle>
 							<unitdate normal="1954">1954</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">40</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">40</container>
 							<unittitle id="link50">Government Subsidies</unittitle>
 						</did>
 						<scopecontent>
@@ -475,81 +481,81 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">41</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">41</container>
 							<unittitle id="link51">Government Subsidies: Operating Differential Contracts </unittitle>
 							<unitdate normal="1950">1950</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">42</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">42</container>
 							<unittitle id="link52">Interterritorial Freight Rates, 1943 Reports</unittitle>
 							<unitdate normal="1943">1943</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">43</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">43</container>
 							<unittitle id="link53">Marine Legislation, Bills to Amend</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">44</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">44</container>
 							<unittitle id="link54">Maritime Industry, Tax Deferment and Tax Exemption Benefits</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">45</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">45</container>
 							<unittitle id="link55">Merchant Fleet Protection, Tanker Fleet</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">46</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">46</container>
 							<unittitle id="link56">Merchant Marine Act of 1936, Proposals to Amend</unittitle>
 							<unitdate normal="1936">1936</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">47</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">47</container>
 							<unittitle id="link57">Merchant Marine Development &amp; Regulation in the U.S. History</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">48</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">48</container>
 							<unittitle id="link58">Parity Principle</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">49</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">49</container>
 							<unittitle id="link59">Rules &amp; Regulations: Cargo and Miscellaneous Vessels </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">50</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">50</container>
 							<unittitle id="link60">Rules &amp; Regulations: Tank Vessels</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">51</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">51</container>
 							<unittitle id="link61">U.S. Maritime Commission </unittitle>
 						</did>
 					</c03>
@@ -565,113 +571,113 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">52</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">52</container>
 							<unittitle id="link64">Arbitration: National War Labor Board </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">53</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">53</container>
 							<unittitle id="link65">Arbitration: Private </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="folder">54</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="folder">54</container>
 							<unittitle id="link66">Arbitration: U.S. Department of Labor </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">1</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">1</container>
 							<unittitle id="link67">Arbitration: War Shipping Panel</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">2</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">2</container>
 							<unittitle id="link68">Collective Agreement: NMU </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">3</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">3</container>
 							<unittitle id="link69">Collective Agreement: Dispute </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">4</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">4</container>
 							<unittitle id="link70">Collective Agreements </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">5</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">5</container>
 							<unittitle id="link71">Collective Bargaining: On Government Operated Vessels </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">6</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">6</container>
 							<unittitle id="link72">Collective Bargaining: During World War II </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">7</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">7</container>
 							<unittitle id="link73">Collective Bargaining: Session </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">8</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">8</container>
 							<unittitle id="link74">Collective Bargaining: Table of Maritime Agreements</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">9</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">9</container>
 							<unittitle id="link75">Labor-Management Relations: East Coast Oil Tanker Industry </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">10</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">10</container>
 							<unittitle id="link76">Labor-Management Relations: Subsidization of Seamen's Wages </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">11</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">11</container>
 							<unittitle id="link77">Labor-Management Relations: West Coast Maritime Industry</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">12</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">12</container>
 							<unittitle id="link78">Strikes &amp; Work Stoppages, West Coast Maritime Industry</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">13</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">13</container>
 							<unittitle id="link79">Wage Increases, Graphs</unittitle>
 						</did>
 					</c03>
@@ -682,30 +688,30 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">14</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">14</container>
 							<unittitle id="link81">Monthly Wage Rates </unittitle>
-							<unitdate type="inclusive" normal="1932/1952">1932-1952</unitdate>
+							<unitdate normal="1932/1952" type="inclusive">1932-1952</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">15</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">15</container>
 							<unittitle id="link82">Monthly Wage Rates: Base Wage Tables </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">16</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">16</container>
 							<unittitle id="link83">Monthly Wage Rates: East Coast Dry Cargo</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">17</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">17</container>
 							<unittitle id="link84">Monthly Wage Rates: Hillcome Steamship Company</unittitle>
 						</did>
 					</c03>
@@ -716,36 +722,36 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">18</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">18</container>
 							<unittitle id="link86">Overtime Earnings: On U.S. Flag Merchant Ships </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">19</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">19</container>
 							<unittitle id="link87">Overtime Earnings: Overtime and Penalty Earnings </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">20</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">20</container>
 							<unittitle id="link88">Overtime Earnings: Under Pacific Coast Contracts</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">21</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">21</container>
 							<unittitle id="link89">Overtime Rates</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">22</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">22</container>
 							<unittitle id="link90">Working Schedules, Stewards Department</unittitle>
 						</did>
 					</c03>
@@ -756,85 +762,85 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">1</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">1</container>
 							<unittitle id="link92">Comparative Analysis: Earnings and Conditions of Work </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">2</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">2</container>
 							<unittitle id="link93">Comparative Analysis: Seamen's Wages Relative to the Standard of Living of Their Respective Nations</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">3</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">3</container>
 							<unittitle id="link94">Comparative Wage Data</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">4</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">4</container>
 							<unittitle id="link95">Foreign - U.S. Wage Comparison</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">5</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">5</container>
 							<unittitle id="link96">Foreign Wages and Earnings</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">6</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">6</container>
 							<unittitle id="link97">Railway Wage and Earning Data</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">7</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">7</container>
 							<unittitle id="link98">Seamen's Earnings: General</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">8</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">8</container>
 							<unittitle id="link99">Seamen's Earnings: Average Monthly, Deep Sea</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">9</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">9</container>
 							<unittitle id="link100">Seamen's Earnings: Guaranteed Annual Wages</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">10</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">10</container>
 							<unittitle id="link101">Seamen's Earnings: Longshore</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">11</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">11</container>
 							<unittitle id="link102">Seamen's Earnings: Tanker Fleet</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">12</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">12</container>
 							<unittitle id="link103">Seamen's Earnings: Under Pacific Coast Contracts</unittitle>
 						</did>
 					</c03>
@@ -845,65 +851,65 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">13</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">13</container>
 							<unittitle id="link105">Exclusive Compensation Act </unittitle>
 							<unitdate normal="1920">1920</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">14</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">14</container>
 							<unittitle id="link106">Pension Plans, Negotiated</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">15</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">15</container>
 							<unittitle id="link107">Pension and Welfare Plans, Combined</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">16</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">16</container>
 							<unittitle id="link108">Safety</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">17</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">17</container>
 							<unittitle id="link109">Unemployment Insurance </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">18</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">18</container>
 							<unittitle id="link110">Vacation Plans, Negotiated</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">19</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">19</container>
 							<unittitle id="link111">Welfare Plans: Student Reports</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">20</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">20</container>
 							<unittitle id="link112">Welfare Plans: Negotiated</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">21</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">21</container>
 							<unittitle id="link113">Workmen's Compensation and the Protection of Seamen</unittitle>
 						</did>
 					</c03>
@@ -914,57 +920,57 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">22</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">22</container>
 							<unittitle id="link115">Feeding Costs</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">23</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">23</container>
 							<unittitle id="link116">Fixed and Variable Costs</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">24</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">24</container>
 							<unittitle id="link117">Labor Costs: General</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">25</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">25</container>
 							<unittitle id="link118">Labor Costs: Longshore </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">26</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">26</container>
 							<unittitle id="link119">Labor Costs: Overtime Work Items </unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">27</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">27</container>
 							<unittitle id="link120">Labor Costs: Under Pacific Coast Contracts</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">28</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">28</container>
 							<unittitle id="link121">Operating Costs</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">3</container>
-							<container type="folder">29</container>
+							<container label="unspecified" type="box">3</container>
+							<container label="unspecified" type="folder">29</container>
 							<unittitle id="link122">Regulations Prescribing Method of Determining Profit</unittitle>
 						</did>
 					</c03>
@@ -976,8 +982,8 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">30</container>
 						<unittitle id="link124">Bibliography on index cards</unittitle>
 					</did>
 				</c02>

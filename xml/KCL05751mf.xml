@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05751mf::Papers of the President's Mediation Commission on Microfilm.)//EN">KCL05751mf</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05751mf::Papers of the President's Mediation Commission on Microfilm.)//EN">KCL05751mf</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the Papers of the President's Mediation Commission on
@@ -25,21 +25,27 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>April 02,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
             <titleproper>Guide to the Papers of the President's Mediation Commission on
-                Microfilm<lb/></titleproper>
+                Microfilm</titleproper>
             <num>Collection Number: 5751 mf</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -58,16 +64,16 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">Papers of the President's
-                Mediation Commission on Microfilm, <unitdate encodinganalog="MARC 245$f">1917-1919</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">Papers of the President's
+                Mediation Commission on Microfilm, 1917-1919
+            </unittitle><unitdate encodinganalog="MARC 245$f">1917-1919</unitdate>
             <unitid label="Collection Number:">5751 mf</unitid>
             <origination label="Creator:">
                 <corpname encodinganalog="MARC 110" role="creator">President's Mediation
                     Commission</corpname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">3 microfilm reels</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">3 microfilm reels</physdesc>
             <physdesc label="Forms of Material:">Microfilm, records (documents) .</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -81,7 +87,7 @@
             </langmaterial>
         <physdesc><extent>0.33 cubic feet</extent></physdesc></did>
         <bioghist encodinganalog="MARC 545">
-            <head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+            
             <p>The President's Mediation Commission represented a partial federal response to two
                 vital aspects of wartime labor policy: 1) the spreading wave of strikes which
                 interfered with the production of goods deemed vital to the war effort, and 2) the
@@ -122,7 +128,7 @@
                 special bulletin by the Department of Labor.</p>
         </bioghist>
         <scopecontent encodinganalog="MARC 520">
-            <head id="a3">COLLECTION DESCRIPTION</head>
+            
             <p>Included are all of the Commission's records housed in the National Archives; these
                 are, however, incomplete and officially described as fragmentary. This collection
                 consists mainly of testimony of witnesses before the Commission in hearings held in
@@ -136,9 +142,9 @@
                 well as legislation and union relations with law enforcement agencies.</p>
         </scopecontent>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <persname encodinganalog="MARC 600">Boehm, Randolph. </persname>
                 <persname encodinganalog="MARC 600">Dubofsky, Melvyn, 1934- </persname>
                 <corpname encodinganalog="MARC 610">Industrial Workers of the World. </corpname>
@@ -146,7 +152,7 @@
                 </corpname>
             </controlaccess>
             <controlaccess>
-                <head>Subjects: </head>
+                
                 <subject encodinganalog="MARC 650">Anarchism, United States. </subject>
                 <subject encodinganalog="MARC 650">Anarchists, United States. </subject>
                 <subject encodinganalog="MARC 650">Deportation, United States. </subject>
@@ -172,120 +178,120 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>Papers of the President's Mediation Commission on Microfilm #5751 mf. Kheel
                     Center for Labor-Management Documentation and Archives, Cornell University
                     Library.</p>
             </prefercite>
         </descgrp>
         <arrangement>
-            <head>SERIES LIST</head>
+            
             <p>
-                <emph render="bold"><ref linktype="simple" target="link8" show="replace" actuate="onrequest">Series Sessions at Globe, Arizona, 1914</ref></emph>
+                <emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link8">Series Sessions at Globe, Arizona, 1914</ref></emph>
             </p>
             <p>
-                <ref linktype="simple" target="link9" show="replace" actuate="onrequest">Sub-Series
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link9">Sub-Series
                     Introduction, 1915</ref>
-                <lb/>
-                <ref linktype="simple" target="link12" show="replace" actuate="onrequest">Sub-Series
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link12">Sub-Series
                     Witnesses Appearing before the Commission on behalf of Striking Miners,
                     1917</ref>
-                <lb/>
-                <ref linktype="simple" target="link16" show="replace" actuate="onrequest">Sub-Series
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link16">Sub-Series
                     Witnesses Appearing before the Commission on behalf of Men Working during the
                     Strike, 1917</ref>
-                <lb/>
-                <ref linktype="simple" target="link23" show="replace" actuate="onrequest">Sub-Series
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link23">Sub-Series
                     Witnesses Appearing before the Commission on behalf of Different Crafts' Union,
                     1917</ref>
-                <lb/>
-                <ref linktype="simple" target="link48" show="replace" actuate="onrequest">Sub-Series
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link48">Sub-Series
                     Mine Managers' Presentation, 1917</ref>
-                <lb/>
-                <ref linktype="simple" target="link51" show="replace" actuate="onrequest">Sub-Series
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link51">Sub-Series
                     Committee Representing Businessmen of Globe, Arizona, 1917</ref>
-                <lb/>
-                <ref linktype="simple" target="link57" show="replace" actuate="onrequest">Sub-Series
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link57">Sub-Series
                     Committee Representing Businessmen of Globe, not Members of the Loyalty League,
                     1917</ref>
             </p>
             <p>
-                <emph render="bold"><ref linktype="simple" target="link64" show="replace" actuate="onrequest">Series Sessions at Clifton, Arizona, 1917</ref></emph>
+                <emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link64">Series Sessions at Clifton, Arizona, 1917</ref></emph>
             </p>
             <p>
-                <ref linktype="simple" target="link65" show="replace" actuate="onrequest">Sub-Series
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link65">Sub-Series
                     Introduction, 1917</ref>
-                <lb/>
-                <ref linktype="simple" target="link69" show="replace" actuate="onrequest">Sub-Series
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link69">Sub-Series
                     Miners' Representatives, 1917</ref>
-                <lb/>
-                <ref linktype="simple" target="link78" show="replace" actuate="onrequest">Sub-Series
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link78">Sub-Series
                     Mine Managers and Representatives, 1917</ref>
-                <lb/>
-                <ref linktype="simple" target="link85" show="replace" actuate="onrequest">Sub-Series
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link85">Sub-Series
                     Shift Bosses, 1917</ref>
-                <lb/>
-                <ref linktype="simple" target="link89" show="replace" actuate="onrequest">Sub-Series
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link89">Sub-Series
                     Citizens, 1917</ref>
-                <lb/>
-                <ref linktype="simple" target="link94" show="replace" actuate="onrequest">Sub-Series
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link94">Sub-Series
                     Railroad Employees, 1917</ref>
             </p>
             <p>
-                <emph render="bold"><ref linktype="simple" target="link99" show="replace" actuate="onrequest">Series Sessions at Bisbee, Arizona, 1917</ref></emph>
+                <emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link99">Series Sessions at Bisbee, Arizona, 1917</ref></emph>
             </p>
             <p>
-                <ref linktype="simple" target="link100" show="replace" actuate="onrequest">Sub-Series Introduction, 1917</ref>
-                <lb/>
-                <ref linktype="simple" target="link103" show="replace" actuate="onrequest">Sub-Series Witnesses Appearing before the Commission, 1917</ref>
-                <lb/>
-                <ref linktype="simple" target="link118" show="replace" actuate="onrequest">Sub-Series Committee from Warren District Commercial Club and Citizens
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link100">Sub-Series Introduction, 1917</ref>
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link103">Sub-Series Witnesses Appearing before the Commission, 1917</ref>
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link118">Sub-Series Committee from Warren District Commercial Club and Citizens
                     Protective League, 1917</ref>
             </p>
             <p>
-                <emph render="bold"><ref linktype="simple" target="link120" show="replace" actuate="onrequest">Series Sessions at Bisbee, Arizona (continued),
+                <emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link120">Series Sessions at Bisbee, Arizona (continued),
                         1917</ref></emph>
             </p>
             <p>
-                <ref linktype="simple" target="link121" show="replace" actuate="onrequest">Sub-Series Witness Appearing before the Commission, 1917</ref>
-                <lb/>
-                <ref linktype="simple" target="link123" show="replace" actuate="onrequest">Sub-Series Mine Managers' Statements, 1917</ref>
-                <lb/>
-                <ref linktype="simple" target="link133" show="replace" actuate="onrequest">Sub-Series Employees' Committee of Copper Queen Consolidated Mining Company,
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link121">Sub-Series Witness Appearing before the Commission, 1917</ref>
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link123">Sub-Series Mine Managers' Statements, 1917</ref>
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link133">Sub-Series Employees' Committee of Copper Queen Consolidated Mining Company,
                     1917</ref>
-                <lb/>
-                <ref linktype="simple" target="link140" show="replace" actuate="onrequest">Sub-Series Witness Appearing before the Commission, 1917</ref>
-                <lb/>
-                <ref linktype="simple" target="link142" show="replace" actuate="onrequest">Sub-Series Mine Managers' Statements, 1917</ref>
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link140">Sub-Series Witness Appearing before the Commission, 1917</ref>
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link142">Sub-Series Mine Managers' Statements, 1917</ref>
             </p>
             <p>
-                <emph render="bold"><ref linktype="simple" target="link147" show="replace" actuate="onrequest">Series Sessions at Salt Lake City, Utah,
+                <emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link147">Series Sessions at Salt Lake City, Utah,
                     1918</ref></emph>
             </p>
             <p>
-                <ref linktype="simple" target="link148" show="replace" actuate="onrequest">Sub-Series Introduction, 1918</ref>
-                <lb/>
-                <ref linktype="simple" target="link151" show="replace" actuate="onrequest">Sub-Series State Industrial Commission of Utah Testimony, 1918</ref>
-                <lb/>
-                <ref linktype="simple" target="link157" show="replace" actuate="onrequest">Sub-Series Testimony of Labor Representatives, 1918</ref>
-                <lb/>
-                <ref linktype="simple" target="link172" show="replace" actuate="onrequest">Sub-Series Correspondence and General Materials, 1917-1918</ref>
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link148">Sub-Series Introduction, 1918</ref>
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link151">Sub-Series State Industrial Commission of Utah Testimony, 1918</ref>
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link157">Sub-Series Testimony of Labor Representatives, 1918</ref>
+                
+                <ref actuate="onrequest" linktype="simple" show="replace" target="link172">Sub-Series Correspondence and General Materials, 1917-1918</ref>
             </p>
         </arrangement>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="series">
                 <did>
                     <unittitle id="link8">Series Sessions at Globe, Arizona, 1914</unittitle>
@@ -299,7 +305,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">1</unitid>
                             <unittitle id="link10">Title Page</unittitle>
                             <unitdate normal="1916">1916</unitdate>
@@ -310,7 +316,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">2</unitid>
                             <unittitle id="link11">Table of Contents</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -327,7 +333,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">3</unitid>
                             <unittitle id="link13">J. F. Smith, Miner</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -338,7 +344,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">4</unitid>
                             <unittitle id="link14">Joseph D. Cannon, Organizer, International Union
                                 of Mine, Mill and Smelter Workers (IUMM and SW).</unittitle>
@@ -350,7 +356,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">5</unitid>
                             <unittitle id="link15">Charles H. Moyer, President, IUMM and
                                 SW.</unittitle>
@@ -368,7 +374,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">6</unitid>
                             <unittitle id="link17">W. B. Nash, Chairman, Board of
                                 Supervisors</unittitle>
@@ -380,7 +386,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">7</unitid>
                             <unittitle id="link18">Victor M. Kelly, Miner</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -391,7 +397,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">8</unitid>
                             <unittitle id="link19">S. J. Harlan, Miner</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -402,7 +408,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">9</unitid>
                             <unittitle id="link20">D. D. Woodruff, Miner</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -413,7 +419,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">10</unitid>
                             <unittitle id="link21">H. A. Clark, Miner.</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -424,7 +430,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">11</unitid>
                             <unittitle id="link22">A. C. Belcher, Miner</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -441,7 +447,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">12</unitid>
                             <unittitle id="link24">E. D. Harrington, Chairman of the Committee of
                                 Allied Crafts.</unittitle>
@@ -453,7 +459,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">13</unitid>
                             <unittitle id="link25">Speech of Joseph D. Cannon, Union Organizer,
                                 before Citizens of Globe-Miami District, Speaking on Labor
@@ -466,7 +472,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">14</unitid>
                             <unittitle id="link26">M. Kennedy, Miner.</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -477,7 +483,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">15</unitid>
                             <unittitle id="link27">H. S. Blackman, Miner</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -488,7 +494,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">16</unitid>
                             <unittitle id="link28">D. D. Woodruff, Miner, Recalled</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -499,7 +505,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">17</unitid>
                             <unittitle id="link29">George Graham, Miner</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -510,7 +516,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">18</unitid>
                             <unittitle id="link30">P. G. Lloyd, Miner</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -521,7 +527,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">19</unitid>
                             <unittitle id="link31">Alex Graydon, Miner</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -532,7 +538,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">20</unitid>
                             <unittitle id="link32">William Penrose, Miner</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -543,7 +549,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">21</unitid>
                             <unittitle id="link33">W. A. King, Miner</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -554,7 +560,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">22</unitid>
                             <unittitle id="link34">John Harper, Deputy District Mining
                                 Inspector.</unittitle>
@@ -566,7 +572,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">23</unitid>
                             <unittitle id="link35">E. D. Harrington, Chairman of the Committee of
                                 Allied Crafts, Recalled.</unittitle>
@@ -578,7 +584,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">24</unitid>
                             <unittitle id="link36">George H. Williams, Mine Engineer.</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -589,7 +595,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">25</unitid>
                             <unittitle id="link37">J. Tom Lewis, Fireman.</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -600,7 +606,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">26</unitid>
                             <unittitle id="link38">A. E. Denton, Motorman.</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -611,7 +617,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">27</unitid>
                             <unittitle id="link39">F. L. Perry, President, Electrical Workers'
                                 Union.</unittitle>
@@ -623,7 +629,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">28</unitid>
                             <unittitle id="link40">P. C. Renaud, Miner,</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -634,7 +640,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">29</unitid>
                             <unittitle id="link41">Martin Busnek, Miner</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -645,7 +651,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">30</unitid>
                             <unittitle id="link42">Jim Bowie, Miner</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -656,7 +662,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">31</unitid>
                             <unittitle id="link43">Walter Self, Miner</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -667,7 +673,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">32</unitid>
                             <unittitle id="link44">A. C. Leach, Carpenter</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -678,7 +684,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">33</unitid>
                             <unittitle id="link45">Fred Montgomery, Foreman</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -689,7 +695,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">34</unitid>
                             <unittitle id="link46">Mr. Peraty, Boilermaker</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -700,7 +706,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">35</unitid>
                             <unittitle id="link47">Thomas Russer, Smelter man.</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -717,7 +723,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">36</unitid>
                             <unittitle id="link49">Statement by Secretary of Labor, W. B.
                                 Wilson</unittitle>
@@ -729,7 +735,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">37</unitid>
                             <unittitle id="link50">Discussion between Managers and
                                 Commissioners,</unittitle>
@@ -747,7 +753,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">38</unitid>
                             <unittitle id="link52">Statement by Secretary of Labor, W. B.
                                 Wilson</unittitle>
@@ -759,7 +765,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">39</unitid>
                             <unittitle id="link53">Mr. McKillop, Lawyer</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -770,7 +776,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">40</unitid>
                             <unittitle id="link54">Mr. Geare, Businessman.</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -781,7 +787,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">41</unitid>
                             <unittitle id="link55">Discussion between Members of Committee and
                                 Commissioners.</unittitle>
@@ -793,7 +799,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">42</unitid>
                             <unittitle id="link56">George R. Hill, President, Loyalty
                                 League.</unittitle>
@@ -811,7 +817,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">43</unitid>
                             <unittitle id="link58">Harry Gordy, Store Owner</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -822,7 +828,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">44</unitid>
                             <unittitle id="link59">William Bendall, Grocer</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -833,7 +839,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">45</unitid>
                             <unittitle id="link60">H. R. Turner, Barber.</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -844,7 +850,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">46</unitid>
                             <unittitle id="link61">L. T. Gaine, Theatre Operator</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -855,7 +861,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">47</unitid>
                             <unittitle id="link62">G. A. Harbin, Secretary: Cooks and Waiters'
                                 Union.</unittitle>
@@ -867,7 +873,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">1</container>
+                            <container label="unspecified" type="reel">1</container>
                             <unitid label="Item ">48</unitid>
                             <unittitle id="link63">Stenographic Reporters' Certificate</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -891,7 +897,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">1</unitid>
                             <unittitle id="link66">Title Page</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -902,7 +908,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">2</unitid>
                             <unittitle id="link67">Table of Contents</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -913,7 +919,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">3</unitid>
                             <unittitle id="link68">Statement by Secretary of Labor, W. B.
                                 Wilson.</unittitle>
@@ -930,7 +936,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">4</unitid>
                             <unittitle id="link70">H. S. McClusky, Union Member, IUMM and
                                 SW.</unittitle>
@@ -942,7 +948,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">5</unitid>
                             <unittitle id="link71">J. A. Wellington, Miner.</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -953,7 +959,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">6</unitid>
                             <unittitle id="link72">S. A. Heath, Carpenter</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -964,7 +970,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">7</unitid>
                             <unittitle id="link73">C. R. Clifford, Machinist</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -975,7 +981,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">8</unitid>
                             <unittitle id="link74">P. M. Vargas, Boilermaker.</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -986,7 +992,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">9</unitid>
                             <unittitle id="link75">John Murray, Secretary, Pan-American Federation
                                 of Labor Conference Committee.</unittitle>
@@ -998,7 +1004,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">10</unitid>
                             <unittitle id="link76">C. J. Brooke, Store Department, Arizona Copper
                                 Company.</unittitle>
@@ -1010,7 +1016,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">11</unitid>
                             <unittitle id="link77">Charles H. Moyer, President, IUMM and
                                 SW.</unittitle>
@@ -1028,7 +1034,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">12</unitid>
                             <unittitle id="link79">Norman Carmichael, Arizona Copper
                                 Company.</unittitle>
@@ -1040,7 +1046,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">13</unitid>
                             <unittitle id="link80">J. W. Bennie, Shannon Copper Company.</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1051,7 +1057,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">14</unitid>
                             <unittitle id="link81">Milton McLean, Phelps Dodge
                                 Corporation.</unittitle>
@@ -1063,7 +1069,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">15</unitid>
                             <unittitle id="link82">E. W. Lewis, judge.</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1074,7 +1080,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">16</unitid>
                             <unittitle id="link83">P. B. [P. G. ] Scotland, Arizona, Copper
                                 Company.</unittitle>
@@ -1086,7 +1092,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">17</unitid>
                             <unittitle id="link84">John Christy, Mine Owner.</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1102,7 +1108,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">18</unitid>
                             <unittitle id="link86">H. P. Hill, Foreman, Humboldt Mine, Arizona
                                 Copper Company</unittitle>
@@ -1114,7 +1120,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">19</unitid>
                             <unittitle id="link87">George Miller, Machine Foreman, Arizona Copper
                                 Company</unittitle>
@@ -1126,7 +1132,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">20</unitid>
                             <unittitle id="link88">Lee Lawhead, Standard Property, Phelps Dodge
                                 Corporation.</unittitle>
@@ -1143,7 +1149,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">21</unitid>
                             <unittitle id="link90">J. Y. Ainsa, Mexican-American.</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1154,7 +1160,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">22</unitid>
                             <unittitle id="link91">W. B. Kelly, Businessman.</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1165,7 +1171,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">23</unitid>
                             <unittitle id="link92">J. F. Gaines, Craftsman</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1176,7 +1182,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">24</unitid>
                             <unittitle id="link93">J. F. Nichols, Mine Operator.</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1192,7 +1198,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">25</unitid>
                             <unittitle id="link95">Ross Thomas, Enginemen's Representative, Arizona
                                 and New Mexico Railroad Company and the Coronado Railway</unittitle>
@@ -1204,7 +1210,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">26</unitid>
                             <unittitle id="link96">W. H. Moses, Enginemen's Representative, Arizona
                                 and New Mexico Railroad Company and the Coronado Railway</unittitle>
@@ -1216,7 +1222,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">27</unitid>
                             <unittitle id="link97">J. M. Cline, Enginemen's Representative, Arizona
                                 and New Mexico Railroad Company and the Coronado Railway
@@ -1229,7 +1235,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">28</unitid>
                             <unittitle id="link98">Stenographic Reporter's Certificate</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1253,7 +1259,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">29</unitid>
                             <unittitle id="link101">Title Page</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1264,7 +1270,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">30</unitid>
                             <unittitle id="link102">Table of Contents</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1281,7 +1287,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">31</unitid>
                             <unittitle id="link104">George E. Kellogg, Manager of Telephone
                                 Company.</unittitle>
@@ -1293,7 +1299,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">32</unitid>
                             <unittitle id="link105">J. F. McDonald, Deputy U. S. Marshal</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1304,7 +1310,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">33</unitid>
                             <unittitle id="link106">Fred N. Brown, Union Organizer.</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1315,7 +1321,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">34</unitid>
                             <unittitle id="link107">Frank J. Vaughn, President, Painters'
                                 Union</unittitle>
@@ -1327,7 +1333,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">35</unitid>
                             <unittitle id="link108">Edward Massey, Deputy State Mine
                                 Inspector.</unittitle>
@@ -1339,7 +1345,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">36</unitid>
                             <unittitle id="link109">Frank A. Thomas, Police Court Judge.</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1350,7 +1356,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">37</unitid>
                             <unittitle id="link110">Thomas N. English, Deportee</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1361,7 +1367,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">38</unitid>
                             <unittitle id="link111">E. P. McCoy, President, Local Trades
                                 Assembly.</unittitle>
@@ -1373,7 +1379,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">39</unitid>
                             <unittitle id="link112">Charles Ward, Industrial Workers of the World
                                 (IWW), Deportee</unittitle>
@@ -1385,7 +1391,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">40</unitid>
                             <unittitle id="link113">John Glen Wilson,
                                 Carpenter-Contractor</unittitle>
@@ -1397,7 +1403,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">41</unitid>
                             <unittitle id="link114">Mrs. Rosa McKay, Legislator.</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1408,7 +1414,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">42</unitid>
                             <unittitle id="link115">Harry Wheeler, Sheriff, Cochise
                                 County.</unittitle>
@@ -1420,7 +1426,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">43</unitid>
                             <unittitle id="link116">M. W. Merrill, Miner, Member of the Loyalty
                                 League.</unittitle>
@@ -1432,7 +1438,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">44</unitid>
                             <unittitle id="link117">Basset T. Watkins, Deputy Sheriff and Shift
                                 Boss.</unittitle>
@@ -1450,7 +1456,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">2</container>
+                            <container label="unspecified" type="reel">2</container>
                             <unitid label="Item ">45</unitid>
                             <unittitle id="link119">J. C. Ryan, County Engineer and Deputy State
                                 Engineer, Chairman of Committee.</unittitle>
@@ -1478,7 +1484,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">1</unitid>
                             <unittitle id="link122">Walter E. Hawthorne, Photographer, Non-Union
                                 Deportee</unittitle>
@@ -1496,7 +1502,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">2</unitid>
                             <unittitle id="link124">G. H. Dowell, Copper Queen Branch Manager,
                                 Phelps Dodge Corporation</unittitle>
@@ -1508,7 +1514,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">3</unitid>
                             <unittitle id="link125">Notarized Depositions on Union
                                 Intimidation</unittitle>
@@ -1520,7 +1526,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">4</unitid>
                             <unittitle id="link126">Statement of Action, Local 106, IUMM and
                                 SW</unittitle>
@@ -1532,7 +1538,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">5</unitid>
                             <unittitle id="link127">Union Press Releases, July 11, 1917, IUMM and
                                 SW</unittitle>
@@ -1544,7 +1550,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">6</unitid>
                             <unittitle id="link128">G. H. Dowell, Copper Queen Branch Manager,
                                 Phelps Dodge Corporation</unittitle>
@@ -1556,7 +1562,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">7</unitid>
                             <unittitle id="link129">E. E. Ellinwood, Judge, Bisbee,
                                 Arizona</unittitle>
@@ -1568,7 +1574,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">8</unitid>
                             <unittitle id="link130">W. B. Gohring, Calumet and Arizona Mining
                                 Company</unittitle>
@@ -1580,7 +1586,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">9</unitid>
                             <unittitle id="link131">Arthur S. Houle, Shattuck-Arizona Copper
                                 Company</unittitle>
@@ -1592,7 +1598,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">10</unitid>
                             <unittitle id="link132">Ernest W. Lewis, Judge, Phoenix,
                                 Arizona</unittitle>
@@ -1610,7 +1616,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">11</unitid>
                             <unittitle id="link134">J. J. Harrington, Chairman of the
                                 Committee</unittitle>
@@ -1622,7 +1628,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">12</unitid>
                             <unittitle id="link135">I. H. Strickland, Member of
                                 Committee</unittitle>
@@ -1634,7 +1640,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">13</unitid>
                             <unittitle id="link136">C. F. Wagner, Member of Committee</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1645,7 +1651,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">14</unitid>
                             <unittitle id="link137">Roger Kennedy, Member of Committee</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1656,7 +1662,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">15</unitid>
                             <unittitle id="link138">Heber Taylor, Member of Committee</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1667,7 +1673,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">16</unitid>
                             <unittitle id="link139">Oscar Wynn, Member of Committee</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1684,7 +1690,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">17</unitid>
                             <unittitle id="link141">Antonio Rodriguez, Deportee</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1701,7 +1707,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">18</unitid>
                             <unittitle id="link143">G. H. Dowell, Copper Queen Branch Manager,
                                 Phelps Dodge Corporation</unittitle>
@@ -1713,7 +1719,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">19</unitid>
                             <unittitle id="link144">W. B. Gohring, Calumet and Arizona Mining
                                 Company</unittitle>
@@ -1725,7 +1731,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">20</unitid>
                             <unittitle id="link145">Harry Wheeler, Sheriff, Cochise
                                 County</unittitle>
@@ -1737,7 +1743,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">21</unitid>
                             <unittitle id="link146">Stenographic Reporters' Certificate</unittitle>
                             <unitdate normal="1917">1917</unitdate>
@@ -1762,7 +1768,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">22</unitid>
                             <unittitle id="link149">Title Page</unittitle>
                             <unitdate normal="1918">1918</unitdate>
@@ -1773,7 +1779,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">23</unitid>
                             <unittitle id="link150">Table of Contents</unittitle>
                             <unitdate normal="1918">1918</unitdate>
@@ -1790,7 +1796,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">24</unitid>
                             <unittitle id="link152">Commissioner Knerr: Utah Copper
                                 Company</unittitle>
@@ -1802,7 +1808,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">25</unitid>
                             <unittitle id="link153">Commissioner Thatcher: Garfield Smelting
                                 Company</unittitle>
@@ -1814,7 +1820,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">26</unitid>
                             <unittitle id="link154">Commissioner Knerr: Garfield Smelting
                                 Company</unittitle>
@@ -1826,7 +1832,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">27</unitid>
                             <unittitle id="link155">Commissioner Knerr: Utah-Idaho Central Railway
                                 Company</unittitle>
@@ -1838,7 +1844,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">28</unitid>
                             <unittitle id="link156">Commissioner Knerr: Ogden Packing and Provision
                                 Company</unittitle>
@@ -1856,7 +1862,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">29</unitid>
                             <unittitle id="link158">O. R. Henney, Labor Spokesman, Garfield Smelting
                                 Company</unittitle>
@@ -1868,7 +1874,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">30</unitid>
                             <unittitle id="link159">R. M. Spalding, Mill Employees' Spokesman, Utah
                                 Copper Company</unittitle>
@@ -1880,7 +1886,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">31</unitid>
                             <unittitle id="link160">W. N. Piggott, Secretary, Ogden Trades and Labor
                                 Assembly, Ogden Packing and Provision Company</unittitle>
@@ -1892,7 +1898,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">32</unitid>
                             <unittitle id="link161">Joseph Lee, Machinists' Union and F. S. Dunn,
                                 Boilermakers' Union, Labor Spokesmen, Utah Copper Company and
@@ -1905,7 +1911,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">33</unitid>
                             <unittitle id="link162">C. E. Woods and G. F. Lowery, Labor Spokesmen,
                                 Utah-Idaho Central Railway Company</unittitle>
@@ -1917,7 +1923,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">34</unitid>
                             <unittitle id="link163">Mr. Lewis, President and Mr. Lamont, Secretary,
                                 Utah Branch, American Federation of Labor</unittitle>
@@ -1929,7 +1935,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">35</unitid>
                             <unittitle id="link164">Ogden Packing and Provision Company--Discharged
                                 Employees</unittitle>
@@ -1941,7 +1947,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">36</unitid>
                             <unittitle id="link165">Charles Jay</unittitle>
                             <unitdate normal="1918">1918</unitdate>
@@ -1952,7 +1958,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">37</unitid>
                             <unittitle id="link166">George Penrod</unittitle>
                             <unitdate normal="1918">1918</unitdate>
@@ -1963,7 +1969,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">38</unitid>
                             <unittitle id="link167">Eva Thompson</unittitle>
                             <unitdate normal="1918">1918</unitdate>
@@ -1974,7 +1980,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">39</unitid>
                             <unittitle id="link168">John Boyce</unittitle>
                             <unitdate normal="1918">1918</unitdate>
@@ -1985,7 +1991,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">40</unitid>
                             <unittitle id="link169">Con D. Silva, Union President</unittitle>
                             <unitdate normal="1918">1918</unitdate>
@@ -1996,7 +2002,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">41</unitid>
                             <unittitle id="link170">Derk Koldewyn</unittitle>
                             <unitdate normal="1918">1918</unitdate>
@@ -2007,7 +2013,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">42</unitid>
                             <unittitle id="link171">George Ransom</unittitle>
                             <unitdate normal="1918">1918</unitdate>
@@ -2024,7 +2030,7 @@
                     </did>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">43</unitid>
                             <unittitle id="link173">Basis of Settlement of the
                                 Clifton-Morenci-Metcalf Strike</unittitle>
@@ -2036,7 +2042,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">44</unitid>
                             <unittitle id="link174">Regulations Promulgated for the War Industry of
                                 Woods and Mills of the Northwest</unittitle>
@@ -2048,7 +2054,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">45</unitid>
                             <unittitle id="link175">Exhibit of False Arrests for IWW
                                 Membership</unittitle>
@@ -2060,7 +2066,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">46</unitid>
                             <unittitle id="link176">Proposed Legislation and Correspondence relating
                                 to the Creation of the President's Mediation Commission</unittitle>
@@ -2072,7 +2078,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">47</unitid>
                             <unittitle id="link177">"Labor in the Inland Empire Lumber Territory. "
                                 Memo by Willard E. Hotchkiss</unittitle>
@@ -2084,7 +2090,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">48</unitid>
                             <unittitle id="link178">Prepared Testimony of Lumbermen's Protective
                                 League</unittitle>
@@ -2096,7 +2102,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">49</unitid>
                             <unittitle id="link179">General Correspondence of the President's
                                 Mediation Commission</unittitle>
@@ -2108,7 +2114,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">50</unitid>
                             <unittitle id="link180">Decision of Shipbuilding Labor Adjustment Board
                                 Touching Disputes in San Francisco, Columbia River, and Puget Sound
@@ -2121,7 +2127,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">51</unitid>
                             <unittitle id="link181">Memo relating to Settlement of Longshoremen's
                                 Dispute at Puget Sound</unittitle>
@@ -2133,7 +2139,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">52</unitid>
                             <unittitle id="link182">Memo on behalf of Employers of Waterfront Labor
                                 in the Ports of Puget Sound</unittitle>
@@ -2145,7 +2151,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">53</unitid>
                             <unittitle id="link183">"Farm Labor and the IWW," Memo by Thorstein
                                 Veblen</unittitle>
@@ -2157,7 +2163,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">54</unitid>
                             <unittitle id="link184">Exhibit A, Statement of Grievances by
                                 Agricultural Workers Industrial Union</unittitle>
@@ -2169,11 +2175,11 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">55</unitid>
                             <unittitle id="link185">Exhibit B. Affidavits of Maltreatment of
                                 Suspected IWW Members</unittitle>
-                            <unitdate type="inclusive" normal="1917/1918">1917-1918</unitdate>
+                            <unitdate normal="1917/1918" type="inclusive">1917-1918</unitdate>
                         </did>
                         <scopecontent>
                             <p>16pp.</p>
@@ -2181,12 +2187,12 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">56</unitid>
                             <unittitle id="link186">Exhibit C, Statements of U. S. Forest Service
                                 Supervisors Expressing Satisfaction with IWW Labor Performance in
                                 Montana and Idaho Fire Control Programs</unittitle>
-                            <unitdate type="inclusive" normal="1917/1918">1917- 1918</unitdate>
+                            <unitdate normal="1917/1918" type="inclusive">1917- 1918</unitdate>
                         </did>
                         <scopecontent>
                             <p>11pp.</p>
@@ -2194,7 +2200,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">57</unitid>
                             <unittitle id="link187">Report of President's Mediation Commission on
                                 the Bisbee, Arizona, Deportations</unittitle>
@@ -2206,7 +2212,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">58</unitid>
                             <unittitle id="link188">Report of President's Mediation
                                 Commission</unittitle>
@@ -2218,7 +2224,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">59</unitid>
                             <unittitle id="link189">Telegrams on the Activities of the President's
                                 Mediation Commission</unittitle>
@@ -2230,7 +2236,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">60</unitid>
                             <unittitle id="link190">Memo regarding Western IWW Situation</unittitle>
                             <unitdate normal="1918">1918</unitdate>
@@ -2241,7 +2247,7 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">61</unitid>
                             <unittitle id="link191">General Situation in the Northwest, particularly
                                 in Minnesota</unittitle>
@@ -2252,11 +2258,11 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">62</unitid>
                             <unittitle id="link192">Correspondence on the Activities of the
                                 IWW</unittitle>
-                            <unitdate type="inclusive" normal="1917/1918">1917-1918</unitdate>
+                            <unitdate normal="1917/1918" type="inclusive">1917-1918</unitdate>
                         </did>
                         <scopecontent>
                             <p>11pp.</p>
@@ -2264,11 +2270,11 @@
                     </c03>
                     <c03 level="file">
                         <did>
-                            <container type="reel">3</container>
+                            <container label="unspecified" type="reel">3</container>
                             <unitid label="Item ">63</unitid>
                             <unittitle id="link193">General Correspondence of the President's
                                 Mediation Commission</unittitle>
-                            <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate>
+                            <unitdate normal="1918/1919" type="inclusive">1918-1919</unitdate>
                         </did>
                         <scopecontent>
                             <p>22pp.</p>

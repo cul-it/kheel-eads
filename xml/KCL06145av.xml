@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06145av::AAA Audio Recording.)//EN">KCL06145av</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06145av::AAA Audio Recording.)//EN">KCL06145av</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the AAA Audio Recording<date> 1971</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>August 19, 2015</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the AAA Audio Recording<lb/></titleproper>
+			<titleproper>Guide to the AAA Audio Recording</titleproper>
 			<num>Collection Number: 6145 AV</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,23 +54,23 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">AAA Audio Recording, <unitdate encodinganalog="MARC 245$f">1971</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">AAA Audio Recording, 1971
+			</unittitle><unitdate encodinganalog="MARC 245$f">1971</unitdate>
 			<unitid label="Collection Number:">6145 AV</unitid>
 			<origination label="Creator:">
 				<corpname encodinganalog="MARC 110" role="creator">American Arbitration Association (AAA)</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">1.2 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">1.2 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Audiovisual materials.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<langmaterial label="Language:">Collection material in <language encodinganalog="MARC 041" langcode="eng">English</language>
 			</langmaterial>
 		<physdesc><extent>1.22 cubic feet</extent></physdesc></did>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Altieri, James V. </persname>
 				<persname encodinganalog="MARC 600">Bailer, Lloyd H. </persname>
 				<persname encodinganalog="MARC 600">Barrett, Gerald A., 1912-1990 </persname>
@@ -83,33 +89,33 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>AAA Audio Recording #6145 AV. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05004.html"> 5004: AAA Arbitration in Government</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05119.html"> 5119: AAA Voluntary Labor Arbitration Tribunal Case Files</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06309.html"> 6309: AAA Arbitration in the Schools Records</extref><lb/>
+			
+			<p>Related Collections:
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05004.html"> 5004: AAA Arbitration in Government</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05119.html"> 5119: AAA Voluntary Labor Arbitration Tribunal Case Files</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06309.html"> 6309: AAA Arbitration in the Schools Records</extref>
 			</p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link6">Linn, John Phillip</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -120,7 +126,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">2</unitid>
 					<unittitle id="link7">Linn, John Phillip</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -131,7 +137,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">3</unitid>
 					<unittitle id="link8">Unterberger, S. Herbert</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -142,7 +148,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">4</unitid>
 					<unittitle id="link9">Unterberger, S. Herbert</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -153,7 +159,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">5</unitid>
 					<unittitle id="link10">Altieri, James V.</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -164,7 +170,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">6</unitid>
 					<unittitle id="link11">Warns, Carl A.</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -175,7 +181,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">7</unitid>
 					<unittitle id="link12">Myers, Morris L. // Wolf, Benjamin H.</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -186,7 +192,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">8</unitid>
 					<unittitle id="link13">Jones, Edgar Allan Jr.</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -197,7 +203,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">9</unitid>
 					<unittitle id="link14">Bailer, Lloyd H.</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -208,7 +214,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">10</unitid>
 					<unittitle id="link15">Schmertz, Eric J. // Barrett, Gerald A.</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -219,7 +225,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">11</unitid>
 					<unittitle id="link16">Middlekauff, Robert m. ; Edwards, Nelson Jack ; Wallen, Saul</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -230,7 +236,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">12</unitid>
 					<unittitle id="link17">Middlekauf, Robert M. ; Edwards, Nelson Jack ; Wallen, Saul</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -241,7 +247,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">13</unitid>
 					<unittitle id="link18">Dash, G. Allan Jr. // Abernethy, Byron R.</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -252,7 +258,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">14</unitid>
 					<unittitle id="link19">Wildebush, Joseph F.</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -263,7 +269,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">15</unitid>
 					<unittitle id="link20">Roberts, Thomas T.</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -274,14 +280,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link21">Discipline and discharge / Thomas T. Roberts</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link22">Employing the Disadvantage : Three Viewpoints / Robert M. Middlekauff, Nelson Jack Edwards, Saul Wallen</unittitle>
 				</did>

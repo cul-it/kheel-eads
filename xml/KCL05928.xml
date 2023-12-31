@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05928::Elaine Leeder Collection of Rose Pesotta Papers.)//EN">KCL05928</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05928::Elaine Leeder Collection of Rose Pesotta Papers.)//EN">KCL05928</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Elaine Leeder Collection of Rose Pesotta Papers<date> 1912-1961</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>August 03, 2015</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Elaine Leeder Collection of Rose Pesotta Papers<lb/></titleproper>
+			<titleproper>Guide to the Elaine Leeder Collection of Rose Pesotta Papers</titleproper>
 			<num>Collection Number: 5928</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,15 +54,15 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Elaine Leeder Collection of Rose Pesotta Papers, <unitdate encodinganalog="MARC 245$f">1912-1961</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Elaine Leeder Collection of Rose Pesotta Papers, 1912-1961
+			</unittitle><unitdate encodinganalog="MARC 245$f">1912-1961</unitdate>
 			<unitid label="Collection Number:">5928</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">Pesotta, Rose</persname>
 				<persname encodinganalog="MARC 100" role="creator"> Leeder, Elaine</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">2 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">2 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Papers, correspondence,photographs, videotapes, motion pictures (visual works).</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">Correspondence, publications, photographs, and videotapes of Rose Pesotta, organizer for the International Ladies Garment Workers Union.</abstract>
@@ -64,7 +70,7 @@
 			</langmaterial>
 		<physdesc><extent>2 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+			
 			<p>Born Rakhel Peisoty in Derazhnia, Ukraine in 1896 to grain merchants, Pesotta was well educated and influenced by the Narodnaya Volya (People's Will), and eventually adopted anarchist views. </p>
 			<p>Pesotta emigrated to New York City at the age of 17 (1913), and found employment in a shirtwaist factory, she joined the ILGWU very soon after. The ILGWU was a union that represented mostly Jewish and Latina female garment workers. She was
 				elected to the all male executive board of ILGWU Local 25 in 1920. Pesotta went to Brookwood Labor College for two years in the 1920s. </p>
@@ -111,16 +117,16 @@
 			<p>1965 Died in Miami, Florida on December 6</p>
 		</bioghist>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Pesotta, Rose, 1896- </persname>
 				<persname encodinganalog="MARC 600">Leeder, Elaine J. </persname>
 				<corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union. </corpname>
 				<corpname encodinganalog="MARC 610">B'nai B'rith. Anti-defamation League. </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Labor disputes -- United States. </subject>
 				<subject encodinganalog="MARC 650">Labor unions -- United States. </subject>
 				<subject encodinganalog="MARC 650">Labor movement -- United States. </subject>
@@ -130,49 +136,49 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Elaine Leeder Collection of Rose Pesotta Papers #5928. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<arrangement>
-			<head>SERIES LIST</head>
+			
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link6" show="replace" actuate="onrequest">Series I. Correspondence</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link6">Series I. Correspondence</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link35" show="replace" actuate="onrequest">Series II. Poland-Norway-Sweden</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link35">Series II. Poland-Norway-Sweden</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link47" show="replace" actuate="onrequest">Series III. Publications and Manuscripts</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link47">Series III. Publications and Manuscripts</ref></emph>
 			</p>
 			<p>
-				<ref linktype="simple" target="link48" show="replace" actuate="onrequest">Sub-Series A. Drafts of manuscripts</ref>
-				<lb/>
-				<ref linktype="simple" target="link51" show="replace" actuate="onrequest">Sub-Series B. Pamphlets and Articles</ref>
-				<lb/>
-				<ref linktype="simple" target="link56" show="replace" actuate="onrequest">Sub-Series C. Broadsides, Leaflets, Announcements</ref>
-				<lb/>
-				<ref linktype="simple" target="link62" show="replace" actuate="onrequest">Sub-Series D. Newspaper clippings</ref>
+				<ref actuate="onrequest" linktype="simple" show="replace" target="link48">Sub-Series A. Drafts of manuscripts</ref>
+				
+				<ref actuate="onrequest" linktype="simple" show="replace" target="link51">Sub-Series B. Pamphlets and Articles</ref>
+				
+				<ref actuate="onrequest" linktype="simple" show="replace" target="link56">Sub-Series C. Broadsides, Leaflets, Announcements</ref>
+				
+				<ref actuate="onrequest" linktype="simple" show="replace" target="link62">Sub-Series D. Newspaper clippings</ref>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link64" show="replace" actuate="onrequest">Series IV. Address File</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link64">Series IV. Address File</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link72" show="replace" actuate="onrequest">Series V. Miscellaneous</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link72">Series V. Miscellaneous</ref></emph>
 			</p>
 		</arrangement>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="series">
 				<did>
 					<unittitle id="link6">Series I. Correspondence</unittitle>
@@ -182,8 +188,8 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">1</container>
 						<unittitle id="link7">American Labor Education Service</unittitle>
 						<unitdate normal="1943">1943</unitdate>
 					</did>
@@ -193,8 +199,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">2</container>
 						<unittitle id="link8">Bercovici, Henri</unittitle>
 						<unitdate normal="1954">1954</unitdate>
 					</did>
@@ -204,8 +210,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">3</container>
 						<unittitle id="link9">Cypress, S.</unittitle>
 						<unitdate normal="1958">1958</unitdate>
 					</did>
@@ -215,8 +221,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">4</container>
 						<unittitle id="link10">DeLeon, Solon</unittitle>
 						<unitdate normal="1955">1955</unitdate>
 					</did>
@@ -226,8 +232,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">5</container>
 						<unittitle id="link11">Farber, Litt.</unittitle>
 						<unitdate normal="1953">1953</unitdate>
 					</did>
@@ -237,8 +243,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">6</container>
 						<unittitle id="link12">Fields, Sally</unittitle>
 						<unitdate normal="1950">1950</unitdate>
 					</did>
@@ -248,10 +254,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">7</container>
 						<unittitle id="link13">Hapwood, Powers</unittitle>
-						<unitdate type="inclusive" normal="1940/1949">1940-1949</unitdate>
+						<unitdate normal="1940/1949" type="inclusive">1940-1949</unitdate>
 					</did>
 					<scopecontent>
 						<p>Personal and business correspondence. Dicsusses John L. Lewis broadcast, the CIO, FDR, Ford Strike (1941), organizing prudential agents, Carlo Tresca murder, UAW membership, work on family farm and many other topics. Closes one
@@ -260,42 +266,42 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">8</container>
 						<unittitle id="link14">Hapwood, Powers</unittitle>
-						<unitdate type="inclusive" normal="1940/1949">1940-1949</unitdate>
+						<unitdate normal="1940/1949" type="inclusive">1940-1949</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">9</container>
 						<unittitle id="link15">Hapwood, Powers</unittitle>
-						<unitdate type="inclusive" normal="1940/1949">1940-1949</unitdate>
+						<unitdate normal="1940/1949" type="inclusive">1940-1949</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">10</container>
 						<unittitle id="link16">Hapwood, Powers</unittitle>
-						<unitdate type="inclusive" normal="1940/1949">1940-1949</unitdate>
+						<unitdate normal="1940/1949" type="inclusive">1940-1949</unitdate>
 					</did>
 				</c02>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">11</container>
 					<unittitle id="link17">Hapwood, Powers</unittitle>
-					<unitdate type="inclusive" normal="1940/1949">1940-1949</unitdate>
+					<unitdate normal="1940/1949" type="inclusive">1940-1949</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">12</container>
 						<unittitle id="link18">International Ladies' Garment Workers' Union</unittitle>
-						<unitdate type="inclusive" normal="1935/1943">1935-1943</unitdate>
+						<unitdate normal="1935/1943" type="inclusive">1935-1943</unitdate>
 					</did>
 					<scopecontent>
 						<p>Includes greeting card and miscellaneous</p>
@@ -303,10 +309,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">13</container>
 						<unittitle id="link19">Jewish Labor Committee</unittitle>
-						<unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate>
+						<unitdate normal="1958/1959" type="inclusive">1958-1959</unitdate>
 					</did>
 					<scopecontent>
 						<p>Miscellaneous</p>
@@ -314,8 +320,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">14</container>
 						<unittitle id="link20">Kroportkin, S. </unittitle>
 						<unitdate normal="1951">1951</unitdate>
 					</did>
@@ -325,10 +331,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">15</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">15</container>
 						<unittitle id="link21">Kushnarev, Theodore</unittitle>
-						<unitdate type="inclusive" normal="1912/1925">1912-1925</unitdate>
+						<unitdate normal="1912/1925" type="inclusive">1912-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Personal love letters to Rose after his deportment to Russia</p>
@@ -336,40 +342,40 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">16</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">16</container>
 						<unittitle id="link22">Kushnarev, Theodore</unittitle>
-						<unitdate type="inclusive" normal="1912/1926">1912-1926</unitdate>
+						<unitdate normal="1912/1926" type="inclusive">1912-1926</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">17</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">17</container>
 						<unittitle id="link23">Kushnarev, Theodore</unittitle>
-						<unitdate type="inclusive" normal="1912/1927">1912-1927</unitdate>
+						<unitdate normal="1912/1927" type="inclusive">1912-1927</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">18</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">18</container>
 						<unittitle id="link24">Kushnarev, Theodore</unittitle>
-						<unitdate type="inclusive" normal="1912/1928">1912-1928</unitdate>
+						<unitdate normal="1912/1928" type="inclusive">1912-1928</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">19</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">19</container>
 						<unittitle id="link25">Miscellaneous</unittitle>
-						<unitdate type="inclusive" normal="1946/1959">1946-1959</unitdate>
+						<unitdate normal="1946/1959" type="inclusive">1946-1959</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">20</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">20</container>
 						<unittitle id="link26">Panken, Jacob</unittitle>
 						<unitdate normal="1959">1959</unitdate>
 					</did>
@@ -379,8 +385,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">21</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">21</container>
 						<unittitle id="link27">Randolph, A. Philip</unittitle>
 					</did>
 					<scopecontent>
@@ -389,8 +395,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">22</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">22</container>
 						<unittitle id="link28">Rubin, Milton</unittitle>
 						<unitdate normal="1959">1959</unitdate>
 					</did>
@@ -400,8 +406,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">23</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">23</container>
 						<unittitle id="link29">Saks, Hesh</unittitle>
 						<unitdate normal="1952">1952</unitdate>
 					</did>
@@ -411,8 +417,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">24</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">24</container>
 						<unittitle id="link30">Siegel, Sophie</unittitle>
 						<unitdate normal="1951">1951</unitdate>
 					</did>
@@ -422,8 +428,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">25</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">25</container>
 						<unittitle id="link31">Spivak, Joseph</unittitle>
 						<unitdate normal="1956">1956</unitdate>
 					</did>
@@ -433,10 +439,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">26</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">26</container>
 						<unittitle id="link32">Thomas, Norman</unittitle>
-						<unitdate type="inclusive" normal="1954/1957">1954-1957</unitdate>
+						<unitdate normal="1954/1957" type="inclusive">1954-1957</unitdate>
 					</did>
 					<scopecontent>
 						<p>Note of thanks for her financial support; letter from Thomas requesting additional biographical information in order to write an introduction for her book (1957).</p>
@@ -444,8 +450,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">27</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">27</container>
 						<unittitle id="link33">Wohl, Paul</unittitle>
 						<unitdate normal="1954">1954</unitdate>
 					</did>
@@ -455,8 +461,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">28</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">28</container>
 						<unittitle id="link34">Wolk, Morton</unittitle>
 						<unitdate normal="1955">1955</unitdate>
 					</did>
@@ -475,16 +481,16 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">29</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">29</container>
 						<unittitle id="link36">Correspondence</unittitle>
-						<unitdate type="inclusive" normal="1946/1948">1946-1948</unitdate>
+						<unitdate normal="1946/1948" type="inclusive">1946-1948</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">30</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">30</container>
 						<unittitle id="link37">Notes</unittitle>
 					</did>
 					<scopecontent>
@@ -493,22 +499,22 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">31</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">31</container>
 						<unittitle id="link38">Pamphlets</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">32</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">32</container>
 						<unittitle id="link39">Pamphlets</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">33</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">33</container>
 						<unittitle id="link40">Includes outline of chapter heads for book</unittitle>
 					</did>
 					<scopecontent>
@@ -517,8 +523,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">34</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">34</container>
 						<unittitle id="link41">Untitled manuscript which describes her trips abroad</unittitle>
 					</did>
 					<scopecontent>
@@ -527,8 +533,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">35</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">35</container>
 						<unittitle id="link42">Manuscript describing effects of the war in Norway, Sweden, and Poland.</unittitle>
 					</did>
 					<scopecontent>
@@ -537,22 +543,22 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">36</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">36</container>
 						<unittitle id="link43">"Flying to Poland" (4 pages); "Stockholm, Sweden" (5 pages); "Norwegian Labor Movement." </unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">37</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">37</container>
 						<unittitle id="link44">Journals describing her trips to Warsaw, children's camps, Majdanek Death Camp, and Lodz</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">38</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">38</container>
 						<unittitle id="link45">Notes on Poland, Sweden and Norway</unittitle>
 					</did>
 					<scopecontent>
@@ -561,8 +567,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">39</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">39</container>
 						<unittitle id="link46">Draft essay by Pesotta entitled "Nacht on Nebel" (Night and Fog)</unittitle>
 					</did>
 					<scopecontent>
@@ -583,15 +589,15 @@
 					</scopecontent>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="Folder">40</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="Folder">40</container>
 							<unittitle id="link49">Includes drafts and notes for chapters about Russia and Lenin</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="Folder">41</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="Folder">41</container>
 							<unittitle id="link50">Index cards containing research notes for her various writing projects</unittitle>
 						</did>
 					</c03>
@@ -605,8 +611,8 @@
 					</scopecontent>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="Folder">42</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="Folder">42</container>
 							<unittitle id="link52">A-D</unittitle>
 						</did>
 						<scopecontent>
@@ -615,8 +621,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="Folder">43</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="Folder">43</container>
 							<unittitle id="link53">F-K</unittitle>
 						</did>
 						<scopecontent>
@@ -625,8 +631,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="Folder">44</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="Folder">44</container>
 							<unittitle id="link54">L-P</unittitle>
 						</did>
 						<scopecontent>
@@ -635,8 +641,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="Folder">45</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="Folder">45</container>
 							<unittitle id="link55">Q-Z</unittitle>
 						</did>
 						<scopecontent>
@@ -650,36 +656,36 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="Folder">46</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="Folder">46</container>
 							<unittitle id="link57">National Negro Conference; New York State Young Communist League; International Labor Defense and others</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="Folder">47</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="Folder">47</container>
 							<unittitle id="link58">Communist Party; Cloakmakers No. 70; and others</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="Folder">48</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="Folder">48</container>
 							<unittitle id="link59">Communist Party; Young Communist League; ILGWU Joint Board Cloak, Skirt, Dressmakers; Local 22</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="Folder">49</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="Folder">49</container>
 							<unittitle id="link60">Needle Trades Workers Industrial Union</unittitle>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="Folder">50</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="Folder">50</container>
 							<unittitle id="link61">ILGWU Locals 48-89; ILGWU General Strike Committee; Joint Board Cloak and Dressmakers; American Labor Party; Communist Party; Furriers Progressive League; Unemployed Citizens League; National Committee of the
 								Left Whing Groups of the ILGWU: and others</unittitle>
 						</did>
@@ -691,10 +697,10 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">1</container>
-							<container type="Folder">51</container>
+							<container label="unspecified" type="box">1</container>
+							<container label="unspecified" type="Folder">51</container>
 							<unittitle id="link63">Clippings</unittitle>
-							<unitdate type="inclusive" normal="1927/1961">1927-1961</unitdate>
+							<unitdate normal="1927/1961" type="inclusive">1927-1961</unitdate>
 						</did>
 					</c03>
 				</c02>
@@ -708,50 +714,50 @@
 				</scopecontent>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">52</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">52</container>
 						<unittitle id="link65">Address file</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">53</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">53</container>
 						<unittitle id="link66">Address file</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">54</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">54</container>
 						<unittitle id="link67">Address file</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">55</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">55</container>
 						<unittitle id="link68">Address file</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">56</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">56</container>
 						<unittitle id="link69">Address file</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">57</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">57</container>
 						<unittitle id="link70">Address file</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">58</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">58</container>
 						<unittitle id="link71">Address file</unittitle>
 					</did>
 				</c02>
@@ -762,8 +768,8 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">59</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">59</container>
 						<unittitle id="link73">Miscellaneous</unittitle>
 					</did>
 					<scopecontent>
@@ -772,7 +778,7 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
+						<container label="unspecified" type="box">7</container>
 						<unittitle id="link74">Scrapbook</unittitle>
 					</did>
 				</c02>

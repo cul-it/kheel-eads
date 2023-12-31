@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05630::W.B. Meyers Papers.)//EN">KCL05630</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05630::W.B. Meyers Papers.)//EN">KCL05630</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the W.B. Meyers Papers<date> 1963-1976</date></titleproper>
@@ -23,20 +23,26 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>March 25,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
-            <titleproper>Guide to the W.B. Meyers Papers<lb/></titleproper>
+            <titleproper>Guide to the W.B. Meyers Papers</titleproper>
             <num>Collection Number: 5630</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -55,14 +61,14 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">W.B. Meyers Papers, <unitdate encodinganalog="MARC 245$f">1963-1976</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">W.B. Meyers Papers, 1963-1976
+            </unittitle><unitdate encodinganalog="MARC 245$f">1963-1976</unitdate>
             <unitid label="Collection Number:">5630</unitid>
             <origination label="Creator:">
                 <persname encodinganalog="MARC 100" role="creator">Meyers, W.B.</persname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">18 linear ft.</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">18 linear ft.</physdesc>
             <physdesc label="Forms of Material:">Records (documents).</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -73,11 +79,11 @@
             </langmaterial>
         <physdesc><extent>18 cubic feet</extent></physdesc></did>
         <bioghist encodinganalog="MARC 545">
-            <head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+            
             <p>W.B. Meyers was an officer in the Switchmen's Union of North America.</p>
         </bioghist>
         <bioghist encodinganalog="MARC 545">
-            <head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+            
             <p>The Switchmen's Union of North America is among the older of the railway
                 brotherhoods. Beginning in 1877 with the formation of a local Switchmen's
                 organization in Chicago, the movement became national when the Switchmen's Mutual
@@ -92,9 +98,9 @@
                 in the United States and Canada having a combined membership of 12,000.</p>
         </bioghist>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <persname encodinganalog="MARC 600">Meyers, William Roy. </persname>
                 <corpname encodinganalog="MARC 610">Brotherhood of Locomotive Firemen and Enginemen </corpname>
                 <corpname encodinganalog="MARC 610">Brotherhood of Railroad Trainmen </corpname>
@@ -103,7 +109,7 @@
                 <corpname encodinganalog="MARC 610">United Transportation Union </corpname>
             </controlaccess>
             <controlaccess>
-                <head>Subjects: </head>
+                
                 <subject encodinganalog="MARC 650">Railroads--Employees--Labor unions--United
                     States. </subject>
             </controlaccess>
@@ -111,64 +117,64 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>W.B. Meyers Papers #5630. Kheel Center for Labor-Management Documentation and
                     Archives, Cornell University Library.</p>
             </prefercite>
         </descgrp>
         <relatedmaterial>
-            <head id="a6">RELATED MATERIALS</head>
-            <p>Related Collections:<lb/>
+            
+            <p>Related Collections:
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05034.html"> 5034:
-                    Switchmen's Union of North America Records</extref><lb/>
+                    Switchmen's Union of North America Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05034mb.html"> 5034 MB:
-                    Switchmen's Union of North America Memorabilia</extref><lb/>
+                    Switchmen's Union of North America Memorabilia</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05034p.html"> 5034 P:
-                    Switchmen's Union of North America Photographs</extref><lb/>
+                    Switchmen's Union of North America Photographs</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05084.html"> 5084:
-                    Switchmen's Union of North America Additional Records</extref><lb/>
+                    Switchmen's Union of North America Additional Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05405mf.html"> 5405 mf:
-                    Switchmen's Union of North America Constitutions on Microfilm</extref><lb/>
+                    Switchmen's Union of North America Constitutions on Microfilm</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05406mf.html"> 5406 mf:
-                    Switchmen's Union of North America Arbitration on Microfilm</extref><lb/>
+                    Switchmen's Union of North America Arbitration on Microfilm</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05447.html"> 5447:
                     Switchmen's Union of North America Additional Unification Minutes and Convention
-                    Proceedings</extref><lb/>
+                    Proceedings</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05556.html"> 5556:
-                    Switchmen's Union of North America Additional Records</extref><lb/>
+                    Switchmen's Union of North America Additional Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05556av.html"> 5556 AV:
-                    Switchmen's Union of North America Audio-Visual Materials</extref><lb/>
+                    Switchmen's Union of North America Audio-Visual Materials</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05590.html"> 5590:
                     Switchmen's Union of North America Lake Shore Lodge 55 Membership
-                    Registers</extref><lb/>
+                    Registers</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05613.html"> 5613:
                     Switchmen's Union of North America Oakland Lodge 158 Meeting
-                Minutes</extref><lb/>
+                Minutes</extref>
             </p>
         </relatedmaterial>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unittitle id="link8">Calendars.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link9">NP Speirs Reading Copies</unittitle>
                         <unitdate normal="1969">1969</unitdate>
                     </did>
@@ -178,8 +184,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link10">N P Speirs Reading Copies</unittitle>
                         <unitdate normal="1969">1969</unitdate>
                     </did>
@@ -189,8 +195,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link11">W.R. Meyers Reading file</unittitle>
                         <unitdate normal="1969">1969</unitdate>
                     </did>
@@ -200,8 +206,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link12">WR Meyers Reading File October 1,1969 to December
                             31,1969</unittitle>
                         <unitdate normal="1969">1969</unitdate>
@@ -209,8 +215,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link13">WR Meyers Reading File</unittitle>
                         <unitdate normal="1970">1970</unitdate>
                     </did>
@@ -220,8 +226,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link14">WR Meyers Reading File</unittitle>
                     </did>
                     <scopecontent>
@@ -230,8 +236,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link15">WR Meyers Reading File</unittitle>
                         <unitdate normal="1971">1971</unitdate>
                     </did>
@@ -241,8 +247,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link16">WR Meyers Reading File</unittitle>
                     </did>
                     <scopecontent>
@@ -251,8 +257,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link17">DW Collins Reading File</unittitle>
                         <unitdate normal="1972">1972</unitdate>
                     </did>
@@ -262,8 +268,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link18">WR Meyers Reading File</unittitle>
                         <unitdate normal="1972">1972</unitdate>
                     </did>
@@ -273,8 +279,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link19">WR Meyers Reading File</unittitle>
                     </did>
                     <scopecontent>
@@ -283,8 +289,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link20">N P Speirs Reading File</unittitle>
                     </did>
                     <scopecontent>
@@ -294,42 +300,42 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unittitle id="link21">Correspondence: A-Football.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link22">Article XX AFL-CIO Jurisdiction</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link23">Assemblyman Race 1952</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link24">Attained Age - Membership</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link25">Beneficiary Membership</unittitle>
-                        <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate>
+                        <unitdate normal="1955/1956" type="inclusive">1955-1956</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link26">BLE Agreement</unittitle>
                         <unitdate normal="1969">1969</unitdate>
                     </did>
@@ -339,53 +345,53 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link27">Board of Education</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link28">Bowser</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link29">Bowser</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link30">Convention - UTU</unittitle>
                         <unitdate normal="1971">1971</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link31">UTU Convention</unittitle>
                         <unitdate normal="1975">1975</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link32">UTU National Convention</unittitle>
                         <unitdate normal="1971">1971</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link33">Counter Proposals</unittitle>
                         <unitdate normal="1959">1959</unitdate>
                     </did>
@@ -395,176 +401,176 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link34">1966 Crew Consist Issue</unittitle>
                         <unitdate normal="1966">1966</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link35">Dissent Award - PLB #A67 UTU(s)</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link36">Dissent Award #1 PLB #467 UTU(s) Research
                             Material</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link37">Effects of 282 Court</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link38">Emergency Board #130 Non-Ops</unittitle>
                         <unitdate normal="1960">1960</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">18</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">18</container>
                         <unittitle id="link39">Emergency Board #121 - SUNA - 1960</unittitle>
                         <unitdate normal="1960">1960</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">19</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">19</container>
                         <unittitle id="link40">Emergency Board #172 BRT v. I.C. - L&amp;N - Crew
                             Consist</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">20</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">20</container>
                         <unittitle id="link41">Extra Man - Holiday</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">21</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">21</container>
                         <unittitle id="link42">Alleged Featherbedding</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">22</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">22</container>
                         <unittitle id="link43">Finance and Insurance Work Dec. 1956</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">23</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">23</container>
                         <unittitle id="link44">F&amp;I Board Work Dec 1955</unittitle>
                         <unitdate normal="1955">1955</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">24</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">24</container>
                         <unittitle id="link45">F&amp;I Work May June 1959 - Convention</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">25</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">25</container>
                         <unittitle id="link46">F&amp;I Board Work Dec. 1958</unittitle>
                         <unitdate normal="1958">1958</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">26</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">26</container>
                         <unittitle id="link47">F&amp;I Board Work June 1958</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">27</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">27</container>
                         <unittitle id="link48">F&amp;I Board Work Dec. 1957</unittitle>
                         <unitdate normal="1957">1957</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">28</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">28</container>
                         <unittitle id="link49">Minutes F&amp;I Board</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">29</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">29</container>
                         <unittitle id="link50">Emergency Board 177 - Fireman's Manning
                             Issue</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">30</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">30</container>
                         <unittitle id="link51">Football 1956</unittitle>
                         <unitdate normal="1956">1956</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">31</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">31</container>
                         <unittitle id="link52">Football 1957</unittitle>
                         <unitdate normal="1957">1957</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">32</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">32</container>
                         <unittitle id="link53">Football 1958</unittitle>
                         <unitdate normal="1958">1958</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">33</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">33</container>
                         <unittitle id="link54">Football 1953</unittitle>
                         <unitdate normal="1953">1953</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">34</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">34</container>
                         <unittitle id="link55">Football 1952</unittitle>
                         <unitdate normal="1952">1952</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">35</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">35</container>
                         <unittitle id="link56">Football 1950</unittitle>
                         <unitdate normal="1950">1950</unitdate>
                     </did>
@@ -572,43 +578,43 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
+                    <container label="unspecified" type="box">3</container>
                     <unittitle id="link57">Correspondence: Freedom - I.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link58">Freedom Train</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link59">Gen. Chm. Association</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link60">Gen. Committee (S)(GN) B.N. George J. Kelley
                             1971-1972</unittitle>
-                        <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
+                        <unitdate normal="1971/1972" type="inclusive">1971-1972</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link61">Glover</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link62">Health and Welfare - Section Six Notice Nov.
                             1,1967</unittitle>
                         <unitdate normal="1967">1967</unitdate>
@@ -616,16 +622,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link63">H/W (SUNA) 1967-8 Carriers</unittitle>
-                        <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+                        <unitdate normal="1967/1968" type="inclusive">1967-1968</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link64">H/W 1971-2 Notice</unittitle>
                         <unitdate normal="1971">1971</unitdate>
                     </did>
@@ -635,366 +641,366 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link65">H/W 1973-4</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link66">H/W Negotiations 1969-1970</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link67">Insurance Committee Correspondence</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link68">Ins. Committee 1951 Membership</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link69">Membership 1955-1956</unittitle>
-                        <unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate>
+                        <unitdate normal="1955/1956" type="inclusive">1955-1956</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link70">Insurance Committee Reports</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link71">Insurance Com Work Jan. 1947</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link72">Insurance Committee Work Convention</unittitle>
                         <unitdate normal="1947">1947</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link73">Insurance Work 1947 After Convention</unittitle>
                         <unitdate normal="1947">1947</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link74">Insurance Committee Work May 1948</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">18</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">18</container>
                         <unittitle id="link75">Insurance Committee Work May 1949</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">19</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">19</container>
                         <unittitle id="link76">Insurance Committee Work May</unittitle>
                         <unitdate normal="1950">1950</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">20</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">20</container>
                         <unittitle id="link77">Insurance Committee Work 1951</unittitle>
                         <unitdate normal="1951">1951</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">21</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">21</container>
                         <unittitle id="link78">Ins. Convention Work</unittitle>
                         <unitdate normal="1951">1951</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">22</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">22</container>
                         <unittitle id="link79">Insurance and Finance Committee Work June
                             1952</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">23</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">23</container>
                         <unittitle id="link80">Insurance Committee Work June 1956</unittitle>
                         <unitdate normal="1956">1956</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">24</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">24</container>
                         <unittitle id="link81">Insurance Committee Work June 1957</unittitle>
                         <unitdate normal="1957">1957</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">25</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">25</container>
                         <unittitle id="link82">Insurance - UTU</unittitle>
                     </did>
                 </c02>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
+                    <container label="unspecified" type="box">4</container>
                     <unittitle id="link83">Correspondence: K-Rook.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link84">Kurtz</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link85">Labor Attach</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link86">Legal Aid Committee #107</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link87">Lodge #107</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link88">Lonn, Lloyd E.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link89">Machinist Airline Strike 1966</unittitle>
                         <unitdate normal="1966">1966</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link90">WR Meyers First Division SUNA</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link91">WR Meyers</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link92">Promulgated Rules Dispute WR Meyers</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link93">Non-Op Insurance</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link94">NP System Vote</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link95">Organizing NYC</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link96">Poland, C.E.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link97">Politics</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link98">Procedural Question B&amp;O</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link99">RRA Supplemental Pension</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link100">Rail Pax</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">18</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">18</container>
                         <unittitle id="link101">RR Work Rule Demands 1959</unittitle>
                         <unitdate normal="1959">1959</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">19</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">19</container>
                         <unittitle id="link102">Regular Man- Holiday</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">20</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">20</container>
                         <unittitle id="link103">Renumbered Locals</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">21</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">21</container>
                         <unittitle id="link104">Rook, David</unittitle>
                     </did>
                 </c02>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
+                    <container label="unspecified" type="box">5</container>
                     <unittitle id="link105">Correspondence: Rules-SUKA Convention.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link106">Rules Movement 1958</unittitle>
                         <unitdate normal="1958">1958</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link107">Rules Movement 1960-1961 Study
                             Commission</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link108">Rules 1962</unittitle>
                         <unitdate normal="1962">1962</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link109">Emergency Board #154 Rules</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link110">Shop Craft Strike 1967</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link111">Shop Crafts Wage Movement - Emergency Board
                             #176</unittitle>
-                        <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
+                        <unitdate normal="1969/1970" type="inclusive">1969-1970</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link112">Neil P. Speirs</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link113">SUNA Agreement</unittitle>
                         <unitdate normal="1968">1968</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link114">SUNA Agreement</unittitle>
                         <unitdate normal="1967">1967</unitdate>
                     </did>
@@ -1004,22 +1010,22 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link115">SU Retirement Resolution</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link116">SUNA Convention 1951</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link117">Special Convention SUNA</unittitle>
                         <unitdate normal="1953">1953</unitdate>
                     </did>
@@ -1029,38 +1035,38 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link118">1955 SUNA Convention Work Etc. Minute
                             Elections</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link119">1955 Convention SUNA Constitution Work</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link120">S.U. Convention 1955</unittitle>
                         <unitdate normal="1955">1955</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link121">1959 Convention</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link122">SUNA Gen. Chm Meeting</unittitle>
                         <unitdate normal="1966">1966</unitdate>
                     </did>
@@ -1070,87 +1076,87 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">18</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">18</container>
                         <unittitle id="link123">1963 SUNA Convention</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">19</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">19</container>
                         <unittitle id="link124">1967 SUNA Convention</unittitle>
                     </did>
                 </c02>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">6</container>
+                    <container label="unspecified" type="box">6</container>
                     <unittitle id="link125">Correspondence: SUNA Membership - Z.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link126">SUNA Membership 1956-1957</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link127">SUNA Sec. Treasury Local Reports</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link128">SUNA Wage &amp; Rules 1967-1968</unittitle>
-                        <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+                        <unitdate normal="1967/1968" type="inclusive">1967-1968</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link129">SUNA Wage Movement 1966-67</unittitle>
-                        <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+                        <unitdate normal="1966/1967" type="inclusive">1966-1967</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link130">Superior Federation of Labor</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link131">Supplemental Pensions</unittitle>
-                        <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
+                        <unitdate normal="1969/1970" type="inclusive">1969-1970</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link132">Tentative Proposals</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link133">UTU Agreement March 19, 1969</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link134">UTU Agreement - April 15,1969 Engineers</unittitle>
                         <unitdate normal="1969">1969</unitdate>
                     </did>
@@ -1160,22 +1166,22 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link135">Vacation</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link136">Vriesacker</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link137">Proposed Wage Agreement Conferences July 18-21,
                             1960</unittitle>
                         <unitdate normal="1960">1960</unitdate>
@@ -1183,10 +1189,10 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link138">Wage Negotiation</unittitle>
-                        <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+                        <unitdate normal="1967/1968" type="inclusive">1967-1968</unitdate>
                     </did>
                     <scopecontent>
                         <p>Signed July 29,1968</p>
@@ -1194,8 +1200,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link139">Wage Proposal</unittitle>
                         <unitdate normal="1962">1962</unitdate>
                     </did>
@@ -1205,23 +1211,23 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link140">Wage and Rules 1973 Notice</unittitle>
                         <unitdate normal="1973">1973</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link141">Wiley, Senator</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link142">Wis. State Fed. Of Labor 1950</unittitle>
                         <unitdate normal="1950">1950</unitdate>
                     </did>
@@ -1229,76 +1235,76 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">7</container>
+                    <container label="unspecified" type="box">7</container>
                     <unittitle id="link143">Railroads, alphabetical.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link144">Rules Movement 1958</unittitle>
                         <unitdate normal="1958">1958</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link145">Rules Movement 1960-1961 Study
                             Commission</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link146">Rules 1962</unittitle>
                         <unitdate normal="1962">1962</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link147">Emergency Board #154 Rules</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link148">Shopcraft Strike 1967</unittitle>
                         <unitdate normal="1967">1967</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link149">Shop Crafts Wage Movement 1969-1970 Emergency Board
                             3176</unittitle>
-                        <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
+                        <unitdate normal="1969/1970" type="inclusive">1969-1970</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link150">Neil P. Speirs</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link151">SUNA Agreement April 10,1967</unittitle>
                         <unitdate normal="1967">1967</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link152">SUNA Agreement</unittitle>
                         <unitdate normal="1968">1968</unitdate>
                     </did>
@@ -1308,56 +1314,56 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link153">SUNA Convention 1951</unittitle>
                         <unitdate normal="1951">1951</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link154">Special Convention SUNA April 1953</unittitle>
                         <unitdate normal="1953">1953</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link155">1955 SUNA Convention Work Etc. Minute
                             Elections</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link156">1955 Convention SUNA Constitution Work</unittitle>
                         <unitdate normal="1955">1955</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link157">SU Convention 1955</unittitle>
                         <unitdate normal="1955">1955</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link158">1959 Convention</unittitle>
                         <unitdate normal="1959">1959</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link159">SUNA Gen. Chm Meeting</unittitle>
                         <unitdate normal="1966">1966</unitdate>
                     </did>
@@ -1367,15 +1373,15 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link160">1963 SUNA Convention</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">18</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">18</container>
                         <unittitle id="link161">SUNA Convention 1967</unittitle>
                         <unitdate normal="1967">1967</unitdate>
                     </did>
@@ -1383,122 +1389,122 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">8</container>
+                    <container label="unspecified" type="box">8</container>
                     <unittitle id="link162">Railroads, alphabetical.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link163">Current Developments Section</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link164">UTU - Trans. Conference</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link165">Switchmen's Union Conventions</unittitle>
                         <unitdate normal="1967">1967</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link166">Memorandum for Insurers</unittitle>
                         <unitdate normal="1964">1964</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link167">Switchmen Union's Conventions</unittitle>
                         <unitdate normal="1967">1967</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link168">Committee of Constitutions Reports</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link169">Statistical Supplement</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link170">Railroad Retirement Board</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link171">United Transportation Union</unittitle>
                     </did>
                 </c02>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">9</container>
+                    <container label="unspecified" type="box">9</container>
                     <unittitle id="link172">Awards.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">9</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link173">Docket 41596 O'Trembiak's Case C-4095</unittitle>
                         <unitdate normal="1966">1966</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">9</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link174">O'Trembiak 41596</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">9</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link175">O'Trembiak's Hearing Milw Rd</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">9</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link176">Reinstatement Case James O'Trembiak - Milw Rd. -
                             Chi. Term 41596</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">9</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link177">PLBA 399 B&amp;O</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">9</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link178">PLB #399 Employees' Reply Submission To Carrier's
                             Rebuttal Statement</unittitle>
                     </did>
@@ -1506,132 +1512,132 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">10</container>
+                    <container label="unspecified" type="box">10</container>
                     <unittitle id="link179">Awards.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link180">Memorandum of Understanding - Burlington Northern
                             Inc., and UTU</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link181">Carrier's Submission - UTU v. Burlington Northern
                             Inc.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link182">Carrier's Submission - UTU v. Burlington Northern
                             Inc.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link183">Carrier's Submission - UTU v. Burlington Northern
                             Inc.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link184">UTU v. Chicago, Milwaukee, St. Paul and Pacific RR
                             Co.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link185">UTU v. Burlington Northern Inc.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link186">UTU and Burlington Northern Inc.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link187">UTU v. Burlington Northern Inc.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link188">UTU v. Burlington Northern Inc.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link189">UTU vs. Minneapolis, Northfield and Southern Railway
                             Company</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link190">UTU v. Burlington Northern Inc.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link191">UTU v. Burlington Northern Inc.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link192">UTU v. Burlington Northern Inc.</unittitle>
                     </did>
                 </c02>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">11</container>
+                    <container label="unspecified" type="box">11</container>
                     <unittitle id="link193">Awards.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">11</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link194">UTU</unittitle>
                         <unitdate normal="1972">1972</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">11</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link195">Switchmen's Union of North America vs. Portland
                             Terminal Railroad Company</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">11</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link196">Portland Terminal Railroad Company
                             Agreements</unittitle>
                         <unitdate normal="1972">1972</unitdate>
@@ -1639,8 +1645,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">11</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link197">Articles VII and XIII</unittitle>
                         <unitdate normal="1973">1973</unitdate>
                     </did>
@@ -1650,75 +1656,75 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">11</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link198">Articles V+VI</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">11</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link199">Articles 1-4</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">11</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link200">Articles VIII &amp; IX</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">11</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link201">UTU and Chicago, Milwaukee, St. Paul and Pacific
                             Railroad</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">11</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link202">UTU - General Committee</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">11</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link203">UTU v. Burlington Northern Inc.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">11</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link204">UTU vs. Burlington Northern Inc.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">11</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link205">UTU vs. Burlington Northern Inc. - Carrier's
                             Submission</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">11</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link206">UTU vs. Burlington Northern Inc.
                             1975-1976</unittitle>
-                        <unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate>
+                        <unitdate normal="1975/1976" type="inclusive">1975-1976</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">11</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link207">Carrier's Submission - UTU v. Burlington Northern
                             Inc.</unittitle>
                     </did>
@@ -1726,141 +1732,141 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">12</container>
+                    <container label="unspecified" type="box">12</container>
                     <unittitle id="link208">Awards.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link209">Switchmen's Union of North America, AFL-CIO
                             International Union</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link210">Awards</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link211">UTU and B&amp;O Carrier's Submission</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link212">UTU and Duluth Missabe and Iron Range
                             Railway</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link213">UTU and Monon Railroad- Statement of
                             Claim</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link214">Nat'l Railroad Adjustment Board -
                             Exhibits</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link215">Brotherhood of Railroad Trainmen</unittitle>
                         <unitdate normal="1966">1966</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link216">Brotherhood of Locomotive Firemen and
                             Enginemen</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link217">Employees Exhibits</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link218">UTU vs. Burlington Northern Inc. Award no.
                             1</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link219">Agreement - UTU and Baltimore and Ohio
                             Railroad</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link220">UTU Trainmen and Baltimore and Ohio
                             Railroad</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link221">Transcript of Proceedings of the National Mediation
                             Board - Emergency. Board No. 154</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link222">Combination of Road and Yard Service</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link223">Order of Railway Conductors and Brakemen</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">12</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">12</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link224">Brotherhood of Railroad Trainmen</unittitle>
                     </did>
                 </c02>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">13</container>
+                    <container label="unspecified" type="box">13</container>
                     <unittitle id="link225">Awards.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">13</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">13</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link226">UTU-Wage Rules</unittitle>
                         <unitdate normal="1971">1971</unitdate>
                     </did>
@@ -1870,8 +1876,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">13</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">13</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link227">UTU-Wages</unittitle>
                         <unitdate normal="1970">1970</unitdate>
                     </did>
@@ -1881,16 +1887,16 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">13</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">13</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link228">Mediation Agreement</unittitle>
                         <unitdate normal="1971">1971</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">13</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">13</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link229">Memorandum for the Record</unittitle>
                         <unitdate normal="1970">1970</unitdate>
                     </did>
@@ -1900,15 +1906,15 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">13</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">13</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link230">Current Developments Section</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">13</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">13</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link231">Congressional Record - Daily Digest</unittitle>
                         <unitdate normal="1971">1971</unitdate>
                     </did>
@@ -1918,8 +1924,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">13</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">13</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link232">Congressional Record - Daily Digest</unittitle>
                         <unitdate normal="1971">1971</unitdate>
                     </did>
@@ -1929,8 +1935,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">13</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">13</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link233">Congressional Record</unittitle>
                         <unitdate normal="1967">1967</unitdate>
                     </did>
@@ -1940,8 +1946,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">13</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">13</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link234">Congressional Record</unittitle>
                         <unitdate normal="1970">1970</unitdate>
                     </did>
@@ -1951,44 +1957,44 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">13</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">13</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link235">UTU- Wage Rules Dispute</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">13</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">13</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link236">UTU - Back Pay, Fired, Resigned
                             Employees</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">13</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">13</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link237">UTU - Wage Rules Dispute</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">13</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">13</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link238">Emergency Board 178, Report</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">13</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">13</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link239">Back Pay</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">13</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">13</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link240">Mediation Agreement, Case A</unittitle>
                         <unitdate normal="1972">1972</unitdate>
                     </did>
@@ -1999,34 +2005,34 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">14</container>
+                    <container label="unspecified" type="box">14</container>
                     <unittitle id="link241">Awards.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">14</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">14</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link242">Nat. Railroad Adjustment Board-Awards</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">14</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">14</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link243">UTU- Employees' Exhibits</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">14</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">14</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link244">UTU-Employees' Exhibits</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">14</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">14</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link245">Operating Railroad Brotherhood
                             Meetings-Minutes</unittitle>
                         <unitdate normal="1962">1962</unitdate>
@@ -2034,93 +2040,93 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">14</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">14</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link246">Minutes of Meetings of Organizations</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">14</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">14</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link247">Mediation Agreement</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">14</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">14</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link248">Agreements</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">14</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">14</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link249">Agreements</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">14</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">14</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link250">Switchmen's Union of North America</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">14</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">14</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link251">Congressional Report</unittitle>
                         <unitdate normal="1963">1963</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">14</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">14</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link252">Memorandum</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">14</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">14</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link253">Switchmen's Union of North America</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">14</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">14</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link254">Agreements- Wages, Rules</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">14</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">14</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link255">National Mediation Board</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">14</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">14</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link256">PLB #2305 UTUv.BN</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">14</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">14</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link257">PLB#467 Awards UTU v. M/W</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">14</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">14</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link258">Otrembiak's Submission PLB #467 A#1 Milw
                             Rd.</unittitle>
                     </did>
@@ -2128,92 +2134,92 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">15</container>
+                    <container label="unspecified" type="box">15</container>
                     <unittitle id="link259">Awards.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">15</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">15</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link260">Award of Arbitration Board 282</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">15</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">15</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link261">Employee's Reply to Carrier's Ex Parte
                             Submission</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">15</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">15</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link262">Employees' Exhibits PLB No. 837 UTU(s) v. IU
                             Rwy.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">15</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">15</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link263">Employees' Exhibits PLB No. 837 UTU(s) v. IU
                             Rwy.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">15</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">15</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link264">Employees' Reply to Carrier's Ex Parte
                             Submission</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">15</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">15</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link265">Employees' Exhibits PLB No. 837 UTU(s) v. IU
                             Rwy.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">15</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">15</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link266">Employees' Exhibits PLB No. 837 UTU(s) v.
                             Rwy.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">15</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">15</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link267">Employees' Reply to Carrier's Ex Parte
                             Submission</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">15</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">15</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link268">Employees' Exhibits PLB No. 837 UTU(s) IU
                             Rwy.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">15</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">15</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link269">Public Law Board No. 399 United Transportation
                             Union</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">15</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">15</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link270">Employees' Reply to Carrier's Ex Parte
                             Submission</unittitle>
                     </did>
@@ -2221,28 +2227,28 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">16</container>
+                    <container label="unspecified" type="box">16</container>
                     <unittitle id="link271">Annual Reports.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link272">PRC</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link273">Laws Relating to Interstate Commerce and
                             Transportation</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link274">Railroad Retirement Board - 1973 Annual
                             Report</unittitle>
                         <unitdate normal="1973">1973</unitdate>
@@ -2250,33 +2256,33 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link275">Seidenberg - The Labor Injunction In New York
                             City</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link276">Shop Craft 1970</unittitle>
                         <unitdate normal="1970">1970</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link277">Railway Labor Act, National Mediation Board
                             1934-1970</unittitle>
-                        <unitdate type="inclusive" normal="1934/1970">1934-1970</unitdate>
+                        <unitdate normal="1934/1970" type="inclusive">1934-1970</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link278">Railroad Retirement Board - Annual Report
                             1970</unittitle>
                         <unitdate normal="1970">1970</unitdate>
@@ -2284,8 +2290,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link279">Railroad Retirement Board - Annual Report
                             1970</unittitle>
                         <unitdate normal="1970">1970</unitdate>
@@ -2293,23 +2299,23 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link280">Volume 4 - Determination of Craft or
                             Class</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link281">Right of Way UTU-CBRT &amp; GW - BRASC</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link282">Senate - Railroad Shopcraft Dispute -
                             1967</unittitle>
                         <unitdate normal="1967">1967</unitdate>
@@ -2317,8 +2323,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link283">The Interstate Commerce Act-Revised to October
                             1,1958</unittitle>
                         <unitdate normal="1958">1958</unitdate>
@@ -2326,23 +2332,23 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link284">Growth of Labor Law in the United States</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link285">Railroad Work Rules Dispute</unittitle>
                         <unitdate normal="1963">1963</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link286">Railroad Retirement Board Annual Report
                             1973</unittitle>
                         <unitdate normal="1973">1973</unitdate>
@@ -2350,8 +2356,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link287">Railroad Retirement Board 1972 Annual
                             Report</unittitle>
                         <unitdate normal="1972">1972</unitdate>
@@ -2359,8 +2365,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link288">Railroad Retirement Board 1971 Annual
                             Report</unittitle>
                         <unitdate normal="1971">1971</unitdate>
@@ -2368,24 +2374,24 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">18</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">18</container>
                         <unittitle id="link289">Railroad Labor Dispute - 1967</unittitle>
                         <unitdate normal="1967">1967</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">19</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">19</container>
                         <unittitle id="link290">SUNA 1963 Convention</unittitle>
                         <unitdate normal="1963">1963</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">16</container>
-                        <container type="folder">20</container>
+                        <container label="unspecified" type="box">16</container>
+                        <container label="unspecified" type="folder">20</container>
                         <unittitle id="link291">Railroad Retirement Board - Annual Report
                             1972</unittitle>
                         <unitdate normal="1972">1972</unitdate>
@@ -2394,86 +2400,86 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">17</container>
+                    <container label="unspecified" type="box">17</container>
                     <unittitle id="link292">Binders: annual, semi-annual and quarterly reports,
                         minutes of meetings, contract agreements, manuals of investigation,
                         collections of letters, merger report.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link293">Great Northern: Northern Pacific CB&amp;Q &amp;
                             SP&amp;S Merger</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link294">Hewitt's Index Digest of Important Decisions and
                             Principles of the National Railroad Adjustment Board</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link295">W.R. Meyers</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link296">Investigations - Brotherhood of Locomotive Firemen
                             and Enginemen</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link297">Semi-Annual Report - UTU</unittitle>
                         <unitdate normal="1971">1971</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link298">Semi-Annual Report - UTU</unittitle>
                         <unitdate normal="1970">1970</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link299">Semi-Annual Report - UTU</unittitle>
                         <unitdate normal="1969">1969</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link300">Semi-Annual Report - UTU</unittitle>
                         <unitdate normal="1972">1972</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link301">Semi-Annual Report - UTU</unittitle>
                         <unitdate normal="1971">1971</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link302">Semi-Annual Report - General Adjustment
                             Committee</unittitle>
                         <unitdate normal="1967">1967</unitdate>
@@ -2481,69 +2487,69 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link303">General Committee DRGW</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link304">Semi-Annual Report SUNA DRGW</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link305">UTU DRGW</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link306">General Committee-Switchmen(D&amp;RGW Railroad)
                             United Transportation Union</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link307">United Transportation union - Burlington Northern
                             General Committee</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link308">United Transportation Union - Burlington Northern
                             General Committee</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link309">United Transportation Union - Burlington Northern
                             General Committee</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">18</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">18</container>
                         <unittitle id="link310">United Transportation Union - Burlington Northern
                             General Committee - Quarterly Report</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">19</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">19</container>
                         <unittitle id="link311">Six Months Report - General Adjustment
                             Committee</unittitle>
                         <unitdate normal="1970">1970</unitdate>
@@ -2554,11 +2560,11 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">20</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">20</container>
                         <unittitle id="link312">Six Months Report - General Adjustment Committee -
                             UTU</unittitle>
-                        <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>
+                        <unitdate normal="1972/1973" type="inclusive">1972-1973</unitdate>
                     </did>
                     <scopecontent>
                         <p>July 1,1972 to January 1,1973</p>
@@ -2566,8 +2572,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">17</container>
-                        <container type="folder">21</container>
+                        <container label="unspecified" type="box">17</container>
+                        <container label="unspecified" type="folder">21</container>
                         <unittitle id="link313">General Committee of Adjustment - Great Northern
                             Railroad Company</unittitle>
                     </did>
@@ -2575,114 +2581,114 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">18</container>
+                    <container label="unspecified" type="box">18</container>
                     <unittitle id="link314">file folders - miscellaneous.</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">18</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">18</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link315">Washington State Legislative Board</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">18</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">18</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link316">New York Legislative Board</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">18</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">18</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link317">Maine</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">18</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">18</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link318">Signalmen's Strike</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">18</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">18</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link319">Wisconsin Safe Crew Law</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">18</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">18</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link320">Iowa Legislative Reports</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">18</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">18</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link321">Minnesota Legislative Reports</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">18</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">18</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link322">Burlington Northern</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">18</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">18</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link323">Pennsylvania Legislative Reports</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">18</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">18</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link324">W.P. Cutter</unittitle>
-                        <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
+                        <unitdate normal="1971/1972" type="inclusive">1971-1972</unitdate>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">18</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">18</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link325">WP Committee</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">18</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">18</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link326">Merger GN-NP-CB&amp;Q</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">18</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">18</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link327">Northern Lines Merger ICC</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">18</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">18</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link328">Clerks Agreement Northern Lines Merger</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">18</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">18</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link329">SUNA Health and Welfare</unittitle>
-                        <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
+                        <unitdate normal="1963/1964" type="inclusive">1963-1964</unitdate>
                     </did>
                 </c02>
             </c01>

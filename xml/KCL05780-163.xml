@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-163::ILGWU. Research Department. United States NIRA hearing records,)//EN">KCL05780-163</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-163::ILGWU. Research Department. United States NIRA hearing records,)//EN">KCL05780-163</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the ILGWU. Research Department. United States NIRA hearing
@@ -25,20 +25,26 @@
 			<creation>Finding aid encoded by MarcEdit, Ead McTaggart, and Cheryl Beredo, <date>July
 					2011</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
 			<titleproper>Guide to the ILGWU. Research Department. United States NIRA Hearing
-					Records,<lb/><date type="inclusive" encodinganalog="245$f">1933-1937.</date></titleproper>
-			<num type="kidb_reference_number" id="kc1179">Collection Number: 5780/163</num>
-			<publisher>Kheel Center for Labor-Management Documentation and Archives <lb/>Cornell
+					Records,<date encodinganalog="245$f" type="inclusive">1933-1937.</date></titleproper>
+			<num id="kc1179" type="kidb_reference_number">Collection Number: 5780/163</num>
+			<publisher>Kheel Center for Labor-Management Documentation and Archives Cornell
 				University Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-						P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-						Ithaca, NY 14853<lb/> (607) 255-3183<lb/><extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/><extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref><lb/></item>
+					<item> Kheel Center for Labor-Management Documentation and Archives Martin
+						P. Catherwood Library 227 Ives Hall Cornell University
+						Ithaca, NY 14853 (607) 255-3183<extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -59,13 +65,13 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">ILGWU. Research Department. United
-				States NIRA hearing records, <unitdate encodinganalog="MARC 245" type="inclusive">1933-1937.</unitdate></unittitle>
+			
+			<unittitle encodinganalog="MARC 245" label="Title:">ILGWU. Research Department. United
+				States NIRA hearing records, 1933-1937</unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1933-1937.</unitdate>
 			<unitid label="Collection Number:">5780/163</unitid>
 			<origination label="Creator:"><corpname encodinganalog="MARC 110">International Ladies'
 					Garment Workers' Union. Research Dept.</corpname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">5 linear feet</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">5 linear feet</physdesc>
 			<physdesc label="Forms of Material:">Records</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and
 				Archives, Cornell University Library</repository>
@@ -78,7 +84,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		<physdesc><extent>5 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="organization">ILGWU ORGANIZATIONAL HISTORY</head>
+			
 			<p>The International Ladies’ Garment Workers’ Union was founded in New York City in 1900
 				by mostly Socialist immigrant workers who sought to unite the various crafts in the
 				growing women's garment industry. The union soon reflected changes in the sector and
@@ -119,7 +125,7 @@
 				the United States, Canada, and Puerto Rico. </p>
 		</bioghist>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a3" altrender="organization">ORGANIZATIONAL HISTORY </head>
+			
 			<p>The Research Department of the International Ladies' Garment Workers' Union (ILGWU)
 				supported the administrative operations of the Union. The Research Department was
 				organized to coordinate the ILGWU's investigative operations. It provided Union
@@ -131,7 +137,7 @@
 				and contract negotiations.</p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a5">COLLECTION DESCRIPTION</head>
+			
 			<p>This collection contains reports and records of hearings held by the United States
 				National Industrial Recovery Administration between 1933 and 1937. Topics of these
 				hearings include Code of Fair Practices and Competition, Conference of Code
@@ -140,9 +146,9 @@
 				violations of code.</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<corpname encodinganalog="MARC 110">International Ladies' Garment Workers'
 					Union.</corpname>
 				<corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union. </corpname>
@@ -152,7 +158,7 @@
 					Administration</corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects:</head>
+				
 				<subject encodinganalog="MARC 650">Women's clothing industry--United
 					States.</subject>
 				<subject encodinganalog="MARC 650">Labor unions--Clothing workers--United
@@ -161,13 +167,13 @@
 				<subject encodinganalog="MARC 650">Industrial relations--United States.</subject>
 			</controlaccess>
 			<controlaccess>
-				<head>Form and Genre Terms:</head>
+				
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>The ILGWU Records, except for publications and materials produced for
 					publication, are restricted. Materials created prior to twenty years from the
 					current date are open to researchers only with prior written permission from the
@@ -176,14 +182,14 @@
 					information contact the Kheel Center.</p>
 			</accessrestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>ILGWU. Research Department. United States NIRA hearing records. 5780/163. Kheel
 					Center for Labor-Management Documentation and Archives, Martin P. Catherwood
 					Library, Cornell University.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
+			
 			<p>5780. ILGWU records</p>
 			<p>5780/045. ILGWU. Research Department records</p>
 			<p>5780/056. ILGWU. Research Department collected documents</p>
@@ -196,19 +202,19 @@
 			<p>5780/209. ILGWU. Research Department records</p>
 		</relatedmaterial>
 		<odd type="notes">
-			<head id="a7">NOTES</head>
+			
 			<p>"Permanent deposit"</p>
 		</odd>
 		<odd type="notes">
-			<head>ARRANGEMENT</head>
+			
 			<p>The collection is arranged in chronological order.</p>
 		</odd>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>First Hearing on Coat and Suit Code Authority</unittitle>
 					<unitdate normal="1933">1933</unitdate>
 				</did>
@@ -218,8 +224,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Code of
 						Fair Practices and Competition</unittitle>
 					<unitdate normal="1933">1933</unitdate>
@@ -230,8 +236,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Code of
 						Fair Practices and Competition</unittitle>
 					<unitdate normal="1933">1933</unitdate>
@@ -242,8 +248,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Code of
 						Fair Practices and Competition</unittitle>
 					<unitdate normal="1933">1933</unitdate>
@@ -254,8 +260,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Code of
 						Fair Practices and Competition</unittitle>
 					<unitdate normal="1933">1933</unitdate>
@@ -266,8 +272,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Code of
 						Fair Practices and Competition, Volume 2</unittitle>
 					<unitdate normal="1934">1934</unitdate>
@@ -278,8 +284,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on
 						Conference of Code Authorities and Trade Association Code Committee, Volume
 						1</unittitle>
@@ -291,8 +297,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on
 						Conference of Code Authorities and Trade Association Code Committee
 						Employment, Volume 2</unittitle>
@@ -304,8 +310,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on
 						Conference of Code Authorities and Trade Association Code Committee, Code
 						Administration and Improvement, Volume 1</unittitle>
@@ -317,8 +323,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on
 						Conference of Code Authorities and Trade Association Code Committee, Trade
 						Practices - Production, Volume 1</unittitle>
@@ -330,8 +336,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on
 						Conference of Code Authorities and Trade Association Code Committee, Code
 						Administration and Improvement, Volume 2</unittitle>
@@ -343,8 +349,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on
 						Conference of Code Authorities and Trade Association Code Committee, Trade
 						Practices - Production, Volume 2</unittitle>
@@ -356,8 +362,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on
 						Conference of Code Authorities and Trade Association Code Committee, Code
 						Administration and Improvement, Volume 3</unittitle>
@@ -369,8 +375,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on
 						Conference of Code Authorities and Trade Association Code Committee, Trade
 						Practices - Production, Volume 3</unittitle>
@@ -382,8 +388,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on
 						Conference of Code Authorities and Trade Association Code Committee,
 						Employment, Volume 3</unittitle>
@@ -395,8 +401,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Code of
 						Fair Practices and Competition, Volume 1</unittitle>
 					<unitdate normal="1934">1934</unitdate>
@@ -407,8 +413,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Men's
 						Clothing, Cotton Garment, and Dress Manufacturing Industry Amendments,
 						Volume 1</unittitle>
@@ -420,8 +426,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Men's
 						Clothing, Cotton Garment, and Dress Manufacturing Industries Amendments,
 						Volume 2</unittitle>
@@ -433,8 +439,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Men's
 						Clothing, Cotton Garment, and Dress Manufacturing Industries Amendments,
 						Volume 2a</unittitle>
@@ -446,8 +452,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Men's
 						Clothing, Cotton Garment, and Dress Manufacturing Industries Amendments,
 						Volume 3</unittitle>
@@ -459,8 +465,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. National Industrial Review Administration Hearing on Men's
 						Clothing, Cotton Garment, Dress Manufacturing Industries Amendment, Volume
 						3a</unittitle>
@@ -472,8 +478,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Men's
 						Clothing, Cotton Garment, and Dress Manufacturing Industries. Supplement to
 						Hearing, Volume 3b</unittitle>
@@ -485,8 +491,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Men's
 						Clothing, Cotton Garment, and Dress Manufacturing Industries Amendments,
 						Volume 4</unittitle>
@@ -498,8 +504,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Men's
 						Clothing, Cotton Garment, and Dress Manufacturing Industries, Amendments,
 						Volume 4a</unittitle>
@@ -511,8 +517,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Dress
 						Manufacturing Industry Amendments, Volume 1</unittitle>
 					<unitdate normal="1934">1934</unitdate>
@@ -523,8 +529,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. National Industrial Recover Board Hearing on Alleged Violations
 						of the Code for the Dress Manufacturing Industry Against Paris-Maid Dress
 						Company, Volume 1 Part 1</unittitle>
@@ -536,8 +542,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Alleged
 						Violations of the Code for the Dress Manufacturing Industry Against
 						Paris-Maid Dress Company, Volume 1 Part 2</unittitle>
@@ -549,8 +555,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Alleged
 						Violations of the Code for the Dress Manufacturing Industry Against
 						Paris-Maid Dress Company, Volume 2</unittitle>
@@ -562,8 +568,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Alleged
 						Violations of the Code for the Dress Manufacturing Hearing on Alleged
 						Violations of the Code for the Dress Manufacturing Industry Against
@@ -576,8 +582,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Dress
 						Manufacturing Industry, Amendments to Code of Fair Competition, Volume
 						4</unittitle>
@@ -589,8 +595,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Dress
 						Manufacturing Industry, Amendments to Code of Fair Competition - Jobbers
 						Contractors, Volume 5</unittitle>
@@ -602,8 +608,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Dress
 						Manufacturing Industry, Amendments to Code of Fair Competition - Uniform
 						Order Blanks, Volume 6</unittitle>
@@ -615,8 +621,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. NRA Division of Review, History of the Code of Fair Competition
 						for the Dress Industry (Appendix)</unittitle>
 					<unitdate normal="1935">1935</unitdate>
@@ -624,8 +630,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. NRA Division of Review, History of the Code of Fair Competition
 						for the Dress Industry</unittitle>
 					<unitdate normal="1935">1935</unitdate>
@@ -633,8 +639,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Men's
 						Clothing Industry, Proposed Amendments of the Code of Fair Competition,
 						Volume 1</unittitle>
@@ -646,8 +652,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Men's
 						Clothing Industry, Proposed Amendments to the Code of Fair Competition,
 						Volume 1</unittitle>
@@ -659,8 +665,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Men's
 						Clothing Industry, Proposed Amendments to the Code of Fair Competition,
 						Volume 2</unittitle>
@@ -672,8 +678,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Men's
 						Clothing Industry, Proposed Amendments to the Code of Fair Competition,
 						Volume 2</unittitle>
@@ -685,8 +691,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Men's
 						Clothing Industry, Proposed Amendments of the Code of Fair Competition,
 						Volume 3</unittitle>
@@ -698,8 +704,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on
 						Employment Provisions in Codes of Fair Competition, Volume 1 Part
 						1</unittitle>
@@ -711,8 +717,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on
 						Employment Provisions in Codes of Fair Competition, Volume 1 Part
 						2</unittitle>
@@ -724,8 +730,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. National Industrial Recovery Administration Complete Index,
 						Employment Provisions in Codes of Fair Competition</unittitle>
 					<unitdate normal="1935">1935</unitdate>
@@ -736,8 +742,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on
 						Employment Provisions in Codes of Fair Competition, Volume 2 Part
 						1</unittitle>
@@ -749,8 +755,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on
 						Employment Provisions in Codes of Fair Competition, Volume 2 Part
 						2</unittitle>
@@ -762,8 +768,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on
 						Employment Provisions in Codes of Fair Competition, Volume 3 Part
 						1</unittitle>
@@ -775,8 +781,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on
 						Employment Provisions in Codes of Fair Competition, Volume 3 Part
 						2</unittitle>
@@ -788,8 +794,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on
 						Employment Provisions in Codes of Fair Competition, Volume 3 Part
 						3</unittitle>
@@ -801,8 +807,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on
 						Employment Provisions in Codes of Fire Competition, Volume 4</unittitle>
 					<unitdate normal="1935">1935</unitdate>
@@ -813,8 +819,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Dress
 						Manufacturing Industry, Modification Proposal, Volume 2</unittitle>
 					<unitdate normal="1935">1935</unitdate>
@@ -825,8 +831,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. National Industrial Recovery Administration Hearing on Dress
 						Manufacturing Industry, Modification Proposal, Volume 3</unittitle>
 					<unitdate normal="1935">1935</unitdate>
@@ -837,16 +843,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. NRA Division of Review, The Coat and Suit Industry</unittitle>
 					<unitdate normal="1935">1935</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. NRA Division of Review, the Labor Program Under the NRA and
 						Industrial Homework</unittitle>
 					<unitdate normal="1936">1936</unitdate>
@@ -854,8 +860,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. NRA Division of Review. Trade Practice Provisions in the
 						Codes</unittitle>
 					<unitdate normal="1936">1936</unitdate>
@@ -863,8 +869,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Report of the Special Commission on Wages and Hours in the Fur
 						Manufacturing Industry by Paul Abelson</unittitle>
 					<unitdate normal="1936">1936</unitdate>
@@ -872,8 +878,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Wages and Hours in American Industry, NRA Source Material, by Solomon
 						Barkin.</unittitle>
 					<unitdate normal="1936">1936</unitdate>
@@ -884,8 +890,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Wages and Hours in American Industry, NRA Source Material, by Solomon
 						Barkin</unittitle>
 					<unitdate normal="1936">1936</unitdate>
@@ -896,8 +902,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>Wages and Hours in American Industry, NRA Source Material, by Solomon
 						Barkin</unittitle>
 					<unitdate normal="1936">1936</unitdate>
@@ -908,8 +914,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>Report of the Commission for the Coat and Suit Industry by George
 						Gordon Battle</unittitle>
 					<unitdate normal="1936">1936</unitdate>
@@ -917,8 +923,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>Report of the Special Commission on Wage Differentials in the Cap and
 						Cloth Hat Industry by Paul F. Brissenden</unittitle>
 					<unitdate normal="1936">1936</unitdate>
@@ -926,8 +932,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>Report of the Committee on the Economic and Social Implications of
 						the Company Story and Scrip System by Charles B. Fowler</unittitle>
 					<unitdate normal="1936">1936</unitdate>
@@ -935,8 +941,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>Financial and Labor Data on the Women's Neckwear and Scarf Industry
 						by W.A. Gill</unittitle>
 					<unitdate normal="1936">1936</unitdate>
@@ -944,8 +950,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>National Labor Income by Months (1929-1935) by Dorothy E.
 						Smith</unittitle>
 					<unitdate normal="1936">1936</unitdate>
@@ -953,16 +959,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>Statistical Background of the NRA by Victor S. Szeliski</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>Some Aspects of the Women's Apparel Industry by Sherman
 						Trowbridge</unittitle>
 					<unitdate normal="1936">1936</unitdate>
@@ -970,8 +976,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>U.S. Committee of Industrial Analysis, the National Recovery
 						Administration</unittitle>
 					<unitdate normal="1937">1937</unitdate>
@@ -979,8 +985,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle>Labor's Opportunity Under the Industrial Recovery Act by David
 						Dubinsky</unittitle>
 				</did>

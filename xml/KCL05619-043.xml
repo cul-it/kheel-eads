@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05619-043::ACWA's Rochester Joint Board Records)//EN">KCL05619-043</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05619-043::ACWA's Rochester Joint Board Records)//EN">KCL05619-043</eadid>
 		<filedesc>
 			<titlestmt>
-				<titleproper>Guide to the ACWA's Rochester Joint Board Records<date/></titleproper>
+				<titleproper>Guide to the ACWA's Rochester Joint Board Records</titleproper>
 				<titleproper type="sort">ACWA's Rochester Joint Board Records</titleproper>
 				<author>Compiled by R. Miles</author>
 			</titlestmt>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by MarcEdit, Ead McTaggart, and Randall Miles, <date>March 02, 2011</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the ACWA's Rochester Joint Board Records<lb/><date type="inclusive" encodinganalog="245$g"> 1922-1976</date></titleproper>
-			<num type="kidb_reference_number" id="kc2293">Collection Number: 5619/043</num>
-			<publisher>Kheel Center for Labor-Management Documentation and Archives <lb/>Cornell University Library</publisher>
+			<titleproper>Guide to the ACWA's Rochester Joint Board Records<date encodinganalog="245$g" type="inclusive"> 1922-1976</date></titleproper>
+			<num id="kc2293" type="kidb_reference_number">Collection Number: 5619/043</num>
+			<publisher>Kheel Center for Labor-Management Documentation and Archives Cornell University Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183<lb/><extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/><extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref><lb/></item>
+					<item> Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183<extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -50,14 +56,14 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">ACWA's Rochester Joint Board Records, <unitdate encodinganalog="MARC 245" type="inclusive">1922-1976</unitdate></unittitle>
+			
+			<unittitle encodinganalog="MARC 245" label="Title:">ACWA's Rochester Joint Board Records, 1922-1976</unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1922-1976</unitdate>
 			<unitid label="Collection Number:">5619/043</unitid>
 			<origination label="Creator:">
-				<corpname encodinganalog="MARC 110">Amalgamated Clothing Workers of America. Rochester Joint Board.</corpname><lb/>
+				<corpname encodinganalog="MARC 110">Amalgamated Clothing Workers of America. Rochester Joint Board.</corpname>
 				<corpname encodinganalog="MARC 110">Sidney Hillman Foundation</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">4 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">4 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Correspondence, reports, publications.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library</repository>
 			<abstract label="Abstract:">This collecion consists of correspondence, reports, collective bargaining agreements, and files from the Rochester Joint 
@@ -66,7 +72,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		<physdesc><extent>4 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="organization">ACWA/ACTWU ORGANIZATIONAL HISTORY</head>
+			
 			<p>The Amalgamated Clothing Workers of America, the most significant union representing workers in the men's clothing industry, was founded in 
 				New York City in 1914 as a breakaway movement from the United Garment Workers. Radical and immigrant workers in the tailors’ and cutters’ locals 
 				were the core of the seceding group, which advocated industrial unionism and economic strikes in opposition to the UGW’s craft organization, which 
@@ -111,9 +117,9 @@
 				troubled union.</p>
 		</bioghist>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<corpname encodinganalog="MARC 110">Amalgamated Clothing Workers of America</corpname>
 				<corpname encodinganalog="MARC 610">Amalgamated Clothing and Textile Workers' Union --Archives</corpname>
 				<corpname encodinganalog="MARC 110">Amalgamated Clothing Workers of America --Archives</corpname>
@@ -124,1158 +130,1158 @@
 				<corpname encodinganalog="MARC 610">UNITE HERE (Organization) --Archives</corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects:</head>
+				
 				<subject encodinganalog="MARC 650">Arbitration, Industrial--New York (State)--Rochester.</subject>
 				<subject encodinganalog="MARC 650">Clothing workers--New York (State)--Rochester.</subject>
 				<subject encodinganalog="MARC 650">Clothing workers--Labor unions--New York (State)--Rochester.</subject>
 				<subject encodinganalog="MARC 650">Collective bargaining--Clothing industry--New York (State)--Rochester.</subject>
 			</controlaccess>
 			<controlaccess>
-				<head>Form and Genre Terms:</head>
+				
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>ACWA's Rochester Joint Board Records, #5619/043. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related collections:<lb/>
+			
+			<p>Related collections:
 				<extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05273.html">
-					5273: ACWA's Rochester Joint Board Minutes of Meetings</extref><lb/>
+					5273: ACWA's Rochester Joint Board Minutes of Meetings</extref>
 				<extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05273mf.html">
-					5273 mf: ACWA's Rochester Joint Board Microfilm Minutes of Meetings</extref><lb/>
+					5273 mf: ACWA's Rochester Joint Board Microfilm Minutes of Meetings</extref>
 				<extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05285mf.html">
-					5285 mf: ACWA's Rochester Joint Board Microfilm Scrapbooks</extref><lb/>
+					5285 mf: ACWA's Rochester Joint Board Microfilm Scrapbooks</extref>
 				<extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05416mf.html">
-					5416 mf: ACWA's Rochester Joint Board and the Rochester Clothiers' Exchange Records</extref><lb/>
+					5416 mf: ACWA's Rochester Joint Board and the Rochester Clothiers' Exchange Records</extref>
 				<extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05619.html">
-					5619: Amalgamated Clothing Workers of America</extref><lb/>
+					5619: Amalgamated Clothing Workers of America</extref>
 				<extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05619-043AV.html">
-					5619/043 AV: ACWA's Rochester Joint Board Audio-Visual Materials</extref><lb/>
+					5619/043 AV: ACWA's Rochester Joint Board Audio-Visual Materials</extref>
 				<extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05993mf.html">
-					5993 mf: ACWA's Rochester Joint Board Microfilm Minutes of Meetings</extref><lb/>
+					5993 mf: ACWA's Rochester Joint Board Microfilm Minutes of Meetings</extref>
 				And all other 5619 collections.</p></relatedmaterial>
 			<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Sidney Hillman Foundation. Distinguished lecturer series at University of Rochester.</unittitle>
-					<unitdate type="inclusive" normal="1955/1963">1955-1963</unitdate>
+					<unitdate normal="1955/1963" type="inclusive">1955-1963</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Health Center plans.</unittitle>
-					<unitdate type="inclusive" normal="1953/1963">1953-1963</unitdate>
+					<unitdate normal="1953/1963" type="inclusive">1953-1963</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>General background of ACWA.</unittitle>
-					<unitdate type="inclusive" normal="1922/1960">1922-1960</unitdate>
+					<unitdate normal="1922/1960" type="inclusive">1922-1960</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Background of ACWA in Rochester.</unittitle>
-					<unitdate type="inclusive" normal="1939/1960">1939-1960</unitdate>
+					<unitdate normal="1939/1960" type="inclusive">1939-1960</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Memorandum of Law re Required Discharge of Union Employee</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>Amalgamated Bank (1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>Rochester Joint Board (RJB)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>Political Material</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>Community Projects</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>RJB notices and misc. correspondence</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>Timely Clothes, Inc.</unittitle>
-					<unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
+					<unitdate normal="1971/1972" type="inclusive">1971-1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>Dues Increase Notices</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>Robert Hall Clothes</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>AFL-CIO Material</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle>Advance &amp; Newspaper (Publicity &amp; Correspondence)</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle>Joint Board Correspondence, Other than Local</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle>General Office Correspondence</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle>Clothier’s Exchange</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle>Bourjois, Inc.</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle>Bond Stores, Inc.</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle>Box Plants, Correspondence</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle>Amalgamated Bank (1972)</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle>Fashion Park</unittitle>
-					<unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate>
+					<unitdate normal="1970/1972" type="inclusive">1970-1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle>Chatman, Arthur, 1971</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle>Fusing Material</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle>Comparative Stamp Sales</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle>Misc. Correspondence</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle>General Office</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle>Joint Board, Local</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle>Timely Clothes</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle>Syracuse and Utica Plants</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle>State and Federal Mediation</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle>Sheinkman, Jacob</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle>Rochester Clothiers Exchange</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">35</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">35</container>
 					<unittitle>Retail Stores</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">36</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">36</container>
 					<unittitle>Joint Board (Other than local)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">37</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">37</container>
 					<unittitle>Comparative Stamp Sales, 1972</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">38</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">38</container>
 					<unittitle>Amalgamated Insurance, 1971</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">39</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">39</container>
 					<unittitle>Bond Industries, Inc.</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">40</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">40</container>
 					<unittitle>Boxes, Bravo, Bourjois &amp; Buttons</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">41</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">41</container>
 					<unittitle>Political Material</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">42</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">42</container>
 					<unittitle>Research Dept.</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">43</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">43</container>
 					<unittitle>Political Material [folder 1 of 2]</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">44</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">44</container>
 					<unittitle>Political Material [folder 2 of 2]</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Misc. correspondence</unittitle>
 					<unitdate normal="1975">1975</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Amalgamated Insurance Co.</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Clothier’s Exchange &amp; Affiliates</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Firms not members of Clothier’s Exchange: Box, Stores, Etc.</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Community Projects</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>Chatman, Abraham</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>Bryan, William</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>Bourjois, Inc.</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>Bond Stores, Inc</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>Arbitration (Arthur Stark)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>New York State AFL-CIO etc.</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>Comparative Stamp Sales Reports</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>27th Biennial Convention</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>General Office ACWA</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle>Material on Imports</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle>Joint Boards Not Local</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle>Metropolitan Thrift Store</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle>Political Material</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle>Research Dept, ACWA</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle>Job applicant correspondence and resumes</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle>Advance Editor</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle>Airlines Credit Slips</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle>Amalgamated Bank</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle>Amalgamated Insurance [folder 1 of 2]</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle>Amalgamated Insurance [folder 2 of 2]</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle>Announcers</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle>Bond Clothes</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle>Christmas Card Order</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle>Comparison Stamp Sales &amp; Report</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle>Community Projects</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle>Contract Re-opening Letters</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle>Contributions</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle>Correspondence and Thank yous</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle>Labor (State and Local)</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">35</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">35</container>
 					<unittitle>AFL-CIO Material</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">36</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">36</container>
 					<unittitle>John Herling's Labor Letter</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">37</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">37</container>
 					<unittitle>Educational Material (Local and National)</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">38</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">38</container>
 					<unittitle>National Agreements</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Arbitration, notices and awards, 1964</unittitle>
 					<unitdate normal="1964">1964</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>General Office</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Research Material</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Rochester Button</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Amalgamated bank</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>Cotton Garment</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>Joseph &amp; Feiss</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>Labor Unity Newspaper</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>Michaels Stern</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>Miscellaneous</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>Joint Board notices</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>Invitations and Telegrams</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>GEB Meeting, 1976</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>NYS Judicial Nominating Committee-Robert Millonzi [folder 1 of 3]</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle>NYS Judicial Nominating Committee-Robert Millonzi [folder 2 of 3]</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle>NYS Judicial Nominating Committee-Robert Millonzi [folder 3 of 3]</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle>Xerox Corp. Profit Sharing, 1971</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle>Convention Material, 1972</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle>Health Center</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle>National Clothing</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle>Receipts</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle>Robert Hall</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle>Social Services, J. Miller</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle>Pavilion Nursing Home</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle>Xerox Corporation</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle>Tripp, HW Investments</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle>Xerox Profit Sharing</unittitle>
 					<unitdate normal="1976">1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle>Miscellaneous</unittitle>
-					<unitdate type="inclusive" normal="1959/1973">1959-1973</unitdate>
+					<unitdate normal="1959/1973" type="inclusive">1959-1973</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle>Brand Name Directory (ACTWU members)</unittitle>
 					<unitdate normal="1989">1989</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle>Agreements. Bond Stores</unittitle>
-					<unitdate type="inclusive" normal="1942/1971">1942-1971</unitdate>
+					<unitdate normal="1942/1971" type="inclusive">1942-1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle>Agreements. Bond Stores, Sales People</unittitle>
-					<unitdate type="inclusive" normal="1952/1972">1952-1972</unitdate>
+					<unitdate normal="1952/1972" type="inclusive">1952-1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Agreements. Bond Stores, Manufacturing</unittitle>
-					<unitdate type="inclusive" normal="1962/1966">1962-1966</unitdate>
+					<unitdate normal="1962/1966" type="inclusive">1962-1966</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Agreements. Joseph Pietrafesca Co., Inc.</unittitle>
-					<unitdate type="inclusive" normal="1963/1968">1963-1968</unitdate>
+					<unitdate normal="1963/1968" type="inclusive">1963-1968</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Agreements. Hickey-Freeman Co</unittitle>
-					<unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate>
+					<unitdate normal="1965/1971" type="inclusive">1965-1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Agreements. St. Joe Paper Co.</unittitle>
-					<unitdate type="inclusive" normal="1962/1968">1962-1968</unitdate>
+					<unitdate normal="1962/1968" type="inclusive">1962-1968</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Agreements. Timely Clothes, Inc.</unittitle>
 					<unitdate normal="1965">1965</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>Agreements. Sturdy Togs Inc</unittitle>
-					<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+					<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>Agreements. Robert Hall</unittitle>
-					<unitdate type="inclusive" normal="1965/1974">1965-1974</unitdate>
+					<unitdate normal="1965/1974" type="inclusive">1965-1974</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>Agreements. Rochester Button</unittitle>
-					<unitdate type="inclusive" normal="1953/1969">1953-1969</unitdate>
+					<unitdate normal="1953/1969" type="inclusive">1953-1969</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>Agreements. Rosco</unittitle>
-					<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+					<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>Agreements. Rubens Royal Uniform</unittitle>
 					<unitdate normal="1965">1965</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>Agreements. Bourjois, Inc.</unittitle>
-					<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+					<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>Agreements. Duxback Corp</unittitle>
-					<unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate>
+					<unitdate normal="1965/1969" type="inclusive">1965-1969</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>Agreements. Great Lakes Press</unittitle>
-					<unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate>
+					<unitdate normal="1964/1967" type="inclusive">1964-1967</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>Agreements. Joseph and Feiss Co</unittitle>
-					<unitdate type="inclusive" normal="1963/1968">1963-1968</unitdate>
+					<unitdate normal="1963/1968" type="inclusive">1963-1968</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle>Agreements. Walter Jamieson Co</unittitle>
-					<unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate>
+					<unitdate normal="1967/1969" type="inclusive">1967-1969</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle>Agreements. Metropolitan Thrift Center</unittitle>
-					<unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate>
+					<unitdate normal="1964/1970" type="inclusive">1964-1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle>Agreements. McFarlin Clothing Co, Retail Sales People</unittitle>
-					<unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate>
+					<unitdate normal="1965/1968" type="inclusive">1965-1968</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle>Agreements. Michaels Stern &amp; Co</unittitle>
-					<unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate>
+					<unitdate normal="1965/1968" type="inclusive">1965-1968</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle>Agreements. National Clothing Co, Retails Sales People [folder 1 of 2]</unittitle>
-					<unitdate type="inclusive" normal="1958/1966">1958-1966</unitdate>
+					<unitdate normal="1958/1966" type="inclusive">1958-1966</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle>Agreements. National Clothing Co, Retails Sales People [folder 2 of 2]</unittitle>
-					<unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate>
+					<unitdate normal="1965/1971" type="inclusive">1965-1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle>Agreements. National Suburban Stores</unittitle>
-					<unitdate type="inclusive" normal="1958/1968">1958-1968</unitdate>
+					<unitdate normal="1958/1968" type="inclusive">1958-1968</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle>Agreements. Clothing Manufacturers Association.</unittitle>
 					<unitdate normal="1974">1974</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle>Audit Examinations</unittitle>
-					<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+					<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle>Established Rules between Clothiers’ Exchange and RJB</unittitle>
-					<unitdate type="inclusive" normal="1945/1969">1945-1969</unitdate>
+					<unitdate normal="1945/1969" type="inclusive">1945-1969</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle>Rates. Michaels Stern</unittitle>
-					<unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate>
+					<unitdate normal="1969/1971" type="inclusive">1969-1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle>Rates. Pietrafesa</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>

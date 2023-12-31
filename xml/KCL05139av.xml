@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05139av::UTU Audio-Visual Material.)//EN">KCL05139av</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05139av::UTU Audio-Visual Material.)//EN">KCL05139av</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the UTU Audio-Visual Material<date>
@@ -24,20 +24,26 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>March 07,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
-            <titleproper>Guide to the UTU Audio-Visual Material<lb/></titleproper>
+            <titleproper>Guide to the UTU Audio-Visual Material</titleproper>
             <num>Collection Number: 5139 AV</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -56,16 +62,16 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">UTU Audio-Visual Material,
-                    <unitdate encodinganalog="MARC 245$f">1958-1975</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">UTU Audio-Visual Material
+                    1958-1975
+            </unittitle><unitdate encodinganalog="MARC 245$f">1958-1975</unitdate>
             <unitid label="Collection Number:">5139 AV</unitid>
             <origination label="Creator:">
                 <corpname encodinganalog="MARC 110" role="creator">United Transportation Union
                     (UTU)</corpname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">9.2 linear ft.</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">9.2 linear ft.</physdesc>
             <physdesc label="Forms of Material:">Audiovisual materials.</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -76,7 +82,7 @@
             </langmaterial>
         <physdesc><extent>9.22 cubic feet</extent></physdesc></did>
         <bioghist encodinganalog="MARC 545">
-            <head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+            
             <p>The United Transportation Union (UTU) is headquartered in Cleveland, Ohio. It is a
                 broad-based, transportation labor union representing about 125,000 active and
                 retired railroad, bus, mass transit, and airline workers in the United States. </p>
@@ -92,13 +98,13 @@
                 1985.</p>
         </bioghist>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <corpname encodinganalog="MARC 610">United Transportation Union </corpname>
             </controlaccess>
             <controlaccess>
-                <head>Subjects: </head>
+                
                 <subject encodinganalog="MARC 650">Transport workers -- Labor unions -- United
                     States </subject>
                 <subject encodinganalog="MARC 650">Wages -- Transport workers-- United States </subject>
@@ -107,55 +113,55 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>UTU Audio-Visual Material #5139 AV. Kheel Center for Labor-Management
                     Documentation and Archives, Cornell University Library.</p>
             </prefercite>
         </descgrp>
         <relatedmaterial>
-            <head id="a6">RELATED MATERIALS</head>
-            <p>Related Collections:<lb/>
+            
+            <p>Related Collections:
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05139.html"> 5139: UTU
-                    Records</extref><lb/>
+                    Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05139mb.html"> 5139 MB:
-                    UTU Memorabilia</extref><lb/>
+                    UTU Memorabilia</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05139p.html"> 5139 P:
-                    UTU Photographs</extref><lb/>
+                    UTU Photographs</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06055.html"> 6055: UTU
-                    Additional Collective Bargaining Agreements</extref><lb/>
+                    Additional Collective Bargaining Agreements</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06023.html"> 6023: UTU
-                    Additional Records</extref><lb/>
+                    Additional Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05164.html"> 5164: UTU
-                    Canada Records</extref><lb/>
+                    Canada Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05622.html"> 5622: UTU
-                    New York State Legislative Board Selected Files</extref><lb/>
+                    New York State Legislative Board Selected Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05711.html"> 5711: UTU
-                    New York State Legislative Director Files</extref><lb/>
+                    New York State Legislative Director Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05589.html"> 5589: UTU
-                    Vice-President's Office George W. Legg Subject Files</extref><lb/>
+                    Vice-President's Office George W. Legg Subject Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05501av.html"> 5501 AV:
-                    UTU. Young Leadership Conference Audio recordings</extref><lb/>
+                    UTU. Young Leadership Conference Audio recordings</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05196.html"> 5196: UTU
-                    Ladies' Auxiliary Iowa Joint Board Minutes</extref><lb/>
+                    Ladies' Auxiliary Iowa Joint Board Minutes</extref>
             </p>
         </relatedmaterial>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="file">
                 <did>
-                    <container type="box">35</container>
+                    <container label="unspecified" type="box">35</container>
                     <unitid label="Item ">5</unitid>
                     <unittitle id="link8">UTU Meeting - 9/13/1985 in Jackson Hole,
                         Wyoming</unittitle>
@@ -167,55 +173,55 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">28</container>
+                    <container label="unspecified" type="box">28</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link9">Operation Red Block</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">29</container>
+                    <container label="unspecified" type="box">29</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link10">Mr. W. Hirst, Int'l. VP BLE Accountability and Action
                         from viewpoint of Union : removed from box 56/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">30</container>
+                    <container label="unspecified" type="box">30</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link11">Mr. W. Williamson, Director Research &amp; Education
                         Dept. BRAC From viewpoint of Union : removed from box 56/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">31</container>
+                    <container label="unspecified" type="box">31</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link12">Mr. C.E. O'Hara, Asst. V.P. "Accountability and Action"
                         viewpoint of management : removed from box 56/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">32</container>
+                    <container label="unspecified" type="box">32</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link13">Mr. Herrel Bird &amp; J. Dargon Closing remarks : removed
                         from box 56/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">33</container>
+                    <container label="unspecified" type="box">33</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link14">Mr. D. Sorenson - Director Employe Assistance Program UP
                         "Action-Brothers" : removed from box 56/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">34</container>
+                    <container label="unspecified" type="box">34</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link15">Introduction Jim Dargon ; Speaker Herrol Bird : removed
                         from box 56/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">35</container>
+                    <container label="unspecified" type="box">35</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link16">Operation Red Block</unittitle></did>
                 <scopecontent>
@@ -225,7 +231,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">35</container>
+                    <container label="unspecified" type="box">35</container>
                     <unitid label="Item ">2</unitid>
                     <unittitle id="link17">Choose UTU 9/13/1988</unittitle>
                     <unitdate normal="1988">1988</unitdate></did>
@@ -236,7 +242,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">4</unitid>
                     <unittitle id="link18">New Technologies - Old Fashioned Solidarity / Elements of
                         a successful United Pilots Strike / Air Line Pilots Association</unittitle></did>
@@ -246,7 +252,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">35</container>
+                    <container label="unspecified" type="box">35</container>
                     <unitid label="Item ">4</unitid>
                     <unittitle id="link19">United Transportation Union - One Direction: ForwardOne
                         Future: Solid Choose UTU</unittitle></did>
@@ -257,14 +263,14 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">25</container>
+                    <container label="unspecified" type="box">25</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link20">Mr. D. Brake, Director Planning &amp; Program Development
                         Secy., &amp; Spec. Serv. UP RR : removed from box 56/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">35</container>
+                    <container label="unspecified" type="box">35</container>
                     <unitid label="Item ">6</unitid>
                     <unittitle id="link21">Yes You Can, So You Can: Training Video</unittitle></did>
                 <scopecontent>
@@ -274,7 +280,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">35</container>
+                    <container label="unspecified" type="box">35</container>
                     <unitid label="Item ">8</unitid>
                     <unittitle id="link22">Rail Views</unittitle></did>
                 <scopecontent>
@@ -284,7 +290,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">43</container>
+                    <container label="unspecified" type="box">43</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link23">Tom Breen, Alcoholic Program, May, 1978 - Thunder Bay,
                         Ontario</unittitle>
@@ -295,7 +301,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">35</container>
+                    <container label="unspecified" type="box">35</container>
                     <unitid label="Item ">10</unitid>
                     <unittitle id="link24">Labor History</unittitle></did>
                 <scopecontent>
@@ -305,7 +311,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">35</container>
+                    <container label="unspecified" type="box">35</container>
                     <unitid label="Item ">11</unitid>
                     <unittitle id="link25">Movin' On</unittitle></did>
                 <scopecontent>
@@ -315,13 +321,13 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">35</container>
+                    <container label="unspecified" type="box">35</container>
                     <unitid label="Item ">12</unitid>
                     <unittitle id="link26">Operation Red Block</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">35</container>
+                    <container label="unspecified" type="box">35</container>
                     <unitid label="Item ">13</unitid>
                     <unittitle id="link27">United Transportation Union - One Direction: ForwardOne
                         Future: SolidChoose UTU</unittitle></did>
@@ -332,7 +338,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link28">Parliamentary Procedures</unittitle></did>
                 <scopecontent>
@@ -341,7 +347,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">2</unitid>
                     <unittitle id="link29">Buck Trent - Promo</unittitle></did>
                 <scopecontent>
@@ -350,7 +356,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">3</unitid>
                     <unittitle id="link30">Labor video bulletin - #22-A</unittitle></did>
                 <scopecontent>
@@ -359,7 +365,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">35</container>
+                    <container label="unspecified" type="box">35</container>
                     <unitid label="Item ">3</unitid>
                     <unittitle id="link31">United Transportation Union - One Direction: ForwardOne
                         Future: Solid - Choose UTU</unittitle></did>
@@ -370,7 +376,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">15</container>
+                    <container label="unspecified" type="box">15</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link32">Mr. D. Brake, Director Planning &amp; Program Development
                         Secy., &amp; Spec. Serv. UP RR : removed from box 54/5139</unittitle>
@@ -378,62 +384,62 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
+                    <container label="unspecified" type="box">3</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link33">Mr. R.E. Boswell, Pres., Kansas Peace Officers Assn. Scy.
                         &amp;; Spec.: removed from box 54/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
+                    <container label="unspecified" type="box">4</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link34">Introduction Jim Dargon ; Speaker Herrol Bird: removed
                         from box 54/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
+                    <container label="unspecified" type="box">5</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link35">J. Dragon, Jr., (Bypass) ; bill Gossert NTSM ; Dargon re:
                         UP rule G Bypass : removed from box 54/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">6</container>
+                    <container label="unspecified" type="box">6</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link36">Mr. D. Sorenson - Director Employe Assistance Program UP
                         "Action-Brothers" : removed from box 54/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">7</container>
+                    <container label="unspecified" type="box">7</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link37">Jack Haley : removed from box 54/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">8</container>
+                    <container label="unspecified" type="box">8</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link38">Mr. W. Hirst, Int'l. VP BLE Accountability and Action
                         from viewpoint of Union : removed from box 54/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">9</container>
+                    <container label="unspecified" type="box">9</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link39">Mr. G.P. Burns, Dir. Of Safety UP RR "Action-Results" :
                         removed from box 54/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">10</container>
+                    <container label="unspecified" type="box">10</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link40">Mr. C.E. O'Hara, Asst. V.P. "Accountability and Action" -
                         Viewpoint of Management : removed from box 54/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">11</container>
+                    <container label="unspecified" type="box">11</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link41">Mr. D. Brake, Directory Planning &amp; Program
                         Development Secy. &amp; Spec. Serv. UP RR : removed from box
@@ -441,7 +447,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">12</container>
+                    <container label="unspecified" type="box">12</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link42">Mr. W. Williamson, Director Research &amp; Education
                         Dept. BRAC from viewpoint of Union : removed from box 54/5139</unittitle>
@@ -449,90 +455,90 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">27</container>
+                    <container label="unspecified" type="box">27</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link43">Mr. D. Brake, Director Planning &amp; Program Development
                         Secy. &amp; Spec. Serv. UP RR : removed from box 56/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">14</container>
+                    <container label="unspecified" type="box">14</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link44">Mr. Herrel Bird &amp; J. Dargon Closing remarks : removed
                         from box 54/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">26</container>
+                    <container label="unspecified" type="box">26</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link45">Mr. D. Collins, Sr., Asst. Gen. Secy. &amp; Treas., UTU ;
                         from viewpoint of Union : removed from box 56/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">16</container>
+                    <container label="unspecified" type="box">16</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link46">J. Dargon - CSX - 1984 - Huntington WVA : removed from
                         box 54/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">17</container>
+                    <container label="unspecified" type="box">17</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link47">Mr. R.E. Boswell, Pres., Kansas Peace Officers Assn.
                         Secy. &amp; Spec. : removed from box 54/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">18</container>
+                    <container label="unspecified" type="box">18</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link48">Mr. D. Collins, Sr., Asst. Gen. Secy. &amp; Treas., UTU -
                         From viewpoint of Union : removed from box 54/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">19</container>
+                    <container label="unspecified" type="box">19</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link49">Mr. D. Brake, Director Planning &amp; Program Development
                         Secy. &amp; Spec. Serv. UP RR : removed from box 54/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">20</container>
+                    <container label="unspecified" type="box">20</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link50">Railroads : removed from box 56/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">21</container>
+                    <container label="unspecified" type="box">21</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link51">Mr. G.P. Burns, Dir. Of Safety Union Pacific Railroad -
                         "Action-Results" : removed from box 56/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">22</container>
+                    <container label="unspecified" type="box">22</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link52">Mr. R.E. Boswell, Pres., Kansas Peace Officers Assn.
                         Secy. &amp; Spec. : removed from box 56/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">23</container>
+                    <container label="unspecified" type="box">23</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link53">Mr. G.P. Gurns, Dir. Of Safety UP RR "Action-Results" :
                         removed from box 56/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">24</container>
+                    <container label="unspecified" type="box">24</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link54">J. Dargon, Jr., (Bypass) ; Bill Gossert NTSB ; Dargon re:
                         UP rule G Bypass : removed from box 56/5139</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">35</container>
+                    <container label="unspecified" type="box">35</container>
                     <unitid label="Item ">9</unitid>
                     <unittitle id="link55">Railroading: A Way of Life</unittitle></did>
                 <scopecontent>
@@ -542,14 +548,14 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">13</container>
+                    <container label="unspecified" type="box">13</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link56">Jack Hailey : removed from box 54/5139</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">41</container>
+                    <container label="unspecified" type="box">41</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link57">Day 2</unittitle></did>
                 <scopecontent>
@@ -558,7 +564,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">37</container>
+                    <container label="unspecified" type="box">37</container>
                     <unitid label="Item ">11</unitid>
                     <unittitle id="link58">Davids Run</unittitle></did>
                 <scopecontent>
@@ -567,7 +573,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">37</container>
+                    <container label="unspecified" type="box">37</container>
                     <unitid label="Item ">12</unitid>
                     <unittitle id="link59">Teamsters on the air VNR: June 24-28, 1991</unittitle>
                     <unitdate normal="1991">1991</unitdate></did>
@@ -577,7 +583,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">37</container>
+                    <container label="unspecified" type="box">37</container>
                     <unitid label="Item ">13</unitid>
                     <unittitle id="link60">Singing for the union</unittitle></did>
                 <scopecontent>
@@ -586,7 +592,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">37</container>
+                    <container label="unspecified" type="box">37</container>
                     <unitid label="Item ">14</unitid>
                     <unittitle id="link61">Unlabeled</unittitle></did>
                 <scopecontent>
@@ -595,7 +601,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">37</container>
+                    <container label="unspecified" type="box">37</container>
                     <unitid label="Item ">15</unitid>
                     <unittitle id="link62">Mr. Don Levine, Acting Chief of Rail
                     Vehicles</unittitle></did>
@@ -605,7 +611,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">37</container>
+                    <container label="unspecified" type="box">37</container>
                     <unitid label="Item ">16</unitid>
                     <unittitle id="link63">Train-to-train Impact tests - Phase I</unittitle></did>
                 <scopecontent>
@@ -614,7 +620,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">5</unitid>
                     <unittitle id="link64">UTU Audition, Mike Kraft, Quaker State</unittitle></did>
                 <scopecontent>
@@ -623,7 +629,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">20</unitid>
                     <unittitle id="link65">Tour of the turbo</unittitle></did>
                 <scopecontent>
@@ -632,7 +638,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">35</container>
+                    <container label="unspecified" type="box">35</container>
                     <unitid label="Item ">7</unitid>
                     <unittitle id="link66">K-4 Train: David Hoover --- 4/29/1987</unittitle>
                     <unitdate normal="1987">1987</unitdate></did>
@@ -643,7 +649,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">38</container>
+                    <container label="unspecified" type="box">38</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link67">Jim Dargon to Dan Collins - Prevention Committee Function
                         - 12/3/1986</unittitle>
@@ -654,7 +660,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">37</container>
+                    <container label="unspecified" type="box">37</container>
                     <unitid label="Item ">10</unitid>
                     <unittitle id="link68">Hyatt Regency Chicago Hotel</unittitle></did>
                 <scopecontent>
@@ -663,7 +669,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">40</container>
+                    <container label="unspecified" type="box">40</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link69">Wed. 6/13 - 3rd day</unittitle></did>
                 <scopecontent>
@@ -672,7 +678,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">37</container>
+                    <container label="unspecified" type="box">37</container>
                     <unitid label="Item ">17</unitid>
                     <unittitle id="link70">Hazardous Material tank car fire studies</unittitle></did>
                 <scopecontent>
@@ -681,7 +687,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">41</container>
+                    <container label="unspecified" type="box">41</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link71">Day 2</unittitle></did>
                 <scopecontent>
@@ -690,7 +696,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">42</container>
+                    <container label="unspecified" type="box">42</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link72">John Aries Film</unittitle></did>
                 <scopecontent>
@@ -699,7 +705,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">42</container>
+                    <container label="unspecified" type="box">42</container>
                     <unitid label="Item ">2</unitid>
                     <unittitle id="link73">Anderson: "Coal Connection" Head</unittitle></did>
                 <scopecontent>
@@ -708,7 +714,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">42</container>
+                    <container label="unspecified" type="box">42</container>
                     <unitid label="Item ">3</unitid>
                     <unittitle id="link74">Fight For My Union</unittitle></did>
                 <scopecontent>
@@ -717,7 +723,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">42</container>
+                    <container label="unspecified" type="box">42</container>
                     <unitid label="Item ">4</unitid>
                     <unittitle id="link75">The Real Issue, the Phony Issue</unittitle></did>
                 <scopecontent>
@@ -726,7 +732,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">42</container>
+                    <container label="unspecified" type="box">42</container>
                     <unitid label="Item ">5</unitid>
                     <unittitle id="link76">It's Time to Say YES to Dukakis</unittitle></did>
                 <scopecontent>
@@ -735,7 +741,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">42</container>
+                    <container label="unspecified" type="box">42</container>
                     <unitid label="Item ">6</unitid>
                     <unittitle id="link77">Union Pacific System : Operation Red Block-Making Rule G
                         Work: LR-55-65</unittitle></did>
@@ -745,7 +751,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">42</container>
+                    <container label="unspecified" type="box">42</container>
                     <unitid label="Item ">7</unitid>
                     <unittitle id="link78">C-Span talk show featuring Karen Ball, Labor Writer for
                         the Associated Press with telephone call-ins regarding the April 17, 1991
@@ -757,7 +763,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">42</container>
+                    <container label="unspecified" type="box">42</container>
                     <unitid label="Item ">8</unitid>
                     <unittitle id="link79">Amalgamation / H.E. Gilbert: 3/15/1958</unittitle>
                     <unitdate normal="1958">1958</unitdate></did>
@@ -767,7 +773,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">42</container>
+                    <container label="unspecified" type="box">42</container>
                     <unitid label="Item ">9</unitid>
                     <unittitle id="link80">Your Life Your Money - 1/23/1958</unittitle>
                     <unitdate normal="1958">1958</unitdate></did>
@@ -777,7 +783,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">39</container>
+                    <container label="unspecified" type="box">39</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link81">Ramona Belford, Okmulgee, OK - Al-Anon Talk, Tyler Texas
                         6/2/1972</unittitle>
@@ -788,7 +794,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">9</unitid>
                     <unittitle id="link82">The Mullet Bay Resort &amp; Casino</unittitle></did>
                 <scopecontent>
@@ -797,7 +803,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">6</unitid>
                     <unittitle id="link83">One Strike and You're Out! / Committee for Workplace
                         Fairness</unittitle></did>
@@ -807,7 +813,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">21</unitid>
                     <unittitle id="link84">Reuther - Face the Nation</unittitle></did>
                 <scopecontent>
@@ -816,7 +822,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">8</unitid>
                     <unittitle id="link85">Highlights of 1989 AFL-CIO Convention</unittitle>
                     <unitdate normal="1989">1989</unitdate></did>
@@ -826,7 +832,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">37</container>
+                    <container label="unspecified" type="box">37</container>
                     <unitid label="Item ">9</unitid>
                     <unittitle id="link86">Glenn Colerider Demo Tape</unittitle></did>
                 <scopecontent>
@@ -835,7 +841,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">10</unitid>
                     <unittitle id="link87">AFL-CIO COPE - The Margin of Victory</unittitle></did>
                 <scopecontent>
@@ -844,7 +850,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">11</unitid>
                     <unittitle id="link88">We Take Care of Our Own : Missouri Pacific Employee's
                         Health Association</unittitle></did>
@@ -854,7 +860,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">12</unitid>
                     <unittitle id="link89">Labor Bulletin - #27-B</unittitle></did>
                 <scopecontent>
@@ -863,7 +869,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">13</unitid>
                     <unittitle id="link90">2nd Quarter 1991 / CSX Transportation Video News,
                         Transportation Dept.</unittitle>
@@ -874,7 +880,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">14</unitid>
                     <unittitle id="link91">Labor Video Bulletin - #24</unittitle></did>
                 <scopecontent>
@@ -883,7 +889,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">15</unitid>
                     <unittitle id="link92">First Quarter - 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate></did>
@@ -893,7 +899,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">16</unitid>
                     <unittitle id="link93">Westin Bonaventure Marketing Video</unittitle></did>
                 <scopecontent>
@@ -902,7 +908,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">17</unitid>
                     <unittitle id="link94">Labor Institute of Public Affairs/AFL-CIO - Solidarity
                         Day '91</unittitle>
@@ -913,7 +919,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">18</unitid>
                     <unittitle id="link95">President Hardin's Speech before the AT &amp; SF, General
                         Committee in Overland Park, Kansas on January 26, 1987</unittitle>
@@ -924,7 +930,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">19</unitid>
                     <unittitle id="link96">Roberts - Rules of Order</unittitle></did>
                 <scopecontent>
@@ -933,7 +939,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">37</container>
+                    <container label="unspecified" type="box">37</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link97">Labor Video Bulletin - #28-B</unittitle></did>
                 <scopecontent>
@@ -942,7 +948,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">37</container>
+                    <container label="unspecified" type="box">37</container>
                     <unitid label="Item ">2</unitid>
                     <unittitle id="link98">Higher Profits Versus Public Safety // Save the
                         Caboose</unittitle></did>
@@ -952,7 +958,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">37</container>
+                    <container label="unspecified" type="box">37</container>
                     <unitid label="Item ">3</unitid>
                     <unittitle id="link99">Unlabeled</unittitle></did>
                 <scopecontent>
@@ -961,7 +967,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">37</container>
+                    <container label="unspecified" type="box">37</container>
                     <unitid label="Item ">4</unitid>
                     <unittitle id="link100">Library History Rediscovered</unittitle></did>
                 <scopecontent>
@@ -970,7 +976,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">37</container>
+                    <container label="unspecified" type="box">37</container>
                     <unitid label="Item ">5</unitid>
                     <unittitle id="link101">Labor video bulletin - #26</unittitle></did>
                 <scopecontent>
@@ -979,7 +985,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">37</container>
+                    <container label="unspecified" type="box">37</container>
                     <unitid label="Item ">6</unitid>
                     <unittitle id="link102">Metropolitan Life Insurance Company "On the question of
                         taxing employer provided benefits"</unittitle></did>
@@ -989,7 +995,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">37</container>
+                    <container label="unspecified" type="box">37</container>
                     <unitid label="Item ">7</unitid>
                     <unittitle id="link103">Trains Safer w/Caboose</unittitle></did>
                 <scopecontent>
@@ -998,7 +1004,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">37</container>
+                    <container label="unspecified" type="box">37</container>
                     <unitid label="Item ">8</unitid>
                     <unittitle id="link104">Labor video bulletin #20</unittitle></did>
                 <scopecontent>
@@ -1007,7 +1013,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">36</container>
+                    <container label="unspecified" type="box">36</container>
                     <unitid label="Item ">7</unitid>
                     <unittitle id="link105">Working in the USA: Know Your Rights - English and
                         Spanish</unittitle></did>
@@ -1017,7 +1023,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link106">Train to train impact test : Test 9</unittitle>
                     <unitdate normal="1975">1975</unitdate></did>
@@ -1027,7 +1033,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link107">Train to Train Impact Test : Test 9</unittitle>
                     <unitdate normal="1975">1975</unitdate></did>
@@ -1037,31 +1043,31 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid label="Item ">2</unitid>
                     <unittitle id="link108">Roll 2 ; Sonochrome 7252</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid label="Item ">3</unitid>
                     <unittitle id="link109">CAM 2</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid label="Item ">4</unitid>
                     <unittitle id="link110">CAM 4</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid label="Item ">5</unitid>
                     <unittitle id="link111">CAM 1</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid label="Item ">6</unitid>
                     <unittitle id="link112">Train to Train Impact Test : Test No. 9</unittitle>
                     <unitdate normal="1975">1975</unitdate></did>
@@ -1071,37 +1077,37 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid label="Item ">7</unitid>
                     <unittitle id="link113">Unlabeled</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid label="Item ">8</unitid>
                     <unittitle id="link114">ROL - CAM</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid label="Item ">9</unitid>
                     <unittitle id="link115">CAM 3</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid label="Item ">10</unitid>
                     <unittitle id="link116">Unlabeled</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid label="Item ">11</unitid>
                     <unittitle id="link117">Unlabeled</unittitle></did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid label="Item ">12</unitid>
                     <unittitle id="link118">Interview by Bob Julian of Dan W. Collins, Asst. General
                         Secretary Treasurer of the United Transportation Union</unittitle>
@@ -1112,7 +1118,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid label="Item ">13</unitid>
                     <unittitle id="link119">Accidents without Firemen on M.E.R.R.</unittitle>
                     <unitdate normal="1966">1966</unitdate></did>
@@ -1122,7 +1128,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid label="Item ">14</unitid>
                     <unittitle id="link120">Amalgamation - H.E. Gilbert</unittitle>
                     <unitdate normal="1958">1958</unitdate></did>
@@ -1132,7 +1138,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid label="Item ">15</unitid>
                     <unittitle id="link121">Tape of crossing accident May 19, 1966 ; Tape of
                         Engineer being attacked on locomotive by Charles Mason, M.E.R.R., July 7,
@@ -1141,7 +1147,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
+                    <container label="unspecified" type="box">1</container>
                     <unitid label="Item ">16</unitid>
                     <unittitle id="link122">Festival - American Folk life - Washington, D.C.: June
                         1975</unittitle>
@@ -1152,7 +1158,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link123">Vice-President Kenneth Levin "Section 6
                         notices"</unittitle></did>

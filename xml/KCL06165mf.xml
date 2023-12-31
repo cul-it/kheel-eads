@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06165mf::Paul Abelson Files on Microfilm.)//EN">KCL06165mf</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06165mf::Paul Abelson Files on Microfilm.)//EN">KCL06165mf</eadid>
     <filedesc>
       <titlestmt>
         <titleproper>Guide to the Paul Abelson Files on Microfilm,<date> 1912-1915</date></titleproper>
@@ -21,17 +21,23 @@
     <profiledesc>
       <creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>February 06, 2013</date></creation>
     </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
     <titlepage>
-      <titleproper>Guide to the Paul Abelson Files on Microfilm<lb/></titleproper>
-      <num type="kidb_reference_number" id="kc318">Collection Number: 6165 mf</num>
+      <titleproper>Guide to the Paul Abelson Files on Microfilm</titleproper>
+      <num id="kc318" type="kidb_reference_number">Collection Number: 6165 mf</num>
       <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
       <list type="deflist">
         <defitem>
           <label>Contact Information:</label>
-          <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-            <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+          <item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183
+            <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
             <extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref>
           </item>
         </defitem>
@@ -49,47 +55,47 @@
   </frontmatter>
   <archdesc level="collection">
     <did>
-      <head id="a1">DESCRIPTIVE SUMMARY</head>
-      <unittitle label="Title:" encodinganalog="MARC 245$a">Paul Abelson Files on Microfilm, <unitdate encodinganalog="MARC 245$f">1912-1915</unitdate>
-      </unittitle>
+      
+      <unittitle encodinganalog="MARC 245$a" label="Title:">Paul Abelson Files on Microfilm, 1912-1915
+      </unittitle><unitdate encodinganalog="MARC 245$f">1912-1915</unitdate>
       <unitid label="Collection Number:">6165 mf</unitid>
-      <origination label="Creator:"><persname encodinganalog="MARC 110" role="creator" normal="Abelson, Paul">Abelson, Paul</persname>
+      <origination label="Creator:"><persname encodinganalog="MARC 110" normal="Abelson, Paul" role="creator">Abelson, Paul</persname>
       </origination>
-      <physdesc label="Quantity:" encodinganalog="MARC 300">1 microfilm reel</physdesc>
+      <physdesc encodinganalog="MARC 300" label="Quantity:">1 microfilm reel</physdesc>
       <physdesc label="Forms of Material:">Minutes, reports, correspondence, microfilm.</physdesc>
       <repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
       <langmaterial label="Language:">Collection material in <language encodinganalog="MARC 041" langcode="eng">English</language>
       </langmaterial>
     <physdesc><extent>0.11 cubic feet</extent></physdesc></did>
     <controlaccess>
-      <head id="a8">SUBJECTS</head>
+      
       <controlaccess>
-        <head>Names: </head>
+        
         <persname encodinganalog="MARC 600">Abelson, Paul </persname>
       </controlaccess>
       <controlaccess>
         </controlaccess>
     </controlaccess>
     <descgrp>
-      <head id="a10">INFORMATION FOR USERS</head>
+      
       <accessrestrict>
-        <head>Access Restrictions:</head>
+        
         <p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
       </accessrestrict>
       <userestrict>
-        <head>Restrictions on Use:</head>
+        
         <p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
       </userestrict>
       <prefercite>
-        <head>Cite As:</head>
+        
         <p>Paul Abelson Files on Microfilm, #6165 mf. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
       </prefercite>
     </descgrp>
     <dsc type="in-depth">
-      <head>CONTAINER LIST</head>
+      
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">1</unitid>
           <unittitle id="link6">Findings and Recommendations of the Council of Conciliation in the Cloak, Suit, and Skirt Industry. </unittitle>
         </did>
@@ -99,7 +105,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">2</unitid>
           <unittitle id="link7">Meetings of Cloak, Suit, and Skirt Manufacturers' Protective Association.</unittitle>
         </did>
@@ -109,7 +115,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">3</unitid>
           <unittitle id="link8">Conference Between the Representatives of the Cloak, Suit, and Skirt Manufacturers' Protective Association, the International Ladies Garment Workers' Unions, and the Joint Board of the Cloak and Skirt Makers' Union.</unittitle>
         </did>
@@ -119,7 +125,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">4</unitid>
           <unittitle id="link9">Meeting of the Board of Grievances of the Cloak, Suit, and Skirt Manufacturers' Protective Association and the Joint Board of the Cloak and Skirt Makers' Unions.</unittitle>
         </did>
@@ -129,7 +135,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">5</unitid>
           <unittitle id="link10">Minutes of the Meeting of the Grievance Board.</unittitle>
         </did>
@@ -139,7 +145,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">6</unitid>
           <unittitle id="link11">Minutes of a Meeting of the Grievance Board.</unittitle>
         </did>
@@ -149,7 +155,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">7</unitid>
           <unittitle id="link12">Letter to the Grievance Board in the Dress and Waist Industry.</unittitle>
         </did>
@@ -159,7 +165,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">8</unitid>
           <unittitle id="link13">Minutes of a Meeting of the Board of Grievances.</unittitle>
         </did>
@@ -169,7 +175,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">9</unitid>
           <unittitle id="link14">Minutes of a Meeting of a Sub-Committee of the Board of Grievances.</unittitle>
         </did>
@@ -179,7 +185,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">10</unitid>
           <unittitle id="link15">Minutes of the Meeting of the Grievance Board.</unittitle>
         </did>
@@ -189,7 +195,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">11</unitid>
           <unittitle id="link16">Minutes of a Meeting of the Grievance Board in the Dress and Waist Industry.</unittitle>
         </did>
@@ -199,7 +205,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">12</unitid>
           <unittitle id="link17">Conference of the Grievance Board in the Dress and Waist Industry.</unittitle>
         </did>
@@ -209,7 +215,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">13</unitid>
           <unittitle id="link18">Minutes of a Conference of the Joint Grievance Board in the Dress and Waist Industry.</unittitle>
         </did>
@@ -219,7 +225,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">14</unitid>
           <unittitle id="link19">Minutes of Committee on Immediate Action in the Matter of Joseph Rosenberg &amp;amp; Company.</unittitle>
         </did>
@@ -229,7 +235,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">15</unitid>
           <unittitle id="link20">Minutes of Committee on Immediate Action in the Matter of Joseph Rosenberg &amp;amp; Company.</unittitle>
         </did>
@@ -239,7 +245,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">16</unitid>
           <unittitle id="link21">Minutes of Committee on Immediate Action in the Matter of Joseph Rosenberg &amp;amp; Company.</unittitle>
         </did>
@@ -249,7 +255,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">17</unitid>
           <unittitle id="link22">Report of the Summary Up By the Chief Clerks of the Grievance Board in the Dress and Waist Industry.</unittitle>
         </did>
@@ -259,7 +265,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">18</unitid>
           <unittitle id="link23">Meeting of the Board of Arbitrators Selected by the Representatives of the Cloak &amp;amp; Skirt Makers' Union of New York and the Cloak, Suit, &amp;amp; Skirt Manufacturers' Protective Association.</unittitle>
         </did>
@@ -269,7 +275,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">19</unitid>
           <unittitle id="link24">Adjourned Session of the Board of Arbitrators Selected by the Representatives of the Cloak &amp;amp; Skirt Makers' Union of New York and the Cloak, Suit, &amp;amp; Skirt Manufacturers' Protective Association.</unittitle>
         </did>
@@ -279,7 +285,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">20</unitid>
           <unittitle id="link25">Meeting of the Board of Grievances, Cloak, Suit, &amp;amp; Skirt Industry.</unittitle>
         </did>
@@ -289,7 +295,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">21</unitid>
           <unittitle id="link26">Special Meeting of the Board of Grievances of the Cloak, Suit, &amp;amp; Skirt Manufacturers' Protective Association and the Joint Board of the Cloak and Skirt Makers' Union.</unittitle>
         </did>
@@ -299,7 +305,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">22</unitid>
           <unittitle id="link27">Conference Between Local #25 of the ILGWU and the Dress and Waist Manufacturers' Association.</unittitle>
         </did>
@@ -309,7 +315,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">23</unitid>
           <unittitle id="link28">A Special Meeting of a Committee to Investigate all the Grievances of the Firm and the Workers of Joseph Rosenberg &amp;amp; Company.</unittitle>
         </did>
@@ -319,7 +325,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">24</unitid>
           <unittitle id="link29">Minutes of a Special Investigation by the Committee on Immediate Action.</unittitle>
         </did>
@@ -329,7 +335,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">25</unitid>
           <unittitle id="link30">Minutes of Special Meeting of the Grievances Board in the Waist and Dress Industry.</unittitle>
         </did>
@@ -339,7 +345,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">26</unitid>
           <unittitle id="link31">Minutes of the Meeting of the Board of Grievances in the Dress and Waist Industry.</unittitle>
         </did>
@@ -349,7 +355,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">27</unitid>
           <unittitle id="link32">Minutes of the Meeting of the Board of Grievances in the Dress and Waist Industry.</unittitle>
         </did>
@@ -359,7 +365,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">28</unitid>
           <unittitle id="link33">Minutes of the Meeting of the Board of Grievances in the Waist and Dress Industry. </unittitle>
         </did>
@@ -369,7 +375,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">29</unitid>
           <unittitle id="link34">Conference Between Local #25 ILGWU and the Dress and Waist Manufacturers' Association.</unittitle>
         </did>
@@ -379,7 +385,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">30</unitid>
           <unittitle id="link35">Minutes of an Investigation in the Matter of Joseph Rosenberg &amp;amp; Company.</unittitle>
         </did>
@@ -389,7 +395,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">31</unitid>
           <unittitle id="link36">Minutes of Committee on Immediate Action.</unittitle>
         </did>
@@ -399,7 +405,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">32</unitid>
           <unittitle id="link37">Minutes of Committee on Immediate Action in the Matter of Joseph Rosenberg &amp;amp; Company.</unittitle>
         </did>
@@ -409,7 +415,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">33</unitid>
           <unittitle id="link38">Minutes of Committee on Immediate Action in the Matter of Joseph Rosenberg &amp;amp; Company. </unittitle>
         </did>
@@ -419,7 +425,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">34</unitid>
           <unittitle id="link39">Minutes of Committee on Immediate Action in the Matter of Joseph Rosenberg &amp;amp; Company. </unittitle>
         </did>
@@ -429,7 +435,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">35</unitid>
           <unittitle id="link40">Report of the Summing Up by the Grief Clerks of the Grievance Board in the Dress and Waist Industry.</unittitle>
         </did>
@@ -439,7 +445,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">36</unitid>
           <unittitle id="link41">Minutes of Committee on Immediate Action in the Matter of Joseph Rosenberg &amp;amp; Company. </unittitle>
         </did>
@@ -449,7 +455,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">37</unitid>
           <unittitle id="link42">Conference in the Case of Joseph Rosenberg &amp;amp; Company.</unittitle>
         </did>
@@ -459,7 +465,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">38</unitid>
           <unittitle id="link43">Minutes of Committee on Immediate Action in the Matter of Joseph Rosenberg &amp;amp; Company.</unittitle>
         </did>
@@ -469,7 +475,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">39</unitid>
           <unittitle id="link44">Cloaks &amp;amp; Suits Protocol Decisions Committees on Immediate Action.</unittitle>
         </did>
@@ -479,7 +485,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">40</unitid>
           <unittitle id="link45">Cases # 6-7, #11, #13-30, #32.</unittitle>
         </did>
@@ -489,7 +495,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">41</unitid>
           <unittitle id="link46">Cases #26B-C, #34-35, #37-44, #50-53.</unittitle>
         </did>
@@ -499,7 +505,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">42</unitid>
           <unittitle id="link47">Cases #55, #57-62, #64, #66, #68-70, #77-78, #86-89, #91, #93, #95-97, #102, #104-105, #109-113, #118, #125, #127-128, #131-135, #140-141.</unittitle>
         </did>
@@ -509,7 +515,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">43</unitid>
           <unittitle id="link48">Cases #142, #146-147, #153-155, #157-158, #164-170, #173-174, #180-185, #189, #197-198.</unittitle>
         </did>
@@ -519,7 +525,7 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="reel">1</container>
+          <container label="unspecified" type="reel">1</container>
           <unitid label="item ">44</unitid>
           <unittitle id="link49">Cases #191, #193-194, #196, #199-201, #206, #209-212, #217-218, #222-224, #232-233, #243-245, #247, #253, #255, #258-259, #262, #267, #268-275, #283-285, #286, #288-289, #291, #293-294, #298, #299.</unittitle>
         </did>

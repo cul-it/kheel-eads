@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05692::Abraham Weiss Research Files.)//EN">KCL05692</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05692::Abraham Weiss Research Files.)//EN">KCL05692</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the Abraham Weiss Research Files<date>
@@ -24,20 +24,26 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>March 27,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
-            <titleproper>Guide to the Abraham Weiss Research Files<lb/></titleproper>
+            <titleproper>Guide to the Abraham Weiss Research Files</titleproper>
             <num>Collection Number: 5692</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -56,15 +62,15 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">Abraham Weiss Research Files,
-                    <unitdate encodinganalog="MARC 245$f">1937-1978</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">Abraham Weiss Research Files
+                    1937-1978
+            </unittitle><unitdate encodinganalog="MARC 245$f">1937-1978</unitdate>
             <unitid label="Collection Number:">5692</unitid>
             <origination label="Creator:">
                 <persname encodinganalog="MARC 100" role="creator">Weiss, Abraham</persname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">8 linear ft.</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">8 linear ft.</physdesc>
             <physdesc label="Forms of Material:">Records (documents).</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -75,13 +81,13 @@
             </langmaterial>
         <physdesc><extent>8 cubic feet</extent></physdesc></did>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <persname encodinganalog="MARC 600">Weiss, Abraham, 1913- </persname>
             </controlaccess>
             <controlaccess>
-                <head>Subjects: </head>
+                
                 <subject encodinganalog="MARC 650">Economic history -- Study and teaching.
                 </subject>
             </controlaccess>
@@ -89,73 +95,73 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>Abraham Weiss Research Files #5692. Kheel Center for Labor-Management
                     Documentation and Archives, Cornell University Library.</p>
             </prefercite>
         </descgrp>
         <relatedmaterial>
-            <head id="a6">RELATED MATERIALS</head>
-            <p>Related Collections:<lb/>
+            
+            <p>Related Collections:
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05266.html"> 5266:
-                    League for Industrial Democracy Pamphlets</extref><lb/>
+                    League for Industrial Democracy Pamphlets</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-052.html">
-                    5780/052: ILGWU Gus Tyler Papers</extref><lb/>
+                    5780/052: ILGWU Gus Tyler Papers</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06046.html"> 6046:
-                    Archives Union File (AUF)</extref><lb/>
+                    Archives Union File (AUF)</extref>
             </p>
         </relatedmaterial>
         <arrangement>
-            <head>SERIES LIST</head>
+            
             <p>
-                <emph render="bold"><ref linktype="simple" target="link8" show="replace" actuate="onrequest">Series I: Weiss. Personal Files</ref></emph>
+                <emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link8">Series I: Weiss. Personal Files</ref></emph>
             </p>
             <p>
-                <emph render="bold"><ref linktype="simple" target="link12" show="replace" actuate="onrequest">Series II: Subject/Research Files</ref></emph>
+                <emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link12">Series II: Subject/Research Files</ref></emph>
             </p>
             <p>
-                <emph render="bold"><ref linktype="simple" target="link98" show="replace" actuate="onrequest">Series III: Teamsters - IBT Files</ref></emph>
+                <emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link98">Series III: Teamsters - IBT Files</ref></emph>
             </p>
             <p>
-                <emph render="bold"><ref linktype="simple" target="link141" show="replace" actuate="onrequest">Series IV: Miscellaneous</ref></emph>
+                <emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link141">Series IV: Miscellaneous</ref></emph>
             </p>
         </arrangement>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="series">
                 <did>
                     <unittitle id="link8">Series Series I: Weiss. Personal Files</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">1-3</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">1-3</container>
                         <unittitle id="link9">Personal</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link10">Photographs</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link11">Speeches</unittitle>
                     </did>
                     <scopecontent>
@@ -169,597 +175,597 @@
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link13">Agreement-Duration</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link14">Airline</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link15">American Arbitration Assn.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">9-11</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">9-11</container>
                         <unittitle id="link16">Arbitration</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link17">Association Bargaining</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">13-14</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">13-14</container>
                         <unittitle id="link18">Automation</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link19">Automobile</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link20">Blue-Collar Workers</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link21">Brotherhood of Locomotive Engineers</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">18</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">18</container>
                         <unittitle id="link22">Brotherhood of Railway Carmen</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">19</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">19</container>
                         <unittitle id="link23">Bonus</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link24">Certainteed Corp.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link25">Chesapeake &amp; Potomoc Telephone</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link26">Collective Bargaining</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link27">Columbia University</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link28">Conglomerates</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link29">Construction</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link30">Davis-Bacon</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">8-9</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">8-9</container>
                         <unittitle id="link31">Discharge</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link32">Discipline</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link33">Discrimination</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">12-15</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">12-15</container>
                         <unittitle id="link34">District of Columbia Public Schools</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link35">Don's Diner</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link36">Employment and Unemployment Measurement</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">18</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">18</container>
                         <unittitle id="link37">Energy</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">19</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">19</container>
                         <unittitle id="link38">Federal Mediation and Conciliation
                             Service</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">20</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">20</container>
                         <unittitle id="link39">Fringe Benefits</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">21</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">21</container>
                         <unittitle id="link40">Health and Welfare</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">22</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">22</container>
                         <unittitle id="link41">Health Insurance</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">23-26</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">23-26</container>
                         <unittitle id="link42">Hours</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">27</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">27</container>
                         <unittitle id="link43">Income Distribution</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">28</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">28</container>
                         <unittitle id="link44">Indexation</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">29</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">29</container>
                         <unittitle id="link45">Inflation</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">30</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">30</container>
                         <unittitle id="link46">Job Enrichment</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">31</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">31</container>
                         <unittitle id="link47">Job Evaluation</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">32</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">32</container>
                         <unittitle id="link48">Labor History</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">33</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">33</container>
                         <unittitle id="link49">Labor Turnover</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">34</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">34</container>
                         <unittitle id="link50">Leave of Absence</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">35</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">35</container>
                         <unittitle id="link51">Lie Detectors</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link52">Maryland Specialty Wire</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link53">Minimum Wage</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link54">Monopoly</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link55">Multinationals</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link56">Nathan</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link57">National Academy of Arbitrators</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link58">National Archives</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link59">National Education Assn.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link60">National War Labor Board</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link61">Negroes</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link62">NJ State Board of Mediation</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link63">Older Workers</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link64">Pending Cases</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">14-19</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">14-19</container>
                         <unittitle id="link65">Pensions</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">20-22</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">20-22</container>
                         <unittitle id="link66">Productivity</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">23</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">23</container>
                         <unittitle id="link67">Profit-Sharing</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">24</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">24</container>
                         <unittitle id="link68">Quality of Work</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">25</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">25</container>
                         <unittitle id="link69">Railroad</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">26</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">26</container>
                         <unittitle id="link70">Right-to-Work Laws</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">27</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">27</container>
                         <unittitle id="link71">Rubber Manufacturers Assn.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">28</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">28</container>
                         <unittitle id="link72">Scanlon Plan</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">29</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">29</container>
                         <unittitle id="link73">Seaboard World Airlines</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">30</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">30</container>
                         <unittitle id="link74">Social Security Admin.</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">31</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">31</container>
                         <unittitle id="link75">Structural Unemployment</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link76">Tests</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link77">Trailways Terminal</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link78">Unemployed - Composition</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link79">Unemployment</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link80">Unemployment - Cures</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link81">Unemployment-Inflation Trade-off</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link82">Union Structure</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link83">Unions</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link84">Wage Incentives</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link85">Wage Rates</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link86">Wage Reopening</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link87">Wages - General</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link88">Wages - Job Differentials</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link89">Wages - Job Evaluation</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">15-16</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">15-16</container>
                         <unittitle id="link90">Wages - Occupational Expenses</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link91">Wages - Price Control</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">18</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">18</container>
                         <unittitle id="link92">Wages-Substandards of Living</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">19</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">19</container>
                         <unittitle id="link93">Wages-Unions-Non-Union</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">20</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">20</container>
                         <unittitle id="link94">Washington Teachers Union</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">21</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">21</container>
                         <unittitle id="link95">Workmen's Compensation</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">22</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">22</container>
                         <unittitle id="link96">Young Workers</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">23</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">23</container>
                         <unittitle id="link97">Youth</unittitle>
                     </did>
                 </c02>
@@ -770,15 +776,15 @@
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link99">Acme</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link100">Addresses (by Weiss)</unittitle>
                     </did>
                     <scopecontent>
@@ -787,282 +793,282 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link101">Anti-Trust Laws</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link102">Apprentices and Learners</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">5-6</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">5-6</container>
                         <unittitle id="link103">Arbitration</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link104">Collective Bargaining</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">8-9</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">8-9</container>
                         <unittitle id="link105">Correspondence - General</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link106">Cost of Union Demands</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link107">Discharge</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link108">Discipline</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link109">Dismissal Pay</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link110">Financial Analysis</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">15-16</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">15-16</container>
                         <unittitle id="link111">Fringes</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link112">Grievances</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">18-23</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">18-23</container>
                         <unittitle id="link113">Health and Welfare</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">24</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">24</container>
                         <unittitle id="link114">Hoffa, James (addresses ,statements,
                             articles)</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">25-27</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">25-27</container>
                         <unittitle id="link115">Holidays</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">28</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">28</container>
                         <unittitle id="link116">Hours</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">29-30</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">29-30</container>
                         <unittitle id="link117">Job Security</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">31</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">31</container>
                         <unittitle id="link118">Labor Cost</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">32</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">32</container>
                         <unittitle id="link119">Labor Dispute - Legislation</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">33</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">33</container>
                         <unittitle id="link120">Labor History</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">34</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">34</container>
                         <unittitle id="link121">Multiemployers</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">35</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">35</container>
                         <unittitle id="link122">Negroes</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link123">Pensions</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">2</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">2</container>
                         <unittitle id="link124">Prevailing Wages</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link125">Productivity</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link126">Profits</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link127">Public Employees</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link128">Recall</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">7</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">7</container>
                         <unittitle id="link129">Safety</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link130">Seniority</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link131">Social Security</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link132">State, County, Municipal</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link133">Strike Legislation</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link134">Tripartitism</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">13-19</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">13-19</container>
                         <unittitle id="link135">Trucking</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">20</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">20</container>
                         <unittitle id="link136">Union Security</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">21</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">21</container>
                         <unittitle id="link137">Unions</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">22-26</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">22-26</container>
                         <unittitle id="link138">Wages</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">27</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">27</container>
                         <unittitle id="link139">Work Stoppage</unittitle>
                     </did>
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link140">Includes Teamsters Publications</unittitle>
                     </did>
                 </c02>
@@ -1073,8 +1079,8 @@
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link142">Miscellaneous arbitration decisions - in order by
                             subject (other than Weiss decisions)</unittitle>
                     </did>

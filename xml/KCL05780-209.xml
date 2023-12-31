@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-209::ILGWU Research Department Records.)//EN">KCL05780-209</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-209::ILGWU Research Department Records.)//EN">KCL05780-209</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the ILGWU Research Department Records<date>
@@ -24,20 +24,26 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>April 16,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
-            <titleproper>Guide to the ILGWU Research Department Records<lb/></titleproper>
+            <titleproper>Guide to the ILGWU Research Department Records</titleproper>
             <num>Collection Number: 5780/209</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -56,16 +62,16 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">ILGWU Research Department Records,
-                    <unitdate encodinganalog="MARC 245$f">1945-1995</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">ILGWU Research Department Records
+                    1945-1995
+            </unittitle><unitdate encodinganalog="MARC 245$f">1945-1995</unitdate>
             <unitid label="Collection Number:">5780/209</unitid>
             <origination label="Creator:">
                 <corpname encodinganalog="MARC 110" role="creator">International Ladies' Garment
                     Workers' Union (ILGWU)</corpname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">9.5 linear ft.</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">9.5 linear ft.</physdesc>
             <physdesc label="Forms of Material:">Records (documents).</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -81,7 +87,7 @@
             </langmaterial>
         <physdesc><extent>9.5 cubic feet</extent></physdesc></did>
         <bioghist encodinganalog="MARC 545">
-            <head id="a2" altrender="organizational history">ILGWU ORGANIZATIONAL HISTORY</head>
+            
             <p>The International Ladies' Garment Workers' Union was once one of the largest labor
                 unions in the United States founded in 1900 by local union delegates representing
                 about 2,000 members in cities in the northeastern United States. It was one of the
@@ -101,7 +107,7 @@
                 in 1969.</p>
         </bioghist>
         <bioghist encodinganalog="MARC 545">
-            <head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+            
             <p>Formed in 1937, the Research Department of the International Ladies' Garment Workers'
                 Union (ILGWU) supported the administrative operations of the Union and coordinated
                 the ILGWU's investigative operations. It provided union leaders with information on
@@ -127,7 +133,7 @@
                 Hopkins University. He died in New York City in 1985.</p>
         </bioghist>
         <scopecontent encodinganalog="MARC 520">
-            <head id="a3">COLLECTION DESCRIPTION</head>
+            
             <p>The Research Department records reflect the department's varied functions,
                 documenting its role in gathering and analyzing information for international and
                 local union leadership, representing the union before government and labor
@@ -167,9 +173,9 @@
                 letters between 1964 and 1991.</p>
         </scopecontent>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <corpname encodinganalog="MARC 610">Amalgamated Clothing and Textile Workers Union </corpname>
                 <corpname encodinganalog="MARC 610">Amalgamated Clothing Workers of America </corpname>
                 <corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union </corpname>
@@ -181,7 +187,7 @@
                 <corpname encodinganalog="MARC 610">UNITE HERE (Organization) </corpname>
             </controlaccess>
             <controlaccess>
-                <head>Subjects: </head>
+                
                 <subject encodinganalog="MARC 650">Textile workers--Labor unions </subject>
                 <subject encodinganalog="MARC 650">Clothing workers--Labor unions </subject>
                 <subject encodinganalog="MARC 650">Collective bargaining--Clothing industry </subject>
@@ -192,66 +198,66 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>ILGWU Research Department Records #5780/209. Kheel Center for Labor-Management
                     Documentation and Archives, Cornell University Library.</p>
             </prefercite>
         </descgrp>
         <relatedmaterial>
-            <head id="a6">RELATED MATERIALS</head>
-            <p>Related Collections:<lb/>
+            
+            <p>Related Collections:
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780.html"> 5780:
-                    ILGWU records</extref><lb/>
+                    ILGWU records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-045.html">
-                    5780/045: ILGWU Research Department Records</extref><lb/>
+                    5780/045: ILGWU Research Department Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-056.html">
-                    5780/056: ILGWU Research Department Collected Documents</extref><lb/>
+                    5780/056: ILGWU Research Department Collected Documents</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-078.html">
-                    5780/078: ILGWU Research Department Reports</extref><lb/>
+                    5780/078: ILGWU Research Department Reports</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-105.html">
-                    5780/105: ILGWU Research Department Records</extref><lb/>
+                    5780/105: ILGWU Research Department Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-123.html">
-                    5780/123: ILGWU Research Department Records</extref><lb/>
+                    5780/123: ILGWU Research Department Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-168.html">
-                    5780/168: ILGWU Research Department Records</extref><lb/>
+                    5780/168: ILGWU Research Department Records</extref>
             </p>
         </relatedmaterial>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link8">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
-                    <unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate>
+                    <unitdate normal="1965/1968" type="inclusive">1965-1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link9">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
-                    <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
+                    <unitdate normal="1969/1970" type="inclusive">1969-1970</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link10">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1975">1975</unitdate>
@@ -259,8 +265,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link11">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1976">1976</unitdate>
@@ -268,8 +274,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link12">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1977">1977</unitdate>
@@ -277,8 +283,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link13">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1978">1978</unitdate>
@@ -286,8 +292,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link14">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1979">1979</unitdate>
@@ -295,8 +301,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link15">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1980">1980</unitdate>
@@ -304,8 +310,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link16">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1981">1981</unitdate>
@@ -313,8 +319,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link17">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1982">1982</unitdate>
@@ -322,8 +328,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link18">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1983">1983</unitdate>
@@ -331,8 +337,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link19">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1983">1983</unitdate>
@@ -340,8 +346,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link20">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1984">1984</unitdate>
@@ -349,8 +355,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link21">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1984">1984</unitdate>
@@ -358,8 +364,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link22">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1985">1985</unitdate>
@@ -367,8 +373,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link23">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1985">1985</unitdate>
@@ -376,8 +382,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link24">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1986">1986</unitdate>
@@ -385,8 +391,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link25">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1987">1987</unitdate>
@@ -394,8 +400,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link26">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1987">1987</unitdate>
@@ -403,8 +409,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link27">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1988">1988</unitdate>
@@ -412,8 +418,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link28">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1989">1989</unitdate>
@@ -421,8 +427,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link29">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1990">1990</unitdate>
@@ -430,8 +436,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link30">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1991">1991</unitdate>
@@ -439,8 +445,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link31">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1992">1992</unitdate>
@@ -448,8 +454,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link32">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1993">1993</unitdate>
@@ -457,8 +463,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link33">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1994">1994</unitdate>
@@ -466,8 +472,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link34">Statements filed by the International Ladies' Garment
                         Workers' Union (ILGWU)</unittitle>
                     <unitdate normal="1995">1995</unitdate>
@@ -475,93 +481,93 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link35">Correspondence, A-AL</unittitle>
-                    <unitdate type="inclusive" normal="1973/1984">1973-1984</unitdate>
+                    <unitdate normal="1973/1984" type="inclusive">1973-1984</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link36">Correspondence, AM-AP</unittitle>
-                    <unitdate type="inclusive" normal="1971/1991">1971-1991</unitdate>
+                    <unitdate normal="1971/1991" type="inclusive">1971-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link37">Correspondence, AM-AP</unittitle>
-                    <unitdate type="inclusive" normal="1971/1991">1971-1991</unitdate>
+                    <unitdate normal="1971/1991" type="inclusive">1971-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link38">Correspondence, AQ-AZ</unittitle>
-                    <unitdate type="inclusive" normal="1971/1986">1971-1986</unitdate>
+                    <unitdate normal="1971/1986" type="inclusive">1971-1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link39">Correspondence, AQ-AZ</unittitle>
-                    <unitdate type="inclusive" normal="1971/1986">1971-1986</unitdate>
+                    <unitdate normal="1971/1986" type="inclusive">1971-1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link40">Correspondence, Amalgamated Clothing Workers of
                         America</unittitle>
-                    <unitdate type="inclusive" normal="1967/1971">1967-1971</unitdate>
+                    <unitdate normal="1967/1971" type="inclusive">1967-1971</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link41">Correspondence, Amalgamated Clothing Workers of
                         America</unittitle>
-                    <unitdate type="inclusive" normal="1967/1971">1967-1971</unitdate>
+                    <unitdate normal="1967/1971" type="inclusive">1967-1971</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link42">Correspondence, Amalgamated Clothing Workers of
                         America</unittitle>
-                    <unitdate type="inclusive" normal="1972/1975">1972-1975</unitdate>
+                    <unitdate normal="1972/1975" type="inclusive">1972-1975</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link43">Correspondence, Amalgamated Clothing Workers of
                         America</unittitle>
-                    <unitdate type="inclusive" normal="1972/1975">1972-1975</unitdate>
+                    <unitdate normal="1972/1975" type="inclusive">1972-1975</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link44">Correspondence, Amalgamated Clothing and Textile Workers
                         Union</unittitle>
-                    <unitdate type="inclusive" normal="1976/1988">1976-1988</unitdate>
+                    <unitdate normal="1976/1988" type="inclusive">1976-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link45">Correspondence, American Federation of Labor-Congress of
                         Industrial Organizations (AFL-CIO) Executive Council matters</unittitle>
                     <unitdate normal="1969">1969</unitdate>
@@ -569,612 +575,612 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link46">Correspondence, American Federation of Labor-Congress of
                         Industrial Organizations (AFL-CIO)</unittitle>
-                    <unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+                    <unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link47">Correspondence, American Federation of Labor-Congress of
                         Industrial Organizations (AFL-CIO)</unittitle>
-                    <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate>
+                    <unitdate normal="1971/1973" type="inclusive">1971-1973</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link48">Correspondence, American Federation of Labor-Congress of
                         Industrial Organizations (AFL-CIO)</unittitle>
-                    <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate>
+                    <unitdate normal="1971/1973" type="inclusive">1971-1973</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link49">Correspondence, American Federation of Labor-Congress of
                         Industrial Organizations (AFL-CIO)</unittitle>
-                    <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate>
+                    <unitdate normal="1974/1976" type="inclusive">1974-1976</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">22</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">22</container>
                     <unittitle id="link50">Correspondence, American Federation of Labor-Congress of
                         Industrial Organizations (AFL-CIO)</unittitle>
-                    <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate>
+                    <unitdate normal="1974/1976" type="inclusive">1974-1976</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">23</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">23</container>
                     <unittitle id="link51">Correspondence, American Federation of Labor-Congress of
                         Industrial Organizations (AFL-CIO)</unittitle>
-                    <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate>
+                    <unitdate normal="1977/1978" type="inclusive">1977-1978</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">24</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">24</container>
                     <unittitle id="link52">Correspondence, American Federation of Labor-Congress of
                         Industrial Organizations (AFL-CIO)</unittitle>
-                    <unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate>
+                    <unitdate normal="1977/1978" type="inclusive">1977-1978</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">25</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">25</container>
                     <unittitle id="link53">Correspondence, American Federation of Labor-Congress of
                         Industrial Organizations (AFL-CIO)</unittitle>
-                    <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate>
+                    <unitdate normal="1979/1980" type="inclusive">1979-1980</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">26</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">26</container>
                     <unittitle id="link54">Correspondence, American Federation of Labor-Congress of
                         Industrial Organizations (AFL-CIO)</unittitle>
-                    <unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate>
+                    <unitdate normal="1979/1980" type="inclusive">1979-1980</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">27</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">27</container>
                     <unittitle id="link55">Correspondence, American Federation of Labor-Congress of
                         Industrial Organizations (AFL-CIO)</unittitle>
-                    <unitdate type="inclusive" normal="1981/1988">1981-1988</unitdate>
+                    <unitdate normal="1981/1988" type="inclusive">1981-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">28</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">28</container>
                     <unittitle id="link56">Correspondence, American Federation of Labor-Congress of
                         Industrial Organizations (AFL-CIO) Industrial Union Department</unittitle>
-                    <unitdate type="inclusive" normal="1970/1985">1970-1985</unitdate>
+                    <unitdate normal="1970/1985" type="inclusive">1970-1985</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">29</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">29</container>
                     <unittitle id="link57">Correspondence, American Statistical
                         Association</unittitle>
-                    <unitdate type="inclusive" normal="1970/1978">1970-1978</unitdate>
+                    <unitdate normal="1970/1978" type="inclusive">1970-1978</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">30</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">30</container>
                     <unittitle id="link58">Correspondence, American Textile Manufacturers
                         Institute</unittitle>
-                    <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate>
+                    <unitdate normal="1970/1974" type="inclusive">1970-1974</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">31</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">31</container>
                     <unittitle id="link59">Correspondence, American Vocational
                         Association</unittitle>
-                    <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+                    <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">32</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">32</container>
                     <unittitle id="link60">Correspondence, B-BEL</unittitle>
-                    <unitdate type="inclusive" normal="1970/1987">1970-1987</unitdate>
+                    <unitdate normal="1970/1987" type="inclusive">1970-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">33</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">33</container>
                     <unittitle id="link61">Correspondence, BEM-BN</unittitle>
-                    <unitdate type="inclusive" normal="1972/1984">1972-1984</unitdate>
+                    <unitdate normal="1972/1984" type="inclusive">1972-1984</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">34</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">34</container>
                     <unittitle id="link62">Correspondence, BO-BZ</unittitle>
-                    <unitdate type="inclusive" normal="1970/1983">1970-1983</unitdate>
+                    <unitdate normal="1970/1983" type="inclusive">1970-1983</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">35</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">35</container>
                     <unittitle id="link63">Correspondence, Bills</unittitle>
-                    <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate>
+                    <unitdate normal="1994/1995" type="inclusive">1994-1995</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link64">Correspondence, C-CI</unittitle>
-                    <unitdate type="inclusive" normal="1973/1991">1973-1991</unitdate>
+                    <unitdate normal="1973/1991" type="inclusive">1973-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link65">Correspondence, CJ-CZ</unittitle>
-                    <unitdate type="inclusive" normal="1970/1993">1970-1993</unitdate>
+                    <unitdate normal="1970/1993" type="inclusive">1970-1993</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link66">Correspondence, Canada</unittitle>
-                    <unitdate type="inclusive" normal="1970/1980">1970-1980</unitdate>
+                    <unitdate normal="1970/1980" type="inclusive">1970-1980</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link67">Correspondence, Columbia University</unittitle>
-                    <unitdate type="inclusive" normal="1970/1979">1970-1979</unitdate>
+                    <unitdate normal="1970/1979" type="inclusive">1970-1979</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link68">Correspondence, Cornell University</unittitle>
-                    <unitdate type="inclusive" normal="1971/1977">1971-1977</unitdate>
+                    <unitdate normal="1971/1977" type="inclusive">1971-1977</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link69">Correspondence, D</unittitle>
-                    <unitdate type="inclusive" normal="1970/1992">1970-1992</unitdate>
+                    <unitdate normal="1970/1992" type="inclusive">1970-1992</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link70">Correspondence, D</unittitle>
-                    <unitdate type="inclusive" normal="1970/1992">1970-1992</unitdate>
+                    <unitdate normal="1970/1992" type="inclusive">1970-1992</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link71">Correspondence, E</unittitle>
-                    <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+                    <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link72">Correspondence, England</unittitle>
-                    <unitdate type="inclusive" normal="1971/1987">1971-1987</unitdate>
+                    <unitdate normal="1971/1987" type="inclusive">1971-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link73">Correspondence, European Productivity Agency</unittitle>
                     <unitdate normal="1960">1960</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link74">Correspondence, F</unittitle>
-                    <unitdate type="inclusive" normal="1970/1988">1970-1988</unitdate>
+                    <unitdate normal="1970/1988" type="inclusive">1970-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link75">Correspondence, Federation of Apparel
                         Manufacturers</unittitle>
-                    <unitdate type="inclusive" normal="1978/1986">1978-1986</unitdate>
+                    <unitdate normal="1978/1986" type="inclusive">1978-1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link76">Correspondence, Ferster, Herbert (Drechsler and
                         Leff)</unittitle>
-                    <unitdate type="inclusive" normal="1970/1974">1970-1974</unitdate>
+                    <unitdate normal="1970/1974" type="inclusive">1970-1974</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link77">Correspondence, foreign unions</unittitle>
-                    <unitdate type="inclusive" normal="1967/1993">1967-1993</unitdate>
+                    <unitdate normal="1967/1993" type="inclusive">1967-1993</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link78">Correspondence, G</unittitle>
-                    <unitdate type="inclusive" normal="1957/1985">1957-1985</unitdate>
+                    <unitdate normal="1957/1985" type="inclusive">1957-1985</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link79">Correspondence, Gewerkschaft Textile-Bekleidung
                         (Dusseldorf, Germany)</unittitle>
-                    <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
+                    <unitdate normal="1973/1974" type="inclusive">1973-1974</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link80">Correspondence, H</unittitle>
-                    <unitdate type="inclusive" normal="1967/1993">1967-1993</unitdate>
+                    <unitdate normal="1967/1993" type="inclusive">1967-1993</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link81">Correspondence, Harvard University</unittitle>
-                    <unitdate type="inclusive" normal="1977/1988">1977-1988</unitdate>
+                    <unitdate normal="1977/1988" type="inclusive">1977-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link82">Correspondence, International Brotherhood of
                         Painters</unittitle>
-                    <unitdate type="inclusive" normal="1972/1978">1972-1978</unitdate>
+                    <unitdate normal="1972/1978" type="inclusive">1972-1978</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link83">Correspondence, International Brotherhood of
                         Teamsters</unittitle>
-                    <unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate>
+                    <unitdate normal="1970/1972" type="inclusive">1970-1972</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link84">Correspondence, International Labor Office, Textile
                         Committee</unittitle>
-                    <unitdate type="inclusive" normal="1960/1980">1960-1980</unitdate>
+                    <unitdate normal="1960/1980" type="inclusive">1960-1980</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">22</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">22</container>
                     <unittitle id="link85">Correspondence, International Textile, Garment and
                         Leather Workers' Federation (ITGLWF)</unittitle>
-                    <unitdate type="inclusive" normal="1967/1989">1967-1989</unitdate>
+                    <unitdate normal="1967/1989" type="inclusive">1967-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">23</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">23</container>
                     <unittitle id="link86">Correspondence, International Textile, Garment and
                         Leather Workers' Federation (ITGLWF)</unittitle>
-                    <unitdate type="inclusive" normal="1967/1989">1967-1989</unitdate>
+                    <unitdate normal="1967/1989" type="inclusive">1967-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">24</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">24</container>
                     <unittitle id="link87">Correspondence, International Textile, Garment and
                         Leather Workers' Federation (ITGLWF)</unittitle>
-                    <unitdate type="inclusive" normal="1973/1991">1973-1991</unitdate>
+                    <unitdate normal="1973/1991" type="inclusive">1973-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">25</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">25</container>
                     <unittitle id="link88">Correspondence, International Textile, Garment and
                         Leather Workers' Federation (ITGLWF)</unittitle>
-                    <unitdate type="inclusive" normal="1973/1991">1973-1991</unitdate>
+                    <unitdate normal="1973/1991" type="inclusive">1973-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">26</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">26</container>
                     <unittitle id="link89">Correspondence, International Textile, Garment and
                         Leather Workers' Federation (ITGLWF)</unittitle>
-                    <unitdate type="inclusive" normal="1973/1991">1973-1991</unitdate>
+                    <unitdate normal="1973/1991" type="inclusive">1973-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">27</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">27</container>
                     <unittitle id="link90">Correspondence, Japan</unittitle>
-                    <unitdate type="inclusive" normal="1971/1975">1971-1975</unitdate>
+                    <unitdate normal="1971/1975" type="inclusive">1971-1975</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">28</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">28</container>
                     <unittitle id="link91">Correspondence, K</unittitle>
-                    <unitdate type="inclusive" normal="1977/1993">1977-1993</unitdate>
+                    <unitdate normal="1977/1993" type="inclusive">1977-1993</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">29</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">29</container>
                     <unittitle id="link92">Correspondence, L</unittitle>
-                    <unitdate type="inclusive" normal="1971/1979">1971-1979</unitdate>
+                    <unitdate normal="1971/1979" type="inclusive">1971-1979</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">30</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">30</container>
                     <unittitle id="link93">Correspondence, M</unittitle>
-                    <unitdate type="inclusive" normal="1970/1993">1970-1993</unitdate>
+                    <unitdate normal="1970/1993" type="inclusive">1970-1993</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">31</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">31</container>
                     <unittitle id="link94">Correspondence, Man-Made Fiber Producers
                         Association</unittitle>
-                    <unitdate type="inclusive" normal="1970/1980">1970-1980</unitdate>
+                    <unitdate normal="1970/1980" type="inclusive">1970-1980</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">32</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">32</container>
                     <unittitle id="link95">Correspondence, Man-Made Fiber Producers
                         Association</unittitle>
-                    <unitdate type="inclusive" normal="1970/1980">1970-1980</unitdate>
+                    <unitdate normal="1970/1980" type="inclusive">1970-1980</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">33</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">33</container>
                     <unittitle id="link96">Correspondence, Mennonites</unittitle>
-                    <unitdate type="inclusive" normal="1945/1960">1945-1960</unitdate>
+                    <unitdate normal="1945/1960" type="inclusive">1945-1960</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">34</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">34</container>
                     <unittitle id="link97">Correspondence, Mountain Artisans, INC.</unittitle>
                     <unitdate normal="1970">1970</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">35</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">35</container>
                     <unittitle id="link98">Correspondence, N</unittitle>
-                    <unitdate type="inclusive" normal="1971/1988">1971-1988</unitdate>
+                    <unitdate normal="1971/1988" type="inclusive">1971-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">36</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">36</container>
                     <unittitle id="link99">Correspondence, National Union of Tailors and Garment
                         Workers</unittitle>
-                    <unitdate type="inclusive" normal="1972/1976">1972-1976</unitdate>
+                    <unitdate normal="1972/1976" type="inclusive">1972-1976</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">37</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">37</container>
                     <unittitle id="link100">Correspondence, National Knitwear and Sportswear
                         Association</unittitle>
-                    <unitdate type="inclusive" normal="1971/1983">1971-1983</unitdate>
+                    <unitdate normal="1971/1983" type="inclusive">1971-1983</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">38</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">38</container>
                     <unittitle id="link101">Correspondence, New York City</unittitle>
-                    <unitdate type="inclusive" normal="1974/1983">1974-1983</unitdate>
+                    <unitdate normal="1974/1983" type="inclusive">1974-1983</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">39</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">39</container>
                     <unittitle id="link102">Correspondence, New York State, American Federation of
                         Labor-Congress of Industrial Organizations (AFL-CIO)</unittitle>
-                    <unitdate type="inclusive" normal="1970/1984">1970-1984</unitdate>
+                    <unitdate normal="1970/1984" type="inclusive">1970-1984</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">40</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">40</container>
                     <unittitle id="link103">Correspondence, New York State</unittitle>
-                    <unitdate type="inclusive" normal="1973/1984">1973-1984</unitdate>
+                    <unitdate normal="1973/1984" type="inclusive">1973-1984</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">41</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">41</container>
                     <unittitle id="link104">Correspondence, New York State, Department of
                         Labor</unittitle>
-                    <unitdate type="inclusive" normal="1970/1979">1970-1979</unitdate>
+                    <unitdate normal="1970/1979" type="inclusive">1970-1979</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">42</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">42</container>
                     <unittitle id="link105">Correspondence, New York State, Department of
                         Labor</unittitle>
-                    <unitdate type="inclusive" normal="1970/1979">1970-1979</unitdate>
+                    <unitdate normal="1970/1979" type="inclusive">1970-1979</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link106">Correspondence, New York State Department of
                         Labor</unittitle>
-                    <unitdate type="inclusive" normal="1979/1990">1979-1990</unitdate>
+                    <unitdate normal="1979/1990" type="inclusive">1979-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link107">Correspondence, New York State Council on Economic
                         Education</unittitle>
-                    <unitdate type="inclusive" normal="1985/1990">1985-1990</unitdate>
+                    <unitdate normal="1985/1990" type="inclusive">1985-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link108">Correspondence, New York University</unittitle>
-                    <unitdate type="inclusive" normal="1973/1978">1973-1978</unitdate>
+                    <unitdate normal="1973/1978" type="inclusive">1973-1978</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link109">Correspondence, North Carolina State
                         University</unittitle>
-                    <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate>
+                    <unitdate normal="1975/1977" type="inclusive">1975-1977</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link110">Correspondence, Northern Textile Association</unittitle>
-                    <unitdate type="inclusive" normal="1971/1980">1971-1980</unitdate>
+                    <unitdate normal="1971/1980" type="inclusive">1971-1980</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link111">Correspondence, O</unittitle>
-                    <unitdate type="inclusive" normal="1971/1986">1971-1986</unitdate>
+                    <unitdate normal="1971/1986" type="inclusive">1971-1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link112">Correspondence, O</unittitle>
-                    <unitdate type="inclusive" normal="1971/1986">1971-1986</unitdate>
+                    <unitdate normal="1971/1986" type="inclusive">1971-1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link113">Correspondence, P</unittitle>
-                    <unitdate type="inclusive" normal="1972/1974">1972-1974</unitdate>
+                    <unitdate normal="1972/1974" type="inclusive">1972-1974</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link114">Correspondence, S</unittitle>
-                    <unitdate type="inclusive" normal="1971/1987">1971-1987</unitdate>
+                    <unitdate normal="1971/1987" type="inclusive">1971-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link115">Correspondence, Schlesinger</unittitle>
-                    <unitdate type="inclusive" normal="1971/1975">1971-1975</unitdate>
+                    <unitdate normal="1971/1975" type="inclusive">1971-1975</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link116">Correspondence, Small Business
                         Administration</unittitle>
-                    <unitdate type="inclusive" normal="1962/1980">1962-1980</unitdate>
+                    <unitdate normal="1962/1980" type="inclusive">1962-1980</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link117">Correspondence, Starobin, Herman (Director of
                         Research)</unittitle>
                     <unitdate normal="1981">1981</unitdate>
@@ -1182,56 +1188,56 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link118">Correspondence, T</unittitle>
-                    <unitdate type="inclusive" normal="1973/1990">1973-1990</unitdate>
+                    <unitdate normal="1973/1990" type="inclusive">1973-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link119">Correspondence, U</unittitle>
-                    <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
+                    <unitdate normal="1973/1974" type="inclusive">1973-1974</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link120">Correspondence, United States Budget Bureau</unittitle>
-                    <unitdate type="inclusive" normal="1959/1965">1959-1965</unitdate>
+                    <unitdate normal="1959/1965" type="inclusive">1959-1965</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link121">Correspondence, United States Census Bureau</unittitle>
-                    <unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate>
+                    <unitdate normal="1963/1965" type="inclusive">1963-1965</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link122">Correspondence, United States Census Bureau</unittitle>
-                    <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate>
+                    <unitdate normal="1966/1968" type="inclusive">1966-1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link123">Correspondence, United States Census Bureau</unittitle>
-                    <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate>
+                    <unitdate normal="1966/1968" type="inclusive">1966-1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link124">Correspondence, United States Congress (House of
                         Representatives)</unittitle>
                     <unitdate normal="1974">1974</unitdate>
@@ -1239,44 +1245,44 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link125">Correspondence, United States Congress (House of
                         Representatives)</unittitle>
-                    <unitdate type="inclusive" normal="1981/1985">1981-1985</unitdate>
+                    <unitdate normal="1981/1985" type="inclusive">1981-1985</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link126">Correspondence, United States Department of
                         Commerce</unittitle>
-                    <unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate>
+                    <unitdate normal="1964/1970" type="inclusive">1964-1970</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">22</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">22</container>
                     <unittitle id="link127">Correspondence, United States Department of Labor,
                         Department of Employment and Training</unittitle>
-                    <unitdate type="inclusive" normal="1966/1976">1966-1976</unitdate>
+                    <unitdate normal="1966/1976" type="inclusive">1966-1976</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">23</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">23</container>
                     <unittitle id="link128">Correspondence, United States Department of
                         Labor</unittitle>
-                    <unitdate type="inclusive" normal="1976/1987">1976-1987</unitdate>
+                    <unitdate normal="1976/1987" type="inclusive">1976-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">24</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">24</container>
                     <unittitle id="link129">Correspondence, United States Bureau of Labor
                         Statistics</unittitle>
                     <unitdate normal="1971">1971</unitdate>
@@ -1284,193 +1290,193 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">25</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">25</container>
                     <unittitle id="link130">Correspondence, United States Department of Labor, Wage,
                         and Hour Division</unittitle>
-                    <unitdate type="inclusive" normal="1961/1983">1961-1983</unitdate>
+                    <unitdate normal="1961/1983" type="inclusive">1961-1983</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">26</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">26</container>
                     <unittitle id="link131">Correspondence, V</unittitle>
                     <unitdate normal="1974">1974</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">27</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">27</container>
                     <unittitle id="link132">Correspondence, Wharton School of Finance and
                         Commerce</unittitle>
-                    <unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate>
+                    <unitdate normal="1958/1961" type="inclusive">1958-1961</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">28</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">28</container>
                     <unittitle id="link133">Correspondence, Dubinsky, David</unittitle>
-                    <unitdate type="inclusive" normal="1959/1966">1959-1966</unitdate>
+                    <unitdate normal="1959/1966" type="inclusive">1959-1966</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">29</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">29</container>
                     <unittitle id="link134">Correspondence, Stulberg, Louis</unittitle>
-                    <unitdate type="inclusive" normal="1960/1962">1960-1962</unitdate>
+                    <unitdate normal="1960/1962" type="inclusive">1960-1962</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">30</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">30</container>
                     <unittitle id="link135">Correspondence, Regional Office (Montreal,
                         Canada)</unittitle>
-                    <unitdate type="inclusive" normal="1960/1972">1960-1972</unitdate>
+                    <unitdate normal="1960/1972" type="inclusive">1960-1972</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">31</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">31</container>
                     <unittitle id="link136">Correspondence, Regional Office (Montreal,
                         Canada)</unittitle>
-                    <unitdate type="inclusive" normal="1973/1978">1973-1978</unitdate>
+                    <unitdate normal="1973/1978" type="inclusive">1973-1978</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">32</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">32</container>
                     <unittitle id="link137">Correspondence, Montreal Joint Board</unittitle>
-                    <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
+                    <unitdate normal="1969/1970" type="inclusive">1969-1970</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">33</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">33</container>
                     <unittitle id="link138">Correspondence, Montreal Dress Joint Board</unittitle>
-                    <unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate>
+                    <unitdate normal="1966/1971" type="inclusive">1966-1971</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">34</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">34</container>
                     <unittitle id="link139">Correspondence, Montreal Cloak Joint Council</unittitle>
-                    <unitdate type="inclusive" normal="1963/1988">1963-1988</unitdate>
+                    <unitdate normal="1963/1988" type="inclusive">1963-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">35</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">35</container>
                     <unittitle id="link140">Correspondence, Toronto Cloak Joint Board, Toronto Dress
                         and Sportswear Joint Council</unittitle>
-                    <unitdate type="inclusive" normal="1960/1978">1960-1978</unitdate>
+                    <unitdate normal="1960/1978" type="inclusive">1960-1978</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">36</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">36</container>
                     <unittitle id="link141">Correspondence, Winnipeg Joint Board</unittitle>
-                    <unitdate type="inclusive" normal="1962/1982">1962-1982</unitdate>
+                    <unitdate normal="1962/1982" type="inclusive">1962-1982</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">37</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">37</container>
                     <unittitle id="link142">Correspondence, Puerto Rico Region</unittitle>
-                    <unitdate type="inclusive" normal="1975/1993">1975-1993</unitdate>
+                    <unitdate normal="1975/1993" type="inclusive">1975-1993</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">38</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">38</container>
                     <unittitle id="link143">Correspondence, Puerto Rico Region</unittitle>
-                    <unitdate type="inclusive" normal="1969/1974">1969-1974</unitdate>
+                    <unitdate normal="1969/1974" type="inclusive">1969-1974</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">39</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">39</container>
                     <unittitle id="link144">Correspondence, Puerto Rico Region</unittitle>
                     <unitdate normal="1969">1969</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">40</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">40</container>
                     <unittitle id="link145">Correspondence, Puerto Rico Region</unittitle>
-                    <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate>
+                    <unitdate normal="1966/1968" type="inclusive">1966-1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">41</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">41</container>
                     <unittitle id="link146">Correspondence, Puerto Rico Region</unittitle>
-                    <unitdate type="inclusive" normal="1961/1965">1961-1965</unitdate>
+                    <unitdate normal="1961/1965" type="inclusive">1961-1965</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">42</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">42</container>
                     <unittitle id="link147">Correspondence, Western States Regional
                         Office</unittitle>
-                    <unitdate type="inclusive" normal="1964/1972">1964-1972</unitdate>
+                    <unitdate normal="1964/1972" type="inclusive">1964-1972</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">43</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">43</container>
                     <unittitle id="link148">Correspondence, Los Angeles Joint Board</unittitle>
-                    <unitdate type="inclusive" normal="1960/1969">1960-1969</unitdate>
+                    <unitdate normal="1960/1969" type="inclusive">1960-1969</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">44</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">44</container>
                     <unittitle id="link149">Correspondence, Pacific Northwest District
                         Council</unittitle>
-                    <unitdate type="inclusive" normal="1963/1968">1963-1968</unitdate>
+                    <unitdate normal="1963/1968" type="inclusive">1963-1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">45</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">45</container>
                     <unittitle id="link150">Correspondence, Southern Missouri-Arkansas District
                         Council, Central States Region</unittitle>
-                    <unitdate type="inclusive" normal="1964/1977">1964-1977</unitdate>
+                    <unitdate normal="1964/1977" type="inclusive">1964-1977</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">46</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">46</container>
                     <unittitle id="link151">Correspondence, Local 188, Milwaukee,
                         Wisconsin</unittitle>
-                    <unitdate type="inclusive" normal="1960/1975">1960-1975</unitdate>
+                    <unitdate normal="1960/1975" type="inclusive">1960-1975</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">47</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">47</container>
                     <unittitle id="link152">Correspondence, Southern Illinois District
                         Council</unittitle>
                     <unitdate normal="1972">1972</unitdate>
@@ -1478,8 +1484,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">48</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">48</container>
                     <unittitle id="link153">Correspondence, Eastern Missouri District
                         Council</unittitle>
                     <unitdate normal="1976">1976</unitdate>
@@ -1487,321 +1493,321 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link154">Correspondence, Michigan representative, Central States
                         Region, Stark, Charles</unittitle>
-                    <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate>
+                    <unitdate normal="1974/1976" type="inclusive">1974-1976</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link155">Correspondence, Midwest Regional Office</unittitle>
-                    <unitdate type="inclusive" normal="1962/1972">1962-1972</unitdate>
+                    <unitdate normal="1962/1972" type="inclusive">1962-1972</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link156">Correspondence, Midwest Regional Office</unittitle>
-                    <unitdate type="inclusive" normal="1974/1994">1974-1994</unitdate>
+                    <unitdate normal="1974/1994" type="inclusive">1974-1994</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link157">Correspondence, Central States Regional
                         Office</unittitle>
-                    <unitdate type="inclusive" normal="1960/1970">1960-1970</unitdate>
+                    <unitdate normal="1960/1970" type="inclusive">1960-1970</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link158">Correspondence, Central States Regional
                         Office</unittitle>
-                    <unitdate type="inclusive" normal="1971/1992">1971-1992</unitdate>
+                    <unitdate normal="1971/1992" type="inclusive">1971-1992</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link159">Correspondence, Missouri-Kansas-Nebraska-Iowa-Minnesota
                         District Council</unittitle>
-                    <unitdate type="inclusive" normal="1963/1978">1963-1978</unitdate>
+                    <unitdate normal="1963/1978" type="inclusive">1963-1978</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link160">Correspondence, Ohio-Kentucky Region</unittitle>
-                    <unitdate type="inclusive" normal="1960/1980">1960-1980</unitdate>
+                    <unitdate normal="1960/1980" type="inclusive">1960-1980</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link161">Correspondence, Southeast Regional Office</unittitle>
-                    <unitdate type="inclusive" normal="1962/1969">1962-1969</unitdate>
+                    <unitdate normal="1962/1969" type="inclusive">1962-1969</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link162">Correspondence, Southeast Region</unittitle>
-                    <unitdate type="inclusive" normal="1970/1980">1970-1980</unitdate>
+                    <unitdate normal="1970/1980" type="inclusive">1970-1980</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link163">Correspondence, Local 415-475, Miami Florida</unittitle>
-                    <unitdate type="inclusive" normal="1955/1972">1955-1972</unitdate>
+                    <unitdate normal="1955/1972" type="inclusive">1955-1972</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link164">Correspondence, Upper South Department</unittitle>
-                    <unitdate type="inclusive" normal="1961/1983">1961-1983</unitdate>
+                    <unitdate normal="1961/1983" type="inclusive">1961-1983</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link165">Correspondence, New England Region
                         (Massachusetts)</unittitle>
-                    <unitdate type="inclusive" normal="1966/1985">1966-1985</unitdate>
+                    <unitdate normal="1966/1985" type="inclusive">1966-1985</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link166">Correspondence, Connecticut locals, (New England
                         Region)</unittitle>
-                    <unitdate type="inclusive" normal="1960/1988">1960-1988</unitdate>
+                    <unitdate normal="1960/1988" type="inclusive">1960-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link167">Correspondence, Northeast Department, Pennsylvania
                         districts and locals</unittitle>
-                    <unitdate type="inclusive" normal="1961/1990">1961-1990</unitdate>
+                    <unitdate normal="1961/1990" type="inclusive">1961-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link168">Correspondence, Northeast, Western Pennsylvania and Ohio
                         Department</unittitle>
-                    <unitdate type="inclusive" normal="1961/1982">1961-1982</unitdate>
+                    <unitdate normal="1961/1982" type="inclusive">1961-1982</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link169">Correspondence, New Jersey locals</unittitle>
-                    <unitdate type="inclusive" normal="1965/1973">1965-1973</unitdate>
+                    <unitdate normal="1965/1973" type="inclusive">1965-1973</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link170">Correspondence, New Jersey Region</unittitle>
                     <unitdate normal="1983">1983</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link171">Correspondence, Eastern Pennsylvania
                         Department</unittitle>
-                    <unitdate type="inclusive" normal="1962/1978">1962-1978</unitdate>
+                    <unitdate normal="1962/1978" type="inclusive">1962-1978</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link172">Correspondence, Local 190, Philadelphia,
                         Pennsylvania</unittitle>
-                    <unitdate type="inclusive" normal="1960/1968">1960-1968</unitdate>
+                    <unitdate normal="1960/1968" type="inclusive">1960-1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link173">Correspondence, Pennsylvania Organizing Department
                         (Harrisburg, Pennsylvania)</unittitle>
-                    <unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
+                    <unitdate normal="1963/1964" type="inclusive">1963-1964</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link174">Correspondence, Upstate New York and Vermont District
                         Council</unittitle>
-                    <unitdate type="inclusive" normal="1963/1969">1963-1969</unitdate>
+                    <unitdate normal="1963/1969" type="inclusive">1963-1969</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">22</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">22</container>
                     <unittitle id="link175">Correspondence, New York State District</unittitle>
-                    <unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate>
+                    <unitdate normal="1965/1968" type="inclusive">1965-1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">23</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">23</container>
                     <unittitle id="link176">Correspondence, Local 10, New York, New York</unittitle>
-                    <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
+                    <unitdate normal="1968/1969" type="inclusive">1968-1969</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">24</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">24</container>
                     <unittitle id="link177">Correspondence, Local 20, New York, New York</unittitle>
                     <unitdate normal="1965">1965</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">25</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">25</container>
                     <unittitle id="link178">Correspondence, Local 23-25, New York, New
                         York</unittitle>
-                    <unitdate type="inclusive" normal="1965/1988">1965-1988</unitdate>
+                    <unitdate normal="1965/1988" type="inclusive">1965-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">26</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">26</container>
                     <unittitle id="link179">Correspondence, Local 32, New York, New York</unittitle>
-                    <unitdate type="inclusive" normal="1964/1976">1964-1976</unitdate>
+                    <unitdate normal="1964/1976" type="inclusive">1964-1976</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">27</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">27</container>
                     <unittitle id="link180">Correspondence, Local 48, New York, New York</unittitle>
                     <unitdate normal="1970">1970</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">28</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">28</container>
                     <unittitle id="link181">Correspondence, Local 62, New York, New York</unittitle>
-                    <unitdate type="inclusive" normal="1970/1977">1970-1977</unitdate>
+                    <unitdate normal="1970/1977" type="inclusive">1970-1977</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">29</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">29</container>
                     <unittitle id="link182">Correspondence, Local 62, New York, New York</unittitle>
-                    <unitdate type="inclusive" normal="1960/1970">1960-1970</unitdate>
+                    <unitdate normal="1960/1970" type="inclusive">1960-1970</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">30</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">30</container>
                     <unittitle id="link183">Correspondence, Local 66, New York, New York</unittitle>
-                    <unitdate type="inclusive" normal="1960/1976">1960-1976</unitdate>
+                    <unitdate normal="1960/1976" type="inclusive">1960-1976</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">31</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">31</container>
                     <unittitle id="link184">Correspondence, Local 91, New York, New York</unittitle>
-                    <unitdate type="inclusive" normal="1966/1974">1966-1974</unitdate>
+                    <unitdate normal="1966/1974" type="inclusive">1966-1974</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">32</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">32</container>
                     <unittitle id="link185">Correspondence, Local 99, New York, New York</unittitle>
                     <unitdate normal="1968">1968</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">33</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">33</container>
                     <unittitle id="link186">Correspondence, Local 105, New York</unittitle>
                     <unitdate normal="1972">1972</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">34</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">34</container>
                     <unittitle id="link187">Correspondence, Local 132-98, New York, New
                         York</unittitle>
-                    <unitdate type="inclusive" normal="1960/1979">1960-1979</unitdate>
+                    <unitdate normal="1960/1979" type="inclusive">1960-1979</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">35</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">35</container>
                     <unittitle id="link188">Correspondence, Local 132-98, New York, New
                         York</unittitle>
-                    <unitdate type="inclusive" normal="1960/1979">1960-1979</unitdate>
+                    <unitdate normal="1960/1979" type="inclusive">1960-1979</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">36</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">36</container>
                     <unittitle id="link189">Correspondence, Local 155, New York, New
                         York</unittitle>
-                    <unitdate type="inclusive" normal="1971/1981">1971-1981</unitdate>
+                    <unitdate normal="1971/1981" type="inclusive">1971-1981</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">37</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">37</container>
                     <unittitle id="link190">Correspondence, New York Sportswear and Allied Workers
                         Joint Council</unittitle>
-                    <unitdate type="inclusive" normal="1978/1981">1978-1981</unitdate>
+                    <unitdate normal="1978/1981" type="inclusive">1978-1981</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">38</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">38</container>
                     <unittitle id="link191">Correspondence, New York Coat, Suit, Dress, Rainwear and
                         Allied Workers Union</unittitle>
                     <unitdate normal="1978">1978</unitdate>
@@ -1809,185 +1815,185 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">39</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">39</container>
                     <unittitle id="link192">Correspondence, New York Cloak Joint Board</unittitle>
-                    <unitdate type="inclusive" normal="1968/1976">1968-1976</unitdate>
+                    <unitdate normal="1968/1976" type="inclusive">1968-1976</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">40</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">40</container>
                     <unittitle id="link193">Correspondence, New York Cloak Joint Board</unittitle>
-                    <unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate>
+                    <unitdate normal="1964/1967" type="inclusive">1964-1967</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">41</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">41</container>
                     <unittitle id="link194">Correspondence, Joint Council of the Cloak Out-of-Town
                         Department</unittitle>
-                    <unitdate type="inclusive" normal="1966/1975">1966-1975</unitdate>
+                    <unitdate normal="1966/1975" type="inclusive">1966-1975</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">42</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">42</container>
                     <unittitle id="link195">Correspondence, New York Dress Joint Board</unittitle>
-                    <unitdate type="inclusive" normal="1968/1972">1968-1972</unitdate>
+                    <unitdate normal="1968/1972" type="inclusive">1968-1972</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">43</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">43</container>
                     <unittitle id="link196">Correspondence, New York Dress Joint Board</unittitle>
-                    <unitdate type="inclusive" normal="1960/1967">1960-1967</unitdate>
+                    <unitdate normal="1960/1967" type="inclusive">1960-1967</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">44</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">44</container>
                     <unittitle id="link197">Correspondence, Political Department (Dubrow,
                         Evelyn)</unittitle>
-                    <unitdate type="inclusive" normal="1980/1995">1980-1995</unitdate>
+                    <unitdate normal="1980/1995" type="inclusive">1980-1995</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">45</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">45</container>
                     <unittitle id="link198">Correspondence, Political Department (Dubrow,
                         Evelyn)</unittitle>
-                    <unitdate type="inclusive" normal="1976/1979">1976-1979</unitdate>
+                    <unitdate normal="1976/1979" type="inclusive">1976-1979</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">46</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">46</container>
                     <unittitle id="link199">Correspondence, Political Department (Dubrow,
                         Evelyn)</unittitle>
-                    <unitdate type="inclusive" normal="1970/1975">1970-1975</unitdate>
+                    <unitdate normal="1970/1975" type="inclusive">1970-1975</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">47</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">47</container>
                     <unittitle id="link200">Correspondence, Political Department (Dubrow,
                         Evelyn)</unittitle>
-                    <unitdate type="inclusive" normal="1963/1969">1963-1969</unitdate>
+                    <unitdate normal="1963/1969" type="inclusive">1963-1969</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">48</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">48</container>
                     <unittitle id="link201">Correspondence, Political Department (Wells, David and
                         Waldinger, Roger)</unittitle>
-                    <unitdate type="inclusive" normal="1956/1981">1956-1981</unitdate>
+                    <unitdate normal="1956/1981" type="inclusive">1956-1981</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">49</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">49</container>
                     <unittitle id="link202">Correspondence, International Relations Department and
                         Archives (Mendelsund, Henoch)</unittitle>
-                    <unitdate type="inclusive" normal="1976/1982">1976-1982</unitdate>
+                    <unitdate normal="1976/1982" type="inclusive">1976-1982</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
-                    <container type="folder">50</container>
+                    <container label="unspecified" type="box">5</container>
+                    <container label="unspecified" type="folder">50</container>
                     <unittitle id="link203">Correspondence, Justice</unittitle>
-                    <unitdate type="inclusive" normal="1968/1976">1968-1976</unitdate>
+                    <unitdate normal="1968/1976" type="inclusive">1968-1976</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">6</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">6</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link204">Correspondence, Legal Department</unittitle>
-                    <unitdate type="inclusive" normal="1977/1990">1977-1990</unitdate>
+                    <unitdate normal="1977/1990" type="inclusive">1977-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">6</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">6</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link205">Correspondence, Legal Department</unittitle>
-                    <unitdate type="inclusive" normal="1962/1974">1962-1974</unitdate>
+                    <unitdate normal="1962/1974" type="inclusive">1962-1974</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">6</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">6</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link206">Correspondence, Lipsig, James, Assistant Executive
                         Secretary</unittitle>
-                    <unitdate type="inclusive" normal="1960/1972">1960-1972</unitdate>
+                    <unitdate normal="1960/1972" type="inclusive">1960-1972</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">6</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">6</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link207">Correspondence, Lovestone, Jay</unittitle>
                     <unitdate normal="1969">1969</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">6</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">6</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link208">Research Department, reports to GEB</unittitle>
-                    <unitdate type="inclusive" normal="1974/1987">1974-1987</unitdate>
+                    <unitdate normal="1974/1987" type="inclusive">1974-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">6</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">6</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link209">Correspondence, Special Assistance Fund</unittitle>
-                    <unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate>
+                    <unitdate normal="1967/1969" type="inclusive">1967-1969</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">6</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">6</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link210">Correspondence, Union Health Center</unittitle>
-                    <unitdate type="inclusive" normal="1959/1972">1959-1972</unitdate>
+                    <unitdate normal="1959/1972" type="inclusive">1959-1972</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">6</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">6</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link211">Correspondence, Union Label Department</unittitle>
-                    <unitdate type="inclusive" normal="1975/1978">1975-1978</unitdate>
+                    <unitdate normal="1975/1978" type="inclusive">1975-1978</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">6</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">6</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link212">Correspondence, Welfare and Health Benefits
                         Department</unittitle>
-                    <unitdate type="inclusive" normal="1962/1985">1962-1985</unitdate>
+                    <unitdate normal="1962/1985" type="inclusive">1962-1985</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">6</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">6</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link213">Taskforce on the Survey (Northeast, Western Pennsylvania
                         and Ohio Department)</unittitle>
                     <unitdate normal="1984">1984</unitdate>
@@ -1995,24 +2001,24 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">6</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">6</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link214">NY92: NY is Fashion</unittitle>
                     <unitdate normal="1992">1992</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">6</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">6</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link215">Correspondence, Starobin, Herman</unittitle>
-                    <unitdate type="inclusive" normal="1994/1995">1994-1995</unitdate>
+                    <unitdate normal="1994/1995" type="inclusive">1994-1995</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">7</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">7</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link216">Copies of Research Department outgoing letters,
                         January-June</unittitle>
                     <unitdate normal="1964">1964</unitdate>
@@ -2020,8 +2026,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">7</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">7</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link217">Copies of Research Department outgoing letters,
                         August-December</unittitle>
                     <unitdate normal="1964">1964</unitdate>
@@ -2029,8 +2035,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">7</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">7</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link218">Copies of Research Department outgoing letters,
                         January-September</unittitle>
                     <unitdate normal="1965">1965</unitdate>
@@ -2038,8 +2044,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">7</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">7</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link219">Copies of Research Department outgoing letters,
                         October-December</unittitle>
                     <unitdate normal="1965">1965</unitdate>
@@ -2047,8 +2053,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">7</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">7</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link220">Research Department outgoing letters,
                         January-June</unittitle>
                     <unitdate normal="1966">1966</unitdate>
@@ -2056,8 +2062,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">7</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">7</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link221">Research Department outgoing letters,
                         July-December</unittitle>
                     <unitdate normal="1966">1966</unitdate>
@@ -2065,8 +2071,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">7</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">7</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link222">Research Department outgoing letters,
                         January-June</unittitle>
                     <unitdate normal="1967">1967</unitdate>
@@ -2074,8 +2080,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">8</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">8</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link223">Research Department outgoing letters,
                         July-December</unittitle>
                     <unitdate normal="1967">1967</unitdate>
@@ -2083,8 +2089,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">8</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">8</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link224">Research Department outgoing letters,
                         January-December</unittitle>
                     <unitdate normal="1968">1968</unitdate>
@@ -2092,8 +2098,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">8</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">8</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link225">Research Department outgoing letters,
                         January-December</unittitle>
                     <unitdate normal="1969">1969</unitdate>
@@ -2101,8 +2107,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">8</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">8</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link226">Research Department outgoing letters,
                         January-December</unittitle>
                     <unitdate normal="1970">1970</unitdate>
@@ -2110,8 +2116,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">8</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">8</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link227">Research Department outgoing letters,
                         January-August</unittitle>
                     <unitdate normal="1971">1971</unitdate>
@@ -2119,17 +2125,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">8</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">8</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link228">Research Department outgoing letters, September
                         1971-June 1972</unittitle>
-                    <unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
+                    <unitdate normal="1971/1972" type="inclusive">1971-1972</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">9</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">9</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link229">Research Department outgoing letters,
                         July-December</unittitle>
                     <unitdate normal="1972">1972</unitdate>
@@ -2137,8 +2143,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">9</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">9</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link230">Research Department outgoing letters,
                         January-June</unittitle>
                     <unitdate normal="1973">1973</unitdate>
@@ -2146,17 +2152,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">9</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">9</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link231">Research Department outgoing letters, July 1973-May
                         1974</unittitle>
-                    <unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
+                    <unitdate normal="1973/1974" type="inclusive">1973-1974</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">9</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">9</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link232">Research Department outgoing letters,
                         June-December</unittitle>
                     <unitdate normal="1974">1974</unitdate>
@@ -2164,8 +2170,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">9</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">9</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link233">Research Department outgoing letters,
                         January-December</unittitle>
                     <unitdate normal="1975">1975</unitdate>
@@ -2173,8 +2179,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">9</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">9</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link234">Research Department outgoing letters,
                         January-November</unittitle>
                     <unitdate normal="1976">1976</unitdate>
@@ -2182,17 +2188,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">9</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">9</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link235">Research Department outgoing letters, November
                         1976-December 1977</unittitle>
-                    <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate>
+                    <unitdate normal="1976/1977" type="inclusive">1976-1977</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">10</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">10</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link236">Research Department outgoing letters,
                         January-December</unittitle>
                     <unitdate normal="1978">1978</unitdate>
@@ -2200,16 +2206,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">10</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">10</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link237">Research Department outgoing letters</unittitle>
                     <unitdate normal="1979">1979</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">10</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">10</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link238">Research Department outgoing letters,
                         January-December</unittitle>
                     <unitdate normal="1980">1980</unitdate>
@@ -2217,56 +2223,56 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">10</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">10</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link239">Research Department outgoing letters</unittitle>
                     <unitdate normal="1981">1981</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">10</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">10</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link240">Research Department outgoing letters</unittitle>
                     <unitdate normal="1982">1982</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">10</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">10</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link241">Research Department outgoing letters</unittitle>
                     <unitdate normal="1983">1983</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">10</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">10</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link242">Research Department outgoing letters</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">10</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">10</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link243">Research Department outgoing letters</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">10</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">10</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link244">Research Department outgoing letters</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">10</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">10</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link245">Research Department outgoing letters</unittitle>
                     <unitdate normal="1991">1991</unitdate>
                 </did>

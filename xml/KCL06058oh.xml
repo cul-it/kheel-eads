@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06058oh::Kheel Center Collection of Oral Histories.)//EN">KCL06058oh</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06058oh::Kheel Center Collection of Oral Histories.)//EN">KCL06058oh</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Kheel Center Collection of Oral Histories<date> 1965-1975</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>January 15, 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Kheel Center Collection of Oral Histories<lb/></titleproper>
+			<titleproper>Guide to the Kheel Center Collection of Oral Histories</titleproper>
 			<num>Collection Number: 6058 OH</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,14 +54,14 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Kheel Center Collection of Oral Histories, <unitdate encodinganalog="MARC 245$f">1965-1975</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Kheel Center Collection of Oral Histories, 1965-1975
+			</unittitle><unitdate encodinganalog="MARC 245$f">1965-1975</unitdate>
 			<unitid label="Collection Number:">6058 OH</unitid>
 			<origination label="Creator:">
 				<corpname encodinganalog="MARC 110" role="creator">Kheel Center</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">27.4 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">27.4 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Oral histories.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">This collection is made up of oral history interviews from the NLRB (National Labor Relations Board), UTU (United Transportation Union), and others.</abstract>
@@ -63,9 +69,9 @@
 			</langmaterial>
 		<physdesc><extent>27.44 cubic feet</extent></physdesc></did>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Avrutis, William J. </persname>
 				<persname encodinganalog="MARC 600">Barghausen, Meta P. </persname>
 				<persname encodinganalog="MARC 600">Bokat, George </persname>
@@ -108,33 +114,33 @@
 				<corpname encodinganalog="MARC 610">United States. National Labor Relations Board--Archives </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Collective bargaining </subject>
 			</controlaccess>
 			<controlaccess>
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Kheel Center Collection of Oral Histories #6058 OH. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link6">Ben Davidson</unittitle>
 				</did>
 				<scopecontent>
@@ -143,8 +149,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link7">Morris Schappes - March 9, 1968</unittitle>
 					<unitdate normal="1968">1968</unitdate>
 				</did>
@@ -154,8 +160,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link8">George Counts - March 23, 1968</unittitle>
 					<unitdate normal="1968">1968</unitdate>
 				</did>
@@ -165,8 +171,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link9">Sidney Hook</unittitle>
 				</did>
 				<scopecontent>
@@ -175,8 +181,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link10">Cyrus S. Ching (Sept. 29, 1965)</unittitle>
 					<unitdate normal="1965">1965</unitdate>
 				</did>
@@ -186,8 +192,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link11">Cyrus S. Ching</unittitle>
 				</did>
 				<scopecontent>
@@ -196,8 +202,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link12">Cyrus S. Ching</unittitle>
 				</did>
 				<scopecontent>
@@ -206,8 +212,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link13">Cyrus S. Ching (Nov. 17, 1965, Dec. 1, 1965)</unittitle>
 					<unitdate normal="1965">1965</unitdate>
 				</did>
@@ -217,8 +223,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link14">Cyrus S. Ching - (Dec. 6, 1965, Jan. 12, 1966)</unittitle>
 					<unitdate normal="1965">1965</unitdate>
 				</did>
@@ -228,8 +234,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link15">Cyrus S. Ching - (April 28, 1966, June 22, 1966)</unittitle>
 					<unitdate normal="1966">1966</unitdate>
 				</did>
@@ -239,8 +245,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link16">Cyrus S. Ching - (July 14, 1966, Sept. 15, 1966)</unittitle>
 					<unitdate normal="1966">1966</unitdate>
 				</did>
@@ -250,8 +256,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link17">Cyrus Ching - (9/12/1966, 9/21/1966)</unittitle>
 					<unitdate normal="1966">1966</unitdate>
 				</did>
@@ -261,8 +267,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link18">Cyrus Ching - (October 25, 1966, November 2, 1966)</unittitle>
 					<unitdate normal="1966">1966</unitdate>
 				</did>
@@ -272,8 +278,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link19">Cyrus S. Ching - (Nov. 22, 1966, Dec. 13, 1967)</unittitle>
 					<unitdate normal="1967">1967</unitdate>
 				</did>
@@ -283,8 +289,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link20">Mrs. Cyrus Ching - (March 30, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -294,8 +300,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link21">Herbert R. Glaser - (March 18, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -305,8 +311,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link22">Owsley Vose - (March 14, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -316,8 +322,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link23">Lee Pressman - (May 2, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -327,8 +333,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link24">E.S. Smith</unittitle>
 				</did>
 				<scopecontent>
@@ -337,8 +343,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link25">E.S. Smith - (Dec. 27, 1968)</unittitle>
 					<unitdate normal="1968">1968</unitdate>
 				</did>
@@ -348,8 +354,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link26">Judge Joseph Warren Madden (Oct. 29, 1968)</unittitle>
 					<unitdate normal="1968">1968</unitdate>
 				</did>
@@ -359,8 +365,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link27">Judge Madden - #2 - (Oct. 29, Oct. 31, 1968)</unittitle>
 					<unitdate normal="1968">1968</unitdate>
 				</did>
@@ -370,8 +376,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link28">Judge Madden - #3 - (Oct. 31, 1968)</unittitle>
 					<unitdate normal="1968">1968</unitdate>
 				</did>
@@ -381,16 +387,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link29">Nathan Witt (Feb. 19, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link30">Nathan Witt - (Feb. 18, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -400,8 +406,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link31">Herbert Fuchs - (March 18, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -411,8 +417,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link32">D. Saposs</unittitle>
 					<unitdate normal="1968">1968</unitdate>
 				</did>
@@ -422,8 +428,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link33">David Saposs</unittitle>
 					<unitdate normal="1968">1968</unitdate>
 				</did>
@@ -433,8 +439,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link34">Charles Fahy - (July 23, 1968)</unittitle>
 					<unitdate normal="1968">1968</unitdate>
 				</did>
@@ -444,8 +450,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link35">C. Fahy - Tape #2 (July 24, 1968)</unittitle>
 					<unitdate normal="1968">1968</unitdate>
 				</did>
@@ -455,8 +461,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle id="link36">Wallace B. Cohen (March 21, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -466,8 +472,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle id="link37">Bernard Cushman, Leon Keyserling (March 19, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -477,8 +483,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle id="link38">Howard Lichtenstein (May 19, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -488,8 +494,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle id="link39">Marcel Mallet-Prevest, Harry Brickman (March 17, 18, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -499,8 +505,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">35</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">35</container>
 					<unittitle id="link40">Benedict Wolf (May 19, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -510,8 +516,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">36</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">36</container>
 					<unittitle id="link41">Fannie Boyle, Geo. Bott - (1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -521,8 +527,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">37</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">37</container>
 					<unittitle id="link42">William R. Consedine (March 18, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -532,8 +538,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link43">Ernest A. Gross (March 24, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -543,8 +549,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link44">Philip Levy (March 15, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -554,8 +560,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link45">Philip Levy (part II) - (March 21, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -565,8 +571,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link46">George O. Pratt (March 18, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -576,8 +582,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link47">George O. Pratt (March 18, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -587,8 +593,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link48">A. Norman Somens (March 20, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -598,8 +604,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link49">John F. Collins (3/25/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -609,8 +615,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link50">C.V. Grady (4/2/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -620,8 +626,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link51">John J. Johnson (4/3/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -631,8 +637,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link52">N.A. Rogers (3/24/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -642,8 +648,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link53">David Wykle (Feb. 3, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -653,8 +659,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link54">Catherwood (3/6/1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -664,8 +670,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link55">Catherwood (March 22, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -675,8 +681,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link56">Charles R. Bethage (4/29/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -686,8 +692,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link57">William R. Donovan (April 30, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -697,8 +703,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link58">Jacob J. Kaufman (June 15, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -708,8 +714,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link59">William R. Welch (4/3/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -719,8 +725,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link60">Lloyd K. Garrison (December 22, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -730,8 +736,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link61">Milton Handler (April 15, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -741,8 +747,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link62">Will Maslow (March 20, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -752,8 +758,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link63">Donald J. Crabtree, Sr. (6/22/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -763,8 +769,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link64">Sidney Rosen</unittitle>
 				</did>
 				<scopecontent>
@@ -773,8 +779,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link65">Michael W. Herr (6/25/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -784,8 +790,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link66">R.J. O'Connor (6/26/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -795,8 +801,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link67">Gerald W. Rogers (7/2/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -806,8 +812,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link68">J. Slindden</unittitle>
 				</did>
 				<scopecontent>
@@ -816,8 +822,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link69">George A. Stueben</unittitle>
 				</did>
 				<scopecontent>
@@ -826,8 +832,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link70">James A. Schultz (July 15, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -837,8 +843,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link71">Gerhard VanArkel (Sept. 4, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -848,8 +854,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link72">Ida Klaus (Feb. 27, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -859,8 +865,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle id="link73">Ida Klaus (4/16/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -870,8 +876,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle id="link74">Raymond Murdock</unittitle>
 				</did>
 				<scopecontent>
@@ -880,8 +886,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle id="link75">Parnell M. Aimome (8/3/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -891,8 +897,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle id="link76">Charles N. Benner (Aug. 19, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -902,8 +908,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">35</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">35</container>
 					<unittitle id="link77">Willard W. Carson</unittitle>
 				</did>
 				<scopecontent>
@@ -912,8 +918,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">36</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">36</container>
 					<unittitle id="link78">Louis Broten, William Carson</unittitle>
 				</did>
 				<scopecontent>
@@ -922,8 +928,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">37</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">37</container>
 					<unittitle id="link79">Louis J. Broten (7/29/1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -933,8 +939,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">38</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">38</container>
 					<unittitle id="link80">W.W. Carson (Jan. 22, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -944,8 +950,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">39</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">39</container>
 					<unittitle id="link81">Willard W. Carson (Aug. 17, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -955,8 +961,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">40</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">40</container>
 					<unittitle id="link82">Al H Chesser (July 17, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -966,8 +972,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">41</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">41</container>
 					<unittitle id="link83">Thomas J. Duggan (July 25, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -977,8 +983,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">42</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">42</container>
 					<unittitle id="link84">Robert O. Knupp (8/5/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -988,8 +994,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">43</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">43</container>
 					<unittitle id="link85">Roy H. Koepke (Aug. 21, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -999,8 +1005,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">44</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">44</container>
 					<unittitle id="link86">Lawrence J. Kroenert (8/7/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1010,8 +1016,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">45</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">45</container>
 					<unittitle id="link87">Groat</unittitle>
 				</did>
 				<scopecontent>
@@ -1020,8 +1026,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link88">Gerald R. Maloney (Aug. 21, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1031,8 +1037,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link89">John J. Maurer (Aug. 18, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1042,8 +1048,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link90">Thomas F. Purnell (7/30/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1053,8 +1059,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link91">Roger Robb (Mar. 3, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -1064,8 +1070,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link92">Joseph R. Coyne (6/24/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1075,8 +1081,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link93">M.W. Hampton (Nov. 2, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1086,8 +1092,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link94">M.W. Hampton (Jan. 21, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1097,8 +1103,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link95">Donald Beattie (9/29/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1108,8 +1114,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link96">Francis B. Boardman (11/12/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1119,8 +1125,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link97">F.B. Boardman (4/9)</unittitle>
 				</did>
 				<scopecontent>
@@ -1129,8 +1135,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link98">Louis E. Chester (Nov. 2, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1140,8 +1146,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link99">Thomas R. Moran (4/2/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1151,8 +1157,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link100">Leo M. Riley (4/3/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1162,8 +1168,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link101">Neil P. Speirs (July 21, 22, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1173,8 +1179,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link102">Paul C. Weixlmann (10/26/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1184,8 +1190,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link103">Los Angeles Railway Labor Council Special Meeting (12/17/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1195,8 +1201,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link104">Los Angeles Railway Labor council Special Meeting (12/17/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1206,8 +1212,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link105">Louis E. Chester (May 7, 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -1217,8 +1223,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link106">Gerald C. Chisholm (Nov. 6, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1228,8 +1234,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link107">John R. Burge (12/15/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1239,8 +1245,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link108">Luis Gonzalez (12/8/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1250,8 +1256,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link109">Neil G. Jenkins (Mar. 2, 1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1261,8 +1267,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link110">James E. Howe (12/10/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1272,8 +1278,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link111">Lewis E. Silverberg (Mar. 6, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1283,8 +1289,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link112">Ruth Weyand (Mar. 7, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1294,8 +1300,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link113">Marvin F. Lofton (12/13/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1305,8 +1311,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link114">Kenneth R. Moore (12/18/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1316,8 +1322,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link115">Cue O. White (12/18/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1327,8 +1333,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link116">Thomas I. Emerson (March 9, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1338,8 +1344,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link117">Estelle Frankfurter (Feb. 4, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1349,8 +1355,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle id="link118">Estelle Frankfurter (Jan. 21, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1360,8 +1366,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle id="link119">Frank M. Kleiler (Feb. 23, 1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1371,8 +1377,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle id="link120">Fran Merman - Sid Rosen (11/9, 11/10/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1382,8 +1388,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle id="link121">James T. Camp (Feb. 27, 1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1393,8 +1399,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">35</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">35</container>
 					<unittitle id="link122">Ray W. Guy (12/9/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1404,8 +1410,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">36</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">36</container>
 					<unittitle id="link123">Lucius C. Hamilton (Mar. 2, 1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1415,8 +1421,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">37</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">37</container>
 					<unittitle id="link124">A.M. Lampley (July 17, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1426,8 +1432,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">38</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">38</container>
 					<unittitle id="link125">C.F. Lane (May 28, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1437,8 +1443,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">39</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">39</container>
 					<unittitle id="link126">Clyde F. Lane (June 15, 1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1448,8 +1454,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">40</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">40</container>
 					<unittitle id="link127">J.W. McGinness (Aug. 18, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1459,8 +1465,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">41</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">41</container>
 					<unittitle id="link128">A. Miller (Nov. 5, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1470,8 +1476,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">42</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">42</container>
 					<unittitle id="link129">Don Adair Miller (April 1, 1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1481,8 +1487,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">43</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">43</container>
 					<unittitle id="link130">John L. Rabbitt (April 4, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1492,8 +1498,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">44</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">44</container>
 					<unittitle id="link131">Vincent A. Tobia (4/28/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1503,8 +1509,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">45</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">45</container>
 					<unittitle id="link132">J. Frank Young (12/14/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1514,8 +1520,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link133">H.E. Gilbert, L.E. Chester (May 27, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1525,8 +1531,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link134">H.E. Gilbert (6/18/1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1536,8 +1542,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link135">H.E. Gilbert (June 18, 1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1547,8 +1553,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link136">Michael R. Alamprese (11/5/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1558,8 +1564,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link137">Walter H. Canty (Aug. 19, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1569,8 +1575,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link138">Charlie J. Chamberlain (Nov. 3, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1580,8 +1586,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link139">Howard D. Fleenor (12/14/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1591,8 +1597,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link140">Q.C. Gabriel (Nov. 3, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1602,8 +1608,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link141">Emory Harris (Aug. 16, 1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1613,8 +1619,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link142">A.E. Lyons (Nov. 5, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1624,8 +1630,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link143">John L. Pickett (Aug. 17, 1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1635,8 +1641,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link144">L. Shattuck (May 27, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1646,8 +1652,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link145">Charles W. Zies (12/17/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1657,8 +1663,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link146">G. Bokat (March 1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -1668,8 +1674,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link147">George P. Blazin (Aug. 19, 1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1679,8 +1685,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link148">John Blount (Aug. 18, 1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1690,8 +1696,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link149">Walter H. Callies (Aug. 20, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1701,8 +1707,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link150">Norman R. Dommermath (Mar. 30, 1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1712,8 +1718,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link151">M.E. Eastman (March 31, 1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1723,8 +1729,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link152">Robert W. Godwin (10/27/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1734,8 +1740,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link153">Robert W. Groah (11/4/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1745,8 +1751,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link154">Richard W. Hare (10/15/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1756,8 +1762,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link155">Joseph F. Hoffman (12/17/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1767,8 +1773,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link156">Charles Luna (October 11, 1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1778,8 +1784,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link157">George R. Perkins (12/8/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1789,8 +1795,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link158">M.F. Radrizzi (April 2, 1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1800,8 +1806,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link159">W.D. Schwieger (8/17/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1811,8 +1817,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link160">John F. Spanfelner (11/11/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1822,8 +1828,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link161">M.S. Stuckey (8/6/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1833,8 +1839,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link162">Jesse L. Summers, Jr. (Mar. 1, 1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1844,8 +1850,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle id="link163">Donald J. Swain (12/9/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1855,8 +1861,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle id="link164">James B. Vanders (Feb. 28, 1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1866,8 +1872,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle id="link165">Calvin F. Watson (8/17/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1877,8 +1883,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle id="link166">Ben L. Wedding (8/4/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1888,8 +1894,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">35</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">35</container>
 					<unittitle id="link167">Mrs. Beatrice M. Burgoon (June 17, 1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1899,8 +1905,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">36</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">36</container>
 					<unittitle id="link168">Ed Heisler (11/6/1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1910,8 +1916,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">37</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">37</container>
 					<unittitle id="link169">E.T. Heisler (July 24, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1921,8 +1927,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">38</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">38</container>
 					<unittitle id="link170">J. Pryor (Nov. 10, 1970)</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1932,8 +1938,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">39</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">39</container>
 					<unittitle id="link171">Thomas A. Tracy (June 17, 1971)</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -1943,8 +1949,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">40</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">40</container>
 					<unittitle id="link172">Paul Herzog (July 16, 1975)</unittitle>
 					<unitdate normal="1975">1975</unitdate>
 				</did>
@@ -1954,8 +1960,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">41</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">41</container>
 					<unittitle id="link173">Paul Herzog (July 16, 1975)</unittitle>
 					<unitdate normal="1975">1975</unitdate>
 				</did>
@@ -1965,8 +1971,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">42</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">42</container>
 					<unittitle id="link174">Paul Herzog (Jan. 6, 1972)</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
@@ -1976,8 +1982,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">43</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">43</container>
 					<unittitle id="link175">Paul Herzog (July 16, 1975)</unittitle>
 					<unitdate normal="1975">1975</unitdate>
 				</did>
@@ -1987,8 +1993,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">44</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">44</container>
 					<unittitle id="link176">Paul Herzog</unittitle>
 				</did>
 				<scopecontent>
@@ -1997,211 +2003,211 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link177">References</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link178">UTU Misc.</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link179">UTU - Personnel Appointments</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link180">UTU - Business Statements</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link181">UTU - Proposals (Memorandum of Understanding)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link182">UTU - Travel</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link183">UTU - Oral History</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link184">B</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link185">C</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link186">D</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link187">UTU = Oral History "E"</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link188">F</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link189">G</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link190">H</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link191">UTU - Oral History J</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link192">K</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link193">OH L</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link194">UTU - Oral History - M</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link195">N-O</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link196">P</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link197">Q-R</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link198">OH - S</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link199">T</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link200">U-Z</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link201">Oral History - Misc.</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link202">Bulletin of Cornell Program in Oral History</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link203">Oral History Listings</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link204">OH# 1002-1003</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link205">Oral History - UTU - Listing</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link206">Davidson, Ben OH#1002</unittitle>
 				</did>
 				<scopecontent>
@@ -2210,8 +2216,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle id="link207">Schappes, Mom's OH #1002a</unittitle>
 				</did>
 				<scopecontent>
@@ -2220,15 +2226,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle id="link208">Saposs, David J. OH #1001</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle id="link209">Ching, Cyrus S. OH #1000</unittitle>
 				</did>
 				<scopecontent>
@@ -2237,85 +2243,85 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle id="link210">Ching, Cyrus OH#1000</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">35</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">35</container>
 					<unittitle id="link211">Ching, Cyrus OH #1000</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">36</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">36</container>
 					<unittitle id="link212">Ching, Cyrus OH #1000</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">37</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">37</container>
 					<unittitle id="link213">Ching, Cyrus OH #1000</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">38</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">38</container>
 					<unittitle id="link214">Ching, Cyrus OH #1000</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">39</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">39</container>
 					<unittitle id="link215">Ching, Cyrus OH #1000</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">40</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">40</container>
 					<unittitle id="link216">Ching, Cyrus OH #1000</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">41</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">41</container>
 					<unittitle id="link217">Ching, Mildred V. OH 1000a</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link218">Fahy, Charles OH 1003</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link219">Hook, Sydney OH 1002c</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link220">OH 1004-1006</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link221">Smith, Edwin S. OH 1004</unittitle>
 				</did>
 				<scopecontent>
@@ -2324,8 +2330,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link222">Madden, J. Warren OH 1005</unittitle>
 				</did>
 				<scopecontent>
@@ -2334,8 +2340,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link223">Madden, J. Warren OH 1005</unittitle>
 				</did>
 				<scopecontent>
@@ -2344,22 +2350,22 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link224">Smith, Howard OH 1006</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link225">OH 1008-1015</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link226">Witt, Nathan OH 1007</unittitle>
 				</did>
 				<scopecontent>
@@ -2368,15 +2374,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link227">Avrutis, William J. OH 1008</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link228">Barghausen, Meta P. OH 1009</unittitle>
 				</did>
 				<scopecontent>
@@ -2385,15 +2391,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link229">Cohen, Wallace M. OH 1010</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link230">Fuchs, Herbert OH 1011</unittitle>
 				</did>
 				<scopecontent>
@@ -2402,22 +2408,22 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link231">Keyserling, Leon H. OH 1012</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link232">Lichtenstein, Howard OH 1013</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link233">Mallet-Prevost, Marcel OH 1014</unittitle>
 				</did>
 				<scopecontent>
@@ -2426,8 +2432,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link234">Wolf, Benedict OH 1015</unittitle>
 				</did>
 				<scopecontent>
@@ -2436,8 +2442,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link235">Bott, George J. OH 1016</unittitle>
 				</did>
 				<scopecontent>
@@ -2446,8 +2452,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link236">Boyls, Fannie OH 1017</unittitle>
 				</did>
 				<scopecontent>
@@ -2456,50 +2462,50 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link237">Brickman, Harry OH 1018</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link238">OH 1016-1024</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link239">Glaser, Herbert R. OH 1021</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link240">Hunt, A. Bruce OH 1022</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link241">Consedine, William R. OH 1019</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link242">Cushman, Bernard OH 1020</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link243">Counts, George S. OH 1002b</unittitle>
 				</did>
 				<scopecontent>
@@ -2508,64 +2514,64 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link244">Pressman, Lee OH 1023</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link245">Vose, Owsley OH 1024</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link246">OH 1025-1029</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link247">Fields, Ogden W. OH 1025</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link248">Gross, Ernest A. OH 1026</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link249">OH 1030-1034</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link250">Levy, Philip OH 1027</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link251">Pratt, George O. OH 1028</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link252">Somers, A. Norman OH 1029</unittitle>
 				</did>
 				<scopecontent>
@@ -2574,8 +2580,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link253">Collins, John F. OH 1030</unittitle>
 				</did>
 				<scopecontent>
@@ -2584,22 +2590,22 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link254">Grady, Christopher V. OH 1031</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link255">Johnson, John J. OH 1032</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link256">Rogers, Norman J. OH 1033</unittitle>
 				</did>
 				<scopecontent>
@@ -2608,22 +2614,22 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link257">Wykle, David J. OH 1034</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link258">OH 1035 - OH 1039</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link259">Catherwood, Martin P. OH 1035</unittitle>
 				</did>
 				<scopecontent>
@@ -2632,8 +2638,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link260">Bethge, Charles R. OH 1036</unittitle>
 				</did>
 				<scopecontent>
@@ -2642,8 +2648,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link261">Donovan, William R. OH 1037</unittitle>
 				</did>
 				<scopecontent>
@@ -2652,8 +2658,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link262">Kaupman, Jacab J. OH 1038</unittitle>
 				</did>
 				<scopecontent>
@@ -2662,15 +2668,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link263">Welch, William R. OH 1039</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link264">Garrison, Lloyd K. OH 1040</unittitle>
 				</did>
 				<scopecontent>
@@ -2679,8 +2685,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link265">Handler, Milton OH 1041</unittitle>
 				</did>
 				<scopecontent>
@@ -2689,22 +2695,22 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link266">OH 1040 - 1050</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link267">Maslow, Will OH 1042</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link268">Surrey, Stanley S. OH 1043</unittitle>
 				</did>
 				<scopecontent>
@@ -2713,36 +2719,36 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link269">Crabtree, Donald J. O. OH 1044</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link270">Field, Gale R. OH 1045</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link271">Herr, Michael W. OH 1046</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link272">O'Connor, Robert J. OH 1047</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link273">Rogers, Gerald W. OH 1048</unittitle>
 				</did>
 				<scopecontent>
@@ -2751,8 +2757,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link274">Sludden, Charles J. OH 1049</unittitle>
 				</did>
 				<scopecontent>
@@ -2761,22 +2767,22 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link275">Steubner, George A. OH 1050</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link276">OH 1052-1053</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link277">Groat, Wm. B.</unittitle>
 				</did>
 				<scopecontent>
@@ -2785,22 +2791,22 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link278">Schultz, James A. OH 1052</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link279">Van Arkel, Gerhard P. OH 1053</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link280">Klaus, Ida OH 1054</unittitle>
 				</did>
 				<scopecontent>
@@ -2809,29 +2815,29 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link281">OH 1054 -1067</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link282">Murdock, Ray R. OH 1055</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link283">Aimone, Parnell M. OH 1056</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link284">Benner, Charles N. OH 1057</unittitle>
 				</did>
 				<scopecontent>
@@ -2840,8 +2846,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link285">Carson, Willard W. OH 1058</unittitle>
 				</did>
 				<scopecontent>
@@ -2850,15 +2856,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link286">Broten, Louis J. OH 1058a</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link287">Cheser, Al H. OH 1059, L h. Oh 1059</unittitle>
 				</did>
 				<scopecontent>
@@ -2867,8 +2873,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link288">Duggan, Thomas J. OH 1060</unittitle>
 				</did>
 				<scopecontent>
@@ -2877,22 +2883,22 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link289">Knupp, Robert O. OH 1061</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link290">Koepke, Roy H. OH 1062</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link291">Kroenert, Lawrence J. OH 1063</unittitle>
 				</did>
 				<scopecontent>
@@ -2901,8 +2907,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link292">Maloney, Gerald R. OH 1064</unittitle>
 				</did>
 				<scopecontent>
@@ -2911,8 +2917,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link293">Maurer, John J. OH 1065</unittitle>
 				</did>
 				<scopecontent>
@@ -2921,8 +2927,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link294">Meehan, Bernard R. OH 1066</unittitle>
 				</did>
 				<scopecontent>
@@ -2931,8 +2937,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link295">Purnell, Thomas F. OH 1067</unittitle>
 				</did>
 				<scopecontent>
@@ -2941,15 +2947,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link296">OH 1068-1078</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link297">Robb, Roger OH 1068</unittitle>
 				</did>
 				<scopecontent>
@@ -2958,8 +2964,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link298">Coyne, Joseph R. OH 1069</unittitle>
 				</did>
 				<scopecontent>
@@ -2968,8 +2974,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link299">Hampton, M.W. OH 1070</unittitle>
 				</did>
 				<scopecontent>
@@ -2978,8 +2984,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link300">Beattie, Donald S. OH 1071</unittitle>
 				</did>
 				<scopecontent>
@@ -2988,22 +2994,22 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link301">Boardman, Francis B. OH 1072</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link302">Chester, Louis E. OH 1073</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link303">Moran, Thomas R. OH 1074</unittitle>
 				</did>
 				<scopecontent>
@@ -3012,22 +3018,22 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link304">Riley, Leo M. OH 1075</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link305">Spiers, Neil P. OH 1076</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link306">Weixlman, Paul C. OH 1077</unittitle>
 				</did>
 				<scopecontent>
@@ -3036,8 +3042,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link307">Los Angeles Railway Labor Council Meeting OH 1078</unittitle>
 				</did>
 				<scopecontent>
@@ -3046,29 +3052,29 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link308">OH 1079-1095</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link309">Chester, Louis E. OH 1079</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link310">Canty, Walter H. OH 1080</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link311">Peters, Homer E. OH 1082</unittitle>
 				</did>
 				<scopecontent>
@@ -3077,8 +3083,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link312">Chrisholm, Louis OH 1083</unittitle>
 				</did>
 				<scopecontent>
@@ -3087,8 +3093,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link313">Burge, John R. OH 1084</unittitle>
 				</did>
 				<scopecontent>
@@ -3097,15 +3103,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link314">Gonzalez, Luis OH 1085</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link315">Bennett, Paul R. OH 1086</unittitle>
 				</did>
 				<scopecontent>
@@ -3114,8 +3120,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link316">Jenkins and Harden OH 1086</unittitle>
 				</did>
 				<scopecontent>
@@ -3124,8 +3130,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link317">Howe and Evans OH 1087</unittitle>
 				</did>
 				<scopecontent>
@@ -3134,15 +3140,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link318">Silverberg, L.G. OH 1088</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link319">Weyand, Ruth OH 1089</unittitle>
 				</did>
 				<scopecontent>
@@ -3151,36 +3157,36 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link320">Lofton, M.F. OH 1090</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link321">Moore, R.R. OH 1091</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link322">White, C.O. OH 1092</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link323">Emerson, T. I. OH 1093</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link324">Frankfurter, E. OH 1094</unittitle>
 				</did>
 				<scopecontent>
@@ -3189,8 +3195,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link325">Kleiler, Frank M. OH 1095</unittitle>
 				</did>
 				<scopecontent>
@@ -3199,8 +3205,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link326">Herman, Fran</unittitle>
 				</did>
 				<scopecontent>
@@ -3209,15 +3215,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link327">OH 1097-1108</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link328">Camp, James T. OH 1097</unittitle>
 				</did>
 				<scopecontent>
@@ -3226,15 +3232,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link329">Guy, Ray W. OH 1098</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link330">Hamilton, Lucius C.</unittitle>
 				</did>
 				<scopecontent>
@@ -3243,8 +3249,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link331">Lamplay, A. M. OH 1100</unittitle>
 				</did>
 				<scopecontent>
@@ -3253,15 +3259,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link332">Lane, Clyde F. OH 1101</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link333">McGinness, John W. OH 1102</unittitle>
 				</did>
 				<scopecontent>
@@ -3270,8 +3276,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link334">Miller, Don A. OH 1103</unittitle>
 				</did>
 				<scopecontent>
@@ -3280,8 +3286,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link335">Pound, Ernest P. OH 1104</unittitle>
 				</did>
 				<scopecontent>
@@ -3290,8 +3296,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link336">Rabbitt, John L. OH 1105</unittitle>
 				</did>
 				<scopecontent>
@@ -3300,8 +3306,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link337">Tobia, Vincent A. OH 1106</unittitle>
 				</did>
 				<scopecontent>
@@ -3310,8 +3316,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link338">Young, J. Frank OH 1107</unittitle>
 				</did>
 				<scopecontent>
@@ -3320,22 +3326,22 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link339">Gilbert, Henry E. OH 1108</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link340">OH 1109-1118</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link341">Alamprese, Michael R. OH 1109</unittitle>
 				</did>
 				<scopecontent>
@@ -3344,15 +3350,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link342">Canty, Walter H. OH 1110 [EMPTY]</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link343">Chamberlain, Charles J. OH 1111</unittitle>
 				</did>
 				<scopecontent>
@@ -3361,43 +3367,43 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link344">Fleenor, Howard D. OH 1112</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link345">Gabriel, Quinton C. OH 1113</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link346">Harris, Emory OH 1114</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link347">Lyon, Arlon E. OH 1115</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link348">Pickett, John L. OH 1116</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link349">Shattuck, Jess L. OH 1117</unittitle>
 				</did>
 				<scopecontent>
@@ -3406,8 +3412,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link350">Zies, Charles W. OH 1118</unittitle>
 				</did>
 				<scopecontent>
@@ -3416,8 +3422,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link351">Bokat, George OH 1119</unittitle>
 				</did>
 				<scopecontent>
@@ -3426,22 +3432,22 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link352">Blazin, George P. OH 1120</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link353">Blunt, John H. OH 1121</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link354">Callies, Walter H. OH 1122</unittitle>
 				</did>
 				<scopecontent>
@@ -3450,8 +3456,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link355">Dommermuth, Norman R. OH 1123</unittitle>
 				</did>
 				<scopecontent>
@@ -3460,8 +3466,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link356">Eastman, Merrill E., Jr. OH 1124</unittitle>
 				</did>
 				<scopecontent>
@@ -3470,8 +3476,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link357">Godwin, Robert W. OH 1125</unittitle>
 				</did>
 				<scopecontent>
@@ -3480,8 +3486,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link358">Groah, Robert W. OH 1126</unittitle>
 				</did>
 				<scopecontent>
@@ -3490,8 +3496,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link359">Hare, Richard W. OH 1127</unittitle>
 				</did>
 				<scopecontent>
@@ -3500,8 +3506,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link360">Hoffman, Joseph F. OH 1128</unittitle>
 				</did>
 				<scopecontent>
@@ -3510,22 +3516,22 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link361">Luna, Charles OH 1129</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link362">Perkins, George R. OH 1130</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link363">Radrizzi, Maurice F. OH 1131</unittitle>
 				</did>
 				<scopecontent>
@@ -3534,8 +3540,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link364">Schwieger, William D. OH 1132</unittitle>
 				</did>
 				<scopecontent>
@@ -3544,8 +3550,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link365">Spanfelner, John F. OH 1133</unittitle>
 				</did>
 				<scopecontent>
@@ -3554,8 +3560,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link366">Stuckey, M.S. OH 1134</unittitle>
 				</did>
 				<scopecontent>
@@ -3564,15 +3570,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link367">OH 1119-1139 -- Comments, etc.</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link368">Summers, Jesse L., Jr. OH 1135</unittitle>
 				</did>
 				<scopecontent>
@@ -3581,8 +3587,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link369">Swain, Donald J. OH 1136</unittitle>
 				</did>
 				<scopecontent>
@@ -3591,8 +3597,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link370">Vanders, James B. OH 1137</unittitle>
 				</did>
 				<scopecontent>
@@ -3601,8 +3607,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link371">Watson, Calvin F. OH 1138</unittitle>
 				</did>
 				<scopecontent>
@@ -3611,8 +3617,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link372">Wedding, Ben L. OH 1139</unittitle>
 				</did>
 				<scopecontent>
@@ -3621,8 +3627,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link373">Burgoon, Beatrice OH 1140</unittitle>
 				</did>
 				<scopecontent>
@@ -3631,8 +3637,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link374">Pryor, Harold J. OH 1142</unittitle>
 				</did>
 				<scopecontent>
@@ -3641,15 +3647,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link375">OH 1140-1143</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link376">Heisler, Edward T. OH 1141</unittitle>
 				</did>
 				<scopecontent>
@@ -3658,8 +3664,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link377">Heisler, Edward T. OH 1141</unittitle>
 				</did>
 				<scopecontent>
@@ -3668,8 +3674,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link378">Heisler, Edward T. OH 1141</unittitle>
 				</did>
 				<scopecontent>
@@ -3678,8 +3684,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link379">Tracy, Thomas A. OH 1143</unittitle>
 				</did>
 				<scopecontent>
@@ -3688,78 +3694,78 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link380">Herzog and MacKenzie Transcript OH 1145a</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link381">Herzog, Paul M. OH 1145</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link382">Golden, Ben OH 1146</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link383">Margison, Richard L.</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link384">OH 1145-1146</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link385">Jones, Richard C.</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link386">Swarr, Philip</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link387">Reynolds, H. Kendall</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link388">Brooks, Rozanne</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link389">Brennan, Daniel J.</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link390">Corey, William T.</unittitle>
 				</did>
 				<scopecontent>
@@ -3768,8 +3774,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link391">Palm, Delmar</unittitle>
 				</did>
 				<scopecontent>
@@ -3778,8 +3784,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link392">Leon, Donald</unittitle>
 				</did>
 				<scopecontent>
@@ -3788,8 +3794,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link393">Rzepka, Louis</unittitle>
 				</did>
 				<scopecontent>
@@ -3798,8 +3804,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link394">Miners for Democracy OH 1144</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
@@ -3809,8 +3815,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link395">Miners for Democracy OH 1144</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
@@ -3820,8 +3826,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link396">Miners of Democracy OH 1144</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
@@ -3831,8 +3837,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link397">Miners for Democracy OH 1144</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
@@ -3842,8 +3848,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link398">Miners for Democracy OH 1144</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
@@ -3853,8 +3859,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link399">Miners for Democracy OH 1144</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
@@ -3864,8 +3870,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link400">Iushewitz, Morris</unittitle>
 				</did>
 				<scopecontent>
@@ -3874,337 +3880,337 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link401">Loomis</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link402">Abelson, Paul</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link403">Paddock</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link404">Weaver and Hardin Interview</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link405">Paddock</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link406">Loomis, Daniel P. (copy)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link407">Paddock</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link408">Dempsey</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link409">H.E. Gilbert (original)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link410">Oliver</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link411">Hiltz</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link412">Hiltz</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link413">Parks</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link414">Stewart, Donald H.</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link415">Joseph E. Ludwig</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link416">Anthony Papalla</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link417">Nicholas J. Esposito</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link418">Graves Frank Ray</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link419">James B. Daley</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link420">Carole Mushler</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link421">Mary T. Beilby</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link422">James H. Parker</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link423">Margaret Robb</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link424">Dorothy Gutenkauf</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link425">Kenneth P. Wickman</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link426">Hiram Bleeker</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link427">William B. Rogers</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link428">Richard Correnti</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link429">Charles Poskanzer</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle id="link430">Alan D. Willsey</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle id="link431">William W. Taylor</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link432">Ching, Cyrus OH 1000</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link433">Ching, Cyrus OH 1000</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link434">Ching, Cyrus OH 1000</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link435">Ching, Cyrus OH 1000</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link436">Ching, Cyrus OH 1000</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link437">Ching, Cyrus OH 1000</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link438">Ching, Cyrus OH 1000</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link439">Ching, Cyrus OH 1000</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link440">Ching, Cyrus OH 1000</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link441">Ching, Cyrus OH 1000</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link442">Ching, Mildred V. OH 1000</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link443">David Saposs, no. 1001</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link444">Smith, Howard OH 1006</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link445">William J. Avrutis OH 1008</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link446">Cohen, Wallace M. OH 1010</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link447">Keyserling, Leon H. OH 1012</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link448">Lichtenstein, Howard OH 1013</unittitle>
 				</did>
 				<scopecontent>
@@ -4213,22 +4219,22 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link449">George J. Bott OH 1016</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link450">Harry Brickman OH 1018</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link451">Consedine, William R. OH 1019</unittitle>
 				</did>
 				<scopecontent>
@@ -4237,8 +4243,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link452">Cushman, Bernard OH 1020</unittitle>
 				</did>
 				<scopecontent>
@@ -4247,8 +4253,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link453">Glasser, Herbert R. OH 1021</unittitle>
 				</did>
 				<scopecontent>
@@ -4257,8 +4263,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link454">Hunt, A. Bruce OH 1022</unittitle>
 				</did>
 				<scopecontent>
@@ -4267,8 +4273,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link455">Vose, Owsley OH 1024</unittitle>
 				</did>
 				<scopecontent>
@@ -4277,8 +4283,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link456">Fields, Ogden W. OH 1025</unittitle>
 				</did>
 				<scopecontent>
@@ -4287,8 +4293,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link457">Gross, Ernest OH 1026</unittitle>
 				</did>
 				<scopecontent>
@@ -4297,8 +4303,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link458">Pratt, George O. OH 1028</unittitle>
 				</did>
 				<scopecontent>
@@ -4307,8 +4313,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link459">Levy, Philip OH 1027</unittitle>
 				</did>
 				<scopecontent>
@@ -4317,8 +4323,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link460">Emerson, T.I. OH 1093</unittitle>
 				</did>
 				<scopecontent>
@@ -4327,8 +4333,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link461">Handler, Milton OH 1041</unittitle>
 				</did>
 				<scopecontent>
@@ -4337,8 +4343,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link462">Kleinen, Frank M. OH 1095</unittitle>
 				</did>
 				<scopecontent>
@@ -4347,8 +4353,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link463">Maslow, Will OH 1042</unittitle>
 				</did>
 				<scopecontent>
@@ -4357,8 +4363,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link464">Murdock, Ray R. OH 1055</unittitle>
 				</did>
 				<scopecontent>
@@ -4367,8 +4373,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link465">Silverberg, Louis G. OH 1088</unittitle>
 				</did>
 				<scopecontent>
@@ -4377,8 +4383,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link466">Van Arkel, Gerhard P. OH 1053</unittitle>
 				</did>
 				<scopecontent>
@@ -4387,7 +4393,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unittitle id="link467">Cyrus S. Ching - Interview no. 1000</unittitle>
 				</did>
 				<scopecontent>
@@ -4396,7 +4402,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unittitle id="link468">Mrs. Cyrus S. Ching - Interview no. 1000a -- 3/30/1970</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -4406,7 +4412,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unittitle id="link469">David Saposs - Interview no. 1001</unittitle>
 				</did>
 				<scopecontent>
@@ -4415,7 +4421,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">19</container>
+					<container label="unspecified" type="box">19</container>
 					<unittitle id="link470">Charles Fahy - Interview no. 1003</unittitle>
 				</did>
 				<scopecontent>
@@ -4424,7 +4430,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">20</container>
+					<container label="unspecified" type="box">20</container>
 					<unittitle id="link471">Edwin S. Smith - Interview no. 1004</unittitle>
 				</did>
 				<scopecontent>
@@ -4433,7 +4439,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">21</container>
+					<container label="unspecified" type="box">21</container>
 					<unittitle id="link472">Joseph Warren Madden -- interview no. 1005</unittitle>
 				</did>
 				<scopecontent>
@@ -4442,7 +4448,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">22</container>
+					<container label="unspecified" type="box">22</container>
 					<unittitle id="link473">Nathan Witt -- Interview no. 1007</unittitle>
 				</did>
 				<scopecontent>
@@ -4451,7 +4457,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
+					<container label="unspecified" type="box">23</container>
 					<unittitle id="link474">Wallace M. Cohen -- Interview no. 1010 -- (3/12/1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -4461,7 +4467,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">24</container>
+					<container label="unspecified" type="box">24</container>
 					<unittitle id="link475">Howard Lichtenstein -- Interview no. 1013</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -4471,7 +4477,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">25</container>
+					<container label="unspecified" type="box">25</container>
 					<unittitle id="link476">Harry Brickman -- Interview no. 1014 -- (3/18/1969)</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -4481,7 +4487,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">26</container>
+					<container label="unspecified" type="box">26</container>
 					<unittitle id="link477">Benedict Wolf -- Interview no. 1015</unittitle>
 				</did>
 				<scopecontent>
@@ -4490,7 +4496,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">27</container>
+					<container label="unspecified" type="box">27</container>
 					<unittitle id="link478">Benedict Wolf -- Interview no. 1015</unittitle>
 				</did>
 				<scopecontent>
@@ -4499,7 +4505,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">28</container>
+					<container label="unspecified" type="box">28</container>
 					<unittitle id="link479">Herbert R. Glaser -- Interview no. 1021</unittitle>
 				</did>
 				<scopecontent>
@@ -4508,7 +4514,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">29</container>
+					<container label="unspecified" type="box">29</container>
 					<unittitle id="link480">Lee Pressman ; Ben Golden -- Interview no. 1023</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -4518,7 +4524,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">30</container>
+					<container label="unspecified" type="box">30</container>
 					<unittitle id="link481">Owsley Vose -- Interview no. 1024</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -4528,7 +4534,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">31</container>
+					<container label="unspecified" type="box">31</container>
 					<unittitle id="link482">Gross -- Interview #1026</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -4538,7 +4544,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">32</container>
+					<container label="unspecified" type="box">32</container>
 					<unittitle id="link483">Levy -- Interview #1027</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -4548,7 +4554,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">33</container>
+					<container label="unspecified" type="box">33</container>
 					<unittitle id="link484">Pratt -- Interview #1028</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -4558,7 +4564,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">34</container>
+					<container label="unspecified" type="box">34</container>
 					<unittitle id="link485">Somers -- Interview #1029</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -4568,7 +4574,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">35</container>
+					<container label="unspecified" type="box">35</container>
 					<unittitle id="link486">Collins -- Interview #1030</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -4578,7 +4584,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">36</container>
+					<container label="unspecified" type="box">36</container>
 					<unittitle id="link487">Grady -- Interview #1031 -- 4/2/1970</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -4588,7 +4594,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">37</container>
+					<container label="unspecified" type="box">37</container>
 					<unittitle id="link488">Johnson -- Interview #1032 -- 4/3/1970</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -4598,7 +4604,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">38</container>
+					<container label="unspecified" type="box">38</container>
 					<unittitle id="link489">Rogers -- Interview #1033 -- 3/24/1970</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -4608,7 +4614,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">39</container>
+					<container label="unspecified" type="box">39</container>
 					<unittitle id="link490">Wykle -- Interview #1034</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -4618,7 +4624,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">40</container>
+					<container label="unspecified" type="box">40</container>
 					<unittitle id="link491">Catherwood -- Interview #1035</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -4628,7 +4634,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">41</container>
+					<container label="unspecified" type="box">41</container>
 					<unittitle id="link492">Bethge -- Interview #1036</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -4638,7 +4644,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">42</container>
+					<container label="unspecified" type="box">42</container>
 					<unittitle id="link493">Donovan -- Interview #1037</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -4648,7 +4654,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">43</container>
+					<container label="unspecified" type="box">43</container>
 					<unittitle id="link494">Kaufman -- Interview #1038</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -4658,7 +4664,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">44</container>
+					<container label="unspecified" type="box">44</container>
 					<unittitle id="link495">Welch -- Interview #1039 -- 4/3/1970</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -4668,7 +4674,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">45</container>
+					<container label="unspecified" type="box">45</container>
 					<unittitle id="link496">Garrison -- Interview #1040</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
@@ -4678,7 +4684,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">46</container>
+					<container label="unspecified" type="box">46</container>
 					<unittitle id="link497">Handler -- Interview #1041</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -4688,7 +4694,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">47</container>
+					<container label="unspecified" type="box">47</container>
 					<unittitle id="link498">Maslow -- Interview #1042</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>

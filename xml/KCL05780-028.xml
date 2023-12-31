@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-028::ILGWU. Montreal locals minutes,)//EN">KCL05780-028</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-028::ILGWU. Montreal locals minutes,)//EN">KCL05780-028</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the ILGWU. Montreal locals
@@ -24,19 +24,25 @@
 			<creation>Finding aid encoded by MarcEdit, Ead McTaggart, and Cheryl Beredo,
 					<date>April 2011</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the ILGWU. Montreal Locals Minutes,<lb/><date type="inclusive" encodinganalog="245$f">1936-1974.</date></titleproper>
-			<num type="kidb_reference_number" id="kc1312">Collection Number: 5780/028</num>
-			<publisher>Kheel Center for Labor-Management Documentation and Archives <lb/>Cornell
+			<titleproper>Guide to the ILGWU. Montreal Locals Minutes,<date encodinganalog="245$f" type="inclusive">1936-1974.</date></titleproper>
+			<num id="kc1312" type="kidb_reference_number">Collection Number: 5780/028</num>
+			<publisher>Kheel Center for Labor-Management Documentation and Archives Cornell
 				University Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-						P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-						Ithaca, NY 14853<lb/> (607) 255-3183<lb/><extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/><extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref><lb/></item>
+					<item> Kheel Center for Labor-Management Documentation and Archives Martin
+						P. Catherwood Library 227 Ives Hall Cornell University
+						Ithaca, NY 14853 (607) 255-3183<extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -57,12 +63,12 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">ILGWU. Montreal locals minutes,
-					<unitdate encodinganalog="MARC 245" type="inclusive">1936-1974.</unitdate></unittitle>
+			
+			<unittitle encodinganalog="MARC 245" label="Title:">ILGWU. Montreal locals minutes
+					1936-1974.</unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1936-1974.</unitdate>
 			<unitid label="Collection Number:">5780/028</unitid>
 			<origination label="Creator:"/>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">2 linear feet</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">2 linear feet</physdesc>
 			<physdesc label="Forms of Material:">Records.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and
 				Archives, Cornell University Library</repository>
@@ -72,7 +78,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language>, <language encodinganalog="041" langcode="fre">French</language>, and <language encodinganalog="041" langcode="yid">Yiddish.</language></langmaterial>
 		<physdesc><extent>2 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="organization">ILGWU ORGANIZATIONAL HISTORY</head>
+			
 			<p>The International Ladies’ Garment Workers’ Union was founded in New York City in 1900
 				by mostly Socialist immigrant workers who sought to unite the various crafts in the
 				growing women's garment industry. The union soon reflected changes in the sector and
@@ -118,14 +124,14 @@
 				584, and 592 also represented workers of Montreal's ladies' garment industry.</p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a5">COLLECTION DESCRIPTION</head>
+			
 			<p>Records of the International Ladies' Garment Workers' Union Locals 19, 43, 61, 112,
 				342, 438, 584, and 592. Included are meeting minutes and correspondence.</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union. </corpname>
 				<corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union.
 					Local 19.</corpname>
@@ -162,7 +168,7 @@
 					Local 592.</corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects:</head>
+				
 				<subject encodinganalog="MARC 650">Women's clothing industry--United
 					States.</subject>
 				<subject encodinganalog="MARC 650">Women's clothing industry--New York (State)--New
@@ -179,13 +185,13 @@
 					York.</subject>
 			</controlaccess>
 			<controlaccess>
-				<head>Form and Genre Terms:</head>
+				
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>The ILGWU Records, except for publications and materials produced for
 					publication, are restricted. Materials created prior to twenty years from the
 					current date are open to researchers only with prior written permission from the
@@ -194,14 +200,14 @@
 					information contact the Kheel Center.</p>
 			</accessrestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>ILGWU. Montreal locals minutes. 5780/028. Kheel Center for Labor-Management
 					Documentation and Archives, Martin P. Catherwood Library, Cornell
 					University.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
+			
 			<p>5780. ILGWU Records</p>
 			<p>5780/029. ILGWU. Montreal Dress Joint Board minus</p>
 			<p>5780/030. ILGWU. Montreal Joint Council minutes</p>
@@ -209,17 +215,17 @@
 			<p>5780/117. ILGWU. Quebec Joint Council records</p>
 		</relatedmaterial>
 		<odd type="notes">
-			<head id="a7">NOTES</head>
+			
 			<p>"Permanent deposit"</p>
 		</odd>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Local 19. Minutes. </unittitle>
-					<unitdate type="inclusive" normal="1936/1942">1936-1942</unitdate>
+					<unitdate normal="1936/1942" type="inclusive">1936-1942</unitdate>
 				</did>
 				<scopecontent>
 					<p>English. Handwritten </p>
@@ -227,10 +233,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>Local 342. Minutes. </unittitle>
-					<unitdate type="inclusive" normal="1940/1946">1940-1946</unitdate>
+					<unitdate normal="1940/1946" type="inclusive">1940-1946</unitdate>
 				</did>
 				<scopecontent>
 					<p>Yiddish</p>
@@ -238,10 +244,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>Local 61. Minutes. </unittitle>
-					<unitdate type="inclusive" normal="1940/1953">1940-1953</unitdate>
+					<unitdate normal="1940/1953" type="inclusive">1940-1953</unitdate>
 				</did>
 				<scopecontent>
 					<p>Yiddish</p>
@@ -249,10 +255,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Local 19. Minutes. </unittitle>
-					<unitdate type="inclusive" normal="1942/1946">1942-1946</unitdate>
+					<unitdate normal="1942/1946" type="inclusive">1942-1946</unitdate>
 				</did>
 				<scopecontent>
 					<p>English</p>
@@ -260,10 +266,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Local 19. Minutes. </unittitle>
-					<unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate>
+					<unitdate normal="1946/1947" type="inclusive">1946-1947</unitdate>
 				</did>
 				<scopecontent>
 					<p>English</p>
@@ -271,10 +277,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>Local 342. Minutes. </unittitle>
-					<unitdate type="inclusive" normal="1946/1953">1946-1953</unitdate>
+					<unitdate normal="1946/1953" type="inclusive">1946-1953</unitdate>
 				</did>
 				<scopecontent>
 					<p>Yiddish</p>
@@ -282,10 +288,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>Local 342. Minutes and 1961 Union Label Publication.</unittitle>
-					<unitdate type="inclusive" normal="1953/1955">1953-1955</unitdate>
+					<unitdate normal="1953/1955" type="inclusive">1953-1955</unitdate>
 				</did>
 				<scopecontent>
 					<p>Yiddish </p>
@@ -293,10 +299,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>Local 61. Minutes. </unittitle>
-					<unitdate type="inclusive" normal="1953/1961">1953-1961</unitdate>
+					<unitdate normal="1953/1961" type="inclusive">1953-1961</unitdate>
 				</did>
 				<scopecontent>
 					<p>Mainly Yiddish some English</p>
@@ -304,10 +310,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Local 19. Minutes.</unittitle>
-					<unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate>
+					<unitdate normal="1954/1955" type="inclusive">1954-1955</unitdate>
 				</did>
 				<scopecontent>
 					<p>English</p>
@@ -315,10 +321,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Local 19. Minutes.</unittitle>
-					<unitdate type="inclusive" normal="1955/1964">1955-1964</unitdate>
+					<unitdate normal="1955/1964" type="inclusive">1955-1964</unitdate>
 				</did>
 				<scopecontent>
 					<p>English</p>
@@ -326,10 +332,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>Local 342. Minutes.</unittitle>
-					<unitdate type="inclusive" normal="1955/1966">1955-1966</unitdate>
+					<unitdate normal="1955/1966" type="inclusive">1955-1966</unitdate>
 				</did>
 				<scopecontent>
 					<p>Yiddish</p>
@@ -337,10 +343,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>Local 61. Minutes.</unittitle>
-					<unitdate type="inclusive" normal="1962/1974">1962-1974</unitdate>
+					<unitdate normal="1962/1974" type="inclusive">1962-1974</unitdate>
 				</did>
 				<scopecontent>
 					<p>Yiddish</p>
@@ -348,10 +354,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Local 43. Minutes. </unittitle>
-					<unitdate type="inclusive" normal="1937/1940">1937-1940</unitdate>
+					<unitdate normal="1937/1940" type="inclusive">1937-1940</unitdate>
 				</did>
 				<scopecontent>
 					<p>Yiddish</p>
@@ -359,10 +365,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Local 112. Minutes. </unittitle>
-					<unitdate type="inclusive" normal="1938/1958">1938-1958</unitdate>
+					<unitdate normal="1938/1958" type="inclusive">1938-1958</unitdate>
 				</did>
 				<scopecontent>
 					<p>French. Handwritten </p>
@@ -370,10 +376,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Local 43. Minutes.</unittitle>
-					<unitdate type="inclusive" normal="1940/1946">1940-1946</unitdate>
+					<unitdate normal="1940/1946" type="inclusive">1940-1946</unitdate>
 				</did>
 				<scopecontent>
 					<p>Yiddish</p>
@@ -381,10 +387,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Local 112. Minutes. </unittitle>
-					<unitdate type="inclusive" normal="1945/1958">1945-1958</unitdate>
+					<unitdate normal="1945/1958" type="inclusive">1945-1958</unitdate>
 				</did>
 				<scopecontent>
 					<p>French</p>
@@ -392,10 +398,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Local 43. Minutes and Correspondence.</unittitle>
-					<unitdate type="inclusive" normal="1947/1955">1947-1955</unitdate>
+					<unitdate normal="1947/1955" type="inclusive">1947-1955</unitdate>
 				</did>
 				<scopecontent>
 					<p>Yiddish. Some Correspondence in Yiddish a few correspondence in English </p>
@@ -403,10 +409,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>Local 584. Lac Magantic. Minutes.</unittitle>
-					<unitdate type="inclusive" normal="1957/1962">1957-1962</unitdate>
+					<unitdate normal="1957/1962" type="inclusive">1957-1962</unitdate>
 				</did>
 				<scopecontent>
 					<p>French</p>
@@ -414,10 +420,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>Local 592. Drummondville, Quebec. Minutes.</unittitle>
-					<unitdate type="inclusive" normal="1957/1970">1957-1970</unitdate>
+					<unitdate normal="1957/1970" type="inclusive">1957-1970</unitdate>
 				</did>
 				<scopecontent>
 					<p>French</p>
@@ -425,10 +431,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>Lingerie Local: 438. Minutes.</unittitle>
-					<unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate>
+					<unitdate normal="1965/1970" type="inclusive">1965-1970</unitdate>
 				</did>
 				<scopecontent>
 					<p>French with English Translation</p>

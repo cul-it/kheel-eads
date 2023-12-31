@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
- <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-  <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06589p::Cyril Johnson Woolen Company Photographs.)//EN">KCL06589p</eadid>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06589p::Cyril Johnson Woolen Company Photographs.)//EN">KCL06589p</eadid>
   <filedesc>
    <titlestmt>
     <titleproper>Guide to the Cyril Johnson Woolen Company Photographs<date> 1920-1962</date></titleproper>
@@ -21,16 +21,22 @@
   <profiledesc>
    <creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>November 13, 2017</date></creation>
   </profiledesc>
- </eadheader>
+ <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
  <frontmatter>
   <titlepage>
-   <titleproper>Guide to the Cyril Johnson Woolen Company Photographs<lb/></titleproper>
+   <titleproper>Guide to the Cyril Johnson Woolen Company Photographs</titleproper>
    <num>Collection Number: 6589 P</num>
    <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
    <list type="deflist">
     <defitem>
      <label>Contact Information:</label>
-     <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+     <item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
       <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
      </item>
     </defitem>
@@ -48,14 +54,14 @@
  </frontmatter>
  <archdesc level="collection">
   <did>
-   <head id="a1">DESCRIPTIVE SUMMARY</head>
-   <unittitle label="Title:" encodinganalog="MARC 245$a">Cyril Johnson Woolen Company Photographs, <unitdate encodinganalog="MARC 245$f">1920-1962</unitdate>
-   </unittitle>
+   
+   <unittitle encodinganalog="MARC 245$a" label="Title:">Cyril Johnson Woolen Company Photographs, 1920-1962
+   </unittitle><unitdate encodinganalog="MARC 245$f">1920-1962</unitdate>
    <unitid label="Collection Number:">6589 P</unitid>
    <origination label="Creator:">
     <corpname encodinganalog="MARC 110" role="creator">Cyril Johnson Woolen Company.</corpname>
    </origination>
-   <physdesc label="Quantity:" encodinganalog="MARC 300">0.4 linear ft.</physdesc>
+   <physdesc encodinganalog="MARC 300" label="Quantity:">0.4 linear ft.</physdesc>
    <physdesc label="Forms of Material:">Gelatin silver print, photographs.</physdesc>
    <repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
    <abstract label="Abstract:">Photographs of the Cyril Johnson Woolen Company's employees making wool fabric.</abstract>
@@ -63,14 +69,14 @@
    </langmaterial>
   <physdesc><extent>0.44 cubic feet</extent></physdesc></did>
   <scopecontent encodinganalog="MARC 520">
-   <head id="a3">COLLECTION DESCRIPTION</head>
+   
    <p>Consists largely of photographs of employees processing wool and creating cloth. This includes sorting and cleaning wool, spinning, warping, and weaving. There are several photographs of finished cloth being inspected. Also included are exterior views of
     the plant.</p>
   </scopecontent>
   <controlaccess>
-   <head id="a8">SUBJECTS</head>
+   
    <controlaccess>
-    <head>Names: </head>
+    
     <persname encodinganalog="MARC 600">Bishop, C. M. </persname>
     <persname encodinganalog="MARC 600">Bridges, S. Willard. </persname>
     <persname encodinganalog="MARC 600">Jones, J. M. </persname>
@@ -87,7 +93,7 @@
     <corpname encodinganalog="MARC 610">Davis &amp; Furber Machine Co. </corpname>
    </controlaccess>
    <controlaccess>
-    <head>Subjects: </head>
+    
     <subject encodinganalog="MARC 650">Bobbins (Textile machinery) </subject>
     <subject encodinganalog="MARC 650">Costume--Men--Main garment </subject>
     <subject encodinganalog="MARC 650">Dyes and dyeing </subject>
@@ -114,46 +120,46 @@
     <subject encodinganalog="MARC 650">Woolen and worsted manufacture </subject>
    </controlaccess>
    <controlaccess>
-    <head>Geographic Subjects: </head>
+    
     <subject encodinganalog="MARC 651">Stafford Springs (Conn.) </subject>
    </controlaccess>
    <controlaccess>
     </controlaccess>
   </controlaccess>
   <descgrp>
-   <head id="a10">INFORMATION FOR USERS</head>
+   
    <accessrestrict>
-    <head>Access Restrictions:</head>
+    
     <p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
    </accessrestrict>
    <userestrict>
-    <head>Restrictions on Use:</head>
+    
     <p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
    </userestrict>
    <prefercite>
-    <head>Cite As:</head>
+    
     <p>Cyril Johnson Woolen Company Photographs #6589 P. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
    </prefercite>
   </descgrp>
   <relatedmaterial>
-   <head id="a6">RELATED MATERIALS</head>
-   <p>Related Collections:<lb/> 6589 F: Cyril Johnson Woolen Company Films<lb/> 6589 G: Cyril Johnson Woolen Company Graphics<lb/> 6589: Cyril Johnson Woolen Company Records<lb/> 6524/011 PUBS: ATHM Textile Industry Publications<lb/> 6605 P: Davis &amp; Furber
-    Machine Company Photographs<lb/>
+   
+   <p>Related Collections: 6589 F: Cyril Johnson Woolen Company Films 6589 G: Cyril Johnson Woolen Company Graphics 6589: Cyril Johnson Woolen Company Records 6524/011 PUBS: ATHM Textile Industry Publications 6605 P: Davis &amp; Furber
+    Machine Company Photographs
    </p>
   </relatedmaterial>
   <dsc type="in-depth">
-   <head>CONTAINER LIST</head>
+   
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link8">Cyril Johnson Woolen Company From the Air</unittitle>
      <unitdate normal="1940">1940</unitdate>
     </did>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle id="link9">Item 1: Aerial view of Cyril Johnson Woolen Company, Stafford Springs, Conn.</unittitle>
       <unitdate normal="1940">1940</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -168,17 +174,17 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link10">Warp Dressing Room and Spinning Mule</unittitle>
-     <unitdate type="inclusive" normal="1920/1950">1920-1950</unitdate>
+     <unitdate normal="1920/1950" type="inclusive">1920-1950</unitdate>
     </did>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">2</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">2</container>
       <unittitle id="link11">Item 1: Warp dressing room</unittitle>
-      <unitdate type="inclusive" normal="1920/1950">1920-1950</unitdate>
+      <unitdate normal="1920/1950" type="inclusive">1920-1950</unitdate>
      </did>
      <scopecontent>
       <p>Warp dressing room, Cyril Johnson Woolen Company, Stafford Springs, Conn. Gelatin silver print, 1920-50?. Image depicts a corner of the warp dressing room in the Cyril Johnson Woolen Company in Stafford Springs, Conn., showing the warp threads being
@@ -188,8 +194,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">2</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">2</container>
       <unittitle id="link12">Item 2: Spinning mule</unittitle>
       <unitdate normal="1950">1950</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -203,16 +209,16 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link13">Company Sign and Raw Wool Through to Finished Cloth</unittitle>
      <unitdate normal="1950">1950</unitdate>
      <physdesc label="Format:">black and white photograph</physdesc>
     </did>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">3</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">3</container>
       <unittitle id="link14">Item 1: Sign for Cyril Johnson Woolen Company, Stafford Springs, Conn.</unittitle>
       <unitdate normal="1950">1950</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -224,8 +230,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">3</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">3</container>
       <unittitle id="link15">Item 2: Close-up of man sorting wool at table</unittitle>
       <unitdate normal="1950">1950</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -237,8 +243,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">3</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">3</container>
       <unittitle id="link16">Item 3: Man carrying wool to wool picker</unittitle>
       <unitdate normal="1950">1950</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -251,8 +257,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">3</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">3</container>
       <unittitle id="link17">Item 4: Close-up view of man at warping machine</unittitle>
       <unitdate normal="1950">1950</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -264,8 +270,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">3</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">3</container>
       <unittitle id="link18">Item 5: Close-up view of woman drawing-in</unittitle>
       <unitdate normal="1950">1950</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -278,8 +284,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">3</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">3</container>
       <unittitle id="link19">Item 6: Close-up view of man standing at power loom</unittitle>
       <unitdate normal="1950">1950</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -291,8 +297,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">3</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">3</container>
       <unittitle id="link20">Item 7: Two female employees inspecting cloth</unittitle>
       <unitdate normal="1950">1950</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -305,15 +311,15 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link21">Finished Cloth and Wool Processing</unittitle>
-     <unitdate type="inclusive" normal="1947/1960">1947-1960</unitdate>
+     <unitdate normal="1947/1960" type="inclusive">1947-1960</unitdate>
     </did>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">4</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">4</container>
       <unittitle id="link22">Item 1: Three male employees inspecting cloth</unittitle>
       <unitdate normal="1950">1950</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -325,8 +331,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">4</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">4</container>
       <unittitle id="link23">Item 2: Two male employees in wool sorting room</unittitle>
       <unitdate normal="1940">1940</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -339,8 +345,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">4</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">4</container>
       <unittitle id="link24">Item 3: Man sorting wool</unittitle>
       <unitdate normal="1947">1947</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -353,8 +359,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">4</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">4</container>
       <unittitle id="link25">Item 4: Man sorting wool</unittitle>
       <unitdate normal="1947">1947</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -367,8 +373,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">4</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">4</container>
       <unittitle id="link26">Item 5: Scoured wool coming out of a scouring train</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -381,8 +387,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">4</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">4</container>
       <unittitle id="link27">Item 6: Male employee sorting wool fleeces</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -395,8 +401,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">4</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">4</container>
       <unittitle id="link28">Item 7: Male employee sorting wool fleeces</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -409,8 +415,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">4</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">4</container>
       <unittitle id="link29">Item 8: Male employee sorting wool fleeces</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -424,16 +430,16 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link30">Spool Room and Warping Machine</unittitle>
      <unitdate normal="1960">1960</unitdate>
      <physdesc label="Format:">black and white photograph</physdesc>
     </did>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">5</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">5</container>
       <unittitle id="link31">Item 1: Female employee at spooler</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -446,8 +452,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">5</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">5</container>
       <unittitle id="link32">Item 2: Close-up view of spools in spool room</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -460,8 +466,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">5</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">5</container>
       <unittitle id="link33">Item 3: Close-up view of spools in spool room</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -474,8 +480,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">5</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">5</container>
       <unittitle id="link34">Item 4: Close-up view of spools in spool room</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -488,8 +494,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">5</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">5</container>
       <unittitle id="link35">Item 5: Male employee at warping machine</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -502,8 +508,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">5</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">5</container>
       <unittitle id="link36">Item 6: Male employee at warping machine</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -516,8 +522,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">5</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">5</container>
       <unittitle id="link37">Item 7: Male employee at warping machine</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -531,16 +537,16 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link38">Bobbins, Spinning Frame, and Spool Room</unittitle>
      <unitdate normal="1960">1960</unitdate>
      <physdesc label="Format:">black and white photograph</physdesc>
     </did>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">6</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">6</container>
       <unittitle id="link39">Item 1: Close-up view of basket of bobbins</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -553,8 +559,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">6</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">6</container>
       <unittitle id="link40">Item 2: Close-up view of basket of bobbins</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -567,8 +573,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">6</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">6</container>
       <unittitle id="link41">Item 3: Female employee at spinning frame</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -581,8 +587,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">6</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">6</container>
       <unittitle id="link42">Item 4: Female employee holding bobbins</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -595,8 +601,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">6</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">6</container>
       <unittitle id="link43">Item 5: Female employee holding bobbins</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -609,8 +615,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">6</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">6</container>
       <unittitle id="link44">Item 6: Male employee at spooler in spool room</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -623,8 +629,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">6</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">6</container>
       <unittitle id="link45">Item 7: Male employee examining spool in spool room</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -638,15 +644,15 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link46">Dye Room and Weave Room</unittitle>
-     <unitdate type="inclusive" normal="1947/1960">1947-1960</unitdate>
+     <unitdate normal="1947/1960" type="inclusive">1947-1960</unitdate>
     </did>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">7</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">7</container>
       <unittitle id="link47">Item 1: Two male workers at dye vat</unittitle>
       <unitdate normal="1947">1947</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -659,8 +665,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">7</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">7</container>
       <unittitle id="link48">Item 2: Visual check of scouring bath</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -673,8 +679,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">7</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">7</container>
       <unittitle id="link49">Item 3: Male worker at dye kettle</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -687,8 +693,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">7</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">7</container>
       <unittitle id="link50">Item 4: Checking scouring bath</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -701,8 +707,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">7</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">7</container>
       <unittitle id="link51">Item 5: Male workers at looms in weave room</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -716,16 +722,16 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link52">Power Loom and Cloth Inspection</unittitle>
      <unitdate normal="1960">1960</unitdate>
      <physdesc label="Format:">black and white photograph</physdesc>
     </did>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">8</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">8</container>
       <unittitle id="link53">Item 1: Close-up view of man working at power loom</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -738,8 +744,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">8</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">8</container>
       <unittitle id="link54">Item 2: Close-up view of man standing at power loom</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -752,8 +758,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">8</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">8</container>
       <unittitle id="link55">Item 3: Close-up view of man standing at power loom</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -766,8 +772,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">8</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">8</container>
       <unittitle id="link56">Item 4: Cloth inspection</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -780,8 +786,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">8</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">8</container>
       <unittitle id="link57">Item 5: Close-up of man inspecting cloth</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -794,8 +800,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">8</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">8</container>
       <unittitle id="link58">Item 6: Matching fabric to swatches</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -808,8 +814,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">8</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">8</container>
       <unittitle id="link59">Item 7: Examining finished fabric</unittitle>
       <unitdate normal="1960">1960</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -823,16 +829,16 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link60">Campaign to Promote American-Made Wool Products</unittitle>
      <unitdate normal="1958">1958</unitdate>
      <physdesc label="Format:">black and white photograph</physdesc>
     </did>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">9</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">9</container>
       <unittitle id="link61">Item 1: American wool industry leaders, Boston, 1958</unittitle>
       <unitdate normal="1958">1958</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -847,8 +853,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">9</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">9</container>
       <unittitle id="link62">Item 2: Between sessions of wool industry meeting, Boston, 1958</unittitle>
       <unitdate normal="1958">1958</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -862,8 +868,8 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">9</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">9</container>
       <unittitle id="link63">Item 3: American wool industry leaders set to launch extensive campaign to promote American-made wool products, Boston, 1958</unittitle>
       <unitdate normal="1958">1958</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>
@@ -878,17 +884,17 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link64">Exterior Views of the Mill</unittitle>
-     <unitdate type="inclusive" normal="1938/1943">1938-1943</unitdate>
+     <unitdate normal="1938/1943" type="inclusive">1938-1943</unitdate>
     </did>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">10</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">10</container>
       <unittitle id="link65">Item 1: Cyril Johnson Woolen Company, Stafford Springs, Conn.</unittitle>
-      <unitdate type="inclusive" normal="1900/1910">1900-1910</unitdate>
+      <unitdate normal="1900/1910" type="inclusive">1900-1910</unitdate>
      </did>
      <scopecontent>
       <p>Cyril Johnson Woolen Company, Stafford Springs, Conn. Gelatin silver print, 1900-10. Image depicts an exterior view of the Cyril Johnson Woolen Company complex in Stafford Springs, Conn. Primary building is two-story brick, with a one-story attachment
@@ -898,10 +904,10 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">10</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">10</container>
       <unittitle id="link66">Item 2: Exterior view of Cyril Johnson Woolen Company, Stafford Springs, Conn.</unittitle>
-      <unitdate type="inclusive" normal="1938/1943">1938-1943</unitdate>
+      <unitdate normal="1938/1943" type="inclusive">1938-1943</unitdate>
      </did>
      <scopecontent>
       <p>Exterior view of Cyril Johnson Woolen Company, Stafford Springs, Conn. Gelatin silver print, 1938-43?. Image depicts an exterior view of the Cyril Johnson Woolen Company complex in Stafford Springs, Conn. Seen from this angle, in the foreground is a
@@ -911,10 +917,10 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">10</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">10</container>
       <unittitle id="link67">Item 3: Cyril Johnson Woolen Company with sign, Stafford Springs, Conn.</unittitle>
-      <unitdate type="inclusive" normal="1938/1943">1938-1943</unitdate>
+      <unitdate normal="1938/1943" type="inclusive">1938-1943</unitdate>
      </did>
      <scopecontent>
       <p>Cyril Johnson Woolen Company with sign, Stafford Springs, Conn. Gelatin silver print, 1938-43?. Image depicts an exterior view of the Cyril Johnson Woolen Company complex in Stafford Springs, Conn. The sign in front of a four-story brick building
@@ -924,10 +930,10 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="box">1</container>
-      <container type="folder">10</container>
+      <container label="unspecified" type="box">1</container>
+      <container label="unspecified" type="folder">10</container>
       <unittitle id="link68">Item 4: Cyril Johnson Woolen Company from a distance, Stafford Springs, Conn.</unittitle>
-      <unitdate type="inclusive" normal="1938/1943">1938-1943</unitdate>
+      <unitdate normal="1938/1943" type="inclusive">1938-1943</unitdate>
      </did>
      <scopecontent>
       <p>Cyril Johnson Woolen Company from a distance, Stafford Springs, Conn. Gelatin silver print, 1938-43?. Image depicts an exterior view of the Cyril Johnson Woolen Company complex in Stafford Springs, Conn. Complex is visible in the center background;
@@ -938,16 +944,16 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link69">Royal Tailors</unittitle>
      <unitdate normal="1962">1962</unitdate>
      <physdesc label="Format:">black and white photograph</physdesc>
     </did>
     <c02 level="file">
      <did>
-      <container type="box">2</container>
-      <container type="folder">1</container>
+      <container label="unspecified" type="box">2</container>
+      <container label="unspecified" type="folder">1</container>
       <unittitle id="link70">Item 1: Cyril Johnson Woolen Company</unittitle>
       <unitdate normal="1962">1962</unitdate>
       <physdesc label="Format:">black and white photograph</physdesc>

@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06663p::Gerald P. Mace Collection of Textile Industry Photographs.)//EN">KCL06663p</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06663p::Gerald P. Mace Collection of Textile Industry Photographs.)//EN">KCL06663p</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Gerald P. Mace Collection of Textile Industry Photographs<date> 1959</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>November 16, 2017</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Gerald P. Mace Collection of Textile Industry Photographs<lb/></titleproper>
+			<titleproper>Guide to the Gerald P. Mace Collection of Textile Industry Photographs</titleproper>
 			<num>Collection Number: 6663 P</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,28 +54,28 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Gerald P. Mace Collection of Textile Industry Photographs, <unitdate encodinganalog="MARC 245$f">1959</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Gerald P. Mace Collection of Textile Industry Photographs, 1959
+			</unittitle><unitdate encodinganalog="MARC 245$f">1959</unitdate>
 			<unitid label="Collection Number:">6663 P</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">Gerald P. Mace</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">1 file folder</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">1 file folder</physdesc>
 			<physdesc label="Forms of Material:">Photographs.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">Photos taken of the machine shop at the Merrimack Manufacturing Company.</abstract>
 			<langmaterial label="Language:">Collection material in <language encodinganalog="MARC 041" langcode="eng">English</language>
 			</langmaterial>
-		<physdesc><extent>1 folder</extent></physdesc></did>
+		<physdesc><extent>1 folders</extent></physdesc></did>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a3">COLLECTION DESCRIPTION</head>
+			
 			<p>Originally housed in envelope labelled "Photos of Machine Shop - Merrimack Manufacturing Co. - For Jim Mace in return for many kindnesses - W.G. Ogden, Jr., Experimental Machine Work, Winter St., R.F.D., South Lincoln, Mass."</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<corpname encodinganalog="MARC 610">Fitchburg Machine Works. </corpname>
 				<corpname encodinganalog="MARC 610">Gay, Silver &amp; Company. </corpname>
 				<corpname encodinganalog="MARC 610">Ira Gay and Company. </corpname>
@@ -80,7 +86,7 @@
 				<corpname encodinganalog="MARC 610">Silver, Gay &amp; Company (North Chelmsford, Mass.) </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Blacksmithing </subject>
 				<subject encodinganalog="MARC 650">Brooms and brushes </subject>
 				<subject encodinganalog="MARC 650">Electric welding </subject>
@@ -104,7 +110,7 @@
 				<subject encodinganalog="MARC 650">Industries--Worcester (Mass.) </subject>
 			</controlaccess>
 			<controlaccess>
-				<head>Geographic Subjects: </head>
+				
 				<subject encodinganalog="MARC 651">Dexter (Me.) </subject>
 				<subject encodinganalog="MARC 651">Putnam (Conn.) </subject>
 			</controlaccess>
@@ -112,38 +118,38 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Gerald P. Mace Collection of Textile Industry Photographs #6663 P. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/> 6780: Merrimack Manufacturing Records<lb/>
+			
+			<p>Related Collections: 6780: Merrimack Manufacturing Records
 			</p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link8">Merrimack Manufacturing Company Machinery</unittitle>
 					<unitdate normal="1959">1959</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link9">Item 1: Staple Vice/Typical, main machine shop - 360-26</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -154,8 +160,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link10">Item 2: #8092 Slabbing Machine, 1855 - 361-3</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -167,8 +173,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link11">Item 3: #8092 Slabbing Machine, 1855 - 361-5</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -179,8 +185,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link12">Item 4: #8004 Combination Double Shear and Punch- 360-35</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -191,8 +197,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link13">Item 5: #8071 MM Co. #16 - 361-8</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -203,8 +209,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link14">Item 6: #8098 Slotting Machine, No. 3 Vertical, 1880, 360-20</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -215,8 +221,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link15">Item 7: #8092 Slabbing Machine, 1855 - 361-2</unittitle>
 						<unitdate normal="1959">1959</unitdate>
 						<physdesc label="Format:">black and white photograph</physdesc>
@@ -228,8 +234,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link16">Item 7: #8060 Slabbing Machine, Planer Type, 1870, (22x11x5'6") - 360-29</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -240,8 +246,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link17">Item 9: 600 lb. Hammer (1925) in background, and 150 lb. Beaudry Hammer (1928) - 360-33</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -252,8 +258,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link18">Item 10: Machine Shop, Merrimack Manufacturing Co. - 360-15</unittitle>
 						<unitdate normal="1959">1959</unitdate>
 						<physdesc label="Format:">black and white photograph</physdesc>
@@ -265,8 +271,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link19">Item 11: Blacksmith and Welding Shop, Forges, from main entrance - 360-32</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -277,8 +283,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link20">Item 12: #8092 Slabbing Machine, Planer Type, 1855 - 360-36</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -289,8 +295,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link21">Item 13: #8092 Slabbing Machine, 1855 - 361-4</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -301,8 +307,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link22">Item 14: #8072 Head end/with nameplate - 361-7</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -313,8 +319,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link23">Item 15: #8073 Engine Lathe 20" swing x 13' O.A. - 360-25</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -325,8 +331,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link24">Item 16: #8060 Slabbing Machine 1870 - 360-31</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -337,8 +343,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link25">Item 17: #8073 Engine Lathe 20" swing x 13' O.A. - 360-24</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -349,8 +355,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link26">Item 18: #8282 Hand or Burning Down Lathe 1870 - 360-14</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -361,8 +367,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link27">Item 19: #8060 Slabbing Machine 1870 - 360-30</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -373,8 +379,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link28">Item 20: #8102 High-Speed, Draw Cut Hacksaw - 360-21</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -385,8 +391,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link29">Item 21: View from Tool Crib - 360-15</unittitle>
 						<unitdate normal="1959">1959</unitdate>
 						<physdesc label="Format:">black and white photograph</physdesc>
@@ -398,8 +404,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link30">Item 22: #8127 Full Auto Gear Cutting Mach. #6" - 360-9</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -410,8 +416,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link31">Item 23: #8072 end number two- 361-6</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -422,8 +428,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link32">Item 24: #8223 Wood Working Lathe 24" x 7'-6" 11'-0" O.A. - 361-12</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -434,8 +440,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link33">Item 25: #8071 listed as a Flather 1900, but this is certainly no Flather - 361-9</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -446,8 +452,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link34">Item 26: #8063 Straightening Press, 1900/Left corner of photograph and #8051 J. Neal &amp; Co. 1870 - 72" swing x 18'-0" O.A. - 360-28</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -458,8 +464,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link35">Item 27: #8093 Planing Machine 48" x 48" x 10' - 2 heads - 360-23</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -470,8 +476,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link36">Item 28: #8223 Wood Working Lathe 24" x 7'-6" 11'-0" O.A. - 361-11</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -482,8 +488,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link37">Item 29: #8224 Wood Working Lathe 16" x 6'-0" 9'-0" O.A. - 361-10</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -494,8 +500,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link38">Item 30: #8051 J. Neal &amp; Co. 1870 72" swing x 18'-0" O.A. - 360-27</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -506,8 +512,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link39">Item 31: Forged Tools for Shaper and Slotter - 360-12</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -518,8 +524,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link40">Item 32: #8107 Vertical Drill No. 799, 1860 - 360-22</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -530,8 +536,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link41">Item 33: #8094 Traverse Head Shaper - 360-18</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -542,8 +548,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link42">Item 34: Rack of Forged Tools/Tool crib - 360-13</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -554,8 +560,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link43">Item 35: #8222 Wood Working Lathe 24" x 6'-6" 10'-0" O.A. - 361-13</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -566,8 +572,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link44">Item 36: #8282 Hand or Burning Down Lathe 1870 - 361-15</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -578,8 +584,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link45">Item 37: #8121 Straightening Press, Screw Type - 1900 - 360-19</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -590,8 +596,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link46">Item 38: #8094 Traverse Head Shaper - 360-17</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -602,8 +608,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link47">Item 39: Forged Lathe Dogs &amp; Work Drivers - 360-11</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>
@@ -614,8 +620,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link48">Item 40: Straight Tail Lathe Dogs - 360-14</unittitle>
 						<physdesc label="Format:">black and white photograph</physdesc>
 					</did>

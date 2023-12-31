@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05124::Distributive Office and Processing Workers'' Union Arbitration.)//EN">KCL05124</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05124::Distributive Office and Processing Workers'' Union Arbitration.)//EN">KCL05124</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the Distributive Office and Processing Workers' Union
@@ -25,21 +25,27 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>March 07,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
             <titleproper>Guide to the Distributive Office and Processing Workers' Union
-                Arbitration<lb/></titleproper>
+                Arbitration</titleproper>
             <num>Collection Number: 5124</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -58,16 +64,16 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">Distributive Office and Processing
-                Workers' Union Arbitration, <unitdate encodinganalog="MARC 245$f">1952</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">Distributive Office and Processing
+                Workers' Union Arbitration, 1952
+            </unittitle><unitdate encodinganalog="MARC 245$f">1952</unitdate>
             <unitid label="Collection Number:">5124</unitid>
             <origination label="Creator:">
                 <corpname encodinganalog="MARC 110" role="creator">Distributive, Processing, and
                     Office Workers of America</corpname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">0.3 linear ft.</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">0.3 linear ft.</physdesc>
             <physdesc label="Forms of Material:">Records (documents).</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -77,7 +83,7 @@
             </langmaterial>
         <physdesc><extent>0.33 cubic feet</extent></physdesc></did>
         <bioghist encodinganalog="MARC 545">
-            <head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+            
             <p>On May 27, 1952, upon request from District 65, Distributive, Processing and Office
                 Workers Union, The American Arbitration Association appointed David L. Cole to
                 arbitrate the wage dispute between Distrlc 65 and Gimbel Brothers. The hearings
@@ -100,7 +106,7 @@
                 stores.</p>
         </bioghist>
         <scopecontent encodinganalog="MARC 520">
-            <head id="a3">COLLECTION DESCRIPTION</head>
+            
             <p>On May 27, 1952, upon request from District 65, Distributive, Processing and Office
                 Workers Union, the American Arbitration Association appointed David L. Cole to
                 arbitrate the wage dispute between District 65 and Gimbel Brothers. The hearings
@@ -122,9 +128,9 @@
                 relationship between the various stores.</p>
         </scopecontent>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <persname encodinganalog="MARC 600">Cole, David L. (David Lawrence), 1902-1978 </persname>
                 <corpname encodinganalog="MARC 610">Distributive, Processing, and Office Workers of
                     America </corpname>
@@ -133,7 +139,7 @@
                 <corpname encodinganalog="MARC 610">Gimbel Brothers </corpname>
             </controlaccess>
             <controlaccess>
-                <head>Subjects: </head>
+                
                 <subject encodinganalog="MARC 650">Department stores -- Employees -- New York
                     (State) -- New York </subject>
                 <subject encodinganalog="MARC 650">Wages -- Clerks (Retail trade) -- New York
@@ -147,104 +153,104 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>Distributive Office and Processing Workers' Union Arbitration #5124. Kheel
                     Center for Labor-Management Documentation and Archives, Cornell University
                     Library.</p>
             </prefercite>
         </descgrp>
         <relatedmaterial>
-            <head id="a6">RELATED MATERIALS</head>
-            <p>Related Collections:<lb/>
+            
+            <p>Related Collections:
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL03012.html"> /3012:
-                    Alice Cook Papers</extref><lb/>
+                    Alice Cook Papers</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04212.html"> /4212:
-                    Kheel Center Current Documents Correspondence</extref><lb/>
+                    Kheel Center Current Documents Correspondence</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05012.html"> 5012: Saul
-                    Wallen Papers</extref><lb/>
+                    Wallen Papers</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05131.html"> 5131:
-                    Sidney A. Wolff Arbitration Files</extref><lb/>
+                    Sidney A. Wolff Arbitration Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05206-pr.html">
-                    5206-PR: Local 1199 President Leon Davis Records</extref><lb/>
+                    5206-PR: Local 1199 President Leon Davis Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05305.html"> 5305:
-                    Benjamin H. Wolf Papers</extref><lb/>
+                    Benjamin H. Wolf Papers</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05477.html"> 5477:
-                    Benjamin Wolf Papers</extref><lb/>
+                    Benjamin Wolf Papers</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05538.html"> 5538:
-                    James C. Hill Arbitration Files</extref><lb/>
+                    James C. Hill Arbitration Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05539.html"> 5539:
-                    Benjamin H. Wolf Additional Arbitration Files</extref><lb/>
+                    Benjamin H. Wolf Additional Arbitration Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05548.html"> 5548: I.
-                    Robert Feinberg Arbitration Records</extref><lb/>
+                    Robert Feinberg Arbitration Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05588.html"> 5588:
-                    David L. Cole Papers</extref><lb/>
+                    David L. Cole Papers</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-004.html">
-                    5619/004: ACTWU President Jacob Sheinkman Files</extref><lb/>
+                    5619/004: ACTWU President Jacob Sheinkman Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-007.html">
-                    5619/007: ACTWU Organizing Department Files</extref><lb/>
+                    5619/007: ACTWU Organizing Department Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-018.html">
-                    5619/018: ACTWU Secretary-Treasurer's Office Files</extref><lb/>
+                    5619/018: ACTWU Secretary-Treasurer's Office Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-023.html">
-                    5619/023: ACTWU Social Services Department Files</extref><lb/>
+                    5619/023: ACTWU Social Services Department Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-036.html">
-                    5619/036: ACTWU President's Office Murray Finley Files</extref><lb/>
+                    5619/036: ACTWU President's Office Murray Finley Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05637.html"> 5637:
-                    Sidney A. Wolff Additional Arbitration Files</extref><lb/>
+                    Sidney A. Wolff Additional Arbitration Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05712.html"> 5712:
-                    Burton B. Turkus Arbitration Files</extref><lb/>
+                    Burton B. Turkus Arbitration Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05733.html"> 5733:
-                    Peter Seitz Arbitration Files</extref><lb/>
+                    Peter Seitz Arbitration Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05736.html"> 5736:
-                    Barbara Wertheimer Additional Files</extref><lb/>
+                    Barbara Wertheimer Additional Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-014p.html">
-                    5780/014 P: ILGWU Local 22, Charles S. Zimmerman Photographs</extref><lb/>
+                    5780/014 P: ILGWU Local 22, Charles S. Zimmerman Photographs</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-143.html">
-                    5780/143: ILGWU James Parrot Papers</extref><lb/>
+                    5780/143: ILGWU James Parrot Papers</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-203.html">
-                    5780/203: ILGWU Jay Mazur Papers</extref><lb/>
+                    5780/203: ILGWU Jay Mazur Papers</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05787mf.html"> 5787 mf:
-                    New York State Labor Documentation Project on Microfilm</extref><lb/>
+                    New York State Labor Documentation Project on Microfilm</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05917p.html"> 5917 P:
                     Joint Board, Fur, Leather &amp; Machine Workers Union Additional
-                    Photographs</extref><lb/>
+                    Photographs</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05933p.html"> 5933 P:
-                    Local 1199 Photograph Files</extref><lb/>
+                    Local 1199 Photograph Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05940.html"> 5940:
-                    International Workers Order Case Files</extref><lb/>
+                    International Workers Order Case Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05961.html"> 5961: John
-                    W. McConnell Additional Arbitration Files</extref><lb/>
+                    W. McConnell Additional Arbitration Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05981p.html"> 5981 P:
-                    ACTWU Labor Unity Photograph Files</extref><lb/>
+                    ACTWU Labor Unity Photograph Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06030.html"> 6030:
-                    Archival Collective Bargaining Agreements File</extref><lb/>
+                    Archival Collective Bargaining Agreements File</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06034.html"> 6034: Rare
-                    Pamphlet Collection</extref><lb/>
+                    Pamphlet Collection</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06046.html"> 6046:
-                    Archives Union File (AUF)</extref><lb/>
+                    Archives Union File (AUF)</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06091.html"> 6091:
-                    Marcia Greenbaum Papers</extref><lb/>
+                    Marcia Greenbaum Papers</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06092mb.html"> 6092 MB:
-                    Labor Action Coalition Memorabilia</extref><lb/>
+                    Labor Action Coalition Memorabilia</extref>
             </p>
         </relatedmaterial>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link8">American Arbitration Association, Between District 65 and
                         Gimbel Brothers</unittitle>
                     <unitdate normal="1952">1952</unitdate>

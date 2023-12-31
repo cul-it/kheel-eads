@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
- <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-  <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06036-005::Levine. Louis. Women's Garment Workers, Manuscript..)//EN">KCL06036-005</eadid>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06036-005::Levine. Louis. Women's Garment Workers, Manuscript..)//EN">KCL06036-005</eadid>
   <filedesc>
    <titlestmt>
     <titleproper>Guide to the Levine. Louis. Women's Garment Workers, Manuscript.<date>
@@ -24,20 +24,26 @@
    <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kathryn Dowgiewicz, <date>January 10,
      2013</date></creation>
   </profiledesc>
- </eadheader>
+ <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
  <frontmatter>
   <titlepage>
-   <titleproper>Guide to the Levine. Louis. Women's Garment Workers, Manuscript.<lb/></titleproper>
-   <num type="kidb_reference_number" id="kc481">Collection Number: 6036/005</num>
+   <titleproper>Guide to the Levine. Louis. Women's Garment Workers, Manuscript.</titleproper>
+   <num id="kc481" type="kidb_reference_number">Collection Number: 6036/005</num>
    <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University
     Library </publisher>
    <list type="deflist">
     <defitem>
      <label>Contact Information:</label>
-     <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood
-      Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-      255-3183<lb/>
-      <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+     <item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood
+      Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607)
+      255-3183
+      <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
       <extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref>
      </item>
     </defitem>
@@ -56,15 +62,15 @@
  </frontmatter>
  <archdesc level="collection">
   <did>
-   <head id="a1">DESCRIPTIVE SUMMARY</head>
-   <unittitle label="Title:" encodinganalog="MARC 245$a">Levine. Louis. Women's Garment Workers,
-    Manuscript., <unitdate encodinganalog="MARC 245$f">1924-1924</unitdate>
-   </unittitle>
+   
+   <unittitle encodinganalog="MARC 245$a" label="Title:">Levine. Louis. Women's Garment Workers
+    Manuscript., 1924-1924
+   </unittitle><unitdate encodinganalog="MARC 245$f">1924-1924</unitdate>
    <unitid label="Collection Number:">6036/005</unitid>
    <origination label="Creator:">
     <persname encodinganalog="MARC 100" role="creator">Levine, Louis</persname>
    </origination>
-   <physdesc label="Quantity:" encodinganalog="MARC 300">2.5 linear ft.</physdesc>
+   <physdesc encodinganalog="MARC 300" label="Quantity:">2.5 linear ft.</physdesc>
    <physdesc label="Forms of Material:">Articles, reprints, pamphlets, correspondence,
     photographs.</physdesc>
    <repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives,
@@ -76,7 +82,7 @@
    </langmaterial>
   <physdesc><extent>2.5 cubic feet</extent></physdesc></did>
   <bioghist encodinganalog="MARC 545">
-   <head id="a2" altrender="organizational history">ILGWU ORGANIZATIONAL HISTORY</head>
+   
    <p>Founded in 1900 by local union delegates representing about 2,000 members in cities in the
     northeastern United States, the ILGWU grew in geographical scope, membership size, political
     influence to become one of the most powerful forces in American organized labor by mid-century.
@@ -87,7 +93,7 @@
     the Union of Needletrades, Industrial and Textile Employees (UNITE).</p>
   </bioghist>
   <bioghist encodinganalog="MARC 545">
-   <head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+   
    <p>Louis Levine (Lewis Lorwin) was a noted economist and labor historian. He was born in the
     Ukraine on December 3, 1883. After coming to the United States as a young boy and studying both
     in the U. S. and abroad, he received a Ph. D. from Columbia University in 1912. Levine was an
@@ -107,7 +113,7 @@
     He died in June 1970 at the age of 86.</p>
   </bioghist>
   <scopecontent encodinganalog="MARC 520">
-   <head id="a3">COLLECTION DESCRIPTION</head>
+   
    <p>Published in 1924, "The Women's Garment Workers" is a comprehensive history of the first
     twenty four years of the International Ladies' Garment Workers' Union. The book also provides
     background information on the women's garment industry, its beginnings, early conditions,
@@ -127,9 +133,9 @@
     book that provides historical information on the ILGWU.</p>
   </scopecontent>
   <controlaccess>
-   <head id="a8">SUBJECTS</head>
+   
    <controlaccess>
-    <head>Names: </head>
+    
     <persname encodinganalog="MARC 600"> Levine, Louis. </persname>
     <corpname encodinganalog="MARC 610"> International Ladies' Garment Workers' Union -- Archives.
     </corpname>
@@ -138,353 +144,353 @@
     </controlaccess>
   </controlaccess>
   <descgrp>
-   <head id="a10">INFORMATION FOR USERS</head>
+   
    <accessrestrict>
-    <head>Access Restrictions:</head>
+    
     <p>Access to the collections in the Kheel Center is restricted. Please contact a reference
      archivist for access to these materials.</p>
    </accessrestrict>
    <userestrict>
-    <head>Restrictions on Use:</head>
+    
     <p>This collection must be used in keeping with the Kheel Center Information Sheet and
      Procedures for Document Use.</p>
    </userestrict>
    <prefercite>
-    <head>Cite As:</head>
+    
     <p>Levine. Louis. Women's Garment Workers, Manuscript. #6036/005. Kheel Center for
      Labor-Management Documentation and Archives, Cornell University Library.</p>
    </prefercite>
   </descgrp>
   <relatedmaterial>
-   <head id="a6">RELATED MATERIALS</head>
-   <p>Related Collections:<lb/>
+   
+   <p>Related Collections:
     <extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05780.html"> 5780: ILGWU
-    records</extref><lb/>
+    records</extref>
    </p>
   </relatedmaterial>
   <dsc type="in-depth">
-   <head>CONTAINER LIST</head>
+   
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link6">American Federation of Labor</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link7">Benefits</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link8">Chapters 1-4</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link9">Chapter 5</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link10">Chapter 7</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link11">Chapter 8</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link12">Chapter 9</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link13">Chapter 10</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link14">Chapter 11 (10-13?)</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link15">Chapter 12</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link16">Chapter 13</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link17">Chapter 14</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link18">Chapter 15</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link19">Chapter 16</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link20">Chapter 19</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link21">Chapter 20</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link22">Chapter 21</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link23">Chapter 22</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link24">Chapter 23</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link25">Chapter 24</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link26">Chapter 25</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link27">Chapter 26; Hourwich Affair</unittitle>
-     <unitdate type="inclusive" normal="1913/1914">1913-1914</unitdate>
+     <unitdate normal="1913/1914" type="inclusive">1913-1914</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link28">Chapter 27</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link29">Chapter 28</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link30">Chapter 31</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link31">Chapter 34</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link32">Chapter 35</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link33">Chapter 36</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link34">Chapter 37</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link35">Cloak industry, Canada</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link36">Cloakmakers, Chicago</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link37">Cloak and suit industry, New York</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link38">Cloak and suit industry, New York</unittitle>
-     <unitdate type="inclusive" normal="1912/1913">1912-1913</unitdate>
+     <unitdate normal="1912/1913" type="inclusive">1912-1913</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link39">Cloak industry, New York</unittitle>
-     <unitdate type="inclusive" normal="1918/1922">1918-1922</unitdate>
+     <unitdate normal="1918/1922" type="inclusive">1918-1922</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link40">Cloak industry joint board, New York</unittitle>
-     <unitdate type="inclusive" normal="1912/1916">1912-1916</unitdate>
+     <unitdate normal="1912/1916" type="inclusive">1912-1916</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link41">Cloak industry, Philadelphia</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link42">Council of conciliatoin</unittitle>
-     <unitdate type="inclusive" normal="1915/1916">1915-1916</unitdate>
+     <unitdate normal="1915/1916" type="inclusive">1915-1916</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link43">Finances</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link44">General Executive Board Minutes</unittitle>
-     <unitdate type="inclusive" normal="1914/1923">1914-1923</unitdate>
+     <unitdate normal="1914/1923" type="inclusive">1914-1923</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link45">Herman Grossman and strike call</unittitle>
      <unitdate normal="1916">1916</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link46">Hillquit, Blumberg, Uviller (jobber-contractor)</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link47">History of the union</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link48">Hours of labor</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link49">Jurisdictional disputes</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link50">Ladies' Garment Workers reviews</unittitle>
-     <unitdate type="inclusive" normal="1924/1932">1924-1932</unitdate>
+     <unitdate normal="1924/1932" type="inclusive">1924-1932</unitdate>
     </did>
     <scopecontent>
      <p>Includes letter from Fannia Cohn.</p>
@@ -492,162 +498,162 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link51">Leaflets, union</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link52">Leaflets, circulars and publications, union and non-union</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link53">Locals, general</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link54">Local 10</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link55">Local 15 and 50, Philadelphia Waist and Dressmakers</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link56">Local 20, Raincoat workers</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link57">Local 33 and 34, Corset workers</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link58">Local 66, Embroidery workers</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link59">Local 90, Ladies tailors, dressmakers</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link60">New York Times references</unittitle>
-     <unitdate type="inclusive" normal="1914/1916">1914-1916</unitdate>
+     <unitdate normal="1914/1916" type="inclusive">1914-1916</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link61">Newspaper clippings</unittitle>
-     <unitdate type="inclusive" normal="1915/1924">1915-1924</unitdate>
+     <unitdate normal="1915/1924" type="inclusive">1915-1924</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link62">Newspaper clippings, problems in needle trades</unittitle>
      <unitdate normal="1922">1922</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link63">Organizing out-of-town shops</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link64">Problems and programs</unittitle>
-     <unitdate type="inclusive" normal="1923/1924">1923-1924</unitdate>
+     <unitdate normal="1923/1924" type="inclusive">1923-1924</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link65">References, 16-20</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link66">Resolutions-International office, General Executive Board, meetings and
       organizers</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link67">Resolutions-Ideals and theories</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link68">Resolutions-Policies and methods</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link69">Socialism and Women's suffrage</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link70">St. Louis, Louisville</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link71">State reports</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link72">Strike reports</unittitle>
-     <unitdate type="inclusive" normal="1909/1910">1909-1910</unitdate>
+     <unitdate normal="1909/1910" type="inclusive">1909-1910</unitdate>
     </did>
     <scopecontent>
      <p>Chapter 21, part 3.</p>
@@ -655,11 +661,11 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link73">Trachtenberg, Alexander, Director of ILGWU Department of Records and
       Research</unittitle>
-     <unitdate type="inclusive" normal="1920/1921">1920-1921</unitdate>
+     <unitdate normal="1920/1921" type="inclusive">1920-1921</unitdate>
     </did>
     <scopecontent>
      <p>Correspondence.</p>
@@ -667,64 +673,64 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link74">Waist and dress protocal, analysis of meetings</unittitle>
-     <unitdate type="inclusive" normal="1913/1916">1913-1916</unitdate>
+     <unitdate normal="1913/1916" type="inclusive">1913-1916</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link75">Miscellaneous material, general</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link76">Miscellaneous material</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link77">Miscellaneous material</unittitle>
-     <unitdate type="inclusive" normal="1918/1923">1918-1923</unitdate>
+     <unitdate normal="1918/1923" type="inclusive">1918-1923</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link78">Miscellaneous material</unittitle>
-     <unitdate type="inclusive" normal="1913/1914">1913-1914</unitdate>
+     <unitdate normal="1913/1914" type="inclusive">1913-1914</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link79">Miscellaneous material</unittitle>
-     <unitdate type="inclusive" normal="1910/1914">1910-1914</unitdate>
+     <unitdate normal="1910/1914" type="inclusive">1910-1914</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link80">Miscellaneous material</unittitle>
-     <unitdate type="inclusive" normal="1903/1907">1903-1907</unitdate>
+     <unitdate normal="1903/1907" type="inclusive">1903-1907</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link81">Miscellaneous material</unittitle>
-     <unitdate type="inclusive" normal="1900/1910">1900-1910</unitdate>
+     <unitdate normal="1900/1910" type="inclusive">1900-1910</unitdate>
     </did>
    </c01>
   </dsc>

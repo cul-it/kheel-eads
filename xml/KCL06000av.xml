@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06000av::UNITE Audio- Visual Collection.)//EN">KCL06000av</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06000av::UNITE Audio- Visual Collection.)//EN">KCL06000av</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the UNITE Audio-Visual Collection<date> 1968-2003</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>November 02, 2015</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the UNITE Audio-Visual Collection<lb/></titleproper>
+			<titleproper>Guide to the UNITE Audio-Visual Collection</titleproper>
 			<num>Collection Number: 6000 AV</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,14 +54,14 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">UNITE Audio-Visual Collection, <unitdate encodinganalog="MARC 245$f">1968-2003</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">UNITE Audio-Visual Collection, 1968-2003
+			</unittitle><unitdate encodinganalog="MARC 245$f">1968-2003</unitdate>
 			<unitid label="Collection Number:">6000 AV</unitid>
 			<origination label="Creator:">
 				<corpname encodinganalog="MARC 110" role="creator">Union of Needletrades, Industrial and Textile Employees (UNITE)</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">15.6 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">15.6 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Audiovisual materials.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">Audio recordings of music and moving images</abstract>
@@ -63,14 +69,14 @@
 			</langmaterial>
 		<physdesc><extent>15.56 cubic feet</extent></physdesc></did>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a3">COLLECTION DESCRIPTION</head>
+			
 			<p>Film, video, and audio recordings of music, including long time Vice President and Legislative Department Head Evelyn Dubrow, other union leaders, and covers issues such as diversity, worker strikes, working conditions, sweatshops including
 				Kathy Lee Gifford interviews and pieces on Nike and Gap, Ann Hoffman on prison labor, NAFTA, and clothing imports.</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Gifford, Kathie Lee, 1953- </persname>
 				<corpname encodinganalog="MARC 610">Amalgamated Clothing and Textile Workers Union </corpname>
 				<corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union </corpname>
@@ -79,7 +85,7 @@
 				<corpname encodinganalog="MARC 610">UNITE HERE (Organization) </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Textile industry, New York (State), New York </subject>
 				<subject encodinganalog="MARC 650">Textile workers, Labor unions, New York (State), New York </subject>
 				<subject encodinganalog="MARC 650">Sweatshops, New York (State), New York </subject>
@@ -90,40 +96,40 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>UNITE Audio-Visual Collection #6000 AV. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000mb.html"> 6000 MB: UNITE Memorabilia</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-007av.html"> 6000/007 AV: UNITE Legislative Department Audio-Visual Materials</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-012av.html"> 6000/012 AV: UNITE Northeast Department Audio-Visual Materials</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-022av.html"> 6000/022 AV: UNITE Education Department Audio-Visual Materials</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-024av.html"> 6000/024 AV: UNITE Local 23-25 Audio-Visual Materials</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-026av.html"> 6000/026 AV: UNITE Office of Corporate and Financial Affairs Audio-Visual Materials</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-037av.html"> 6000/037 AV: UNITE Communications Department Audio-Visual Materials</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-050av.html"> 6000/050 AV: UNITE Local 10 and Local 23-25 Audio-Visual Materials</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-056av.html"> 6000/056 AV: UNITE Boston Joint Board Audio-Visual Materials</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06343av.html"> 6343 AV: Leonard Greenwald Collection of UNITE Audio-Visual Materials</extref><lb/>
+			
+			<p>Related Collections:
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000mb.html"> 6000 MB: UNITE Memorabilia</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-007av.html"> 6000/007 AV: UNITE Legislative Department Audio-Visual Materials</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-012av.html"> 6000/012 AV: UNITE Northeast Department Audio-Visual Materials</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-022av.html"> 6000/022 AV: UNITE Education Department Audio-Visual Materials</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-024av.html"> 6000/024 AV: UNITE Local 23-25 Audio-Visual Materials</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-026av.html"> 6000/026 AV: UNITE Office of Corporate and Financial Affairs Audio-Visual Materials</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-037av.html"> 6000/037 AV: UNITE Communications Department Audio-Visual Materials</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-050av.html"> 6000/050 AV: UNITE Local 10 and Local 23-25 Audio-Visual Materials</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-056av.html"> 6000/056 AV: UNITE Boston Joint Board Audio-Visual Materials</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06343av.html"> 6343 AV: Leonard Greenwald Collection of UNITE Audio-Visual Materials</extref>
 			</p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">10</unitid>
 					<unittitle id="link6">Evy Dubrow Roast - February 26, 1997</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -134,7 +140,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">11</unitid>
 					<unittitle id="link7">Viewer call-in program - Tuesday 9/27/1994</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -145,7 +151,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">12</unitid>
 					<unittitle id="link8">El Paso Sweatshops - Unpaid Workers - Prime Time Live, ch.7, 3/14/1991</unittitle>
 					<unitdate normal="1991">1991</unitdate>
@@ -156,7 +162,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">13</unitid>
 					<unittitle id="link9">Fox Morning News 6/28/1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -167,7 +173,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unitid label="Item ">14</unitid>
 					<unittitle id="link10">FPI, CBS News 12/20/1990 ; Evy on Fast Track FOX News 5/8/1991</unittitle>
 				</did>
@@ -177,7 +183,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link11">Fenton Communications ; GAP and NIKE: No Sweat</unittitle>
 				</did>
@@ -187,7 +193,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Item ">2</unitid>
 					<unittitle id="link12">Sweatshops - K L Gifford - DATELINE, WNBC-TV/Ch 4</unittitle>
 				</did>
@@ -197,7 +203,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Item ">3</unitid>
 					<unittitle id="link13">Larry King Live - CNN</unittitle>
 				</did>
@@ -207,7 +213,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Item ">4</unitid>
 					<unittitle id="link14">Al Gore at Legislative Conference, Washington, DC 5/18/1993, from Antonio Osea</unittitle>
 					<unitdate normal="1993">1993</unitdate>
@@ -218,7 +224,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Item ">5</unitid>
 					<unittitle id="link15">PBS GUESS piece</unittitle>
 				</did>
@@ -228,7 +234,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Item ">6</unitid>
 					<unittitle id="link16">Interview with Ann Hoffman - WNBC, Today Show, 5/20/1994</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -239,7 +245,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Item ">7</unitid>
 					<unittitle id="link17">Ann Hoffman Prison Labor Testimony, May 24, 1999, Judiciary Sub Cmte</unittitle>
 					<unitdate normal="1999">1999</unitdate>
@@ -250,7 +256,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Item ">8</unitid>
 					<unittitle id="link18">ILGWU, Multishop: Join In, 4/28/1988</unittitle>
 					<unitdate normal="1988">1988</unitdate>
@@ -261,7 +267,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Item ">9</unitid>
 					<unittitle id="link19">ILGWU - News Closed -Up - WPIX-TV (IND) New York, June 19, 1993</unittitle>
 					<unitdate normal="1993">1993</unitdate>
@@ -272,7 +278,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Item ">10</unitid>
 					<unittitle id="link20">Its About Jobs - ILGWU</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -283,7 +289,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Item ">11</unitid>
 					<unittitle id="link21">Immigration/Virginia Coughlin, May 24, 1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -294,7 +300,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Item ">12</unitid>
 					<unittitle id="link22">Lane Kirkland Memorial Service - 9/23/1999</unittitle>
 					<unitdate normal="1999">1999</unitdate>
@@ -305,7 +311,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Item ">13</unitid>
 					<unittitle id="link23">Lane Kirkland Memorial Service, 9/23/1999</unittitle>
 					<unitdate normal="1999">1999</unitdate>
@@ -316,7 +322,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unitid label="Item ">14</unitid>
 					<unittitle id="link24">Medal of Freedom Presentations, 8/11/1999</unittitle>
 					<unitdate normal="1999">1999</unitdate>
@@ -327,7 +333,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link25">Mickey Mouse Goes to Haiti : Walt Disney and the Science of Exploitation</unittitle>
 				</did>
@@ -337,7 +343,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Item ">2</unitid>
 					<unittitle id="link26">The True Cost of NAFTA</unittitle>
 				</did>
@@ -347,7 +353,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Item ">3</unitid>
 					<unittitle id="link27">The True Cost of NAFTA - ILGWU, 7/28/1993</unittitle>
 					<unitdate normal="1993">1993</unitdate>
@@ -358,7 +364,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Item ">4</unitid>
 					<unittitle id="link28">ILGWU: One Strike and You're Out!</unittitle>
 				</did>
@@ -368,7 +374,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Item ">5</unitid>
 					<unittitle id="link29">ILGWU: One Strike and You're Out!</unittitle>
 				</did>
@@ -378,7 +384,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Item ">6</unitid>
 					<unittitle id="link30">Fletcher and Rowley Consulting, Henry Strauss, Our Choice</unittitle>
 				</did>
@@ -388,7 +394,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Item ">7</unitid>
 					<unittitle id="link31">Restoring Employee Rights is Good for America</unittitle>
 				</did>
@@ -398,7 +404,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Item ">8</unitid>
 					<unittitle id="link32">Mathew Schoenwald: Interview on Medicare Catastrophic, Sept. 28, 1989</unittitle>
 					<unitdate normal="1989">1989</unitdate>
@@ -409,7 +415,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Item ">9</unitid>
 					<unittitle id="link33">AFL-CIO Issue AD Save</unittitle>
 				</did>
@@ -419,7 +425,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Item ">10</unitid>
 					<unittitle id="link34">CBC Newsworld, Rough Cuts, The Suit War, Aired March 10, 1997</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -430,7 +436,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Item ">11</unitid>
 					<unittitle id="link35">Stop Sweatshops!</unittitle>
 				</did>
@@ -440,7 +446,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Item ">12</unitid>
 					<unittitle id="link36">Stop Sweatshops!</unittitle>
 				</did>
@@ -450,7 +456,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Item ">13</unitid>
 					<unittitle id="link37">TJ MAX, Evansville, Ind., Teamster L218</unittitle>
 				</did>
@@ -460,7 +466,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unitid label="Item ">14</unitid>
 					<unittitle id="link38">ILGWU/Triangle Shirt Waste Fire Anniversary, March 25, 1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -471,7 +477,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link39">This Week with David Brinkley ; Featuring: Kenneth Lipper, Irwin Kellner and Robert Rubin, April 3, 1994</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -482,7 +488,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Item ">2</unitid>
 					<unittitle id="link40">Union Workers, Newshour with Jim Lehrer, PBS ; Sweatshops, CBS Sunday Morning, WCBS</unittitle>
 				</did>
@@ -492,7 +498,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Item ">3</unitid>
 					<unittitle id="link41">UNITE! Because Every Vote Counts</unittitle>
 				</did>
@@ -502,7 +508,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Item ">4</unitid>
 					<unittitle id="link42">1997 USHLC Highlights Video</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -513,7 +519,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Item ">5</unitid>
 					<unittitle id="link43">News Programs</unittitle>
 					<unitdate normal="1990">1990</unitdate>
@@ -524,7 +530,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Item ">6</unitid>
 					<unittitle id="link44">Clothing Worker ; Imported Clothing, 1/28/1988</unittitle>
 					<unitdate normal="1988">1988</unitdate>
@@ -535,7 +541,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Item ">7</unitid>
 					<unittitle id="link45">Immigration and Naturalization Service, Office of Employer and Labor Relations : Complying with the New Immigration Law</unittitle>
 				</did>
@@ -545,7 +551,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Item ">8</unitid>
 					<unittitle id="link46">Coverage, CWA/ILGWU, CWA-105, 7/21/1993</unittitle>
 					<unitdate normal="1993">1993</unitdate>
@@ -556,7 +562,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Item ">9</unitid>
 					<unittitle id="link47">Domsey Workers, You are the Union</unittitle>
 				</did>
@@ -566,7 +572,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Item ">10</unitid>
 					<unittitle id="link48">El Monte Workers Lawsuit, September 5, 1995, Los Angeles Coverage</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -577,7 +583,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Item ">11</unitid>
 					<unittitle id="link49">Fenton communications : GAP and NIKE: No Sweat</unittitle>
 				</did>
@@ -587,7 +593,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Item ">12</unitid>
 					<unittitle id="link50">The Garment Industry: News from City Hall, WNYC-TV, November 8</unittitle>
 				</did>
@@ -597,7 +603,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unitid label="Item ">13</unitid>
 					<unittitle id="link51">Hard Copy, three-part series on Nicaraguan sweatshops, November 1997</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -608,7 +614,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link52">Paula Green Advertising ILGWU ; Health Care - 3/18/1994</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -619,7 +625,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Item ">2</unitid>
 					<unittitle id="link53">ILG Convention 1989</unittitle>
 					<unitdate normal="1989">1989</unitdate>
@@ -630,7 +636,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Item ">3</unitid>
 					<unittitle id="link54">Is There a Sweatshop in Your Future?</unittitle>
 				</did>
@@ -640,7 +646,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Item ">4</unitid>
 					<unittitle id="link55">Kathie Lee Fashions/Sweatshops Fines and Backpay: New York Coverage, July 11, 1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -651,7 +657,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Item ">5</unitid>
 					<unittitle id="link56">Lane Kirkland Memorial Service: C-Span Videotape 152308: part 1 of 1</unittitle>
 				</did>
@@ -661,7 +667,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Item ">6</unitid>
 					<unittitle id="link57">Jay Mazur, ILGWU</unittitle>
 				</did>
@@ -671,7 +677,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Item ">7</unitid>
 					<unittitle id="link58">Pillowtex, Video 2</unittitle>
 				</did>
@@ -681,7 +687,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Item ">8</unitid>
 					<unittitle id="link59">We Do the Work: Sewing Our Future</unittitle>
 				</did>
@@ -691,7 +697,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Item ">9</unitid>
 					<unittitle id="link60">Stepan Chemical: the Poisoning of a Mexican Community</unittitle>
 				</did>
@@ -701,7 +707,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Item ">10</unitid>
 					<unittitle id="link61">UNITE for Dignity!</unittitle>
 				</did>
@@ -711,7 +717,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Item ">11</unitid>
 					<unittitle id="link62">1994 United States Hispanic Leadership Conference</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -722,7 +728,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Item ">12</unitid>
 					<unittitle id="link63">Zoned for Slavery</unittitle>
 				</did>
@@ -732,7 +738,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unitid label="Item ">13</unitid>
 					<unittitle id="link64">CBS Evening News : Sweatshops</unittitle>
 				</did>
@@ -742,7 +748,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitid label="Item ">3</unitid>
 					<unittitle id="link65">House Ways and Means: Textile and Footwear Quotes, 5/17/1987</unittitle>
 					<unitdate normal="1987">1987</unitdate>
@@ -753,7 +759,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitid label="Item ">4</unitid>
 					<unittitle id="link66">ILGWU-NY Labor Day Parade -</unittitle>
 				</did>
@@ -763,7 +769,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitid label="Item ">5</unitid>
 					<unittitle id="link67">AH Productions - Crafted With Pride ; Made in USA/Miss America</unittitle>
 				</did>
@@ -773,7 +779,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitid label="Item ">6</unitid>
 					<unittitle id="link68">Italics: the Italian American Magazine ; Episode #34</unittitle>
 				</did>
@@ -783,7 +789,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitid label="Item ">7</unitid>
 					<unittitle id="link69">Kathie Lee Gifford/SEO Fashions Sweatshop, May 23, 1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -794,7 +800,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitid label="Item ">8</unitid>
 					<unittitle id="link70">Interview with Jay Mazur, October 10, 1990</unittitle>
 					<unitdate normal="1990">1990</unitdate>
@@ -805,7 +811,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitid label="Item ">9</unitid>
 					<unittitle id="link71">ILGWU/ACTWU Merger: NY Network coverage, Feb. 20-21, 1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -816,7 +822,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitid label="Item ">10</unitid>
 					<unittitle id="link72">Jay Mazur Interview</unittitle>
 				</did>
@@ -826,7 +832,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitid label="Item ">11</unitid>
 					<unittitle id="link73">Lane Kirkland Tribute</unittitle>
 				</did>
@@ -836,7 +842,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unitid label="Item ">12</unitid>
 					<unittitle id="link74">Lane Kirkland Tribute (copy 2)</unittitle>
 				</did>
@@ -846,7 +852,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link75">Hillary Clinton visits with Garment Workers - 3/6/1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -857,7 +863,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unitid label="Item ">2</unitid>
 					<unittitle id="link76">Evy Duty</unittitle>
 				</did>
@@ -867,7 +873,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unitid label="Item ">3</unitid>
 					<unittitle id="link77">ILGWU Dept. of Labor Hall of Fame 1993</unittitle>
 					<unitdate normal="1990">1990</unitdate>
@@ -878,7 +884,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unitid label="Item ">4</unitid>
 					<unittitle id="link78">China Trade Deal/Protesters ; Crossfire, Cable News Network, April 12, 2000</unittitle>
 					<unitdate normal="2000">2000</unitdate>
@@ -889,7 +895,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unitid label="Item ">5</unitid>
 					<unittitle id="link79">Paula Green Advt., ILGWU ; Health Care, 3/23/1994</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -900,7 +906,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unitid label="Item ">6</unitid>
 					<unittitle id="link80">Amalgamated Bank "New Go"</unittitle>
 				</did>
@@ -910,7 +916,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unitid label="Item ">7</unitid>
 					<unittitle id="link81">Ellis Island Medals of Honor Ceremony and Dinner - Part 1, October 27, 1986</unittitle>
 					<unitdate normal="1986">1986</unitdate>
@@ -921,7 +927,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unitid label="Item ">8</unitid>
 					<unittitle id="link82">The Golden Door, presented by the New York Joint Board, ACTWU</unittitle>
 				</did>
@@ -931,7 +937,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unitid label="Item ">9</unitid>
 					<unittitle id="link83">We Do the Work, Show 309, Sewing Our Future</unittitle>
 				</did>
@@ -941,7 +947,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unitid label="Item ">10</unitid>
 					<unittitle id="link84">Ellis Island Medals of Honor Ceremony and Dinner - Part 2, October 27, 1986</unittitle>
 					<unitdate normal="1986">1986</unitdate>
@@ -952,7 +958,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unitid label="Item ">11</unitid>
 					<unittitle id="link85">Future Shop: A Modular Manufacturing Shop</unittitle>
 				</did>
@@ -962,7 +968,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unitid label="Item ">12</unitid>
 					<unittitle id="link86">Future Shop: A Modular Manufacturing Shop</unittitle>
 				</did>
@@ -972,7 +978,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link87">Unions - New York Close Up, New York 1 News, January 17, 1993</unittitle>
 					<unitdate normal="1993">1993</unitdate>
@@ -983,7 +989,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unitid label="Item ">2</unitid>
 					<unittitle id="link88">Gospel Seder A Jewish/African-American/Christian Passover Freedom Service, Part I</unittitle>
 				</did>
@@ -993,7 +999,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unitid label="Item ">3</unitid>
 					<unittitle id="link89">Herman Starobin, Tape, 1,2,3 and 4</unittitle>
 				</did>
@@ -1003,7 +1009,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unitid label="Item ">4</unitid>
 					<unittitle id="link90">ABC 20/20 Monday the Shame of Saipan, May 24, 1999</unittitle>
 					<unitdate normal="1999">1999</unitdate>
@@ -1014,7 +1020,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unitid label="Item ">5</unitid>
 					<unittitle id="link91">Free Trade with Mexico, Panel II (Dubrow), 3/14/1991</unittitle>
 					<unitdate normal="1991">1991</unitdate>
@@ -1025,7 +1031,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unitid label="Item ">6</unitid>
 					<unittitle id="link92">Ellis Island: Medals of Honor, July 3, 1993</unittitle>
 					<unitdate normal="1993">1993</unitdate>
@@ -1036,7 +1042,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unitid label="Item ">7</unitid>
 					<unittitle id="link93">Dinkins Endorsement, 3/15/1989</unittitle>
 					<unitdate normal="1989">1989</unitdate>
@@ -1047,7 +1053,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unitid label="Item ">8</unitid>
 					<unittitle id="link94">The Golden Door, National PBS Broadcast</unittitle>
 				</did>
@@ -1057,7 +1063,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unitid label="Item ">9</unitid>
 					<unittitle id="link95">Regis/Commercial/Miss America</unittitle>
 				</did>
@@ -1067,7 +1073,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unitid label="Item ">10</unitid>
 					<unittitle id="link96">Kathie Lee Gifford/Sweatshops, New York, Network and Cable Coverage, May 23-24, 1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -1078,7 +1084,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unitid label="Item ">11</unitid>
 					<unittitle id="link97">NY is fashion , ILGWU, August, 1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -1089,7 +1095,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unitid label="Item ">12</unitid>
 					<unittitle id="link98">Muzafer Christi, Metroline, re: Immigration, 4/11/1987</unittitle>
 					<unitdate normal="1987">1987</unitdate>
@@ -1100,7 +1106,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unitid label="Item ">13</unitid>
 					<unittitle id="link99">Crafted with pride in USA, Inside Opinion, 12/22/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -1111,7 +1117,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unitid label="Item ">14</unitid>
 					<unittitle id="link100">Ellis Island medals of Honor, May 21, 1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -1122,7 +1128,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link101">Triangle Shirt-Waist Fire Anniversary, March 25, 1994</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -1130,14 +1136,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">2</unitid>
 					<unittitle id="link102">Struggle at Domsey</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">3</unitid>
 					<unittitle id="link103">Proposed Merger, Today in NY WNBC TV, February 1, 1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -1145,7 +1151,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">4</unitid>
 					<unittitle id="link104">Paula Green Advertising, ILGWU, Health Care, 3/18/1994</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -1153,14 +1159,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">5</unitid>
 					<unittitle id="link105">AFL-CIO, ACTWU/ILGWU, UNITE Press Conference, Tapes 1-3</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">6</unitid>
 					<unittitle id="link106">UNITE, Word, Face, TRT, 01/24/1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -1168,7 +1174,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">7</unitid>
 					<unittitle id="link107">Union of Needletrades, Industrial and Textile Employees, AFL-CIO, CLC</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -1179,7 +1185,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">8</unitid>
 					<unittitle id="link108">1995 UNITE Convention Highlights</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -1187,7 +1193,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">9</unitid>
 					<unittitle id="link109">ILGWU TB Study, Local NYC Coverage, Oct. 19-20, 1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -1195,7 +1201,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">10</unitid>
 					<unittitle id="link110">Full Show, Boy Meets World, 3/17/1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -1203,7 +1209,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">11</unitid>
 					<unittitle id="link111">ILGWU Chorus, AFL-CIO Convention , 11/1989</unittitle>
 					<unitdate normal="1989">1989</unitdate>
@@ -1214,7 +1220,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">12</unitid>
 					<unittitle id="link112">New York is Fashion -- 7/14/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -1222,21 +1228,21 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">13</unitid>
 					<unittitle id="link113">The Vanishing Sun, episode on Sweatshops</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">14</unitid>
 					<unittitle id="link114">Garment Workers</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">15</unitid>
 					<unittitle id="link115">ILGWU Round-Up Presentation, 1995 Convention</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -1247,7 +1253,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">16</unitid>
 					<unittitle id="link116">Hillary Clinton Sews Union Label, 3/6/1996, New York City</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -1255,7 +1261,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">17</unitid>
 					<unittitle id="link117">Segment on illegal sweat shops, Channel 2 News at 11, 4/28/1993</unittitle>
 					<unitdate normal="1993">1993</unitdate>
@@ -1263,7 +1269,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">18</unitid>
 					<unittitle id="link118">Sweatshops - UPN 9 News, 10/9/1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -1271,7 +1277,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">19</unitid>
 					<unittitle id="link119">People get ready: UNITE Southern Region 1997</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -1279,14 +1285,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">20</unitid>
 					<unittitle id="link120">Inside Edition</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">21</unitid>
 					<unittitle id="link121">ILGWU Fire Drill/Rally, News Conference, 3/27/1991</unittitle>
 					<unitdate normal="1991">1991</unitdate>
@@ -1294,7 +1300,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">22</unitid>
 					<unittitle id="link122">Triangle Fire Anniversary (1988), WABC, 3/25/1988</unittitle>
 					<unitdate normal="1988">1988</unitdate>
@@ -1302,7 +1308,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">23</unitid>
 					<unittitle id="link123">UNITE! : Stop Sweatshops Campaign, December, 1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -1310,7 +1316,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">24</unitid>
 					<unittitle id="link124">Triangle Fire Anniversary, News Coverage - 1990 -- 3/26/1990</unittitle>
 					<unitdate normal="1990">1990</unitdate>
@@ -1318,7 +1324,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">25</unitid>
 					<unittitle id="link125">Triangle Fire Anniversary - 3/25/1992, Vocal New York Coverage</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -1326,7 +1332,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">26</unitid>
 					<unittitle id="link126">ILGWU w/Nelson -- Solidarity Day 1991 ILGWU Chorus</unittitle>
 					<unitdate normal="1991">1991</unitdate>
@@ -1334,7 +1340,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">27</unitid>
 					<unittitle id="link127">NY 1992 Fashion Show in Central Park</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -1342,14 +1348,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">28</unitid>
 					<unittitle id="link128">Working Solutions: Work vs. the Family, Rutgers University</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">29</unitid>
 					<unittitle id="link129">CBS Sunday Morning, 10/20/1991</unittitle>
 					<unitdate normal="1991">1991</unitdate>
@@ -1357,14 +1363,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">30</unitid>
 					<unittitle id="link130">Leaving home we do the work</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">31</unitid>
 					<unittitle id="link131">ILGWU/ACTWU Merger, NY Network Coverage - Feb. 20-21, 1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -1372,7 +1378,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">32</unitid>
 					<unittitle id="link132">International Ladies' Garment Workers' Union - Media Coverage of June 1989 Convention</unittitle>
 					<unitdate normal="1989">1989</unitdate>
@@ -1380,7 +1386,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">33</unitid>
 					<unittitle id="link133">Segment with Susan Cowell of ILGWU, 5/27/1993</unittitle>
 					<unitdate normal="1993">1993</unitdate>
@@ -1388,7 +1394,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">34</unitid>
 					<unittitle id="link134">Segment on sweat shops, 4/29/1993</unittitle>
 					<unitdate normal="1993">1993</unitdate>
@@ -1396,7 +1402,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">35</unitid>
 					<unittitle id="link135">NY is fashion , August 1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -1404,7 +1410,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">36</unitid>
 					<unittitle id="link136">UNITE! Stop Sweatshops Campaign, December, 1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -1412,7 +1418,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">37</unitid>
 					<unittitle id="link137">UNITE! Presentation, 9/20/1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -1420,14 +1426,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unitid label="Item ">38</unitid>
 					<unittitle id="link138">My name is Mary Brown</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link139">9/16/1986 - Homework Hearings</unittitle>
 					<unitdate normal="1986">1986</unitdate>
@@ -1435,7 +1441,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">2</unitid>
 					<unittitle id="link140">ILGWU - 1.Paula 2.Anna 3.Doctor</unittitle>
 				</did>
@@ -1445,28 +1451,28 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">3</unitid>
 					<unittitle id="link141">ILGWU - 1.Comparison 2.Promises 3.Strike 4.Betting</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">4</unitid>
 					<unittitle id="link142">ILGWU Voter registration</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">5</unitid>
 					<unittitle id="link143">Jay Mazur, Susan Meisinger</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">6</unitid>
 					<unittitle id="link144">ILGWU - 1.Conversation Radio 2.Trabajador Elsa 3.Trabajador Hippolito 4.Trabajador Awilda 5.Trabajador Carmen, 6/27/1990</unittitle>
 					<unitdate normal="1990">1990</unitdate>
@@ -1474,7 +1480,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">7</unitid>
 					<unittitle id="link145">ILGWU-</unittitle>
 					<unitdate normal="1989">1989</unitdate>
@@ -1485,7 +1491,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">8</unitid>
 					<unittitle id="link146">ILGWU - 1.Olmos 2.Carmen III - 11/29/1989</unittitle>
 					<unitdate normal="1989">1989</unitdate>
@@ -1493,7 +1499,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">9</unitid>
 					<unittitle id="link147">ILGWU Voter Registration -- 6/23/1989</unittitle>
 					<unitdate normal="1989">1989</unitdate>
@@ -1501,7 +1507,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">11</unitid>
 					<unittitle id="link148">ILGWU Apparel Jobs Abroad - 9/27/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -1509,7 +1515,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">12</unitid>
 					<unittitle id="link149">ILGWU - Union Label Song from the Nanny - 1/18/1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -1517,14 +1523,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">13</unitid>
 					<unittitle id="link150">International Ladies Garment Workers Union - Its about jobs</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">14</unitid>
 					<unittitle id="link151">UNITE - Words, Face - 1/26/1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -1532,7 +1538,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">15</unitid>
 					<unittitle id="link152">Leslie Fay Rally, NYC, 9/22/1993</unittitle>
 					<unitdate normal="1993">1993</unitdate>
@@ -1540,35 +1546,35 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">16</unitid>
 					<unittitle id="link153">We do the work, Sewing our future</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">17</unitid>
 					<unittitle id="link154">We do the work, Show 309, Sewing our future</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">18</unitid>
 					<unittitle id="link155">Future Shop: a modular manufacturing shop</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">19</unitid>
 					<unittitle id="link156">ILGWU: UNITE and Fight</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">20</unitid>
 					<unittitle id="link157">ILGWU : Apparel Job - 9/30/1992 ; Maidenform - 9/29/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -1576,7 +1582,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">21</unitid>
 					<unittitle id="link158">Count me in - a bridge to citizenship -- 9/23/1994</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -1584,7 +1590,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">22</unitid>
 					<unittitle id="link159">UNITE, Convention Program, 1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -1592,7 +1598,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">23</unitid>
 					<unittitle id="link160">Paula Green Advt. - ILGWU - 4/26/1994</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -1600,7 +1606,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">24</unitid>
 					<unittitle id="link161">ILGWU Dept. of Labor, Hall of Fame 1993 -- 3/9/1994</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -1608,14 +1614,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">25</unitid>
 					<unittitle id="link162">ILGWU - Fashion Shows</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">26</unitid>
 					<unittitle id="link163">Construction Workers who renovated the theater</unittitle>
 					<unitdate normal="1993">1993</unitdate>
@@ -1626,7 +1632,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">27</unitid>
 					<unittitle id="link164">UNITE/Jay Mazur - The Money Wheel - 7/11/1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -1634,7 +1640,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">28</unitid>
 					<unittitle id="link165">Behind the Seems - 12/11/1994</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -1642,7 +1648,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">29</unitid>
 					<unittitle id="link166">ILGWU - On the Move-- 6/1989</unittitle>
 					<unitdate normal="1989">1989</unitdate>
@@ -1650,14 +1656,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">30</unitid>
 					<unittitle id="link167">ILGWU: UNITE and Fight</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">31</unitid>
 					<unittitle id="link168">Robert Reich - Garment Industry Labor Practices -- 9/14/1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -1665,14 +1671,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">32</unitid>
 					<unittitle id="link169">Soho Fashions ; USA Tonight</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unitid label="Item ">33</unitid>
 					<unittitle id="link170">Triangle Shirtwaist Fire Remembered by ILGWU - 3/27/1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -1680,7 +1686,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link171">Union Merger - UNITE! - June 30, 1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -1691,14 +1697,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">2</unitid>
 					<unittitle id="link172">1995 UNITE Convention Highlights</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">3</unitid>
 					<unittitle id="link173">Convention of Union of Needletrades, Industrial and Textile Employees, AFL-CIO, CLC</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -1709,7 +1715,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">4</unitid>
 					<unittitle id="link174">Tape of CBC's Liz Clairborne Segment</unittitle>
 				</did>
@@ -1719,7 +1725,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">5</unitid>
 					<unittitle id="link175">Medal of Freedom Presentations - 8/11/1999</unittitle>
 					<unitdate normal="1999">1999</unitdate>
@@ -1730,7 +1736,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">6</unitid>
 					<unittitle id="link176">Evy Duty, ILGWU, May 1989</unittitle>
 					<unitdate normal="1989">1989</unitdate>
@@ -1738,7 +1744,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">7</unitid>
 					<unittitle id="link177">Challenges, 3/6/1995 - Should You Have to Join a Union to Keep Your Job?</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -1746,7 +1752,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">8</unitid>
 					<unittitle id="link178">Pensions 2000 : Ancient Lands, New Opportunities, Highlight Tape</unittitle>
 					<unitdate normal="2000">2000</unitdate>
@@ -1757,14 +1763,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">9</unitid>
 					<unittitle id="link179">American Institute for Free Labor Development : A Permanent people's Struggle</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">10</unitid>
 					<unittitle id="link180">Saipan Clothing Manufacturers ; Follow Up Segment - 3/13/1998 and 3/20/1998</unittitle>
 					<unitdate normal="1998">1998</unitdate>
@@ -1772,7 +1778,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">11</unitid>
 					<unittitle id="link181">UNITE : 2003 UNITE! Convention</unittitle>
 					<unitdate normal="2003">2003</unitdate>
@@ -1780,7 +1786,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">12</unitid>
 					<unittitle id="link182">UNITE : 2003 UNITE! Convention</unittitle>
 					<unitdate normal="2003">2003</unitdate>
@@ -1788,7 +1794,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">13</unitid>
 					<unittitle id="link183">Interview Sol Stetin, Twua Laeder : Oct. 10, 1995, Chicago, Ill.</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -1799,14 +1805,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">14</unitid>
 					<unittitle id="link184">Labor at the Crossroads: No more Band-Aids : wring the Health Care Crisis</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">15</unitid>
 					<unittitle id="link185">ILGWU Chorus at Grand Central Station, Eyewitness News, 9/4/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -1814,21 +1820,21 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">16</unitid>
 					<unittitle id="link186">El Preston - ILGWU Spot</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">17</unitid>
 					<unittitle id="link187">Art Rodriguez, UFW</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">18</unitid>
 					<unittitle id="link188">Video from Seth M. Bodner, Exec. Dir., National Knitwear and Sportswear Ass.</unittitle>
 				</did>
@@ -1838,7 +1844,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">19</unitid>
 					<unittitle id="link189">Sweatshops</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -1849,14 +1855,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">20</unitid>
 					<unittitle id="link190">ILGWU - Composite video</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">21</unitid>
 					<unittitle id="link191">Paula Green Advertising, ILGWU - 3/18/1994</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -1864,7 +1870,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">22</unitid>
 					<unittitle id="link192">Union Health Center, Animated Tour - April 1998</unittitle>
 					<unitdate normal="1998">1998</unitdate>
@@ -1875,21 +1881,21 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">23</unitid>
 					<unittitle id="link193">Future Shop: a Modular Manufacturing Shop</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">24</unitid>
 					<unittitle id="link194">Future Shop: a Modular Manufacturing Shop</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unitid label="Item ">25</unitid>
 					<unittitle id="link195">ILGWU, Apparel Job - 9/30/1992 ; Maidenform - 9/29/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -1897,21 +1903,21 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link196">Its time for a Real Union! Its time for UNITE!</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">2</unitid>
 					<unittitle id="link197">Its time for a Real Union! Is time for UNITE!</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">3</unitid>
 					<unittitle id="link198">CBC News world - The Suit War - Aired March 10, 1997</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -1919,7 +1925,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">4</unitid>
 					<unittitle id="link199">CBC News World - The Suit War - Aired March 10, 1997</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -1927,7 +1933,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">5</unitid>
 					<unittitle id="link200">CBC News World - The Suit War - Aired March 10, 1997</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -1935,7 +1941,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">6</unitid>
 					<unittitle id="link201">CBC News World - The Suit War - Aired March 10, 1997</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -1943,7 +1949,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">7</unitid>
 					<unittitle id="link202">CBC News World - The Suit War - Aired March 10, 1997</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -1951,21 +1957,21 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">8</unitid>
 					<unittitle id="link203">Ahora es el momento para una !UNION VERDADERA ; !Ahora es el momento para UNITE</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">9</unitid>
 					<unittitle id="link204">Ahore es el momento para una !UNION VERDADERA ; !Ahora es el momento para UNITE</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">10</unitid>
 					<unittitle id="link205">Hard Copy three-part series on Nicaraguan sweatshops</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -1976,14 +1982,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">11</unitid>
 					<unittitle id="link206">Hearing on the Garment Industry Proviso (tape 1 of 2)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">12</unitid>
 					<unittitle id="link207">Hearing on the Garment Industry Proviso (tape 2 of 2)</unittitle>
 					<unitdate normal="1998">1998</unitdate>
@@ -1994,7 +2000,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">13</unitid>
 					<unittitle id="link208">UNITE for the future</unittitle>
 				</did>
@@ -2004,7 +2010,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">14</unitid>
 					<unittitle id="link209">NACA Protest at First Union ; nine reports aired in Charlotte - 10/2/1995-10/3/1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -2012,7 +2018,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">15</unitid>
 					<unittitle id="link210">Peerless media coverage - 1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -2020,49 +2026,49 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">16</unitid>
 					<unittitle id="link211">Livelyhood #103-Honey We Bought the Company</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">17</unitid>
 					<unittitle id="link212">K-Mart Demo - 3/23/1996, Houston, TX</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">18</unitid>
 					<unittitle id="link213">CBC News World - The Suit War</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">19</unitid>
 					<unittitle id="link214">Organized Labor, CBS Sunday Morning</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">20</unitid>
 					<unittitle id="link215">Primetime - El Paso</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">21</unitid>
 					<unittitle id="link216">Organized Labor - CBS Sunday Morning</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">22</unitid>
 					<unittitle id="link217">NBS Nightly News 8/5/1993 - Worker Education Program</unittitle>
 					<unitdate normal="1993">1993</unitdate>
@@ -2070,7 +2076,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">23</unitid>
 					<unittitle id="link218">Timecode for Kmart, Greensboro - 3/30/1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -2078,7 +2084,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">24</unitid>
 					<unittitle id="link219">News Feature: 9/6/1997 Local Coverage - UNITE</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -2086,7 +2092,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">25</unitid>
 					<unittitle id="link220">GUESS Jeans Labor Controversy - July 20, 1998</unittitle>
 					<unitdate normal="1998">1998</unitdate>
@@ -2094,7 +2100,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">26</unitid>
 					<unittitle id="link221">GUESS Jeans Boycott - September 15, 1998</unittitle>
 					<unitdate normal="1998">1998</unitdate>
@@ -2102,14 +2108,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">27</unitid>
 					<unittitle id="link222">News 25 Coverage - T.J. Maxx Stories</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">28</unitid>
 					<unittitle id="link223">Lichtenberg Ratification - 10-16-1991</unittitle>
 					<unitdate normal="1991">1991</unitdate>
@@ -2120,7 +2126,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">29</unitid>
 					<unittitle id="link224">News Reports on Cone Mills ESOP, Cliffside, NC, October 1, 1990</unittitle>
 					<unitdate normal="1990">1990</unitdate>
@@ -2128,70 +2134,70 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">30</unitid>
 					<unittitle id="link225">UAW in Belvedere #2 - Raw Footage</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unitid label="Item ">31</unitid>
 					<unittitle id="link226">Kmart Protest-Atlanta</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link227">Mohawk Carpets and 60 Second Commercial</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">2</unitid>
 					<unittitle id="link228">Mohawk Carpets and 60 Second Commercial</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">3</unitid>
 					<unittitle id="link229">Mohawk Carpets and 60 Second commercial</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">4</unitid>
 					<unittitle id="link230">Springs Industries, Inc. - Bed Fashions</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">5</unitid>
 					<unittitle id="link231">Jobs with justice - tape #3</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">6</unitid>
 					<unittitle id="link232">Jobs with justice - Tape #2</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">7</unitid>
 					<unittitle id="link233">Jobs with justice - Tape #1</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">8</unitid>
 					<unittitle id="link234">Press Coverage Peerless - January 18, 1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -2199,7 +2205,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">9</unitid>
 					<unittitle id="link235">Peerless - TV Coverage - 12/10/1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -2207,7 +2213,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">10</unitid>
 					<unittitle id="link236">Peerless - TV Coverage - 12/10/1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -2215,7 +2221,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">11</unitid>
 					<unittitle id="link237">Kmart Atlanta - Tape 1 - 3/23/1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -2223,28 +2229,28 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">12</unitid>
 					<unittitle id="link238">Panville Healthtex</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">13</unitid>
 					<unittitle id="link239">CBS Nightly News - OSHA rules</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">14</unitid>
 					<unittitle id="link240">On the Move: Victory at 1199</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">15</unitid>
 					<unittitle id="link241">Crossfire - CNN - November 8, 1993</unittitle>
 					<unitdate normal="1993">1993</unitdate>
@@ -2252,7 +2258,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">16</unitid>
 					<unittitle id="link242">Peerless Media - Coverage 1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -2260,7 +2266,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">17</unitid>
 					<unittitle id="link243">UNITE Meeting -- 10/23 and 12/9/2000</unittitle>
 					<unitdate normal="2000">2000</unitdate>
@@ -2268,42 +2274,42 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">18</unitid>
 					<unittitle id="link244">UNITE! News -- Kitchens Rally, 2/13/1997 ; Burdines, Aug. 1996</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">19</unitid>
 					<unittitle id="link245">LICHTO A (no other labeling)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">20</unitid>
 					<unittitle id="link246">LICHTO B (no other labeling)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">21</unitid>
 					<unittitle id="link247">UNITE! - Because every vote counts</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">22</unitid>
 					<unittitle id="link248">UNITE! - Because every vote counts</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">23</unitid>
 					<unittitle id="link249">Peerless - TV Coverage - 12/10/1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -2311,7 +2317,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">24</unitid>
 					<unittitle id="link250">Kmart Atlanta Rally - tape #1 - 3/23/1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -2319,35 +2325,35 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">25</unitid>
 					<unittitle id="link251">Americans Discuss Social Security</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">26</unitid>
 					<unittitle id="link252">Unlabeled</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">27</unitid>
 					<unittitle id="link253">Peerless/Sweatshops - Unite Rally Atlanta - AFL/CIO Footage</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">28</unitid>
 					<unittitle id="link254">10-12 (no other labeling)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">29</unitid>
 					<unittitle id="link255">TJ MAXX - 2/16/1999 - Leaflet w/cops</unittitle>
 					<unitdate normal="1999">1999</unitdate>
@@ -2355,7 +2361,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">30</unitid>
 					<unittitle id="link256">Made in the USA - 3/29/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -2363,7 +2369,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">31</unitid>
 					<unittitle id="link257">Mitch McConnell - November 4, 1998</unittitle>
 					<unitdate normal="1998">1998</unitdate>
@@ -2371,7 +2377,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">32</unitid>
 					<unittitle id="link258">Cav's Corner - Detroit Newspaper Strike - 10/8/1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -2379,7 +2385,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">33</unitid>
 					<unittitle id="link259">Mattan the Carpet - 6/26/1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -2387,7 +2393,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
+					<container label="unspecified" type="box">14</container>
 					<unitid label="Item ">34</unitid>
 					<unittitle id="link260">Loehmanns/Union - January 26, 1999</unittitle>
 					<unitdate normal="1999">1999</unitdate>
@@ -2395,7 +2401,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link261">Going Global - News hour with Jim Lehrer - July 23, 1997</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -2403,7 +2409,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">2</unitid>
 					<unittitle id="link262">Feccheimer - Meeting with Boss - tape 2 - 10/1/1998</unittitle>
 					<unitdate normal="1998">1998</unitdate>
@@ -2411,14 +2417,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">3</unitid>
 					<unittitle id="link263">UNITE Protest against Peerless Clothing Company</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">4</unitid>
 					<unittitle id="link264">A Message from President Bruce Raynor - November 2001</unittitle>
 					<unitdate normal="2001">2001</unitdate>
@@ -2426,7 +2432,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">5</unitid>
 					<unittitle id="link265">A Message from President Bruce Raynor - November 2001</unittitle>
 					<unitdate normal="2001">2001</unitdate>
@@ -2434,7 +2440,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">6</unitid>
 					<unittitle id="link266">A Message from President Bruce Raynor - November 2001</unittitle>
 					<unitdate normal="2001">2001</unitdate>
@@ -2442,7 +2448,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">7</unitid>
 					<unittitle id="link267">UNITE Campaign for the Future</unittitle>
 				</did>
@@ -2452,7 +2458,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">8</unitid>
 					<unittitle id="link268">UNITE Campaign for the Future</unittitle>
 				</did>
@@ -2462,14 +2468,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">9</unitid>
 					<unittitle id="link269">Surviving the bottom line with Hendrick Smith</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">10</unitid>
 					<unittitle id="link270">News Coverage of Jesse, Rally in NC - April 1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -2477,7 +2483,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">11</unitid>
 					<unittitle id="link271">Cavanaugh's Corner -- 10/1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -2485,7 +2491,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">12</unitid>
 					<unittitle id="link272">Organizing Institute Reports: 1.ABC-World News Tonight - 6/3/1993 ; 2.CNN - 6/8/1994</unittitle>
 					<unitdate normal="1993">1993</unitdate>
@@ -2493,7 +2499,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">13</unitid>
 					<unittitle id="link273">Organizing Institute Reports: 1.ABC-World News Tonight - 6/3/1993 ; 2.CNN - 6/8/1993</unittitle>
 					<unitdate normal="1993">1993</unitdate>
@@ -2501,7 +2507,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">14</unitid>
 					<unittitle id="link274">Atlanta CLC - October 1, 1998</unittitle>
 					<unitdate normal="1998">1998</unitdate>
@@ -2509,7 +2515,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">15</unitid>
 					<unittitle id="link275">Jo-Ann Mort - 12/1/1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -2517,7 +2523,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">16</unitid>
 					<unittitle id="link276">Kmart Protest - Norfolk - 3/23/1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -2525,42 +2531,42 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">17</unitid>
 					<unittitle id="link277">Booted Out: We do the work</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">18</unitid>
 					<unittitle id="link278">UNITE</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">19</unitid>
 					<unittitle id="link279">Surviving the bottom line with Hendrick Smith</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">20</unitid>
 					<unittitle id="link280">NIKE Labor Practices</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">21</unitid>
 					<unittitle id="link281">UNITE Victory - 11/10/1999 ; Charlotte News Coverage</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">22</unitid>
 					<unittitle id="link282">(In) Visible Women</unittitle>
 				</did>
@@ -2570,14 +2576,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">23</unitid>
 					<unittitle id="link283">Satelite Child Care : The Future of Quality Daycare</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">24</unitid>
 					<unittitle id="link284">Columbia Teach-In, October 3-4, 1996 ; tapes 1 and 2</unittitle>
 				</did>
@@ -2587,7 +2593,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">25</unitid>
 					<unittitle id="link285">Union Protest at Sol Frank - 5/13/1998</unittitle>
 					<unitdate normal="1998">1998</unitdate>
@@ -2595,14 +2601,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">26</unitid>
 					<unittitle id="link286">AFL-CIO Strategic Media Campaign - Sample Spots</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">27</unitid>
 					<unittitle id="link287">Anti-Sweatshop - 12/13/1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -2610,7 +2616,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">28</unitid>
 					<unittitle id="link288">The Story of the K-Mart Workers - 2/1997</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -2618,14 +2624,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">29</unitid>
 					<unittitle id="link289">CNN Coverage of Poultry Industry</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">30</unitid>
 					<unittitle id="link290">Civil Right Committee - Jan. 15-16, 1994</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -2633,7 +2639,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">31</unitid>
 					<unittitle id="link291">Union Navy - 7/3/2001</unittitle>
 					<unitdate normal="2001">2001</unitdate>
@@ -2641,7 +2647,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">32</unitid>
 					<unittitle id="link292">Paying to Lose Our Jobs - 9/27/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -2649,21 +2655,21 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">33</unitid>
 					<unittitle id="link293">Kmart Demo</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">34</unitid>
 					<unittitle id="link294">L.A. Sweatshops - CNN-TV, Headline News</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">35</unitid>
 					<unittitle id="link295">Life and Times (Wednesday Edition) - 10/7/1997</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -2674,7 +2680,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
+					<container label="unspecified" type="box">15</container>
 					<unitid label="Item ">36</unitid>
 					<unittitle id="link296">Sweat Shops - 8/15/1994</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -2682,7 +2688,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link297">Protests Against Discrimination - 3/23/1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -2690,7 +2696,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">2</unitid>
 					<unittitle id="link298">Made in China - May 10, 1994</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -2698,28 +2704,28 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">3</unitid>
 					<unittitle id="link299">Discounted Lives</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">4</unitid>
 					<unittitle id="link300">ACTWU Press Conference 8/10</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">5</unitid>
 					<unittitle id="link301">Jesse Jackson visits Sanderson Farms, Hazlehurst Plant</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">6</unitid>
 					<unittitle id="link302">Atrium Action - 1/1998</unittitle>
 					<unitdate normal="1998">1998</unitdate>
@@ -2727,14 +2733,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">7</unitid>
 					<unittitle id="link303">La Region del Rio Colca</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">8</unitid>
 					<unittitle id="link304">Saipan Clothing Manufacturers</unittitle>
 					<unitdate normal="1998">1998</unitdate>
@@ -2745,21 +2751,21 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">9</unitid>
 					<unittitle id="link305">AFL-TV, RUSH</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">10</unitid>
 					<unittitle id="link306">Atlanta: Labor Law Reform Demonstration</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">11</unitid>
 					<unittitle id="link307">Columbia Teach-In, October 3-4, 1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -2770,7 +2776,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">12</unitid>
 					<unittitle id="link308">Clinton in Louisville - 9/29/1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -2778,28 +2784,28 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">13</unitid>
 					<unittitle id="link309">The Internationale</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">14</unitid>
 					<unittitle id="link310">Multiplan - Sy Syms Tribute Film</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">15</unitid>
 					<unittitle id="link311">CNM, Saturday, July 29th, Presentation</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">16</unitid>
 					<unittitle id="link312">AFL-CIO, 1991 Dickey</unittitle>
 					<unitdate normal="1991">1991</unitdate>
@@ -2807,7 +2813,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">17</unitid>
 					<unittitle id="link313">News Hour with Jim Lehrer : Focus: Labor - 1999/10/12</unittitle>
 					<unitdate normal="1999">1999</unitdate>
@@ -2815,7 +2821,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">18</unitid>
 					<unittitle id="link314">Gore in Miami - 99-002, 2/19/1999, Tape #2</unittitle>
 					<unitdate normal="1999">1999</unitdate>
@@ -2823,14 +2829,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">19</unitid>
 					<unittitle id="link315">A Family Album</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">20</unitid>
 					<unittitle id="link316">Peerless - Atlanta Derr, 8/10/1996 ; Lord and Taylors and Macys</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -2838,7 +2844,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">21</unitid>
 					<unittitle id="link317">Macy's - Atlanta Sweatshop Demo, Raw footage, 12/7/1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -2846,7 +2852,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">22</unitid>
 					<unittitle id="link318">Sweatshop Protest, Macy's-Lenox Square-Atlanta - 12/7/1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -2854,7 +2860,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">23</unitid>
 					<unittitle id="link319">Hoop Dreams, Sweatshops -- 12/7/1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -2862,7 +2868,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">24</unitid>
 					<unittitle id="link320">ACTWU Press Conference -- 8/8/1994</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -2870,7 +2876,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">25</unitid>
 					<unittitle id="link321">Donahue, October 6, 1992</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -2878,14 +2884,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">26</unitid>
 					<unittitle id="link322">Concerned Citizens for Working Freedom, School teacher humiliation</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">27</unitid>
 					<unittitle id="link323">Cone Mills, Haw River -- 6/6/1991</unittitle>
 					<unitdate normal="1991">1991</unitdate>
@@ -2893,21 +2899,21 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">28</unitid>
 					<unittitle id="link324">Kmart Newnan Captive</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">29</unitid>
 					<unittitle id="link325">OSHA -- CBS Evening News, ABC World News</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">30</unitid>
 					<unittitle id="link326">Marshall's Victory Party -- 6/1997</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -2915,14 +2921,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">31</unitid>
 					<unittitle id="link327">Eden, 3 News Clips, Greensboro Rally w/Bruce</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">32</unitid>
 					<unittitle id="link328">Greensboro - 7/30/1997 - Postal/Sweatshop Action</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -2930,7 +2936,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">33</unitid>
 					<unittitle id="link329">Sweatshop Rally, Macys -- 12/7/1996, Raw Footage</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -2938,7 +2944,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
+					<container label="unspecified" type="box">16</container>
 					<unitid label="Item ">34</unitid>
 					<unittitle id="link330">Peerless Rally, Gaithersburg, MD - 1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -2946,7 +2952,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link331">AFL-CIO Medicare and Minimum Wage Spots - 6/26/1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -2957,21 +2963,21 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">2</unitid>
 					<unittitle id="link332">The Metals-Anatomy of a union</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">3</unitid>
 					<unittitle id="link333">Behind the Seams</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">4</unitid>
 					<unittitle id="link334">Peerless Atlanta - 8/1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -2979,7 +2985,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">5</unitid>
 					<unittitle id="link335">Union Celebration - 6/24/1999</unittitle>
 					<unitdate normal="1999">1999</unitdate>
@@ -2987,7 +2993,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">6</unitid>
 					<unittitle id="link336">Workers Rights Hearing - Feb. 18, 1999 ; Miami at Caleb Center</unittitle>
 					<unitdate normal="1999">1999</unitdate>
@@ -2995,7 +3001,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">7</unitid>
 					<unittitle id="link337">60 Minutes - CBS - 9/27/1992 ; Nightline - ABC - 9/29 and 9/30</unittitle>
 					<unitdate normal="1992">1992</unitdate>
@@ -3003,14 +3009,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">8</unitid>
 					<unittitle id="link338">ABC - Phyllis Burns interview</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">9</unitid>
 					<unittitle id="link339">Cavanaugh's Corner - 12/4/1997 - GUESS What?</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -3018,7 +3024,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">10</unitid>
 					<unittitle id="link340">District Mtg - 9/6/1997 - Anti-NAFFA Rally</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -3026,42 +3032,42 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">11</unitid>
 					<unittitle id="link341">Maine Watch about Hathaway</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">12</unitid>
 					<unittitle id="link342">AFL-CIO Strategic Media Campaign ADS</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">13</unitid>
 					<unittitle id="link343">Fojtosek Ratification (reel 3)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">14</unitid>
 					<unittitle id="link344">Fojtosek Ratification (reel 1)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">15</unitid>
 					<unittitle id="link345">Fojtosek Ratification (reel 2)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">16</unitid>
 					<unittitle id="link346">Pre-Apprentice - MWT - 1996</unittitle>
 					<unitdate normal="1996">1996</unitdate>
@@ -3069,7 +3075,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">17</unitid>
 					<unittitle id="link347">#3 Workers Rights Hearing - Feb. 18, 1999, Miami at Caleb Center</unittitle>
 					<unitdate normal="1999">1999</unitdate>
@@ -3077,7 +3083,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">18</unitid>
 					<unittitle id="link348">#2 Workers Rights Hearing, Feb. 18, 1999, Miami at Caleb Center</unittitle>
 					<unitdate normal="1999">1999</unitdate>
@@ -3085,7 +3091,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">19</unitid>
 					<unittitle id="link349">#1Workers Rights Hearing, Feb. 18, 1999, Miami at Caleb Center</unittitle>
 					<unitdate normal="1999">1999</unitdate>
@@ -3093,7 +3099,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">20</unitid>
 					<unittitle id="link350">November 22, 1999</unittitle>
 					<unitdate normal="1999">1999</unitdate>
@@ -3104,14 +3110,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
+					<container label="unspecified" type="box">17</container>
 					<unitid label="Item ">21</unitid>
 					<unittitle id="link351">ESPN - Ch. 8 Outside the Lines - Made in Vietnam (sneaker sweatshop)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link352">May 27, 1968, Afternoon</unittitle>
 					<unitdate normal="1968">1968</unitdate>
@@ -3119,7 +3125,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">2</unitid>
 					<unittitle id="link353">May 27, 1968, Morning - Financial report</unittitle>
 					<unitdate normal="1968">1968</unitdate>
@@ -3127,7 +3133,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">12</unitid>
 					<unittitle id="link354">UNITE, Jay Mazur Retirement Video - 6/26/2001</unittitle>
 					<unitdate normal="2001">2001</unitdate>
@@ -3135,63 +3141,63 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">13</unitid>
 					<unittitle id="link355">Evy Duty</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">14</unitid>
 					<unittitle id="link356">What Happened to the American Dream?</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">15</unitid>
 					<unittitle id="link357">Its time to say yes to Dukakis</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">16</unitid>
 					<unittitle id="link358">Solidarity Day March, Washington, DC</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">17</unitid>
 					<unittitle id="link359">What happened to the American Dream?</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">18</unitid>
 					<unittitle id="link360">AFL-CIO, Immigration, Cathy Wallder</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">19</unitid>
 					<unittitle id="link361">American Bar Ass., Legalization Appeals, tape 2</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">20</unitid>
 					<unittitle id="link362">American Bar Assn., Legalization Appeals, tape 1</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">21</unitid>
 					<unittitle id="link363">J. Ian Morrison and Robert Johansen at Apple University, Speakers Forum, 3/93 on Issues and Trends for Business and Government</unittitle>
 					<unitdate normal="1993">1993</unitdate>
@@ -3199,28 +3205,28 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">22</unitid>
 					<unittitle id="link364">The Golden Door, presented by the New York Joint Board, ACTWU</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">23</unitid>
 					<unittitle id="link365">Moyers/Minimum Wages</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">24</unitid>
 					<unittitle id="link366">Take the Power, from the Creators of One Fine Day</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">25</unitid>
 					<unittitle id="link367">Immigration, Midday Liver over WNEW-TV, NY</unittitle>
 					<unitdate normal="1984">1984</unitdate>
@@ -3231,7 +3237,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">26</unitid>
 					<unittitle id="link368">Triangle Fire and Interview with Leon Stien, 5/27/1986</unittitle>
 					<unitdate normal="1986">1986</unitdate>
@@ -3239,14 +3245,14 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">27</unitid>
 					<unittitle id="link369">Immigration Control Bill, Eyewitness News, WABC-TV, June 15, Friday</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">28</unitid>
 					<unittitle id="link370">ILGWU, Department of Labor, Hall of Fame, 1993</unittitle>
 					<unitdate normal="1993">1993</unitdate>
@@ -3254,21 +3260,21 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">29</unitid>
 					<unittitle id="link371">Aliens, WNBC-TV, Phil Donahue, Wed, Mar 18 at 9 AM</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">31</unitid>
 					<unittitle id="link372">Breaking the Silence ; The Fight for Justice at Peerless</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
+					<container label="unspecified" type="box">18</container>
 					<unitid label="Item ">32</unitid>
 					<unittitle id="link373">Bruce Raynor in the Southern Region : Unite!</unittitle>
 					<unitdate normal="1998">1998</unitdate>
@@ -3276,12 +3282,12 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">19</container>
+					<container label="unspecified" type="box">19</container>
 					<unittitle id="link374">Whiteville Apparel Together : Local 1077 - UNITE</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">19</container>
+						<container label="unspecified" type="box">19</container>
 						<unitid label="Item ">1</unitid>
 						<unittitle id="link375">Whiteville Apparel Together : Local 1077 - UNITE</unittitle>
 					</did>
@@ -3289,28 +3295,28 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">20</container>
+					<container label="unspecified" type="box">20</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link376">Yes! Send me a year's subscription to Newstrack Executive Tape Service</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">21</container>
+					<container label="unspecified" type="box">21</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link377">Listen, It's easy to master today's top business books in minutes!</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">22</container>
+					<container label="unspecified" type="box">22</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link378">Unlabeled</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
+					<container label="unspecified" type="box">23</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link379">4/23/1987 - ILGWU - Imm Seminar, tape 2</unittitle>
 					<unitdate normal="1987">1987</unitdate>
@@ -3318,7 +3324,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">24</container>
+					<container label="unspecified" type="box">24</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link380">4/23/1987, ILGWU, Immi Seminar, tape 1</unittitle>
 					<unitdate normal="1987">1987</unitdate>
@@ -3326,7 +3332,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">25</container>
+					<container label="unspecified" type="box">25</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link381">4/22/1987, ILGWU - Immi Seminar, tape 2</unittitle>
 					<unitdate normal="1987">1987</unitdate>
@@ -3334,7 +3340,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">26</container>
+					<container label="unspecified" type="box">26</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link382">4/21/1987 - ILGWU, Immi Seminar, tape 4 ; 4/22/1987, tape 1</unittitle>
 					<unitdate normal="1987">1987</unitdate>
@@ -3342,7 +3348,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">27</container>
+					<container label="unspecified" type="box">27</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link383">4/22/1987 - ILGWU - Immi Seminar, tape 3</unittitle>
 					<unitdate normal="1987">1987</unitdate>
@@ -3350,7 +3356,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">28</container>
+					<container label="unspecified" type="box">28</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link384">4/121/1987 - ILGWU - Immi Seminar, tape 3</unittitle>
 					<unitdate normal="1987">1987</unitdate>
@@ -3358,7 +3364,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">29</container>
+					<container label="unspecified" type="box">29</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link385">Whiteville Apparel Together, Local 1077</unittitle>
 				</did>
@@ -3368,7 +3374,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">30</container>
+					<container label="unspecified" type="box">30</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link386">AFL-CIO Black South African Workers fund</unittitle>
 				</did>
@@ -3378,7 +3384,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">31</container>
+					<container label="unspecified" type="box">31</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link387">Affiliating With Your Central Labor Council</unittitle>
 				</did>
@@ -3388,7 +3394,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">32</container>
+					<container label="unspecified" type="box">32</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link388">American Cabinet Unites</unittitle>
 				</did>
@@ -3398,7 +3404,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">33</container>
+					<container label="unspecified" type="box">33</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link389">Segment on American Unions, World News Tonight, 9/5/1994</unittitle>
 					<unitdate normal="1994">1994</unitdate>
@@ -3409,7 +3415,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">34</container>
+					<container label="unspecified" type="box">34</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link390">Flambeau Airmold Workers: Be Encouraged</unittitle>
 				</did>
@@ -3419,7 +3425,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">35</container>
+					<container label="unspecified" type="box">35</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link391">British Broadcasting Company, Undercover Investigation of the Walt Disney Company in Haiti</unittitle>
 					<unitdate normal="1997">1997</unitdate>
@@ -3430,7 +3436,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">36</container>
+					<container label="unspecified" type="box">36</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link392">CBS Morning News - Monday May 16th (Home Work)</unittitle>
 				</did>
@@ -3440,7 +3446,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">37</container>
+					<container label="unspecified" type="box">37</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link393">CBS Morning News - Monday May 16th (Home Work)</unittitle>
 				</did>
@@ -3450,7 +3456,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">38</container>
+					<container label="unspecified" type="box">38</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link394">Clothing Worker ; Imported Clothing ; Squier/Eskew Communications - 2/5/1988</unittitle>
 					<unitdate normal="1988">1988</unitdate>
@@ -3461,7 +3467,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">39</container>
+					<container label="unspecified" type="box">39</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link395">El Monte Workers Lawsuit -- 1.Marketplace PRI, 9/5/1995 ; 2.KFWB-AM, 9/5/1995 ; 3.KNX-AM, 9/5/1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
@@ -3472,7 +3478,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">40</container>
+					<container label="unspecified" type="box">40</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link396">Kathie Lee Clothing Sweatshops</unittitle>
 				</did>
@@ -3482,7 +3488,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">41</container>
+					<container label="unspecified" type="box">41</container>
 					<unitid label="Item ">1</unitid>
 					<unittitle id="link397">Gheto and Demilly - 11/28/1989</unittitle>
 					<unitdate normal="1989">1989</unitdate>

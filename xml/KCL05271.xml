@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05271::Claire H. Beegle Papers.)//EN">KCL05271</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05271::Claire H. Beegle Papers.)//EN">KCL05271</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the Claire H. Beegle Papers<date>
@@ -24,20 +24,26 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>March 08,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
-            <titleproper>Guide to the Claire H. Beegle Papers<lb/></titleproper>
+            <titleproper>Guide to the Claire H. Beegle Papers</titleproper>
             <num>Collection Number: 5271</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -56,14 +62,14 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">Claire H. Beegle Papers, <unitdate encodinganalog="MARC 245$f">1901-1960</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">Claire H. Beegle Papers, 1901-1960
+            </unittitle><unitdate encodinganalog="MARC 245$f">1901-1960</unitdate>
             <unitid label="Collection Number:">5271</unitid>
             <origination label="Creator:">
                 <persname encodinganalog="MARC 100" role="creator">Beegle, Clair H.</persname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">0.5 linear ft.</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">0.5 linear ft.</physdesc>
             <physdesc label="Forms of Material:">Papers (documents).</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -73,16 +79,16 @@
             </langmaterial>
         <physdesc><extent>0.5 cubic feet</extent></physdesc></did>
         <scopecontent encodinganalog="MARC 520">
-            <head id="a3">COLLECTION DESCRIPTION</head>
+            
             <p>This collection consists of printed materials related to U.S. railroads, including
                 rule books, reports, and pamphlets. Railroads represented include the Pennsylvania
                 Railroad;Chicago, Milwaukee, and St. Paul Railroad; Chicago, Rock Island, and
                 Pacific Railway; and Northern Pacific Railway.</p>
         </scopecontent>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <persname encodinganalog="MARC 600">Beegle, Clair H. </persname>
                 <corpname encodinganalog="MARC 610">Switchmen's Union of North America </corpname>
             </controlaccess>
@@ -90,53 +96,53 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>Claire H. Beegle Papers #5271. Kheel Center for Labor-Management Documentation
                     and Archives, Cornell University Library.</p>
             </prefercite>
         </descgrp>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link8">Rule book receipts</unittitle>
                     <unitdate normal="1904">1904</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link9">Group insurance resolution</unittitle>
                     <unitdate normal="1927">1927</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link10">Altoona Railroad Club of the Pennsylvania
                         Railroad</unittitle>
                     <unitdate normal="1908">1908</unitdate>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">3</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">3</container>
                         <unittitle id="link12">Item 1: Report of Joint Committees on "Track" and
                             "Yard Operations" on "The Modern Railroad Yard for Classification
                             Purposes, Its Design and Operation." November 18, 1908.</unittitle>
@@ -150,16 +156,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link13">Altoona Lodge</unittitle>
                     <unitdate normal="1932">1932</unitdate>
                     <physdesc label="Format:">Publication</physdesc>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">4</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">4</container>
                         <unittitle id="link15">Item 1: Switchmen's Union of North America to Install
                             Local Lodge in Altoona</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -171,16 +177,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link16">Interstate Commerce Commission</unittitle>
-                    <unitdate type="inclusive" normal="1910/1956">1910-1956</unitdate>
+                    <unitdate normal="1910/1956" type="inclusive">1910-1956</unitdate>
                     <physdesc label="Format:">Publication</physdesc>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link18">Item 1: Order: In Re Standard Height of
                             Drawbars</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -191,8 +197,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link20">Item 2: In the Matter of Requiring an Increase in the
                             Minimum Percentage of Power Brakes</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -203,8 +209,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link22">Item 3: Order: In the Matter of the Method and Form
                             of Monthly Reports of Hours of Service of Employees on Railroads Subject
                             to the Act of March 4, 1907</unittitle>
@@ -216,8 +222,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link24">Item 4: Order: In the Matter of Alteration in the
                             Method and Form of Monthly Reports of Hours of Service of Employees on
                             Railroads Subject to the Act of March 4, 1907</unittitle>
@@ -229,8 +235,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link26">Item 5: An Act Requiring Common Carriers Engaged in
                             Interstate and Foreign Commerce to Make Full Reports of all Accidents to
                             the Interstate Commerce Commission</unittitle>
@@ -242,8 +248,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link28">Item 6: The Hours-Of-Service Act (As Amended): An Act
                             To Promote the Safety of Employees and Travelers Upon Railroads by
                             Limiting the Hours of Service of Employees Thereon</unittitle>
@@ -256,8 +262,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link30">Item 7: Safety Appliance Acts</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
                     </did>
@@ -267,8 +273,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link32">Item 8: Order: In the Matter of Method and Form of
                             Records to be Kept by Carriers Relating to the Time on Duty of Employees
                             and the Movement of Trains</unittitle>
@@ -280,8 +286,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link34">Item 9: Hours of Service Reports</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
                     </did>
@@ -292,8 +298,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link36">Item 10: Order: In the Matter of Designating the
                             Number, Dimensions, Location, and Manner of Application of Certain
                             Safety Appliances</unittitle>
@@ -305,8 +311,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link38">Item 11: Hours of Srrrvice Report</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
                     </did>
@@ -317,8 +323,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link40">Item 12: Accident at Woodbridge, N.J.</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
                     </did>
@@ -329,8 +335,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link42">Item 13: In Re Accident at Redondo Junction, Los
                             Angeles, CA, on January 22, 1956.</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -342,8 +348,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">5</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">5</container>
                         <unittitle id="link44">Item 14: Report of the Director of the Bureau of
                             Safety in re Investigation of an Accident Which Occurred on the
                             Pennsylvania Railroad Near Gallitzin, PA, on December 9,
@@ -357,16 +363,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link45">U.S. House of Representatives H.R. 17201</unittitle>
                     <unitdate normal="1931">1931</unitdate>
                     <physdesc label="Format:">Publication</physdesc>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">6</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">6</container>
                         <unittitle id="link47">Item 1: A Bill to Establish a Uniform Retirement
                             System for Interstate Railroad Employees, and for Other
                             Purposes</unittitle>
@@ -380,26 +386,26 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link48">Employee passes</unittitle>
-                    <unitdate type="inclusive" normal="1905/1960">1905-1960</unitdate>
+                    <unitdate normal="1905/1960" type="inclusive">1905-1960</unitdate>
                     <physdesc label="Format:">Publication</physdesc>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link49">Chicago, Milwaukee, and St. Paul Railway
                         booklets</unittitle>
-                    <unitdate type="inclusive" normal="1913/1920">1913-1920</unitdate>
+                    <unitdate normal="1913/1920" type="inclusive">1913-1920</unitdate>
                     <physdesc label="Format:">Publication</physdesc>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link51">Item 1: Special Rules and Instructions Covering
                             Electrical Operation</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -412,8 +418,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link53">Item 2: Instructions to Man Operating Dynamos on
                             Electric Lighted Trains</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -425,8 +431,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link55">Item 3: Tacoma Eastern Railroad Rulings on Schedule
                             for Train and Yard Men</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -438,8 +444,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">8</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">8</container>
                         <unittitle id="link57">Item 4: Tacoma Eastern Railroad Schedule for Train
                             and Yard Men</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -452,8 +458,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link58">Chicago, Rock Island and Pacific Railway, Local Passenger
                         Tariff No. 12-21</unittitle>
                     <unitdate normal="1937">1937</unitdate>
@@ -461,8 +467,8 @@
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">9</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">9</container>
                         <unittitle id="link60">Item 1: One-Way First-Class and Coach Fares, also
                             Milage Between Stations</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -476,8 +482,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link61">Northern Pacific Railroad Transportation
                         rules</unittitle>
                     <unitdate normal="1919">1919</unitdate>
@@ -485,8 +491,8 @@
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">10</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">10</container>
                         <unittitle id="link63">Item 1: Transportation Rules</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
                     </did>
@@ -499,16 +505,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link64">Pennsylvania lines west of Pittsburgh rules</unittitle>
                     <unitdate normal="1901">1901</unitdate>
                     <physdesc label="Format:">Publication</physdesc>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">11</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">11</container>
                         <unittitle id="link66">Item 1: Rules of the Pennsylvania Lines West of
                             Pittsburgh</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -521,16 +527,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link67">Rock Island lines rules</unittitle>
-                    <unitdate type="inclusive" normal="1922/1948">1922-1948</unitdate>
+                    <unitdate normal="1922/1948" type="inclusive">1922-1948</unitdate>
                     <physdesc label="Format:">Publication</physdesc>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link69">Item 1: On The Human Side of Railroading</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
                     </did>
@@ -542,8 +548,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link71">Item 2: To You Who Have Just Joined the Rock Island
                             Family</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -554,8 +560,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link73">Item 3: Rules and Regulations for Conductors, Train
                             Auditors, and Collectors</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -568,8 +574,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link75">Item 4: Rules and Instructions Governing Employes in
                             the Operation and Adjustment of Train Air Brakes, Air Signal, Heating,
                             Ventilating, and Illuminating Appliances</unittitle>
@@ -582,8 +588,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">12</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">12</container>
                         <unittitle id="link77">Item 5: Rock Island Lines News Digest</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
                     </did>
@@ -594,8 +600,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link78">Rock Island lines, combination freight train and wheel
                         report</unittitle>
                     <unitdate normal="1930">1930</unitdate>
@@ -603,8 +609,8 @@
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">13</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">13</container>
                         <unittitle id="link80">Item 1: Combination Freight Train and Wheel
                             Report</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -616,16 +622,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link81">Union Pacific Railroad booklets</unittitle>
                     <unitdate normal="1941">1941</unitdate>
                     <physdesc label="Format:">Publication</physdesc>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link83">Item 1: Memorandum of What Constitutes Proper
                             Observance of Signal Tests</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -636,8 +642,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">14</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">14</container>
                         <unittitle id="link85">Item 2: Memorandum of What Constitutes Proper
                             Observance of Signal Tests</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -650,8 +656,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link86">Standard Train Rule Examination</unittitle>
                     <unitdate normal="1929">1929</unitdate>
                     <physdesc label="Format:">Publication</physdesc>
@@ -661,8 +667,8 @@
                 </scopecontent>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">15</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">15</container>
                         <unittitle id="link88">Item 1: Standard Train Rule Examination</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
                     </did>
@@ -673,16 +679,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link89">Pamphlets</unittitle>
-                    <unitdate type="inclusive" normal="1941/1946">1941-1946</unitdate>
+                    <unitdate normal="1941/1946" type="inclusive">1941-1946</unitdate>
                     <physdesc label="Format:">Publication</physdesc>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link91">Item 1: Miscellaneous Rulings</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
                     </did>
@@ -692,8 +698,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link93">Item 2: Important Information Concerning the 1946
                             Amendments to Railroad Retirement Acts</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -704,8 +710,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">16</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">16</container>
                         <unittitle id="link95">Item 3: B. E. Pamphlet 20-G For Trainmasters and
                             Train and Engine Crews</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -717,16 +723,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link96">Newspapers</unittitle>
-                    <unitdate type="inclusive" normal="1937/1956">1937-1956</unitdate>
+                    <unitdate normal="1937/1956" type="inclusive">1937-1956</unitdate>
                     <physdesc label="Format:">Publication</physdesc>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link98">Item 1: Rock Island No.17 Hits Freight
                             Train</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -738,8 +744,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link100">Item 2: Engineer Tells Seeing Mirage Before
                             Wreck</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -751,8 +757,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link102">Item 3: 14 Killed, 104 Injured as PRR Flier Wrecks
                             at Bennington</unittitle>
                         <physdesc label="Format:">Publication</physdesc>
@@ -764,8 +770,8 @@
                 </c02>
                 <c02 level="file">
                     <did>
-                        <container type="box">1</container>
-                        <container type="folder">17</container>
+                        <container label="unspecified" type="box">1</container>
+                        <container label="unspecified" type="folder">17</container>
                         <unittitle id="link104">Item 4: Probe Into PRR Train Wreck
                             Begins</unittitle>
                         <physdesc label="Format:">Publication</physdesc>

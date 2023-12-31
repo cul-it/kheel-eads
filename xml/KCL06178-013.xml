@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06178-013::BLS Collection of Collective Bargaining Agreements (Part 13).)//EN">KCL06178-013</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06178-013::BLS Collection of Collective Bargaining Agreements (Part 13).)//EN">KCL06178-013</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the BLS Collection of Collective Bargaining Agreements (Part 13)<date> 1950-1974</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>October 21, 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the BLS Collection of Collective Bargaining Agreements (Part 13)<lb/></titleproper>
+			<titleproper>Guide to the BLS Collection of Collective Bargaining Agreements (Part 13)</titleproper>
 			<num>Collection Number: 6178/013</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,22 +54,22 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">BLS Collection of Collective Bargaining Agreements (Part 13), <unitdate encodinganalog="MARC 245$f">1950- 1974</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">BLS Collection of Collective Bargaining Agreements (Part 13), 1950- 1974
+			</unittitle><unitdate encodinganalog="MARC 245$f">1950- 1974</unitdate>
 			<unitid label="Collection Number:">6178/013</unitid>
 			<origination label="Creator:">
-				<corpname encodinganalog="MARC 110" role="creator">United States Department of Labor</corpname>;<lb/>
+				<corpname encodinganalog="MARC 110" role="creator">United States Department of Labor</corpname>;
 				<corpname encodinganalog="MARC 110" role="creator"> Bureau of Labor Statistics (BLS)</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">3.5 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">3.5 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Records (documents), collective labor agreements.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<langmaterial label="Language:">Collection material in <language encodinganalog="MARC 041" langcode="eng">English</language>
 			</langmaterial>
 		<physdesc><extent>3.5 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+			
 			<p>The US Bureau of Labor Statistics (BLS) was established in 1884 to collect information about employment and labor in the United States. As mandated by the 1947 Taft-Hartley Act, the BLS was formally tasked with responsibility for soliciting,
 				collecting, and analyzing collective bargaining agreements (CBAs) from public and private establishments, and making the agreements publicly available. In the early 1980s, this was function was limited to union contracts made with employers of
 				1000 or more employees. </p>
@@ -72,7 +78,7 @@
 				available to the public. The Office of Labor-Management Services took over responsibility for collecting and analyzing CBAs in 2011, and continues this donor relationship with the Kheel Center.</p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a3">COLLECTION DESCRIPTION</head>
+			
 			<p>The US Department of Labor Historical Collective Bargaining Agreements Collection, 6178, is made up of 21 series of expired public- and private-sector collective bargaining agreements dating from 1887 to 2003 and totals 685 linear feet plus 10
 				CDs of digitized documents and 320 reels of microfilm. In addition to the CBAs, a small volume of related documents such as union constitutions, pension and health plans submitted to the BLS, are also available. </p>
 			<p> </p>
@@ -81,9 +87,9 @@
 				working rules, life insurance plans, or other organizational documents. For access to non-digitized material, contact Kheel Center staff.</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<corpname encodinganalog="MARC 610">United States. Department of Labor -- Archives </corpname>
 				<corpname encodinganalog="MARC 610">United States. Bureau of Labor Statistics -- Archives </corpname>
 				<corpname encodinganalog="MARC 610"> International Brotherhood of Teamsters -- Archives </corpname>
@@ -93,7 +99,7 @@
 				<corpname encodinganalog="MARC 610">International Association of Machinists -- Archives </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Industrial relations-- United States </subject>
 				<subject encodinganalog="MARC 650">Collective labor agreements --United States </subject>
 				<subject encodinganalog="MARC 650">Labor unions -- United States </subject>
@@ -102,108 +108,108 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>BLS Collection of Collective Bargaining Agreements (Part 13) #6178/013. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-001.html"> 6178/001: BLS Collection of Collective Bargaining Agreements (Part 1)</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-002.html"> 6178/002: BLS Collection of Collective Bargaining Agreements (Part 2)</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-003.html"> 6178/003: BLS Collection of Collective Bargaining Agreements (Part 3)</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-004.html"> 6178/004: BLS Collection of Collective Bargaining Agreements (Part 4)</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-006.html"> 6178/006: BLS Collection of Collective Bargaining Agreements (Part 6)</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-007.html"> 6178/007: BLS Collection of Collective Bargaining Agreements (Part 7)</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-008.html"> 6178/008: BLS Collection of Collective Bargaining Agreements (Part 8)</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-009.html"> 6178/009: BLS Collection of Collective Bargaining Agreements (Part 9)</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-010.html"> 6178/010: BLS Collection of Collective Bargaining Agreements (Part 10)</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-011.html"> 6178/011: BLS Collection of Collective Bargaining Agreements (Part 11)</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-012.html"> 6178/012: BLS Collection of Collective Bargaining Agreements (Part 12)</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-014.html"> 6178/014: BLS Collection of Collective Bargaining Agreements (Part 14)</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-015.html"> 6178/015: BLS Collection of Collective Bargaining Agreements (Part 15)</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-016.html"> 6178/016: BLS Collection of Collective Bargaining Agreements (Part 16)</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-017.html"> 6178/017: BLS Collection of Collective Bargaining Agreements (Part 17)</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-018.html"> 6178/018: BLS Collection of Collective Bargaining Agreements (Part 18)</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-019.html"> 6178/019: BLS Collection of Collective Bargaining Agreements (Part 19)</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-020.html"> 6178/020: OLMS Collection of Collective Bargaining Agreements (Part 20)</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-021d.html"> 6178/021(d): BLS Collection of Collective Bargaining Agreements (Part 21) Digital</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-022mf.html"> 6178/022 mf: BLS Collection of Collective Bargaining Agreements (Part 22) on Microfilm</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-023.html"> 6178/023: OLMS Collection of Collective Bargaining Agreements (Part 23)</extref><lb/>
+			
+			<p>Related Collections:
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-001.html"> 6178/001: BLS Collection of Collective Bargaining Agreements (Part 1)</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-002.html"> 6178/002: BLS Collection of Collective Bargaining Agreements (Part 2)</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-003.html"> 6178/003: BLS Collection of Collective Bargaining Agreements (Part 3)</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-004.html"> 6178/004: BLS Collection of Collective Bargaining Agreements (Part 4)</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-006.html"> 6178/006: BLS Collection of Collective Bargaining Agreements (Part 6)</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-007.html"> 6178/007: BLS Collection of Collective Bargaining Agreements (Part 7)</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-008.html"> 6178/008: BLS Collection of Collective Bargaining Agreements (Part 8)</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-009.html"> 6178/009: BLS Collection of Collective Bargaining Agreements (Part 9)</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-010.html"> 6178/010: BLS Collection of Collective Bargaining Agreements (Part 10)</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-011.html"> 6178/011: BLS Collection of Collective Bargaining Agreements (Part 11)</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-012.html"> 6178/012: BLS Collection of Collective Bargaining Agreements (Part 12)</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-014.html"> 6178/014: BLS Collection of Collective Bargaining Agreements (Part 14)</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-015.html"> 6178/015: BLS Collection of Collective Bargaining Agreements (Part 15)</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-016.html"> 6178/016: BLS Collection of Collective Bargaining Agreements (Part 16)</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-017.html"> 6178/017: BLS Collection of Collective Bargaining Agreements (Part 17)</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-018.html"> 6178/018: BLS Collection of Collective Bargaining Agreements (Part 18)</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-019.html"> 6178/019: BLS Collection of Collective Bargaining Agreements (Part 19)</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-020.html"> 6178/020: OLMS Collection of Collective Bargaining Agreements (Part 20)</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-021d.html"> 6178/021(d): BLS Collection of Collective Bargaining Agreements (Part 21) Digital</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-022mf.html"> 6178/022 mf: BLS Collection of Collective Bargaining Agreements (Part 22) on Microfilm</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06178-023.html"> 6178/023: OLMS Collection of Collective Bargaining Agreements (Part 23)</extref>
 			</p>
 		</relatedmaterial>
 		<arrangement>
-			<head>SERIES LIST</head>
+			
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link8" show="replace" actuate="onrequest">Series I: Industry Code #21, Mining, Quarrying, and Oil and Gas Extraction</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link8">Series I: Industry Code #21, Mining, Quarrying, and Oil and Gas Extraction</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link11" show="replace" actuate="onrequest">Series II: Industry Code # 22, Utilities</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link11">Series II: Industry Code # 22, Utilities</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link15" show="replace" actuate="onrequest">Series III: Industry Code # 23, Construction</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link15">Series III: Industry Code # 23, Construction</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link35" show="replace" actuate="onrequest">Series IV: Industry Code #31, Manufacturing</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link35">Series IV: Industry Code #31, Manufacturing</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link56" show="replace" actuate="onrequest">Series V: Industry Code #32, Manufacturing</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link56">Series V: Industry Code #32, Manufacturing</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link98" show="replace" actuate="onrequest">Series VI: Industry Code #33, Manufacturing</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link98">Series VI: Industry Code #33, Manufacturing</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link136" show="replace" actuate="onrequest">Series VII: Industry Code #42, Wholesale Trade</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link136">Series VII: Industry Code #42, Wholesale Trade</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link141" show="replace" actuate="onrequest">Series VIII: Industry Code #44, Retail</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link141">Series VIII: Industry Code #44, Retail</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link166" show="replace" actuate="onrequest">Series IX: Industry Code #48, Transportation and Warehousing</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link166">Series IX: Industry Code #48, Transportation and Warehousing</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link168" show="replace" actuate="onrequest">Series X: Industry Code #49, Transportation and Warehousing</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link168">Series X: Industry Code #49, Transportation and Warehousing</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link173" show="replace" actuate="onrequest">Series XI: Industry Code #51, Information</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link173">Series XI: Industry Code #51, Information</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link177" show="replace" actuate="onrequest">Series XII: Industry Code #54, Realt Estate and Rental and Leasing</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link177">Series XII: Industry Code #54, Realt Estate and Rental and Leasing</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link182" show="replace" actuate="onrequest">Series XIII: Industry Code #56, Administrative and Support and Waste Management and Remediation Services</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link182">Series XIII: Industry Code #56, Administrative and Support and Waste Management and Remediation Services</ref></emph>
 			</p>
 		</arrangement>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="series">
 				<did>
 					<unittitle id="link8">Series I: Industry Code #21, Mining, Quarrying, and Oil and Gas Extraction</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link9">Code no.560661: Mobil Oil Corporation and Associated Petroleum Employees Union</unittitle>
-						<unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate>
+						<unitdate normal="1965/1971" type="inclusive">1965-1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link10">Code no.570308: Pan American Petroleum Corporation, Fort Worth Division and Independent Oil Workers Union, Local 14</unittitle>
-						<unitdate type="inclusive" normal="1965/1971">1965- 1971</unitdate>
+						<unitdate normal="1965/1971" type="inclusive">1965- 1971</unitdate>
 					</did>
 				</c02>
 			</c01>
@@ -213,23 +219,23 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link12">Code no.560975: Northwest Natural Gas Company and International Chemical Workers Union, Local 133</unittitle>
-						<unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate>
+						<unitdate normal="1966/1969" type="inclusive">1966-1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">29</container>
 						<unittitle id="link13">Code no.651420: Commonwealth Edison: Removed</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">33</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">33</container>
 						<unittitle id="link14">Code no.561613: Northern States Power: Removed</unittitle>
 					</did>
 				</c02>
@@ -240,40 +246,40 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link16">Code no.531648 / 8858: General Contractors of America, Alaska Chapter and International Brotherhood of Teamsters Local 959</unittitle>
-						<unitdate type="inclusive" normal="1963/1970">1963- 1970</unitdate>
+						<unitdate normal="1963/1970" type="inclusive">1963- 1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link17">Code no.550587: Greater Miami, Broward, Monroe, Chapters, Painting and Decorating Contractors and Brotherhood of Painters, Decorators, and Paperhangers of America, Council 56</unittitle>
-						<unitdate type="inclusive" normal="1964/1968">1964-1968</unitdate>
+						<unitdate normal="1964/1968" type="inclusive">1964-1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link18">Code no.550869: Management Services, Inc. of Tennessee and Knoxville Building Trades Council</unittitle>
-						<unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate>
+						<unitdate normal="1963/1967" type="inclusive">1963-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">30</container>
 						<unittitle id="link19">Code no.551332: Associated Plumbing Contractors of Pittsburgh, Inc. and Journeymen Plumbers' Local Union 27</unittitle>
-						<unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate>
+						<unitdate normal="1964/1967" type="inclusive">1964-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">33</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">33</container>
 						<unittitle id="link20">Code no.551496: Associated General Contractors of Amercia: Removed</unittitle>
 						<unitdate normal="1972">1972</unitdate>
 					</did>
@@ -283,113 +289,113 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">35</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">35</container>
 						<unittitle id="link21">Code no.551545: Electrical Contractors of Louisville, Kentucky and Vicinity and International Brotherhood of Electrical Workers, Local 369</unittitle>
-						<unitdate type="inclusive" normal="1965/1967">1965- 1967</unitdate>
+						<unitdate normal="1965/1967" type="inclusive">1965- 1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">43</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">43</container>
 						<unittitle id="link22">Code no.551930: Allied Construction Industries of Delaware, Inc. and International Union of Operating Engineers, Locals 542A, 542B</unittitle>
-						<unitdate type="inclusive" normal="1965/1971">1965- 1971</unitdate>
+						<unitdate normal="1965/1971" type="inclusive">1965- 1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">47</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">47</container>
 						<unittitle id="link23">Code no.552279: Master Builders' Association of Western Pennsylvania, Inc. and Cement Masons' Local 526</unittitle>
-						<unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate>
+						<unitdate normal="1964/1970" type="inclusive">1964-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">48</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">48</container>
 						<unittitle id="link24">Code no.552280: Master Builders' Association of Western Pennsylvania, Inc. and International Brotherhood of Teamsters, Joint Council of Teamsters, No. 40 of Pittsburgh and Vicinity</unittitle>
-						<unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate>
+						<unitdate normal="1964/1970" type="inclusive">1964-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">50</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">50</container>
 						<unittitle id="link25">Code no.552338: Associated General Contractors of America, Inc., Alabama Branch and Structural Ironworkers Local 92</unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">51</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">51</container>
 						<unittitle id="link26">Code no.552339: Associated General Contractors of America, Inc., Alabama Branch and International Union of Operating Engineers, Locals 312,320,653</unittitle>
-						<unitdate type="inclusive" normal="1964/1966">1964-1966</unitdate>
+						<unitdate normal="1964/1966" type="inclusive">1964-1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link27">Code no.560015: Industrial Contractors and Builders Association of Indiana and Technical Engineering Division, Local Union 130</unittitle>
-						<unitdate type="inclusive" normal="1965/1972">1965- 1972</unitdate>
+						<unitdate normal="1965/1972" type="inclusive">1965- 1972</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link28">Code no.560402: Master Builders' Association of Western Pennsylvania, Inc. and Pile Drivers' Local 2264</unittitle>
-						<unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate>
+						<unitdate normal="1964/1970" type="inclusive">1964-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link29">Code no.560907: Building Trades Employers' Association of Western Massachusetts, Inc. and Massachusetts Laborers' District Council, Local 999</unittitle>
-						<unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate>
+						<unitdate normal="1965/1970" type="inclusive">1965-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle id="link30">Code no.561383: General Contractors' Association of New Haven, Inc. and Construction and General Laborers' Local Union 455</unittitle>
-						<unitdate type="inclusive" normal="1965/1970">1965- 1970</unitdate>
+						<unitdate normal="1965/1970" type="inclusive">1965- 1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">36</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">36</container>
 						<unittitle id="link31">Code no.571076: Coal Mine Construction Contractors Association, Inc. and United Mine Workers of America, International Union of District 50</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">47</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">47</container>
 						<unittitle id="link32">Code no.580195: Minneapolis Association of Plumbing Contractors, Inc. and United Assoc. Plumbers Local 15</unittitle>
-						<unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+						<unitdate normal="1966/1967" type="inclusive">1966-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">48</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">48</container>
 						<unittitle id="link33">Code no.590037: Building Trades Employers' Association of Western Massachusetts, Inc. and Massachusetts Laborers' District Council, Local 596</unittitle>
-						<unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate>
+						<unitdate normal="1968/1970" type="inclusive">1968-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">49</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">49</container>
 						<unittitle id="link34">Code no.590056: Air Conditioning and Refrigeration Contractors of Utah and Locals 19, 47, 348, 466</unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 					</did>
 				</c02>
 			</c01>
@@ -399,162 +405,162 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link36">Code no.541862: Utah-Idaho Sugar Company and American Federation of Grain Millers, Locals 288,289</unittitle>
-						<unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate>
+						<unitdate normal="1964/1967" type="inclusive">1964-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link37">Code no.551091: Sausage Manufacturers, San Francisco and Sausage Makers' Union, Local 203</unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">31</container>
 						<unittitle id="link38">Code no.551340: Ward Foods, Inc. and American Bakery and Confectionery Workers International Union, Local 68</unittitle>
-						<unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate>
+						<unitdate normal="1964/1970" type="inclusive">1964-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">36</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">36</container>
 						<unittitle id="link39">Code no.551553: Seabrook Farms Co., Inc. and Amalgamated Food and Allied Workers Union, Local 56</unittitle>
-						<unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate>
+						<unitdate normal="1965/1970" type="inclusive">1965-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">44</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">44</container>
 						<unittitle id="link40">Code no.551945: Celanese Corporation and Textile Workers Union of America, Local 1191</unittitle>
-						<unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate>
+						<unitdate normal="1965/1971" type="inclusive">1965-1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link41">Code no.560716: G.A. Neuburger Company and International Ladies' Garment Workers' Union, Local 282</unittitle>
-						<unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate>
+						<unitdate normal="1958/1961" type="inclusive">1958-1961</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link42">Code no.560923: Denison Hide Company and Association Employees Organization</unittitle>
-						<unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate>
+						<unitdate normal="1965/1967" type="inclusive">1965-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link43">Code no.561015: Heinz USA, of H.J. Heinz Company and Meat and Cannery Workers Union, Local 34</unittitle>
-						<unitdate type="inclusive" normal="1968/1974">1968-1974</unitdate>
+						<unitdate normal="1968/1974" type="inclusive">1968-1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link44">Code no.561287: Oberman Manufacturing Company and Amalgamated Clothing Workers of America</unittitle>
-						<unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate>
+						<unitdate normal="1965/1969" type="inclusive">1965-1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">35</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">35</container>
 						<unittitle id="link45">Code no.561673: Julian and Kokenge Company and Boot and Shoe Workers' Union, Local 241</unittitle>
-						<unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate>
+						<unitdate normal="1965/1967" type="inclusive">1965-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">36</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">36</container>
 						<unittitle id="link46">Code no.561679: Maybury Shoe Company of Rochester, New Hampshire and Square Deal Organization, Inc.</unittitle>
-						<unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+						<unitdate normal="1966/1967" type="inclusive">1966-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link47">Code no.570203: Liggett and Myers Tobacco Co. and International Association of Machinists, Local 757</unittitle>
-						<unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+						<unitdate normal="1966/1967" type="inclusive">1966-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link48">Code no.570347: Gorton's of Gloucester, Inc. and Seafood District Local 15</unittitle>
-						<unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate>
+						<unitdate normal="1964/1967" type="inclusive">1964-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">30</container>
 						<unittitle id="link49">Code no.570874: Marhoefer Packing Company and United Packinghouse Food and Allied Workers, Local 105</unittitle>
-						<unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate>
+						<unitdate normal="1967/1969" type="inclusive">1967-1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">38</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">38</container>
 						<unittitle id="link50">Code no.571201: American Millinery Manufacturers Association, Inc. and United Hatters, Cap and Millinery Workers International Union, Local 92</unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">43</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">43</container>
 						<unittitle id="link51">Code no.580086: Chicago Rawhide Manufacturing Company - Elgin Division and Elgin Rawhide Employees Association, Local 221</unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967- 1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967- 1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">46</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">46</container>
 						<unittitle id="link52">Code no.580184: Agway Incorporated, Feed Division and American Federation of Grain Millers, Local 306</unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">53</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">53</container>
 						<unittitle id="link53">Code no.590132: Kitchens of Sara Lee, Inc. and Bakery and Confectionery Workers International Union of America, Local 2</unittitle>
-						<unitdate type="inclusive" normal="1968/1971">1968- 1971</unitdate>
+						<unitdate normal="1968/1971" type="inclusive">1968- 1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">54</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">54</container>
 						<unittitle id="link54">Code no.590150: Stokely-Van Camp, Inc. and International Brotherhood of Teamsters ,Local 487</unittitle>
-						<unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate>
+						<unitdate normal="1968/1970" type="inclusive">1968-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">56</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">56</container>
 						<unittitle id="link55">Code no.590186: Samuels Shoe Company and Joint Council No. 25 Boot and Shoe Workers' Union</unittitle>
-						<unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
+						<unitdate normal="1969/1970" type="inclusive">1969-1970</unitdate>
 					</did>
 				</c02>
 			</c01>
@@ -564,10 +570,10 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link57">Code no.541338: American Standard: Removed</unittitle>
-						<unitdate type="inclusive" normal="1950/1970">1950-1970</unitdate>
+						<unitdate normal="1950/1970" type="inclusive">1950-1970</unitdate>
 					</did>
 					<scopecontent>
 						<p>Plant closed</p>
@@ -575,26 +581,26 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link58">Code no.541462: Quaker City Lumber Products Association and Metropolitan District Council of the United Brotherhood of Carpenters and Joiners of America</unittitle>
-						<unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate>
+						<unitdate normal="1964/1970" type="inclusive">1964-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link59">Code no.541818: E.I. Du Pont de Nemours and Co. and Chemical Workers Association, Inc.</unittitle>
-						<unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate>
+						<unitdate normal="1964/1967" type="inclusive">1964-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link60">Code no.550021: Cyanamid Company and International Union of District 50, United Mine Workers of America, Local 12893</unittitle>
-						<unitdate type="inclusive" normal="1964/1967">1964- 1967</unitdate>
+						<unitdate normal="1964/1967" type="inclusive">1964- 1967</unitdate>
 					</did>
 					<scopecontent>
 						<p>Production and Maintenance</p>
@@ -602,10 +608,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link61">Code no.550022: Cyanamid Company and International Union of District 50, United Mine Workers of America, Local 12893</unittitle>
-						<unitdate type="inclusive" normal="1964/1970">1964- 1970</unitdate>
+						<unitdate normal="1964/1970" type="inclusive">1964- 1970</unitdate>
 					</did>
 					<scopecontent>
 						<p>Laboratory and Clerical</p>
@@ -613,290 +619,290 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link62">Code no.550431: General Industries Co. and Mechanics Education Society of America</unittitle>
-						<unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate>
+						<unitdate normal="1964/1970" type="inclusive">1964-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link63">Code no.550795: Cyanamid Company and Oil, Chemical, and Atomic Workers International Union, Local 8-241</unittitle>
-						<unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate>
+						<unitdate normal="1964/1970" type="inclusive">1964-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">29</container>
 						<unittitle id="link64">Code no.551311: Kelly-Springfield Tire Company and United Rubber, Cork, Linoleum and Plastic Workers of America, Local 746</unittitle>
-						<unitdate type="inclusive" normal="1964/1970">1964- 1970</unitdate>
+						<unitdate normal="1964/1970" type="inclusive">1964- 1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">37</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">37</container>
 						<unittitle id="link65">Code no.551565: Pittsburgh Plate Glass Company and Oil, Chemical, and Atomic Workers of America, Local 8-2340</unittitle>
-						<unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate>
+						<unitdate normal="1965/1971" type="inclusive">1965-1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">38</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">38</container>
 						<unittitle id="link66">Code no.551581: St. Regis Paper Co. and United Papermakers and Paperworkers, Local 56</unittitle>
-						<unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate>
+						<unitdate normal="1965/1971" type="inclusive">1965-1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">45</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">45</container>
 						<unittitle id="link67">Code no.551969: Kuthe Laboratories, Inc. and International Union of Electrical, Radio, and Machine Workers, Local 415</unittitle>
-						<unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate>
+						<unitdate normal="1964/1967" type="inclusive">1964-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link68">Code no.560168: Sheller Manufacturing Corporation - Dryden-Chicago Division and United Rubber, Cork, Linoleum and Plastic Workers of America, Local 108</unittitle>
-						<unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate>
+						<unitdate normal="1964/1967" type="inclusive">1964-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link69">Code no.560642: Stylon Corporation and Textile Workers Union of America, Local 1251</unittitle>
-						<unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate>
+						<unitdate normal="1968/1971" type="inclusive">1968-1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link70">Code no.560867: Packaging Corporation of America and United Papermakers and Paperworkers, Local 198</unittitle>
-						<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+						<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link71">Code no.560899: Bridgeport Tile Contractors Association and Bricklayers, Masons, Plasterers, Cement Finishers, Marble Masons, Tile Layers, Terrazzo Workers International Union, Local 2</unittitle>
-						<unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate>
+						<unitdate normal="1965/1968" type="inclusive">1965-1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link72">Code no.561092: Shell Chemical Company and Oil, Chemical and Atomic Workers, International Union, Locals 1-5</unittitle>
-						<unitdate type="inclusive" normal="1964/1966">1964-1966</unitdate>
+						<unitdate normal="1964/1966" type="inclusive">1964-1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link73">Code no.561282: Pure Oil Company, Toledo Refinery and Oil, Chemical and Atomic Workers, International Union, Local 7-346</unittitle>
-						<unitdate type="inclusive" normal="1964/1966">1964- 1966</unitdate>
+						<unitdate normal="1964/1966" type="inclusive">1964- 1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">30</container>
 						<unittitle id="link74">Code no.561421: Paper Manufacturers of Holyoke, MA and United Papermakers and Paperworkers</unittitle>
-						<unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+						<unitdate normal="1966/1967" type="inclusive">1966-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">34</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">34</container>
 						<unittitle id="link75">Code no.561670: Linoleum, Carpets, Rugs, and Tile Shops and United Brotherhood of Carpenters and Joiners of America, District Council of the Providence, Pawtucket and Central Falls Carpenters</unittitle>
-						<unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate>
+						<unitdate normal="1966/1969" type="inclusive">1966-1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">37</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">37</container>
 						<unittitle id="link76">Code no.561717: Continental Oil Company and Oil, Chemical, and Atomic Workers International Union, Local 2-470</unittitle>
-						<unitdate type="inclusive" normal="1964/1966">1964-1966</unitdate>
+						<unitdate normal="1964/1966" type="inclusive">1964-1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">39</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">39</container>
 						<unittitle id="link77">Code no.561781: Nashua Corporation and International Brotherhood of Bookbinders, Local 33</unittitle>
-						<unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+						<unitdate normal="1966/1967" type="inclusive">1966-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link78">Code no.570019: General Refractories Company and United Steelworkers of America, Local 2115</unittitle>
-						<unitdate type="inclusive" normal="1966/1972">1966-1972</unitdate>
+						<unitdate normal="1966/1972" type="inclusive">1966-1972</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link79">Code no.570051: Chess and Wymond Company and Coopers' International Union of America, Local 39</unittitle>
-						<unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate>
+						<unitdate normal="1966/1969" type="inclusive">1966-1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link80">Code no.570062: Seattle Rubber Plate Company and Printing Specialties Union, Local 380</unittitle>
-						<unitdate type="inclusive" normal="1971/1974">1971-1974</unitdate>
+						<unitdate normal="1971/1974" type="inclusive">1971-1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link81">Code no.570308: Pan American Petroleum Corporation, Fort Worth Division and Independent Oil Workers Union, Local 16</unittitle>
-						<unitdate type="inclusive" normal="1967/1969">1967- 1969</unitdate>
+						<unitdate normal="1967/1969" type="inclusive">1967- 1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link82">Code no.570388: Shell Oil Company, Wood River, Illinois Refinery and AFL-CIO</unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link83">Code no.570471: Bemis Bro. Bag Company and International Brotherhood of Pulp, Sulphite, and Paper Mill Workers, Local 341</unittitle>
-						<unitdate type="inclusive" normal="1965/1967">1965- 1967</unitdate>
+						<unitdate normal="1965/1967" type="inclusive">1965- 1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link84">Code no.570534: Pittsburgh Plate Glass Company, Chemical Division and International Chemical Workers Union, Local 45</unittitle>
-						<unitdate type="inclusive" normal="1966/1970">1966- 1970</unitdate>
+						<unitdate normal="1966/1970" type="inclusive">1966- 1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link85">Code no.570581: Phillips Petroleum Company, Manufacturing Department and International Union of Operating Engineers, Local 351</unittitle>
-						<unitdate type="inclusive" normal="1967/1968">1967- 1968</unitdate>
+						<unitdate normal="1967/1968" type="inclusive">1967- 1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link86">Code no.570584: Phillips Petroleum Company, Philblack Plant and International Union of Operating Engineers, Local 351</unittitle>
-						<unitdate type="inclusive" normal="1967/1969">1967- 1969</unitdate>
+						<unitdate normal="1967/1969" type="inclusive">1967- 1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link87">Code no.570586: Phillips Petroleum Company, Plains Plant and International Union of Operating Engineers, Local 351</unittitle>
-						<unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate>
+						<unitdate normal="1967/1969" type="inclusive">1967-1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link88">Code no.570587: Phillips Petroleum Company, Plains Butadiene Plant and International Union of Operating Engineers, Local 351</unittitle>
-						<unitdate type="inclusive" normal="1967/1969">1967- 1969</unitdate>
+						<unitdate normal="1967/1969" type="inclusive">1967- 1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link89">Code no.570648: Case Brothers, Inc. and Case Employees Association, Inc.</unittitle>
-						<unitdate type="inclusive" normal="1966/1970">1966-1970</unitdate>
+						<unitdate normal="1966/1970" type="inclusive">1966-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">29</container>
 						<unittitle id="link90">Code no.570853: Weyerhaeuser Company and International Brotherhood of Firemen and Oilers, Local 126</unittitle>
-						<unitdate type="inclusive" normal="1967/1972">1967-1972</unitdate>
+						<unitdate normal="1967/1972" type="inclusive">1967-1972</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">31</container>
 						<unittitle id="link91">Code no.570911: West Coast Envelope Employers Council and Printing Specialties Union, Locals 362 and 382</unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">32</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">32</container>
 						<unittitle id="link92">Code no.570912: West Coast Envelope Employers Council and Printing Specialties Union, Locals 388 and 612</unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">39</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">39</container>
 						<unittitle id="link93">Code no.571272: Budd Company and United Textile Workers of America, Local 266</unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">40</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">40</container>
 						<unittitle id="link94">Code no.571277: Gaylord Container Division and International Brotherhood of Pulp, Sulphite, and Paper Mill Workers </unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">42</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">42</container>
 						<unittitle id="link95">Code no.580033: Northwester Paper Box Company and International Brotherhood of Bookbinders, Local 87</unittitle>
-						<unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate>
+						<unitdate normal="1968/1971" type="inclusive">1968-1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">55</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">55</container>
 						<unittitle id="link96">Code no.590177: Atlantic Richfield Company and International Brotherhood of Electrical Workers, AFL, Local 390</unittitle>
-						<unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate>
+						<unitdate normal="1967/1969" type="inclusive">1967-1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">58</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">58</container>
 						<unittitle id="link97">Code no.590275: Premier Thermo-Plastics Company and International Chemical Workers Union, Local 604</unittitle>
-						<unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate>
+						<unitdate normal="1968/1971" type="inclusive">1968-1971</unitdate>
 					</did>
 				</c02>
 			</c01>
@@ -906,122 +912,122 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link99">Code no.530260: American Motors Corporation, Milwaukee Body Plant and International Union United Plant Guard Workers of America, Local 555</unittitle>
-						<unitdate type="inclusive" normal="1961/1967">1961-1967</unitdate>
+						<unitdate normal="1961/1967" type="inclusive">1961-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link100">Code no.550490: Christy Corporation and International Brotherhood of Boilermakers, Iron Shipbuilders, Blacksmiths, Forgers and Helpers, Local 449</unittitle>
-						<unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate>
+						<unitdate normal="1965/1970" type="inclusive">1965-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link101">Code no.550646: Morrison Steel Products Corp. and United Steelworkers of America, Local 3035</unittitle>
-						<unitdate type="inclusive" normal="1964/1971">1964-1971</unitdate>
+						<unitdate normal="1964/1971" type="inclusive">1964-1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link102">Code no.550658: McCord Corporation and International Association of Machinists, Local 2041</unittitle>
-						<unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate>
+						<unitdate normal="1964/1970" type="inclusive">1964-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link103">Code no.550983: Gardner-Denver Company and International Association of Machinists and Aerospace Workers Union, Local 822</unittitle>
-						<unitdate type="inclusive" normal="1965/1971">1965- 1971</unitdate>
+						<unitdate normal="1965/1971" type="inclusive">1965- 1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link104">Code no.551007: Continental Aviation and Engineering Corporation and International Union, United Automobile, Aerospace, and Agricultural Implement Workers of America, Local 280</unittitle>
-						<unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate>
+						<unitdate normal="1965/1971" type="inclusive">1965-1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link105">Code no.551130: Paris Manufacturing Company and Paris Manufacturing Co. Employees Association</unittitle>
-						<unitdate type="inclusive" normal="1962/1970">1962-1970</unitdate>
+						<unitdate normal="1962/1970" type="inclusive">1962-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link106">Code no.551162: United States Playing Card Company and Playthings, Jewelry, and Novelty Workers Division, Local 256</unittitle>
-						<unitdate type="inclusive" normal="1966/1971">1966- 1971</unitdate>
+						<unitdate normal="1966/1971" type="inclusive">1966- 1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle id="link107">Code no.551233: Conmar Products Corporation and Margon Corporation and International Association of Machinists, District 47</unittitle>
-						<unitdate type="inclusive" normal="1965/1967">1965- 1967</unitdate>
+						<unitdate normal="1965/1967" type="inclusive">1965- 1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">32</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">32</container>
 						<unittitle id="link108">Code no.551367: Reeves Instrument Division and International Union of Electrical, Radio, and Machine Workers-CLC, Local 378</unittitle>
-						<unitdate type="inclusive" normal="1964/1970">1964- 1970</unitdate>
+						<unitdate normal="1964/1970" type="inclusive">1964- 1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">34</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">34</container>
 						<unittitle id="link109">Code no.551520: Budd Company and International Union, United Automobile, Aerospace, and Agricultural Implement Workers of America, Local 757</unittitle>
-						<unitdate type="inclusive" normal="1964/1971">1964-1971</unitdate>
+						<unitdate normal="1964/1971" type="inclusive">1964-1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">39</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">39</container>
 						<unittitle id="link110">Code no.551617: Reeves Instrument Division and International Union of Electrical, Radio, and Machine Workers, Local 478</unittitle>
-						<unitdate type="inclusive" normal="1964/1970">1964- 1970</unitdate>
+						<unitdate normal="1964/1970" type="inclusive">1964- 1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">40</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">40</container>
 						<unittitle id="link111">Code no.551668: Brockway Motor Trucks, Division of Mack Trucks, Inc. and International Union, United Automobile, Aerospace and Agricultural Implement Workers of America, Local 68</unittitle>
-						<unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate>
+						<unitdate normal="1964/1970" type="inclusive">1964-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">46</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">46</container>
 						<unittitle id="link112">Code no.552134: Orr and Sembower, Inc. and United Steelworkers of America </unittitle>
-						<unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate>
+						<unitdate normal="1958/1961" type="inclusive">1958-1961</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">49</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">49</container>
 						<unittitle id="link113">Code no.552321: Sperry Rand Corporation - Remington Office Machines Division and International Union of Electrical, Radio, and Machine Workers, Local 852</unittitle>
-						<unitdate type="inclusive" normal="1958/1968">1958-1968</unitdate>
+						<unitdate normal="1958/1968" type="inclusive">1958-1968</unitdate>
 					</did>
 					<scopecontent>
 						<p>1958-1961, 1965-1968</p>
@@ -1029,177 +1035,177 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link114">Code no.560095: Allis-Chalmers Manufacturing Company and United Automobile, Aerospace and Agricultural Implement Workers of America, Locals 248,401,487,1027,1036,1316,1319</unittitle>
-						<unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate>
+						<unitdate normal="1964/1970" type="inclusive">1964-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link115">Code no.560426: Chelsea Products, Inc. and International Association of Machinists, Lodge 61</unittitle>
-						<unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate>
+						<unitdate normal="1964/1970" type="inclusive">1964-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link116">Code no.560443: Louis Marx Company, Inc. and International Association of Machinists and Aerospace Workers, Lodge 116</unittitle>
-						<unitdate type="inclusive" normal="1965/1972">1965- 1972</unitdate>
+						<unitdate normal="1965/1972" type="inclusive">1965- 1972</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link117">Code no.560729: Dayton Tool and Die Works, Inc. and Maintenance and Service Employees Union Local 3</unittitle>
-						<unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate>
+						<unitdate normal="1965/1971" type="inclusive">1965-1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link118">Code no.560970: Crosley Division, Avco Corporation and Local Union 1061, International Brotherhood of Electrical Workers</unittitle>
-						<unitdate type="inclusive" normal="1958/1966">1958- 1966</unitdate>
+						<unitdate normal="1958/1966" type="inclusive">1958- 1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link119">Code no.561017: Sargent and Company and United Electrical Radio and Machine Workers of America, Local 243</unittitle>
-						<unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+						<unitdate normal="1966/1967" type="inclusive">1966-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link120">Code no.561362: US Steel Corporation - US Steel Supply Division and United Steelworkers of America</unittitle>
-						<unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate>
+						<unitdate normal="1965/1971" type="inclusive">1965-1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">32</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">32</container>
 						<unittitle id="link121">Code no.561576: American Pulley Company and International Union of Electrical, Radio and Machine Workers, 143</unittitle>
-						<unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate>
+						<unitdate normal="1966/1971" type="inclusive">1966-1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">38</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">38</container>
 						<unittitle id="link122">Code no.561761: General Dynamics, Fort Worth Division and International Association of Machinists and Aerospace Workers, Lodge 776</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">40</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">40</container>
 						<unittitle id="link123">Code no.561863: Monroe International Corporation and International Union of Electrical, Radio, and Machine Workers, Local 432</unittitle>
-						<unitdate type="inclusive" normal="1965/1969">1965- 1969</unitdate>
+						<unitdate normal="1965/1969" type="inclusive">1965- 1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link124">Code no.570048: Western Electric Company, Inc. and International Brotherhood of Electrical Workers, Local 1942</unittitle>
-						<unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate>
+						<unitdate normal="1966/1971" type="inclusive">1966-1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link125">Code no.570204: General Instrument Corporation of Newark, N.J. and International Brotherhood of Electrical Workers, Local 1104</unittitle>
-						<unitdate type="inclusive" normal="1966/1970">1966- 1970</unitdate>
+						<unitdate normal="1966/1970" type="inclusive">1966- 1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link126">Code no.570240: Manitowoc Shipbuilding, Inc. and International Brotherhood of Electrical Workers, Local 751</unittitle>
-						<unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate>
+						<unitdate normal="1966/1969" type="inclusive">1966-1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link127">Code no.570354: Oilwell Division, US Steel Corporation and United Steelworkers of America</unittitle>
-						<unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate>
+						<unitdate normal="1965/1968" type="inclusive">1965-1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link128">Code no.570383: General Electric Company and International Association of Machinists, Lodge 710</unittitle>
-						<unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate>
+						<unitdate normal="1966/1969" type="inclusive">1966-1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link129">Code no.570661: Shuron/Continental, Division of Textron, Inc. and Optical Workers' Union, Local 20890</unittitle>
-						<unitdate type="inclusive" normal="1966/1970">1966-1970</unitdate>
+						<unitdate normal="1966/1970" type="inclusive">1966-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link130">Code no.570679: Jamestown Division Art Metal, Inc. and International Association of Machinists and Aerospace Workers, Lodge 1559, District 65</unittitle>
-						<unitdate type="inclusive" normal="1967/1972">1967-1972</unitdate>
+						<unitdate normal="1967/1972" type="inclusive">1967-1972</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">33</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">33</container>
 						<unittitle id="link131">Code no.571038: General Motors Corporation and United Plant Guard Workers of America</unittitle>
-						<unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate>
+						<unitdate normal="1964/1970" type="inclusive">1964-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">35</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">35</container>
 						<unittitle id="link132">Code no.571071: Speer Carbon Company - Jeffers Electronic Division and United Mine Workers of America, Local 14654, International Union of District 50, </unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">37</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">37</container>
 						<unittitle id="link133">Code no.571151: Republic Aviation Division and International Brotherhood of Electrical Workers, Local 25</unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">44</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">44</container>
 						<unittitle id="link134">Code no.580167: Prestolite Company and Office and Professional Employees International Union, Local 55</unittitle>
-						<unitdate type="inclusive" normal="1968/1974">1968-1974</unitdate>
+						<unitdate normal="1968/1974" type="inclusive">1968-1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">57</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">57</container>
 						<unittitle id="link135">Code no.590249: Milton Bradley Company and Milton Bradley Industrial Union, Local 224</unittitle>
-						<unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate>
+						<unitdate normal="1969/1971" type="inclusive">1969-1971</unitdate>
 					</did>
 				</c02>
 			</c01>
@@ -1209,34 +1215,34 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link137">Code no.541089: California Metal Trades Association, Warehouse Division and International Brotherhood of Teamsters Local 860</unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967- 1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967- 1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">42</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">42</container>
 						<unittitle id="link138">Code no.551743: California Bakery Employers Association and American Bakery and Confectionery Workers International Union, Local 24</unittitle>
-						<unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate>
+						<unitdate normal="1964/1967" type="inclusive">1964-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link139">Code no.560019: Chicago Packers and Sausage Manufacturers and Meat and Highway Drivers, Dockmen, Helpers, and Misc. Truck Terminal Employees, Local 710</unittitle>
-						<unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate>
+						<unitdate normal="1965/1971" type="inclusive">1965-1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle id="link140">Code no.570814: Union Oil Company and Oil, Chemical, and Atomic Workers International Union, Local 1-128</unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 					</did>
 				</c02>
 			</c01>
@@ -1246,17 +1252,17 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link142">Code no.550688: Retail Meat Industry and Meat Cutters Local 556</unittitle>
-						<unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate>
+						<unitdate normal="1964/1967" type="inclusive">1964-1967</unitdate>
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">1</container>
-							<unittitle id="link143">Item 1: <extref linktype="simple" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2761" actuate="onrequest" show="new">Retail Meat Industry and Meat Cutters Local 556</extref></unittitle>
-							<unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">1</container>
+							<unittitle id="link143">Item 1: <extref actuate="onrequest" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2761" linktype="simple" show="new">Retail Meat Industry and Meat Cutters Local 556</extref></unittitle>
+							<unitdate normal="1964/1967" type="inclusive">1964-1967</unitdate>
 							<physdesc label="Format:">Collective Bargaining Agreement (CBA)</physdesc>
 						</did>
 						<scopecontent>
@@ -1267,18 +1273,18 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link144">Code no.550849: Self-Service Meat Markets, Chicago and Amalgamated Meat Cutters and Butcher Workmen of North America, Local 320</unittitle>
-						<unitdate type="inclusive" normal="1964/1970">1964- 1970</unitdate>
+						<unitdate normal="1964/1970" type="inclusive">1964- 1970</unitdate>
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">2</container>
-							<unittitle id="link145">Item 1: <extref linktype="simple" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2762" actuate="onrequest" show="new">Self-Service Meat Markets, Chicago and Amalgamated Meat Cutters and Butcher
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">2</container>
+							<unittitle id="link145">Item 1: <extref actuate="onrequest" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2762" linktype="simple" show="new">Self-Service Meat Markets, Chicago and Amalgamated Meat Cutters and Butcher
 									Workmen of North America, Local 320</extref></unittitle>
-							<unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate>
+							<unitdate normal="1964/1967" type="inclusive">1964-1967</unitdate>
 							<physdesc label="Format:">Collective Bargaining Agreement (CBA)</physdesc>
 						</did>
 						<scopecontent>
@@ -1288,11 +1294,11 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">2</container>
-							<unittitle id="link146">Item 2: <extref linktype="simple" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2763" actuate="onrequest" show="new">Self-Service Meat Markets, Chicago and Amalgamated Meat Cutters and Butcher
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">2</container>
+							<unittitle id="link146">Item 2: <extref actuate="onrequest" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2763" linktype="simple" show="new">Self-Service Meat Markets, Chicago and Amalgamated Meat Cutters and Butcher
 									Workmen of North America, Local 320</extref></unittitle>
-							<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+							<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 							<physdesc label="Format:">Collective Bargaining Agreement (CBA)</physdesc>
 						</did>
 						<scopecontent>
@@ -1303,18 +1309,18 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link147">Code no.550850: Self-Service Meat Markets, Chicago and Amalgamated Meat Cutters and Butcher Workmen of North America, Local 320-571</unittitle>
-						<unitdate type="inclusive" normal="1964/1970">1964-1970</unitdate>
+						<unitdate normal="1964/1970" type="inclusive">1964-1970</unitdate>
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">3</container>
-							<unittitle id="link148">Item 1: <extref linktype="simple" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2764" actuate="onrequest" show="new">Service Meat Markets, Chicago and Amalgamated Meat Cutters and Butcher Workmen
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">3</container>
+							<unittitle id="link148">Item 1: <extref actuate="onrequest" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2764" linktype="simple" show="new">Service Meat Markets, Chicago and Amalgamated Meat Cutters and Butcher Workmen
 									of North America, Local 320-571</extref></unittitle>
-							<unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate>
+							<unitdate normal="1964/1967" type="inclusive">1964-1967</unitdate>
 							<physdesc label="Format:">Collective Bargaining Agreement (CBA)</physdesc>
 						</did>
 						<scopecontent>
@@ -1324,11 +1330,11 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">3</container>
-							<unittitle id="link149">Item 2: <extref linktype="simple" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2765" actuate="onrequest" show="new">Service Meat Markets, Chicago and Amalgamated Meat Cutters and Butcher Workmen
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">3</container>
+							<unittitle id="link149">Item 2: <extref actuate="onrequest" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2765" linktype="simple" show="new">Service Meat Markets, Chicago and Amalgamated Meat Cutters and Butcher Workmen
 									of North America, Local 320</extref></unittitle>
-							<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+							<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 							<physdesc label="Format:">Collective Bargaining Agreement (CBA)</physdesc>
 						</did>
 						<scopecontent>
@@ -1339,18 +1345,18 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link150">Code no.550851: Self-Service Meat Markets, Chicago and Amalgamated Meat Cutters and Butcher Workmen of North America, Local 547</unittitle>
-						<unitdate type="inclusive" normal="1964/1970">1964- 1970</unitdate>
+						<unitdate normal="1964/1970" type="inclusive">1964- 1970</unitdate>
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">4</container>
-							<unittitle id="link151">Item 1: <extref linktype="simple" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2766" actuate="onrequest" show="new">Service Meat Markets, Chicago and Amalgamated Meat Cutters and Butcher Workmen
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">4</container>
+							<unittitle id="link151">Item 1: <extref actuate="onrequest" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2766" linktype="simple" show="new">Service Meat Markets, Chicago and Amalgamated Meat Cutters and Butcher Workmen
 									of North America, Local 547</extref></unittitle>
-							<unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate>
+							<unitdate normal="1964/1967" type="inclusive">1964-1967</unitdate>
 							<physdesc label="Format:">Collective Bargaining Agreement (CBA)</physdesc>
 						</did>
 						<scopecontent>
@@ -1360,11 +1366,11 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">4</container>
-							<unittitle id="link152">Item 2: <extref linktype="simple" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2767" actuate="onrequest" show="new">Service Meat Markets, Chicago and Amalgamated Meat Cutters and Butcher Workmen
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">4</container>
+							<unittitle id="link152">Item 2: <extref actuate="onrequest" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2767" linktype="simple" show="new">Service Meat Markets, Chicago and Amalgamated Meat Cutters and Butcher Workmen
 									of North America, Local 547</extref></unittitle>
-							<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+							<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 							<physdesc label="Format:">Collective Bargaining Agreement (CBA)</physdesc>
 						</did>
 						<scopecontent>
@@ -1375,17 +1381,17 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link153">Code no.551740: Furr's, Inc. and Retail Clerks Union Local 1564</unittitle>
-						<unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate>
+						<unitdate normal="1965/1970" type="inclusive">1965-1970</unitdate>
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">5</container>
-							<unittitle id="link154">Item 1: <extref linktype="simple" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2768" actuate="onrequest" show="new">Foodway and others, and Retail Clerks Union Local 1564</extref></unittitle>
-							<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">5</container>
+							<unittitle id="link154">Item 1: <extref actuate="onrequest" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2768" linktype="simple" show="new">Foodway and others, and Retail Clerks Union Local 1564</extref></unittitle>
+							<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 							<physdesc label="Format:">Collective Bargaining Agreement (CBA)</physdesc>
 						</did>
 						<scopecontent>
@@ -1395,10 +1401,10 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">5</container>
-							<unittitle id="link155">Item 2: <extref linktype="simple" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2769" actuate="onrequest" show="new">Furr's, Inc. and Retail Clerks Union Local 1564</extref></unittitle>
-							<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">5</container>
+							<unittitle id="link155">Item 2: <extref actuate="onrequest" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2769" linktype="simple" show="new">Furr's, Inc. and Retail Clerks Union Local 1564</extref></unittitle>
+							<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 							<physdesc label="Format:">Collective Bargaining Agreement (CBA)</physdesc>
 						</did>
 						<scopecontent>
@@ -1409,18 +1415,18 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link156">Code no.561052: Cleveland Food Industry Committee and Meat Cutters District Union 427</unittitle>
-						<unitdate type="inclusive" normal="1966/1971">1966-1971</unitdate>
+						<unitdate normal="1966/1971" type="inclusive">1966-1971</unitdate>
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">6</container>
-							<unittitle id="link157">Item 1: <extref linktype="simple" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2770" actuate="onrequest" show="new">Cleveland Food Industry Committee and Meat Cutters District Union
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">6</container>
+							<unittitle id="link157">Item 1: <extref actuate="onrequest" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2770" linktype="simple" show="new">Cleveland Food Industry Committee and Meat Cutters District Union
 								427</extref></unittitle>
-							<unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate>
+							<unitdate normal="1968/1971" type="inclusive">1968-1971</unitdate>
 							<physdesc label="Format:">Collective Bargaining Agreement (CBA)</physdesc>
 						</did>
 						<scopecontent>
@@ -1430,11 +1436,11 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">6</container>
-							<unittitle id="link158">Item 2: <extref linktype="simple" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2771" actuate="onrequest" show="new">The Great Atlantic &amp; Pacific Tea Company, Inc. and Amalgamated Meat
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">6</container>
+							<unittitle id="link158">Item 2: <extref actuate="onrequest" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2771" linktype="simple" show="new">The Great Atlantic &amp; Pacific Tea Company, Inc. and Amalgamated Meat
 									Cutters and Butcher Workmen of North America, District Union 427</extref></unittitle>
-							<unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate>
+							<unitdate normal="1965/1968" type="inclusive">1965-1968</unitdate>
 							<physdesc label="Format:">Collective Bargaining Agreement (CBA)</physdesc>
 						</did>
 						<scopecontent>
@@ -1445,18 +1451,18 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link159">Code no.570218: Chicago Car Dealers and Automobile Mechanics' Local 701</unittitle>
-						<unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate>
+						<unitdate normal="1965/1967" type="inclusive">1965-1967</unitdate>
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">7</container>
-							<unittitle id="link160">Item 1: <extref linktype="simple" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2772" actuate="onrequest" show="new">Chicago Car Dealers and International Association of Machinists &amp;
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">7</container>
+							<unittitle id="link160">Item 1: <extref actuate="onrequest" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2772" linktype="simple" show="new">Chicago Car Dealers and International Association of Machinists &amp;
 									Aerospace Workers, AFL-CIO, Automobile Mechanics' Local 701</extref></unittitle>
-							<unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate>
+							<unitdate normal="1965/1967" type="inclusive">1965-1967</unitdate>
 							<physdesc label="Format:">Collective Bargaining Agreement (CBA)</physdesc>
 						</did>
 						<scopecontent>
@@ -1467,18 +1473,18 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link161">Code no.570571: Giant, of Baltimore Food Employers Labor Relations Association and Retail Store Employees Union, Local 692</unittitle>
-						<unitdate type="inclusive" normal="1967/1969">1967- 1969</unitdate>
+						<unitdate normal="1967/1969" type="inclusive">1967- 1969</unitdate>
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">8</container>
-							<unittitle id="link162">Item 1: <extref linktype="simple" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2773" actuate="onrequest" show="new">Giant Food Inc. and Retail Store Employees Union, Local
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">8</container>
+							<unittitle id="link162">Item 1: <extref actuate="onrequest" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2773" linktype="simple" show="new">Giant Food Inc. and Retail Store Employees Union, Local
 								692</extref></unittitle>
-							<unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate>
+							<unitdate normal="1967/1969" type="inclusive">1967-1969</unitdate>
 							<physdesc label="Format:">Collective Bargaining Agreement (CBA)</physdesc>
 						</did>
 						<scopecontent>
@@ -1489,26 +1495,26 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link163">Code no.580004: Chain and Independent Food Stores, Albuquerque, NM and Retail Clerks Union Local 1564</unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link164">Code no.580178: First National Stores, Inc. and Amalgamated Meat Cutters and Butcher Workmen, Local 2</unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">4</container>
-							<container type="folder">10</container>
-							<unittitle id="link165">Item 1: <extref linktype="simple" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2774" actuate="onrequest" show="new">First National Stores, Inc. and Amalgamated Meat Cutters and Butcher Workmen of
+							<container label="unspecified" type="box">4</container>
+							<container label="unspecified" type="folder">10</container>
+							<unittitle id="link165">Item 1: <extref actuate="onrequest" href="http://digitalcommons.ilr.cornell.edu/blscontracts2/2774" linktype="simple" show="new">First National Stores, Inc. and Amalgamated Meat Cutters and Butcher Workmen of
 									North America, Local 2</extref></unittitle>
-							<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+							<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 							<physdesc label="Format:">Collective Bargaining Agreement (CBA)</physdesc>
 						</did>
 						<scopecontent>
@@ -1524,10 +1530,10 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link167">Code no.540912: Scruggs-Vandervoort-Barney, Inc. (and others) and International Brotherhood of Teamsters Local 709</unittitle>
-						<unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate>
+						<unitdate normal="1964/1967" type="inclusive">1964-1967</unitdate>
 					</did>
 					<scopecontent>
 						<p>Includes Stix, Baer, and Fuller Co.; Famous-Barr Co.; Associated Retailers Suburban Delivery Co.</p>
@@ -1540,34 +1546,34 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link169">Code no.560614: Vacuum Cooler Agreement, California and International Brotherhood of Teamsters Local 890</unittitle>
-						<unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate>
+						<unitdate normal="1968/1971" type="inclusive">1968-1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">31</container>
 						<unittitle id="link170">Code no.561422: Motor Transport Labor Relations, Inc. and Garage Parking and Service Station Employees Union, Local 596, IBT</unittitle>
-						<unitdate type="inclusive" normal="1966/1969">1966- 1969</unitdate>
+						<unitdate normal="1966/1969" type="inclusive">1966- 1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link171">Code no.570640: Phillips Pipe Line Company and International Union of Operating Engineers, Local 109</unittitle>
-						<unitdate type="inclusive" normal="1964/1969">1964-1969</unitdate>
+						<unitdate normal="1964/1969" type="inclusive">1964-1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">51</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">51</container>
 						<unittitle id="link172">Code no.590097: Mobil Oil Corporation and Socony Mobil Boatmen's Union, Western River Towboats</unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 					</did>
 				</c02>
 			</c01>
@@ -1577,26 +1583,26 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link174">Code no.551191: Continental Forwarding Service, Inc. and Warehouse and Distribution Workers Union, Local 688, IBT</unittitle>
-						<unitdate type="inclusive" normal="1965/1974">1965-1974</unitdate>
+						<unitdate normal="1965/1974" type="inclusive">1965-1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link175">Code no.560652: Warehouse Employers and International Longshoremen's Association and Marine Terminal and Warehousemen's Locals 783, 976-4, 1478-2</unittitle>
-						<unitdate type="inclusive" normal="1962/1965">1962-1965</unitdate>
+						<unitdate normal="1962/1965" type="inclusive">1962-1965</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">34</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">34</container>
 						<unittitle id="link176">Code no.571058: Ravenna Arsenal, Inc. and United Steelworkers of America, Local 4581</unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 					</did>
 				</c02>
 			</c01>
@@ -1606,34 +1612,34 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link178">Code no.560620: Columbia Broadcasting System, Inc. - CBS Records Division and United Electrical Radio and Machine Workers of America, Local 237</unittitle>
-						<unitdate type="inclusive" normal="1965/1971">1965-1971</unitdate>
+						<unitdate normal="1965/1971" type="inclusive">1965-1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link179">Code no.570040: Indiana Bell Telephone Company, Inc. and Communications Workers of America</unittitle>
-						<unitdate type="inclusive" normal="1966/1970">1966-1970</unitdate>
+						<unitdate normal="1966/1970" type="inclusive">1966-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link180">Code no.570096: Tacoma Broadcasters, Inc. and International Brotherhood of Electrical Workers, Local 77</unittitle>
-						<unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate>
+						<unitdate normal="1966/1968" type="inclusive">1966-1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">52</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">52</container>
 						<unittitle id="link181">Code no.590100: Pacific Telephone and Communications Workers of America</unittitle>
-						<unitdate type="inclusive" normal="1968/1971">1968-1971</unitdate>
+						<unitdate normal="1968/1971" type="inclusive">1968-1971</unitdate>
 					</did>
 				</c02>
 			</c01>
@@ -1643,10 +1649,10 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">50</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">50</container>
 						<unittitle id="link183">Code no.590063: Community Memorial Hospital Association and Retail Clerks International Assoc., Local 1116</unittitle>
-						<unitdate type="inclusive" normal="1969/1972">1969-1972</unitdate>
+						<unitdate normal="1969/1972" type="inclusive">1969-1972</unitdate>
 					</did>
 				</c02>
 			</c01>

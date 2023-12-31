@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05224::Herman A. Gray Papers.)//EN">KCL05224</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05224::Herman A. Gray Papers.)//EN">KCL05224</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Herman A. Gray Papers<date> 1937-1951</date></titleproper>
@@ -23,16 +23,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>February 21, 2017</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Herman A. Gray Papers<lb/></titleproper>
+			<titleproper>Guide to the Herman A. Gray Papers</titleproper>
 			<num>Collection Number: 5224</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -50,14 +56,14 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Herman A. Gray Papers, <unitdate encodinganalog="MARC 245$f">1937-1951</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Herman A. Gray Papers, 1937-1951
+			</unittitle><unitdate encodinganalog="MARC 245$f">1937-1951</unitdate>
 			<unitid label="Collection Number:">5224</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">Gray, Herman A.</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">2 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">2 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Papers (documents).</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">The collection is composed of the minutes of the meetings of the Council and related materials for the years 1942, 1947, 1948, 1949, and 1950, but it is not complete. It contains reports of the New York State Department
@@ -66,12 +72,12 @@
 			</langmaterial>
 		<physdesc><extent>2 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+			
 			<p>The Council was first appointed by Governor Lehman in 1935. There were 9 members, three representing the public, three for the employers and three for labor. Dr. Gray, a professor in the Law School of New York University, was elected chairman.
 				Its original function was to advise on an unemployment insurance law for N.Y. State. In 1949 it was assigned the task of the operation of the Division of Placement and Unemployment Insurance.</p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a3">COLLECTION DESCRIPTION</head>
+			
 			<p>The collection is composed of the minutes of the meetings of the Council and related materials for the years 1942, 1947, 1948, 1949, and 1950, but it is not complete. It contains reports of the New York State Department of Labor on employment
 				agencies and unemployment, and a number of pamphlets on the various aspects of unemployment insurance. </p>
 			<p>Major correspondents in the collection are Herman A. Gray (chairman, New York State Advisory Council on Placement and Unemployment Insurance), Edward Corsi (industrial commissioner, New York State Department of Labor), Milton O. Loysen
@@ -92,9 +98,9 @@
 				application process (1948); the transcript of a meeting of the Committee on Amendments (1948); a speech by Milton O. Loysen on "How the Young-Demo Law Affects Business"; and relevant statistical and financial studies.</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Corsi, Edward, 1896-1965 </persname>
 				<persname encodinganalog="MARC 600">Folsom, Marion B. (Marion Bayard), 1893-1976 </persname>
 				<persname encodinganalog="MARC 600">Goodwin, Robert C. </persname>
@@ -115,7 +121,7 @@
 				<corpname encodinganalog="MARC 610">United States. Social Security Board. Bureau of Research and Statistics. </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Employment agencies--New York (N.Y.) </subject>
 				<subject encodinganalog="MARC 650">Employment agencies--New York (State) </subject>
 				<subject encodinganalog="MARC 650">Employment agencies--United States. </subject>
@@ -127,26 +133,26 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Herman A. Gray Papers #5224. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link8">Tax and Wage Records Bureau Interpretation Service</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -156,8 +162,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link9">Occupations of Applicants for Work</unittitle>
 					<unitdate normal="1939">1939</unitdate>
 				</did>
@@ -167,8 +173,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link10">Compilation of Material Implementing the Program of Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -178,8 +184,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link11">Compilation of Material Implementing the New York State Unemployment Insurance Law</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -189,8 +195,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link12">Age, Sex, and Occupation of Applicants for Work in New York City</unittitle>
 					<unitdate normal="1939">1939</unitdate>
 				</did>
@@ -200,8 +206,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link13">Record of Joint Meeting of Joint Legislative Committee on Unemployment Insurance and State Advisory Council on Placement andd Unemployment Insurance</unittitle>
 					<unitdate normal="1950">1950</unitdate>
 				</did>
@@ -211,8 +217,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link14">The Unemployment Insurance Tax Credit Plan in New York State: Preliminary Report</unittitle>
 					<unitdate normal="1945">1945</unitdate>
 				</did>
@@ -222,8 +228,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link15">Labor Market Letter Statistical Review</unittitle>
 					<unitdate normal="1946">1946</unitdate>
 				</did>
@@ -233,8 +239,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link16">Report on Unemployment Insurance Problems</unittitle>
 					<unitdate normal="1946">1946</unitdate>
 				</did>
@@ -244,8 +250,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link17">Report of Unemployment Insurance State Advisory Council to the Governor and Legislature of the State of New York on the Subject of Merit Rating Pursuant to Section 518-4 of the Labor Law</unittitle>
 					<unitdate normal="1939">1939</unitdate>
 				</did>
@@ -255,8 +261,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link18">Problem of Prompt Follow-Up of Employers Who Fail to File Reports</unittitle>
 					<unitdate normal="1942">1942</unitdate>
 				</did>
@@ -266,8 +272,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link19">Problem of Prompt Follow-Up of Employers Who Submit Reports Unaccompanied by Payments and Who have Not Previously Been Delinquent</unittitle>
 					<unitdate normal="1942">1942</unitdate>
 				</did>
@@ -278,8 +284,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link20">Program of Improving Unemployment Insurance Office Operations and Establishing Proper Time Factors Thereof</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -289,8 +295,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link21">Status of Approved Deferred Payment Agreements as of May 23, 1942</unittitle>
 					<unitdate normal="1942">1942</unitdate>
 				</did>
@@ -300,10 +306,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link22">Quarterly Report n Job Placement, Unfilled Job Openings, Employment Service Applicants, and Benefit Claimants.</unittitle>
-					<unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate>
+					<unitdate normal="1947/1948" type="inclusive">1947-1948</unitdate>
 				</did>
 				<scopecontent>
 					<p>Includes reports for Buffalo (December 1947 - February 1948), Syracuse (December 1947 - February 1948), Utica (December 1947 - February 1948), and Rochester (February 1948).</p>
@@ -311,16 +317,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link23">Blank Unemployment Insurance Claim Forms (Canada)</unittitle>
-					<unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate>
+					<unitdate normal="1942/1943" type="inclusive">1942-1943</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link24">Report to the Unemployment Insurance State Advisory Council and Employment Service State Advisory Council</unittitle>
 					<unitdate normal="1941">1941</unitdate>
 				</did>
@@ -330,8 +336,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link25">Report on Status of Delinquency and Delinquency Control</unittitle>
 					<unitdate normal="1942">1942</unitdate>
 				</did>
@@ -341,8 +347,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link26">An Act to amend the labor law, in relation to retirement rights of reinstated employees</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -352,8 +358,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link27">Reports to the Unemployment Insurance State Advisory Council</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -364,8 +370,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link28">Reports to the Unemployment Insurance State Advisory Council</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -375,8 +381,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link29">Report to the Unemployment Insurance State Advisory Council</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -386,8 +392,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link30">1948 Legislative Program</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -397,8 +403,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link31">Form of Claims Bureau Subpeona</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -408,8 +414,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link32">Discontinuance of a weekly report entitled "Unemployment Insurance Claims of Workers Involved in Strikes"</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -419,8 +425,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link33">Reports to the Unemployment Insurance State Advisory Council</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -431,8 +437,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link34">Council Memorandum</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -442,8 +448,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link35">Correspondence</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -453,8 +459,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link36">Wage Reporting on Request</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -464,8 +470,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link37">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -476,8 +482,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle id="link38">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -487,8 +493,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle id="link39">Minutes of the 148th Meeting of the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -498,8 +504,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle id="link40">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -509,10 +515,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle id="link41">Local Office Activities, Composition of Unemployed Applicants, and Reasons Why Jobs Remain Unfilled in New York City</unittitle>
-					<unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate>
+					<unitdate normal="1947/1948" type="inclusive">1947-1948</unitdate>
 				</did>
 				<scopecontent>
 					<p>December 1947 - February 1948.</p>
@@ -520,16 +526,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">35</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">35</container>
 					<unittitle id="link42">Memorandums Concerning New York State Senate and Assembly Legislative Bills</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">36</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">36</container>
 					<unittitle id="link43">Regulation 41 "Reporting By Benefit Claimants"</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -539,8 +545,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">37</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">37</container>
 					<unittitle id="link44">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -550,8 +556,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">38</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">38</container>
 					<unittitle id="link45">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -561,8 +567,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">39</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">39</container>
 					<unittitle id="link46">Reporting Questions: Information to be Provided by Employers and Claimants</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -572,8 +578,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">40</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">40</container>
 					<unittitle id="link47">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -584,8 +590,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">41</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">41</container>
 					<unittitle id="link48">Quarterly Report n Job Placement, Unfilled Job Openings, Employment Service Applicants, and Benefit Claimants.</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -595,8 +601,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">42</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">42</container>
 					<unittitle id="link49">Employment Service Operations in New York City</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -606,8 +612,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">43</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">43</container>
 					<unittitle id="link50">1947 Report of the New York State Advisory Council</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -617,8 +623,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">44</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">44</container>
 					<unittitle id="link51">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -629,8 +635,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">45</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">45</container>
 					<unittitle id="link52">Council Memorandum</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -640,8 +646,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">46</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">46</container>
 					<unittitle id="link53">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -652,8 +658,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">47</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">47</container>
 					<unittitle id="link54">Council Memorandum</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -663,8 +669,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">48</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">48</container>
 					<unittitle id="link55">The Application Process</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -675,8 +681,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">49</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">49</container>
 					<unittitle id="link56">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -686,8 +692,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">50</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">50</container>
 					<unittitle id="link57">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -697,8 +703,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">51</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">51</container>
 					<unittitle id="link58">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -708,8 +714,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">52</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">52</container>
 					<unittitle id="link59">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -720,8 +726,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">53</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">53</container>
 					<unittitle id="link60">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -731,8 +737,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">54</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">54</container>
 					<unittitle id="link61">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -742,8 +748,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">55</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">55</container>
 					<unittitle id="link62">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -753,8 +759,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">56</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">56</container>
 					<unittitle id="link63">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -764,8 +770,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">57</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">57</container>
 					<unittitle id="link64">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -775,8 +781,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">58</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">58</container>
 					<unittitle id="link65">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -786,8 +792,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">59</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">59</container>
 					<unittitle id="link66">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -797,8 +803,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">60</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">60</container>
 					<unittitle id="link67">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -808,8 +814,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">61</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">61</container>
 					<unittitle id="link68">History and Operation of Experimental Offices</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -819,8 +825,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">62</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">62</container>
 					<unittitle id="link69">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -830,8 +836,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">63</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">63</container>
 					<unittitle id="link70">Local Office Activities, Composition of Unemployed Applicants, and Reasons Why Jobs Remain Unfilled in New York City</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -841,8 +847,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">64</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">64</container>
 					<unittitle id="link71">Schedule of Budget Estimates: First Supplement Requestiong Funds to Provide for the Farm Placement Program</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -852,8 +858,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">65</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">65</container>
 					<unittitle id="link72">News Release Announcing the Bureau of Employment Security Appointments</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -863,8 +869,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">66</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">66</container>
 					<unittitle id="link73">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -874,8 +880,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">67</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">67</container>
 					<unittitle id="link74">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -885,8 +891,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">68</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">68</container>
 					<unittitle id="link75">Proposed Revision in Method of Processing Wage Records</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -896,8 +902,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">69</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">69</container>
 					<unittitle id="link76">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -907,8 +913,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">70</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">70</container>
 					<unittitle id="link77">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -918,8 +924,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">71</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">71</container>
 					<unittitle id="link78">Correspondence</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -929,8 +935,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">72</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">72</container>
 					<unittitle id="link79">Report on the Present System of Unemployment Insurance in New York State</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -940,8 +946,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">73</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">73</container>
 					<unittitle id="link80">Reports to the State Advisory Council on Placement and Unemployment Insurance</unittitle>
 					<unitdate normal="1950">1950</unitdate>
 				</did>
@@ -951,8 +957,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">74</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">74</container>
 					<unittitle id="link81">Unemployment Compensation in the Post-War Period</unittitle>
 					<unitdate normal="1944">1944</unitdate>
 				</did>
@@ -962,8 +968,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">75</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">75</container>
 					<unittitle id="link82">Should State Unemployment Insurance Be Federalized?</unittitle>
 					<unitdate normal="1946">1946</unitdate>
 				</did>
@@ -973,8 +979,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">76</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">76</container>
 					<unittitle id="link83">Railroad Social Insurance: Favored Treatment Verses Unform Social Insurance</unittitle>
 					<unitdate normal="1945">1945</unitdate>
 				</did>
@@ -984,8 +990,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">77</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">77</container>
 					<unittitle id="link84">The National Health Program Scheme: An Analysis of the Wagner-Murray Health Bill (S. 1606)</unittitle>
 					<unitdate normal="1946">1946</unitdate>
 				</did>
@@ -995,8 +1001,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link85">Plans for Expanding the Employment Service in th Metropolitan Area</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
@@ -1006,8 +1012,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link86">Plans for Expanding the Employment Service</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
@@ -1017,8 +1023,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link87">Central Office Procedure for Processing Benefit Claims</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
@@ -1028,8 +1034,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link88">Central Office Procedure for Processing Benefit Claims</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
@@ -1039,8 +1045,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link89">Material Pertaining to Frequency of Visits of Unemployed Workers to Employment Offices and Payment of Benefit Claims</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
@@ -1050,8 +1056,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link90">Rules and Procedure in Regard to Disputed Claims Under the Unemployment Insurance Law</unittitle>
 					<unitdate normal="1938">1938</unitdate>
 				</did>
@@ -1061,8 +1067,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link91">Report of Unemployment Insurance State Advisory Council to the Governor and Legislature of the State of New York on the Subject of Merit Rating Pursuant to Section 518-4 of the Labor Law</unittitle>
 					<unitdate normal="1939">1939</unitdate>
 				</did>
@@ -1072,8 +1078,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link92">Report of the New York Unemployment Insurance State Advisory Council on the Subject of Experience Rating Prusuant to Section 518.4 of the Labor Law in Two Parts: Part One, Conclusions and Recommendations</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 				</did>
@@ -1083,8 +1089,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link93">Report of the New York Unemployment Insurance State Advisory Council on the Subject of Experience Rating Prusuant to Section 518.4 of the Labor Law in Two Parts: Part One, Materials Pertaining to the Problem of
 						Experience Rating</unittitle>
 					<unitdate normal="1940">1940</unitdate>
@@ -1095,8 +1101,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link94">Report of the New York State Unemployment Insurance Advisory Board on Collections and Delinquencies</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -1106,8 +1112,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link95">Postwar Impact on Unemployment Insurance</unittitle>
 					<unitdate normal="1944">1944</unitdate>
 				</did>
@@ -1117,8 +1123,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link96">Rules and Regulations of the Industrial Commissioner and Adminstrative Interpretations under the Unemployment Insurance Law</unittitle>
 					<unitdate normal="1944">1944</unitdate>
 				</did>
@@ -1128,8 +1134,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link97">New York State Unemployment Insurance Law</unittitle>
 					<unitdate normal="1945">1945</unitdate>
 				</did>
@@ -1139,8 +1145,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link98">Organization and Operation of the New York City Offices Volume I: Manhattan Industrial Office</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1150,8 +1156,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link99">Organization and Operation of the New York City Offices Volume I: Brooklyn Industrial Office</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1161,8 +1167,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link100">Organization and Operation of the New York City Offices Volume I: Queens Industrial Office</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1172,8 +1178,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link101">Organization and Operation of the New York City Offices Volume I: Manhattan Needle Trades Office</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1183,8 +1189,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link102">Organization and Operation of the New York City Offices Volume I: Brooklyn Needle Trades Office</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1194,8 +1200,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link103">Organization and Operation of the New York City Offices Volume I: Shipbuilding Trades Office</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1205,8 +1211,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link104">Organization and Operation of the New York City Offices Volume II: Commercial and Professional Office</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1216,8 +1222,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link105">Organization and Operation of the New York City Offices Volume II: Sales Placement Office</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1227,8 +1233,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link106">Organization and Operation of the New York City Offices Volume II:Seervice Industries Office</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1238,8 +1244,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link107">Organization and Operation of the New York City Offices Volume II: Household Office</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1249,8 +1255,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link108">Organization and Operation of the New York City Offices Volume II: Staten Island Office</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1260,8 +1266,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link109">I: The Reception Process</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1271,8 +1277,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link110">II: The Application Process</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1282,8 +1288,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link111">III: The Placement Process</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1293,8 +1299,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link112">IV: Counseling</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1304,8 +1310,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link113">V: Selective Placement of Handicapped</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1315,8 +1321,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link114">VI: Employer Visiting and Promotion</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1326,8 +1332,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle id="link115">VIIA: Relations Between Insurance Offices and Employement Services</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1337,8 +1343,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle id="link116">VII: Relations Between Insurance Offices and Employement Services</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1348,8 +1354,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle id="link117">VIII: Labor Union Relations</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1359,8 +1365,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle id="link118">Office Managers' Overall Statements</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1370,8 +1376,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">35</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">35</container>
 					<unittitle id="link119">A Description of the Functions and Organization of the Office of the Metropolitan Director of the Employment Service</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1381,8 +1387,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">36</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">36</container>
 					<unittitle id="link120">A Description of the Functions and Organization of the Office of the Director of the New York State Employment Service</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1392,8 +1398,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">37</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">37</container>
 					<unittitle id="link121">Emplyment Security Operations in New York City</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1403,8 +1409,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">38</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">38</container>
 					<unittitle id="link122">Availability For Work: The Status of the New York Unemployment Insurance Law and Present Practices</unittitle>
 					<unitdate normal="1951">1951</unitdate>
 				</did>
@@ -1414,10 +1420,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">39</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">39</container>
 					<unittitle id="link123">Legislative Studies</unittitle>
-					<unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate>
+					<unitdate normal="1950/1951" type="inclusive">1950-1951</unitdate>
 				</did>
 				<scopecontent>
 					<p>State of New York, Department of Labor, Division of Placement and Unemployment Insurance.</p>

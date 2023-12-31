@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-160::ILGWU. Scrapbooks,)//EN">KCL05780-160</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-160::ILGWU. Scrapbooks,)//EN">KCL05780-160</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the ILGWU. Scrapbooks,<date>1910-1958.</date></titleproper>
@@ -23,19 +23,25 @@
 			<creation>Finding aid encoded by MarcEdit, Ead McTaggart, and Cheryl Beredo, <date>July
 					2011</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the ILGWU. Scrapbooks,<lb/><date type="inclusive" encodinganalog="245$f">1910-1958.</date></titleproper>
-			<num type="kidb_reference_number" id="kc1176">Collection Number: 5780/160</num>
-			<publisher>Kheel Center for Labor-Management Documentation and Archives <lb/>Cornell
+			<titleproper>Guide to the ILGWU. Scrapbooks,<date encodinganalog="245$f" type="inclusive">1910-1958.</date></titleproper>
+			<num id="kc1176" type="kidb_reference_number">Collection Number: 5780/160</num>
+			<publisher>Kheel Center for Labor-Management Documentation and Archives Cornell
 				University Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-						P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-						Ithaca, NY 14853<lb/> (607) 255-3183<lb/><extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/><extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref><lb/></item>
+					<item> Kheel Center for Labor-Management Documentation and Archives Martin
+						P. Catherwood Library 227 Ives Hall Cornell University
+						Ithaca, NY 14853 (607) 255-3183<extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -56,12 +62,12 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">ILGWU. Scrapbooks, <unitdate encodinganalog="MARC 245" type="inclusive">1910-1958.</unitdate></unittitle>
+			
+			<unittitle encodinganalog="MARC 245" label="Title:">ILGWU. Scrapbooks, 1910-1958</unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1910-1958.</unitdate>
 			<unitid label="Collection Number:">5780/160</unitid>
 			<origination label="Creator:"><corpname encodinganalog="MARC 110">International Ladies'
 					Garment Workers' Union.</corpname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">20.3 linear feet</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">20.3 linear feet</physdesc>
 			<physdesc label="Forms of Material:">Scrapbooks</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and
 				Archives, Cornell University Library</repository>
@@ -71,7 +77,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language> and <language encodinganalog="041" langcode="yid">Yiddish.</language></langmaterial>
 		<physdesc><extent>22.33 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="organization">ILGWU ORGANIZATIONAL HISTORY</head>
+			
 			<p>The International Ladies’ Garment Workers’ Union was founded in New York City in 1900
 				by mostly Socialist immigrant workers who sought to unite the various crafts in the
 				growing women's garment industry. The union soon reflected changes in the sector and
@@ -112,22 +118,22 @@
 				the United States, Canada, and Puerto Rico. </p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a5">COLLECTION DESCRIPTION</head>
+			
 			<p>This collection contains scrapbooks assembled by officers and members of the
 				International Ladies' Garment Workers' Union. The scrapbooks primarily contain news
 				clippings.</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<corpname encodinganalog="MARC 110">International Ladies' Garment Workers'
 					Union.</corpname>
 				<corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union.
 				</corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects:</head>
+				
 				<subject encodinganalog="MARC 650">Women's clothing industry--United
 					States.</subject>
 				<subject encodinganalog="MARC 650">Labor unions--Clothing workers--United
@@ -136,13 +142,13 @@
 				<subject encodinganalog="MARC 650">Industrial relations--United States.</subject>
 			</controlaccess>
 			<controlaccess>
-				<head>Form and Genre Terms:</head>
+				
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>The ILGWU Records, except for publications and materials produced for
 					publication, are restricted. Materials created prior to twenty years from the
 					current date are open to researchers only with prior written permission from the
@@ -151,13 +157,13 @@
 					information contact the Kheel Center.</p>
 			</accessrestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>ILGWU. Scrapbooks. 5780/160. Kheel Center for Labor-Management Documentation and
 					Archives, Martin P. Catherwood Library, Cornell University.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
+			
 			<p>5780. ILGWU records</p>
 			<p>5780/127. ILGWU. America's Next Great Designer Award. Scrapbooks</p>
 			<p>5780/128. ILGWU. Women's Wear Daily. Scrapbooks</p>
@@ -165,17 +171,17 @@
 			<p>5780/170. ILGWU. People v. Benedict Macri. Legal Transcript and Scrapbook</p>
 		</relatedmaterial>
 		<odd type="notes">
-			<head id="a7">NOTES</head>
+			
 			<p>"Permanent deposit"</p>
 		</odd>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Loose Newspaper Scrapbook pages.</unittitle>
-					<unitdate type="inclusive" normal="1922/1924">1922-1924</unitdate>
+					<unitdate normal="1922/1924" type="inclusive">1922-1924</unitdate>
 				</did>
 				<scopecontent>
 					<p>February 1922 - April 1924. Yiddish.</p>
@@ -183,8 +189,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Loose Newspaper Scrapbook pages.</unittitle>
 					<unitdate normal="1924">1924</unitdate>
 				</did>
@@ -194,10 +200,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Loose Newspaper Scrapbook pages.</unittitle>
-					<unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate>
+					<unitdate normal="1924/1925" type="inclusive">1924-1925</unitdate>
 				</did>
 				<scopecontent>
 					<p>Photocopies.</p>
@@ -205,8 +211,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Memorandum in Behalf of the Union</unittitle>
 					<unitdate normal="1925">1925</unitdate>
 				</did>
@@ -216,10 +222,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate>
+					<unitdate normal="1924/1925" type="inclusive">1924-1925</unitdate>
 				</did>
 				<scopecontent>
 					<p>July 1924 - April 1925</p>
@@ -227,10 +233,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1925/1926">1925-1926</unitdate>
+					<unitdate normal="1925/1926" type="inclusive">1925-1926</unitdate>
 				</did>
 				<scopecontent>
 					<p>May 1925 - February 1926</p>
@@ -238,8 +244,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1926">1926</unitdate>
 				</did>
@@ -249,10 +255,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>Out Of Town Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1925/1926">1925-1926</unitdate>
+					<unitdate normal="1925/1926" type="inclusive">1925-1926</unitdate>
 				</did>
 				<scopecontent>
 					<p>October 1925 - October 1926</p>
@@ -260,10 +266,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1a</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1a</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1911/1915">1911-1915</unitdate>
+					<unitdate normal="1911/1915" type="inclusive">1911-1915</unitdate>
 				</did>
 				<scopecontent>
 					<p>Oversized scrapbook 1911-1915</p>
@@ -271,8 +277,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1926">1926</unitdate>
 				</did>
@@ -282,10 +288,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1926/1927">1926-1927</unitdate>
+					<unitdate normal="1926/1927" type="inclusive">1926-1927</unitdate>
 				</did>
 				<scopecontent>
 					<p>December 1926 - March 1927</p>
@@ -293,8 +299,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1927">1927</unitdate>
 				</did>
@@ -304,10 +310,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1927/1928">1927-1928</unitdate>
+					<unitdate normal="1927/1928" type="inclusive">1927-1928</unitdate>
 				</did>
 				<scopecontent>
 					<p>September 1927 - May 1928</p>
@@ -315,10 +321,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1928/1929">1928-1929</unitdate>
+					<unitdate normal="1928/1929" type="inclusive">1928-1929</unitdate>
 				</did>
 				<scopecontent>
 					<p>May 1928 - March 1929</p>
@@ -326,8 +332,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1929">1929</unitdate>
 				</did>
@@ -337,8 +343,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1929">1929</unitdate>
 				</did>
@@ -348,10 +354,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1929/1930">1929-1930</unitdate>
+					<unitdate normal="1929/1930" type="inclusive">1929-1930</unitdate>
 				</did>
 				<scopecontent>
 					<p>September 1929 - January 1930</p>
@@ -359,8 +365,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1930">1930</unitdate>
 				</did>
@@ -370,8 +376,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1930">1930</unitdate>
 				</did>
@@ -381,10 +387,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1930/1931">1930-1931</unitdate>
+					<unitdate normal="1930/1931" type="inclusive">1930-1931</unitdate>
 				</did>
 				<scopecontent>
 					<p>September 1930 - July 1931</p>
@@ -392,10 +398,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate>
+					<unitdate normal="1931/1932" type="inclusive">1931-1932</unitdate>
 				</did>
 				<scopecontent>
 					<p>August 1931 - June 1932</p>
@@ -403,10 +409,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate>
+					<unitdate normal="1932/1933" type="inclusive">1932-1933</unitdate>
 				</did>
 				<scopecontent>
 					<p>June 1932 - July 1933</p>
@@ -414,8 +420,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1933">1933</unitdate>
 				</did>
@@ -425,10 +431,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate>
+					<unitdate normal="1933/1934" type="inclusive">1933-1934</unitdate>
 				</did>
 				<scopecontent>
 					<p>December 1933 - April 1934</p>
@@ -436,8 +442,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1934">1934</unitdate>
 				</did>
@@ -447,8 +453,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1934">1934</unitdate>
 				</did>
@@ -458,8 +464,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1934">1934</unitdate>
 				</did>
@@ -469,10 +475,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate>
+					<unitdate normal="1934/1935" type="inclusive">1934-1935</unitdate>
 				</did>
 				<scopecontent>
 					<p>October 1934 - January 1935</p>
@@ -480,8 +486,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1935">1935</unitdate>
 				</did>
@@ -491,8 +497,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1935">1935</unitdate>
 				</did>
@@ -502,8 +508,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1935">1935</unitdate>
 				</did>
@@ -513,8 +519,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1935">1935</unitdate>
 				</did>
@@ -524,8 +530,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1935">1935</unitdate>
 				</did>
@@ -535,10 +541,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1935/1936">1935-1936</unitdate>
+					<unitdate normal="1935/1936" type="inclusive">1935-1936</unitdate>
 				</did>
 				<scopecontent>
 					<p>December 1935 - February 1936</p>
@@ -546,8 +552,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 				</did>
@@ -557,8 +563,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 				</did>
@@ -568,8 +574,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 				</did>
@@ -579,10 +585,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate>
+					<unitdate normal="1936/1937" type="inclusive">1936-1937</unitdate>
 				</did>
 				<scopecontent>
 					<p>August 1936 - October 1937</p>
@@ -590,8 +596,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 				</did>
@@ -601,8 +607,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 				</did>
@@ -612,8 +618,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 				</did>
@@ -623,8 +629,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 				</did>
@@ -634,8 +640,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 				</did>
@@ -645,8 +651,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 				</did>
@@ -656,8 +662,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 				</did>
@@ -667,8 +673,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 				</did>
@@ -678,8 +684,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 				</did>
@@ -689,10 +695,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate>
+					<unitdate normal="1936/1937" type="inclusive">1936-1937</unitdate>
 				</did>
 				<scopecontent>
 					<p>December 1936 - January 1937</p>
@@ -700,8 +706,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
@@ -711,8 +717,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
@@ -722,8 +728,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
@@ -733,8 +739,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1937">1937</unitdate>
 				</did>
@@ -744,10 +750,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate>
+					<unitdate normal="1937/1938" type="inclusive">1937-1938</unitdate>
 				</did>
 				<scopecontent>
 					<p>October 1937 - January 1938</p>
@@ -755,8 +761,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1938">1938</unitdate>
 				</did>
@@ -766,8 +772,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1938">1938</unitdate>
 				</did>
@@ -777,10 +783,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate>
+					<unitdate normal="1938/1939" type="inclusive">1938-1939</unitdate>
 				</did>
 				<scopecontent>
 					<p>October 1938 - February 1939</p>
@@ -788,8 +794,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1939">1939</unitdate>
 				</did>
@@ -799,10 +805,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate>
+					<unitdate normal="1939/1940" type="inclusive">1939-1940</unitdate>
 				</did>
 				<scopecontent>
 					<p>August 1939 - January 1940</p>
@@ -810,8 +816,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 				</did>
@@ -821,8 +827,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 				</did>
@@ -832,8 +838,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 				</did>
@@ -843,8 +849,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 				</did>
@@ -854,10 +860,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
+					<unitdate normal="1940/1941" type="inclusive">1940-1941</unitdate>
 				</did>
 				<scopecontent>
 					<p>December 1940 - January 1941</p>
@@ -865,8 +871,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1941">1941</unitdate>
 				</did>
@@ -876,8 +882,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1941">1941</unitdate>
 				</did>
@@ -887,8 +893,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1942">1942</unitdate>
 				</did>
@@ -898,8 +904,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1942">1942</unitdate>
 				</did>
@@ -909,8 +915,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -920,10 +926,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1943/1944">1943-1944</unitdate>
+					<unitdate normal="1943/1944" type="inclusive">1943-1944</unitdate>
 				</did>
 				<scopecontent>
 					<p>December 1943 - March 1944</p>
@@ -931,10 +937,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1944/1945">1944-1945</unitdate>
+					<unitdate normal="1944/1945" type="inclusive">1944-1945</unitdate>
 				</did>
 				<scopecontent>
 					<p>May 1944 - March 1945</p>
@@ -942,8 +948,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>American Labor Party Scrapbook</unittitle>
 					<unitdate normal="1938">1938</unitdate>
 				</did>
@@ -953,10 +959,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>American Labor Party Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate>
+					<unitdate normal="1939/1940" type="inclusive">1939-1940</unitdate>
 				</did>
 				<scopecontent>
 					<p>December 1939 - September 1940</p>
@@ -964,8 +970,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>American Labor Party Scrapbook</unittitle>
 					<unitdate normal="1944">1944</unitdate>
 				</did>
@@ -975,10 +981,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>AF of L Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate>
+					<unitdate normal="1938/1939" type="inclusive">1938-1939</unitdate>
 				</did>
 				<scopecontent>
 					<p>October 1938 - June 1939</p>
@@ -986,8 +992,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>AF of L Scrapbook</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 				</did>
@@ -997,10 +1003,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1944/1949">1944-1949</unitdate>
+					<unitdate normal="1944/1949" type="inclusive">1944-1949</unitdate>
 				</did>
 				<scopecontent>
 					<p>January 1944 - March 1949</p>
@@ -1008,10 +1014,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>C.I.O. Non-Editorial</unittitle>
-					<unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate>
+					<unitdate normal="1937/1938" type="inclusive">1937-1938</unitdate>
 				</did>
 				<scopecontent>
 					<p>September 1937 - May 1938</p>
@@ -1019,10 +1025,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>C.I.O. Conference</unittitle>
-					<unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate>
+					<unitdate normal="1937/1938" type="inclusive">1937-1938</unitdate>
 				</did>
 				<scopecontent>
 					<p>October 1937 - January 1938</p>
@@ -1030,10 +1036,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>C.I.O. Editorial</unittitle>
-					<unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate>
+					<unitdate normal="1937/1938" type="inclusive">1937-1938</unitdate>
 				</did>
 				<scopecontent>
 					<p>December 1937 - December 1938</p>
@@ -1041,8 +1047,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>C.I.O.</unittitle>
 					<unitdate normal="1938">1938</unitdate>
 				</did>
@@ -1052,10 +1058,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>C.I.O. Non-Editorial</unittitle>
-					<unitdate type="inclusive" normal="1939/1950">1939-1950</unitdate>
+					<unitdate normal="1939/1950" type="inclusive">1939-1950</unitdate>
 				</did>
 				<scopecontent>
 					<p>June 1939 - November 1940</p>
@@ -1063,8 +1069,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 				</did>
@@ -1074,10 +1080,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1940/1956">1940-1956</unitdate>
+					<unitdate normal="1940/1956" type="inclusive">1940-1956</unitdate>
 				</did>
 				<scopecontent>
 					<p>November 1940 - December 1956</p>
@@ -1085,10 +1091,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1954/1958">1954-1958</unitdate>
+					<unitdate normal="1954/1958" type="inclusive">1954-1958</unitdate>
 				</did>
 				<scopecontent>
 					<p>March 1954 - April 1958. Loose photocopies</p>
@@ -1096,10 +1102,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>Newspaper Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate>
+					<unitdate normal="1959/1960" type="inclusive">1959-1960</unitdate>
 				</did>
 				<scopecontent>
 					<p>September 1959 - August 1960. Loose photocopies</p>
@@ -1107,8 +1113,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Womens Garment Strike Scrapbook</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 				</did>
@@ -1118,8 +1124,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Womens Garment Strike Scrapbook</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 				</did>
@@ -1129,8 +1135,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Coat and Cloak Scrapbook</unittitle>
 					<unitdate normal="1933">1933</unitdate>
 				</did>
@@ -1140,10 +1146,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>Press Comments Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1924/1927">1924-1927</unitdate>
+					<unitdate normal="1924/1927" type="inclusive">1924-1927</unitdate>
 				</did>
 				<scopecontent>
 					<p>March 1924 - July 1927</p>
@@ -1151,56 +1157,56 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Memorandums</unittitle>
-					<unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate>
+					<unitdate normal="1924/1925" type="inclusive">1924-1925</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>Briefs</unittitle>
 					<unitdate normal="1925">1925</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>Reports</unittitle>
 					<unitdate normal="1925">1925</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>Cloak Strike</unittitle>
 					<unitdate normal="1926">1926</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>Report of an Investigation</unittitle>
 					<unitdate normal="1925">1925</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>Governor's Advisory Commission. Wages and Wage Scales</unittitle>
 					<unitdate normal="1925">1925</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>Review of Constructive Publicity Campaign</unittitle>
 					<unitdate normal="1927">1927</unitdate>
 				</did>
@@ -1210,8 +1216,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>Review of Constructive Publicity Campaign</unittitle>
 					<unitdate normal="1927">1927</unitdate>
 				</did>
@@ -1221,10 +1227,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>Womens Garment Strike</unittitle>
-					<unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate>
+					<unitdate normal="1933/1934" type="inclusive">1933-1934</unitdate>
 				</did>
 				<scopecontent>
 					<p>Oversized scrapbook- 10/12/33-7/34</p>
@@ -1232,18 +1238,18 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16a</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">16a</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Facts About the Garment Strike</unittitle>
 					<unitdate normal="1924">1924</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>I.L.G.W.U. Drama Department Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1934/1937">1934-1937</unitdate>
+					<unitdate normal="1934/1937" type="inclusive">1934-1937</unitdate>
 				</did>
 				<scopecontent>
 					<p>December 1934 - December 1937. English and Yiddish</p>
@@ -1251,10 +1257,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>I.L.G.W.U. Choral Department Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1934/1939">1934-1939</unitdate>
+					<unitdate normal="1934/1939" type="inclusive">1934-1939</unitdate>
 				</did>
 				<scopecontent>
 					<p>October 1934 - April 1939. English and Yiddish</p>
@@ -1262,10 +1268,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>I.L.G.W.U. Instrumental Department scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1935/1943">1935-1943</unitdate>
+					<unitdate normal="1935/1943" type="inclusive">1935-1943</unitdate>
 				</did>
 				<scopecontent>
 					<p>January 1935 - February 1943. English and Yiddish</p>
@@ -1273,18 +1279,18 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>I.L.G.W.U. Drama Department "Steel" Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate>
+					<unitdate normal="1934/1935" type="inclusive">1934-1935</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>I.L.G.W.U. Drama Department "With These Hands" Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1950/1956">1950-1956</unitdate>
+					<unitdate normal="1950/1956" type="inclusive">1950-1956</unitdate>
 				</did>
 				<scopecontent>
 					<p>June 1950 - June 1956. English and Yiddish</p>
@@ -1292,10 +1298,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17a</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">17a</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Drama Department “Steel” and “With These Hands”</unittitle>
-					<unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate>
+					<unitdate normal="1939/1940" type="inclusive">1939-1940</unitdate>
 				</did>
 				<scopecontent>
 					<p>Oversized scrapbook-4/30/39-8/24/40</p>
@@ -1303,10 +1309,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Organized Crime Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1937/1958">1937-1958</unitdate>
+					<unitdate normal="1937/1958" type="inclusive">1937-1958</unitdate>
 				</did>
 				<scopecontent>
 					<p>March 1937 - January 1958</p>
@@ -1314,8 +1320,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>Organized Crime Scrapbook</unittitle>
 					<unitdate normal="1957">1957</unitdate>
 				</did>
@@ -1325,16 +1331,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Unity House. Report and Data</unittitle>
 					<unitdate normal="1923">1923</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>I.L.G.W.U. 1962 Convention Scrapbook</unittitle>
 					<unitdate normal="1962">1962</unitdate>
 				</did>
@@ -1344,10 +1350,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Frieheit Cartoon Scrapbook</unittitle>
-					<unitdate type="inclusive" normal="1934/1950">1934-1950</unitdate>
+					<unitdate normal="1934/1950" type="inclusive">1934-1950</unitdate>
 				</did>
 				<scopecontent>
 					<p>Yiddish. October 1934 - June 1950</p>
@@ -1355,10 +1361,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18a</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">18a</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Oversized scrapbook-U.S.Trade with Russia 1/9/20-1/12/21</unittitle>
-					<unitdate type="inclusive" normal="1920/1921">1920-1921</unitdate>
+					<unitdate normal="1920/1921" type="inclusive">1920-1921</unitdate>
 				</did>
 				<scopecontent>
 					<p>Oversized scrapbook. 1/9/20-1/12/21</p>
@@ -1366,18 +1372,18 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">19</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">19</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Oversized scrapbooks from I.L.G.W.U. Strike 1910-1911</unittitle>
-					<unitdate type="inclusive" normal="1910/1911">1910-1911</unitdate>
+					<unitdate normal="1910/1911" type="inclusive">1910-1911</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">20</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">20</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Daily News Report and Womens Wear Daily</unittitle>
-					<unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate>
+					<unitdate normal="1931/1932" type="inclusive">1931-1932</unitdate>
 				</did>
 				<scopecontent>
 					<p>Oversized scrapbook-strike clips. 10/12/31-2/17/31, 10/12/31-2/17/32</p>
@@ -1385,10 +1391,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">20a</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">20a</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>Oversize scrapbook. Union label news clippings, 1958-60.</unittitle>
-					<unitdate type="inclusive" normal="1958/1960">1958-1960</unitdate>
+					<unitdate normal="1958/1960" type="inclusive">1958-1960</unitdate>
 				</did>
 			</c01>
 		</dsc>

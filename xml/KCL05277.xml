@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05277::Workers Education Bureau of America Records.)//EN">KCL05277</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05277::Workers Education Bureau of America Records.)//EN">KCL05277</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Workers Education Bureau of America Records<date> 1920-1954</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>February 23, 2017</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Workers Education Bureau of America Records<lb/></titleproper>
+			<titleproper>Guide to the Workers Education Bureau of America Records</titleproper>
 			<num>Collection Number: 5277</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,14 +54,14 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Workers Education Bureau of America Records, <unitdate encodinganalog="MARC 245$f">1920-1954</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Workers Education Bureau of America Records, 1920-1954
+			</unittitle><unitdate encodinganalog="MARC 245$f">1920-1954</unitdate>
 			<unitid label="Collection Number:">5277</unitid>
 			<origination label="Creator:">
 				<corpname encodinganalog="MARC 110" role="creator">Workers Education Bureau of America</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">2 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">2 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Bibliographies, reports (documents) .</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">Consist of governance and financial documents, reports, correspondence, memoranda and notes pertaining to radio programs, courses and programs to promote workers' education, adult and vocational schools and educational
@@ -64,13 +70,13 @@
 			</langmaterial>
 		<physdesc><extent>2 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+			
 			<p>Founded in 1921 by a group of unionists and educators, the Workers' Education Bureau of America (WEB) functioned under the directorship of Spencer Miller and John D. Conners as a service organization for research, teaching, publication, and
 				extension work in workers' education. WEB received financial, political, and consultative support from American Federation of Labor (A.F. of L.) leaders, including Samuel Gompers, William Green, and Matthew Woll. In 1951, WEB was formally
 				integrated into the A.F. of L. as its Education Department.</p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a3">COLLECTION DESCRIPTION</head>
+			
 			<p>Section 1. History: Records consist mainly of correspondence, memoranda, and reports pertaining to the routine administration and activities of the Workers' Education Bureau of America. Organizational records include financial statements and
 				auditors' reports (1922- 1947); bibliographies; reading lists; clippings; and certificates of incorportation and certification. Also, memoranda, letters and reports pertaining to the Labor Book Fund; workers' education programs in various
 				states; the Federal Emergency Relief Administration-WEB jointly sponsored West Coast School of Unemployed Workers (1934); the WEB-A.F. of L. dispute with Brookwood Labor School (1929); financial matters; the establishment of a labor
@@ -94,9 +100,9 @@
 				age, international labor problems, leadership training, radio programs, technology and unemployment, regional workers' education programs, teacher training, and unemployment (1921-1951).</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Bowen, William J. </persname>
 				<persname encodinganalog="MARC 600">Cohn, Fannia M. (Fannia May), 1888-1962. </persname>
 				<persname encodinganalog="MARC 600">Conners, John D. </persname>
@@ -129,7 +135,7 @@
 				<corpname encodinganalog="MARC 610">Workers' Education Bureau Press, inc. </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Adult education teachers, Training of--United States. </subject>
 				<subject encodinganalog="MARC 650">Child labor--United States. </subject>
 				<subject encodinganalog="MARC 650">Construction industry--United States. </subject>
@@ -154,43 +160,43 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Workers Education Bureau of America Records #5277. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link8">Articles of Incorporation</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2-5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2-5</container>
 					<unittitle id="link9">Auditor's Reports </unittitle>
-					<unitdate type="inclusive" normal="1922/1925">1922-1925</unitdate>
+					<unitdate normal="1922/1925" type="inclusive">1922-1925</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link10">Auditor's Reports </unittitle>
-					<unitdate type="inclusive" normal="1921/1947">1921-1947</unitdate>
+					<unitdate normal="1921/1947" type="inclusive">1921-1947</unitdate>
 				</did>
 				<scopecontent>
 					<p>Worker's Education Bureau Press, Inc.</p>
@@ -198,18 +204,18 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link11">Copyright Registrations </unittitle>
-					<unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate>
+					<unitdate normal="1947/1948" type="inclusive">1947-1948</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link12">Financial Correspondence </unittitle>
-					<unitdate type="inclusive" normal="1924/1928">1924-1928</unitdate>
+					<unitdate normal="1924/1928" type="inclusive">1924-1928</unitdate>
 				</did>
 				<scopecontent>
 					<p>Includes correspondence from Matthew Woll, Fifth Vice-President, American Federation of Labor and Peter J. Brady, President, Federation Bank and Trust Company on routine matters (1927); letter from F. P. Keppel, President, Carnegie
@@ -218,10 +224,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link13">Financial Correspondence </unittitle>
-					<unitdate type="inclusive" normal="1929/1937">1929-1937</unitdate>
+					<unitdate normal="1929/1937" type="inclusive">1929-1937</unitdate>
 				</did>
 				<scopecontent>
 					<p>Contains correspondence from Haley Fiske, President, Metropolitan Life Insurance Co. on routine matters (1929); two letters from Franklin D. Roosevelt, Vice-President, Fidelity and Deposit Trust Company of Maryland praising the
@@ -232,8 +238,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link14">General Correspondence</unittitle>
 					<unitdate normal="1921">1921</unitdate>
 				</did>
@@ -244,8 +250,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link15">General Correspondence</unittitle>
 					<unitdate normal="1922">1922</unitdate>
 				</did>
@@ -258,10 +264,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link16">General Correspondence</unittitle>
-					<unitdate type="inclusive" normal="1923/1924">1923-1924</unitdate>
+					<unitdate normal="1923/1924" type="inclusive">1923-1924</unitdate>
 				</did>
 				<scopecontent>
 					<p>Includes form letter from Matthew Woll urging affiliates to form permanent education committees (2pp, 1924); and routine (1923); routine correspondence with Florence Thorne; proposal to assist in developing labor legislation in Nicaragua
@@ -270,8 +276,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link17">General Correspondence</unittitle>
 					<unitdate normal="1925">1925</unitdate>
 				</did>
@@ -282,8 +288,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link18">General Correspondence</unittitle>
 					<unitdate normal="1926">1926</unitdate>
 				</did>
@@ -293,8 +299,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link19">General Correspondence</unittitle>
 				</did>
 				<scopecontent>
@@ -305,10 +311,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link20">General Correspondence</unittitle>
-					<unitdate type="inclusive" normal="1928/1930">1928-1930</unitdate>
+					<unitdate normal="1928/1930" type="inclusive">1928-1930</unitdate>
 				</did>
 				<scopecontent>
 					<p>Includes correspondence from James H. Maurer, Superintendent, Department of Accounts and Finance (Reading, PA) reluctantly agreeing to remain President of the Worker's Education Bureau (1928)</p>
@@ -316,10 +322,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link21">General Correspondence</unittitle>
-					<unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate>
+					<unitdate normal="1931/1932" type="inclusive">1931-1932</unitdate>
 				</did>
 				<scopecontent>
 					<p>Includes correspondence and attachments with William Green concerning preliminary plan for developing a Department of Education within the American Federation of Labor (1931).</p>
@@ -327,8 +333,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link22">General Correspondence</unittitle>
 					<unitdate normal="1933">1933</unitdate>
 				</did>
@@ -340,10 +346,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link23">General Correspondence</unittitle>
-					<unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate>
+					<unitdate normal="1934/1935" type="inclusive">1934-1935</unitdate>
 				</did>
 				<scopecontent>
 					<p>Statement given by Thomas E. Burke, President, Workers Education Bureau, at a conference called by the Secretary of Labor and the Commissioner of Education (1934); correspondence with Peter J. Burke regarding the anticipated affiliation
@@ -352,18 +358,18 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link24">General Correspondence</unittitle>
-					<unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate>
+					<unitdate normal="1936/1938" type="inclusive">1936-1938</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link25">General Correspondence</unittitle>
-					<unitdate type="inclusive" normal="1939/1941">1939-1941</unitdate>
+					<unitdate normal="1939/1941" type="inclusive">1939-1941</unitdate>
 				</did>
 				<scopecontent>
 					<p>Includes routine correspondence from William Green(1939); letter of praise from George Meany, Secretary-Treasurer, American Federation of Labor (1941); four photographs labeled "WEB 20th Anniversary-April 1941".</p>
@@ -371,8 +377,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link26">General Correspondence</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -384,10 +390,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link27">General Correspondence</unittitle>
-					<unitdate type="inclusive" normal="1944/1946">1944-1946</unitdate>
+					<unitdate normal="1944/1946" type="inclusive">1944-1946</unitdate>
 				</did>
 				<scopecontent>
 					<p>Includes letter from Glen Burch, Editor Adult Education Journal regardinq postwar activities (1946); correspondence with Florence Thorne, Director of Research, American Federation of Labor regarding suggestions on the Labor Extension
@@ -397,33 +403,33 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link28">"History of the Worker's Education Bureau" Pamphlet</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">25-26</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">25-26</container>
 					<unittitle id="link29">Positions of Employment</unittitle>
 					<unitdate normal="1946">1946</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">27-29</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">27-29</container>
 					<unittitle id="link30">Positions of Employment</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link31">Correspondence School Institute</unittitle>
-					<unitdate type="inclusive" normal="1926/1930">1926-1930</unitdate>
+					<unitdate normal="1926/1930" type="inclusive">1926-1930</unitdate>
 				</did>
 				<scopecontent>
 					<p>Includes plan outline for Organization of Washington Labor Institute from Richard S. Harvey, Lawyer.</p>
@@ -431,10 +437,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle id="link32">Labor Book Fund</unittitle>
-					<unitdate type="inclusive" normal="1922/1931">1922-1931</unitdate>
+					<unitdate normal="1922/1931" type="inclusive">1922-1931</unitdate>
 				</did>
 				<scopecontent>
 					<p>Contains several letters from Fannia Cohn in her capacity as a trustee of the Labor Text Book Fund (1922, 1928, 1929).</p>
@@ -442,10 +448,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle id="link33">Labor Schools</unittitle>
-					<unitdate type="inclusive" normal="1922/1941">1922-1941</unitdate>
+					<unitdate normal="1922/1941" type="inclusive">1922-1941</unitdate>
 				</did>
 				<scopecontent>
 					<p>Includes a refusal to contribute from William L. Hutcheson, General President, United Brotherhood of Carpenters and Joiners of America (1927); Correspondence with John Brophy regarding his membership on the Executive Board (1927);
@@ -455,8 +461,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle id="link34">National Civic Federation</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 				</did>
@@ -466,10 +472,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle id="link35">New England Division</unittitle>
-					<unitdate type="inclusive" normal="1928/1936">1928-1936</unitdate>
+					<unitdate normal="1928/1936" type="inclusive">1928-1936</unitdate>
 				</did>
 				<scopecontent>
 					<p>Routine Correspondence with Harry A. Russell, Regional Director, Worker's Education Bureau (1928, 1929, 1934, 1935); routine correspondence with Nelson Cruikshank of Connecticut (1935); routine correspondence with William Green (1935);
@@ -478,10 +484,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">35</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">35</container>
 					<unittitle id="link36">Radio Programs</unittitle>
-					<unitdate type="inclusive" normal="1931/1938">1931-1938</unitdate>
+					<unitdate normal="1931/1938" type="inclusive">1931-1938</unitdate>
 				</did>
 				<scopecontent>
 					<p>Includes program agenda and selected script for "The People's Platform" which aired weekly from July 20, 1938 to April 23, 1939; program agenda and selected script for "Americans at Work" a program aired weekly from April 28, 1938 to
@@ -492,10 +498,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">36-37</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">36-37</container>
 					<unittitle id="link37">Ruskin College Scholarships</unittitle>
-					<unitdate type="inclusive" normal="1947/1950">1947-1950</unitdate>
+					<unitdate normal="1947/1950" type="inclusive">1947-1950</unitdate>
 				</did>
 				<scopecontent>
 					<p>Includes routine correspondence from Harold Taylor, Chairman, Committee on Ruskin Labor Scholarships (1947).</p>
@@ -503,18 +509,18 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">38-40</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">38-40</container>
 					<unittitle id="link38">Rutgers Institute</unittitle>
-					<unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate>
+					<unitdate normal="1946/1947" type="inclusive">1946-1947</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">41</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">41</container>
 					<unittitle id="link39">Teacher Training</unittitle>
-					<unitdate type="inclusive" normal="1923/1926">1923-1926</unitdate>
+					<unitdate normal="1923/1926" type="inclusive">1923-1926</unitdate>
 				</did>
 				<scopecontent>
 					<p>Contains routine correspondence from Matthew Woll, Seventh Vice-president, American Federation of Labor(1923); letter to Lloyd Crosgrave, Assistant Secretary, Worker's Education Bureau regarding the Gary system from F. G. Stecker,
@@ -523,16 +529,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">42</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">42</container>
 					<unittitle id="link40">Unemployment</unittitle>
 					<unitdate normal="1930">1930</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">43</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">43</container>
 					<unittitle id="link41">UNESCO</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -542,26 +548,26 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">44</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">44</container>
 					<unittitle id="link42">University Extension</unittitle>
-					<unitdate type="inclusive" normal="1924/1930">1924-1930</unitdate>
+					<unitdate normal="1924/1930" type="inclusive">1924-1930</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">45</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">45</container>
 					<unittitle id="link43">Vocational Education</unittitle>
-					<unitdate type="inclusive" normal="1935/1939">1935-1939</unitdate>
+					<unitdate normal="1935/1939" type="inclusive">1935-1939</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">46</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">46</container>
 					<unittitle id="link44">Western Division</unittitle>
-					<unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate>
+					<unitdate normal="1934/1935" type="inclusive">1934-1935</unitdate>
 				</did>
 				<scopecontent>
 					<p>Includes routine correspondence from E. W. Mounce, State Supervisor of Worker's Education Bureau in Missouri (1935); routine correspondence with Paul Vogt, Western Regional Director, Worker's Education Bureau (1935); tentative draft of
@@ -570,18 +576,18 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">47</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">47</container>
 					<unittitle id="link45">Worker's Education Bureau Press, Inc.</unittitle>
-					<unitdate type="inclusive" normal="1923/1926">1923-1926</unitdate>
+					<unitdate normal="1923/1926" type="inclusive">1923-1926</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">48</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">48</container>
 					<unittitle id="link46">Worker's Education Bureau Press, Inc.</unittitle>
-					<unitdate type="inclusive" normal="1927/1928">1927-1928</unitdate>
+					<unitdate normal="1927/1928" type="inclusive">1927-1928</unitdate>
 				</did>
 				<scopecontent>
 					<p>Includes correspondence from Chester M. Wright, Editor, International Labor News Service regardinq joint venture with the Bureau (1927); criticisms of "Trade Unionism in the Building Industry" from William J. McSorley, President,
@@ -590,10 +596,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">49</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">49</container>
 					<unittitle id="link47">Worker's Education Bureau Press, Inc.</unittitle>
-					<unitdate type="inclusive" normal="1929/1935">1929-1935</unitdate>
+					<unitdate normal="1929/1935" type="inclusive">1929-1935</unitdate>
 				</did>
 				<scopecontent>
 					<p>Contains correspondence concerning the litigation Fleming &amp; Reavley vs. The Worker's Education Bureau (1929); Victor C. Olander, Secretary-Treasurer, Illinois Federation of Labor critique of pamphlet (1931).</p>
@@ -601,8 +607,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">50</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">50</container>
 					<unittitle id="link48">Worker's Education Bureau Press, Inc.</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 				</did>
@@ -612,24 +618,24 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">51</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">51</container>
 					<unittitle id="link49">Worker's Education Bureau Spring Conference</unittitle>
 					<unitdate normal="1954">1954</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link50">Annual Reports</unittitle>
-					<unitdate type="inclusive" normal="1935/1950">1935-1950</unitdate>
+					<unitdate normal="1935/1950" type="inclusive">1935-1950</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link51">Article Series</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 				</did>
@@ -639,8 +645,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link52">Article Series</unittitle>
 					<unitdate normal="1944">1944</unitdate>
 				</did>
@@ -650,8 +656,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link53">Article Series</unittitle>
 					<unitdate normal="1945">1945</unitdate>
 				</did>
@@ -661,8 +667,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link54">Article Series </unittitle>
 					<unitdate normal="1946">1946</unitdate>
 				</did>
@@ -672,8 +678,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link55">Article Series</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -683,8 +689,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link56">Article Series</unittitle>
 				</did>
 				<scopecontent>
@@ -693,8 +699,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link57">Article Series </unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -704,8 +710,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link58">Article Series</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -715,8 +721,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link59">Crosgrave Article Series</unittitle>
 					<unitdate normal="1939">1939</unitdate>
 				</did>
@@ -726,8 +732,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link60">Crosgrave Article Series</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 				</did>
@@ -737,8 +743,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link61">Crosgrave Article Series</unittitle>
 					<unitdate normal="1941">1941</unitdate>
 				</did>
@@ -748,8 +754,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link62">Crosgrave Article Series</unittitle>
 					<unitdate normal="1942">1942</unitdate>
 				</did>
@@ -759,8 +765,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link63">Crosgrave Article Series</unittitle>
 					<unitdate normal="1943">1943</unitdate>
 				</did>
@@ -770,8 +776,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link64">Labor Lecture Series</unittitle>
 					<unitdate normal="1932">1932</unitdate>
 				</did>
@@ -781,8 +787,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link65">Libraries</unittitle>
 					<unitdate normal="1928">1928</unitdate>
 				</did>
@@ -792,56 +798,56 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link66">Miscellaneous Publications</unittitle>
-					<unitdate type="inclusive" normal="1926/1936">1926-1936</unitdate>
+					<unitdate normal="1926/1936" type="inclusive">1926-1936</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link67">Miscellaneous Publications</unittitle>
-					<unitdate type="inclusive" normal="1946/1954">1946-1954</unitdate>
+					<unitdate normal="1946/1954" type="inclusive">1946-1954</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">19-20</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">19-20</container>
 					<unittitle id="link68">Pamphlets</unittitle>
 					<unitdate normal="1946">1946</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link69">Pamphlet Series</unittitle>
-					<unitdate type="inclusive" normal="1921/1925">1921-1925</unitdate>
+					<unitdate normal="1921/1925" type="inclusive">1921-1925</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link70">Pamphlet Series</unittitle>
-					<unitdate type="inclusive" normal="1926/1933">1926-1933</unitdate>
+					<unitdate normal="1926/1933" type="inclusive">1926-1933</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link71">Pamphlet Series</unittitle>
-					<unitdate type="inclusive" normal="1934/1946">1934-1946</unitdate>
+					<unitdate normal="1934/1946" type="inclusive">1934-1946</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link72">Picket History of the AFL-CIO</unittitle>
 					<unitdate normal="1950">1950</unitdate>
 				</did>
@@ -851,42 +857,42 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link73">Press Releases</unittitle>
-					<unitdate type="inclusive" normal="1935/1947">1935-1947</unitdate>
+					<unitdate normal="1935/1947" type="inclusive">1935-1947</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link74">Railway Review</unittitle>
 					<unitdate normal="1923">1923</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link75">Reading List Series</unittitle>
 					<unitdate normal="1926">1926</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link76">Research</unittitle>
-					<unitdate type="inclusive" normal="1924/1928">1924-1928</unitdate>
+					<unitdate normal="1924/1928" type="inclusive">1924-1928</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link77">Research</unittitle>
-					<unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate>
+					<unitdate normal="1936/1938" type="inclusive">1936-1938</unitdate>
 				</did>
 				<scopecontent>
 					<p>Routine correspondence with Dr. Carole Blume, Dr. Mollie Ray Carol/ Director of Research and Ursula Batchelder Stone.</p>
@@ -894,32 +900,32 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link78">Research</unittitle>
-					<unitdate type="inclusive" normal="1947/1950">1947-1950</unitdate>
+					<unitdate normal="1947/1950" type="inclusive">1947-1950</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle id="link79">Research Division Pamphlets </unittitle>
 					<unitdate normal="1936">1936</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle id="link80">Research Division Series </unittitle>
 					<unitdate normal="1927">1927</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle id="link81">Shop Stewards Manual </unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -929,8 +935,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle id="link82">Shop Stewards Manual </unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -940,26 +946,26 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">35</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">35</container>
 					<unittitle id="link83">Syllabus Series Pamphlets</unittitle>
-					<unitdate type="inclusive" normal="1920/1926">1920-1926</unitdate>
+					<unitdate normal="1920/1926" type="inclusive">1920-1926</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">36</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">36</container>
 					<unittitle id="link84">Syllabus Series Pamphlets</unittitle>
-					<unitdate type="inclusive" normal="1935/1945">1935-1945</unitdate>
+					<unitdate normal="1935/1945" type="inclusive">1935-1945</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">37</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">37</container>
 					<unittitle id="link85">Workers Education News Service </unittitle>
-					<unitdate type="inclusive" normal="1924/1926">1924-1926</unitdate>
+					<unitdate normal="1924/1926" type="inclusive">1924-1926</unitdate>
 				</did>
 				<scopecontent>
 					<p>11pp, miscellaneous reprints</p>

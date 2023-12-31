@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-053 AV::ILGWU. Local 105 audio recordings,)//EN">KCL05780-053av</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-053 AV::ILGWU. Local 105 audio recordings,)//EN">KCL05780-053av</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the ILGWU. Local 105 audio
@@ -24,19 +24,25 @@
 			<creation>Finding aid encoded by MarcEdit, Ead McTaggart, and Cheryl Beredo,
 					<date>August 2011</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the ILGWU. Local 105 Audio Recordings,<lb/><date type="inclusive" encodinganalog="245$f">1957-1963.</date></titleproper>
-			<num type="kidb_reference_number" id="kc2615">Collection Number: 5780/053 AV</num>
-			<publisher>Kheel Center for Labor-Management Documentation and Archives <lb/>Cornell
+			<titleproper>Guide to the ILGWU. Local 105 Audio Recordings,<date encodinganalog="245$f" type="inclusive">1957-1963.</date></titleproper>
+			<num id="kc2615" type="kidb_reference_number">Collection Number: 5780/053 AV</num>
+			<publisher>Kheel Center for Labor-Management Documentation and Archives Cornell
 				University Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-						P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-						Ithaca, NY 14853<lb/> (607) 255-3183<lb/><extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/><extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref><lb/></item>
+					<item> Kheel Center for Labor-Management Documentation and Archives Martin
+						P. Catherwood Library 227 Ives Hall Cornell University
+						Ithaca, NY 14853 (607) 255-3183<extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -57,13 +63,13 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">ILGWU. Local 105 audio recordings,
-					<unitdate encodinganalog="MARC 245" type="inclusive">1957-1963.</unitdate></unittitle>
+			
+			<unittitle encodinganalog="MARC 245" label="Title:">ILGWU. Local 105 audio recordings
+					1957-1963.</unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1957-1963.</unitdate>
 			<unitid label="Collection Number:">5780/053 AV</unitid>
 			<origination label="Creator:"><corpname encodinganalog="MARC 110">International Ladies'
 					Garment Workers' Union. Local 105 (New York, N.Y.).</corpname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">.5 linear feet</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">.5 linear feet</physdesc>
 			<physdesc label="Forms of Material:">Audio recordings</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and
 				Archives, Cornell University Library</repository>
@@ -72,7 +78,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		<physdesc><extent>1 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="organization">ILGWU ORGANIZATIONAL HISTORY</head>
+			
 			<p>The International Ladies’ Garment Workers’ Union was founded in New York City in 1900
 				by mostly Socialist immigrant workers who sought to unite the various crafts in the
 				growing women’s garment industry. The union soon reflected changes in the sector and
@@ -113,14 +119,14 @@
 				the United States, Canada, and Puerto Rico. </p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a5">COLLECTION DESCRIPTION</head>
+			
 			<p>This collection contains audio recordings of ILGWU staff and regional conferences, as
 				well as the filmstrip “Meet Your Union.”</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<corpname encodinganalog="MARC 110">International Ladies' Garment Workers'
 					Union.</corpname>
 				<corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union.
@@ -129,7 +135,7 @@
 					New York Cloak Joint Board.</corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects:</head>
+				
 				<subject encodinganalog="MARC 650">Clothing workers--Labor unions--New York
 					(State)--New York.</subject>
 				<subject encodinganalog="MARC 650">Collective bargaining--Clothing industry--New
@@ -140,13 +146,13 @@
 					York.</subject>
 			</controlaccess>
 			<controlaccess>
-				<head>Form and Genre Terms:</head>
+				
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>The ILGWU Records, except for publications and materials produced for
 					publication, are restricted. Materials created prior to twenty years from the
 					current date are open to researchers only with prior written permission from the
@@ -155,28 +161,28 @@
 					information contact the Kheel Center.</p>
 			</accessrestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>ILGWU. Local 105 audio recordings. 5780/053 AV. Kheel Center for Labor-Management
 					Documentation and Archives, Martin P. Catherwood Library, Cornell
 					University.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
+			
 			<p>5780. ILGWU records</p>
 			<p>5780/053. ILGWU. Local 105 records.</p>
 			<p>5780/053 P. ILGWU. Local 105 photographs</p>
 		</relatedmaterial>
 		<odd type="notes">
-			<head id="a7">NOTES</head>
+			
 			<p>"Permanent Deposit"</p>
 		</odd>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>ILG Staff Conference. Tape 1 of 5.</unittitle>
 					<unitdate normal="1957">1957</unitdate>
 				</did>
@@ -186,8 +192,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>ILG Staff Conference. Tape 2 of 5.</unittitle>
 					<unitdate normal="1957">1957</unitdate>
 				</did>
@@ -197,8 +203,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>ILG Staff Conference. Tape 3 of 5.</unittitle>
 					<unitdate normal="1957">1957</unitdate>
 				</did>
@@ -208,8 +214,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>ILG Staff Conference. Tape 4 of 5.</unittitle>
 					<unitdate normal="1957">1957</unitdate>
 				</did>
@@ -219,8 +225,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>ILG Staff Conference. Tape 5 of 5.</unittitle>
 					<unitdate normal="1957">1957</unitdate>
 				</did>
@@ -230,8 +236,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>Regional Conference. Tape 1 of 5.</unittitle>
 					<unitdate normal="1958">1958</unitdate>
 				</did>
@@ -242,8 +248,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>Regional Conference. Tape 2 of 5.</unittitle>
 					<unitdate normal="1958">1958</unitdate>
 				</did>
@@ -254,8 +260,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>Regional Conference. Tape 3 of 5.</unittitle>
 					<unitdate normal="1958">1958</unitdate>
 				</did>
@@ -266,8 +272,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>Regional Conference. Tape 4 of 5.</unittitle>
 					<unitdate normal="1958">1958</unitdate>
 				</did>
@@ -278,8 +284,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>Regional Conference. Tape 5 of 5.</unittitle>
 					<unitdate normal="1958">1958</unitdate>
 				</did>
@@ -290,8 +296,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>Meet Your Union.</unittitle>
 					<unitdate normal="1959">1959</unitdate>
 				</did>
@@ -301,8 +307,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>Meet Your Union.</unittitle>
 					<unitdate normal="1961">1961</unitdate>
 				</did>
@@ -312,8 +318,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>Meet Your Union.</unittitle>
 					<unitdate normal="1963">1963</unitdate>
 				</did>

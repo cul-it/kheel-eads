@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06493::A. D. Ellis &amp; Son Records.)//EN">KCL06493</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06493::A. D. Ellis &amp; Son Records.)//EN">KCL06493</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the A. D. Ellis &amp; Son Records<date>
@@ -24,20 +24,26 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Marcie Farwell, <date>October
                     09, 2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
-            <titleproper>Guide to the A. D. Ellis &amp; Son Records<lb/></titleproper>
+            <titleproper>Guide to the A. D. Ellis &amp; Son Records</titleproper>
             <num>Collection Number: 6493</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -56,15 +62,15 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">A. D. Ellis &amp; Son Records,
-                    <unitdate encodinganalog="MARC 245$f">1911-1934</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">A. D. Ellis &amp; Son Records
+                    1911-1934
+            </unittitle><unitdate encodinganalog="MARC 245$f">1911-1934</unitdate>
             <unitid label="Collection Number:">6493</unitid>
             <origination label="Creator:">
                 <corpname encodinganalog="MARC 110" role="creator">A. D. Ellis &amp; Son</corpname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">0.5 linear ft.</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">0.5 linear ft.</physdesc>
             <physdesc label="Forms of Material:">Correspondence, records (documents) .</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -77,7 +83,7 @@
             </langmaterial>
         <physdesc><extent>0.5 cubic feet</extent></physdesc></did>
         <bioghist encodinganalog="MARC 545">
-            <head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+            
             <p>A.D. Ellis &amp; Son, Monson, Mass. Woolen manufacturers. One of several mills
                 belonging to Dwight W. Ellis &amp; established in 1872 to produce fine cassimeres.
                 Around 1875, Arthur D. Ellis became a partner. Over time the mill manufactured
@@ -85,7 +91,7 @@
                 &amp; uniform cloth were its only products. The company closed in 1961.</p>
         </bioghist>
         <scopecontent encodinganalog="MARC 520">
-            <head id="a3">COLLECTION DESCRIPTION</head>
+            
             <p>Records include general outgoing correspondence, 1872-1887, 1899-1901; and
                 correspondence concerning sales, etc., 1915-1934. Correspondents include H. &amp;
                 W.H. Lewis, Laidlaw Company, and Lynx Corporation, all of New York City. Collection
@@ -95,13 +101,13 @@
                 price lists and costs, 1910-1916</p>
         </scopecontent>
         <custodhist encodinganalog="MARC 582">
-            <head id="a6" altrender="provenance">PROVENANCE: </head>
+            
             <p>American Textile History Museum Collection, gift of A.D. Ellis &amp; Son.</p>
         </custodhist>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <persname encodinganalog="MARC 600">Converse, E. Julius. </persname>
                 <persname encodinganalog="MARC 600">Ellis, Arthur D. </persname>
                 <persname encodinganalog="MARC 600">Ellis, Dwight W. </persname>
@@ -113,7 +119,7 @@
                 <corpname encodinganalog="MARC 610">Lynx Corporation (New York, N.Y.) </corpname>
             </controlaccess>
             <controlaccess>
-                <head>Subjects: </head>
+                
                 <subject encodinganalog="MARC 650">Business records </subject>
                 <subject encodinganalog="MARC 650">Contracts </subject>
                 <subject encodinganalog="MARC 650">Payrolls </subject>
@@ -126,7 +132,7 @@
                 <subject encodinganalog="MARC 690">Wool technology -- General</subject>
             </controlaccess>
             <controlaccess>
-                <head>Geographic Subjects: </head>
+                
                 <subject encodinganalog="MARC 651">Monson (Mass.) </subject>
                 <subject encodinganalog="MARC 651">United States </subject>
             </controlaccess>
@@ -134,99 +140,99 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>A. D. Ellis &amp; Son Records #6493. Kheel Center for Labor-Management
                     Documentation and Archives, Cornell University Library.</p>
             </prefercite>
         </descgrp>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link8">Production Correspondence : H.H. Lewis</unittitle>
-                    <unitdate type="inclusive" normal="1915/1918">1915-1918</unitdate>
+                    <unitdate normal="1915/1918" type="inclusive">1915-1918</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link9">Production Correspondence : Laidlow Co. Inc.</unittitle>
-                    <unitdate type="inclusive" normal="1921/1926">1921-1926</unitdate>
+                    <unitdate normal="1921/1926" type="inclusive">1921-1926</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link10">Navy Contracts and Government Bids</unittitle>
-                    <unitdate type="inclusive" normal="1917/1934">1917-1934</unitdate>
+                    <unitdate normal="1917/1934" type="inclusive">1917-1934</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link11">Navy contracts and Government bids ((2 cloth samples/wool
                         for earliest mens uniform)</unittitle>
-                    <unitdate type="inclusive" normal="1917/1934">1917-1934</unitdate>
+                    <unitdate normal="1917/1934" type="inclusive">1917-1934</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link12">Correspondence in Lynx Corporation</unittitle>
-                    <unitdate type="inclusive" normal="1931/1934">1931-1934</unitdate>
+                    <unitdate normal="1931/1934" type="inclusive">1931-1934</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link13">Weaving Drafts and 3.6 counts</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link14">Weaving Drafts and Counts</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link15">Weaving Drafts and Counts</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link16">Weaving Drafts and Counts</unittitle>
                     <unitdate normal="1911">1911</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link17">"Auto Drafts" Weaving Drafts</unittitle>
                 </did>
             </c01>

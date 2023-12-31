@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06338::David P. Miller Arbitration Papers.)//EN">KCL06338</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06338::David P. Miller Arbitration Papers.)//EN">KCL06338</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the David P. Miller Arbitration Papers<date> 1948-1979</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>March 07, 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the David P. Miller Arbitration Papers<lb/></titleproper>
+			<titleproper>Guide to the David P. Miller Arbitration Papers</titleproper>
 			<num>Collection Number: 6338</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,23 +54,23 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">David P. Miller Arbitration Papers, <unitdate encodinganalog="MARC 245$f">1948-1979</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">David P. Miller Arbitration Papers, 1948-1979
+			</unittitle><unitdate encodinganalog="MARC 245$f">1948-1979</unitdate>
 			<unitid label="Collection Number:">6338</unitid>
 			<origination label="Creator:">
-				<persname encodinganalog="MARC 100" role="creator">Miller, David P.</persname>;<lb/>
-				<corpname encodinganalog="MARC 110" role="creator"> American Arbitration Association (AAA)</corpname>;<lb/>
+				<persname encodinganalog="MARC 100" role="creator">Miller, David P.</persname>;
+				<corpname encodinganalog="MARC 110" role="creator"> American Arbitration Association (AAA)</corpname>;
 				<corpname encodinganalog="MARC 110" role="creator"> National Academy of Arbitrators (NAA)</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">7.5 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">7.5 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Collective labor agreements.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<langmaterial label="Language:">Collection material in <language encodinganalog="MARC 041" langcode="eng">English</language>
 			</langmaterial>
 		<physdesc><extent>7.5 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+			
 			<p>David P. Miller was born in Cleveland, Ohio on June 21, 1919. After serving nearly five years in the US Army during World War II he received a BS from the University of Arizona in 1948. This degree was followed by an MBA from the University of
 				California at Berkeley in 1950. </p>
 			<p>After a brief employment by the US Department of Labor as a wage economist in 1950 Miller became an Impartial Manager for the Ford-UAW retirement board, a position he held until his death. He was also an Associate Umpire for Ford and the UAW
@@ -79,9 +85,9 @@
 			<p>David P. Miller died of a heart attack, in Detroit, Michigan, on March 22, 1975 at the age of 55.</p>
 		</bioghist>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Miller, David P. </persname>
 				<corpname encodinganalog="MARC 610">Aluminum Company of America </corpname>
 				<corpname encodinganalog="MARC 610">Aluminum Workers International Union </corpname>
@@ -98,7 +104,7 @@
 				<corpname encodinganalog="MARC 610">United Steelworkers of America </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Arbitration, Industrial </subject>
 				<subject encodinganalog="MARC 650">Collective labor agreements </subject>
 			</controlaccess>
@@ -106,217 +112,217 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>David P. Miller Arbitration Papers #6338. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06338mb.html"> 6338 MB: David P. Miller Memorabilia</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06338p.html"> 6338 P: David P. Miller Photographs</extref><lb/>
+			
+			<p>Related Collections:
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06338mb.html"> 6338 MB: David P. Miller Memorabilia</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06338p.html"> 6338 P: David P. Miller Photographs</extref>
 			</p>
 		</relatedmaterial>
 		<arrangement>
-			<head>SERIES LIST</head>
+			
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link8" show="replace" actuate="onrequest">Series Personal</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link8">Series Personal</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link51" show="replace" actuate="onrequest">Series Ford Motor Company and United Auto Workers</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link51">Series Ford Motor Company and United Auto Workers</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link69" show="replace" actuate="onrequest">Series General David Miller Arbitrations</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link69">Series General David Miller Arbitrations</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link98" show="replace" actuate="onrequest">Series Transit Arbitrations</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link98">Series Transit Arbitrations</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link133" show="replace" actuate="onrequest">Series National Academy of Arbitrators (NAA) Presidents Files</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link133">Series National Academy of Arbitrators (NAA) Presidents Files</ref></emph>
 			</p>
 		</arrangement>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="series">
 				<did>
 					<unittitle id="link8">Series Personal</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link9">University of California, Business Administration 193b-Industrial Diplomacy</unittitle>
 						<unitdate normal="1948">1948</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link10">University of California-Labor Law 155</unittitle>
 						<unitdate normal="1948">1948</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link11">University of California Business Administration 297: The California State Conciliation Service (Copy 1)</unittitle>
 						<unitdate normal="1949">1949</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link12">University of California Business Administration 297: The California State Conciliation Service (Copy 2)</unittitle>
 						<unitdate normal="1949">1949</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link13">University of California Econ 252: "Some Aspects of Labour's Political Action in Britain Since 1945"</unittitle>
 						<unitdate normal="1950">1950</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link14">NAA Membership</unittitle>
 						<unitdate normal="1953">1953</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link15">Harry Schulman &amp; Saul Wallen Obituary</unittitle>
-						<unitdate type="inclusive" normal="1955/1969">1955-1969</unitdate>
+						<unitdate normal="1955/1969" type="inclusive">1955-1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link16">News clipping "Welfare, Pension, Grew like Topsy"</unittitle>
 						<unitdate normal="1956">1956</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link17">Arbitration Statements</unittitle>
-						<unitdate type="inclusive" normal="1959/1974">1959-1974</unitdate>
+						<unitdate normal="1959/1974" type="inclusive">1959-1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link18">Arbitration Panel Appointments</unittitle>
-						<unitdate type="inclusive" normal="1963/1970">1963-1970</unitdate>
+						<unitdate normal="1963/1970" type="inclusive">1963-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link19">Arbitration Contracts</unittitle>
-						<unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
+						<unitdate normal="1969/1970" type="inclusive">1969-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link20">Contact Index Cards</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link21">Problems of the Arbitration Profession</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link22">Expedited Arbitration</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link23">"Telephone" Arbitration</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link24">A suggested "Supplementary" Arbitration Procedure</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link25">Notes</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link26">Arbitration Billing Statements</unittitle>
-						<unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>
+						<unitdate normal="1972/1973" type="inclusive">1972-1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link27">Wage Evaluation Talk Aluminum Workers International Union, Annual Meeting</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link28">Society of Professionals in Dispute Resolution membership</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link29">William B. Gould: The Public Interest and the Role of the Neutral in Equal Opportunity Laws &amp; Programs</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link30">ALCOA-AWIU Meeting, Pittsburgh, PA</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
@@ -326,16 +332,16 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link31">US Steel-United Steel Workers of America Board of Arbitration Correspondence</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link32">ALCOA-AWIU Meeting, Miami, Florida</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
@@ -345,8 +351,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link33">ALCOA-AWIU St. Louis</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
@@ -356,8 +362,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link34">ALCOA-AWIU, Pittsburgh, PA</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
@@ -367,8 +373,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link35">ALCOA-Warrick, St. Louis, MO</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
@@ -378,8 +384,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle id="link36">ALCOA-AWIU &amp; NAA Pittsburgh PA &amp; Annapolis, Maryland</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
@@ -389,111 +395,111 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">29</container>
 						<unittitle id="link37">Aluminum Workers</unittitle>
-						<unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate>
+						<unitdate normal="1974/1975" type="inclusive">1974-1975</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">30</container>
 						<unittitle id="link38">Aluminum Workers International Union speech</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">31</container>
 						<unittitle id="link39">Correspondence</unittitle>
-						<unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate>
+						<unitdate normal="1974/1975" type="inclusive">1974-1975</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">32</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">32</container>
 						<unittitle id="link40">Public Sector Collective Bargaining-Industrial Relations Research Association</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">33</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">33</container>
 						<unittitle id="link41">Practice</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">34</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">34</container>
 						<unittitle id="link42">Biography for Ford-UAW Umpire Position</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">35</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">35</container>
 						<unittitle id="link43">Detroit Newspapers Publishers</unittitle>
 						<unitdate normal="1975">1975</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">36</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">36</container>
 						<unittitle id="link44">"Get Well" Wishes</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">37</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">37</container>
 						<unittitle id="link45">Obituaries</unittitle>
 						<unitdate normal="1975">1975</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">38</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">38</container>
 						<unittitle id="link46">Condolences to Mrs. Miller (Folder 1 of 2)</unittitle>
 						<unitdate normal="1975">1975</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">39</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">39</container>
 						<unittitle id="link47">Condolences to Mrs. Miller (Folder 2 of 2)</unittitle>
 						<unitdate normal="1975">1975</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">40</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">40</container>
 						<unittitle id="link48">Ben Rathbun: Will Success Ruin the Arbitrators?</unittitle>
 						<unitdate normal="1976">1976</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">41</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">41</container>
 						<unittitle id="link49">Hazel Miller NAA Annual Meeting</unittitle>
 						<unitdate normal="1975">1975</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">42</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">42</container>
 						<unittitle id="link50">Colorado Springs Med Ev. Talk</unittitle>
 						<unitdate normal="1969">1969</unitdate>
 					</did>
@@ -508,102 +514,102 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link52">Ford-UAW Benefits Schedule</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link53">Ford Labor Relations Staff</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link54">Ford-UAW Notes for talk on Retirement</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link55">Ford-UAW Pamphlets</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link56">Ford-UAW: What's What when you Retire</unittitle>
 						<unitdate normal="1952">1952</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link57">Highlights of UAW-Ford Agreement</unittitle>
 						<unitdate normal="1961">1961</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link58">Supplemental Unemployment Benefit Plan Arbitrations</unittitle>
-						<unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate>
+						<unitdate normal="1959/1961" type="inclusive">1959-1961</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link59">Ford-UAW Agreements</unittitle>
-						<unitdate type="inclusive" normal="1961/1973">1961-1973</unitdate>
+						<unitdate normal="1961/1973" type="inclusive">1961-1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link60">Ford-UAW Retirement Plan Highlights</unittitle>
-						<unitdate type="inclusive" normal="1953/1967">1953-1967</unitdate>
+						<unitdate normal="1953/1967" type="inclusive">1953-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link61">Ford-UAW Retirement Board Minutes</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link62">Ford-UAW Retirement Board Salary</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link63">Ford Correspondence</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link64">Ford-UAW Associate Umpire Decisions 1-200</unittitle>
-						<unitdate type="inclusive" normal="1952/1954">1952-1954</unitdate>
+						<unitdate normal="1952/1954" type="inclusive">1952-1954</unitdate>
 					</did>
 					<scopecontent>
 						<p>David P. Miller, Umpire</p>
@@ -611,34 +617,34 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link65">Ford-UAW Associate Umpire Decisions 201-400</unittitle>
-						<unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate>
+						<unitdate normal="1954/1955" type="inclusive">1954-1955</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link66">Ford-UAW Associate Umpire Decisions 401-600</unittitle>
-						<unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate>
+						<unitdate normal="1955/1956" type="inclusive">1955-1956</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link67">Ford-UAW Associate Umpire Decisions 601-800</unittitle>
-						<unitdate type="inclusive" normal="1956/1947">1956-1947</unitdate>
+						<unitdate type="inclusive">1956-1947</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link68">Ford-UAW Associate Umpire Decisions 801-999</unittitle>
-						<unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate>
+						<unitdate normal="1957/1959" type="inclusive">1957-1959</unitdate>
 					</did>
 				</c02>
 			</c01>
@@ -648,225 +654,225 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link70">Arbitration Awards and Opinions Vol.1</unittitle>
-						<unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate>
+						<unitdate normal="1959/1961" type="inclusive">1959-1961</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link71">Arbitration Awards and Opinions Vol.2</unittitle>
-						<unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
+						<unitdate normal="1961/1962" type="inclusive">1961-1962</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link72">Arbitration Awards and Opinions Vol.3</unittitle>
-						<unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
+						<unitdate normal="1962/1963" type="inclusive">1962-1963</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link73">Arbitration Awards and Opinions Vol.4</unittitle>
 						<unitdate normal="1963">1963</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link74">Arbitration Awards and Opinions Vol.5</unittitle>
-						<unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
+						<unitdate normal="1963/1964" type="inclusive">1963-1964</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link75">Arbitration Awards and Opinions Vol.6</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link76">Arbitration Awards Vol.7</unittitle>
 						<unitdate normal="1965">1965</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link77">Arbitration Awards Vol.8</unittitle>
-						<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+						<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link78">Arbitration Awards Vol.9</unittitle>
 						<unitdate normal="1966">1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link79">Arbitration Awards Vol.10</unittitle>
-						<unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+						<unitdate normal="1966/1967" type="inclusive">1966-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link80">Arbitration Awards Vol.11</unittitle>
-						<unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+						<unitdate normal="1967/1968" type="inclusive">1967-1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link81">Arbitration Awards Vol.12</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link82">Arbitration Awards Vol.13</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link83">Arbitration Awards Vol.13 (Home Set)</unittitle>
-						<unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
+						<unitdate normal="1968/1969" type="inclusive">1968-1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link84">Arbitration Awards Vol.14 (Home Set)</unittitle>
-						<unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
+						<unitdate normal="1969/1970" type="inclusive">1969-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link85">Arbitration Awards Vol.15 (Home Set)</unittitle>
 						<unitdate normal="1970">1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link86">Arbitration Awards Vol.16 (Home Set)</unittitle>
 						<unitdate normal="1971">1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link87">Arbitration Awards Vol.17 (Home Set)</unittitle>
-						<unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
+						<unitdate normal="1971/1972" type="inclusive">1971-1972</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link88">Arbitration Awards Vol.18 (Home Set)</unittitle>
 						<unitdate normal="1972">1972</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link89">Arbitration Awards Vol.19</unittitle>
-						<unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>
+						<unitdate normal="1972/1973" type="inclusive">1972-1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link90">Budd-UAW Arbitrations</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link91">Detroit Bartender's Union Local 562 Arbitration</unittitle>
 						<unitdate normal="1970">1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link92">Detroit Typographical Union Local 18-Detrot Free Press Arbitrations</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link93">Baltimore Newspaper Web Pressmen's Union, Local 31 - A.S. Abell Company</unittitle>
 						<unitdate normal="1969">1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link94">Aluminum Company of America (ALCOA)-Aluminum Workers International Union</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link95">United Steelworkers of American Arbitration</unittitle>
-						<unitdate type="inclusive" normal="1968/1979">1968-1979</unitdate>
+						<unitdate normal="1968/1979" type="inclusive">1968-1979</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link96">UAW Arbitration</unittitle>
-						<unitdate type="inclusive" normal="1972/1974">1972-1974</unitdate>
+						<unitdate normal="1972/1974" type="inclusive">1972-1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link97">Baseball File</unittitle>
-						<unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate>
+						<unitdate normal="1973/1975" type="inclusive">1973-1975</unitdate>
 					</did>
 				</c02>
 			</c01>
@@ -876,8 +882,8 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link99">Transit Operating Division/MTC and Amalgamated Transit Union, Transcript of Proceedings, Minneapolis, MN, Vol.1</unittitle>
 						<unitdate normal="1972">1972</unitdate>
 					</did>
@@ -887,32 +893,32 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link100">Transit Operating Division/MTC and Amalgamated Transit Union, Transcript of Proceedings, Minneapolis, MN, Vol.2</unittitle>
 						<unitdate normal="1972">1972</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link101">Transit Operating Division/MTC and Amalgamated Transit Union, Transcript of Proceedings, Minneapolis, MN, Vol.3</unittitle>
 						<unitdate normal="1972">1972</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link102">Transit Operating Division/MTC and Amalgamated Transit Union, Transcript of Proceedings, Minneapolis, MN, Vol.4</unittitle>
 						<unitdate normal="1972">1972</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link103">Transit Operating Division/MTC and Amalgamated Transit Union, Brief on Behalf of the Commission</unittitle>
 						<unitdate normal="1972">1972</unitdate>
 					</did>
@@ -922,232 +928,232 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link104">Transit Operating Division/MTC and Amalgamated Transit Union-Company Exhibits. Minneapolis, MN, (Folder 1 of 4)</unittitle>
 						<unitdate normal="1972">1972</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link105">Transit Operating Division/MTC and Amalgamated Transit Union-Company Exhibits. Minneapolis, MN, (Folder 2 of 4)</unittitle>
 						<unitdate normal="1972">1972</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link106">Transit Operating Division/MTC and Amalgamated Transit Union-Company Exhibits. Minneapolis, MN, (Folder 3 of 4)</unittitle>
 						<unitdate normal="1972">1972</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link107">Transit Operating Division/MTC and Amalgamated Transit Union-Company Exhibits. Minneapolis, MN, (Folder 4 of 4)</unittitle>
 						<unitdate normal="1972">1972</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link108">Transit Operating Division/MTC and Amalgamated Transit Union-Union Exhibits. Minneapolis, MN, (Folder 1 of 2)</unittitle>
 						<unitdate normal="1972">1972</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link109">Transit Operating Division/MTC and Amalgamated Transit Union-Union Exhibits. Minneapolis, MN, (Folder 2 of 2)</unittitle>
 						<unitdate normal="1972">1972</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link110">Transit Operating Division/MTC and Amalgamated Transit Union-Correspondence Minneapolis, MN</unittitle>
 						<unitdate normal="1972">1972</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link111">Transit Operating Division/MTC and Amalgamated Transit Union-Notes. Minneapolis, MN</unittitle>
 						<unitdate normal="1972">1972</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link112">Mass Transit Administration, Amalgamated Transit Union-Transcript of Proceedings, Baltimore, MD. Vol.1</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link113">Mass Transit Administration, Amalgamated Transit Union-Transcript of Proceedings, Baltimore, MD. Vol.2</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link114">Mass Transit Administration, Amalgamated Transit Union-Transcript of Proceedings, Baltimore, MD. Vol.3</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link115">Mass Transit Administration, Amalgamated Transit Union-Transcript of Proceedings, Baltimore, MD. Vol.4</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link116">Mass Transit Administration, Amalgamated Transit Union-Transcript of Proceedings, Baltimore, MD. Vol.5</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link117">Mass Transit Administration, Amalgamated Transit Union-Transcript of Proceedings, Baltimore, MD. Vol.6</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link118">Mass Transit Administration, Amalgamated Transit Union-Transcript of Proceedings, Baltimore, MD. Vol.7</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link119">Mass Transit Administration, Amalgamated Transit Union-Arbitration, Baltimore, MD.</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link120">Mass Transit Administration, Amalgamated Transit Union-Joint Exhibits, Baltimore, MD.</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link121">Mass Transit Administration, Amalgamated Transit Union-Non-Critical Union Pension Exhibits, Baltimore, MD.</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link122">Mass Transit Administration, Amalgamated Transit Union-MTA Non-Critical Wage Exhibits</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link123">Mass Transit Administration, Amalgamated Transit Union-Union exhibits (Folder 1 of 2), Baltimore, MD.</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link124">Mass Transit Administration, Amalgamated Transit Union-Union exhibits (Folder 2 of 2), Baltimore, MD.</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link125">Mass Transit Administration, Amalgamated Transit Union-Exhibits 122-194, Baltimore, MD.</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link126">Mass Transit Administration, Amalgamated Transit Union-Exhibits 195-241, Baltimore, MD.</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link127">Mass Transit Administration, Amalgamated Transit Union-Notes, Baltimore, MD.</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link128">Mass Transit Administration, Amalgamated Transit Union-From Binder Labeled "Pensions" (Folder 1 of 2), Baltimore, MD.</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link129">Mass Transit Administration, Amalgamated Transit Union-From Binder Labeled "Pensions" (Folder 2 of 2), Baltimore, MD.</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link130">Mass Transit Administration, Amalgamated Transit Union-From Binder Labeled MTA/TU Proposals, Folder 1 of 2, Baltimore, MD.</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link131">Mass Transit Administration, Amalgamated Transit Union-From Binder Labeled MTA/TU Proposals, Folder 2 of 2, Baltimore, MD.</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link132">National Academy of Arbitrators Constitution and Bylaws</unittitle>
 						<unitdate normal="1965">1965</unitdate>
 					</did>
@@ -1159,56 +1165,56 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link134">NAA Member Directories</unittitle>
-						<unitdate type="inclusive" normal="1959/1975">1959-1975</unitdate>
+						<unitdate normal="1959/1975" type="inclusive">1959-1975</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link135">NAA Committee on Committees</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link136">NAA General Correspondence</unittitle>
-						<unitdate type="inclusive" normal="1965/1975">1965-1975</unitdate>
+						<unitdate normal="1965/1975" type="inclusive">1965-1975</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link137">NAA Foreign Correspondence</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link138">NAA Misc. Correspondence, "No Replies"</unittitle>
-						<unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
+						<unitdate normal="1973/1974" type="inclusive">1973-1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link139">NAA Eli Rock Correspondence</unittitle>
-						<unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate>
+						<unitdate normal="1973/1975" type="inclusive">1973-1975</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link140">NAA Correspondence</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
@@ -1218,10 +1224,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link141">NAA Correspondence</unittitle>
-						<unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate>
+						<unitdate normal="1974/1975" type="inclusive">1974-1975</unitdate>
 					</did>
 					<scopecontent>
 						<p>August 12, 1974 - March 5, 1975</p>
@@ -1229,183 +1235,183 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link142">NAA Board of Governors</unittitle>
-						<unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate>
+						<unitdate normal="1974/1975" type="inclusive">1974-1975</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link143">NAA Appointments</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link144">NAA Department of Labor Proposal</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link145">NAA Lewis Gill</unittitle>
 						<unitdate normal="1971">1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link146">NAA Insurance</unittitle>
 						<unitdate normal="1975">1975</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link147">NAA Legal Affairs</unittitle>
-						<unitdate type="inclusive" normal="1972/1974">1972-1974</unitdate>
+						<unitdate normal="1972/1974" type="inclusive">1972-1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link148">NAA Thomas McDermott-"Training Program for Neutrals"</unittitle>
-						<unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
+						<unitdate normal="1973/1974" type="inclusive">1973-1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link149">NAA Regional Activities</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link150">NAA Annual Volume</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link151">NAA The Chronicle</unittitle>
-						<unitdate type="inclusive" normal="1974/1978">1974-1978</unitdate>
+						<unitdate normal="1974/1978" type="inclusive">1974-1978</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link152">NAA Newsletter</unittitle>
-						<unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
+						<unitdate normal="1973/1974" type="inclusive">1973-1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link153">NAA Committee of Law and legislation draft papers</unittitle>
 						<unitdate normal="1971">1971</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link154">NAA Membership Committee</unittitle>
-						<unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate>
+						<unitdate normal="1974/1975" type="inclusive">1974-1975</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link155">NAA Nominations Committee</unittitle>
-						<unitdate type="inclusive" normal="1972/1975">1972-1975</unitdate>
+						<unitdate normal="1972/1975" type="inclusive">1972-1975</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link156">NAA Committee on Public Employment</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link157">NAA Committee on Railway Adjustment</unittitle>
-						<unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
+						<unitdate normal="1973/1974" type="inclusive">1973-1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link158">NAA Re-Examination Committee</unittitle>
-						<unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate>
+						<unitdate normal="1974/1975" type="inclusive">1974-1975</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link159">NAA 27th Annual Meeting, Kansas City</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle id="link160">NAA Secretary's Reports, Minutes, Treasurers Reports</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">29</container>
 						<unittitle id="link161">NAA 28th Annual Meeting, Cerromar Arrangements</unittitle>
-						<unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
+						<unitdate normal="1973/1974" type="inclusive">1973-1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">30</container>
 						<unittitle id="link162">NAA 28th Annual Meeting, Program Committee, Cerromar</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">31</container>
 						<unittitle id="link163">NAA 28th Annual Meeting, Cerromar, PR. Registration D.P. Miller</unittitle>
 						<unitdate normal="1975">1975</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">32</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">32</container>
 						<unittitle id="link164">NAA 32nd Annual Meeting. Venue</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
@@ -1415,118 +1421,118 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">33</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">33</container>
 						<unittitle id="link165">NAA Canadian Regional Meeting, Qubec</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">34</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">34</container>
 						<unittitle id="link166">NAA 2nd Annual Inter-Regional Conference, Angola, IN</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">35</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">35</container>
 						<unittitle id="link167">NAA 22nd Annual BNA Conference, Atlanta, GA</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">36</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">36</container>
 						<unittitle id="link168">NAA Tri-Regional Meeting Chicago, IL.</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">37</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">37</container>
 						<unittitle id="link169">Richard Mittenthal-"Joys of Being an Arbitrator"</unittitle>
 						<unitdate normal="1979">1979</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">38</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">38</container>
 						<unittitle id="link170">NAA Arbitration: A management approach seminar</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">39</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">39</container>
 						<unittitle id="link171">NAA Handwritten Notes</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link172">NAA Code of Ethics Pamphlets</unittitle>
-						<unitdate type="inclusive" normal="1957/1964">1957-1964</unitdate>
+						<unitdate normal="1957/1964" type="inclusive">1957-1964</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link173">NAA Ethics Committee (Folder 1 of 2)</unittitle>
-						<unitdate type="inclusive" normal="1972/1974">1972-1974</unitdate>
+						<unitdate normal="1972/1974" type="inclusive">1972-1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link174">NAA Ethics Committee (Folder 2 of 2)</unittitle>
-						<unitdate type="inclusive" normal="1972/1974">1972-1974</unitdate>
+						<unitdate normal="1972/1974" type="inclusive">1972-1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link175">NAA Ethics Committee Mittenthal</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link176">NAA Ethics Committee Procedures</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link177">NAA Ethics Code</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link178">NAA Ethics Code, Draft</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link179">NAA Ethics Code, Final Draft</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>

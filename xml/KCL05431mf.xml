@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05431mf::Letterpress Copybooks of Samuel Gompers and William Green, Presidents on Microfilm.)//EN">KCL05431mf</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05431mf::Letterpress Copybooks of Samuel Gompers and William Green, Presidents on Microfilm.)//EN">KCL05431mf</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the Letterpress Copybooks of Samuel Gompers and William Green,
@@ -25,21 +25,27 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>March 12,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
             <titleproper>Guide to the Letterpress Copybooks of Samuel Gompers and William Green,
-                Presidents on Microfilm<lb/></titleproper>
+                Presidents on Microfilm</titleproper>
             <num>Collection Number: 5431 mf</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -58,18 +64,18 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">Letterpress Copybooks of Samuel
-                Gompers and William Green, Presidents on Microfilm, <unitdate encodinganalog="MARC 245$f">1908-1925</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">Letterpress Copybooks of Samuel
+                Gompers and William Green, Presidents on Microfilm, 1908-1925
+            </unittitle><unitdate encodinganalog="MARC 245$f">1908-1925</unitdate>
             <unitid label="Collection Number:">5431 mf</unitid>
             <origination label="Creator:">
                 <corpname encodinganalog="MARC 110" role="creator">American Federation of Labor
-                    (AFL)</corpname>;<lb/>
-                <persname encodinganalog="MARC 100" role="creator"> Gompers, Samuel</persname>;<lb/>
+                    (AFL)</corpname>;
+                <persname encodinganalog="MARC 100" role="creator"> Gompers, Samuel</persname>;
                 <persname encodinganalog="MARC 100" role="creator"> Green, William</persname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">343 microfilm reels</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">343 microfilm reels</physdesc>
             <physdesc label="Forms of Material:">Records (documents), microfilm.</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -79,7 +85,7 @@
             </langmaterial>
         <physdesc><extent>38.11 cubic feet</extent></physdesc></did>
         <bioghist encodinganalog="MARC 545">
-            <head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+            
             <p>The American Federation of Labor (AFL) was the first federation of labor unions in
                 the United States. It was founded in May of 1886 in Columbus, Ohio. Samuel Gompers
                 of the Cigar Makers' International Union was elected president every year except one
@@ -90,7 +96,7 @@
                 federation of unions which remains today.</p>
         </bioghist>
         <scopecontent encodinganalog="MARC 520">
-            <head id="a3">COLLECTION DESCRIPTION</head>
+            
             <p>Correspondence relating to the establishment of the Federation and Gompers early
                 involvement with American and international socialism and his eventual
                 disenchantment with the American movement. Documentation of particular strikes to be
@@ -98,156 +104,156 @@
                 Files, 1893-1953</p>
         </scopecontent>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <persname encodinganalog="MARC 600">Gompers, Samuel, 1850-1924 </persname>
                 <persname encodinganalog="MARC 600">Green, William, 1872-1952 </persname>
                 <corpname encodinganalog="MARC 610">American Federation of Labor. </corpname>
             </controlaccess>
             <controlaccess>
-                <head>Subjects: </head>
+                
                 <subject encodinganalog="MARC 650">Labor leaders -- United States. </subject>
             </controlaccess>
             <controlaccess>
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>Letterpress Copybooks of Samuel Gompers and William Green, Presidents on
                     Microfilm #5431 mf. Kheel Center for Labor-Management Documentation and
                     Archives, Cornell University Library.</p>
             </prefercite>
         </descgrp>
         <relatedmaterial>
-            <head id="a6">RELATED MATERIALS</head>
-            <p>Related Collections:<lb/>
+            
+            <p>Related Collections:
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05402mf.html"> 5402 mf:
                     Correspondence of American Federation of Labor President William Green on
-                    Microfilm</extref><lb/>
+                    Microfilm</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05760mf.html"> 5760 mf:
-                    American Federation of Labor Records, Part 2 on Microfilm</extref><lb/>
+                    American Federation of Labor Records, Part 2 on Microfilm</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05761mf.html"> 5761 mf:
-                    William Green Papers on Microfilm</extref><lb/>
+                    William Green Papers on Microfilm</extref>
             </p>
         </relatedmaterial>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="file">
                 <did>
-                    <container type="reel">1-2</container>
+                    <container label="unspecified" type="reel">1-2</container>
                     <unittitle id="link8">Samuel Gompers Letter books vol. 1-2 -
                         9/21/1883-1888</unittitle>
-                    <unitdate type="inclusive" normal="1883/1888">1883-1888</unitdate></did>
+                    <unitdate normal="1883/1888" type="inclusive">1883-1888</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">3</container>
+                    <container label="unspecified" type="reel">3</container>
                     <unittitle id="link9">Samuel Gompers Letter books vol. 3 -
                         9/12/1888-7/9/1889</unittitle>
-                    <unitdate type="inclusive" normal="1888/1889">1888-1889</unitdate></did>
+                    <unitdate normal="1888/1889" type="inclusive">1888-1889</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">4</container>
+                    <container label="unspecified" type="reel">4</container>
                     <unittitle id="link10">Samuel Gompers Letter books vol. 4 -
                         7/19/1889-8/7/1890</unittitle>
-                    <unitdate type="inclusive" normal="1889/1890">1889-1890</unitdate></did>
+                    <unitdate normal="1889/1890" type="inclusive">1889-1890</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">5</container>
+                    <container label="unspecified" type="reel">5</container>
                     <unittitle id="link11">Samuel Gompers Letter books vol. 5 -
                         8/7/1890-6/30/1891</unittitle>
-                    <unitdate type="inclusive" normal="1890/1891">1890-1891</unitdate></did>
+                    <unitdate normal="1890/1891" type="inclusive">1890-1891</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">6</container>
+                    <container label="unspecified" type="reel">6</container>
                     <unittitle id="link12">Samuel Gompers Letter books vol. 6 -
                         6/30/1891-2/2/1892</unittitle>
-                    <unitdate type="inclusive" normal="1891/1892">1891-1892</unitdate></did>
+                    <unitdate normal="1891/1892" type="inclusive">1891-1892</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">7-8</container>
+                    <container label="unspecified" type="reel">7-8</container>
                     <unittitle id="link13">Samuel Gompers Letter books vol. 7-8 -
                         2/3/1892-3/20/1893</unittitle>
-                    <unitdate type="inclusive" normal="1892/1893">1892-1893</unitdate></did>
+                    <unitdate normal="1892/1893" type="inclusive">1892-1893</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">9-10</container>
+                    <container label="unspecified" type="reel">9-10</container>
                     <unittitle id="link14">Samuel Gompers Letter books vol. 9-10 -
                         3/21/1893-4/21/1894</unittitle>
-                    <unitdate type="inclusive" normal="1893/1894">1893-1894</unitdate></did>
+                    <unitdate normal="1893/1894" type="inclusive">1893-1894</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">11-12</container>
+                    <container label="unspecified" type="reel">11-12</container>
                     <unittitle id="link15">Samuel Gompers Letter books vol. 11-12 -
                         4/23/1894-11/4/1895</unittitle>
-                    <unitdate type="inclusive" normal="1894/1895">1894-1895</unitdate></did>
+                    <unitdate normal="1894/1895" type="inclusive">1894-1895</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">13-15</container>
+                    <container label="unspecified" type="reel">13-15</container>
                     <unittitle id="link16">Samuel Gompers Letter books vol. 13-15 -
                         2/28/1895-7/29/1896</unittitle>
-                    <unitdate type="inclusive" normal="1895/1896">1895-1896</unitdate></did>
+                    <unitdate normal="1895/1896" type="inclusive">1895-1896</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">16-17</container>
+                    <container label="unspecified" type="reel">16-17</container>
                     <unittitle id="link17">Samuel Gompers Letter books vol. 16-17 -
                         7/29/1896-2/5/1897</unittitle>
-                    <unitdate type="inclusive" normal="1896/1897">1896-1897</unitdate></did>
+                    <unitdate normal="1896/1897" type="inclusive">1896-1897</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">18-19</container>
+                    <container label="unspecified" type="reel">18-19</container>
                     <unittitle id="link18">Samuel Gompers Letter books vol. 18-19 -
                         2/5/1897-5/18/1897</unittitle>
                     <unitdate normal="1897">1897</unitdate></did>
@@ -257,7 +263,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">20</container>
+                    <container label="unspecified" type="reel">20</container>
                     <unittitle id="link19">Samuel Gompers Letter books vol. 20 -
                         5/19/1897-8/24/1897</unittitle>
                     <unitdate normal="1897">1897</unitdate></did>
@@ -267,7 +273,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">21</container>
+                    <container label="unspecified" type="reel">21</container>
                     <unittitle id="link20">Samuel Gompers Letter books vol. 21 -
                         8/25/1897-11/19/1897</unittitle>
                     <unitdate normal="1897">1897</unitdate></did>
@@ -277,17 +283,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">22</container>
+                    <container label="unspecified" type="reel">22</container>
                     <unittitle id="link21">Samuel Gompers Letter books vol. 22 -
                         11/19/1897-3/15/1898</unittitle>
-                    <unitdate type="inclusive" normal="1897/1898">1897-1898</unitdate></did>
+                    <unitdate normal="1897/1898" type="inclusive">1897-1898</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">23</container>
+                    <container label="unspecified" type="reel">23</container>
                     <unittitle id="link22">Samuel Gompers Letter books vol. 23 -
                         3/15/1898-6/20/1898</unittitle>
                     <unitdate normal="1898">1898</unitdate></did>
@@ -297,7 +303,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">24</container>
+                    <container label="unspecified" type="reel">24</container>
                     <unittitle id="link23">Samuel Gompers Letter books vol. 24 -
                         10/7/1898-1/21/1899</unittitle>
                     <unitdate normal="1899">1899</unitdate></did>
@@ -307,17 +313,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">25</container>
+                    <container label="unspecified" type="reel">25</container>
                     <unittitle id="link24">Samuel Gompers Letter books vol. 25 -
                         10/7/1898-1/21/1899</unittitle>
-                    <unitdate type="inclusive" normal="1898/1899">1898-1899</unitdate></did>
+                    <unitdate normal="1898/1899" type="inclusive">1898-1899</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">26-27</container>
+                    <container label="unspecified" type="reel">26-27</container>
                     <unittitle id="link25">Samuel Gompers Letter books vol. 26-27 -
                         1/21/1899-4/11/1899</unittitle>
                     <unitdate normal="1899">1899</unitdate></did>
@@ -327,7 +333,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">28</container>
+                    <container label="unspecified" type="reel">28</container>
                     <unittitle id="link26">Samuel Gompers Letter books vol. 28 -
                         4/13/1899-7/22/1899</unittitle>
                     <unitdate normal="1899">1899</unitdate></did>
@@ -337,7 +343,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">29</container>
+                    <container label="unspecified" type="reel">29</container>
                     <unittitle id="link27">Samuel Gompers Letter books vol. 29 -
                         7/22/1899-9/26/1899</unittitle>
                     <unitdate normal="1899">1899</unitdate></did>
@@ -347,7 +353,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">30</container>
+                    <container label="unspecified" type="reel">30</container>
                     <unittitle id="link28">Samuel Gompers Letter books vol. 30 -
                         9/26/1899-12/1/1899</unittitle>
                     <unitdate normal="1899">1899</unitdate></did>
@@ -357,7 +363,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">31-32</container>
+                    <container label="unspecified" type="reel">31-32</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link29">Samuel Gompers Letter books vol. 31-32 - 11/27/99 -
                         3/14/99</unittitle>
@@ -368,7 +374,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">31-32</container>
+                    <container label="unspecified" type="reel">31-32</container>
                     <unitid label="Item ">2</unitid>
                     <unittitle id="link30">Samuel Gompers Letter books vol. 31-32 -
                         11/27/1899-3/14/1/899</unittitle>
@@ -379,7 +385,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">33</container>
+                    <container label="unspecified" type="reel">33</container>
                     <unittitle id="link31">Samuel Gompers Letter books vol. 33 -
                         3/14/1900-5/5/1900</unittitle>
                     <unitdate normal="1900">1900</unitdate></did>
@@ -389,7 +395,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">34-35</container>
+                    <container label="unspecified" type="reel">34-35</container>
                     <unittitle id="link32">Samuel Gompers Letter books vol. 34-35 -
                         5/7/1900-6/7/1900</unittitle>
                     <unitdate normal="1900">1900</unitdate></did>
@@ -399,7 +405,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">36</container>
+                    <container label="unspecified" type="reel">36</container>
                     <unittitle id="link33">Samuel Gompers Letter books vol. 36 -
                         7/13/1900-9/5/1900</unittitle>
                     <unitdate normal="1900">1900</unitdate></did>
@@ -409,7 +415,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">37</container>
+                    <container label="unspecified" type="reel">37</container>
                     <unittitle id="link34">Samuel Gompers Letter books vol. 37 -
                         9/6/1900-10/26/1900</unittitle>
                     <unitdate normal="1900">1900</unitdate></did>
@@ -419,7 +425,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">38-39</container>
+                    <container label="unspecified" type="reel">38-39</container>
                     <unittitle id="link35">Samuel Gompers Letter books vol. 38-39 -
                         10/27/1900-12/11/1900</unittitle>
                     <unitdate normal="1900">1900</unitdate></did>
@@ -429,7 +435,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">40</container>
+                    <container label="unspecified" type="reel">40</container>
                     <unittitle id="link36">Samuel Gompers Letter books vol. 40 -
                         1/2/1901-2/18/1901</unittitle>
                     <unitdate normal="1901">1901</unitdate></did>
@@ -439,7 +445,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">41</container>
+                    <container label="unspecified" type="reel">41</container>
                     <unittitle id="link37">Samuel Gompers Letter books vol. 41 -
                         2/18/1901-4/4/1901</unittitle>
                     <unitdate normal="1901">1901</unitdate></did>
@@ -449,7 +455,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">42</container>
+                    <container label="unspecified" type="reel">42</container>
                     <unittitle id="link38">Samuel Gompers Letter books vol. 42 -
                         4/4/1901-5/10/1901</unittitle>
                     <unitdate normal="1901">1901</unitdate></did>
@@ -459,7 +465,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">43</container>
+                    <container label="unspecified" type="reel">43</container>
                     <unitid label="Item ">1</unitid>
                     <unittitle id="link39">Samuel Gompers Letter books vol. 43 -
                         5/10/1901-6/18/1901</unittitle>
@@ -470,7 +476,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">43</container>
+                    <container label="unspecified" type="reel">43</container>
                     <unitid label="Item ">2</unitid>
                     <unittitle id="link40">Samuel Gompers Letter books vol. 44 -
                         6/18/1901-7/12/1901</unittitle>
@@ -481,7 +487,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">44</container>
+                    <container label="unspecified" type="reel">44</container>
                     <unittitle id="link41">Samuel Gompers Letter books vol. 44 -
                         6/18/1901-7/12/1901</unittitle>
                     <unitdate normal="1901">1901</unitdate></did>
@@ -491,7 +497,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">45</container>
+                    <container label="unspecified" type="reel">45</container>
                     <unittitle id="link42">Samuel Gompers Letter books vol. 45 -
                         7/12/1901-8/27/1901</unittitle>
                     <unitdate normal="1901">1901</unitdate></did>
@@ -501,7 +507,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">46</container>
+                    <container label="unspecified" type="reel">46</container>
                     <unittitle id="link43">Samuel Gompers Letter books vol. 46 -
                         8/28/1901-10/15/1901</unittitle>
                     <unitdate normal="1901">1901</unitdate></did>
@@ -511,7 +517,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">47</container>
+                    <container label="unspecified" type="reel">47</container>
                     <unittitle id="link44">Samuel Gompers Letter books vol. 47 -
                         10/15/1901-11/12/1901</unittitle>
                     <unitdate normal="1901">1901</unitdate></did>
@@ -521,7 +527,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">48</container>
+                    <container label="unspecified" type="reel">48</container>
                     <unittitle id="link45">Samuel Gompers Letter books vol. 48 -
                         11/12/1901-12/16/1901</unittitle>
                     <unitdate normal="1901">1901</unitdate></did>
@@ -531,7 +537,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">49</container>
+                    <container label="unspecified" type="reel">49</container>
                     <unittitle id="link46">Samuel Gompers Letter books vol. 49 -
                         12/2/1901-12/31/1901</unittitle>
                     <unitdate normal="1901">1901</unitdate></did>
@@ -541,7 +547,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">50</container>
+                    <container label="unspecified" type="reel">50</container>
                     <unittitle id="link47">Samuel Gompers Letter books vol. 50 -
                         1/2/1902-1/24/1902</unittitle>
                     <unitdate normal="1902">1902</unitdate></did>
@@ -551,7 +557,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">51</container>
+                    <container label="unspecified" type="reel">51</container>
                     <unittitle id="link48">Samuel Gompers Letter books vol. 51 -
                         1/24/1902-2/15/1902</unittitle>
                     <unitdate normal="1902">1902</unitdate></did>
@@ -561,7 +567,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">52</container>
+                    <container label="unspecified" type="reel">52</container>
                     <unittitle id="link49">Samuel Gompers Letter books vol. 52 -
                         2/15/1902-3/11/1902</unittitle>
                     <unitdate normal="1902">1902</unitdate></did>
@@ -571,7 +577,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">53</container>
+                    <container label="unspecified" type="reel">53</container>
                     <unittitle id="link50">Samuel Gompers Letter books vol. 53 -
                         3/11/1902-4/3/1902</unittitle>
                     <unitdate normal="1902">1902</unitdate></did>
@@ -581,7 +587,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">54</container>
+                    <container label="unspecified" type="reel">54</container>
                     <unittitle id="link51">Samuel Gompers Letter books vol. 54 -
                         3/31/1902-4/26/1902</unittitle>
                     <unitdate normal="1902">1902</unitdate></did>
@@ -591,7 +597,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">55</container>
+                    <container label="unspecified" type="reel">55</container>
                     <unittitle id="link52">Samuel Gompers Letter books vol. 55 -
                         4/28/1902-5/22/1902</unittitle>
                     <unitdate normal="1902">1902</unitdate></did>
@@ -601,7 +607,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">56</container>
+                    <container label="unspecified" type="reel">56</container>
                     <unittitle id="link53">Samuel Gompers Letter books vol. 56 -
                         5/22/1902-6/14/1902</unittitle>
                     <unitdate normal="1902">1902</unitdate></did>
@@ -611,7 +617,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">57</container>
+                    <container label="unspecified" type="reel">57</container>
                     <unittitle id="link54">Samuel Gompers Letter books vol. 57 -
                         6/14/1902-7/10/1902</unittitle>
                     <unitdate normal="1902">1902</unitdate></did>
@@ -621,7 +627,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">58</container>
+                    <container label="unspecified" type="reel">58</container>
                     <unittitle id="link55">Samuel Gompers Letter books vol. 58 -
                         7/10/1902-8/21/1902</unittitle>
                     <unitdate normal="1902">1902</unitdate></did>
@@ -631,7 +637,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">59</container>
+                    <container label="unspecified" type="reel">59</container>
                     <unittitle id="link56">Samuel Gompers Letter books vol. 59 -
                         8/21/1902-9/23/1902</unittitle>
                     <unitdate normal="1902">1902</unitdate></did>
@@ -641,7 +647,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">60</container>
+                    <container label="unspecified" type="reel">60</container>
                     <unittitle id="link57">Samuel Gompers Letter books vol. 60 -
                         9/23/1902-10/18/1902</unittitle>
                     <unitdate normal="1902">1902</unitdate></did>
@@ -651,7 +657,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">61</container>
+                    <container label="unspecified" type="reel">61</container>
                     <unittitle id="link58">Samuel Gompers Letter books vol. 61 -
                         10/20/1902-11/24/1902</unittitle>
                     <unitdate normal="1902">1902</unitdate></did>
@@ -661,7 +667,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">62</container>
+                    <container label="unspecified" type="reel">62</container>
                     <unittitle id="link59">Samuel Gompers Letter books vol. 62 -
                         11/11/1902-12/13/1902</unittitle>
                     <unitdate normal="1902">1902</unitdate></did>
@@ -671,7 +677,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">63</container>
+                    <container label="unspecified" type="reel">63</container>
                     <unittitle id="link60">Samuel Gompers Letter books vol. 63 -
                         12/15/1902-12/31/1902</unittitle>
                     <unitdate normal="1902">1902</unitdate></did>
@@ -681,7 +687,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">64</container>
+                    <container label="unspecified" type="reel">64</container>
                     <unittitle id="link61">Samuel Gompers Letter books vol. 64 -
                         1/2/1903-1/22/1903</unittitle>
                     <unitdate normal="1903">1903</unitdate></did>
@@ -691,7 +697,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">65</container>
+                    <container label="unspecified" type="reel">65</container>
                     <unittitle id="link62">Samuel Gompers Letter books vol. 65 -
                         1/22/1903-2/10/1903</unittitle>
                     <unitdate normal="1903">1903</unitdate></did>
@@ -701,7 +707,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">66</container>
+                    <container label="unspecified" type="reel">66</container>
                     <unittitle id="link63">Samuel Gompers Letter books vol. 66 -
                         2/11/1903-2/28/1903</unittitle>
                     <unitdate normal="1903">1903</unitdate></did>
@@ -711,7 +717,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">67</container>
+                    <container label="unspecified" type="reel">67</container>
                     <unittitle id="link64">Samuel Gompers Letter books vol. 67 -
                         3/2/1903-3/16/1903</unittitle>
                     <unitdate normal="1903">1903</unitdate></did>
@@ -721,7 +727,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">68</container>
+                    <container label="unspecified" type="reel">68</container>
                     <unittitle id="link65">Samuel Gompers Letter books vol. 68 -
                         3/17/1903-4/1/1903</unittitle>
                     <unitdate normal="1903">1903</unitdate></did>
@@ -731,7 +737,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">69</container>
+                    <container label="unspecified" type="reel">69</container>
                     <unittitle id="link66">Samuel Gompers Letter books vol. 69 -
                         4/1/1903-4/16/1903</unittitle>
                     <unitdate normal="1903">1903</unitdate></did>
@@ -741,7 +747,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">70</container>
+                    <container label="unspecified" type="reel">70</container>
                     <unittitle id="link67">Samuel Gompers Letter books vol. 70 -
                         4/16/1903-4/22/1903</unittitle>
                     <unitdate normal="1903">1903</unitdate></did>
@@ -751,7 +757,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">71</container>
+                    <container label="unspecified" type="reel">71</container>
                     <unittitle id="link68">Samuel Gompers Letter books vol. 71 -
                         4/22/1903-5/16/1903</unittitle>
                     <unitdate normal="1903">1903</unitdate></did>
@@ -761,7 +767,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">72</container>
+                    <container label="unspecified" type="reel">72</container>
                     <unittitle id="link69">Samuel Gompers Letter books vol. 72 -
                         5/15/1903-6/2/1903</unittitle>
                     <unitdate normal="1903">1903</unitdate></did>
@@ -771,7 +777,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">73</container>
+                    <container label="unspecified" type="reel">73</container>
                     <unittitle id="link70">Samuel Gompers Letter books vol. 73 -
                         6/2/1903-6/20/1903</unittitle>
                     <unitdate normal="1903">1903</unitdate></did>
@@ -781,7 +787,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">74</container>
+                    <container label="unspecified" type="reel">74</container>
                     <unittitle id="link71">Samuel Gompers Letter books vol. 74 -
                         6/22/1903-7/16/2903</unittitle>
                     <unitdate normal="1903">1903</unitdate></did>
@@ -791,7 +797,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">75</container>
+                    <container label="unspecified" type="reel">75</container>
                     <unittitle id="link72">Samuel Gompers Letter books vol. 75 -
                         7/16/1903-8/6/2903</unittitle>
                     <unitdate normal="1903">1903</unitdate></did>
@@ -801,7 +807,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">76</container>
+                    <container label="unspecified" type="reel">76</container>
                     <unittitle id="link73">Samuel Gompers Letter books vol. 76 -
                         8/3/1903-8/22/1903</unittitle>
                     <unitdate normal="1903">1903</unitdate></did>
@@ -811,7 +817,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">77</container>
+                    <container label="unspecified" type="reel">77</container>
                     <unittitle id="link74">Samuel Gompers Letter books vol. 77 -
                         8/22/1903-9/12/1903</unittitle>
                     <unitdate normal="1903">1903</unitdate></did>
@@ -821,7 +827,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">78</container>
+                    <container label="unspecified" type="reel">78</container>
                     <unittitle id="link75">Samuel Gompers Letter books vol. 78 -
                         9/12/1903-10/5/1903</unittitle>
                     <unitdate normal="1903">1903</unitdate></did>
@@ -831,7 +837,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">79</container>
+                    <container label="unspecified" type="reel">79</container>
                     <unittitle id="link76">Samuel Gompers Letter books vol. 79 -
                         10/5/1903-10/27/1903</unittitle>
                     <unitdate normal="1903">1903</unitdate></did>
@@ -841,7 +847,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">80</container>
+                    <container label="unspecified" type="reel">80</container>
                     <unittitle id="link77">Samuel Gompers Letter books vol. 80 -
                         10/27/1903-11/24/1903</unittitle>
                     <unitdate normal="1903">1903</unitdate></did>
@@ -851,7 +857,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">81</container>
+                    <container label="unspecified" type="reel">81</container>
                     <unittitle id="link78">Samuel Gompers Letter books vol. 81 -
                         11/7/1903-12/12/1903</unittitle>
                     <unitdate normal="1903">1903</unitdate></did>
@@ -861,7 +867,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">82</container>
+                    <container label="unspecified" type="reel">82</container>
                     <unittitle id="link79">Samuel Gompers Letter books vol. 82 -
                         12/11/1903-1/4/1904</unittitle>
                     <unitdate normal="1904">1904</unitdate></did>
@@ -871,7 +877,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">83</container>
+                    <container label="unspecified" type="reel">83</container>
                     <unittitle id="link80">Samuel Gompers Letter books vol. 83 -
                         1/2/1904-1/19/1904</unittitle>
                     <unitdate normal="1904">1904</unitdate></did>
@@ -881,7 +887,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">84</container>
+                    <container label="unspecified" type="reel">84</container>
                     <unittitle id="link81">Samuel Gompers Letter books vol. 84 -
                         1/19/1904-2/5/1904</unittitle>
                     <unitdate normal="1904">1904</unitdate></did>
@@ -891,7 +897,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">85</container>
+                    <container label="unspecified" type="reel">85</container>
                     <unittitle id="link82">Samuel Gompers Letter books vol. 85 -
                         2/5/1904-3/1/1904</unittitle>
                     <unitdate normal="1904">1904</unitdate></did>
@@ -901,7 +907,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">86</container>
+                    <container label="unspecified" type="reel">86</container>
                     <unittitle id="link83">Samuel Gompers Letter books vol. 86 -
                         3/1/1904-4/2/1904</unittitle>
                     <unitdate normal="1904">1904</unitdate></did>
@@ -911,7 +917,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">87</container>
+                    <container label="unspecified" type="reel">87</container>
                     <unittitle id="link84">Samuel Gompers Letter books vol. 87 -
                         4/2/1904-5/2/1904</unittitle>
                     <unitdate normal="1904">1904</unitdate></did>
@@ -921,7 +927,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">88</container>
+                    <container label="unspecified" type="reel">88</container>
                     <unittitle id="link85">Samuel Gompers Letter books vol. 88 -
                         5/2/1904-5/24/1904</unittitle>
                     <unitdate normal="1904">1904</unitdate></did>
@@ -931,7 +937,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">89</container>
+                    <container label="unspecified" type="reel">89</container>
                     <unittitle id="link86">Samuel Gompers Letter books vol. 89 -
                         5/24/1904-6/15/1904</unittitle>
                     <unitdate normal="1904">1904</unitdate></did>
@@ -941,7 +947,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">90</container>
+                    <container label="unspecified" type="reel">90</container>
                     <unittitle id="link87">Samuel Gompers Letter books vol. 90 -
                         6/15/1904-7/15/1904</unittitle>
                     <unitdate normal="1904">1904</unitdate></did>
@@ -951,7 +957,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">91</container>
+                    <container label="unspecified" type="reel">91</container>
                     <unittitle id="link88">Samuel Gompers Letter books vol. 91 -
                         7/15/1904-8/16/1904</unittitle>
                     <unitdate normal="1904">1904</unitdate></did>
@@ -961,7 +967,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">92</container>
+                    <container label="unspecified" type="reel">92</container>
                     <unittitle id="link89">Samuel Gompers Letter books vol. 92 -
                         8/16/1904-9/20/1904</unittitle>
                     <unitdate normal="1904">1904</unitdate></did>
@@ -971,7 +977,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">93</container>
+                    <container label="unspecified" type="reel">93</container>
                     <unittitle id="link90">Samuel Gompers Letter books vol. 93 -
                         9/20/1904-10/22/1904</unittitle>
                     <unitdate normal="1904">1904</unitdate></did>
@@ -981,7 +987,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">94</container>
+                    <container label="unspecified" type="reel">94</container>
                     <unittitle id="link91">Samuel Gompers Letter books vol. 94 -
                         10/22/1904-12/22/1904</unittitle>
                     <unitdate normal="1904">1904</unitdate></did>
@@ -991,7 +997,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">95</container>
+                    <container label="unspecified" type="reel">95</container>
                     <unittitle id="link92">Samuel Gompers Letter books vol. 95 -
                         12/22/1904-1/17/1905</unittitle>
                     <unitdate normal="1905">1905</unitdate></did>
@@ -1001,7 +1007,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">96</container>
+                    <container label="unspecified" type="reel">96</container>
                     <unittitle id="link93">Samuel Gompers Letter books vol. 96 -
                         1/17/1905-2/8/1905</unittitle>
                     <unitdate normal="1905">1905</unitdate></did>
@@ -1011,7 +1017,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">97</container>
+                    <container label="unspecified" type="reel">97</container>
                     <unittitle id="link94">Samuel Gompers Letter books vol. 97 -
                         2/8/1905-3/7/1905</unittitle>
                     <unitdate normal="1905">1905</unitdate></did>
@@ -1021,7 +1027,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">98</container>
+                    <container label="unspecified" type="reel">98</container>
                     <unittitle id="link95">Samuel Gompers Letter books vol. 98 -
                         3/6/1905-4/3/1905</unittitle>
                     <unitdate normal="1905">1905</unitdate></did>
@@ -1031,7 +1037,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">99</container>
+                    <container label="unspecified" type="reel">99</container>
                     <unittitle id="link96">Samuel Gompers Letter books vol. 99 -
                         4/3/1905-4/26/1905</unittitle>
                     <unitdate normal="1905">1905</unitdate></did>
@@ -1041,7 +1047,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">100</container>
+                    <container label="unspecified" type="reel">100</container>
                     <unittitle id="link97">Samuel Gompers Letter books vol. 100 -
                         4/26/1905-5/26/1905</unittitle>
                     <unitdate normal="1905">1905</unitdate></did>
@@ -1051,7 +1057,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">101</container>
+                    <container label="unspecified" type="reel">101</container>
                     <unittitle id="link98">Samuel Gompers Letter books vol. 101 -
                         5/20/1905-7/6/1905</unittitle>
                     <unitdate normal="1905">1905</unitdate></did>
@@ -1061,7 +1067,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">102</container>
+                    <container label="unspecified" type="reel">102</container>
                     <unittitle id="link99">Samuel Gompers Letter books vol. 102 -
                         7/6/1905-8/14/1905</unittitle>
                     <unitdate normal="1905">1905</unitdate></did>
@@ -1071,7 +1077,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">103</container>
+                    <container label="unspecified" type="reel">103</container>
                     <unittitle id="link100">Samuel Gompers Letter books vol. 103 -
                         8/14/1905-9/16/1905</unittitle>
                     <unitdate normal="1905">1905</unitdate></did>
@@ -1081,7 +1087,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">104</container>
+                    <container label="unspecified" type="reel">104</container>
                     <unittitle id="link101">Samuel Gompers Letter books vol. 104 -
                         9/18/1905-10/21/1905</unittitle>
                     <unitdate normal="1905">1905</unitdate></did>
@@ -1091,7 +1097,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">105</container>
+                    <container label="unspecified" type="reel">105</container>
                     <unittitle id="link102">Samuel Gompers Letter books vol. 105 -
                         10/28/1905-12/15/1905</unittitle>
                     <unitdate normal="1905">1905</unitdate></did>
@@ -1101,17 +1107,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">106</container>
+                    <container label="unspecified" type="reel">106</container>
                     <unittitle id="link103">Samuel Gompers Letter books vol. 106 -
                         12/15/1905-1/10/1906</unittitle>
-                    <unitdate type="inclusive" normal="1905/1906">1905-1906</unitdate></did>
+                    <unitdate normal="1905/1906" type="inclusive">1905-1906</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">107</container>
+                    <container label="unspecified" type="reel">107</container>
                     <unittitle id="link104">Samuel Gompers Letter books vol. 107 -
                         1/10/1906-2/9/1906</unittitle>
                     <unitdate normal="1906">1906</unitdate></did>
@@ -1121,7 +1127,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">108</container>
+                    <container label="unspecified" type="reel">108</container>
                     <unittitle id="link105">Samuel Gompers Letter books vol. 108 -
                         2/9/1906-3/10/1906</unittitle>
                     <unitdate normal="1906">1906</unitdate></did>
@@ -1131,7 +1137,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">109</container>
+                    <container label="unspecified" type="reel">109</container>
                     <unittitle id="link106">Samuel Gompers Letter books vol. 109 -
                         3/10/1906-4/4/1906</unittitle>
                     <unitdate normal="1906">1906</unitdate></did>
@@ -1141,7 +1147,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">110</container>
+                    <container label="unspecified" type="reel">110</container>
                     <unittitle id="link107">Samuel Gompers Letter books vol. 110 -
                         4/4/1906-4/30/1906</unittitle>
                     <unitdate normal="1906">1906</unitdate></did>
@@ -1151,7 +1157,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">111</container>
+                    <container label="unspecified" type="reel">111</container>
                     <unittitle id="link108">Samuel Gompers Letter books vol. 111 -
                         4/30/1906-5/28/1906</unittitle>
                     <unitdate normal="1906">1906</unitdate></did>
@@ -1161,7 +1167,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">112</container>
+                    <container label="unspecified" type="reel">112</container>
                     <unittitle id="link109">Samuel Gompers Letter books vol. 112 -
                         5/28/1906-6/27/1906</unittitle>
                     <unitdate normal="1906">1906</unitdate></did>
@@ -1171,17 +1177,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">113</container>
+                    <container label="unspecified" type="reel">113</container>
                     <unittitle id="link110">Samuel Gompers Letter books vol. 113 -
                         6/27/1905-8/1/1906</unittitle>
-                    <unitdate type="inclusive" normal="1905/1906">1905-1906</unitdate></did>
+                    <unitdate normal="1905/1906" type="inclusive">1905-1906</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">114</container>
+                    <container label="unspecified" type="reel">114</container>
                     <unittitle id="link111">Samuel Gompers Letter books vol. 114 -
                         7/31/1906-8/24/1906</unittitle>
                     <unitdate normal="1906">1906</unitdate></did>
@@ -1191,7 +1197,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">115</container>
+                    <container label="unspecified" type="reel">115</container>
                     <unittitle id="link112">Samuel Gompers Letter books vol. 115 -
                         8/23/1906-10/5/1906</unittitle>
                     <unitdate normal="1906">1906</unitdate></did>
@@ -1201,7 +1207,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">116</container>
+                    <container label="unspecified" type="reel">116</container>
                     <unittitle id="link113">Samuel Gompers Letter books vol. 116 -
                         10/5/1906-10/27/1906</unittitle>
                     <unitdate normal="1906">1906</unitdate></did>
@@ -1211,7 +1217,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">117</container>
+                    <container label="unspecified" type="reel">117</container>
                     <unittitle id="link114">Samuel Gompers Letter books vol. 117 -
                         10/27/1906-12/18/1906</unittitle>
                     <unitdate normal="1906">1906</unitdate></did>
@@ -1221,17 +1227,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">118</container>
+                    <container label="unspecified" type="reel">118</container>
                     <unittitle id="link115">Samuel Gompers Letter books vol. 118 -
                         12/18/1906-1/10/1907</unittitle>
-                    <unitdate type="inclusive" normal="1906/1907">1906-1907</unitdate></did>
+                    <unitdate normal="1906/1907" type="inclusive">1906-1907</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">119</container>
+                    <container label="unspecified" type="reel">119</container>
                     <unittitle id="link116">Samuel Gompers Letter books vol. 119 -
                         1/10/1907-2/5/1907</unittitle>
                     <unitdate normal="1907">1907</unitdate></did>
@@ -1241,7 +1247,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">120</container>
+                    <container label="unspecified" type="reel">120</container>
                     <unittitle id="link117">Samuel Gompers Letter books vol. 120 -
                         2/5/1907-2/26/1907</unittitle>
                     <unitdate normal="1907">1907</unitdate></did>
@@ -1251,7 +1257,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">121</container>
+                    <container label="unspecified" type="reel">121</container>
                     <unittitle id="link118">Samuel Gompers Letter books vol. 121 -
                         2/26/1907-3/20/1907</unittitle>
                     <unitdate normal="1907">1907</unitdate></did>
@@ -1261,7 +1267,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">122</container>
+                    <container label="unspecified" type="reel">122</container>
                     <unittitle id="link119">Samuel Gompers Letter books vol. 122 -
                         3/20/1907-4/12/1907</unittitle>
                     <unitdate normal="1907">1907</unitdate></did>
@@ -1271,7 +1277,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">123</container>
+                    <container label="unspecified" type="reel">123</container>
                     <unittitle id="link120">Samuel Gompers Letter books vol. 123 -
                         4/12/1907-5/10/1907</unittitle>
                     <unitdate normal="1907">1907</unitdate></did>
@@ -1281,7 +1287,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">124</container>
+                    <container label="unspecified" type="reel">124</container>
                     <unittitle id="link121">Samuel Gompers Letter books vol. 124 -
                         5/10/1907-6/12/1907</unittitle>
                     <unitdate normal="1907">1907</unitdate></did>
@@ -1291,7 +1297,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">125</container>
+                    <container label="unspecified" type="reel">125</container>
                     <unittitle id="link122">Samuel Gompers Letter books vol. 125 -
                         6/12/1907-7/11/1907</unittitle>
                     <unitdate normal="1907">1907</unitdate></did>
@@ -1301,7 +1307,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">126</container>
+                    <container label="unspecified" type="reel">126</container>
                     <unittitle id="link123">Samuel Gompers Letter books vol. 126 -
                         7/11/1907-8/20/1907</unittitle>
                     <unitdate normal="1907">1907</unitdate></did>
@@ -1311,7 +1317,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">127</container>
+                    <container label="unspecified" type="reel">127</container>
                     <unittitle id="link124">Samuel Gompers Letter books vol. 127 -
                         8/27/1907-9/21/1907</unittitle>
                     <unitdate normal="1907">1907</unitdate></did>
@@ -1321,7 +1327,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">128</container>
+                    <container label="unspecified" type="reel">128</container>
                     <unittitle id="link125">Samuel Gompers Letter books vol. 128 -
                         9/21/1907-10/16/1907</unittitle>
                     <unitdate normal="1907">1907</unitdate></did>
@@ -1331,7 +1337,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">129</container>
+                    <container label="unspecified" type="reel">129</container>
                     <unittitle id="link126">Samuel Gompers Letter books vol. 129 -
                         10/16/1907-12/2/1907</unittitle>
                     <unitdate normal="1907">1907</unitdate></did>
@@ -1341,7 +1347,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">130</container>
+                    <container label="unspecified" type="reel">130</container>
                     <unittitle id="link127">Samuel Gompers Letter books vol. 130 -
                         12/2/1907-12/28/1907</unittitle>
                     <unitdate normal="1907">1907</unitdate></did>
@@ -1351,17 +1357,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">131</container>
+                    <container label="unspecified" type="reel">131</container>
                     <unittitle id="link128">Samuel Gompers Letter books vol. 131 -
                         12/28/1907-1/21/1908</unittitle>
-                    <unitdate type="inclusive" normal="1907/1908">1907-1908</unitdate></did>
+                    <unitdate normal="1907/1908" type="inclusive">1907-1908</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">132</container>
+                    <container label="unspecified" type="reel">132</container>
                     <unittitle id="link129">Samuel Gompers Letter books vol. 132 -
                         1/20/1908-2/17/1908</unittitle>
                     <unitdate normal="1908">1908</unitdate></did>
@@ -1371,7 +1377,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">133</container>
+                    <container label="unspecified" type="reel">133</container>
                     <unittitle id="link130">Samuel Gompers Letter books vol. 133 -
                         2/17/1908-3/11/1908</unittitle>
                     <unitdate normal="1908">1908</unitdate></did>
@@ -1381,7 +1387,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">134</container>
+                    <container label="unspecified" type="reel">134</container>
                     <unittitle id="link131">Samuel Gompers Letter books vol. 134 -
                         3/11/1908-4/3/1908</unittitle>
                     <unitdate normal="1908">1908</unitdate></did>
@@ -1391,7 +1397,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">135</container>
+                    <container label="unspecified" type="reel">135</container>
                     <unittitle id="link132">Samuel Gompers Letter books vol. 135 -
                         4/3/1908-4/30/1908</unittitle>
                     <unitdate normal="1908">1908</unitdate></did>
@@ -1401,7 +1407,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">136</container>
+                    <container label="unspecified" type="reel">136</container>
                     <unittitle id="link133">Samuel Gompers Letter books vol. 136 -
                         4/30/1908-5/29/1908</unittitle>
                     <unitdate normal="1908">1908</unitdate></did>
@@ -1411,7 +1417,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">137</container>
+                    <container label="unspecified" type="reel">137</container>
                     <unittitle id="link134">Samuel Gompers Letter books vol. 137 -
                         5/28/1908-7/2/1908</unittitle>
                     <unitdate normal="1908">1908</unitdate></did>
@@ -1421,7 +1427,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">138</container>
+                    <container label="unspecified" type="reel">138</container>
                     <unittitle id="link135">Samuel Gompers Letter books vol. 138 -
                         7/2/1908-8/6/1908</unittitle>
                     <unitdate normal="1908">1908</unitdate></did>
@@ -1431,7 +1437,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">139</container>
+                    <container label="unspecified" type="reel">139</container>
                     <unittitle id="link136">Samuel Gompers Letter books vol. 139 -
                         8/5/1908-9/2/1908</unittitle>
                     <unitdate normal="1908">1908</unitdate></did>
@@ -1441,7 +1447,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">140</container>
+                    <container label="unspecified" type="reel">140</container>
                     <unittitle id="link137">Samuel Gompers Letter books vol. 140 -
                         9/1/1908-9/3/1908</unittitle>
                     <unitdate normal="1908">1908</unitdate></did>
@@ -1451,7 +1457,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">141</container>
+                    <container label="unspecified" type="reel">141</container>
                     <unittitle id="link138">Samuel Gompers Letter books vol. 141 -
                         9/29/1908-10/29/1908</unittitle>
                     <unitdate normal="1908">1908</unitdate></did>
@@ -1461,7 +1467,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">142</container>
+                    <container label="unspecified" type="reel">142</container>
                     <unittitle id="link139">Samuel Gompers Letter books vol. 142 -
                         10/22/1908-12/9/1908</unittitle>
                     <unitdate normal="1908">1908</unitdate></did>
@@ -1471,17 +1477,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">143</container>
+                    <container label="unspecified" type="reel">143</container>
                     <unittitle id="link140">Samuel Gompers Letter books vol. 143 -
                         12/9/1908-1/7/1909</unittitle>
-                    <unitdate type="inclusive" normal="1908/1909">1908-1909</unitdate></did>
+                    <unitdate normal="1908/1909" type="inclusive">1908-1909</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">144</container>
+                    <container label="unspecified" type="reel">144</container>
                     <unittitle id="link141">Samuel Gompers Letter books vol. 144 -
                         1/8/1909-2/10/1909</unittitle>
                     <unitdate normal="1909">1909</unitdate></did>
@@ -1491,7 +1497,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">145</container>
+                    <container label="unspecified" type="reel">145</container>
                     <unittitle id="link142">Samuel Gompers Letter books vol. 145 -
                         2/10/1909-3/9/1909</unittitle>
                     <unitdate normal="1909">1909</unitdate></did>
@@ -1501,7 +1507,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">146</container>
+                    <container label="unspecified" type="reel">146</container>
                     <unittitle id="link143">Samuel Gompers Letter books vol. 146 -
                         3/8/1909-4/1/1909</unittitle>
                     <unitdate normal="1909">1909</unitdate></did>
@@ -1511,7 +1517,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">147</container>
+                    <container label="unspecified" type="reel">147</container>
                     <unittitle id="link144">Samuel Gompers Letter books vol. 147 -
                         4/1/1909-5/6/1909</unittitle>
                     <unitdate normal="1909">1909</unitdate></did>
@@ -1521,7 +1527,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">148</container>
+                    <container label="unspecified" type="reel">148</container>
                     <unittitle id="link145">Samuel Gompers Letter books vol. 148 -
                         5/5/1909-6/5/1909</unittitle>
                     <unitdate normal="1909">1909</unitdate></did>
@@ -1531,7 +1537,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">149</container>
+                    <container label="unspecified" type="reel">149</container>
                     <unittitle id="link146">Samuel Gompers Letter books vol. 149 -
                         6/5/1909-8/6/1909</unittitle>
                     <unitdate normal="1909">1909</unitdate></did>
@@ -1541,7 +1547,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">150</container>
+                    <container label="unspecified" type="reel">150</container>
                     <unittitle id="link147">Samuel Gompers Letter books vol. 150 -
                         8/6/1909-11/24/1909</unittitle>
                     <unitdate normal="1909">1909</unitdate></did>
@@ -1551,7 +1557,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">151</container>
+                    <container label="unspecified" type="reel">151</container>
                     <unittitle id="link148">Samuel Gompers Letter books vol. 151 -
                         11/9/1909-12/22/1909</unittitle>
                     <unitdate normal="1909">1909</unitdate></did>
@@ -1561,17 +1567,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">152</container>
+                    <container label="unspecified" type="reel">152</container>
                     <unittitle id="link149">Samuel Gompers Letter books vol. 152 -
                         12/13/1909-2/1/1910</unittitle>
-                    <unitdate type="inclusive" normal="1909/1910">1909-1910</unitdate></did>
+                    <unitdate normal="1909/1910" type="inclusive">1909-1910</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">153</container>
+                    <container label="unspecified" type="reel">153</container>
                     <unittitle id="link150">Samuel Gompers Letter books vol. 153 -
                         2/1/1910-2/24/1910</unittitle>
                     <unitdate normal="1910">1910</unitdate></did>
@@ -1581,7 +1587,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">154</container>
+                    <container label="unspecified" type="reel">154</container>
                     <unittitle id="link151">Samuel Gompers Letter books vol. 154 -
                         2/24/1910-3/24/1910</unittitle>
                     <unitdate normal="1910">1910</unitdate></did>
@@ -1591,7 +1597,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">155</container>
+                    <container label="unspecified" type="reel">155</container>
                     <unittitle id="link152">Samuel Gompers Letter books vol. 155 -
                         3/25/1910-4/23/1910</unittitle>
                     <unitdate normal="1910">1910</unitdate></did>
@@ -1601,7 +1607,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">156</container>
+                    <container label="unspecified" type="reel">156</container>
                     <unittitle id="link153">Samuel Gompers Letter books vol. 156 -
                         4/25/1910-5/24/1910</unittitle>
                     <unitdate normal="1910">1910</unitdate></did>
@@ -1611,7 +1617,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">157</container>
+                    <container label="unspecified" type="reel">157</container>
                     <unittitle id="link154">Samuel Gompers Letter books vol. 157 -
                         5/24/1910-7/6/1910</unittitle>
                     <unitdate normal="1910">1910</unitdate></did>
@@ -1621,7 +1627,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">158</container>
+                    <container label="unspecified" type="reel">158</container>
                     <unittitle id="link155">Samuel Gompers Letter books vol. 158 -
                         7/6/1910-7/30/1910</unittitle>
                     <unitdate normal="1910">1910</unitdate></did>
@@ -1631,7 +1637,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">159</container>
+                    <container label="unspecified" type="reel">159</container>
                     <unittitle id="link156">Samuel Gompers Letter books vol. 159 -
                         7/30/1910-8/30/1910</unittitle>
                     <unitdate normal="1910">1910</unitdate></did>
@@ -1641,7 +1647,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">160</container>
+                    <container label="unspecified" type="reel">160</container>
                     <unittitle id="link157">Samuel Gompers Letter books vol. 160 -
                         8/30/1910-9/28/1910</unittitle>
                     <unitdate normal="1910">1910</unitdate></did>
@@ -1651,7 +1657,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">161</container>
+                    <container label="unspecified" type="reel">161</container>
                     <unittitle id="link158">Samuel Gompers Letter books vol. 161 -
                         9/28/1910-10/26/1910</unittitle>
                     <unitdate normal="1910">1910</unitdate></did>
@@ -1661,7 +1667,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">162</container>
+                    <container label="unspecified" type="reel">162</container>
                     <unittitle id="link159">Samuel Gompers Letter books vol. 162 -
                         10/26/1910-11/14/1910</unittitle>
                     <unitdate normal="1910">1910</unitdate></did>
@@ -1671,7 +1677,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">163</container>
+                    <container label="unspecified" type="reel">163</container>
                     <unittitle id="link160">Samuel Gompers Letter books vol. 163 -
                         11/14/1910-12/24/1910</unittitle>
                     <unitdate normal="1910">1910</unitdate></did>
@@ -1681,17 +1687,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">164</container>
+                    <container label="unspecified" type="reel">164</container>
                     <unittitle id="link161">Samuel Gompers Letter books vol. 164 -
                         12/14/1910-1/28/1911</unittitle>
-                    <unitdate type="inclusive" normal="1910/1911">1910-1911</unitdate></did>
+                    <unitdate normal="1910/1911" type="inclusive">1910-1911</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">165</container>
+                    <container label="unspecified" type="reel">165</container>
                     <unittitle id="link162">Samuel Gompers Letter books vol. 165 -
                         1/30/1911-2/27/1911</unittitle>
                     <unitdate normal="1911">1911</unitdate></did>
@@ -1701,7 +1707,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">166</container>
+                    <container label="unspecified" type="reel">166</container>
                     <unittitle id="link163">Samuel Gompers Letter books vol. 166 -
                         2/27/1911-3/25/1911</unittitle>
                     <unitdate normal="1911">1911</unitdate></did>
@@ -1711,7 +1717,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">167</container>
+                    <container label="unspecified" type="reel">167</container>
                     <unittitle id="link164">Samuel Gompers Letter books vol. 167 -
                         3/25/1911-4/30/1911</unittitle>
                     <unitdate normal="1911">1911</unitdate></did>
@@ -1721,7 +1727,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">168</container>
+                    <container label="unspecified" type="reel">168</container>
                     <unittitle id="link165">Samuel Gompers Letter books vol. 168 -
                         4/20/1911-5/27/1911</unittitle>
                     <unitdate normal="1911">1911</unitdate></did>
@@ -1731,7 +1737,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">169</container>
+                    <container label="unspecified" type="reel">169</container>
                     <unittitle id="link166">Samuel Gompers Letter books vol. 169 -
                         5/27/1911-7/7/1911</unittitle>
                     <unitdate normal="1911">1911</unitdate></did>
@@ -1741,7 +1747,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">170</container>
+                    <container label="unspecified" type="reel">170</container>
                     <unittitle id="link167">Samuel Gompers Letter books vol. 170 -
                         7/7/1911-8/14/1911</unittitle>
                     <unitdate normal="1911">1911</unitdate></did>
@@ -1751,7 +1757,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">171</container>
+                    <container label="unspecified" type="reel">171</container>
                     <unittitle id="link168">Samuel Gompers Letter books vol. 171 -
                         8/14/1911-10/9/1911</unittitle>
                     <unitdate normal="1911">1911</unitdate></did>
@@ -1761,7 +1767,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">172</container>
+                    <container label="unspecified" type="reel">172</container>
                     <unittitle id="link169">Samuel Gompers Letter books vol. 172 -
                         10/9/1911-12/8/1911</unittitle>
                     <unitdate normal="1911">1911</unitdate></did>
@@ -1771,17 +1777,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">173</container>
+                    <container label="unspecified" type="reel">173</container>
                     <unittitle id="link170">Samuel Gompers Letter books vol. 173 -
                         12/6/1911-1/11/1912</unittitle>
-                    <unitdate type="inclusive" normal="1911/1912">1911-1912</unitdate></did>
+                    <unitdate normal="1911/1912" type="inclusive">1911-1912</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">174</container>
+                    <container label="unspecified" type="reel">174</container>
                     <unittitle id="link171">Samuel Gompers Letter books vol. 174 -
                         1/12/1912-2/14/1912</unittitle>
                     <unitdate normal="1912">1912</unitdate></did>
@@ -1791,7 +1797,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">175</container>
+                    <container label="unspecified" type="reel">175</container>
                     <unittitle id="link172">Samuel Gompers Letter books vol. 175 -
                         2/13/1912-3/15/1912</unittitle>
                     <unitdate normal="1912">1912</unitdate></did>
@@ -1801,7 +1807,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">176</container>
+                    <container label="unspecified" type="reel">176</container>
                     <unittitle id="link173">Samuel Gompers Letter books vol. 176 -
                         3/15/1912-4/12/12</unittitle>
                     <unitdate normal="1912">1912</unitdate></did>
@@ -1811,7 +1817,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">177</container>
+                    <container label="unspecified" type="reel">177</container>
                     <unittitle id="link174">Samuel Gompers Letter books vol. 177 -
                         4/12/1912/5/18/1912</unittitle>
                     <unitdate normal="1912">1912</unitdate></did>
@@ -1821,7 +1827,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">178</container>
+                    <container label="unspecified" type="reel">178</container>
                     <unittitle id="link175">Samuel Gompers Letter books vol. 178 -
                         5/17/1912-7/8/1912</unittitle>
                     <unitdate normal="1912">1912</unitdate></did>
@@ -1831,7 +1837,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">179</container>
+                    <container label="unspecified" type="reel">179</container>
                     <unittitle id="link176">Samuel Gompers Letter books vol. 179 -
                         7/9/1912-8/16/1912</unittitle>
                     <unitdate normal="1912">1912</unitdate></did>
@@ -1841,7 +1847,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">180</container>
+                    <container label="unspecified" type="reel">180</container>
                     <unittitle id="link177">Samuel Gompers Letter books vol. 180 -
                         8/17/1912-9/30/1912</unittitle>
                     <unitdate normal="1912">1912</unitdate></did>
@@ -1851,7 +1857,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">181</container>
+                    <container label="unspecified" type="reel">181</container>
                     <unittitle id="link178">Samuel Gompers Letter books vol. 181 -
                         9/30/1912-12/2/1912</unittitle>
                     <unitdate normal="1912">1912</unitdate></did>
@@ -1861,17 +1867,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">182</container>
+                    <container label="unspecified" type="reel">182</container>
                     <unittitle id="link179">Samuel Gompers Letter books vol. 182 -
                         12/3/1912-1/16/1913</unittitle>
-                    <unitdate type="inclusive" normal="1912/1913">1912-1913</unitdate></did>
+                    <unitdate normal="1912/1913" type="inclusive">1912-1913</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">183</container>
+                    <container label="unspecified" type="reel">183</container>
                     <unittitle id="link180">Samuel Gompers Letter books vol. 183 -
                         1/16/1913-2/14/1913</unittitle>
                     <unitdate normal="1913">1913</unitdate></did>
@@ -1881,7 +1887,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">184</container>
+                    <container label="unspecified" type="reel">184</container>
                     <unittitle id="link181">Samuel Gompers Letter books vol. 184 -
                         2/13/1913-3/21/1913</unittitle>
                     <unitdate normal="1913">1913</unitdate></did>
@@ -1891,7 +1897,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">185</container>
+                    <container label="unspecified" type="reel">185</container>
                     <unittitle id="link182">Samuel Gompers Letter books vol. 185 -
                         3/21/1913-4/28/193</unittitle>
                     <unitdate normal="1913">1913</unitdate></did>
@@ -1901,7 +1907,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">186</container>
+                    <container label="unspecified" type="reel">186</container>
                     <unittitle id="link183">Samuel Gompers Letter books vol. 186 -
                         4/28/1913-7/9/1913</unittitle>
                     <unitdate normal="1913">1913</unitdate></did>
@@ -1911,7 +1917,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">187</container>
+                    <container label="unspecified" type="reel">187</container>
                     <unittitle id="link184">Samuel Gompers Letter books vol. 187 - 7/8
                         1913-9/24/1913</unittitle>
                     <unitdate normal="1913">1913</unitdate></did>
@@ -1921,7 +1927,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">188</container>
+                    <container label="unspecified" type="reel">188</container>
                     <unittitle id="link185">Samuel Gompers Letter books vol. 188 -
                         9/25/1913-11/23/1913</unittitle>
                     <unitdate normal="1913">1913</unitdate></did>
@@ -1931,17 +1937,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">189</container>
+                    <container label="unspecified" type="reel">189</container>
                     <unittitle id="link186">Samuel Gompers Letter books vol. 189 -
                         11/22/1913-1/10/1914</unittitle>
-                    <unitdate type="inclusive" normal="1913/1914">1913-1914</unitdate></did>
+                    <unitdate normal="1913/1914" type="inclusive">1913-1914</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">190</container>
+                    <container label="unspecified" type="reel">190</container>
                     <unittitle id="link187">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 190 - 1/10/1914-2/10/1914</unittitle>
                     <unitdate normal="1914">1914</unitdate></did>
@@ -1951,7 +1957,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">191</container>
+                    <container label="unspecified" type="reel">191</container>
                     <unittitle id="link188">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 191 - 2/9/1914-3/2/1914</unittitle>
                     <unitdate normal="1914">1914</unitdate></did>
@@ -1961,7 +1967,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">192</container>
+                    <container label="unspecified" type="reel">192</container>
                     <unittitle id="link189">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 192 - 2/27/1914-4/10/1914</unittitle>
                     <unitdate normal="1914">1914</unitdate></did>
@@ -1971,7 +1977,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">193</container>
+                    <container label="unspecified" type="reel">193</container>
                     <unittitle id="link190">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 193 - 4/10/1914-5/9/1914</unittitle>
                     <unitdate normal="1914">1914</unitdate></did>
@@ -1981,7 +1987,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">194</container>
+                    <container label="unspecified" type="reel">194</container>
                     <unittitle id="link191">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 194 - 5/9/1914-6/10/1914</unittitle>
                     <unitdate normal="1914">1914</unitdate></did>
@@ -1991,7 +1997,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">195</container>
+                    <container label="unspecified" type="reel">195</container>
                     <unittitle id="link192">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 195 - 6/10/1914-7/8/1914</unittitle>
                     <unitdate normal="1914">1914</unitdate></did>
@@ -2001,7 +2007,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">196</container>
+                    <container label="unspecified" type="reel">196</container>
                     <unittitle id="link193">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 196 - 7/8/1914-8/6/1914</unittitle>
                     <unitdate normal="1914">1914</unitdate></did>
@@ -2011,7 +2017,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">197</container>
+                    <container label="unspecified" type="reel">197</container>
                     <unittitle id="link194">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 197 - 8/6/1914-9/8/1914</unittitle>
                     <unitdate normal="1914">1914</unitdate></did>
@@ -2021,7 +2027,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">198</container>
+                    <container label="unspecified" type="reel">198</container>
                     <unittitle id="link195">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 198 - 9/2/1914-10/12/1914</unittitle>
                     <unitdate normal="1914">1914</unitdate></did>
@@ -2031,7 +2037,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">199</container>
+                    <container label="unspecified" type="reel">199</container>
                     <unittitle id="link196">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 199 - 10/10/1914-11/30/1914</unittitle>
                     <unitdate normal="1914">1914</unitdate></did>
@@ -2041,7 +2047,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">200</container>
+                    <container label="unspecified" type="reel">200</container>
                     <unittitle id="link197">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 200 - 11/30/1914-12/31/1914</unittitle>
                     <unitdate normal="1914">1914</unitdate></did>
@@ -2051,17 +2057,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">201</container>
+                    <container label="unspecified" type="reel">201</container>
                     <unittitle id="link198">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 201 - 12/31/1914-1/18/1915</unittitle>
-                    <unitdate type="inclusive" normal="1914/1915">1914-1915</unitdate></did>
+                    <unitdate normal="1914/1915" type="inclusive">1914-1915</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">202</container>
+                    <container label="unspecified" type="reel">202</container>
                     <unittitle id="link199">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 202 - 1/28/1915-2/16/1915</unittitle>
                     <unitdate normal="1915">1915</unitdate></did>
@@ -2071,7 +2077,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">203</container>
+                    <container label="unspecified" type="reel">203</container>
                     <unittitle id="link200">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 203 - 2/13/1915-3/18/1915</unittitle>
                     <unitdate normal="1915">1915</unitdate></did>
@@ -2081,7 +2087,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">204</container>
+                    <container label="unspecified" type="reel">204</container>
                     <unittitle id="link201">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 204 - 3/8/1915-4/10/1915</unittitle>
                     <unitdate normal="1915">1915</unitdate></did>
@@ -2091,7 +2097,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">205</container>
+                    <container label="unspecified" type="reel">205</container>
                     <unittitle id="link202">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 205 - 4/12/1915-5/18/1915</unittitle>
                     <unitdate normal="1915">1915</unitdate></did>
@@ -2101,7 +2107,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">206</container>
+                    <container label="unspecified" type="reel">206</container>
                     <unittitle id="link203">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 206 - 5/14/1915-6/17/1915</unittitle>
                     <unitdate normal="1915">1915</unitdate></did>
@@ -2111,7 +2117,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">207</container>
+                    <container label="unspecified" type="reel">207</container>
                     <unittitle id="link204">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 207 - 6/16/1915-7/7/1915</unittitle>
                     <unitdate normal="1915">1915</unitdate></did>
@@ -2121,7 +2127,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">208</container>
+                    <container label="unspecified" type="reel">208</container>
                     <unittitle id="link205">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 208 - 7/7/1915-8/14/1915</unittitle>
                     <unitdate normal="1915">1915</unitdate></did>
@@ -2131,7 +2137,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">209</container>
+                    <container label="unspecified" type="reel">209</container>
                     <unittitle id="link206">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 209 - 8/13/1915-9/13/1915</unittitle>
                     <unitdate normal="1915">1915</unitdate></did>
@@ -2141,7 +2147,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">210</container>
+                    <container label="unspecified" type="reel">210</container>
                     <unittitle id="link207">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 210 - 9/8/1915-10/4/1915</unittitle>
                     <unitdate normal="1915">1915</unitdate></did>
@@ -2151,7 +2157,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">211</container>
+                    <container label="unspecified" type="reel">211</container>
                     <unittitle id="link208">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 211 - 9/30/1915-10/29/1915</unittitle>
                     <unitdate normal="1915">1915</unitdate></did>
@@ -2161,7 +2167,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">212</container>
+                    <container label="unspecified" type="reel">212</container>
                     <unittitle id="link209">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 212 - 10/29/1915-12/24/1915</unittitle>
                     <unitdate normal="1915">1915</unitdate></did>
@@ -2171,17 +2177,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">213</container>
+                    <container label="unspecified" type="reel">213</container>
                     <unittitle id="link210">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 213 - 12/22/1915-1/11/1916</unittitle>
-                    <unitdate type="inclusive" normal="1915/1916">1915-1916</unitdate></did>
+                    <unitdate normal="1915/1916" type="inclusive">1915-1916</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">214</container>
+                    <container label="unspecified" type="reel">214</container>
                     <unittitle id="link211">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 214 - 1/11/1916-2/5/1916</unittitle>
                     <unitdate normal="1916">1916</unitdate></did>
@@ -2191,7 +2197,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">215</container>
+                    <container label="unspecified" type="reel">215</container>
                     <unittitle id="link212">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 215 - 2/4/1916-2/29/1916</unittitle>
                     <unitdate normal="1916">1916</unitdate></did>
@@ -2201,7 +2207,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">216</container>
+                    <container label="unspecified" type="reel">216</container>
                     <unittitle id="link213">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 216 - 2/29/1916-3/26/1916</unittitle>
                     <unitdate normal="1916">1916</unitdate></did>
@@ -2211,7 +2217,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">217</container>
+                    <container label="unspecified" type="reel">217</container>
                     <unittitle id="link214">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 217 - 3/17/1916-4/7/1916</unittitle>
                     <unitdate normal="1916">1916</unitdate></did>
@@ -2221,7 +2227,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">218</container>
+                    <container label="unspecified" type="reel">218</container>
                     <unittitle id="link215">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 218 - 4/7/1916-4/22/1916</unittitle>
                     <unitdate normal="1916">1916</unitdate></did>
@@ -2231,7 +2237,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">219</container>
+                    <container label="unspecified" type="reel">219</container>
                     <unittitle id="link216">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 219 - 4/21/1916-5/15/1916</unittitle>
                     <unitdate normal="1916">1916</unitdate></did>
@@ -2241,7 +2247,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">220</container>
+                    <container label="unspecified" type="reel">220</container>
                     <unittitle id="link217">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 220 - 5/15/1916-6/2/1916</unittitle>
                     <unitdate normal="1916">1916</unitdate></did>
@@ -2251,7 +2257,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">221</container>
+                    <container label="unspecified" type="reel">221</container>
                     <unittitle id="link218">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 221 - 6/7/1916-7/10/1916</unittitle>
                     <unitdate normal="1916">1916</unitdate></did>
@@ -2261,7 +2267,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">222</container>
+                    <container label="unspecified" type="reel">222</container>
                     <unittitle id="link219">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 222 - 7/10/1916-8/1/1916</unittitle>
                     <unitdate normal="1916">1916</unitdate></did>
@@ -2271,7 +2277,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">223</container>
+                    <container label="unspecified" type="reel">223</container>
                     <unittitle id="link220">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 223 - 8/2/1916-8/24/1916</unittitle>
                     <unitdate normal="1916">1916</unitdate></did>
@@ -2281,7 +2287,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">224</container>
+                    <container label="unspecified" type="reel">224</container>
                     <unittitle id="link221">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 224 - 8/24/1916-9/19/1916</unittitle>
                     <unitdate normal="1916">1916</unitdate></did>
@@ -2291,7 +2297,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">225</container>
+                    <container label="unspecified" type="reel">225</container>
                     <unittitle id="link222">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 225 - 9/19/1916-10/13/1916</unittitle>
                     <unitdate normal="1916">1916</unitdate></did>
@@ -2301,7 +2307,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">226</container>
+                    <container label="unspecified" type="reel">226</container>
                     <unittitle id="link223">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 226 - 10/13/1916-11/10/1916</unittitle>
                     <unitdate normal="1916">1916</unitdate></did>
@@ -2311,7 +2317,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">227</container>
+                    <container label="unspecified" type="reel">227</container>
                     <unittitle id="link224">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 227 - 11/10/1916-12/161/1916</unittitle>
                     <unitdate normal="1916">1916</unitdate></did>
@@ -2321,17 +2327,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">228</container>
+                    <container label="unspecified" type="reel">228</container>
                     <unittitle id="link225">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 228 - 12/16/1916-1/13/1917</unittitle>
-                    <unitdate type="inclusive" normal="1916/1917">1916-1917</unitdate></did>
+                    <unitdate normal="1916/1917" type="inclusive">1916-1917</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">229</container>
+                    <container label="unspecified" type="reel">229</container>
                     <unittitle id="link226">Samuel Gompers Letter books. 1883-1924 - Wm. Green
                         Letter books 1925: vol. 229 - 1/15/1917-2/6/1917</unittitle>
                     <unitdate normal="1917">1917</unitdate></did>
@@ -2341,7 +2347,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">230</container>
+                    <container label="unspecified" type="reel">230</container>
                     <unittitle id="link227">Samuel Gompers Letter books vol. 230 -
                         2/3/1917-3/1/1917</unittitle>
                     <unitdate normal="1917">1917</unitdate></did>
@@ -2351,7 +2357,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">231</container>
+                    <container label="unspecified" type="reel">231</container>
                     <unittitle id="link228">Samuel Gompers Letter books vol. 231 -
                         3/1/1917-3/27/1917</unittitle>
                     <unitdate normal="1917">1917</unitdate></did>
@@ -2361,7 +2367,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">232</container>
+                    <container label="unspecified" type="reel">232</container>
                     <unittitle id="link229">Samuel Gompers Letter books vol. 232 -
                         3/26/1917-4/25/1917</unittitle>
                     <unitdate normal="1917">1917</unitdate></did>
@@ -2371,7 +2377,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">233</container>
+                    <container label="unspecified" type="reel">233</container>
                     <unittitle id="link230">Samuel Gompers Letter books vol. 233 -
                         4/25/1917-5/22/1917</unittitle>
                     <unitdate normal="1917">1917</unitdate></did>
@@ -2381,7 +2387,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">234</container>
+                    <container label="unspecified" type="reel">234</container>
                     <unittitle id="link231">Samuel Gompers Letter books vol. 234 -
                         5/22/1917-6/13/1917</unittitle>
                     <unitdate normal="1917">1917</unitdate></did>
@@ -2391,7 +2397,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">235</container>
+                    <container label="unspecified" type="reel">235</container>
                     <unittitle id="link232">Samuel Gompers Letter books vol. 235 -
                         6/18/1917-7/14/1917</unittitle>
                     <unitdate normal="1917">1917</unitdate></did>
@@ -2401,7 +2407,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">236</container>
+                    <container label="unspecified" type="reel">236</container>
                     <unittitle id="link233">Samuel Gompers Letter books vol. 236 -
                         7/14/1917-8/8/1917</unittitle>
                     <unitdate normal="1917">1917</unitdate></did>
@@ -2411,7 +2417,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">237</container>
+                    <container label="unspecified" type="reel">237</container>
                     <unittitle id="link234">Samuel Gompers Letter books vol. 237 -
                         8/7/1917-8/3/1917</unittitle>
                     <unitdate normal="1917">1917</unitdate></did>
@@ -2421,7 +2427,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">238</container>
+                    <container label="unspecified" type="reel">238</container>
                     <unittitle id="link235">Samuel Gompers Letter books vol. 238 -
                         7/31/1917-10/5/1917</unittitle>
                     <unitdate normal="1917">1917</unitdate></did>
@@ -2431,7 +2437,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">239</container>
+                    <container label="unspecified" type="reel">239</container>
                     <unittitle id="link236">Samuel Gompers Letter books vol. 239 -
                         10/3/1917-10/22/1917</unittitle>
                     <unitdate normal="1917">1917</unitdate></did>
@@ -2441,7 +2447,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">240</container>
+                    <container label="unspecified" type="reel">240</container>
                     <unittitle id="link237">Samuel Gompers Letter books vol. 240 -
                         10/27/1917-12/12/1917</unittitle>
                     <unitdate normal="1917">1917</unitdate></did>
@@ -2451,17 +2457,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">241</container>
+                    <container label="unspecified" type="reel">241</container>
                     <unittitle id="link238">Samuel Gompers Letter books vol. 241 -
                         12/5/1917-1/12/1918</unittitle>
-                    <unitdate type="inclusive" normal="1917/1918">1917-1918</unitdate></did>
+                    <unitdate normal="1917/1918" type="inclusive">1917-1918</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">242</container>
+                    <container label="unspecified" type="reel">242</container>
                     <unittitle id="link239">Samuel Gompers Letter books vol. 242 -
                         1/3/1918-1/30/1918</unittitle>
                     <unitdate normal="1918">1918</unitdate></did>
@@ -2471,7 +2477,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">243</container>
+                    <container label="unspecified" type="reel">243</container>
                     <unittitle id="link240">Samuel Gompers Letter books vol. 243 -
                         1/30/1918-2/26/1918</unittitle>
                     <unitdate normal="1918">1918</unitdate></did>
@@ -2481,7 +2487,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">244</container>
+                    <container label="unspecified" type="reel">244</container>
                     <unittitle id="link241">Samuel Gompers Letter books vol. 244 -
                         2/26/1918-3/22/1918</unittitle>
                     <unitdate normal="1918">1918</unitdate></did>
@@ -2491,7 +2497,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">245</container>
+                    <container label="unspecified" type="reel">245</container>
                     <unittitle id="link242">Samuel Gompers Letter books vol. 245 -
                         3/16/1918-4/13/1918</unittitle>
                     <unitdate normal="1918">1918</unitdate></did>
@@ -2501,7 +2507,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">246</container>
+                    <container label="unspecified" type="reel">246</container>
                     <unittitle id="link243">Samuel Gompers Letter books vol. 246 -
                         4/11/1918-5/10/1918</unittitle>
                     <unitdate normal="1918">1918</unitdate></did>
@@ -2511,7 +2517,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">247</container>
+                    <container label="unspecified" type="reel">247</container>
                     <unittitle id="link244">Samuel Gompers Letter books vol. 247 -
                         5/10/1918-6/17/1918</unittitle>
                     <unitdate normal="1918">1918</unitdate></did>
@@ -2521,7 +2527,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">248</container>
+                    <container label="unspecified" type="reel">248</container>
                     <unittitle id="link245">Samuel Gompers Letter books vol. 248 -
                         6/18/1918-8/17/1918</unittitle>
                     <unitdate normal="1918">1918</unitdate></did>
@@ -2531,7 +2537,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">249</container>
+                    <container label="unspecified" type="reel">249</container>
                     <unittitle id="link246">Samuel Gompers Letter books vol. 249 -
                         7/17/1918-8/20/1918</unittitle>
                     <unitdate normal="1918">1918</unitdate></did>
@@ -2541,7 +2547,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">250</container>
+                    <container label="unspecified" type="reel">250</container>
                     <unittitle id="link247">Samuel Gompers Letter books vol. 250 -
                         8/15/1918-10/2/1918</unittitle>
                     <unitdate normal="1918">1918</unitdate></did>
@@ -2551,7 +2557,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">251</container>
+                    <container label="unspecified" type="reel">251</container>
                     <unittitle id="link248">Samuel Gompers Letter books vol. 251 - not
                         available</unittitle> </did>
                 <scopecontent>
@@ -2560,17 +2566,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">252</container>
+                    <container label="unspecified" type="reel">252</container>
                     <unittitle id="link249">Samuel Gompers Letter books vol. 252 -
                         12/9/1918-1/18/1919</unittitle>
-                    <unitdate type="inclusive" normal="1918/1919">1918-1919</unitdate></did>
+                    <unitdate normal="1918/1919" type="inclusive">1918-1919</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">253</container>
+                    <container label="unspecified" type="reel">253</container>
                     <unittitle id="link250">Samuel Gompers Letter books vol. 253 -
                         1/9/1919-3/19/1919</unittitle>
                     <unitdate normal="1919">1919</unitdate></did>
@@ -2580,7 +2586,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">254</container>
+                    <container label="unspecified" type="reel">254</container>
                     <unittitle id="link251">Samuel Gompers Letter books vol. 254 -
                         3/13/1919-5/22/1919</unittitle>
                     <unitdate normal="1919">1919</unitdate></did>
@@ -2590,7 +2596,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">255</container>
+                    <container label="unspecified" type="reel">255</container>
                     <unittitle id="link252">Samuel Gompers Letter books vol. 255 -
                         5/20/1919-7/18/1919</unittitle>
                     <unitdate normal="1919">1919</unitdate></did>
@@ -2600,7 +2606,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">256</container>
+                    <container label="unspecified" type="reel">256</container>
                     <unittitle id="link253">Samuel Gompers Letter books vol. 256 -
                         7/11/1919-8/21/1919</unittitle>
                     <unitdate normal="1919">1919</unitdate></did>
@@ -2610,7 +2616,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">257</container>
+                    <container label="unspecified" type="reel">257</container>
                     <unittitle id="link254">Samuel Gompers Letter books vol. 257 -
                         8/21/1919-9/20/1919</unittitle>
                     <unitdate normal="1919">1919</unitdate></did>
@@ -2620,7 +2626,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">258</container>
+                    <container label="unspecified" type="reel">258</container>
                     <unittitle id="link255">Samuel Gompers Letter books vol. 258 -
                         9/19/1919-10/21/1919</unittitle>
                     <unitdate normal="1919">1919</unitdate></did>
@@ -2630,7 +2636,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">259</container>
+                    <container label="unspecified" type="reel">259</container>
                     <unittitle id="link256">Samuel Gompers Letter books vol. 251 -
                         10/21/1919-11/20/1919</unittitle>
                     <unitdate normal="1919">1919</unitdate></did>
@@ -2640,7 +2646,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">260</container>
+                    <container label="unspecified" type="reel">260</container>
                     <unittitle id="link257">Samuel Gompers Letter books vol. 260 -
                         11/18/1919-12/20/1919</unittitle>
                     <unitdate normal="1919">1919</unitdate></did>
@@ -2650,7 +2656,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">261</container>
+                    <container label="unspecified" type="reel">261</container>
                     <unittitle id="link258">Samuel Gompers Letter books vol. 261 -
                         12/19/1919-1/20/1920</unittitle>
                     <unitdate normal="1920">1920</unitdate></did>
@@ -2660,7 +2666,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">262</container>
+                    <container label="unspecified" type="reel">262</container>
                     <unittitle id="link259">Samuel Gompers Letter books vol. 262 -
                         1/27/1920-2/21/1920</unittitle>
                     <unitdate normal="1920">1920</unitdate></did>
@@ -2670,7 +2676,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">263</container>
+                    <container label="unspecified" type="reel">263</container>
                     <unittitle id="link260">Samuel Gompers Letter books vol. 263 -
                         2/24/1920-3/18/1920</unittitle>
                     <unitdate normal="1920">1920</unitdate></did>
@@ -2680,7 +2686,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">264</container>
+                    <container label="unspecified" type="reel">264</container>
                     <unittitle id="link261">Samuel Gompers Letter books vol. 264 -
                         3/19/1920-3/23/1920</unittitle>
                     <unitdate normal="1920">1920</unitdate></did>
@@ -2690,7 +2696,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">265</container>
+                    <container label="unspecified" type="reel">265</container>
                     <unittitle id="link262">Samuel Gompers Letter books vol. 265 -
                         3/24/1920-4/13/1920</unittitle>
                     <unitdate normal="1920">1920</unitdate></did>
@@ -2700,7 +2706,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">266</container>
+                    <container label="unspecified" type="reel">266</container>
                     <unittitle id="link263">Samuel Gompers Letter books vol. 266 -
                         4/12/1920-5/17/1920</unittitle>
                     <unitdate normal="1920">1920</unitdate></did>
@@ -2710,7 +2716,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">267</container>
+                    <container label="unspecified" type="reel">267</container>
                     <unittitle id="link264">Samuel Gompers Letter books vol. 267 -
                         5/15/1920-6/29/1920</unittitle>
                     <unitdate normal="1920">1920</unitdate></did>
@@ -2720,7 +2726,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">268</container>
+                    <container label="unspecified" type="reel">268</container>
                     <unittitle id="link265">Samuel Gompers Letter books vol. 268 -
                         6/29/1920-7/28/1920</unittitle>
                     <unitdate normal="1920">1920</unitdate></did>
@@ -2730,7 +2736,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">269</container>
+                    <container label="unspecified" type="reel">269</container>
                     <unittitle id="link266">Samuel Gompers Letter books vol. 269 -
                         7/29/1920-8/28/1920</unittitle>
                     <unitdate normal="1920">1920</unitdate></did>
@@ -2740,7 +2746,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">270</container>
+                    <container label="unspecified" type="reel">270</container>
                     <unittitle id="link267">Samuel Gompers Letter books vol. 270 -
                         8/19/1920-9/28/1920</unittitle>
                     <unitdate normal="1920">1920</unitdate></did>
@@ -2750,7 +2756,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">271</container>
+                    <container label="unspecified" type="reel">271</container>
                     <unittitle id="link268">Samuel Gompers Letter books vol. 271 -
                         9/29/1920-10/31/1920</unittitle>
                     <unitdate normal="1920">1920</unitdate></did>
@@ -2760,7 +2766,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">272</container>
+                    <container label="unspecified" type="reel">272</container>
                     <unittitle id="link269">Samuel Gompers Letter books vol. 272 -
                         10/30/1920-12/6/1920</unittitle>
                     <unitdate normal="1920">1920</unitdate></did>
@@ -2770,17 +2776,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">273</container>
+                    <container label="unspecified" type="reel">273</container>
                     <unittitle id="link270">Samuel Gompers Letter books vol. 273 -
                         12/6/1920-1/4/1921</unittitle>
-                    <unitdate type="inclusive" normal="1920/1921">1920-1921</unitdate></did>
+                    <unitdate normal="1920/1921" type="inclusive">1920-1921</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">274</container>
+                    <container label="unspecified" type="reel">274</container>
                     <unittitle id="link271">Samuel Gompers Letter books vol. 274 -
                         1/4/1921-2/1/1921</unittitle>
                     <unitdate normal="1921">1921</unitdate></did>
@@ -2790,7 +2796,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">275</container>
+                    <container label="unspecified" type="reel">275</container>
                     <unittitle id="link272">Samuel Gompers Letter books vol. 275 -
                         2/1/1921-3/4/1921</unittitle>
                     <unitdate normal="1921">1921</unitdate></did>
@@ -2800,7 +2806,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">276</container>
+                    <container label="unspecified" type="reel">276</container>
                     <unittitle id="link273">Samuel Gompers Letter books vol. 276 -
                         3/4/1921-3/24/1921</unittitle>
                     <unitdate normal="1921">1921</unitdate></did>
@@ -2810,7 +2816,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">277</container>
+                    <container label="unspecified" type="reel">277</container>
                     <unittitle id="link274">Samuel Gompers Letter books vol. 277 -
                         3/28/1921-4/18/1921</unittitle>
                     <unitdate normal="1921">1921</unitdate></did>
@@ -2820,7 +2826,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">278</container>
+                    <container label="unspecified" type="reel">278</container>
                     <unittitle id="link275">Samuel Gompers Letter books vol. 278 -
                         4/19/1921-5/21/1921</unittitle>
                     <unitdate normal="1921">1921</unitdate></did>
@@ -2830,7 +2836,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">279</container>
+                    <container label="unspecified" type="reel">279</container>
                     <unittitle id="link276">Samuel Gompers Letter books vol. 279
                         -5/21/1921-7/11/1921</unittitle>
                     <unitdate normal="1921">1921</unitdate></did>
@@ -2840,7 +2846,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">280</container>
+                    <container label="unspecified" type="reel">280</container>
                     <unittitle id="link277">Samuel Gompers Letter books vol. 280 -
                         7/11/1921-7/27/1921</unittitle>
                     <unitdate normal="1921">1921</unitdate></did>
@@ -2850,7 +2856,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">281</container>
+                    <container label="unspecified" type="reel">281</container>
                     <unittitle id="link278">Samuel Gompers Letter books vol. 281 -
                         7/27/1921-8/19/1921</unittitle>
                     <unitdate normal="1921">1921</unitdate></did>
@@ -2860,7 +2866,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">282</container>
+                    <container label="unspecified" type="reel">282</container>
                     <unittitle id="link279">Samuel Gompers Letter books vol. 282 -
                         8/20/1921-9/17/1921</unittitle>
                     <unitdate normal="1921">1921</unitdate></did>
@@ -2870,7 +2876,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">283</container>
+                    <container label="unspecified" type="reel">283</container>
                     <unittitle id="link280">Samuel Gompers Letter books vol. 283 -
                         9/16/1921-10/4/1921</unittitle>
                     <unitdate normal="1921">1921</unitdate></did>
@@ -2880,7 +2886,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">284</container>
+                    <container label="unspecified" type="reel">284</container>
                     <unittitle id="link281">Samuel Gompers Letter books vol. 284 -
                         10/4/1921-10/26/1921</unittitle>
                     <unitdate normal="1921">1921</unitdate></did>
@@ -2890,7 +2896,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">285</container>
+                    <container label="unspecified" type="reel">285</container>
                     <unittitle id="link282">Samuel Gompers Letter books vol. 285 -
                         10/26/1921-11/21/1921</unittitle>
                     <unitdate normal="1921">1921</unitdate></did>
@@ -2900,7 +2906,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">286</container>
+                    <container label="unspecified" type="reel">286</container>
                     <unittitle id="link283">Samuel Gompers Letter books vol. 286 -
                         11/21/1921-12/10/1921</unittitle>
                     <unitdate normal="1921">1921</unitdate></did>
@@ -2910,17 +2916,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">287</container>
+                    <container label="unspecified" type="reel">287</container>
                     <unittitle id="link284">Samuel Gompers Letter books vol. 287 -
                         12/9/1921-1/7/1922</unittitle>
-                    <unitdate type="inclusive" normal="1921/1922">1921-1922</unitdate></did>
+                    <unitdate normal="1921/1922" type="inclusive">1921-1922</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">288</container>
+                    <container label="unspecified" type="reel">288</container>
                     <unittitle id="link285">Samuel Gompers Letter books vol. 288 -
                         1/5/1922-1/24/1922</unittitle>
                     <unitdate normal="1922">1922</unitdate></did>
@@ -2930,7 +2936,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">289</container>
+                    <container label="unspecified" type="reel">289</container>
                     <unittitle id="link286">Samuel Gompers Letter books vol. 289 -
                         1/24/1922-2/22/1922</unittitle>
                     <unitdate normal="1922">1922</unitdate></did>
@@ -2940,7 +2946,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">290</container>
+                    <container label="unspecified" type="reel">290</container>
                     <unittitle id="link287">Samuel Gompers Letter books vol. 290 -
                         2/22/1922-3/15/1922</unittitle>
                     <unitdate normal="1922">1922</unitdate></did>
@@ -2950,7 +2956,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">291</container>
+                    <container label="unspecified" type="reel">291</container>
                     <unittitle id="link288">Samuel Gompers Letter books vol. 291 -
                         3/14/1922-4/4/1922</unittitle>
                     <unitdate normal="1922">1922</unitdate></did>
@@ -2960,7 +2966,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">292</container>
+                    <container label="unspecified" type="reel">292</container>
                     <unittitle id="link289">Samuel Gompers Letter books vol. 292 -
                         4/5/1922-5/8/1922</unittitle>
                     <unitdate normal="1922">1922</unitdate></did>
@@ -2970,7 +2976,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">293</container>
+                    <container label="unspecified" type="reel">293</container>
                     <unittitle id="link290">Samuel Gompers Letter books vol. 293 -
                         5/8/1922-6/27/1922</unittitle>
                     <unitdate normal="1922">1922</unitdate></did>
@@ -2980,7 +2986,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">294</container>
+                    <container label="unspecified" type="reel">294</container>
                     <unittitle id="link291">Samuel Gompers Letter books vol. 294 -
                         6/27/1922-7/31/1922</unittitle>
                     <unitdate normal="1922">1922</unitdate></did>
@@ -2990,7 +2996,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">295</container>
+                    <container label="unspecified" type="reel">295</container>
                     <unittitle id="link292">Samuel Gompers Letter books vol. 295 -
                         7/31/1922-8/30/1922</unittitle>
                     <unitdate normal="1922">1922</unitdate></did>
@@ -3000,7 +3006,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">296</container>
+                    <container label="unspecified" type="reel">296</container>
                     <unittitle id="link293">Samuel Gompers Letter books vol. 296 -
                         8/25/1922-10/3/1922</unittitle>
                     <unitdate normal="1922">1922</unitdate></did>
@@ -3010,7 +3016,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">297</container>
+                    <container label="unspecified" type="reel">297</container>
                     <unittitle id="link294">Samuel Gompers Letter books vol. 297 -
                         10/3/1922-11/3/1922</unittitle>
                     <unitdate normal="1922">1922</unitdate></did>
@@ -3020,7 +3026,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">298</container>
+                    <container label="unspecified" type="reel">298</container>
                     <unittitle id="link295">Samuel Gompers Letter books vol. 298 -
                         11/1/1922-12/6/1922</unittitle>
                     <unitdate normal="1922">1922</unitdate></did>
@@ -3030,7 +3036,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">299</container>
+                    <container label="unspecified" type="reel">299</container>
                     <unittitle id="link296">Samuel Gompers Letter books vol. 299 -
                         12/6/1922-12/29/1922</unittitle>
                     <unitdate normal="1922">1922</unitdate></did>
@@ -3040,17 +3046,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">300</container>
+                    <container label="unspecified" type="reel">300</container>
                     <unittitle id="link297">Samuel Gompers Letter books vol. 300 -
                         12/29/1922-1/25/1923</unittitle>
-                    <unitdate type="inclusive" normal="1922/1923">1922-1923</unitdate></did>
+                    <unitdate normal="1922/1923" type="inclusive">1922-1923</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">301</container>
+                    <container label="unspecified" type="reel">301</container>
                     <unittitle id="link298">Samuel Gompers Letter books vol. 301 -
                         1/25/1923-2/28/1923</unittitle>
                     <unitdate normal="1923">1923</unitdate></did>
@@ -3060,7 +3066,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">302</container>
+                    <container label="unspecified" type="reel">302</container>
                     <unittitle id="link299">Samuel Gompers Letter books vol. 302 -
                         2/27/1923-4/10/1923</unittitle>
                     <unitdate normal="1923">1923</unitdate></did>
@@ -3070,7 +3076,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">303</container>
+                    <container label="unspecified" type="reel">303</container>
                     <unittitle id="link300">Samuel Gompers Letter books vol. 303 -
                         4/11/1923-5/23/1923</unittitle>
                     <unitdate normal="1923">1923</unitdate></did>
@@ -3080,7 +3086,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">304</container>
+                    <container label="unspecified" type="reel">304</container>
                     <unittitle id="link301">Samuel Gompers Letter books vol. 304 -
                         5/1/1923-7/3/1923</unittitle>
                     <unitdate normal="1923">1923</unitdate></did>
@@ -3090,7 +3096,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">305</container>
+                    <container label="unspecified" type="reel">305</container>
                     <unittitle id="link302">Samuel Gompers Letter books vol. 305 -
                         7/3/1923-8/14/1923</unittitle>
                     <unitdate normal="1923">1923</unitdate></did>
@@ -3100,7 +3106,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">306</container>
+                    <container label="unspecified" type="reel">306</container>
                     <unittitle id="link303">Samuel Gompers Letter books vol. 306 -
                         8/14/1923-9/20/1923</unittitle>
                     <unitdate normal="1923">1923</unitdate></did>
@@ -3110,7 +3116,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">307</container>
+                    <container label="unspecified" type="reel">307</container>
                     <unittitle id="link304">Samuel Gompers Letter books vol. 307 -
                         9/20/1923-11/12/1923</unittitle>
                     <unitdate normal="1923">1923</unitdate></did>
@@ -3120,7 +3126,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">308</container>
+                    <container label="unspecified" type="reel">308</container>
                     <unittitle id="link305">Samuel Gompers Letter books vol. 308 -
                         11/10/1923-12/6/1923</unittitle>
                     <unitdate normal="1923">1923</unitdate></did>
@@ -3130,17 +3136,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">309</container>
+                    <container label="unspecified" type="reel">309</container>
                     <unittitle id="link306">Samuel Gompers Letter books vol. 309 -
                         12/7/1923-1/19/1924</unittitle>
-                    <unitdate type="inclusive" normal="1923/1924">1923-1924</unitdate></did>
+                    <unitdate normal="1923/1924" type="inclusive">1923-1924</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">310</container>
+                    <container label="unspecified" type="reel">310</container>
                     <unittitle id="link307">Samuel Gompers Letter books vol. 310 - not
                         available</unittitle> </did>
                 <scopecontent>
@@ -3149,7 +3155,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">311</container>
+                    <container label="unspecified" type="reel">311</container>
                     <unittitle id="link308">Samuel Gompers Letter books vol. 311 -
                         2/25/1924-3/31/1924</unittitle>
                     <unitdate normal="1924">1924</unitdate></did>
@@ -3159,7 +3165,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">312</container>
+                    <container label="unspecified" type="reel">312</container>
                     <unittitle id="link309">Samuel Gompers Letter books vol. 312 -
                         3/31/1924-5/7/1924</unittitle>
                     <unitdate normal="1924">1924</unitdate></did>
@@ -3169,7 +3175,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">313</container>
+                    <container label="unspecified" type="reel">313</container>
                     <unittitle id="link310">Samuel Gompers Letter books vol. 313 - not
                         available</unittitle></did>
                 <scopecontent>
@@ -3178,7 +3184,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">314</container>
+                    <container label="unspecified" type="reel">314</container>
                     <unittitle id="link311">Samuel Gompers Letter books vol. 314 -
                         6/12/1924-8/25/1924</unittitle>
                     <unitdate normal="1924">1924</unitdate></did>
@@ -3188,7 +3194,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">315</container>
+                    <container label="unspecified" type="reel">315</container>
                     <unittitle id="link312">Samuel Gompers Letter books vol. 315 -
                         8/25/1924-11/20/1924</unittitle>
                     <unitdate normal="1924">1924</unitdate></did>
@@ -3198,7 +3204,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">316</container>
+                    <container label="unspecified" type="reel">316</container>
                     <unittitle id="link313">Samuel Gompers Letter books vol. 316 -
                         11/25/1924-12/15/1924</unittitle>
                     <unitdate normal="1924">1924</unitdate></did>
@@ -3208,17 +3214,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">317</container>
+                    <container label="unspecified" type="reel">317</container>
                     <unittitle id="link314">Samuel Gompers and William Green Letter books vol. 317 -
                         12/20/1924-1/22/1925</unittitle>
-                    <unitdate type="inclusive" normal="1924/1925">1924-1925</unitdate></did>
+                    <unitdate normal="1924/1925" type="inclusive">1924-1925</unitdate></did>
                 <scopecontent>
                     <p>positive</p>
                 </scopecontent>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">318</container>
+                    <container label="unspecified" type="reel">318</container>
                     <unittitle id="link315">William Green Letter books vol. 318 -
                         1/21/1925-2/26/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3228,7 +3234,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">319</container>
+                    <container label="unspecified" type="reel">319</container>
                     <unittitle id="link316">William Green Letter books vol. 319 -
                         2/25/1925-3/26/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3238,7 +3244,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">320</container>
+                    <container label="unspecified" type="reel">320</container>
                     <unittitle id="link317">William Green Letter books vol. 320 -
                         3/26/1925-4/23/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3248,7 +3254,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">321</container>
+                    <container label="unspecified" type="reel">321</container>
                     <unittitle id="link318">William Green Letter books vol. 321 -
                         4/22/1925-5/13/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3258,7 +3264,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">322</container>
+                    <container label="unspecified" type="reel">322</container>
                     <unittitle id="link319">William Green Letter books vol. 322 -
                         5/13/1925-5/29/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3268,7 +3274,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">323</container>
+                    <container label="unspecified" type="reel">323</container>
                     <unittitle id="link320">William Green Letter books vol. 323 -
                         5/29/1925-6/4/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3278,7 +3284,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">324</container>
+                    <container label="unspecified" type="reel">324</container>
                     <unittitle id="link321">William Green Letter books vol. 324 -
                         6/4/1925-6/11/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3288,7 +3294,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">325</container>
+                    <container label="unspecified" type="reel">325</container>
                     <unittitle id="link322">William Green Letter books vol. 325 -
                         6/10/1925-6/17/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3298,7 +3304,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">326</container>
+                    <container label="unspecified" type="reel">326</container>
                     <unittitle id="link323">William Green Letter books vol. 326 -
                         6/17/1925-6/25/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3308,7 +3314,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">327</container>
+                    <container label="unspecified" type="reel">327</container>
                     <unittitle id="link324">William Green Letter books vol. 327 -
                         6/25/1925-6/30/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3318,7 +3324,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">328</container>
+                    <container label="unspecified" type="reel">328</container>
                     <unittitle id="link325">William Green Letter books vol. 328 -
                         7/1/1925-7/14/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3328,7 +3334,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">329</container>
+                    <container label="unspecified" type="reel">329</container>
                     <unittitle id="link326">William Green Letter books vol. 329 -
                         7/11/1925-7/16/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3338,7 +3344,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">330</container>
+                    <container label="unspecified" type="reel">330</container>
                     <unittitle id="link327">William Green Letter books vol. 330 -
                         7/17/1925-7/24/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3348,7 +3354,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">331</container>
+                    <container label="unspecified" type="reel">331</container>
                     <unittitle id="link328">William Green Letter books vol. 331 -
                         7/24/1925-8/4/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3358,7 +3364,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">332</container>
+                    <container label="unspecified" type="reel">332</container>
                     <unittitle id="link329">S. William Green Letter books vol. 332 -
                         8/3/1925-8/5/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3368,7 +3374,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">333</container>
+                    <container label="unspecified" type="reel">333</container>
                     <unittitle id="link330">William Green Letter books vol. 333 -
                         8/5/1925-8/12/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3378,7 +3384,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">334</container>
+                    <container label="unspecified" type="reel">334</container>
                     <unittitle id="link331">William Green Letter books vol. 334 -
                         8/15/1925-8/20/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3388,7 +3394,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">334</container>
+                    <container label="unspecified" type="reel">334</container>
                     <unittitle id="link332">William Green Letter books vol. 335 -
                         8/12/1925-8/26/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3398,7 +3404,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">335</container>
+                    <container label="unspecified" type="reel">335</container>
                     <unittitle id="link333">William Green Letter books vol. 335 -
                         8/12/1925-8/26/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3408,7 +3414,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">336</container>
+                    <container label="unspecified" type="reel">336</container>
                     <unittitle id="link334">William Green Letter books vol. 326 -
                         8/26/1925-8/29/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3418,7 +3424,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">337</container>
+                    <container label="unspecified" type="reel">337</container>
                     <unittitle id="link335">William Green Letter books vol. 337 -
                         8/29/1925-9/3/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3428,7 +3434,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">338</container>
+                    <container label="unspecified" type="reel">338</container>
                     <unittitle id="link336">William Green Letter books vol. 338 -
                         9/3/1925-9/10/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3438,7 +3444,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">339</container>
+                    <container label="unspecified" type="reel">339</container>
                     <unittitle id="link337">William Green Letter books vol. 339 -
                         9/10/1925-9/16/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3448,7 +3454,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">340</container>
+                    <container label="unspecified" type="reel">340</container>
                     <unittitle id="link338">William Green Letter books vol. 340 -
                         9/16/1925-9/21/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3458,7 +3464,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">341</container>
+                    <container label="unspecified" type="reel">341</container>
                     <unittitle id="link339">William Green Letter books vol. 341 -
                         9/22/1925-9/28/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3468,7 +3474,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">342</container>
+                    <container label="unspecified" type="reel">342</container>
                     <unittitle id="link340">William Green Letter books vol. 342 -
                         9/29/1925-10/5/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3478,7 +3484,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">343</container>
+                    <container label="unspecified" type="reel">343</container>
                     <unittitle id="link341">William Green Letter books vol. 343 -
                         9/28/1925-10/22/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3488,7 +3494,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">344</container>
+                    <container label="unspecified" type="reel">344</container>
                     <unittitle id="link342">William Green Letter books vol. 344 -
                         10/22/1925-10/23/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3498,7 +3504,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">345</container>
+                    <container label="unspecified" type="reel">345</container>
                     <unittitle id="link343">William Green Letter books vol. 345 -
                         10/23/1925-10/30/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3508,7 +3514,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">346</container>
+                    <container label="unspecified" type="reel">346</container>
                     <unittitle id="link344">William Green Letter books vol. 346 -
                         10/29/1925-10/30/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3518,7 +3524,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">347</container>
+                    <container label="unspecified" type="reel">347</container>
                     <unittitle id="link345">William Green Letter books vol. 347 -
                         10/30/1925-11/5/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3528,7 +3534,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">348</container>
+                    <container label="unspecified" type="reel">348</container>
                     <unittitle id="link346">William Green Letter books vol. 348 -
                         11/5/1925-11/6/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3538,7 +3544,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">349</container>
+                    <container label="unspecified" type="reel">349</container>
                     <unittitle id="link347">William Green Letter books vol. 349 -
                         11/4/1925-11/10/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3548,7 +3554,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">350</container>
+                    <container label="unspecified" type="reel">350</container>
                     <unittitle id="link348">William Green Letter books vol. 350 -
                         11/10/1925-11/16/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3558,7 +3564,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">351</container>
+                    <container label="unspecified" type="reel">351</container>
                     <unittitle id="link349">William Green Letter books vol. 351 -
                         11/16/1925-11/17/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3568,7 +3574,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">352</container>
+                    <container label="unspecified" type="reel">352</container>
                     <unittitle id="link350">William Green Letter books vol. 352 -
                         11/19/1925-11/23/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3578,7 +3584,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">353</container>
+                    <container label="unspecified" type="reel">353</container>
                     <unittitle id="link351">William Green Letter books vol. 353 -
                         11/23/1925-11/25/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3588,7 +3594,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">354</container>
+                    <container label="unspecified" type="reel">354</container>
                     <unittitle id="link352">William Green Letter books vol. 354 -
                         11/25/1925-12/1/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>
@@ -3598,7 +3604,7 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="reel">355</container>
+                    <container label="unspecified" type="reel">355</container>
                     <unittitle id="link353">William Green Letter books vol. 355 -
                         11/16/1925-11/17/1925</unittitle>
                     <unitdate normal="1925">1925</unitdate></did>

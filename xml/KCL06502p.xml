@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06502p::Amelia Olenio Collection of American Woolen Company Photographs.)//EN">KCL06502p</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06502p::Amelia Olenio Collection of American Woolen Company Photographs.)//EN">KCL06502p</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Amelia Olenio Collection of American Woolen Company Photographs<date> 1910-1955</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>November 08, 2017</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Amelia Olenio Collection of American Woolen Company Photographs<lb/></titleproper>
+			<titleproper>Guide to the Amelia Olenio Collection of American Woolen Company Photographs</titleproper>
 			<num>Collection Number: 6502 P</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,15 +54,15 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Amelia Olenio Collection of American Woolen Company Photographs, <unitdate encodinganalog="MARC 245$f">1910-1955</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Amelia Olenio Collection of American Woolen Company Photographs, 1910-1955
+			</unittitle><unitdate encodinganalog="MARC 245$f">1910-1955</unitdate>
 			<unitid label="Collection Number:">6502 P</unitid>
 			<origination label="Creator:">
-				<persname encodinganalog="MARC 100" role="creator">Amelia Olenio</persname>;<lb/>
+				<persname encodinganalog="MARC 100" role="creator">Amelia Olenio</persname>;
 				<corpname encodinganalog="MARC 110" role="creator"> American Woolen Company</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">0.3 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">0.3 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Gelatin silver print, photographs.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">Photographs of overseers' outings, company executives, the March 1936 Lawrence, Massachusetts, flood, and other subjects.</abstract>
@@ -64,22 +70,22 @@
 			</langmaterial>
 		<physdesc><extent>0.33 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+			
 			<p>The American Woolen Company was founded in 1899 under the direction of William M. Wood and Frederick Ayer. In the 1920s the company owned and operated 60 woolen mills, at which time it controlled 20% of the U.S. woolen production. Despite
 				several changes in ownership, the American Woolen Company is still in operation and is a designer, manufacturer and distributor of men's and women's worsted and woolen fabrics. Based in Stafford Springs, Connecticut, the company operates from
 				the 160-year-old Warren Mills, which it acquired from Loro Piana SpA in June 2014.</p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a3">COLLECTION DESCRIPTION</head>
+			
 			<p>Photographs of American Woolen Mills overseers' outings, which include men and women playing games. </p>
 			<p>The company executive photographs include president Francis W. White, vice-president William Muir, purchasing agent Percy Wardwell, general sales manager Charles H. Silver, manager of costs Rory Veitch, treasurer F. S. Connett, vice-president
 				and comptroller George E. McClellan, and public relations executive Jack Barry. </p>
 			<p>Photographers include Alton Anderson and George Valentine Enell.</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Anderson, Alton </persname>
 				<persname encodinganalog="MARC 600">Barry, Jack </persname>
 				<persname encodinganalog="MARC 600">Buckley, John J. </persname>
@@ -98,7 +104,7 @@
 				<corpname encodinganalog="MARC 610">Wood Worsted Mill (Lawrence, Mass.) </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Boats and boating </subject>
 				<subject encodinganalog="MARC 650">Clothing and dress </subject>
 				<subject encodinganalog="MARC 650">Display of merchandise </subject>
@@ -124,7 +130,7 @@
 				<subject encodinganalog="MARC 650">Woolen and worsted manufacture. </subject>
 			</controlaccess>
 			<controlaccess>
-				<head>Geographic Subjects: </head>
+				
 				<subject encodinganalog="MARC 651">Andover (Mass.) </subject>
 				<subject encodinganalog="MARC 651">Lawrence (Mass.) </subject>
 				<subject encodinganalog="MARC 651">Shawsheen River (Mass.) </subject>
@@ -134,43 +140,43 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Amelia Olenio Collection of American Woolen Company Photographs #6502 P. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/> 6502 PUBS: Amelia Olenio Collection of American Woolen Company Publications<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05129.html"> 5129: Maxwell Copelof Arbitration Briefs, Exhibits, Transcripts and Decisions</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05131.html"> 5131: Sidney A. Wolff Arbitration Files</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05583-4.html"> 5583/4: Archives Organization File (AOF) Part 4. Corporate and Organizational Publications</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06046.html"> 6046: Archives Union File (AUF)</extref><lb/> 6510: American Woolen Company Collection<lb/> 6510 PUBS: American Woolen Company Publications<lb/> 6510/001: American Woolen
-				Company Records<lb/>
+			
+			<p>Related Collections: 6502 PUBS: Amelia Olenio Collection of American Woolen Company Publications
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05129.html"> 5129: Maxwell Copelof Arbitration Briefs, Exhibits, Transcripts and Decisions</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05131.html"> 5131: Sidney A. Wolff Arbitration Files</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05583-4.html"> 5583/4: Archives Organization File (AOF) Part 4. Corporate and Organizational Publications</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06046.html"> 6046: Archives Union File (AUF)</extref> 6510: American Woolen Company Collection 6510 PUBS: American Woolen Company Publications 6510/001: American Woolen
+				Company Records
 			</p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link8">Overseers Outing and Fishing</unittitle>
-					<unitdate type="inclusive" normal="1920/1955">1920-1955</unitdate>
+					<unitdate normal="1920/1955" type="inclusive">1920-1955</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link9">Item 1: Overseers outing, American Woolen Company</unittitle>
 						<physdesc label="Format:">Black and White photograph</physdesc>
 					</did>
@@ -181,10 +187,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link10">Item 2: Two unidentified men, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts two unidentified men at an outing of overseers of American Woolen Company. Both men wear three-piece suits and hats; may be executives (?) at American Woolen. 6.75 x 11 cm.</p>
@@ -193,10 +199,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link11">Item 3: Spectators, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts women and men sitting on sidelines of unseen game at an outing of overseers of American Woolen Company. 11.5 x 7 cm.</p>
@@ -205,10 +211,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link12">Item 4: Unidentified man, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts unidentified older man wearing glasses, holding a cap in his hand, and wearing watch chain. Two men in background also unidentified. All at an outing of overseers of American Woolen Company. 6.75 x 11.5 cm.</p>
@@ -217,10 +223,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link13">Item 5: Unidentified man with baseball bat, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts unidentified older man in full suit, tie and hat, carrying a baseball bat on his left shoulder. Possibly an executive at American Woolen Company. 6 x 9 cm.</p>
@@ -229,10 +235,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link14">Item 6: Group of overseers/executives, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts group of unidentified men, who may be overseers or executives (or a mix of the two), at an overseers outing of the American American Woolen Company. All wear suits (most in three-piece suits), ties and hats or caps.
@@ -242,10 +248,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link15">Item 7: Group of overseers, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts group of unidentified men, presumably overseers for the American Woolen Company at an overseers outing of the company. 11.5 x 7.25 cm.</p>
@@ -254,10 +260,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link16">Item 8: Tug-o-war, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts group of men playing tug-o-war at an overseers outing of the American Woolen Company. 11.25 x 6.5 cm.</p>
@@ -266,10 +272,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link17">Item 9: Recreational games, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts group of men playing unknown game at an overseers outing of the American Woolen Company. 11.5 x 7 cm.</p>
@@ -278,10 +284,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link18">Item 10: Footrace, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts group of men engaged in a footrace at an overseers outing of the American Woolen Company. 11.5 x 7 cm.</p>
@@ -290,10 +296,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link19">Item 11: Baseball game, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts group of men engaged in a baseball game at an overseers outing of the American Woolen Company. 11.5 x 7 cm.</p>
@@ -302,10 +308,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link20">Item 12: Preparing for tug-o-war, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts group of men about to engage in a game of tug-o-war (see 0000.1169.57) at an overseers outing of the American Woolen Company. 11.5 x 7 cm.</p>
@@ -314,10 +320,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link21">Item 13: Unidentified men preparing for baseball game, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts group of men preparing to play baseball at an overseers outing of the American Woolen Company. 11.5 x 7.25 cm.</p>
@@ -326,10 +332,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link22">Item 14: Unidentified men preparing for baseball game, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts group of men preparing to play baseball at an overseers outing of the American Woolen Company. 11 x 6.75 cm.</p>
@@ -338,10 +344,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link23">Item 15: Group of overseers, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts group of unidentified men, presumably overseers for the American Woolen Company at an overseers outing of the company. Virtually identical to 0000.1169.56; clearly taken a moment earlier or later. 11.5 x 7.25 cm.</p>
@@ -350,10 +356,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link24">Item 16: Men and women engaged in unknown game, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts a group of men and women participating in some sort of game or contest at an overseers outing of the American Woolen Company. 11.5 x 7 cm.</p>
@@ -362,10 +368,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link25">Item 17: Footrace, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts a group of men watching another man race at an overseers outing of the American Woolen Company. 11.5 x 7.25 cm.</p>
@@ -374,10 +380,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link26">Item 18: Women at overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts a group of women at an overseers outing of the American Woolen Company. 11.5 x 7 cm.</p>
@@ -386,10 +392,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link27">Item 19: Group of men at overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts a group of men at an overseers outing of the American Woolen Company, probably preparing to play a game of some sort. 11 x 6.75 cm.</p>
@@ -398,10 +404,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link28">Item 20: Spectators at overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts men and women seated in a line, waiting to observe a footrace or game of some sort at an overseers outing of the American Woolen Company. 11 x 6.75 cm.</p>
@@ -410,10 +416,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link29">Item 21: Preparing for a game at overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts several men preparing for a game of some sort at an overseers outing of the American Woolen Company. Note spectators seated in background. 11.5 x 7 cm.</p>
@@ -422,10 +428,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link30">Item 22: Unidentified man (overseer?), overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts unidentified man, presumably an overseer, at an overseers outing of the American Woolen Company. The man is dressed in vest and pants, with tie and watch chain. 7.25 x 11.5 cm.</p>
@@ -434,10 +440,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link31">Item 23: Baseball game, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts several men participating in a baseball game at an overseers outing of the American Woolen Company. 11.5 x 7.25 cm.</p>
@@ -446,10 +452,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link32">Item 24: Spectators, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts spectators in the distance at an overseers outing of the American Woolen Company. 11 x 6.75 cm.</p>
@@ -458,10 +464,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link33">Item 25: Sports, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts several men participating in unknown sport (game of catch?) at an overseers outing of the American Woolen Company. 11.5 x 6.75 cm.</p>
@@ -470,10 +476,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link34">Item 26: Unidentified man, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts an unidentified man, possibly management (?), at an overseers outing of the American Woolen Company. Man is dressed in three-piece suit, wearing a tie, hat, and watch chain, holding a cigar or cigarette in his right
@@ -483,10 +489,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link35">Item 27: Three-legged race, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts several men participating in a three-legged race at an overseers outing of the American Woolen Company. 11.5 x 7 cm.</p>
@@ -495,10 +501,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link36">Item 28: At the finish line, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts several men participating in a footrace, with the winner just approaching the finish line (a string held across the field at the finish line) at an overseers outing of the American Woolen Company. 11.5 x 6.75 cm.</p>
@@ -507,10 +513,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link37">Item 29: Long jump competition, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1920/1925">1920-1925</unitdate>
+						<unitdate normal="1920/1925" type="inclusive">1920-1925</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts one man participating in a long jump competition at an overseers outing of the American Woolen Company. 11.5 x 7 cm.</p>
@@ -519,10 +525,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link38">Item 30: Fishing competition, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1945/1955">1945-1955</unitdate>
+						<unitdate normal="1945/1955" type="inclusive">1945-1955</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts two men displaying the fish they caught at an overseers outing of the American Woolen Company. The man on the right (in the hat) is also depicted in folder 1, item 32. 10 x 9.75 cm.</p>
@@ -531,10 +537,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link39">Item 31: Boating expedition, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1945/1955">1945-1955</unitdate>
+						<unitdate normal="1945/1955" type="inclusive">1945-1955</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts small powerboat on unknown lake or pond at an overseers outing of the American Woolen Company. 10 x 9.75 cm.</p>
@@ -543,10 +549,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link40">Item 32: Fishing, overseers outing, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1945/1955">1945-1955</unitdate>
+						<unitdate normal="1945/1955" type="inclusive">1945-1955</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts man holding several fish he apparently caught at an overseers outing of the American Woolen Company. The same man is also seen in folder 1, item 30. 10 x 9.75 cm.</p>
@@ -556,16 +562,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link41">Shawsheen Village, Andover, Mass.</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 					<physdesc label="Format:">Black and White photograph</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link42">Item 1: Administration Building, Shawsheen Village, Andover, Mass.</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -578,8 +584,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link43">Item 2: Balmoral Spa, Shawsheen Village, Andover, Mass.</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -592,8 +598,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link44">Item 3: Den Rock Road, Shawsheen Village, Andover, Mass.</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -606,8 +612,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link45">Item 4: Balmoral Spa, Shawsheen Village, Andover, Mass.</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -621,16 +627,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link46">300,000 lbs. wet top -- Wood Mill, Lawrence, Mass.</unittitle>
 					<unitdate normal="1927">1927</unitdate>
 					<physdesc label="Format:">Black and White photograph</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link47">Item 1: About 300,000 lbs. of wet top at Wood Mill, Lawrence, Mass.</unittitle>
 						<unitdate normal="1927">1927</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -643,8 +649,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link48">Item 2: About 300,000 lbs. of wet top at Wood Mill, Lawrence, Mass.</unittitle>
 						<unitdate normal="1927">1927</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -657,8 +663,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link49">Item 3: About 300,000 lbs. of wet top at Wood Mill, Lawrence, Mass.</unittitle>
 						<unitdate normal="1927">1927</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -671,8 +677,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link50">Item 4: About 300,000 lbs. of wet top at Wood Mill, Lawrence, Mass.</unittitle>
 						<unitdate normal="1927">1927</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -686,16 +692,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link51">Wood Mill, Lawrence, Mass. -- Flood of March 1936</unittitle>
 					<unitdate normal="1936">1936</unitdate>
 					<physdesc label="Format:">Black and White photograph</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link52">Item 1: Duck Bridge, Lawrence, Mass.</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -708,8 +714,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link53">Item 2: Wood Mill yard taken from the supply room, Lawrence, Mass.</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -722,8 +728,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link54">Item 3: Wood Mill yard, Lawrence, Mass.</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -736,8 +742,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link55">Item 4: Wood Mill yard taken from the supply room, Lawrence, Mass.</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -750,8 +756,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link56">Item 5: Duck Bridge, Lawrence, Mass.</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -764,8 +770,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link57">Item 6: Duck Bridge, Lawrence, Mass.</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -778,8 +784,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link58">Item 7: Wood Mill yard taken from weave room, Lawrence, Mass.</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -792,8 +798,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link59">Item 8: Flood damage inside Wood Mill, Lawrence, Mass.</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -805,8 +811,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link60">Item 9: Flooding along the Merrimack River, Lawrence, Mass.</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -818,8 +824,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link61">Item 10: Wood Mill yard taken from weave room, Lawrence, Mass.</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -832,8 +838,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link62">Item 11: Cloth Shipping Room, Wood Mill, Lawrence, Mass.</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -846,8 +852,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link63">Item 12: Cloth Shipping Office, Wood Mill, Lawrence, Mass.</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -861,15 +867,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link64">Warner &amp; Swacey pin drafters</unittitle>
 					<physdesc label="Format:">Black and White photograph</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link65">Item 1: Warner &amp; Swasey pin drafters producing balled slivers.</unittitle>
 						<physdesc label="Format:">Black and White photograph</physdesc>
 					</did>
@@ -880,8 +886,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link66">Item 2: Warner &amp; Swasey pin drafters delivering balls of slivers.</unittitle>
 						<physdesc label="Format:">Black and White photograph</physdesc>
 					</did>
@@ -892,8 +898,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link67">Item 3: Warner &amp; Swasey pin drafters delivering balls of slivers</unittitle>
 						<physdesc label="Format:">Black and White photograph</physdesc>
 					</did>
@@ -904,8 +910,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link68">Item 4: Warner &amp; Swasey pin drafters delivering balls of slivers</unittitle>
 						<physdesc label="Format:">Black and White photograph</physdesc>
 					</did>
@@ -917,16 +923,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link69">Bioplays of American Woolen Co. (Spring 1949)</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 					<physdesc label="Format:">Black and White photograph</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link70">Item 1: American Woolen Company display: "Cutting".</unittitle>
 						<unitdate normal="1949">1949</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -939,8 +945,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link71">Item 2: American Woolen Company display: "Washing".</unittitle>
 						<unitdate normal="1949">1949</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -953,8 +959,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link72">Item 3: American Woolen Company display: "Dyeing".</unittitle>
 						<unitdate normal="1949">1949</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -967,8 +973,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link73">Item 4: American Woolen Company display: "Shearing".</unittitle>
 						<unitdate normal="1949">1949</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -981,8 +987,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link74">Item 5: American Woolen Company display: "Spinning".</unittitle>
 						<unitdate normal="1949">1949</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -995,8 +1001,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link75">Item 6: American Woolen Company display: "Weaving".</unittitle>
 						<unitdate normal="1949">1949</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -1009,8 +1015,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link76">Item 7: American Woolen Company display: "Fashion Show".</unittitle>
 						<unitdate normal="1949">1949</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -1024,15 +1030,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link77">American Woolen Co. -- Wood Mills</unittitle>
-					<unitdate type="inclusive" normal="1910/1931">1910-1931</unitdate>
+					<unitdate normal="1910/1931" type="inclusive">1910-1931</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link78">Item 1: American Woolen Company Wood Worsted Mills, Lawrence, Mass.</unittitle>
 						<unitdate normal="1910">1910</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -1044,8 +1050,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link79">Item 2: Wood Worsted Mills, Lawrence, Mass.</unittitle>
 						<unitdate normal="1931">1931</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -1058,8 +1064,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link80">Item 3: American Woolen Company offices.</unittitle>
 						<physdesc label="Format:">Black and White photograph</physdesc>
 					</did>
@@ -1072,15 +1078,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link81">Various Exec. Of American Woolen Co. (Francis White, President)</unittitle>
-					<unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate>
+					<unitdate normal="1951/1953" type="inclusive">1951-1953</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link82">Item 1: Francis W. White at Chamber of Commerce dinner.</unittitle>
 						<unitdate normal="1952">1952</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -1093,8 +1099,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link83">Item 2: American Woolen Company, Chamber of Commerce dinner.</unittitle>
 						<unitdate normal="1952">1952</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -1107,8 +1113,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link84">Item 3: Francis W. White and John White.</unittitle>
 						<unitdate normal="1952">1952</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -1121,8 +1127,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link85">Item 4: Francis W. White at Chamber of Commerce dinner</unittitle>
 						<unitdate normal="1952">1952</unitdate>
 						<physdesc label="Format:">Black and White photograph</physdesc>
@@ -1135,10 +1141,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link86">Item 5: Francis W. White and Percy Wardwell, American Woolen Company.</unittitle>
-						<unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>
+						<unitdate normal="1951/1952" type="inclusive">1951-1952</unitdate>
 					</did>
 					<scopecontent>
 						<p>Stamped on reverse of photo: "Photography by Alton Anderson." Photo depicts Francis W. White (1893-1957), president of American Woolen Co., seated behind the desk, and Percy Wardwell, purchasing agent for American Woolen Co. Probably
@@ -1148,10 +1154,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link87">Item 6: Francis W. White and Charles H. Silver, American Woolen Company.</unittitle>
-						<unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>
+						<unitdate normal="1951/1952" type="inclusive">1951-1952</unitdate>
 					</did>
 					<scopecontent>
 						<p>Stamped on reverse of photo: "Photography by Alton Anderson." Photo depicts Francis W. White (1893-1957), president of American Woolen Co., seated behind the desk, and Charles H. Silver, general sales manager for American Woolen Co.
@@ -1161,10 +1167,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link88">Item 7: William Muir, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate>
+						<unitdate normal="1951/1953" type="inclusive">1951-1953</unitdate>
 					</did>
 					<scopecontent>
 						<p>Photo depicts William Muir, vice president in charge of the worsted division (1951) and vice president of manufacturing (1952-53) for the American Woolen Company. 12.5 x 15 cm.</p>
@@ -1173,10 +1179,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link89">Item 8: American Woolen Company executives.</unittitle>
-						<unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>
+						<unitdate normal="1951/1952" type="inclusive">1951-1952</unitdate>
 					</did>
 					<scopecontent>
 						<p>Stamped on reverse of photo: "Photography by Alton Anderson." Photo depicts, left to right: F.S. Connett, treasurer of American Woolen Company; Francis W. White (1893-1957), president of American Woolen Co., and William Muir, vice
@@ -1186,10 +1192,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link90">Item 9: Francis W. White, at his desk at the American Woolen Company.</unittitle>
-						<unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate>
+						<unitdate normal="1951/1953" type="inclusive">1951-1953</unitdate>
 					</did>
 					<scopecontent>
 						<p>Stamped on reverse of photo: "Photography by Alton Anderson." Photo depicts White, president of the American Woolen Company at his desk, probably in the company's offices in New York City. 20.5 x 25.5 cm.</p>
@@ -1198,10 +1204,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link91">Item 10: William Muir, American Woolen Company.</unittitle>
-						<unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate>
+						<unitdate normal="1951/1953" type="inclusive">1951-1953</unitdate>
 					</did>
 					<scopecontent>
 						<p>Studio portrait of William Muir, vice president of the worsted division (1951) and vice president of manufacturing (1952-53) of the American Woolen Company. Shown from the chest up. 21.5 x 28 cm. Copy A.</p>
@@ -1210,10 +1216,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link92">Item 11: William Muir, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate>
+						<unitdate normal="1951/1953" type="inclusive">1951-1953</unitdate>
 					</did>
 					<scopecontent>
 						<p>Studio portrait of William Muir, vice president of the worsted division (1951) and vice president of manufacturing (1952-53) of the American Woolen Company. Shown from the chest up. Copy B. 21.5 x 27 cm.</p>
@@ -1222,10 +1228,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link93">Item 12: Francis W. White, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate>
+						<unitdate normal="1951/1953" type="inclusive">1951-1953</unitdate>
 					</did>
 					<scopecontent>
 						<p>Portrait of Francis W. White (1893- 1957), president of the American Woolen Company (1950-53), probably taken in his office in New York City. Shown from the chest up. 21 x 27.5 cm. </p>
@@ -1234,10 +1240,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link94">Item 13: Francis W. White, American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate>
+						<unitdate normal="1951/1953" type="inclusive">1951-1953</unitdate>
 					</did>
 					<scopecontent>
 						<p>Portrait of Francis W. White (1893- 1957), president of the American Woolen Company (1950-53), probably taken in his office in New York City. Shown from the chest up. Copy B. 21 x 27.5 cm.</p>
@@ -1246,10 +1252,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link95">Item 14: Francis W. White, seated at his desk at the American Woolen Company.</unittitle>
-						<unitdate type="inclusive" normal="1951/1953">1951-1953</unitdate>
+						<unitdate normal="1951/1953" type="inclusive">1951-1953</unitdate>
 					</did>
 					<scopecontent>
 						<p>Image depicts White posed behind his desk, most likely in the company's offices in New York City. 26.5 x 21 cm.</p>
@@ -1258,10 +1264,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link96">Item 15: Executives of the American Woolen Company</unittitle>
-						<unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>
+						<unitdate normal="1951/1952" type="inclusive">1951-1952</unitdate>
 					</did>
 					<scopecontent>
 						<p>Stamped on reverse of photo: "Photography by Alton Anderson." Photo depicts executives of American Woolen seated at conference table, left to right: George E. McClellan, vice president and comptroller of American Woolen; Charles H.

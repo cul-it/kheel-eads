@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05736p::Barbara Wertheimer Photographs..)//EN">KCL05736p</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05736p::Barbara Wertheimer Photographs..)//EN">KCL05736p</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Barbara Wertheimer Photographs.<date> 1883-1974</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>July 24, 2013</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Barbara Wertheimer Photographs.<lb/></titleproper>
-			<num type="kidb_reference_number" id="kc2564">Collection Number: 5736 P</num>
+			<titleproper>Guide to the Barbara Wertheimer Photographs.</titleproper>
+			<num id="kc2564" type="kidb_reference_number">Collection Number: 5736 P</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref>
 					</item>
 				</defitem>
@@ -48,14 +54,14 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Barbara Wertheimer Photographs., <unitdate encodinganalog="MARC 245$f">1883-1974</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Barbara Wertheimer Photographs., 1883-1974
+			</unittitle><unitdate encodinganalog="MARC 245$f">1883-1974</unitdate>
 			<unitid label="Collection Number:">5736 P</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">Wertheimer, Barbara</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">0.5 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">0.5 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Photographs.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">Original and reproduction photographs, photocopies, and photos of drawings include material from a variety of archives and museums, as well as unattributed material.</abstract>
@@ -63,38 +69,38 @@
 			</langmaterial>
 		<physdesc><extent>0.5 cubic feet</extent></physdesc></did>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Barbara Wertheimer Photographs. #5736 P. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04015.html"> /4015: Wertheimer, Barbara. Office Files.</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05729.html"> 5729: Barbara Wertheimer Research Files</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05736.html"> 5736: Barbara Wertheimer Additional Files</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06144.html"> 6144: Barbara Wertheimer Additional Files</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06144av.html"> 6144 AV: Wertheimer, Barbara, Collector. Audiocassettes, 1973-1982.</extref><lb/>
+			
+			<p>Related Collections:
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04015.html"> /4015: Wertheimer, Barbara. Office Files.</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05729.html"> 5729: Barbara Wertheimer Research Files</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05736.html"> 5736: Barbara Wertheimer Additional Files</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06144.html"> 6144: Barbara Wertheimer Additional Files</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06144av.html"> 6144 AV: Wertheimer, Barbara, Collector. Audiocassettes, 1973-1982.</extref>
 			</p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link6">Bellanca, Dorothy Jacobs</unittitle>
-					<unitdate type="inclusive" normal="1900/1949">1900-1949</unitdate>
+					<unitdate normal="1900/1949" type="inclusive">1900-1949</unitdate>
 				</did>
 				<scopecontent>
 					<p>Includes Bellanca on the grass holding a book; on a Baltimore roof with other women including Mariel Santora, 1914; under a parasol, early 1900's; at a local 365 ACWA gathering with many smiling women, ca. 1940's.</p>
@@ -102,8 +108,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link7">Coalition of Labor Union Women, CLUW</unittitle>
 					<unitdate normal="1974">1974</unitdate>
 				</did>
@@ -113,8 +119,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link8">Hillman, Bessie Abramovitz</unittitle>
 				</did>
 				<scopecontent>
@@ -123,10 +129,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link9">Home and Homework</unittitle>
-					<unitdate type="inclusive" normal="1883/1902">1883-1902</unitdate>
+					<unitdate normal="1883/1902" type="inclusive">1883-1902</unitdate>
 				</did>
 				<scopecontent>
 					<p>Includes imitation flower makers at home; workers carrying bundles to or from home; a family working around a table; a drawing (?) of hand carding, spinning and weaving, ca 1880's; a woman plucking a goose while children watch; "a New England Kitchen" drawing; crowded home with garment workers from Harper's Weekly, July 28, 1883; photocopy of women sorting something at home, toddler looks on ca. 1900; photocopy of basket makers; woman and girl sewing while child looks on ca. 1900; woman and boy making chain in England, 1902; photocopy of "boiling licorice and dipping" tobacco?; "Home Finishers: a consumptive mother and her two children", 1901.</p>
@@ -134,8 +140,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link10">Immigration</unittitle>
 					<unitdate normal="1900">1900</unitdate>
 				</did>
@@ -145,8 +151,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link11">International Ladies Garment Workers Union</unittitle>
 				</did>
 				<scopecontent>
@@ -155,8 +161,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link12">Lace Making</unittitle>
 					<unitdate normal="1920">1920</unitdate>
 				</did>
@@ -166,52 +172,52 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link13">Merrimack Valley Textile Museum</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link14">Native Americans</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link15">Newman, Pauline</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link16">Petersen, Esther</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link17">Rose Schneiderman</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link18">School scenes</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link19">Shop scenes</unittitle>
-					<unitdate type="inclusive" normal="1900/1939">1900-1939</unitdate>
+					<unitdate normal="1900/1939" type="inclusive">1900-1939</unitdate>
 				</did>
 				<scopecontent>
 					<p>early 1900s</p>
@@ -219,10 +225,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link20">Shop scenes</unittitle>
-					<unitdate type="inclusive" normal="1940/1960">1940-1960</unitdate>
+					<unitdate normal="1940/1960" type="inclusive">1940-1960</unitdate>
 				</did>
 				<scopecontent>
 					<p>mid 1900s</p>
@@ -230,17 +236,17 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link21">Street scenes</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link22">Strikes and pickets</unittitle>
-					<unitdate type="inclusive" normal="1900/1939">1900-1939</unitdate>
+					<unitdate normal="1900/1939" type="inclusive">1900-1939</unitdate>
 				</did>
 				<scopecontent>
 					<p>early 1900s</p>
@@ -248,10 +254,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link23">Strikes and pickets</unittitle>
-					<unitdate type="inclusive" normal="1940/1960">1940-1960</unitdate>
+					<unitdate normal="1940/1960" type="inclusive">1940-1960</unitdate>
 				</did>
 				<scopecontent>
 					<p>mid 1900s</p>
@@ -259,29 +265,29 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link24">Triangle fire, and mine tragedy</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link25">TUWs Class</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link26">TUW Conference</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link27">Women, portraits and candid photographs</unittitle>
 					<unitdate normal="1922">1922</unitdate>
 				</did>
@@ -291,36 +297,36 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link28">Women on railroad jobs</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link29">Women who won their jobs in court</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link30">Women�s Trade Union League</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link31">Contact sheets and negatives</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link32">Pioneer life, slavery, war</unittitle>
 				</did>
 			</c01>

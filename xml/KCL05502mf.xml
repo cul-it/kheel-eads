@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
- <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-  <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05502mf::John Mitchell Papers on Microfilm.)//EN">KCL05502mf</eadid>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05502mf::John Mitchell Papers on Microfilm.)//EN">KCL05502mf</eadid>
   <filedesc>
    <titlestmt>
     <titleproper>Guide to the John Mitchell Papers on Microfilm<date> 1887-1989</date></titleproper>
@@ -23,19 +23,25 @@
    <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>March 14,
      2019</date></creation>
   </profiledesc>
- </eadheader>
+ <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
  <frontmatter>
   <titlepage>
-   <titleproper>Guide to the John Mitchell Papers on Microfilm<lb/></titleproper>
+   <titleproper>Guide to the John Mitchell Papers on Microfilm</titleproper>
    <num>Collection Number: 5502 mf</num>
    <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University
     Library </publisher>
    <list type="deflist">
     <defitem>
      <label>Contact Information:</label>
-     <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood
-      Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-      <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+     <item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood
+      Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183
+      <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
       <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
      </item>
     </defitem>
@@ -54,15 +60,15 @@
  </frontmatter>
  <archdesc level="collection">
   <did>
-   <head id="a1">DESCRIPTIVE SUMMARY</head>
-   <unittitle label="Title:" encodinganalog="MARC 245$a">John Mitchell Papers on Microfilm,
-     <unitdate encodinganalog="MARC 245$f">1887-1989</unitdate>
-   </unittitle>
+   
+   <unittitle encodinganalog="MARC 245$a" label="Title:">John Mitchell Papers on Microfilm
+     1887-1989
+   </unittitle><unitdate encodinganalog="MARC 245$f">1887-1989</unitdate>
    <unitid label="Collection Number:">5502 mf</unitid>
    <origination label="Creator:">
     <persname encodinganalog="MARC 100" role="creator">Mitchell, John</persname>
    </origination>
-   <physdesc label="Quantity:" encodinganalog="MARC 300">58 microfilm reels</physdesc>
+   <physdesc encodinganalog="MARC 300" label="Quantity:">58 microfilm reels</physdesc>
    <physdesc label="Forms of Material:">Papers (documents), microfilm.</physdesc>
    <repository label="Repository:">Kheel Center for Labor- Management Documentation and Archives,
     Cornell University Library </repository>
@@ -73,7 +79,7 @@
    </langmaterial>
   <physdesc><extent>6.44 cubic feet</extent></physdesc></did>
   <bioghist encodinganalog="MARC 545">
-   <head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+   
    <p>John Mitchell was born in Braidwood, Illinois on February 4, 1870, the son of Robert Mitchell,
     a Scotch-Irish immigrant, and Martha Halley. His mother died soon after he was born, and his
     father died when he was six. Reared by his father's third wife, Mitchell had little opportunity
@@ -423,7 +429,7 @@
     Scranton, Pennsylvania, at which city his remains were interred.</p>
   </bioghist>
   <scopecontent encodinganalog="MARC 520">
-   <head id="a3">COLLECTION DESCRIPTION</head>
+   
    <p>The papers of John Mitchell contain correspondence (1885-1919), reports and proceedings,
     pamphlets, and photographs primarily in connection with Mitchell's leading role in the
     coal-mining industry, the labor movement, and in American industrial relations. </p>
@@ -437,9 +443,9 @@
     the New York State Industrial Commission (1914-1919).</p>
   </scopecontent>
   <controlaccess>
-   <head id="a8">SUBJECTS</head>
+   
    <controlaccess>
-    <head>Names: </head>
+    
     <persname encodinganalog="MARC 600">Mitchell, John </persname>
     <persname encodinganalog="MARC 600">Turcheneske, John A. </persname>
     <corpname encodinganalog="MARC 610">American Federation of Labor </corpname>
@@ -450,7 +456,7 @@
     <corpname encodinganalog="MARC 610">United Mine Workers of America. </corpname>
    </controlaccess>
    <controlaccess>
-    <head>Subjects: </head>
+    
     <subject encodinganalog="MARC 650">Anthracite Coal Strike, Pennsylvania, 1900. </subject>
     <subject encodinganalog="MARC 650">Anthracite Coal Strike, United States, 1902. </subject>
     <subject encodinganalog="MARC 650">Coal-miners. </subject>
@@ -463,321 +469,321 @@
     </controlaccess>
   </controlaccess>
   <descgrp>
-   <head id="a10">INFORMATION FOR USERS</head>
+   
    <accessrestrict>
-    <head>Access Restrictions:</head>
+    
     <p>Access to the collections in the Kheel Center is restricted. Please contact a reference
      archivist for access to these materials.</p>
    </accessrestrict>
    <userestrict>
-    <head>Restrictions on Use:</head>
+    
     <p>This collection must be used in keeping with the Kheel Center Information Sheet and
      Procedures for Document Use.</p>
    </userestrict>
    <prefercite>
-    <head>Cite As:</head>
+    
     <p>John Mitchell Papers on Microfilm #5502 mf. Kheel Center for Labor-Management Documentation
      and Archives, Cornell University Library.</p>
    </prefercite>
   </descgrp>
   <relatedmaterial>
-   <head id="a6">RELATED MATERIALS</head>
-   <p>Related Collections:<lb/>
+   
+   <p>Related Collections:
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04073.html"> /4073: James O. Morris
-     Office Files</extref><lb/>
+     Office Files</extref>
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04256.html"> /4256: ILR Press
-     Article Reprints and Promotional Materials</extref><lb/>
+     Article Reprints and Promotional Materials</extref>
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05301-1mf.html"> 5301/1 mf: UMWA
-     Records: Series 1. Joint Conventions and Conference Proceedings on Microfilm</extref><lb/>
+     Records: Series 1. Joint Conventions and Conference Proceedings on Microfilm</extref>
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05360.html"> 5360: Buck's Stove and
-     Range Company vs. American Federation of Labor Court Records</extref><lb/>
+     Range Company vs. American Federation of Labor Court Records</extref>
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05583-5.html"> 5583/5: Archives
-     Organization File (AOF) Part 5</extref><lb/>
+     Organization File (AOF) Part 5</extref>
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05616.html"> 5616: Isaac Max
-     Rubinow Papers</extref><lb/>
+     Rubinow Papers</extref>
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-178.html"> 5780/178: ILGWU
-     Charles Zimmerman Collection of Radical Pamphlets</extref><lb/>
+     Charles Zimmerman Collection of Radical Pamphlets</extref>
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05966.html"> 5966: National
-     Committee on Prisons and Prison Labor Pamphlets and Leaflets</extref><lb/>
+     Committee on Prisons and Prison Labor Pamphlets and Leaflets</extref>
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06034.html"> 6034: Rare Pamphlet
-     Collection</extref><lb/>
+     Collection</extref>
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06046.html"> 6046: Archives Union
-     File (AUF)</extref><lb/>
+     File (AUF)</extref>
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06152.html"> 6152: New York State
-     Department of Labor Files</extref><lb/>
+     Department of Labor Files</extref>
    </p>
   </relatedmaterial>
   <dsc type="in-depth">
-   <head>CONTAINER LIST</head>
+   
    <c01 level="file">
     <did>
-     <container type="reel">1</container>
+     <container label="unspecified" type="reel">1</container>
      <unittitle id="link8">Correspondence. 7/12/1885-6/30/1900</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">2</container>
+     <container label="unspecified" type="reel">2</container>
      <unittitle id="link9">Correspondence. 7/1/1900-6/30/1901</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">3</container>
+     <container label="unspecified" type="reel">3</container>
      <unittitle id="link10">Correspondence. 7/1/1901-1901, n.d.</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">4A</container>
+     <container label="unspecified" type="reel">4A</container>
      <unittitle id="link11">Correspondence. 1/1/1902-10/13/1902</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">4B</container>
+     <container label="unspecified" type="reel">4B</container>
      <unittitle id="link12">Correspondence. 1/1/1902-10/13/1902. Copy 2.</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">5A</container>
+     <container label="unspecified" type="reel">5A</container>
      <unittitle id="link13">Correspondence. 10/14/1902-2/30/03</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">5B</container>
+     <container label="unspecified" type="reel">5B</container>
      <unittitle id="link14">Correspondence. 10/14/1902-2/30/03. Copy 2.</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">6</container>
+     <container label="unspecified" type="reel">6</container>
      <unittitle id="link15">Correspondence. 3/1/1903-10/24/1903</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">7</container>
+     <container label="unspecified" type="reel">7</container>
      <unittitle id="link16">Correspondence. 10/26/1903-1/25/1904</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">8</container>
+     <container label="unspecified" type="reel">8</container>
      <unittitle id="link17">Correspondence. 1/26/1904-12/6/1904</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">9</container>
+     <container label="unspecified" type="reel">9</container>
      <unittitle id="link18">Correspondence. 12/7/1904-6/15/1905</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">10</container>
+     <container label="unspecified" type="reel">10</container>
      <unittitle id="link19">Correspondence. 6/16/1905-3/14/1906</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">11</container>
+     <container label="unspecified" type="reel">11</container>
      <unittitle id="link20">Correspondence. 3/15/1906-4/9/1907</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">12</container>
+     <container label="unspecified" type="reel">12</container>
      <unittitle id="link21">Correspondence. 4/10/1907-12/5/1907</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">13</container>
+     <container label="unspecified" type="reel">13</container>
      <unittitle id="link22">Correspondence. 12/6/1907-7/24/1908</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">14</container>
+     <container label="unspecified" type="reel">14</container>
      <unittitle id="link23">Correspondence. 7/25/1908-12/8/1908</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">15</container>
+     <container label="unspecified" type="reel">15</container>
      <unittitle id="link24">Correspondence. 12/9/1908-3/15/1909</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">16</container>
+     <container label="unspecified" type="reel">16</container>
      <unittitle id="link25">Correspondence. 3/16/1909-8/31/1909</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">17</container>
+     <container label="unspecified" type="reel">17</container>
      <unittitle id="link26">Correspondence. 7/1/1909-12/4/1909</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">18</container>
+     <container label="unspecified" type="reel">18</container>
      <unittitle id="link27">Correspondence. 12/5/1909-1909, n.d.</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">19</container>
+     <container label="unspecified" type="reel">19</container>
      <unittitle id="link28">Correspondence. 1/1/1910-5/7/1910</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">20</container>
+     <container label="unspecified" type="reel">20</container>
      <unittitle id="link29">Correspondence. 5/9/1910-9/24/1910</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">21</container>
+     <container label="unspecified" type="reel">21</container>
      <unittitle id="link30">Correspondence. 9/26/1910-1910 n.d.</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">22</container>
+     <container label="unspecified" type="reel">22</container>
      <unittitle id="link31">Correspondence. 1910, n.d.-3/20/1911</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">23</container>
+     <container label="unspecified" type="reel">23</container>
      <unittitle id="link32">Correspondence. 3/21/1911-7/30/1911</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">24</container>
+     <container label="unspecified" type="reel">24</container>
      <unittitle id="link33">Correspondence. 8/1/1911-12/31/1911</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">25</container>
+     <container label="unspecified" type="reel">25</container>
      <unittitle id="link34">Correspondence. 1911, n.d.-3/11/1912</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">26</container>
+     <container label="unspecified" type="reel">26</container>
      <unittitle id="link35">Correspondence. 3/12/1912-8/9/1912</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">27</container>
+     <container label="unspecified" type="reel">27</container>
      <unittitle id="link36">Correspondence. 9/10/1912-1912, n.d.</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">28</container>
+     <container label="unspecified" type="reel">28</container>
      <unittitle id="link37">Correspondence. 1/1/1913-5/5/1913</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">29</container>
+     <container label="unspecified" type="reel">29</container>
      <unittitle id="link38">Correspondence. 5/5/1913-10/30/1913</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">30</container>
+     <container label="unspecified" type="reel">30</container>
      <unittitle id="link39">Correspondence. 11/2/1913-4/11/1914</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">31</container>
+     <container label="unspecified" type="reel">31</container>
      <unittitle id="link40">Correspondence. 4/13/1914-12/17/1914</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">32</container>
+     <container label="unspecified" type="reel">32</container>
      <unittitle id="link41">Correspondence. 12/18/1914-10/15/1915</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">33</container>
+     <container label="unspecified" type="reel">33</container>
      <unittitle id="link42">Correspondence. 10/18/1915-10/30/1916</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">34</container>
+     <container label="unspecified" type="reel">34</container>
      <unittitle id="link43">Correspondence. 11/1/1916-7/30/1917</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">35</container>
+     <container label="unspecified" type="reel">35</container>
      <unittitle id="link44">Correspondence. 8/1/1917-3/4/1918</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">36</container>
+     <container label="unspecified" type="reel">36</container>
      <unittitle id="link45">Correspondence. 3/5/1918-12/17/1918</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">37</container>
+     <container label="unspecified" type="reel">37</container>
      <unittitle id="link46">Correspondence. 12/18/1918-6/19/1919</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">38</container>
+     <container label="unspecified" type="reel">38</container>
      <unittitle id="link47">Correspondence. 6/23/1919-Undated </unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">39</container>
+     <container label="unspecified" type="reel">39</container>
      <unittitle id="link48">Undated correspondence. </unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">40</container>
+     <container label="unspecified" type="reel">40</container>
      <unittitle id="link49">Undated correspondence. </unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">41</container>
+     <container label="unspecified" type="reel">41</container>
      <unittitle id="link50">Minutes, Proceedings, Constitutions and Reports 1891-1908</unittitle>
     </did>
     <c02 level="file">
      <did>
-      <container type="reel">41</container>
+      <container label="unspecified" type="reel">41</container>
       <unitid label="Item ">1</unitid>
       <unittitle id="link51">Minutes of the National Executive Board, 1900, Feb-1908,
        Mar</unittitle>
-      <unitdate type="inclusive" normal="1900/1908">1900-1908</unitdate>
+      <unitdate normal="1900/1908" type="inclusive">1900-1908</unitdate>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">41</container>
+      <container label="unspecified" type="reel">41</container>
       <unitid label="Item ">2</unitid>
       <unittitle id="link52">Proceedings of the First Annual Convention of the United Mine Workers
        of America</unittitle>
@@ -789,7 +795,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">41</container>
+      <container label="unspecified" type="reel">41</container>
       <unitid label="Item ">3</unitid>
       <unittitle id="link53">Proceedings of the Ninth Annual Convention of the United Mine Workers
        of America</unittitle>
@@ -802,7 +808,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">41</container>
+      <container label="unspecified" type="reel">41</container>
       <unitid label="Item ">4</unitid>
       <unittitle id="link54">Proceedings of the Tenth Annual Convention of the United Mine Workers
        of America</unittitle>
@@ -815,7 +821,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">41</container>
+      <container label="unspecified" type="reel">41</container>
       <unitid label="Item ">5</unitid>
       <unittitle id="link55">Proceedings of the Eleventh Annual Convention of the United Mine
        Workers of America</unittitle>
@@ -828,7 +834,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">41</container>
+      <container label="unspecified" type="reel">41</container>
       <unitid label="Item ">6</unitid>
       <unittitle id="link56">Proceedings of the Twelfth Annual Convention of the United Mine Workers
        of America</unittitle>
@@ -841,7 +847,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">41</container>
+      <container label="unspecified" type="reel">41</container>
       <unitid label="Item ">7</unitid>
       <unittitle id="link57">Minutes of the Thirteenth Annual Convention of the United Mine Workers
        of America</unittitle>
@@ -854,7 +860,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">41</container>
+      <container label="unspecified" type="reel">41</container>
       <unitid label="Item ">8</unitid>
       <unittitle id="link58">Minutes of the Fourteenth Annual Convention of the United Mine Workers
        of America</unittitle>
@@ -867,7 +873,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">41</container>
+      <container label="unspecified" type="reel">41</container>
       <unitid label="Item ">9</unitid>
       <unittitle id="link59">Minutes of the Fifteenth Annual Convention of the United Mine Workers
        of America</unittitle>
@@ -879,7 +885,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">41</container>
+      <container label="unspecified" type="reel">41</container>
       <unitid label="Item ">10</unitid>
       <unittitle id="link60">Minutes of the Sixteenth Annual Convention of the United Mine Workers
        of America</unittitle>
@@ -892,7 +898,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">41</container>
+      <container label="unspecified" type="reel">41</container>
       <unitid label="Item ">11</unitid>
       <unittitle id="link61">Minutes of the 17th Annual Convention of the United Mine Workers of
        America</unittitle>
@@ -905,12 +911,12 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">42</container>
+     <container label="unspecified" type="reel">42</container>
      <unittitle id="link62">Minutes, Proceedings, Constitutions and Reports 1891-1908</unittitle>
     </did>
     <c02 level="file">
      <did>
-      <container type="reel">42</container>
+      <container label="unspecified" type="reel">42</container>
       <unitid label="Item ">1</unitid>
       <unittitle id="link63">Minutes of the Special Convention: United Mine Workers of
        America</unittitle>
@@ -923,7 +929,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">42</container>
+      <container label="unspecified" type="reel">42</container>
       <unitid label="Item ">2</unitid>
       <unittitle id="link64">Proceedings of the Eighteenth Annual Convention of the United Mine
        Workers of America</unittitle>
@@ -936,7 +942,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">42</container>
+      <container label="unspecified" type="reel">42</container>
       <unitid label="Item ">3</unitid>
       <unittitle id="link65">Proceedings of the Nineteenth Annual Convention of the United Mine
        Workers of America</unittitle>
@@ -949,7 +955,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">42</container>
+      <container label="unspecified" type="reel">42</container>
       <unitid label="Item ">4</unitid>
       <unittitle id="link66">Proceedings of the Reconvened Nineteenth Annual Convention of the
        United Mine Workers of America</unittitle>
@@ -962,7 +968,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">42</container>
+      <container label="unspecified" type="reel">42</container>
       <unitid label="Item ">5</unitid>
       <unittitle id="link67">Constitution and Laws of the United Mine Workers of America</unittitle>
       <unitdate normal="1890">1890</unitdate>
@@ -973,7 +979,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">42</container>
+      <container label="unspecified" type="reel">42</container>
       <unitid label="Item ">6</unitid>
       <unittitle id="link68">Constitution and Laws of the United Mine Workers of America</unittitle>
       <unitdate normal="1896">1896</unitdate>
@@ -984,7 +990,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">42</container>
+      <container label="unspecified" type="reel">42</container>
       <unitid label="Item ">7</unitid>
       <unittitle id="link69">Constitution and Laws of the United Mine Workers of America</unittitle>
       <unitdate normal="1900">1900</unitdate>
@@ -995,7 +1001,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">42</container>
+      <container label="unspecified" type="reel">42</container>
       <unitid label="Item ">8</unitid>
       <unittitle id="link70">Constitution and Laws of the National Union, United Mine Workers of
        America</unittitle>
@@ -1007,7 +1013,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">42</container>
+      <container label="unspecified" type="reel">42</container>
       <unitid label="Item ">9</unitid>
       <unittitle id="link71">"Report of Special convention of the United Mineworkers of America
        Called to Consider the Strike on the Anthracite Field, Indianapolis, Ind., July 17-19,
@@ -1021,7 +1027,7 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">43A</container>
+     <container label="unspecified" type="reel">43A</container>
      <unittitle id="link72">Miscellaneous Minutes, Proceedings, and Reports. Part 1. American
       Federation of Labor, Minutes of the Executive Committee, Apr 14, 1902-Oct 21-1911. Copy
       2.</unittitle>
@@ -1029,21 +1035,21 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">43B</container>
+     <container label="unspecified" type="reel">43B</container>
      <unittitle id="link73">Miscellaneous Minutes, Proceedings, and Reports. Part 1. American
       Federation of Labor, Minutes of the Executive Committee, Apr 14, 1902-Oct 21-1911</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">44</container>
+     <container label="unspecified" type="reel">44</container>
      <unittitle id="link74">Miscellaneous Minutes, Proceedings, and Reports. Part 2. American
       Federation of Labor, President's Reports, 1907-1910; Part 3. American Federation of Labor,
       Secretary's Reports, 1902-1913-</unittitle>
     </did>
     <c02 level="file">
      <did>
-      <container type="reel">44</container>
+      <container label="unspecified" type="reel">44</container>
       <unitid label="Item ">1</unitid>
       <unittitle id="link75">American Federation of Labor, Minutes of the Executive
        Committee</unittitle>
@@ -1055,43 +1061,43 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">44</container>
+      <container label="unspecified" type="reel">44</container>
       <unitid label="Item ">2</unitid>
       <unittitle id="link76">American Federation of Labor, President's Reports</unittitle>
-      <unitdate type="inclusive" normal="1907/1910">1907-1910</unitdate>
+      <unitdate normal="1907/1910" type="inclusive">1907-1910</unitdate>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">44</container>
+      <container label="unspecified" type="reel">44</container>
       <unitid label="Item ">3</unitid>
       <unittitle id="link77">American Federation of Labor, Secretary's Reports</unittitle>
-      <unitdate type="inclusive" normal="1902/1913">1902-1913</unitdate>
+      <unitdate normal="1902/1913" type="inclusive">1902-1913</unitdate>
      </did>
     </c02>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">45</container>
+     <container label="unspecified" type="reel">45</container>
      <unittitle id="link78">Miscellaneous Minutes, Proceedings, and Reports. Part 4. New York State
       Food Commission, Minutes, 1917-1919; Part 5. New York State Industrial Commission,
       Administrative Minutes and Index, 1914-Feb 29, 1916</unittitle>
     </did>
     <c02 level="file">
      <did>
-      <container type="reel">45</container>
+      <container label="unspecified" type="reel">45</container>
       <unitid label="Item ">1</unitid>
       <unittitle id="link79">New York State Food Commission, Minutes</unittitle>
-      <unitdate type="inclusive" normal="1917/1919">1917-1919</unitdate>
+      <unitdate normal="1917/1919" type="inclusive">1917-1919</unitdate>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">45</container>
+      <container label="unspecified" type="reel">45</container>
       <unitid label="Item ">2</unitid>
       <unittitle id="link80">New York State Industrial Commission, Administrative Minutes and
        Index</unittitle>
-      <unitdate type="inclusive" normal="1914/1916">1914-1916</unitdate>
+      <unitdate normal="1914/1916" type="inclusive">1914-1916</unitdate>
      </did>
      <scopecontent>
       <p>1914-February 29, 1916</p>
@@ -1100,14 +1106,14 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">46</container>
+     <container label="unspecified" type="reel">46</container>
      <unittitle id="link81">Miscellaneous Minutes, Proceedings, and Reports. Part 5. New York State
       Industrial Commission, Administrative Minutes and Index, Mar 2, 1916-Dec 27 1916</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">47</container>
+     <container label="unspecified" type="reel">47</container>
      <unittitle id="link82">Miscellaneous Minutes, Proceedings, and Reports. Part 5. New York State
       Industrial Commission, Administrative Minutes and Index, Jan 3, 1917 - Dec 27,
       1917</unittitle>
@@ -1115,7 +1121,7 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">48</container>
+     <container label="unspecified" type="reel">48</container>
      <unittitle id="link83">Miscellaneous Minutes, Proceedings, and Reports. Part 5. New York State
       Industrial Commission, Administrative Minutes and Index, Jan 2, 1918 - Sept 25,
       1918</unittitle>
@@ -1123,13 +1129,13 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">49</container>
+     <container label="unspecified" type="reel">49</container>
      <unittitle id="link84">Miscellaneous Minutes, Proceedings, and Reports. Part 6. New York State
       Workman's Compensation Commission, Minutes, May 29, 1914</unittitle>
     </did>
     <c02 level="file">
      <did>
-      <container type="reel">49</container>
+      <container label="unspecified" type="reel">49</container>
       <unitid label="Item ">1</unitid>
       <unittitle id="link85">New York State Workman's Compensation Commission, Minutes</unittitle>
       <unitdate normal="1914">1914</unitdate>
@@ -1140,7 +1146,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">49</container>
+      <container label="unspecified" type="reel">49</container>
       <unitid label="Item ">2</unitid>
       <unittitle id="link86">New York State Industrial Commission, Administrative Minutes and
        Index</unittitle>
@@ -1153,40 +1159,40 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">50</container>
+     <container label="unspecified" type="reel">50</container>
      <unittitle id="link87">Miscellaneous Minutes, Proceedings, and Reports. Part 6. New York State
       Workman's Compensation Commission, Minutes, Jun 1, 1914 - Jul 31, 1914</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">51</container>
+     <container label="unspecified" type="reel">51</container>
      <unittitle id="link88">Miscellaneous Minutes, Proceedings, and Reports. Part 6. New York State
       Workman's Compensation Commission, Minutes, Aug 3, 1914 - Sept 21, 1914</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">52</container>
+     <container label="unspecified" type="reel">52</container>
      <unittitle id="link89">Miscellaneous Minutes, Proceedings, and Reports. Part 6. New York State
       Workman's Compensation Commission, Minutes, Oct 1, 1914 - Feb 27, 1915</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">53</container>
+     <container label="unspecified" type="reel">53</container>
      <unittitle id="link90">Miscellaneous Minutes, Proceedings, and Reports. Part 6. New York State
       Workman's Compensation Commission, Minutes, Mar 1, 1915 - Jul 9, 1919</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">54</container>
+     <container label="unspecified" type="reel">54</container>
      <unittitle id="link91">Printed Matter, 1888-1912</unittitle>
     </did>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">1</unitid>
       <unittitle id="link92">Adler, Felix. The Ethics of the Labor Struggle.</unittitle>
      </did>
@@ -1196,7 +1202,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">2</unitid>
       <unittitle id="link93">Adler, Felix. The Evils Disclosed by the Coal Strike.</unittitle>
       <unitdate normal="1902">1902</unitdate>
@@ -1207,7 +1213,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">3</unitid>
       <unittitle id="link94">Agreement Between Miners and Operators of the Eighth District of
        Illinois.</unittitle>
@@ -1218,7 +1224,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">4</unitid>
       <unittitle id="link95">Amberg, Emil. The Fraction of Progress.</unittitle>
       <unitdate normal="1903">1903</unitdate>
@@ -1229,7 +1235,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">5</unitid>
       <unittitle id="link96">Argument of Hon. C.N. Brumm of Council for the United Mine Workers of
        America.</unittitle>
@@ -1241,7 +1247,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">6</unitid>
       <unittitle id="link97">Argument of H.T. Newcomb of Council for the Philadelphia and Reading
        Coal and Iron Company.</unittitle>
@@ -1253,7 +1259,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">7</unitid>
       <unittitle id="link98">Beebe, James C. Common Sense Measures for Protection to Mines and
        Miners.</unittitle>
@@ -1265,7 +1271,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">8</unitid>
       <unittitle id="link99">Casson, Herbert N. Common Sense on the Labor Question.</unittitle>
      </did>
@@ -1275,7 +1281,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">9</unitid>
       <unittitle id="link100">Chaplin, Heman. The Coal Mines and the Public.</unittitle>
       <unitdate normal="1902">1902</unitdate>
@@ -1286,7 +1292,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">10</unitid>
       <unittitle id="link101">Coal Miners' Strike, 1897: Supplement to the Sixteenth Annual Coal
        Report of the Bureau of Labor Statistics.</unittitle>
@@ -1298,7 +1304,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">11</unitid>
       <unittitle id="link102">Compilation of Grievances and Action Thereon.</unittitle>
       <unitdate normal="1903">1903</unitdate>
@@ -1309,7 +1315,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">12</unitid>
       <unittitle id="link103">Danryid, Lemuel. History and Philosophy of the Eight Hour
        Movement</unittitle>
@@ -1321,7 +1327,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">13</unitid>
       <unittitle id="link104">Fourth Annual Joint Conference of Coal Miners and Operators of
        Illinois, Indiana, Ohio, and Pennsylvania.</unittitle>
@@ -1333,7 +1339,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">14</unitid>
       <unittitle id="link105">Gunton, George. The Economic and Social Importance of the Eight Hour
        Movement.</unittitle>
@@ -1345,7 +1351,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">15</unitid>
       <unittitle id="link106">Gompers, Samuel. The Eight Hour Workday: Its Inauguration,
        Enforcement, and Influence.</unittitle>
@@ -1356,7 +1362,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">16</unitid>
       <unittitle id="link107">The Illinois Coal Operators Association: Joint Interstate Agreement,
        District and Local Agreements for the Year Ending March 31, 1901.</unittitle>
@@ -1368,7 +1374,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">17</unitid>
       <unittitle id="link108">The Illinois Coal Operators Association: Joint Interstate Agreement,
        District and Local Agreements, for the Scale Year Ending March 31, 1902.</unittitle>
@@ -1380,7 +1386,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">18</unitid>
       <unittitle id="link109">The Illinois Coal Operators Association: Joint Interstate Agreement,
        District and Local Agreements for the Scale Year Ending March 31, 1903.</unittitle>
@@ -1392,7 +1398,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">19</unitid>
       <unittitle id="link110">Joint Conference of Coal Miners and Operators of Western Pennsylvania,
        Ohio, Indiana, and Illinois.</unittitle>
@@ -1404,7 +1410,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">20</unitid>
       <unittitle id="link111">Joint Conference of Coal Miners and Operators of Western Pennsylvania,
        Ohio, and Indiana.</unittitle>
@@ -1416,7 +1422,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">21</unitid>
       <unittitle id="link112">John Mitchell Exposed.</unittitle>
      </did>
@@ -1426,7 +1432,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">22</unitid>
       <unittitle id="link113">Justi, Herman. The Organization of Capital.</unittitle>
       <unitdate normal="1902">1902</unitdate>
@@ -1437,7 +1443,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">23</unitid>
       <unittitle id="link114">Labor and the War.</unittitle>
       <unitdate normal="1918">1918</unitdate>
@@ -1448,7 +1454,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">24</unitid>
       <unittitle id="link115">McNeill, George. The Eight Hour Primer.</unittitle>
       <unitdate normal="1889">1889</unitdate>
@@ -1459,7 +1465,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">25</unitid>
       <unittitle id="link116">Mitchell, John. The Coal Strike.</unittitle>
      </did>
@@ -1469,7 +1475,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">26</unitid>
       <unittitle id="link117">Minutes of the Joint Conference of Anthracite Mine Operators and
        Correspondence Connected Therewith.</unittitle>
@@ -1481,7 +1487,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">27</unitid>
       <unittitle id="link118">Negotiations of Anthracite Coal Operators and Anthracite Mine Workers:
        Addresses of John P. White, International President, and William Green, International
@@ -1494,7 +1500,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">28</unitid>
       <unittitle id="link119">The Next Great Step for Labor.</unittitle>
      </did>
@@ -1504,7 +1510,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">29</unitid>
       <unittitle id="link120">Official Report of Proceedings of the Joint Conference of Miners and
        Operators.</unittitle>
@@ -1516,7 +1522,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">30</unitid>
       <unittitle id="link121">Organization of the Association of Commissioners and
        Secretaries.</unittitle>
@@ -1528,7 +1534,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">31</unitid>
       <unittitle id="link122">Plain Facts About the Conditions in the Coal Mining
        Industry.</unittitle>
@@ -1539,7 +1545,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">32</unitid>
       <unittitle id="link123">Platform and Constitution of the National Party. Chicago:</unittitle>
      </did>
@@ -1549,7 +1555,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">33</unitid>
       <unittitle id="link124">Proceedings of Joint Convention and Constitutional Laws of the
        National Progressive Union of Miners and Mine Laborers.</unittitle>
@@ -1561,7 +1567,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">34</unitid>
       <unittitle id="link125">Proceedings of the Joint Convention of Miners and
        Operators.</unittitle>
@@ -1573,7 +1579,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">35</unitid>
       <unittitle id="link126">Proceedings of the Third Annual Convention of the National Federation
        of Miners and Mine Laborers of the United States of Territories.</unittitle>
@@ -1585,7 +1591,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">36</unitid>
       <unittitle id="link127">Program for Constructive Democracy: Message and War Program of the
        National Party: An Appeal to the Heart and Brain of America.</unittitle>
@@ -1597,7 +1603,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">37</unitid>
       <unittitle id="link128">Roberts, Peter. "The Anthracite Conflict."</unittitle>
       <unitdate normal="1902">1902</unitdate>
@@ -1608,7 +1614,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">38</unitid>
       <unittitle id="link129">Second Annual Joint Conference of Coal Miners and Operators of
        Illinois, Indiana, Ohio, and Pennsylvania.</unittitle>
@@ -1620,7 +1626,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">39</unitid>
       <unittitle id="link130">Seventh Annual Joint Conference of Coal Miners and Operators of
        Western Pennsylvania, Ohio, Indiana, and Illinois.</unittitle>
@@ -1632,7 +1638,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">40</unitid>
       <unittitle id="link131">Speech Delivered By John Mitchell in Support of the Report of the
        Committee on Boycotts.</unittitle>
@@ -1643,7 +1649,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">41</unitid>
       <unittitle id="link132">Speech of William B. Wilson on Mitchell Day.</unittitle>
       <unitdate normal="1901">1901</unitdate>
@@ -1654,7 +1660,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">42</unitid>
       <unittitle id="link133">Strikes are War! War is Hell!! N</unittitle>
      </did>
@@ -1664,7 +1670,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">43</unitid>
       <unittitle id="link134">Third Annual Joint Conference of Coal Miners and Operators of
        Illinois, Indiana, Ohio, and Pennsylvania.</unittitle>
@@ -1676,7 +1682,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">44</unitid>
       <unittitle id="link135">Topical Plan of Inquiry on Conditions of Labor and Capital Employed in
        the Mining Industry.</unittitle>
@@ -1687,7 +1693,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">54</container>
+      <container label="unspecified" type="reel">54</container>
       <unitid label="Item ">45</unitid>
       <unittitle id="link136">True Friend of the Workingman: M.A. Hanna's Record.</unittitle>
      </did>
@@ -1698,47 +1704,47 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="reel">55</container>
+     <container label="unspecified" type="reel">55</container>
      <unittitle id="link137">Photographs</unittitle>
     </did>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">1</unitid>
       <unittitle id="link138">John Mitchell</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">2</unitid>
       <unittitle id="link139">John Mitchell</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">3</unitid>
       <unittitle id="link140">John Mitchell</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">4</unitid>
       <unittitle id="link141">John Mitchell</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">5</unitid>
       <unittitle id="link142">John Mitchell (left), John Fallou ( right)</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">6</unitid>
       <unittitle id="link143">John Mitchell</unittitle>
       <unitdate normal="1905">1905</unitdate>
@@ -1749,7 +1755,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">7</unitid>
       <unittitle id="link144">John Mitchell.</unittitle>
       <unitdate normal="1902">1902</unitdate>
@@ -1760,7 +1766,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">8</unitid>
       <unittitle id="link145">John Mitchell's sons: left to right: Robert, James,
        Richard.</unittitle>
@@ -1772,49 +1778,49 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">9</unitid>
       <unittitle id="link146">Rufus M. Barnes</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">10</unitid>
       <unittitle id="link147">Beech Flats Coal Company. Coal Shute</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">11</unitid>
       <unittitle id="link148">Beech Flats Coal Company. Steam Shovel</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">12</unitid>
       <unittitle id="link149">Beech Flats Coal Company. Shunting of coal cars</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">13</unitid>
       <unittitle id="link150">Beech Flats Coal Company. Steam shovel strip mining</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">14</unitid>
       <unittitle id="link151">Joseph Brustead. West Bay City, Michigan</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">15</unitid>
       <unittitle id="link152">Standing, left to right: Thomas Cairns, James Kennedy; Sitting, left
        to right: Henry Bausfield, Benjamin Davis, John H. Walker</unittitle>
@@ -1822,7 +1828,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">16</unitid>
       <unittitle id="link153">Canadian Pacific Railway station.</unittitle>
       <unitdate normal="1901">1901</unitdate>
@@ -1833,35 +1839,35 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">17</unitid>
       <unittitle id="link154">Coal Breaker</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">18</unitid>
       <unittitle id="link155">Clarence S. Darrow</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">19</unitid>
       <unittitle id="link156">W.H. Deltrey</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">20</unitid>
       <unittitle id="link157">Charles Duncan</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">21</unitid>
       <unittitle id="link158">The "Edward F." Shaft, dumps and mill.</unittitle>
       <unitdate normal="1905">1905</unitdate>
@@ -1872,35 +1878,35 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">22</unitid>
       <unittitle id="link159">Chris Evans</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">23</unitid>
       <unittitle id="link160">W.R. Fairley</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">24</unitid>
       <unittitle id="link161">W.R. Fairley</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">25</unitid>
       <unittitle id="link162">Joseph Gilneartain</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">26</unitid>
       <unittitle id="link163">Herman Justi</unittitle>
       <unitdate normal="1906">1906</unitdate>
@@ -1911,7 +1917,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">27</unitid>
       <unittitle id="link164">Kehota Mining Company. Steam shovel strip mining</unittitle>
       <unitdate normal="1916">1916</unitdate>
@@ -1922,7 +1928,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">28</unitid>
       <unittitle id="link165">Kehota Mining Company. Steam shovel</unittitle>
       <unitdate normal="1916">1916</unitdate>
@@ -1933,7 +1939,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">29</unitid>
       <unittitle id="link166">Kehota Mining Company. Steam shovel</unittitle>
       <unitdate normal="1916">1916</unitdate>
@@ -1944,7 +1950,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">30</unitid>
       <unittitle id="link167">Kehota Mining Company. Steam shovel</unittitle>
       <unitdate normal="1916">1916</unitdate>
@@ -1955,7 +1961,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">31</unitid>
       <unittitle id="link168">Kehota Mining Company. Coal Shute</unittitle>
       <unitdate normal="1916">1916</unitdate>
@@ -1966,7 +1972,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">32</unitid>
       <unittitle id="link169">Kehota Mining Company. Coal Shute.</unittitle>
       <unitdate normal="1916">1916</unitdate>
@@ -1977,14 +1983,14 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">33</unitid>
       <unittitle id="link170">Edward A. Kirshfield</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">34</unitid>
       <unittitle id="link171">Capt. J.J. Kittinger, USMC.</unittitle>
       <unitdate normal="1919">1919</unitdate>
@@ -1995,7 +2001,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">35</unitid>
       <unittitle id="link172">T.L. Lewis</unittitle>
       <unitdate normal="1900">1900</unitdate>
@@ -2006,42 +2012,42 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">36</unitid>
       <unittitle id="link173">William Little</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">37</unitid>
       <unittitle id="link174">Peter McCall</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">38</unitid>
       <unittitle id="link175">W.N. Naskinz</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">39</unitid>
       <unittitle id="link176">W.B. Nelson</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">40</unitid>
       <unittitle id="link177">New Orleans, Louisiana, Jackson Park</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">41</unitid>
       <unittitle id="link178">New York State Food Commission</unittitle>
       <unitdate normal="1918">1918</unitdate>
@@ -2049,21 +2055,21 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">42</unitid>
       <unittitle id="link179">Thomas C. Parker</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">43</unitid>
       <unittitle id="link180">D.D. Price</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">44</unitid>
       <unittitle id="link181">Reading, Pennsylvania. Downtown</unittitle>
       <unitdate normal="1905">1905</unitdate>
@@ -2074,7 +2080,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">45</unitid>
       <unittitle id="link182">Roosevelt Day at Wilkes-Barre, Pennsylvania.</unittitle>
       <unitdate normal="1905">1905</unitdate>
@@ -2085,7 +2091,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">46</unitid>
       <unittitle id="link183">Roosevelt Day at Wilkes-Barre, Pennsylvania. President Theodore
        Roosevelt addressing crowd</unittitle>
@@ -2097,7 +2103,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">47</unitid>
       <unittitle id="link184">Roosevelt Day at Wilkes-Barre, Pennsylvania. President Theodore
        Roosevelt accepting audience's accolades</unittitle>
@@ -2109,7 +2115,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">48</unitid>
       <unittitle id="link185">Roosevelt Day at Wilkes-Barre, Pennsylvania. President Theodore
        Roosevelt in Parade</unittitle>
@@ -2121,7 +2127,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">49</unitid>
       <unittitle id="link186">Roosevelt Day at Wilkes-Barre, Pennsylvania. President Theodore
        Roosevelt in Parade</unittitle>
@@ -2133,7 +2139,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">50</unitid>
       <unittitle id="link187">Roosevelt Day at Wilkes-Barre, Pennsylvania. Parade</unittitle>
       <unitdate normal="1905">1905</unitdate>
@@ -2144,7 +2150,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">51</unitid>
       <unittitle id="link188">Roosevelt Day at Wilkes-Barre, Pennsylvania. Parade,</unittitle>
       <unitdate normal="1905">1905</unitdate>
@@ -2155,7 +2161,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">52</unitid>
       <unittitle id="link189">Theodore Roosevelt Memorial</unittitle>
      </did>
@@ -2165,7 +2171,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">53</unitid>
       <unittitle id="link190">W.C. Scott</unittitle>
       <unitdate normal="1899">1899</unitdate>
@@ -2176,14 +2182,14 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">54</unitid>
       <unittitle id="link191">Sunnyslope, Alberta</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">55</unitid>
       <unittitle id="link192">United Mine Workers of America. Anthracite Coal Strike of
        1902.</unittitle>
@@ -2195,7 +2201,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">56</unitid>
       <unittitle id="link193">United Mine Workers of America. Anthracite Coal Strike of
        1902.</unittitle>
@@ -2209,7 +2215,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">57</unitid>
       <unittitle id="link194">United Mine Workers of America. Anthracite Coal Strike of
        1902.</unittitle>
@@ -2221,7 +2227,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">58</unitid>
       <unittitle id="link195">United Mine Workers of America. Anthracite Coal Strike of
        1902.</unittitle>
@@ -2233,7 +2239,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">59</unitid>
       <unittitle id="link196">United Mine Workers of America. Anthracite Coal Strike of
        1902.</unittitle>
@@ -2245,7 +2251,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">60</unitid>
       <unittitle id="link197">United Mine Workers of America. John P. Gallagher</unittitle>
       <unitdate normal="1901">1901</unitdate>
@@ -2256,7 +2262,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">61</unitid>
       <unittitle id="link198">United Mine Workers of America. Mr. Healy</unittitle>
      </did>
@@ -2266,7 +2272,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">62</unitid>
       <unittitle id="link199">United Mine Workers of America. Mass Meeting.</unittitle>
       <unitdate normal="1903">1903</unitdate>
@@ -2277,14 +2283,14 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">63</unitid>
       <unittitle id="link200">United Mine Workers of America. Miners' families</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">64</unitid>
       <unittitle id="link201">United Mine Workers of America. John Mitchell addressing mass
        meeting.</unittitle>
@@ -2296,7 +2302,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">65</unitid>
       <unittitle id="link202">United Mine Workers of America. Mass meeting hearing John
        Mitchell.</unittitle>
@@ -2308,7 +2314,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">66</unitid>
       <unittitle id="link203">United Mine Workers of America. Left to right: John Mitchell, Mr.
        Beamish, Mr. Dunn.</unittitle>
@@ -2320,7 +2326,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">67</unitid>
       <unittitle id="link204">United Mine Workers of America. Mitchell Day Parade.</unittitle>
       <unitdate normal="1905">1905</unitdate>
@@ -2331,7 +2337,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">68</unitid>
       <unittitle id="link205">United Mine Workers of America. Mitchell Day Parade.</unittitle>
       <unitdate normal="1905">1905</unitdate>
@@ -2342,7 +2348,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">69</unitid>
       <unittitle id="link206">United Mine Workers of America. Mitchell Day Parade.</unittitle>
       <unitdate normal="1905">1905</unitdate>
@@ -2353,7 +2359,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">70</unitid>
       <unittitle id="link207">United Mine Workers of America. Mitchell Day Parade.</unittitle>
       <unitdate normal="1905">1905</unitdate>
@@ -2364,7 +2370,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">71</unitid>
       <unittitle id="link208">United Mine Workers of America. Mitchell Day Parade.</unittitle>
       <unitdate normal="1905">1905</unitdate>
@@ -2375,7 +2381,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">72</unitid>
       <unittitle id="link209">United Mine Workers of America. Mitchell Day Parade.</unittitle>
       <unitdate normal="1905">1905</unitdate>
@@ -2386,7 +2392,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">73</unitid>
       <unittitle id="link210">United Mine Workers of America. Mitchell Day Parade.</unittitle>
       <unitdate normal="1905">1905</unitdate>
@@ -2397,7 +2403,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">74</unitid>
       <unittitle id="link211">United Mine Workers of America. Mitchell Day Parade.</unittitle>
       <unitdate normal="1905">1905</unitdate>
@@ -2408,7 +2414,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">75</unitid>
       <unittitle id="link212">United Mine Workers of America. Parade.</unittitle>
       <unitdate normal="1905">1905</unitdate>
@@ -2419,7 +2425,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">76</unitid>
       <unittitle id="link213">United Mine Workers of America. Parade.</unittitle>
       <unitdate normal="1905">1905</unitdate>
@@ -2430,7 +2436,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">77</unitid>
       <unittitle id="link214">United Mine Workers of America. Parade.</unittitle>
       <unitdate normal="1905">1905</unitdate>
@@ -2441,7 +2447,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">78</unitid>
       <unittitle id="link215">United Mine Workers of America. Gathering.</unittitle>
       <unitdate normal="1905">1905</unitdate>
@@ -2452,7 +2458,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">79</unitid>
       <unittitle id="link216">United Mine Workers of America. F.H. Sherman</unittitle>
      </did>
@@ -2462,7 +2468,7 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">80</unitid>
       <unittitle id="link217">Charles Weger</unittitle>
       <unitdate normal="1898">1898</unitdate>
@@ -2473,21 +2479,21 @@
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">81</unitid>
       <unittitle id="link218">Wilkes-Barre, Pennsylvania. Public Square</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">82</unitid>
       <unittitle id="link219">Wilkes-Barre, Pennsylvania. Scene outside city</unittitle>
      </did>
     </c02>
     <c02 level="file">
      <did>
-      <container type="reel">55</container>
+      <container label="unspecified" type="reel">55</container>
       <unitid label="Item ">83</unitid>
       <unittitle id="link220">W. B. Wilson</unittitle>
      </did>

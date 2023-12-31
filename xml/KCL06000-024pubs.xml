@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06000-024pubs::UNITE Local 23-25 Publications.)//EN">KCL06000-024pubs</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06000-024pubs::UNITE Local 23-25 Publications.)//EN">KCL06000-024pubs</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the UNITE Local 23-25 Publications<date> 1998-2007</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>August 12, 2015</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the UNITE Local 23-25 Publications<lb/></titleproper>
+			<titleproper>Guide to the UNITE Local 23-25 Publications</titleproper>
 			<num>Collection Number: 6000/024 PUBS</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,28 +54,28 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">UNITE Local 23-25 Publications, <unitdate encodinganalog="MARC 245$f">1998-2007</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">UNITE Local 23-25 Publications, 1998-2007
+			</unittitle><unitdate encodinganalog="MARC 245$f">1998-2007</unitdate>
 			<unitid label="Collection Number:">6000/024 PUBS</unitid>
 			<origination label="Creator:">
 				<corpname encodinganalog="MARC 110" role="creator">Union of Needletrades, Industrial and Textile Employees (UNITE)</corpname>
 				<corpname encodinganalog="MARC 110" role="creator"> UNITE Local 23-25</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">1.5 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">1.5 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Records, publications.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<langmaterial label="Language:">Collection material in <language encodinganalog="MARC 041" langcode="eng">English</language>
 			</langmaterial>
 		<physdesc><extent>1.5 cubic feet</extent></physdesc></did>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a3">COLLECTION DESCRIPTION</head>
+			
 			<p>Some of the publications are in Chinese and Spanish.</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<corpname encodinganalog="MARC 610">Union of Needletrades, Industrial, and Textile Employees. </corpname>
 				<corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union --Archives </corpname>
 				<corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union. Local 23-25 (New York, N.Y.)--Archives </corpname>
@@ -78,7 +84,7 @@
 				<corpname encodinganalog="MARC 610">UNITE HERE (Organization) --Archives </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Textile workers--Labor unions--New York (State)--New York </subject>
 				<subject encodinganalog="MARC 650">Clothing workers--Labor unions--New York (State)--New York </subject>
 			</controlaccess>
@@ -86,42 +92,42 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>UNITE Local 23-25 Publications #6000/024 PUBS. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-024.html"> 6000/024: UNITE Local 23-25 Records</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-024av.html"> 6000/024 AV: UNITE Local 23-25 Audio-Visual Materials</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-024p.html"> 6000/024 P: UNITE Local 23-25 Photographs</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-024mb.html"> 6000/024 MB: UNITE Local 23-25 Memorabilia</extref><lb/>
+			
+			<p>Related Collections:
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-024.html"> 6000/024: UNITE Local 23-25 Records</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-024av.html"> 6000/024 AV: UNITE Local 23-25 Audio-Visual Materials</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-024p.html"> 6000/024 P: UNITE Local 23-25 Photographs</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06000-024mb.html"> 6000/024 MB: UNITE Local 23-25 Memorabilia</extref>
 			</p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">1</container>
 					<unittitle id="link6">1995 July and October Vol. 44, No. 3-4</unittitle>
 					<unitdate normal="1995">1995</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">1</container>
 						<unittitle id="link7">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1995">1995</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -135,8 +141,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">1</container>
 						<unittitle id="link8">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1995">1995</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -150,8 +156,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">1</container>
 						<unittitle id="link9">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1995">1995</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -165,8 +171,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">1</container>
 						<unittitle id="link10">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1995">1995</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -180,8 +186,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">1</container>
 						<unittitle id="link11">Item 5: Local 23-25 News</unittitle>
 						<unitdate normal="1995">1995</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -195,8 +201,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">1</container>
 						<unittitle id="link12">Item 6: Local 23-25 News</unittitle>
 						<unitdate normal="1995">1995</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -210,8 +216,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">1</container>
 						<unittitle id="link13">Item 7: Local 23-25 News</unittitle>
 						<unitdate normal="1995">1995</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -226,16 +232,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">2</container>
 					<unittitle id="link14">1990 January Vol. 45, No. 1</unittitle>
 					<unitdate normal="1990">1990</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">2</container>
 						<unittitle id="link15">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -249,8 +255,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">2</container>
 						<unittitle id="link16">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -264,8 +270,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">2</container>
 						<unittitle id="link17">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -279,8 +285,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">2</container>
 						<unittitle id="link18">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -295,16 +301,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">3</container>
 					<unittitle id="link19">1996 January Vol. 45, No. 1 (Chinese)</unittitle>
 					<unitdate normal="1996">1996</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">3</container>
 						<unittitle id="link20">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -318,8 +324,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">3</container>
 						<unittitle id="link21">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -333,8 +339,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">3</container>
 						<unittitle id="link22">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -348,8 +354,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">3</container>
 						<unittitle id="link23">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -364,16 +370,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">4</container>
 					<unittitle id="link24">1996 April Vol. 45, No. 2</unittitle>
 					<unitdate normal="1996">1996</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">4</container>
 						<unittitle id="link25">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -387,8 +393,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">4</container>
 						<unittitle id="link26">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -402,8 +408,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">4</container>
 						<unittitle id="link27">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -417,8 +423,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">4</container>
 						<unittitle id="link28">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -433,16 +439,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">5</container>
 					<unittitle id="link29">1996 April Vol. 43 No. 2 (Chinese)</unittitle>
 					<unitdate normal="1996">1996</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">5</container>
 						<unittitle id="link30">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -456,8 +462,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">5</container>
 						<unittitle id="link31">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -471,8 +477,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">5</container>
 						<unittitle id="link32">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -486,8 +492,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">5</container>
 						<unittitle id="link33">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -502,16 +508,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">6</container>
 					<unittitle id="link34">1996 August Vol. 45 No. 3</unittitle>
 					<unitdate normal="1996">1996</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">6</container>
 						<unittitle id="link35">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -525,8 +531,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">6</container>
 						<unittitle id="link36">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -540,8 +546,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">6</container>
 						<unittitle id="link37">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -556,16 +562,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">7</container>
 					<unittitle id="link38">1996 August Vol. 45, No. 3 (Chinese)</unittitle>
 					<unitdate normal="1996">1996</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">7</container>
 						<unittitle id="link39">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -579,8 +585,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">7</container>
 						<unittitle id="link40">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -595,16 +601,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">8</container>
 					<unittitle id="link41">1996 October Vol. 45, No. 4</unittitle>
 					<unitdate normal="1996">1996</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">8</container>
 						<unittitle id="link42">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -618,8 +624,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">8</container>
 						<unittitle id="link43">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -633,8 +639,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">8</container>
 						<unittitle id="link44">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -648,8 +654,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">8</container>
 						<unittitle id="link45">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -664,16 +670,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">9</container>
 					<unittitle id="link46">1996 October V. 45; No. 4 (Chinese)</unittitle>
 					<unitdate normal="1996">1996</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">9</container>
 						<unittitle id="link47">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -687,8 +693,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">9</container>
 						<unittitle id="link48">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1996">1996</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -703,16 +709,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">10</container>
 					<unittitle id="link49">1997 Vol. 46 No. 1 January</unittitle>
 					<unitdate normal="1997">1997</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">10</container>
 						<unittitle id="link50">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -726,8 +732,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">10</container>
 						<unittitle id="link51">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -741,8 +747,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">10</container>
 						<unittitle id="link52">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -756,8 +762,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">10</container>
 						<unittitle id="link53">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -771,8 +777,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">10</container>
 						<unittitle id="link54">Item 5: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -787,16 +793,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">11</container>
 					<unittitle id="link55">1997 Vo. 46, No. 2 April</unittitle>
 					<unitdate normal="1997">1997</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">11</container>
 						<unittitle id="link56">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -810,8 +816,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">11</container>
 						<unittitle id="link57">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -825,8 +831,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">11</container>
 						<unittitle id="link58">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -840,8 +846,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">11</container>
 						<unittitle id="link59">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -855,8 +861,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">11</container>
 						<unittitle id="link60">Item 5: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -871,16 +877,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">12</container>
 					<unittitle id="link61">1997 Vol. 46 No. 3 July</unittitle>
 					<unitdate normal="1997">1997</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">12</container>
 						<unittitle id="link62">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -894,8 +900,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">12</container>
 						<unittitle id="link63">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -909,8 +915,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">12</container>
 						<unittitle id="link64">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -924,8 +930,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">12</container>
 						<unittitle id="link65">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -939,8 +945,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">12</container>
 						<unittitle id="link66">Item 5: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -955,16 +961,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">13</container>
 					<unittitle id="link67">1997 Vol. 46 No. 4 October</unittitle>
 					<unitdate normal="1997">1997</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">13</container>
 						<unittitle id="link68">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -978,8 +984,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">13</container>
 						<unittitle id="link69">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -993,8 +999,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">13</container>
 						<unittitle id="link70">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1008,8 +1014,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">13</container>
 						<unittitle id="link71">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1024,16 +1030,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">14</container>
 					<unittitle id="link72">1997 Vol. 46 No. 4 October (Chinese)</unittitle>
 					<unitdate normal="1997">1997</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">14</container>
 						<unittitle id="link73">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1047,8 +1053,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">14</container>
 						<unittitle id="link74">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1062,8 +1068,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">14</container>
 						<unittitle id="link75">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1077,8 +1083,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">14</container>
 						<unittitle id="link76">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1093,16 +1099,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">15</container>
 					<unittitle id="link77">1998 January Vol. 47, No. 1</unittitle>
 					<unitdate normal="1998">1998</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">15</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">15</container>
 						<unittitle id="link78">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1116,8 +1122,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">15</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">15</container>
 						<unittitle id="link79">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1131,8 +1137,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">15</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">15</container>
 						<unittitle id="link80">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1146,8 +1152,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">15</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">15</container>
 						<unittitle id="link81">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1162,16 +1168,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">16</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">16</container>
 					<unittitle id="link82">1998 January Vol. 47, No. 1 (Chinese)</unittitle>
 					<unitdate normal="1998">1998</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">16</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">16</container>
 						<unittitle id="link83">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1185,8 +1191,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">16</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">16</container>
 						<unittitle id="link84">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1200,8 +1206,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">16</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">16</container>
 						<unittitle id="link85">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1215,8 +1221,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">16</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">16</container>
 						<unittitle id="link86">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1231,16 +1237,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">17</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">17</container>
 					<unittitle id="link87">1998 April Vol. 47, No. 2</unittitle>
 					<unitdate normal="1998">1998</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">17</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">17</container>
 						<unittitle id="link88">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1254,8 +1260,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">17</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">17</container>
 						<unittitle id="link89">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1269,8 +1275,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">17</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">17</container>
 						<unittitle id="link90">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1284,8 +1290,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">17</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">17</container>
 						<unittitle id="link91">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1300,16 +1306,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">18</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">18</container>
 					<unittitle id="link92">1998 April Vol. 47, No. 2 (Chinese)</unittitle>
 					<unitdate normal="1998">1998</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">18</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">18</container>
 						<unittitle id="link93">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1323,8 +1329,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">18</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">18</container>
 						<unittitle id="link94">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1338,8 +1344,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">18</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">18</container>
 						<unittitle id="link95">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1353,8 +1359,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">18</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">18</container>
 						<unittitle id="link96">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1369,16 +1375,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">19</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">19</container>
 					<unittitle id="link97">1998 July Vol. 47, No. 3</unittitle>
 					<unitdate normal="1998">1998</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">19</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">19</container>
 						<unittitle id="link98">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1392,8 +1398,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">19</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">19</container>
 						<unittitle id="link99">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1407,8 +1413,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">19</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">19</container>
 						<unittitle id="link100">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1422,8 +1428,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">19</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">19</container>
 						<unittitle id="link101">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1438,16 +1444,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">20</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">20</container>
 					<unittitle id="link102">1998 July Vol. 47, No. 3 Chinese</unittitle>
 					<unitdate normal="1998">1998</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">20</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">20</container>
 						<unittitle id="link103">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1461,8 +1467,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">20</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">20</container>
 						<unittitle id="link104">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1476,8 +1482,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">20</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">20</container>
 						<unittitle id="link105">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1491,8 +1497,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">20</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">20</container>
 						<unittitle id="link106">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1507,16 +1513,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">21</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">21</container>
 					<unittitle id="link107">1998 October Vol. 47, No. 4</unittitle>
 					<unitdate normal="1998">1998</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">21</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">21</container>
 						<unittitle id="link108">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1530,8 +1536,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">21</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">21</container>
 						<unittitle id="link109">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1545,8 +1551,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">21</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">21</container>
 						<unittitle id="link110">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1560,8 +1566,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">21</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">21</container>
 						<unittitle id="link111">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1576,16 +1582,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">22</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">22</container>
 					<unittitle id="link112">1998 October Vol. 47 No. 4 (Chinese)</unittitle>
 					<unitdate normal="1998">1998</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">22</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">22</container>
 						<unittitle id="link113">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1599,8 +1605,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">22</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">22</container>
 						<unittitle id="link114">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1614,8 +1620,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">22</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">22</container>
 						<unittitle id="link115">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1629,8 +1635,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">22</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">22</container>
 						<unittitle id="link116">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1645,16 +1651,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">23</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">23</container>
 					<unittitle id="link117">1999 January Vol. 48, No. 1</unittitle>
 					<unitdate normal="1999">1999</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">23</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">23</container>
 						<unittitle id="link118">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1668,8 +1674,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">23</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">23</container>
 						<unittitle id="link119">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1683,8 +1689,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">23</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">23</container>
 						<unittitle id="link120">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1698,8 +1704,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">23</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">23</container>
 						<unittitle id="link121">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1714,16 +1720,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">24</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">24</container>
 					<unittitle id="link122">1999 January Vol. 48 No. 1 (Chinese)</unittitle>
 					<unitdate normal="1999">1999</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">24</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">24</container>
 						<unittitle id="link123">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1737,8 +1743,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">24</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">24</container>
 						<unittitle id="link124">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1752,8 +1758,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">24</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">24</container>
 						<unittitle id="link125">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1767,8 +1773,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">24</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">24</container>
 						<unittitle id="link126">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1783,16 +1789,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">25</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">25</container>
 					<unittitle id="link127">1999 April Vol. 48, No. 2</unittitle>
 					<unitdate normal="1999">1999</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">25</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">25</container>
 						<unittitle id="link128">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1806,8 +1812,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">25</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">25</container>
 						<unittitle id="link129">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1821,8 +1827,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">25</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">25</container>
 						<unittitle id="link130">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1836,8 +1842,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">25</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">25</container>
 						<unittitle id="link131">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1852,16 +1858,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">26</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">26</container>
 					<unittitle id="link132">1999 April, Vol. 48, No. 2 (Chinese)</unittitle>
 					<unitdate normal="1999">1999</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">26</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">26</container>
 						<unittitle id="link133">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1875,8 +1881,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">26</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">26</container>
 						<unittitle id="link134">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1890,8 +1896,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">26</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">26</container>
 						<unittitle id="link135">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1905,8 +1911,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">26</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">26</container>
 						<unittitle id="link136">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1921,16 +1927,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">27</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">27</container>
 					<unittitle id="link137">1999 July Vol. 48, No. 3</unittitle>
 					<unitdate normal="1999">1999</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">27</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">27</container>
 						<unittitle id="link138">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1944,8 +1950,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">27</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">27</container>
 						<unittitle id="link139">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1959,8 +1965,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">27</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">27</container>
 						<unittitle id="link140">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1974,8 +1980,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">27</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">27</container>
 						<unittitle id="link141">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -1990,16 +1996,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">28</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">28</container>
 					<unittitle id="link142">1999 July Vol. 48, No. 3 (Chinese)</unittitle>
 					<unitdate normal="1999">1999</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">28</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">28</container>
 						<unittitle id="link143">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2013,8 +2019,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">28</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">28</container>
 						<unittitle id="link144">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2028,8 +2034,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">28</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">28</container>
 						<unittitle id="link145">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2043,8 +2049,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">28</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">28</container>
 						<unittitle id="link146">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2059,16 +2065,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">29</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">29</container>
 					<unittitle id="link147">1999 Autumn Vol. 48, No. 4</unittitle>
 					<unitdate normal="1999">1999</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">29</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">29</container>
 						<unittitle id="link148">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2082,8 +2088,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">29</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">29</container>
 						<unittitle id="link149">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2097,8 +2103,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">29</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">29</container>
 						<unittitle id="link150">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2112,8 +2118,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">29</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">29</container>
 						<unittitle id="link151">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2128,16 +2134,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">30</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">30</container>
 					<unittitle id="link152">1999 Autumn Vol. 48 No. 4 (Chinese)</unittitle>
 					<unitdate normal="1999">1999</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">30</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">30</container>
 						<unittitle id="link153">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2151,8 +2157,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">30</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">30</container>
 						<unittitle id="link154">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2166,8 +2172,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">30</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">30</container>
 						<unittitle id="link155">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2181,8 +2187,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">30</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">30</container>
 						<unittitle id="link156">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2197,16 +2203,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">31</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">31</container>
 					<unittitle id="link157">2000 Winter/spring Vol. 49, No. 1</unittitle>
 					<unitdate normal="2000">2000</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">31</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">31</container>
 						<unittitle id="link158">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2220,8 +2226,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">31</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">31</container>
 						<unittitle id="link159">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2235,8 +2241,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">31</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">31</container>
 						<unittitle id="link160">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2250,8 +2256,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">31</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">31</container>
 						<unittitle id="link161">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2266,16 +2272,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">32</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">32</container>
 					<unittitle id="link162">2000 Winter/Spring Vol. 49, No. 1 (Chinese)</unittitle>
 					<unitdate normal="2000">2000</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">32</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">32</container>
 						<unittitle id="link163">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2289,8 +2295,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">32</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">32</container>
 						<unittitle id="link164">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2304,8 +2310,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">32</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">32</container>
 						<unittitle id="link165">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2319,8 +2325,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">32</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">32</container>
 						<unittitle id="link166">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2335,16 +2341,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">33</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">33</container>
 					<unittitle id="link167">2000 Spring/Summer Vol. 49, No. 2</unittitle>
 					<unitdate normal="2000">2000</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">33</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">33</container>
 						<unittitle id="link168">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2358,8 +2364,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">33</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">33</container>
 						<unittitle id="link169">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2373,8 +2379,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">33</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">33</container>
 						<unittitle id="link170">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2388,8 +2394,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">33</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">33</container>
 						<unittitle id="link171">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2404,16 +2410,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">34</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">34</container>
 					<unittitle id="link172">2000 Spring/Summer Vol. 49, No. 2 (Chinese)</unittitle>
 					<unitdate normal="2000">2000</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">34</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">34</container>
 						<unittitle id="link173">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2427,8 +2433,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">34</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">34</container>
 						<unittitle id="link174">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2442,8 +2448,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">34</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">34</container>
 						<unittitle id="link175">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2457,8 +2463,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">34</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">34</container>
 						<unittitle id="link176">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2473,16 +2479,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">35</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">35</container>
 					<unittitle id="link177">2000 Autumn/Winter Vol. 49 No. 3</unittitle>
 					<unitdate normal="2000">2000</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">35</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">35</container>
 						<unittitle id="link178">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2496,8 +2502,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">35</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">35</container>
 						<unittitle id="link179">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2511,8 +2517,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">35</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">35</container>
 						<unittitle id="link180">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2526,8 +2532,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">35</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">35</container>
 						<unittitle id="link181">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2542,16 +2548,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">36</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">36</container>
 					<unittitle id="link182">2000 Autumn/Winter Vol. 49, No. 3 (Chinese)</unittitle>
 					<unitdate normal="2000">2000</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">36</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">36</container>
 						<unittitle id="link183">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2565,8 +2571,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">36</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">36</container>
 						<unittitle id="link184">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2580,8 +2586,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">36</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">36</container>
 						<unittitle id="link185">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2595,8 +2601,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">36</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">36</container>
 						<unittitle id="link186">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2611,16 +2617,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">37</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">37</container>
 					<unittitle id="link187">2001 Winter Vol. 50, No. 1</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">37</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">37</container>
 						<unittitle id="link188">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2634,8 +2640,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">37</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">37</container>
 						<unittitle id="link189">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2649,8 +2655,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">37</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">37</container>
 						<unittitle id="link190">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2664,8 +2670,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">37</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">37</container>
 						<unittitle id="link191">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2680,16 +2686,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">38</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">38</container>
 					<unittitle id="link192">2001 Winter Vol. 50 No. 1 (Chinese)</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">38</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">38</container>
 						<unittitle id="link193">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2703,8 +2709,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">38</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">38</container>
 						<unittitle id="link194">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2718,8 +2724,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">38</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">38</container>
 						<unittitle id="link195">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2733,8 +2739,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">38</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">38</container>
 						<unittitle id="link196">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2749,16 +2755,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">39</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">39</container>
 					<unittitle id="link197">2001 Summer Vol. 50, No. 2</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">39</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">39</container>
 						<unittitle id="link198">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2772,8 +2778,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">39</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">39</container>
 						<unittitle id="link199">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2787,8 +2793,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">39</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">39</container>
 						<unittitle id="link200">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2802,8 +2808,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">39</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">39</container>
 						<unittitle id="link201">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2818,16 +2824,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">40</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">40</container>
 					<unittitle id="link202">2001 Summer Vol. 50, No. 2 (Chinese)</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">40</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">40</container>
 						<unittitle id="link203">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2841,8 +2847,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">40</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">40</container>
 						<unittitle id="link204">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2856,8 +2862,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">40</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">40</container>
 						<unittitle id="link205">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2871,8 +2877,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">40</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">40</container>
 						<unittitle id="link206">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2887,16 +2893,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">41</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">41</container>
 					<unittitle id="link207">2001 Autumn/Winter Vol. 50, No. 3</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">41</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">41</container>
 						<unittitle id="link208">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2910,8 +2916,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">41</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">41</container>
 						<unittitle id="link209">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2925,8 +2931,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">41</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">41</container>
 						<unittitle id="link210">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2940,8 +2946,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">41</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">41</container>
 						<unittitle id="link211">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2956,16 +2962,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">42</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">42</container>
 					<unittitle id="link212">2001 Autumn/Winter Vol. 50, No. 3 (Chinese)</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">42</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">42</container>
 						<unittitle id="link213">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2979,8 +2985,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">42</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">42</container>
 						<unittitle id="link214">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -2994,8 +3000,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">42</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">42</container>
 						<unittitle id="link215">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3009,8 +3015,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">42</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">42</container>
 						<unittitle id="link216">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3025,16 +3031,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">43</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">43</container>
 					<unittitle id="link217">2002 Spring Vol. 51, No. 21</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">43</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">43</container>
 						<unittitle id="link218">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3048,8 +3054,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">43</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">43</container>
 						<unittitle id="link219">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3063,8 +3069,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">43</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">43</container>
 						<unittitle id="link220">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3078,8 +3084,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">43</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">43</container>
 						<unittitle id="link221">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3094,16 +3100,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">44</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">44</container>
 					<unittitle id="link222">2002 Spring Vol. 51, No. 1 (Chinese)</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">44</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">44</container>
 						<unittitle id="link223">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3118,16 +3124,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">45</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">45</container>
 					<unittitle id="link224">2002 Autumn Vol. 51, No. 2</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">45</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">45</container>
 						<unittitle id="link225">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3141,8 +3147,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">45</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">45</container>
 						<unittitle id="link226">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3156,8 +3162,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">45</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">45</container>
 						<unittitle id="link227">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3171,8 +3177,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">45</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">45</container>
 						<unittitle id="link228">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3187,16 +3193,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">46</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">46</container>
 					<unittitle id="link229">2002 Autumn Vol. 51, No. 2 (Chinese)</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">46</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">46</container>
 						<unittitle id="link230">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3210,8 +3216,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">46</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">46</container>
 						<unittitle id="link231">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3225,8 +3231,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">46</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">46</container>
 						<unittitle id="link232">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3240,8 +3246,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">46</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">46</container>
 						<unittitle id="link233">Item 4: Local 23-25 News</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3256,16 +3262,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">47</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">47</container>
 					<unittitle id="link234">2003 Local 23-25 News V. 52 (2005: May) Chinese</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">47</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">47</container>
 						<unittitle id="link235">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3280,16 +3286,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">48</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">48</container>
 					<unittitle id="link236">Local 23-25 News V. 52: No. 1 (2003; Spring/Summer English and Spanish</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">48</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">48</container>
 						<unittitle id="link237">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3303,8 +3309,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">48</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">48</container>
 						<unittitle id="link238">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3318,8 +3324,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">48</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">48</container>
 						<unittitle id="link239">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3334,16 +3340,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">49</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">49</container>
 					<unittitle id="link240">Local 23and25 V. 52: Mail (2003: Spring/Summer) Chinese</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">49</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">49</container>
 						<unittitle id="link241">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3357,8 +3363,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">49</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">49</container>
 						<unittitle id="link242">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3372,8 +3378,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">49</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">49</container>
 						<unittitle id="link243">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3388,16 +3394,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">50</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">50</container>
 					<unittitle id="link244">Local 23-25 News V. 52: No. 7 (2003: Autumn) English and Spanish</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">50</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">50</container>
 						<unittitle id="link245">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3411,8 +3417,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">50</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">50</container>
 						<unittitle id="link246">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3426,8 +3432,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">50</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">50</container>
 						<unittitle id="link247">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3442,16 +3448,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">51</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">51</container>
 					<unittitle id="link248">Local 23-25 News V. 52: No. 2 (2003: Autumn) Chinese</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">51</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">51</container>
 						<unittitle id="link249">Item 1: Local 23-25 News</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3465,8 +3471,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">51</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">51</container>
 						<unittitle id="link250">Item 2: Local 23-25 News</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3480,8 +3486,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">51</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">51</container>
 						<unittitle id="link251">Item 3: Local 23-25 News</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3496,16 +3502,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">52</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">52</container>
 					<unittitle id="link252">NY Metro Area Joint Board News Vol: No. 1 (2004: Spring/Summer) English and Spanish</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">52</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">52</container>
 						<unittitle id="link253">Item 1: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3519,8 +3525,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">52</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">52</container>
 						<unittitle id="link254">Item 2: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3534,8 +3540,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">52</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">52</container>
 						<unittitle id="link255">Item 3: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3550,16 +3556,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">53</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">53</container>
 					<unittitle id="link256">NY Metro Area Joint Board News Vol. No. 1 (2004; Spring/Summer) Chinese</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">53</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">53</container>
 						<unittitle id="link257">Item 1: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3573,8 +3579,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">53</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">53</container>
 						<unittitle id="link258">Item 2: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3588,8 +3594,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">53</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">53</container>
 						<unittitle id="link259">Item 3: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2004">2004</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3604,16 +3610,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">54</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">54</container>
 					<unittitle id="link260">NY Metro Area Joint Board News. V. 2; No. 1 (2005:Jan.)</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">54</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">54</container>
 						<unittitle id="link261">Item 1: New York Metropolitan Area Joint Board News</unittitle>
 						<unitdate normal="2005">2005</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3628,16 +3634,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">55</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">55</container>
 					<unittitle id="link262">The Magnet. No. 2 (2000: Summer) English and Spanish</unittitle>
 					<unitdate normal="2000">2000</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">55</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">55</container>
 						<unittitle id="link263">Item 1: The Magnet: Drawing Workers Together</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3652,15 +3658,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">56</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">56</container>
 					<unittitle id="link264">Voice 2002-2003</unittitle>
-					<unitdate type="inclusive" normal="2002/2003">2002-2003</unitdate>
+					<unitdate normal="2002/2003" type="inclusive">2002-2003</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">56</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">56</container>
 						<unittitle id="link265">Item 1: UNITE Voice</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3674,8 +3680,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">56</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">56</container>
 						<unittitle id="link266">Item 2: UNITE Voice</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3690,16 +3696,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">57</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">57</container>
 					<unittitle id="link267">The Immigrant Workers Freedom Ride 2003</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">57</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">57</container>
 						<unittitle id="link268">Item 1: The Immigrant Workers Freedom Ride at a Glance</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3712,8 +3718,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">57</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">57</container>
 						<unittitle id="link269">Item 2: The Immigrant Workers Freedom Ride at a Glance</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3727,8 +3733,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">57</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">57</container>
 						<unittitle id="link270">Item 3: The Immigrant Workers Freedom Ride at a Glance</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3743,15 +3749,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">58</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">58</container>
 					<unittitle id="link271">Over 100 Years Ago</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">58</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">58</container>
 						<unittitle id="link272">Item 1: Over 100 years ago, a group of immigrant workers got together</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -3763,8 +3769,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">58</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">58</container>
 						<unittitle id="link273">Item 2: Over 100 years ago, a group of immigrant workers got together</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -3777,8 +3783,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">58</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">58</container>
 						<unittitle id="link274">Item 3: Over 100 years ago, a group of immigrant workers got together</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -3791,8 +3797,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">58</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">58</container>
 						<unittitle id="link275">Item 4: Hace mas de 100 years anos, un grupo de trabajadores inmigrantes se unieron</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -3805,15 +3811,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">59</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">59</container>
 					<unittitle id="link276">Good Chants for a Lively Picketing</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">59</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">59</container>
 						<unittitle id="link277">Item 1: Good Chants for a Lively Picketline and Some Great Songs, Too</unittitle>
 						<unitdate normal="1989">1989</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3826,8 +3832,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">59</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">59</container>
 						<unittitle id="link278">Item 2: Good Chants for a Lively Picketline and Some Great Songs, Too</unittitle>
 						<unitdate normal="1989">1989</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3841,8 +3847,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">59</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">59</container>
 						<unittitle id="link279">Item 3: Good Chants for a Lively Picketline and Some Great Songs, Too</unittitle>
 						<unitdate normal="1989">1989</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3857,16 +3863,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">60</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">60</container>
 					<unittitle id="link280">UNITE! Proudly Made in New York 2001</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">60</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">60</container>
 						<unittitle id="link281">Item 1: UNITE! Proudly Made In New York</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3880,8 +3886,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">60</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">60</container>
 						<unittitle id="link282">Item 2: UNITE! Proudly Made In New York</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3895,8 +3901,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">60</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">60</container>
 						<unittitle id="link283">Item 3: UNITE! Proudly Made In New York</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3911,15 +3917,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">61</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">61</container>
 					<unittitle id="link284">English-Chinese, Chinese-English Needle Trades Dictionary</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">61</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">61</container>
 						<unittitle id="link285">Item 1: English-Chinese; Chinese-English Needletrades Dictionary</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -3929,8 +3935,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">61</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">61</container>
 						<unittitle id="link286">Item 2: Shop Rep's Dictionary</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -3944,17 +3950,17 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">62</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">62</container>
 					<unittitle id="link287">Working Agreement Atlantic Apparel</unittitle>
-					<unitdate type="inclusive" normal="2004/2007">2004-2007</unitdate>
+					<unitdate normal="2004/2007" type="inclusive">2004-2007</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">62</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">62</container>
 						<unittitle id="link288">Item 1: Working Agreement: Atlantic Apparel Contractors' Association with Pennsylvania, Ohio and South Jersey Joint Board, UNITE</unittitle>
-						<unitdate type="inclusive" normal="2004/2007">2004- 2007</unitdate>
+						<unitdate normal="2004/2007" type="inclusive">2004- 2007</unitdate>
 					</did>
 					<scopecontent>
 						<p>Author: Atlantic Apparel Contractors' Association; UNITE (Union of Needletrades, Industrial and Textile Employees)</p>
@@ -3966,15 +3972,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">63</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">63</container>
 					<unittitle id="link289">Calendars 2000-2002</unittitle>
-					<unitdate type="inclusive" normal="2000/2002">2000-2002</unitdate>
+					<unitdate normal="2000/2002" type="inclusive">2000-2002</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">63</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">63</container>
 						<unittitle id="link290">Item 1: Calendar</unittitle>
 						<unitdate normal="2000">2000</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -3987,8 +3993,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">63</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">63</container>
 						<unittitle id="link291">Item 2: Calendar</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4001,8 +4007,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">63</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">63</container>
 						<unittitle id="link292">Item 3: Calendar</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4016,15 +4022,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">64</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">64</container>
 					<unittitle id="link293">AFL-CIO Committee of the Evolution of Work 1983-1985</unittitle>
-					<unitdate type="inclusive" normal="1983/1985">1983-1985</unitdate>
+					<unitdate normal="1983/1985" type="inclusive">1983-1985</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">64</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">64</container>
 						<unittitle id="link294">Item 1: The Future of Work</unittitle>
 						<unitdate normal="1983">1983</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4038,8 +4044,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">64</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">64</container>
 						<unittitle id="link295">Item 2: The Changing Situation Of Workers and Their Unions</unittitle>
 						<unitdate normal="1985">1985</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4054,15 +4060,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">65</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">65</container>
 					<unittitle id="link296">Workers Rights Handbook</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">65</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">65</container>
 						<unittitle id="link297">Item 1: Workers' Rights Handbook</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -4076,16 +4082,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">66</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">66</container>
 					<unittitle id="link298">Garment District Day Care Center of Chinatown 1999</unittitle>
 					<unitdate normal="1999">1999</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">66</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">66</container>
 						<unittitle id="link299">Item 1: Fundraising Reception</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4100,17 +4106,17 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">67</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">67</container>
 					<unittitle id="link300">Garment Industry Development Corp. 2001-2002</unittitle>
-					<unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate>
+					<unitdate normal="2001/2002" type="inclusive">2001-2002</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">67</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">67</container>
 						<unittitle id="link301">Item 1: Annual Report, 2001-2002</unittitle>
-						<unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate>
+						<unitdate normal="2001/2002" type="inclusive">2001-2002</unitdate>
 					</did>
 					<scopecontent>
 						<p>Author: Garment Industry Development Corporation</p>
@@ -4121,16 +4127,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">68</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">68</container>
 					<unittitle id="link302">Chinatown After September 11th 2002</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">68</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">68</container>
 						<unittitle id="link303">Item 1: Chinatown After September 11th: An Economic Impact Study</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4145,15 +4151,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">69</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">69</container>
 					<unittitle id="link304">UNITE! Stewards' Handbook</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">69</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">69</container>
 						<unittitle id="link305">Item 1: Stewards' Handbook</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -4165,8 +4171,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">69</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">69</container>
 						<unittitle id="link306">Item 2: Stewards' Handbook</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -4179,8 +4185,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">69</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">69</container>
 						<unittitle id="link307">Item 3: Stewards' Handbook</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -4194,15 +4200,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">70</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">70</container>
 					<unittitle id="link308">UNITE! Manual Del Delegado Sindical</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">70</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">70</container>
 						<unittitle id="link309">Item 1: Manual Del Delegado Sindical</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -4214,8 +4220,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">70</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">70</container>
 						<unittitle id="link310">Item 2: Manual Del Delegado Sindical</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -4229,16 +4235,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">71</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">71</container>
 					<unittitle id="link311">UNITE Constitution 1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">71</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">71</container>
 						<unittitle id="link312">Item 1: Constitution</unittitle>
 						<unitdate normal="1995">1995</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4251,8 +4257,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">71</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">71</container>
 						<unittitle id="link313">Item 2: Constitution</unittitle>
 						<unitdate normal="1995">1995</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4266,8 +4272,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">71</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">71</container>
 						<unittitle id="link314">Item 3: Constitution</unittitle>
 						<unitdate normal="1995">1995</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4282,16 +4288,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">72</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">72</container>
 					<unittitle id="link315">UNITE Constitution. Spanish 1995</unittitle>
 					<unitdate normal="1995">1995</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">72</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">72</container>
 						<unittitle id="link316">Item 1: Constitucion</unittitle>
 						<unitdate normal="1995">1995</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4304,8 +4310,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">72</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">72</container>
 						<unittitle id="link317">Item 2: Constitucion</unittitle>
 						<unitdate normal="1995">1995</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4320,16 +4326,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">73</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">73</container>
 					<unittitle id="link318">UNITE! Constitution. Spanish English 1999</unittitle>
 					<unitdate normal="1999">1999</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">73</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">73</container>
 						<unittitle id="link319">Item 1: Constitucion</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4342,8 +4348,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">73</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">73</container>
 						<unittitle id="link320">Item 2: Constitucion</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4357,16 +4363,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">74</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">74</container>
 					<unittitle id="link321">Constitution 2003</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">74</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">74</container>
 						<unittitle id="link322">Item 1: Constitucion</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4380,16 +4386,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">75</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">75</container>
 					<unittitle id="link323">Prescription Drug Program 2 2002</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">75</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">75</container>
 						<unittitle id="link324">Item 1: Prescription Drug Program II</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4403,8 +4409,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">75</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">75</container>
 						<unittitle id="link325">Item 2: Prescription Drug Program II</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4418,8 +4424,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">75</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">75</container>
 						<unittitle id="link326">Item 3: Programa II de Medicamentos con Receta Medica</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4433,8 +4439,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">75</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">75</container>
 						<unittitle id="link327">Item 4: Programa II de Medicamentos con Receta Medica</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4448,8 +4454,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">75</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">75</container>
 						<unittitle id="link328">Item 5: Prescription Drug Program</unittitle>
 						<unitdate normal="2002">2002</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4464,16 +4470,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">76</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">76</container>
 					<unittitle id="link329">Eastern States Health and Welfare Fund 2001</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">76</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">76</container>
 						<unittitle id="link330">Item 1: Eastern States Health and Welfare Fund Summary Plan Description</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4487,8 +4493,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">76</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">76</container>
 						<unittitle id="link331">Item 2: Eastern States Health and Welfare Fund Summary Plan Description</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4502,8 +4508,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">76</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">76</container>
 						<unittitle id="link332">Item 3: Eastern States Health and Welfare Fund Summary Plan Description</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4518,16 +4524,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">77</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">77</container>
 					<unittitle id="link333">Workers Book of Rights English; Spanish 1997</unittitle>
 					<unitdate normal="1997">1997</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">77</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">77</container>
 						<unittitle id="link334">Item 1: Workers Book of Rights</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4541,15 +4547,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">78</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">78</container>
 					<unittitle id="link335">Bienveninas a UNITE Compana para el Futuro</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">78</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">78</container>
 						<unittitle id="link336">Item 1: Bienvenidos a UNITE: Trabajando por Nuestro Futuro</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -4562,8 +4568,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">78</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">78</container>
 						<unittitle id="link337">Item 2: Campana para el Futuro</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -4576,16 +4582,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">79</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">79</container>
 					<unittitle id="link338">Local 23-25 Cordially Invites You 2003</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">79</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">79</container>
 						<unittitle id="link339">Item 1: Local 23-25 cordially invites you to a Reception celebrating our 100th Anniversary</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4599,16 +4605,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">80</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">80</container>
 					<unittitle id="link340">New Steps of the Union 1997</unittitle>
 					<unitdate normal="1997">1997</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">80</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">80</container>
 						<unittitle id="link341">Item 1: New Steps of the Union</unittitle>
 						<unitdate normal="1997">1997</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4623,16 +4629,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">81</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">81</container>
 					<unittitle id="link342">Union Health Center Newsletter 1999</unittitle>
 					<unitdate normal="1999">1999</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">81</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">81</container>
 						<unittitle id="link343">Item 1: Newsletter</unittitle>
 						<unitdate normal="1999">1999</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4647,16 +4653,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">82</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">82</container>
 					<unittitle id="link344">GED Report 2003</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">82</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">82</container>
 						<unittitle id="link345">Item 1: Report of the General Executive Board to the Second Constitutional Convention</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4669,8 +4675,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="Folder">82</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="Folder">82</container>
 						<unittitle id="link346">Item 2: Report of the General Executive Board to the Second Constitutional Convention</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4685,16 +4691,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">1</container>
 					<unittitle id="link347">Organize! Mobilizer! UNITE! 2003</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="Folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="Folder">1</container>
 						<unittitle id="link348">Item 1: Organize! Mobilize! UNITE! Report of the Proceedings of the Second Constitutional Convention</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4708,16 +4714,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">2</container>
 					<unittitle id="link349">Proposed Regulations Assigned to Committees 2003</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="Folder">2</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="Folder">2</container>
 						<unittitle id="link350">Item 1: Organize! Mobilize! UNITE! Proposed Resolutions Assigned to Committees</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4732,16 +4738,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">3</container>
 					<unittitle id="link351">Composite Resolutions Passed</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="Folder">3</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="Folder">3</container>
 						<unittitle id="link352">Item 1: Organize! Mobilize! UNITE! Composite Resolutions Passed</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4756,16 +4762,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">4</container>
 					<unittitle id="link353">GEB Meeting June 3-4, 2003</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="Folder">4</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="Folder">4</container>
 						<unittitle id="link354">Item 1: GEB Meeting</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4780,16 +4786,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">5</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">5</container>
 					<unittitle id="link355">GEB Meeting July 16-17, 2003</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="Folder">5</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="Folder">5</container>
 						<unittitle id="link356">Item 1: GEB Meeting</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4804,16 +4810,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">6</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">6</container>
 					<unittitle id="link357">GEB Meeting October 20-22, 2003</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="Folder">6</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="Folder">6</container>
 						<unittitle id="link358">Item 1: GEB Meeting</unittitle>
 						<unitdate normal="2003">2003</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4828,15 +4834,15 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">7</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">7</container>
 					<unittitle id="link359">The Insurance representatives Handbook</unittitle>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="Folder">7</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="Folder">7</container>
 						<unittitle id="link360">Item 1: The Insurance Representative's Handbook</unittitle>
 						<physdesc label="Format:">Publication</physdesc>
 					</did>
@@ -4849,16 +4855,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">8</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">8</container>
 					<unittitle id="link361">UNITE! Directory 2001</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="Folder">8</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="Folder">8</container>
 						<unittitle id="link362">Item 1: UNITE Directory</unittitle>
 						<unitdate normal="2001">2001</unitdate>
 						<physdesc label="Format:">Publication</physdesc>
@@ -4873,16 +4879,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">9</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">9</container>
 					<unittitle id="link363">Product Directory 1998</unittitle>
 					<unitdate normal="1998">1998</unitdate>
 					<physdesc label="Format:">Publication</physdesc>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="Folder">9</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="Folder">9</container>
 						<unittitle id="link364">Item 1: Product Directory</unittitle>
 						<unitdate normal="1998">1998</unitdate>
 						<physdesc label="Format:">Publication</physdesc>

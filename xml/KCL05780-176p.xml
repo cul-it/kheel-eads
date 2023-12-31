@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
- <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-  <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-176p::ILGWU Communications Department Photographs.)//EN">KCL05780-176p</eadid>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-176p::ILGWU Communications Department Photographs.)//EN">KCL05780-176p</eadid>
   <filedesc>
    <titlestmt>
     <titleproper>Guide to the ILGWU Communications Department Photographs<date>
@@ -24,19 +24,25 @@
    <creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>June 26,
      2019</date></creation>
   </profiledesc>
- </eadheader>
+ <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
  <frontmatter>
   <titlepage>
-   <titleproper>Guide to the ILGWU Communications Department Photographs<lb/></titleproper>
+   <titleproper>Guide to the ILGWU Communications Department Photographs</titleproper>
    <num>Collection Number: 5780/176 P</num>
    <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University
     Library </publisher>
    <list type="deflist">
     <defitem>
      <label>Contact Information:</label>
-     <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood
-      Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-      <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+     <item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood
+      Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183
+      <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
       <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
      </item>
     </defitem>
@@ -55,16 +61,16 @@
  </frontmatter>
  <archdesc level="collection">
   <did>
-   <head id="a1">DESCRIPTIVE SUMMARY</head>
-   <unittitle label="Title:" encodinganalog="MARC 245$a">ILGWU Communications Department
-    Photographs, <unitdate encodinganalog="MARC 245$f">1909-1995</unitdate>
-   </unittitle>
+   
+   <unittitle encodinganalog="MARC 245$a" label="Title:">ILGWU Communications Department
+    Photographs, 1909-1995
+   </unittitle><unitdate encodinganalog="MARC 245$f">1909-1995</unitdate>
    <unitid label="Collection Number:">5780/176 P</unitid>
    <origination label="Creator:">
     <corpname encodinganalog="MARC 110" role="creator">International Ladies' Garment Workers' Union
      (ILGWU)</corpname>
    </origination>
-   <physdesc label="Quantity:" encodinganalog="MARC 300">14 linear ft.</physdesc>
+   <physdesc encodinganalog="MARC 300" label="Quantity:">14 linear ft.</physdesc>
    <physdesc label="Forms of Material:">Photographs.</physdesc>
    <repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives,
     Cornell University Library </repository>
@@ -77,7 +83,7 @@
    </langmaterial>
   <physdesc><extent>14 cubic feet</extent></physdesc></did>
   <bioghist encodinganalog="MARC 545">
-   <head id="a2" altrender="organizational history">ILGWU ORGANIZATIONAL HISTORY</head>
+   
    <p>The International Ladies' Garment Workers' Union was once one of the largest labor unions in
     the United States founded in 1900 by local union delegates representing about 2,000 members in
     cities in the northeastern United States. It was one of the first U.S. Unions to have a
@@ -95,7 +101,7 @@
     450,000 in 1969.</p>
   </bioghist>
   <bioghist encodinganalog="MARC 545">
-   <head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+   
    <p>The precursor to the ILGWU's Communications Department was the Publications and Publicity
     Department. Though the name and scope of the department changed over time, its primary function
     stayed the same throughout the history of the ILGWU. The department was responsible for the
@@ -106,7 +112,7 @@
     information about the union to other labor organizations, students, and teachers.</p>
   </bioghist>
   <scopecontent encodinganalog="MARC 520">
-   <head id="a3">COLLECTION DESCRIPTION</head>
+   
    <p>The records of the Communications Department consist entirely of subject and biographical
     files, with related photographs. Taken together, these records document ILGWU events,
     organizations, and leaders, as well as political figures and other prominent labor unionists. </p>
@@ -131,15 +137,15 @@
     files, as well as photographs of events and miscellaneous photographs.</p>
   </scopecontent>
   <controlaccess>
-   <head id="a8">SUBJECTS</head>
+   
    <controlaccess>
-    <head>Names: </head>
+    
     <corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union -- Photographs </corpname>
     <corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union. Communications
      Dept. -- Photographs </corpname>
    </controlaccess>
    <controlaccess>
-    <head>Subjects: </head>
+    
     <subject encodinganalog="MARC 650">Women's clothing industry--New York (State)--New York --
      Photographs </subject>
     <subject encodinganalog="MARC 650">Women's clothing industry--United States -- Photographs </subject>
@@ -157,40 +163,40 @@
     </controlaccess>
   </controlaccess>
   <descgrp>
-   <head id="a10">INFORMATION FOR USERS</head>
+   
    <accessrestrict>
-    <head>Access Restrictions:</head>
+    
     <p>Access to the collections in the Kheel Center is restricted. Please contact a reference
      archivist for access to these materials.</p>
    </accessrestrict>
    <userestrict>
-    <head>Restrictions on Use:</head>
+    
     <p>This collection must be used in keeping with the Kheel Center Information Sheet and
      Procedures for Document Use.</p>
    </userestrict>
    <prefercite>
-    <head>Cite As:</head>
+    
     <p>ILGWU Communications Department Photographs #5780/176 P. Kheel Center for Labor-Management
      Documentation and Archives, Cornell University Library.</p>
    </prefercite>
   </descgrp>
   <relatedmaterial>
-   <head id="a6">RELATED MATERIALS</head>
-   <p>Related Collections:<lb/>
+   
+   <p>Related Collections:
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-176.html"> 5780/176: ILGWU
-     Communications Department Records</extref><lb/>
+     Communications Department Records</extref>
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-177.html"> 5780/177: ILGWU
-     Communications Department Biography Files</extref><lb/>
+     Communications Department Biography Files</extref>
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-177p.html"> 5780/177 P: ILGWU
-     Communications Department Biography File Photographs</extref><lb/>
+     Communications Department Biography File Photographs</extref>
    </p>
   </relatedmaterial>
   <dsc type="in-depth">
-   <head>CONTAINER LIST</head>
+   
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link8">AFL-CIO</unittitle>
     </did>
     <scopecontent>
@@ -203,8 +209,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link9">Alcoholism Project: Alcoholism</unittitle>
     </did>
     <scopecontent>
@@ -213,8 +219,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link10">Alcoholism Project: APALA</unittitle>
     </did>
     <scopecontent>
@@ -227,8 +233,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link11">Archives</unittitle>
     </did>
     <scopecontent>
@@ -237,8 +243,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link12">Associate ILGWU Membership : AIM</unittitle>
     </did>
     <scopecontent>
@@ -266,8 +272,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link13">Benefit Funds</unittitle>
     </did>
     <scopecontent>
@@ -279,8 +285,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link14">Fashion Show</unittitle>
     </did>
     <scopecontent>
@@ -289,8 +295,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link15">Campaign for Justice</unittitle>
     </did>
     <scopecontent>
@@ -309,8 +315,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link16">Canada</unittitle>
     </did>
     <scopecontent>
@@ -332,8 +338,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link17">Cartoons &amp; Illustrations</unittitle>
     </did>
     <scopecontent>
@@ -354,8 +360,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link18">Central States</unittitle>
     </did>
     <scopecontent>
@@ -366,8 +372,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link19">Central States</unittitle>
     </did>
     <scopecontent>
@@ -394,8 +400,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link20">Christmas Activities</unittitle>
     </did>
     <scopecontent>
@@ -404,8 +410,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link21">March on Washington</unittitle>
     </did>
     <scopecontent>
@@ -417,8 +423,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link22">Bill Clinton 1992</unittitle>
     </did>
     <scopecontent>
@@ -440,8 +446,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link23">Coalition of Labor Unions : Workers Union</unittitle>
     </did>
     <scopecontent>
@@ -452,8 +458,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link24">Contract Negotiations : Leslie Fay</unittitle>
     </did>
     <scopecontent>
@@ -466,8 +472,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link25">Contract Negotiations</unittitle>
     </did>
     <scopecontent>
@@ -481,8 +487,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link26">Contract Negotiations</unittitle>
     </did>
     <scopecontent>
@@ -495,8 +501,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link27">Contract Negotiations</unittitle>
     </did>
     <scopecontent>
@@ -510,8 +516,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link28">Convention</unittitle>
      <unitdate normal="1989">1989</unitdate>
     </did>
@@ -525,8 +531,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link29">Convention</unittitle>
      <unitdate normal="1989">1989</unitdate>
     </did>
@@ -543,8 +549,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link30">Convention</unittitle>
      <unitdate normal="1986">1986</unitdate>
     </did>
@@ -556,8 +562,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link31">Convention</unittitle>
      <unitdate normal="1986">1986</unitdate>
     </did>
@@ -571,8 +577,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">1a</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">1a</container>
      <unittitle id="link32">Convention</unittitle>
      <unitdate normal="1986">1986</unitdate>
     </did>
@@ -582,8 +588,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link33">Convention</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -594,8 +600,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link34">Convention</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -614,8 +620,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link35">Cutting Edge</unittitle>
     </did>
     <scopecontent>
@@ -627,8 +633,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link36">Daycare Centers</unittitle>
     </did>
     <scopecontent>
@@ -643,8 +649,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">5a</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">5a</container>
      <unittitle id="link37">Daisy</unittitle>
     </did>
     <scopecontent>
@@ -654,8 +660,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link38">Dukakis, Michael</unittitle>
     </did>
     <scopecontent>
@@ -665,8 +671,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link39">Eastern PA. 1990s</unittitle>
     </did>
     <scopecontent>
@@ -683,8 +689,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link40">Eastern Pennsylvania</unittitle>
     </did>
     <scopecontent>
@@ -708,8 +714,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link41">Education Department and Activities</unittitle>
     </did>
     <scopecontent>
@@ -729,8 +735,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link42">Essay Contest</unittitle>
     </did>
     <scopecontent>
@@ -740,8 +746,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link43">Garment Workers &amp; A Whole Lot More</unittitle>
     </did>
     <scopecontent>
@@ -754,8 +760,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link44">Garment Workers &amp; A Whole Lot More</unittitle>
     </did>
     <scopecontent>
@@ -767,8 +773,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link45">Garment Industry Development Corporation (GIDC)</unittitle>
     </did>
     <scopecontent>
@@ -782,8 +788,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link46">Garment Center Zoning</unittitle>
     </did>
     <scopecontent>
@@ -792,8 +798,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link47">General Advisory Council (GAC)</unittitle>
     </did>
     <scopecontent>
@@ -803,8 +809,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link48">General Executive Board</unittitle>
     </did>
     <scopecontent>
@@ -821,8 +827,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link49">General Photos</unittitle>
     </did>
     <scopecontent>
@@ -835,8 +841,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link50">General Photos</unittitle>
     </did>
     <scopecontent>
@@ -853,8 +859,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link51">General Photos</unittitle>
     </did>
     <scopecontent>
@@ -869,8 +875,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link52">General Photos</unittitle>
     </did>
     <scopecontent>
@@ -888,8 +894,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link53">Health/Consumer Columns</unittitle>
     </did>
     <scopecontent>
@@ -904,8 +910,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link54">Health Care Reform</unittitle>
     </did>
     <scopecontent>
@@ -925,8 +931,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link55">Health Care Reform</unittitle>
     </did>
     <scopecontent>
@@ -944,8 +950,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link56">Health Care Reform</unittitle>
     </did>
     <scopecontent>
@@ -957,8 +963,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link57">Health &amp; Safety</unittitle>
     </did>
     <scopecontent>
@@ -972,8 +978,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link58">Health &amp; Safety</unittitle>
     </did>
     <scopecontent>
@@ -985,8 +991,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link59">Health &amp; Safety</unittitle>
     </did>
     <scopecontent>
@@ -998,8 +1004,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link60">History in the Making</unittitle>
     </did>
     <scopecontent>
@@ -1016,8 +1022,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link61">Clinton Health Plan</unittitle>
     </did>
     <scopecontent>
@@ -1029,8 +1035,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link62">Homework</unittitle>
     </did>
     <scopecontent>
@@ -1046,8 +1052,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link63">Housing Homeless</unittitle>
     </did>
     <scopecontent>
@@ -1057,8 +1063,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link64">ILGWU Chorus</unittitle>
     </did>
     <scopecontent>
@@ -1067,8 +1073,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link65">ILG History</unittitle>
     </did>
     <scopecontent>
@@ -1094,8 +1100,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link66">Immigration</unittitle>
     </did>
     <scopecontent>
@@ -1112,8 +1118,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link67">Import Rollback Campaign</unittitle>
     </did>
     <scopecontent>
@@ -1128,8 +1134,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link68">International Relations &amp; Affairs</unittitle>
     </did>
     <scopecontent>
@@ -1147,8 +1153,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link69">International Relations &amp; Affairs</unittitle>
     </did>
     <scopecontent>
@@ -1166,8 +1172,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link70">International Relations &amp; Affairs</unittitle>
     </did>
     <scopecontent>
@@ -1193,8 +1199,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link71">Label Dept. &amp; Promotion</unittitle>
     </did>
     <scopecontent>
@@ -1208,8 +1214,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link72">Labor Day Parade</unittitle>
     </did>
     <scopecontent>
@@ -1219,8 +1225,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link73">Labor Day Parade</unittitle>
     </did>
     <scopecontent>
@@ -1234,8 +1240,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link74">Labor Day Parade</unittitle>
     </did>
     <scopecontent>
@@ -1247,8 +1253,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link75">Labor History</unittitle>
     </did>
     <scopecontent>
@@ -1261,8 +1267,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link76">Labor Law History</unittitle>
     </did>
     <scopecontent>
@@ -1274,8 +1280,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link77">Leaders on the Line</unittitle>
     </did>
     <scopecontent>
@@ -1290,8 +1296,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link78">Legislative Action</unittitle>
     </did>
     <scopecontent>
@@ -1311,8 +1317,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link79">L.E.T.T.E.R.S.</unittitle>
     </did>
     <scopecontent>
@@ -1321,8 +1327,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link80">Local 10</unittitle>
     </did>
     <scopecontent>
@@ -1345,8 +1351,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link81">Local 99</unittitle>
     </did>
     <scopecontent>
@@ -1358,8 +1364,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link82">Local 89-22-1</unittitle>
     </did>
     <scopecontent>
@@ -1377,8 +1383,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link83">Local 23-25</unittitle>
     </did>
     <scopecontent>
@@ -1402,8 +1408,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link84">Local 66 - 32</unittitle>
     </did>
     <scopecontent>
@@ -1421,8 +1427,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link85">Local 66 40</unittitle>
     </did>
     <scopecontent>
@@ -1436,8 +1442,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link86">Local 132 98</unittitle>
     </did>
     <scopecontent>
@@ -1446,8 +1452,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link87">Local 91 105</unittitle>
     </did>
     <scopecontent>
@@ -1459,8 +1465,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link88">Local 132 98 102</unittitle>
     </did>
     <scopecontent>
@@ -1475,8 +1481,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link89">Local 155</unittitle>
     </did>
     <scopecontent>
@@ -1494,8 +1500,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link90">M.A.P. (Member Assistance Program)</unittitle>
     </did>
     <scopecontent>
@@ -1513,8 +1519,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link91">Master Agreements</unittitle>
     </did>
     <scopecontent>
@@ -1523,8 +1529,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link92">Mazur, Jay (Pres.)</unittitle>
     </did>
     <scopecontent>
@@ -1541,8 +1547,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link93">Media Matters</unittitle>
     </did>
     <scopecontent>
@@ -1556,8 +1562,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link94">Metro Organizing</unittitle>
     </did>
     <scopecontent>
@@ -1573,8 +1579,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link95">Merger</unittitle>
     </did>
     <scopecontent>
@@ -1586,8 +1592,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link96">Midwest</unittitle>
     </did>
     <scopecontent>
@@ -1602,8 +1608,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link97">Midwest</unittitle>
     </did>
     <scopecontent>
@@ -1621,8 +1627,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link98">Midwest</unittitle>
     </did>
     <scopecontent>
@@ -1648,8 +1654,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link99">New England</unittitle>
     </did>
     <scopecontent>
@@ -1671,8 +1677,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link100">New England</unittitle>
     </did>
     <scopecontent>
@@ -1690,8 +1696,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link101">New England</unittitle>
     </did>
     <scopecontent>
@@ -1711,8 +1717,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link102">New England</unittitle>
     </did>
     <scopecontent>
@@ -1740,8 +1746,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link103">New Jersey</unittitle>
     </did>
     <scopecontent>
@@ -1765,8 +1771,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">2a</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">2a</container>
      <unittitle id="link104">New Jersey</unittitle>
     </did>
     <scopecontent>
@@ -1794,8 +1800,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link105">New York District</unittitle>
     </did>
     <scopecontent>
@@ -1813,8 +1819,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link106">New York District</unittitle>
     </did>
     <scopecontent>
@@ -1834,8 +1840,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">12</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">12</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link107">Northeast W., Pa. and Ohio</unittitle>
     </did>
     <scopecontent>
@@ -1856,8 +1862,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">12</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">12</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link108">Northeast W., Pa. and Ohio</unittitle>
     </did>
     <scopecontent>
@@ -1874,8 +1880,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">12</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">12</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link109">Northeast W., Pa. and Ohio</unittitle>
     </did>
     <scopecontent>
@@ -1896,8 +1902,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">12</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">12</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link110">Northeast W., Pa. and Ohio</unittitle>
     </did>
     <scopecontent>
@@ -1920,8 +1926,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">12</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">12</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link111">Shop Scenes Sewing</unittitle>
     </did>
     <scopecontent>
@@ -1932,8 +1938,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">12</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">12</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link112">Finished Garments Transporting</unittitle>
     </did>
     <scopecontent>
@@ -1942,8 +1948,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">12</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">12</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link113">Organizations &amp; Field Services</unittitle>
     </did>
     <scopecontent>
@@ -1955,8 +1961,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link114">Organizations &amp; Field Services</unittitle>
     </did>
     <scopecontent>
@@ -1978,8 +1984,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link115">Organization &amp; Field Services</unittitle>
     </did>
     <scopecontent>
@@ -1996,8 +2002,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link116">PACE</unittitle>
     </did>
     <scopecontent>
@@ -2009,8 +2015,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link117">Promotional Photos</unittitle>
     </did>
     <scopecontent>
@@ -2020,8 +2026,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link118">Political Activity &amp; Department</unittitle>
     </did>
     <scopecontent>
@@ -2051,8 +2057,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link119">Political Activity and Department</unittitle>
     </did>
     <scopecontent>
@@ -2076,8 +2082,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link120">Political Activity and Department</unittitle>
     </did>
     <scopecontent>
@@ -2093,8 +2099,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link121">Puerto Rico</unittitle>
     </did>
     <scopecontent>
@@ -2112,8 +2118,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link122">Quilts</unittitle>
     </did>
     <scopecontent>
@@ -2122,8 +2128,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link123">Retirees</unittitle>
     </did>
     <scopecontent>
@@ -2142,8 +2148,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link124">Retirees</unittitle>
     </did>
     <scopecontent>
@@ -2158,8 +2164,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link125">Retirees</unittitle>
     </did>
     <scopecontent>
@@ -2180,8 +2186,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link126">Retirees</unittitle>
     </did>
     <scopecontent>
@@ -2209,8 +2215,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link127">Retirees</unittitle>
     </did>
     <scopecontent>
@@ -2227,8 +2233,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link128">Retirees 92 - 93</unittitle>
     </did>
     <scopecontent>
@@ -2246,8 +2252,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">1a</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">1a</container>
      <unittitle id="link129">Retirees 92 - 93</unittitle>
     </did>
     <scopecontent>
@@ -2261,8 +2267,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">1b</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">1b</container>
      <unittitle id="link130">Shop Scenes Cutters</unittitle>
     </did>
     <scopecontent>
@@ -2272,8 +2278,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">1c</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">1c</container>
      <unittitle id="link131">Shop Scenes Pressers</unittitle>
     </did>
     <scopecontent>
@@ -2285,8 +2291,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link132">Solidarity</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -2297,8 +2303,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link133">In Solidarity</unittitle>
     </did>
     <scopecontent>
@@ -2313,8 +2319,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link134">In Solidarity</unittitle>
     </did>
     <scopecontent>
@@ -2327,8 +2333,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link135">Labor Solidarity</unittitle>
     </did>
     <scopecontent>
@@ -2338,8 +2344,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link136">South Africa</unittitle>
     </did>
     <scopecontent>
@@ -2352,8 +2358,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link137">Southeast Department</unittitle>
     </did>
     <scopecontent>
@@ -2382,8 +2388,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">16</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">16</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link138">Statue of Liberty</unittitle>
     </did>
     <scopecontent>
@@ -2395,8 +2401,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">16</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">16</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link139">Sweatshops</unittitle>
     </did>
     <scopecontent>
@@ -2408,8 +2414,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">16</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">16</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link140">Trade</unittitle>
     </did>
     <scopecontent>
@@ -2435,8 +2441,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">16</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">16</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link141">Trade</unittitle>
     </did>
     <scopecontent>
@@ -2456,8 +2462,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">16</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">16</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link142">Triangle Fire</unittitle>
     </did>
     <scopecontent>
@@ -2480,8 +2486,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">16</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">16</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link143">Union Label Promotions</unittitle>
     </did>
     <scopecontent>
@@ -2492,8 +2498,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">16</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">16</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link144">Union Label Products</unittitle>
     </did>
     <scopecontent>
@@ -2504,8 +2510,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">16</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">16</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link145">Union Label TV commercial</unittitle>
     </did>
     <scopecontent>
@@ -2516,8 +2522,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">16</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">16</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link146">Union Labels</unittitle>
     </did>
     <scopecontent>
@@ -2526,8 +2532,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">16</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">16</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link147">Miscellaneous</unittitle>
     </did>
     <scopecontent>
@@ -2536,8 +2542,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">17</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">17</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link148">Personalities A</unittitle>
     </did>
     <scopecontent>
@@ -2547,8 +2553,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">17</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">17</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link149">Personalities B</unittitle>
     </did>
     <scopecontent>
@@ -2566,8 +2572,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">17</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">17</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link150">Personalities C</unittitle>
     </did>
     <scopecontent>
@@ -2587,8 +2593,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">17</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">17</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link151">Chaikin, Sol</unittitle>
     </did>
     <scopecontent>
@@ -2617,8 +2623,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">17</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">17</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link152">Chaikin, Sol</unittitle>
     </did>
     <scopecontent>
@@ -2642,8 +2648,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">17</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">17</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link153">Chaikin and Others</unittitle>
     </did>
     <scopecontent>
@@ -2660,8 +2666,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">17</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">17</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link154">Chaikin and Others</unittitle>
     </did>
     <scopecontent>
@@ -2676,8 +2682,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">17</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">17</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link155">Stulberg, Dubinsky and Chaikin</unittitle>
     </did>
     <scopecontent>
@@ -2686,8 +2692,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">18</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">18</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link156">Dubinsky, David - Portraits (missing from box 6/2/2017)</unittitle>
     </did>
     <scopecontent>
@@ -2696,8 +2702,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">18</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">18</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link157">Dubinsky, David</unittitle>
     </did>
     <scopecontent>
@@ -2717,8 +2723,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">18</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">18</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link158">Dubinsky, David</unittitle>
     </did>
     <scopecontent>
@@ -2738,8 +2744,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">18</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">18</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link159">David Dubinsky</unittitle>
     </did>
     <scopecontent>
@@ -2759,8 +2765,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">18</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">18</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link160">25th Anniversary of Dubinskys Presidency</unittitle>
     </did>
     <scopecontent>
@@ -2771,8 +2777,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">18</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">18</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link161">Dubrow, Evelyn</unittitle>
     </did>
     <scopecontent>
@@ -2790,8 +2796,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">18</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">18</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link162">Personalities D</unittitle>
     </did>
     <scopecontent>
@@ -2806,8 +2812,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">19</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">19</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link163">Personalities E</unittitle>
     </did>
     <scopecontent>
@@ -2818,8 +2824,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">19</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">19</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link164">Personalities F</unittitle>
     </did>
     <scopecontent>
@@ -2835,8 +2841,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">19</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">19</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link165">Samuel Gompers</unittitle>
     </did>
     <scopecontent>
@@ -2859,8 +2865,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">19</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">19</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link166">Personalities G</unittitle>
     </did>
     <scopecontent>
@@ -2878,8 +2884,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">19</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">19</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link167">Personalities H</unittitle>
     </did>
     <scopecontent>
@@ -2893,8 +2899,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">19</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">19</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link168">Personalities H</unittitle>
     </did>
     <scopecontent>
@@ -2907,8 +2913,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">19</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">19</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link169">Personalities I</unittitle>
     </did>
     <scopecontent>
@@ -2917,8 +2923,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">19</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">19</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link170">Personalities J</unittitle>
     </did>
     <scopecontent>
@@ -2933,8 +2939,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">19</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">19</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link171">John F Kennedy</unittitle>
     </did>
     <scopecontent>
@@ -2952,8 +2958,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">19</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">19</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link172">Personalities K</unittitle>
     </did>
     <scopecontent>
@@ -2966,8 +2972,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link173">Personalities K</unittitle>
     </did>
     <scopecontent>
@@ -2983,8 +2989,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link174">La Guardia, Fiorello</unittitle>
     </did>
     <scopecontent>
@@ -2995,8 +3001,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link175">Lehman, Herbert</unittitle>
     </did>
     <scopecontent>
@@ -3006,8 +3012,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link176">Lemlich, Clara</unittitle>
     </did>
     <scopecontent>
@@ -3016,8 +3022,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link177">Levin, Douglas</unittitle>
     </did>
     <scopecontent>
@@ -3026,8 +3032,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link178">Levy, Louis</unittitle>
     </did>
     <scopecontent>
@@ -3036,8 +3042,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link179">Lewis, John L</unittitle>
     </did>
     <scopecontent>
@@ -3047,8 +3053,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link180">Liberman, Elias</unittitle>
     </did>
     <scopecontent>
@@ -3057,8 +3063,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link181">London, Meyer</unittitle>
     </did>
     <scopecontent>
@@ -3067,8 +3073,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link182">Lorgo, Frank</unittitle>
     </did>
     <scopecontent>
@@ -3077,8 +3083,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link183">Lovestone, Jay</unittitle>
     </did>
     <scopecontent>
@@ -3087,8 +3093,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link184">Lurye, William</unittitle>
     </did>
     <scopecontent>
@@ -3097,8 +3103,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link185">Personalities L</unittitle>
     </did>
     <scopecontent>
@@ -3110,8 +3116,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link186">Maltese, Vincent</unittitle>
     </did>
     <scopecontent>
@@ -3120,8 +3126,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link187">Markowich, Samuel</unittitle>
     </did>
     <scopecontent>
@@ -3130,8 +3136,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link188">Martin, John</unittitle>
     </did>
     <scopecontent>
@@ -3140,8 +3146,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link189">Mazur, Jay</unittitle>
     </did>
     <scopecontent>
@@ -3152,8 +3158,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link190">McCarthy, Eugene</unittitle>
     </did>
     <scopecontent>
@@ -3162,8 +3168,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link191">Meir, Golda</unittitle>
     </did>
     <scopecontent>
@@ -3173,8 +3179,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link192">Mendelsund, Henry</unittitle>
     </did>
     <scopecontent>
@@ -3183,8 +3189,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link193">Matheson, Min</unittitle>
     </did>
     <scopecontent>
@@ -3193,8 +3199,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link194">McKittric, Lillian</unittitle>
     </did>
     <scopecontent>
@@ -3203,8 +3209,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link195">Miller, Freeda</unittitle>
     </did>
     <scopecontent>
@@ -3213,8 +3219,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link196">Miller, Meyer</unittitle>
     </did>
     <scopecontent>
@@ -3223,8 +3229,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link197">Millman, Leon</unittitle>
     </did>
     <scopecontent>
@@ -3233,8 +3239,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">26</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">26</container>
      <unittitle id="link198">Molisani, Edwardo</unittitle>
     </did>
     <scopecontent>
@@ -3243,8 +3249,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">27</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">27</container>
      <unittitle id="link199">Molisani, E. Howard</unittitle>
     </did>
     <scopecontent>
@@ -3253,8 +3259,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">28</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">28</container>
      <unittitle id="link200">Mondale, Walter</unittitle>
     </did>
     <scopecontent>
@@ -3264,8 +3270,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">29</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">29</container>
      <unittitle id="link201">Morand, Marty</unittitle>
     </did>
     <scopecontent>
@@ -3274,8 +3280,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">30</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">30</container>
      <unittitle id="link202">Morse, David</unittitle>
     </did>
     <scopecontent>
@@ -3284,8 +3290,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">31</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">31</container>
      <unittitle id="link203">Moynihan, Patrick</unittitle>
     </did>
     <scopecontent>
@@ -3295,8 +3301,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">32</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">32</container>
      <unittitle id="link204">Munoz, Luis</unittitle>
     </did>
     <scopecontent>
@@ -3305,8 +3311,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">33</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">33</container>
      <unittitle id="link205">Personalities M</unittitle>
     </did>
     <scopecontent>
@@ -3321,8 +3327,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link206">Nader, Ralph</unittitle>
     </did>
     <scopecontent>
@@ -3331,8 +3337,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link207">Nagler, Isadore</unittitle>
     </did>
     <scopecontent>
@@ -3342,8 +3348,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link208">Nelson, Louis</unittitle>
     </did>
     <scopecontent>
@@ -3352,8 +3358,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link209">Nemaizer, Sam</unittitle>
     </did>
     <scopecontent>
@@ -3362,8 +3368,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link210">Newman, Pauline</unittitle>
     </did>
     <scopecontent>
@@ -3373,8 +3379,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link211">Noto, Salvatore</unittitle>
     </did>
     <scopecontent>
@@ -3383,8 +3389,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link212">Personalities N</unittitle>
     </did>
     <scopecontent>
@@ -3394,8 +3400,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link213">ONeill, Tip</unittitle>
     </did>
     <scopecontent>
@@ -3404,8 +3410,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link214">Otto, Sam</unittitle>
     </did>
     <scopecontent>
@@ -3414,8 +3420,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link215">Personalities O</unittitle>
     </did>
     <scopecontent>
@@ -3424,8 +3430,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link216">Perkins, Frances</unittitle>
     </did>
     <scopecontent>
@@ -3434,8 +3440,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link217">Pesotta, Rose</unittitle>
     </did>
     <scopecontent>
@@ -3444,8 +3450,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link218">Price, George</unittitle>
     </did>
     <scopecontent>
@@ -3454,8 +3460,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link219">Personalities P</unittitle>
     </did>
     <scopecontent>
@@ -3466,8 +3472,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link220">Pins and Needles</unittitle>
     </did>
     <scopecontent>
@@ -3477,8 +3483,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link221">Presidents of the ILGWU</unittitle>
     </did>
     <scopecontent>
@@ -3491,8 +3497,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link222">Presidents of the ILGWU</unittitle>
     </did>
     <scopecontent>
@@ -3502,8 +3508,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link223">Presidents of the USA</unittitle>
     </did>
     <scopecontent>
@@ -3513,8 +3519,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link224">Retired VPs of the ILGWU</unittitle>
     </did>
     <scopecontent>
@@ -3524,8 +3530,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link225">Quan, Katie</unittitle>
     </did>
     <scopecontent>
@@ -3534,8 +3540,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link226">Quill, Michael</unittitle>
     </did>
     <scopecontent>
@@ -3544,8 +3550,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">21</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">21</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link227">Quintilian, Luigi</unittitle>
     </did>
     <scopecontent>
@@ -3554,8 +3560,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link228">Randolph, Philip</unittitle>
     </did>
     <scopecontent>
@@ -3564,8 +3570,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link229">Reich, Robert</unittitle>
     </did>
     <scopecontent>
@@ -3575,8 +3581,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link230">Reiss, Louis</unittitle>
     </did>
     <scopecontent>
@@ -3585,8 +3591,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link231">Reuther, Walter</unittitle>
     </did>
     <scopecontent>
@@ -3596,8 +3602,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link232">Rockefeller, Mary</unittitle>
     </did>
     <scopecontent>
@@ -3606,8 +3612,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link233">Romney, Edgar</unittitle>
     </did>
     <scopecontent>
@@ -3617,8 +3623,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link234">Roosevelt, Eleanor</unittitle>
     </did>
     <scopecontent>
@@ -3628,8 +3634,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link235">Roosevelt, Franklin Delano</unittitle>
     </did>
     <scopecontent>
@@ -3640,8 +3646,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link236">Ross, William</unittitle>
     </did>
     <scopecontent>
@@ -3650,8 +3656,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link237">Rubenstein, Harry</unittitle>
     </did>
     <scopecontent>
@@ -3660,8 +3666,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link238">Rustin</unittitle>
     </did>
     <scopecontent>
@@ -3670,8 +3676,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link239">Personalities R</unittitle>
     </did>
     <scopecontent>
@@ -3686,8 +3692,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link240">Schlesinger, Benjamin</unittitle>
     </did>
     <scopecontent>
@@ -3696,8 +3702,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link241">Schlesinger, Emil</unittitle>
     </did>
     <scopecontent>
@@ -3706,8 +3712,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link242">Schlesinger, Rose</unittitle>
     </did>
     <scopecontent>
@@ -3716,8 +3722,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link243">Schneider, Edward</unittitle>
     </did>
     <scopecontent>
@@ -3726,8 +3732,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link244">Schoenwald, Matthew</unittitle>
     </did>
     <scopecontent>
@@ -3736,8 +3742,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link245">Schwartz, Bill</unittitle>
     </did>
     <scopecontent>
@@ -3746,8 +3752,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link246">Schwartz, Harold</unittitle>
     </did>
     <scopecontent>
@@ -3756,8 +3762,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link247">Schwartz, Henry</unittitle>
     </did>
     <scopecontent>
@@ -3766,8 +3772,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link248">Schwellenbach</unittitle>
     </did>
     <scopecontent>
@@ -3776,8 +3782,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link249">Seaman, B</unittitle>
     </did>
     <scopecontent>
@@ -3786,8 +3792,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link250">Shane, Bernard</unittitle>
     </did>
     <scopecontent>
@@ -3796,8 +3802,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link251">Shore, Samuel</unittitle>
     </did>
     <scopecontent>
@@ -3806,8 +3812,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link252">Shriver, Sargent</unittitle>
     </did>
     <scopecontent>
@@ -3816,8 +3822,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">26</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">26</container>
      <unittitle id="link253">Sigman, Morris</unittitle>
     </did>
     <scopecontent>
@@ -3826,8 +3832,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">22</container>
-     <container type="folder">27</container>
+     <container label="unspecified" type="box">22</container>
+     <container label="unspecified" type="folder">27</container>
      <unittitle id="link254">Siems, Fred</unittitle>
     </did>
     <scopecontent>
@@ -3837,8 +3843,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link255">Solomon, Irwin</unittitle>
     </did>
     <scopecontent>
@@ -3850,8 +3856,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link256">Spielman, Lester</unittitle>
     </did>
     <scopecontent>
@@ -3860,8 +3866,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link257">Stein, Leon</unittitle>
     </did>
     <scopecontent>
@@ -3871,8 +3877,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link258">Stevenson, Adlai</unittitle>
     </did>
     <scopecontent>
@@ -3882,8 +3888,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link259">Stuart, W</unittitle>
     </did>
     <scopecontent>
@@ -3892,8 +3898,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link260">Stulberg, Louis</unittitle>
     </did>
     <scopecontent>
@@ -3902,8 +3908,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link261">Personalities S</unittitle>
     </did>
     <scopecontent>
@@ -3917,8 +3923,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link262">Teper, Lazare</unittitle>
     </did>
     <scopecontent>
@@ -3927,8 +3933,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link263">Thomas, Norman</unittitle>
     </did>
     <scopecontent>
@@ -3938,8 +3944,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link264">Truman, Harry</unittitle>
     </did>
     <scopecontent>
@@ -3948,8 +3954,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link265">Tuvim, Joseph</unittitle>
     </did>
     <scopecontent>
@@ -3958,8 +3964,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link266">Personalities T</unittitle>
     </did>
     <scopecontent>
@@ -3968,8 +3974,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link267">Uviller, Harry</unittitle>
     </did>
     <scopecontent>
@@ -3978,8 +3984,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link268">Personalities U</unittitle>
     </did>
     <scopecontent>
@@ -3989,8 +3995,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link269">Vladech, B.</unittitle>
     </did>
     <scopecontent>
@@ -3999,8 +4005,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link270">Vogel, Joshua</unittitle>
     </did>
     <scopecontent>
@@ -4009,8 +4015,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link271">Wagner, Robert</unittitle>
     </did>
     <scopecontent>
@@ -4020,8 +4026,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link272">Wall</unittitle>
     </did>
     <scopecontent>
@@ -4030,8 +4036,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link273">Wallace, Henry</unittitle>
     </did>
     <scopecontent>
@@ -4040,8 +4046,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link274">Wander, Henry</unittitle>
     </did>
     <scopecontent>
@@ -4050,8 +4056,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link275">Wells, David</unittitle>
     </did>
     <scopecontent>
@@ -4060,8 +4066,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link276">Weiss, Samuel</unittitle>
     </did>
     <scopecontent>
@@ -4070,8 +4076,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link277">Williams, Harrison</unittitle>
     </did>
     <scopecontent>
@@ -4080,8 +4086,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link278">Windman, Nat</unittitle>
     </did>
     <scopecontent>
@@ -4090,8 +4096,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link279">Wofford, Harris</unittitle>
     </did>
     <scopecontent>
@@ -4100,8 +4106,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">26</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">26</container>
      <unittitle id="link280">Personalities W</unittitle>
     </did>
     <scopecontent>
@@ -4112,8 +4118,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">27</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">27</container>
      <unittitle id="link281">Young, Andrew</unittitle>
     </did>
     <scopecontent>
@@ -4122,8 +4128,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">28</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">28</container>
      <unittitle id="link282">Young, Whitney Jr</unittitle>
     </did>
     <scopecontent>
@@ -4132,8 +4138,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">29</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">29</container>
      <unittitle id="link283">Zametkin, A.</unittitle>
     </did>
     <scopecontent>
@@ -4142,8 +4148,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">30</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">30</container>
      <unittitle id="link284">Zeldin, Samuel</unittitle>
     </did>
     <scopecontent>
@@ -4152,8 +4158,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">31</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">31</container>
      <unittitle id="link285">Zimmerman, Charles</unittitle>
     </did>
     <scopecontent>
@@ -4163,8 +4169,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">32</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">32</container>
      <unittitle id="link286">Zimny, Max</unittitle>
     </did>
     <scopecontent>
@@ -4173,8 +4179,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">23</container>
-     <container type="folder">33</container>
+     <container label="unspecified" type="box">23</container>
+     <container label="unspecified" type="folder">33</container>
      <unittitle id="link287">Zukerman, Rubin</unittitle>
     </did>
     <scopecontent>
@@ -4183,8 +4189,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link288">American Family Celebration</unittitle>
      <unitdate normal="1988">1988</unitdate>
     </did>
@@ -4194,29 +4200,29 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link289">Nancy Brown</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link290">Sol Chaikin</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link291">China--Lu Jingua, dissident</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link292">Chinese New Year, Buddhist Temple</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -4226,22 +4232,22 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link293">Ralph Fasanella, Local 89-22-1, Brooklyn shop</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link294">Jim Tynan's--Ralph Fasanella at Gracie Mansion</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link295">Samuel Gompers addressing strike meeting, Cooper Union</unittitle>
      <unitdate normal="1909">1909</unitdate>
     </did>
@@ -4251,15 +4257,15 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link296">History--ILG, Justice</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link297">Import Rally, Washington, D.C.</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -4269,8 +4275,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link298">ILGWU Convention</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -4280,38 +4286,38 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link299">ILGWU Fashion Show</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link300">ILG March on Washington</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link301">ILGWU Quilt</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link302">President Lyndon B. Johnson rally</unittitle>
      <unitdate normal="1964">1964</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link303">Justice</unittitle>
     </did>
     <scopecontent>
@@ -4320,8 +4326,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link304">Justice</unittitle>
     </did>
     <scopecontent>
@@ -4330,8 +4336,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link305">Justice</unittitle>
     </did>
     <scopecontent>
@@ -4340,8 +4346,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link306">Justice</unittitle>
     </did>
     <scopecontent>
@@ -4350,22 +4356,22 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link307">LC Interview--Geraldine Wiley-Bob Gumpert</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link308">Local 23-25</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link309">Los Angeles Guess? Action</unittitle>
     </did>
     <scopecontent>
@@ -4374,8 +4380,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link310">Nelson Mandela visit</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -4385,8 +4391,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link311">Monarch Fire</unittitle>
      <unitdate normal="1958">1958</unitdate>
     </did>
@@ -4396,8 +4402,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link312">No NAFTA demonstration with Biana Jagger</unittitle>
     </did>
     <scopecontent>
@@ -4406,57 +4412,57 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">26</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">26</container>
      <unittitle id="link313">School visit, 4th grade class</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">27</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">27</container>
      <unittitle id="link314">Early strikes, other demonstrations</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">28</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">28</container>
      <unittitle id="link315">1920s--2nd battle with Communists and 1926 strike</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">29</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">29</container>
      <unittitle id="link316">"Tenement" photos</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">30</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">30</container>
      <unittitle id="link317">Union Department. AIM</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">31</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">31</container>
      <unittitle id="link318">Union Health Center</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">32</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">32</container>
      <unittitle id="link319">Unity House Murals</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">24</container>
-     <container type="folder">33</container>
+     <container label="unspecified" type="box">24</container>
+     <container label="unspecified" type="folder">33</container>
      <unittitle id="link320">Workers Center Rally</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -4466,96 +4472,96 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link321">AFL-CIO (1)</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link322">AFL-CIO (2)</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link323">AFL-CIO (3)</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link324">Archives</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link325">Canada (1)</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link326">Canada (2)</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link327">Canada (3)</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link328">Canada (1)</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link329">Canada (2)</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link330">Central States</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link331">Chaikin, Sol</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link332">Convention, 1949</unittitle>
      <unitdate normal="1949">1949</unitdate>
      <physdesc label="Format:">Black and white photograph</physdesc>
@@ -4563,8 +4569,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link333">Convention, 1977 (1)</unittitle>
      <unitdate normal="1977">1977</unitdate>
      <physdesc label="Format:">Black and white photograph</physdesc>
@@ -4572,8 +4578,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link334">Convention, 1977 (2)</unittitle>
      <unitdate normal="1977">1977</unitdate>
      <physdesc label="Format:">Black and white photograph</physdesc>
@@ -4581,8 +4587,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link335">Convention, 1980 (1)</unittitle>
      <unitdate normal="1980">1980</unitdate>
      <physdesc label="Format:">Black and white photograph</physdesc>
@@ -4590,8 +4596,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link336">Convention, 1980 (2)</unittitle>
      <unitdate normal="1980">1980</unitdate>
      <physdesc label="Format:">Black and white photograph</physdesc>
@@ -4599,8 +4605,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link337">Convention, 1980 (3)</unittitle>
      <unitdate normal="1980">1980</unitdate>
      <physdesc label="Format:">Black and white photograph</physdesc>
@@ -4608,8 +4614,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">25</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">25</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link338">Convention, 1980 (4)</unittitle>
      <unitdate normal="1980">1980</unitdate>
      <physdesc label="Format:">Black and white photograph</physdesc>
@@ -4617,8 +4623,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link339">Convention, 1980 (1)</unittitle>
      <unitdate normal="1980">1980</unitdate>
      <physdesc label="Format:">Black and white photograph</physdesc>
@@ -4626,8 +4632,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link340">Convention, 1980 (2)</unittitle>
      <unitdate normal="1980">1980</unitdate>
      <physdesc label="Format:">Black and white photograph</physdesc>
@@ -4635,8 +4641,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link341">Convention, 1980 (3)</unittitle>
      <unitdate normal="1980">1980</unitdate>
      <physdesc label="Format:">Black and white photograph</physdesc>
@@ -4644,8 +4650,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link342">Convention, 1980 (4)</unittitle>
      <unitdate normal="1980">1980</unitdate>
      <physdesc label="Format:">Black and white photograph</physdesc>
@@ -4653,8 +4659,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link343">Convention, 1980 (5)</unittitle>
      <unitdate normal="1980">1980</unitdate>
      <physdesc label="Format:">Black and white photograph</physdesc>
@@ -4662,8 +4668,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link344">Convention, 1980 (1)</unittitle>
      <unitdate normal="1980">1980</unitdate>
      <physdesc label="Format:">Black and white photograph</physdesc>
@@ -4671,8 +4677,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link345">Convention, 1980 (2)</unittitle>
      <unitdate normal="1980">1980</unitdate>
      <physdesc label="Format:">Black and white photograph</physdesc>
@@ -4680,8 +4686,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link346">Convention, 1980 (3)</unittitle>
      <unitdate normal="1980">1980</unitdate>
      <physdesc label="Format:">Black and white photograph</physdesc>
@@ -4689,135 +4695,135 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link347">NYC High School of Fashion Industries, Ernest Fiene Murals</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link348">Northeast</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link349">Puerto Rico (1)</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link350">Puerto Rico (2)</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link351">Retirees</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link352">Southeast Region</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">26</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">26</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link353">Union Health Center</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">27</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">27</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link354">Union Label</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">27</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">27</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link355">Union Privileges</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">27</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">27</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link356">Union Yes</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">27</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">27</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link357">Unity House</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">27</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">27</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link358">Upper South</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">27</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">27</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link359">Warehouse Workers</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">27</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">27</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link360">Western States (1)</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">27</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">27</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link361">Western States (2)</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">27</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">27</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link362">Women's Issues</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">28</container>
+     <container label="unspecified" type="box">28</container>
      <unittitle id="link363">Images digitized from the collection.</unittitle>
      <physdesc label="Format:">Black and white photograph</physdesc>
     </did>

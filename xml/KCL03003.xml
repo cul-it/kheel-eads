@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-  <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-    <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL03003::Robert V. Pezdek Associate Degree Program File.)//EN">KCL03003</eadid>
+  <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+    <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL03003::Robert V. Pezdek Associate Degree Program File.)//EN">KCL03003</eadid>
     <filedesc>
       <titlestmt>
         <titleproper>Guide to the Robert V. Pezdek Associate Degree Program File<date> 1971-1971</date></titleproper>
@@ -21,16 +21,22 @@
     <profiledesc>
       <creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>April 17, 2013</date></creation>
     </profiledesc>
-  </eadheader>
+  <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
   <frontmatter>
     <titlepage>
-      <titleproper>Guide to the Robert V. Pezdek Associate Degree Program File<lb/></titleproper>
-      <num type="kidb_reference_number" id="kc693">Collection Number: /3003</num>
+      <titleproper>Guide to the Robert V. Pezdek Associate Degree Program File</titleproper>
+      <num id="kc693" type="kidb_reference_number">Collection Number: /3003</num>
       <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
       <list type="deflist">
         <defitem>
           <label>Contact Information:</label>
-          <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+          <item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
             <extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref>
           </item>
         </defitem>
@@ -48,14 +54,14 @@
   </frontmatter>
   <archdesc level="collection">
     <did>
-      <head id="a1">DESCRIPTIVE SUMMARY</head>
-      <unittitle label="Title:" encodinganalog="MARC 245$a">Robert V. Pezdek Associate Degree Program File, <unitdate encodinganalog="MARC 245$f">1971-1971</unitdate>
-      </unittitle>
+      
+      <unittitle encodinganalog="MARC 245$a" label="Title:">Robert V. Pezdek Associate Degree Program File, 1971-1971
+      </unittitle><unitdate encodinganalog="MARC 245$f">1971-1971</unitdate>
       <unitid label="Collection Number:">/3003</unitid>
       <origination label="Creator:">
         <persname encodinganalog="MARC 100" role="creator">Pezdek, Robert V.</persname>
       </origination>
-      <physdesc label="Quantity:" encodinganalog="MARC 300">0.3 linear ft.</physdesc>
+      <physdesc encodinganalog="MARC 300" label="Quantity:">0.3 linear ft.</physdesc>
       <physdesc label="Forms of Material:">Administrative papers, minutes, reports, memoranda, notes.</physdesc>
       <repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
       <abstract label="Abstract:">Consists of Prof. Pezdek's files on the ILR Associates Degree.</abstract>
@@ -63,50 +69,50 @@
       </langmaterial>
     <physdesc><extent>0.33 cubic feet</extent></physdesc></did>
     <bioghist encodinganalog="MARC 545">
-      <head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+      
       <p>A graduate of the University of Pittsburgh and Carnegie Tech, Robert V. Pezdek was the ILR Librarian at Cornell's School of Industrial and Labor Relations.</p>
     </bioghist>
     <controlaccess>
-      <head id="a8">SUBJECTS</head>
+      
       <controlaccess>
-        <head>Names: </head>
+        
         <persname encodinganalog="MARC 600">Pezdek, Robert V. </persname>
         <corpname encodinganalog="MARC 610">New York State School of Industrial and Labor Relations --Faculty. </corpname>
       </controlaccess>
       <controlaccess>
-        <head>Subjects: </head>
+        
         <subject encodinganalog="MARC 650">Education, Higher. </subject>
       </controlaccess>
       <controlaccess>
         </controlaccess>
     </controlaccess>
     <descgrp>
-      <head id="a10">INFORMATION FOR USERS</head>
+      
       <accessrestrict>
-        <head>Access Restrictions:</head>
+        
         <p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
       </accessrestrict>
       <userestrict>
-        <head>Restrictions on Use:</head>
+        
         <p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
       </userestrict>
       <prefercite>
-        <head>Cite As:</head>
+        
         <p>Robert V. Pezdek Associate Degree Program File #/3003. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
       </prefercite>
     </descgrp>
     <relatedmaterial>
-      <head id="a6">RELATED MATERIALS</head>
-      <p>Related Collections:<lb/>
-        <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04002.html"> /4002: New York State School of Industrial and Labor Relations (NYSSILR). Ad Hoc Committee on Associate Degree Program. Papers.</extref><lb/> /4053m: New York State School of Industrial and Labor Relations (NYSSILR). Report on the Off-Campus Labor Relations Credit Programs.<lb/>
+      
+      <p>Related Collections:
+        <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04002.html"> /4002: New York State School of Industrial and Labor Relations (NYSSILR). Ad Hoc Committee on Associate Degree Program. Papers.</extref> /4053m: New York State School of Industrial and Labor Relations (NYSSILR). Report on the Off-Campus Labor Relations Credit Programs.
       </p>
     </relatedmaterial>
     <dsc type="in-depth">
-      <head>CONTAINER LIST</head>
+      
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">1</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">1</container>
           <unittitle id="link6">Associate Degree Program</unittitle>
           <unitdate normal="1971">1971</unitdate>
         </did>
@@ -116,8 +122,8 @@
       </c01>
       <c01 level="file">
         <did>
-          <container type="box">1</container>
-          <container type="folder">2</container>
+          <container label="unspecified" type="box">1</container>
+          <container label="unspecified" type="folder">2</container>
           <unittitle id="link7">Associate Degree Program</unittitle>
           <unitdate normal="1971">1971</unitdate>
         </did>

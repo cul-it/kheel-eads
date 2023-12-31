@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06385f::Bernard Kassoy Films.)//EN">KCL06385f</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06385f::Bernard Kassoy Films.)//EN">KCL06385f</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Bernard Kassoy Films<date> 1965-1998</date></titleproper>
@@ -23,16 +23,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>October 23, 2015</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Bernard Kassoy Films<lb/></titleproper>
+			<titleproper>Guide to the Bernard Kassoy Films</titleproper>
 			<num>Collection Number: 6385 F</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -50,21 +56,21 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Bernard Kassoy Films, <unitdate encodinganalog="MARC 245$f">1965-1998</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Bernard Kassoy Films, 1965-1998
+			</unittitle><unitdate encodinganalog="MARC 245$f">1965-1998</unitdate>
 			<unitid label="Collection Number:">6385 F</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">Kassoy, Bernard</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">2 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">2 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Motion picture films.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<langmaterial label="Language:">Collection material in <language encodinganalog="MARC 041" langcode="eng">English</language>
 			</langmaterial>
 		<physdesc><extent>2 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+			
 			<p>Bernard (Bernie) Kassoy (1914-2008) graduated from the City College of New York and Cooper Union Art School and worked in a wide range of media as a painter, printmaker, photographer, sculptor and cinematographer. As a young artist, Kassoy began
 				his career in the WPA New York City Federal Art Project in 1936 and was arrested under the name "Michelangelo Buonarotti" at the first sit-down strike against the WPA by the Artists Union. He was also a US delegate to the 1983 International
 				Association of Artists conference in Finland. </p>
@@ -78,26 +84,26 @@
 				these manifestations of McCarthyism, he was never blacklisted. His work can also be found in the collections of the Museum of Modern Art, The Metropolitan Museum of Art, New York Public Library, and Fennimore House Museum.</p>
 		</bioghist>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Bernard Kassoy Films #6385 F. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container label="Item">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="Item" type="unspecified">1</container>
 					<unittitle id="link6">Mexico - 1948 ; Pond (extra)</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -107,8 +113,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container label="Item">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="Item" type="unspecified">2</container>
 					<unittitle id="link7">Pond, Water Reflections - Close ups of buds &amp; flowers - Paintings to be edited and titled</unittitle>
 				</did>
 				<scopecontent>
@@ -117,8 +123,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container label="Item">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="Item" type="unspecified">3</container>
 					<unittitle id="link8">W.C. Film -- Work Print #1 ; GUNA Sequence - shutter closed -- blank film</unittitle>
 				</did>
 				<scopecontent>
@@ -127,22 +133,22 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container label="Item">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="Item" type="unspecified">4</container>
 					<unittitle id="link9">Phetrasant</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container label="Item">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="Item" type="unspecified">5</container>
 					<unittitle id="link10">Unlabeled</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container label="Item">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="Item" type="unspecified">6</container>
 					<unittitle id="link11">Silent</unittitle>
 				</did>
 				<scopecontent>
@@ -151,30 +157,30 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container label="Item">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="Item" type="unspecified">7</container>
 					<unittitle id="link12">Original - Guitar Winston</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container label="Item">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="Item" type="unspecified">8</container>
 					<unittitle id="link13">Original - Sculptures</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container label="Item">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="Item" type="unspecified">9</container>
 					<unittitle id="link14">A Lesson in Watercolor -- on tape 2/1998</unittitle>
 					<unitdate normal="1998">1998</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container label="Item">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="Item" type="unspecified">10</container>
 					<unittitle id="link15">Sound</unittitle>
 				</did>
 				<scopecontent>
@@ -183,22 +189,22 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container label="Item">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="Item" type="unspecified">11</container>
 					<unittitle id="link16">Unlabeled</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container label="Item">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="Item" type="unspecified">12</container>
 					<unittitle id="link17">Unlabeled</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container label="Item">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="Item" type="unspecified">13</container>
 					<unittitle id="link18">AEA '71</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
@@ -208,24 +214,24 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container label="Item">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="Item" type="unspecified">14</container>
 					<unittitle id="link19">Original : Students on Terrace ; Model &amp; Still Life in SDY Class</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container label="Item">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="Item" type="unspecified">15</container>
 					<unittitle id="link20">Unlabeled</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container label="Item">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="Item" type="unspecified">1</container>
 					<unittitle id="link21">One reel, several titles</unittitle>
-					<unitdate type="inclusive" normal="1981/1983">1981-1983</unitdate>
+					<unitdate normal="1981/1983" type="inclusive">1981-1983</unitdate>
 				</did>
 				<scopecontent>
 					<p>Kick -- 12/13/81 &amp; 2/7/82 ; A Whole Lot of Sunlight -- 3/2/82 ; If You Go Away -- 3/16/82 ; Not a Day Goes By -- 4/3/82 ; The Party is Over - 4/24/83 ; Just in Time - 5/1/83 ; All the Things You Are - 5/1/83</p>
@@ -233,58 +239,58 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container label="Item">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="Item" type="unspecified">2</container>
 					<unittitle id="link22">Unlabeled</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container label="Item">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="Item" type="unspecified">3</container>
 					<unittitle id="link23">On tape : P Tomm</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container label="Item">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="Item" type="unspecified">4</container>
 					<unittitle id="link24">Misc. Family -- Bklyn ; Bellaire ; Lynbrook ; Family Picnic</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container label="Item">5</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="Item" type="unspecified">5</container>
 					<unittitle id="link25">Pietrasanta Dupe</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container label="Item">6</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="Item" type="unspecified">6</container>
 					<unittitle id="link26">Honey &amp; Baby Merry</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container label="Item">7</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="Item" type="unspecified">7</container>
 					<unittitle id="link27">GUNA on tape 2/18/1998</unittitle>
 					<unitdate normal="1998">1998</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container label="Item">8</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="Item" type="unspecified">8</container>
 					<unittitle id="link28">Baby - 1st year ; 2nd year</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container label="Item">9</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="Item" type="unspecified">9</container>
 					<unittitle id="link29">Europe 1965</unittitle>
 					<unitdate normal="1965">1965</unitdate>
 				</did>

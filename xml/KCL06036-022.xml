@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06036-022::Mendelsund, Henoch. Interview by E. Finn..)//EN">KCL06036-022</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06036-022::Mendelsund, Henoch. Interview by E. Finn..)//EN">KCL06036-022</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the Mendelsund, Henoch. Interview by E. Finn.<date>
@@ -24,20 +24,26 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kathryn Dowgiewicz,
                     <date>January 10, 2013</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
-            <titleproper>Guide to the Mendelsund, Henoch. Interview by E. Finn.<lb/></titleproper>
-            <num type="kidb_reference_number" id="kc450">Collection Number: 6036/022</num>
+            <titleproper>Guide to the Mendelsund, Henoch. Interview by E. Finn.</titleproper>
+            <num id="kc450" type="kidb_reference_number">Collection Number: 6036/022</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
- <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+ <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
  <extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref>
                     </item>
                 </defitem>
@@ -56,16 +62,16 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">Mendelsund, Henoch. Interview by
-                E. Finn., <unitdate encodinganalog="MARC 245$f">1978-1978</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">Mendelsund, Henoch. Interview by
+                E. Finn., 1978-1978
+            </unittitle><unitdate encodinganalog="MARC 245$f">1978-1978</unitdate>
             <unitid label="Collection Number:">6036/022</unitid>
             <origination label="Creator:">
                 <persname encodinganalog="MARC 100" role="creator">Mendelsund, Henoch</persname>
                 <persname encodinganalog="MARC 100" role="creator">Finn, E.</persname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">0.333333333333333 linear
+            <physdesc encodinganalog="MARC 300" label="Quantity:">0.333333333333333 linear
                 ft.</physdesc>
             <physdesc label="Forms of Material:">Articles, reprints, pamphlets, correspondence,
                 photographs.</physdesc>
@@ -78,7 +84,7 @@
             </langmaterial>
         <physdesc><extent>0.56 cubic feet</extent></physdesc></did>
         <bioghist encodinganalog="MARC 545">
-            <head id="a2" altrender="organizational history">ILGWU ORGANIZATIONAL HISTORY</head>
+            
             <p>Founded in 1900 by local union delegates representing about 2,000 members in cities
                 in the northeastern United States, the ILGWU grew in geographical scope, membership
                 size, political influence to become one of the most powerful forces in American
@@ -90,7 +96,7 @@
                 the Union of Needletrades, Industrial and Textile Employees (UNITE).</p>
         </bioghist>
         <bioghist encodinganalog="MARC 545">
-            <head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+            
             <p>Henoch Mendelsund was born on March 26 (or 23), 1911. Active in the Jewish labor
                 movement in his native Poland, he worked as a mechanic and attended Warsaw
                 University. Mendelsund arrived in the U.S. in 1941 as one of 1,500 labor leaders and
@@ -117,7 +123,7 @@
                 prosperous status, and its oral history program. He died on September 22, 1994.</p>
         </bioghist>
         <scopecontent encodinganalog="MARC 520">
-            <head id="a3">COLLECTION DESCRIPTION</head>
+            
             <p>The International Relations Department of the ILGWU was concerned primarily with
                 outreach to foreign and international labor organizations, working conditions in
                 foreign countries, and international organizing activities. The department worked
@@ -148,9 +154,9 @@
                 of members donating funds for union development.</p>
         </scopecontent>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <persname encodinganalog="MARC 600"> Mendelsund, Henoch. </persname>
                 <persname encodinganalog="MARC 600"> Finn, E. </persname>
                 <corpname encodinganalog="MARC 610"> International Ladies' Garment Workers' Union --
@@ -160,40 +166,40 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>Mendelsund, Henoch. Interview by E. Finn. #6036/022. Kheel Center for
                     Labor-Management Documentation and Archives, Cornell University Library.</p>
             </prefercite>
         </descgrp>
         <relatedmaterial>
-            <head id="a6">RELATED MATERIALS</head>
-            <p>Related Collections:<lb/>
+            
+            <p>Related Collections:
                 <extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05780.html"> 5780: ILGWU
-                    records</extref><lb/>
+                    records</extref>
                 <extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05780-062.html"> 5780/062:
-                    ILGWU. International Relations Department records</extref><lb/>
+                    ILGWU. International Relations Department records</extref>
                 <extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05780-062pubs.html"> 5780/062
-                    PUBS: ILGWU. International Relations Department publications</extref><lb/>
+                    PUBS: ILGWU. International Relations Department publications</extref>
             </p>
         </relatedmaterial>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link6">Henoch Mendelsund</unittitle>
                     <unitdate normal="1978">1978</unitdate>
                 </did>
@@ -203,8 +209,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link7">Henoch Mendelsund</unittitle>
                     <unitdate normal="1978">1978</unitdate>
                 </did>
@@ -214,8 +220,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link8">Henoch Mendelsund</unittitle>
                     <unitdate normal="1978">1978</unitdate>
                 </did>

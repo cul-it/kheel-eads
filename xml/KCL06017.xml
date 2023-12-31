@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06017::Theodore W. Kheel Newspaper Clipping File.)//EN">KCL06017</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06017::Theodore W. Kheel Newspaper Clipping File.)//EN">KCL06017</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Theodore W. Kheel Newspaper Clipping File<date> 1941-2002</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>October 30, 2015</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Theodore W. Kheel Newspaper Clipping File<lb/></titleproper>
+			<titleproper>Guide to the Theodore W. Kheel Newspaper Clipping File</titleproper>
 			<num>Collection Number: 6017</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,14 +54,14 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Theodore W. Kheel Newspaper Clipping File, <unitdate encodinganalog="MARC 245$f">1941-2002</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Theodore W. Kheel Newspaper Clipping File, 1941-2002
+			</unittitle><unitdate encodinganalog="MARC 245$f">1941-2002</unitdate>
 			<unitid label="Collection Number:">6017</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">Kheel, Theodore W.</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">8 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">8 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">News clippings , records.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">Subject files and chronologically arranged, bound clippings.</abstract>
@@ -63,7 +69,7 @@
 			</langmaterial>
 		<physdesc><extent>8 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+			
 			<p>Theodore Woodrow Kheel was said to be named for both Woodrow Wilson and his political rival Theodore Roosevelt, the result of a compromise between his politically differing parents. The settlement presaged a career in which Kheel would be tapped
 				by mayors, governors, and presidents to settle disputes that were part of the nation's major political and social transitions from post-World War II to well into the 21st century. </p>
 			<p>Born in 1914 in Brooklyn, Ted Kheel attended public high school in the Bronx. He was awarded a Regents scholarship to Cornell University, where he attended an accelerated undergraduate law school program permitting him to earn a bachelor's and
@@ -103,9 +109,9 @@
 				good and the management of a successful law and mediation practice and other business and cultural interests.</p>
 		</bioghist>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Kheel, Theodore Woodrow </persname>
 				<corpname encodinganalog="MARC 610">American Foundation on Automation and Employment, Archives </corpname>
 				<corpname encodinganalog="MARC 610">Institute for Collective Bargaining and Group Relations, Archives </corpname>
@@ -114,7 +120,7 @@
 				<corpname encodinganalog="MARC 610">Pennsylvania State University, Archives </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Strikes and lockouts, Newspapers </subject>
 				<subject encodinganalog="MARC 650">Strikes and lockouts, Police </subject>
 				<subject encodinganalog="MARC 650">Strikes and lockouts, Teachers </subject>
@@ -129,421 +135,421 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Theodore W. Kheel Newspaper Clipping File #6017. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related Collections:<lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05024.html"> 5024: Theodore W. Kheel Arbitration Awards</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06021av.html"> 6021 AV: Theodore W. Kheel Audio-Visual Materials</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06021.html"> 6021: Theodore W. Kheel Records</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06021mb.html"> 6021 MB: Theodore W. Kheel Memorabilia</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06021p.html"> 6021 P: Theodore W. Kheel Photographs</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06059oh.html"> 6059 OH: Thomas Shactman Interviews with Theodore W. Kheel</extref><lb/>
-				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05776av.html"> 5776 AV: Theodore W. Kheel Interviews and Programs</extref><lb/>
+			
+			<p>Related Collections:
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05024.html"> 5024: Theodore W. Kheel Arbitration Awards</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06021av.html"> 6021 AV: Theodore W. Kheel Audio-Visual Materials</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06021.html"> 6021: Theodore W. Kheel Records</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06021mb.html"> 6021 MB: Theodore W. Kheel Memorabilia</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06021p.html"> 6021 P: Theodore W. Kheel Photographs</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06059oh.html"> 6059 OH: Thomas Shactman Interviews with Theodore W. Kheel</extref>
+				<extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05776av.html"> 5776 AV: Theodore W. Kheel Interviews and Programs</extref>
 			</p>
 		</relatedmaterial>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link6">Affinity Group Credit Cards</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link7">American Foundation on Automation and Employment</unittitle>
-					<unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate>
+					<unitdate normal="1962/1967" type="inclusive">1962-1967</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link8">American Foundation on Automation and Employment</unittitle>
-					<unitdate type="inclusive" normal="1968/1973">1968-1973</unitdate>
+					<unitdate normal="1968/1973" type="inclusive">1968-1973</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link9">American Labor Movement</unittitle>
-					<unitdate type="inclusive" normal="1951/1969">1951-1969</unitdate>
+					<unitdate normal="1951/1969" type="inclusive">1951-1969</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link10">American Labor Movement</unittitle>
-					<unitdate type="inclusive" normal="1970/1989">1970-1989</unitdate>
+					<unitdate normal="1970/1989" type="inclusive">1970-1989</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link11">Arbitrations - AAU-NCAA </unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link12">Arbitrations - Brewery Industry</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link13">Arbitrations - Civil Rights </unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link14">Arbitrations - Entertainment Industry</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link15">Arbitrations - Maritime</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link16">Arbitrations - Milk Industry</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link17">Arbitrations - Newspaper and Printing Industries </unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link18">Arbitrations - Pocketbook Workers Union - Leather Goods</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link19">Arbitrations - Rubber Industry</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link20">Arbitrations - Teamsters</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link21">Arbitrations - Transit</unittitle>
-					<unitdate type="inclusive" normal="1953/1956">1953-1956</unitdate>
+					<unitdate normal="1953/1956" type="inclusive">1953-1956</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link22">Arbitrations - Transit</unittitle>
-					<unitdate type="inclusive" normal="1957/1963">1957-1963</unitdate>
+					<unitdate normal="1957/1963" type="inclusive">1957-1963</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link23">Arbitrations - Transit</unittitle>
-					<unitdate type="inclusive" normal="1965/1984">1965-1984</unitdate>
+					<unitdate normal="1965/1984" type="inclusive">1965-1984</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link24">Automation</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link25">Automation House</unittitle>
-					<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+					<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link26">Automation House</unittitle>
-					<unitdate type="inclusive" normal="1971/1976">1971-1976</unitdate>
+					<unitdate normal="1971/1976" type="inclusive">1971-1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link27">Center for Non-Broadcast Television (Automation House)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link28">Christo's Gates Project</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link29">Civil Rights - Kheel Articles, Speeches and Statements</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link30">Civil Rights - Kheel Booklet and Book on Equal Employment Opportunity</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link31">Civil Rights - New York and National Urban Leagues</unittitle>
 					<unitdate normal="1956">1956</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link32">Civil Rights - National Urban League Civil Rights Bill, Equal Employment Opportunity Drive</unittitle>
 					<unitdate normal="1957">1957</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link33">Civil Rights - National Urban League (Ghana, Airlines)</unittitle>
 					<unitdate normal="1957">1957</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link34">Civil Rights - National Urban League</unittitle>
-					<unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate>
+					<unitdate normal="1958/1959" type="inclusive">1958-1959</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link35">Civil Rights - National Urban League (African Student Airlift) </unittitle>
 					<unitdate normal="1960">1960</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle id="link36">Civil Rights - Electrical Workers Union Apprentices</unittitle>
-					<unitdate type="inclusive" normal="1962/1964">1962-1964</unitdate>
+					<unitdate normal="1962/1964" type="inclusive">1962-1964</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle id="link37">Civil Rights - Gandhi Society</unittitle>
-					<unitdate type="inclusive" normal="1962/1964">1962-1964</unitdate>
+					<unitdate normal="1962/1964" type="inclusive">1962-1964</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle id="link38">Civil Rights - Alabama Libel Suits; Sullivan v. New York Times</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle id="link39">Civil Rights - President's Committee on Equal Employment Opportunity - Kheel Report </unittitle>
 					<unitdate normal="1962">1962</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">35</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">35</container>
 					<unittitle id="link40">Civil Rights - Mayor's Committee on Job Advancement</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">36</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">36</container>
 					<unittitle id="link41">Civil Rights - Apprenticeship Plan, Local' 6; International Typographical Union</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">37</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">37</container>
 					<unittitle id="link42">Civil Rights</unittitle>
-					<unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate>
+					<unitdate normal="1968/1970" type="inclusive">1968-1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">38</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">38</container>
 					<unittitle id="link43">Civil Rights - Minority Hiring by City of New York </unittitle>
 					<unitdate normal="1974">1974</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">39</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">39</container>
 					<unittitle id="link44">Columbia Univ. Campus </unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">40</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">40</container>
 					<unittitle id="link45">Composers and Lyricists Guild v. Television and Movie Producers</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">41</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">41</container>
 					<unittitle id="link46">Conflict Resolution - General</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">42</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">42</container>
 					<unittitle id="link47">Conflict Resolution t. Attica </unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">43</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">43</container>
 					<unittitle id="link48">Conflict Resolution - Board of Mediation of Community Disputes</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">44</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">44</container>
 					<unittitle id="link49">Conflict Resolution Institute Center) for Mediation and </unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">45</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">45</container>
 					<unittitle id="link50">Conflict Resolution </unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">46</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">46</container>
 					<unittitle id="link51">Electrical Industry </unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">47</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">47</container>
 					<unittitle id="link52">Experiments in Art and Technology</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">48</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">48</container>
 					<unittitle id="link53">Clay Felker - New York Magazine and Village Voice</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">49</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">49</container>
 					<unittitle id="link54">Foundation on Employee Health, Medical Care and Welfare</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">50</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">50</container>
 					<unittitle id="link55">David Graiver</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">51</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">51</container>
 					<unittitle id="link56">Hospitals - Strikes</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">52</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">52</container>
 					<unittitle id="link57">Industrial and Labor Relations - Air Transport</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">53</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">53</container>
 					<unittitle id="link58">Industrial and Labor Relations - Alternatives to Strike</unittitle>
 					<unitdate normal="1963">1963</unitdate>
 				</did>
@@ -553,259 +559,259 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">54</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">54</container>
 					<unittitle id="link59">Industrial and Labor Relations - Arbitration</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">55</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">55</container>
 					<unittitle id="link60">Industrial and Labor Relations - Schelling's Essay on Bargaining</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">56</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">56</container>
 					<unittitle id="link61">Industrial and Labor Relations - Collective Bargaining</unittitle>
-					<unitdate type="inclusive" normal="1946/1963">1946-1963</unitdate>
+					<unitdate normal="1946/1963" type="inclusive">1946-1963</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">57</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">57</container>
 					<unittitle id="link62">Industrial and Labor Relations - Collective Bargaining</unittitle>
-					<unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate>
+					<unitdate normal="1964/1967" type="inclusive">1964-1967</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">58</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">58</container>
 					<unittitle id="link63">Industrial and Labor Relations - Collective Bargaining</unittitle>
-					<unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
+					<unitdate normal="1968/1969" type="inclusive">1968-1969</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">59</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">59</container>
 					<unittitle id="link64">Industrial and Labor Relations - Collective Bargaining</unittitle>
-					<unitdate type="inclusive" normal="1970/1980">1970-1980</unitdate>
+					<unitdate normal="1970/1980" type="inclusive">1970-1980</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">60</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">60</container>
 					<unittitle id="link65">Industrial and Labor Relations - Public Sector Bargaining (including Taylor Law)</unittitle>
 					<unitdate normal="1968">1968</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">61</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">61</container>
 					<unittitle id="link66">Industrial and Labor Relations - Public Sector Bargaining</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">62</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">62</container>
 					<unittitle id="link67">Industrial and Labor Relations - Public Sector Bargaining</unittitle>
-					<unitdate type="inclusive" normal="1971/1993">1971-1993</unitdate>
+					<unitdate normal="1971/1993" type="inclusive">1971-1993</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">63</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">63</container>
 					<unittitle id="link68">Industrial and Labor Relations - Strikes</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">64</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">64</container>
 					<unittitle id="link69">Industrial and Labor Relations - Taylor Law (Kheel Report to Speaker Trivia)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">65</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">65</container>
 					<unittitle id="link70">Institute-e for Collective Bargaining and Group Relations</unittitle>
-					<unitdate type="inclusive" normal="1967/1969">1967-1969</unitdate>
+					<unitdate normal="1967/1969" type="inclusive">1967-1969</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">66</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">66</container>
 					<unittitle id="link71">Institute for Collective Bargaining and Group Relations</unittitle>
-					<unitdate type="inclusive" normal="1970/1987">1970-1987</unitdate>
+					<unitdate normal="1970/1987" type="inclusive">1970-1987</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">67</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">67</container>
 					<unittitle id="link72">Kheel - Awards, Honors and Special Recognition</unittitle>
-					<unitdate type="inclusive" normal="1948/1965">1948-1965</unitdate>
+					<unitdate normal="1948/1965" type="inclusive">1948-1965</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">68</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">68</container>
 					<unittitle id="link73">Kheel - Awards, Honors and Special Recognition </unittitle>
-					<unitdate type="inclusive" normal="1966/1991">1966-1991</unitdate>
+					<unitdate normal="1966/1991" type="inclusive">1966-1991</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">69</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">69</container>
 					<unittitle id="link74">Kheel - Biographical Materials</unittitle>
-					<unitdate type="inclusive" normal="1943/1958">1943-1958</unitdate>
+					<unitdate normal="1943/1958" type="inclusive">1943-1958</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">70</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">70</container>
 					<unittitle id="link75">Kheel - Biographical Materials</unittitle>
-					<unitdate type="inclusive" normal="1959/1967">1959-1967</unitdate>
+					<unitdate normal="1959/1967" type="inclusive">1959-1967</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">71</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">71</container>
 					<unittitle id="link76">Kheel - Biographical Materials</unittitle>
-					<unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate>
+					<unitdate normal="1968/1970" type="inclusive">1968-1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">72</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">72</container>
 					<unittitle id="link77">Kheel - Biographical Materials</unittitle>
-					<unitdate type="inclusive" normal="1971/1979">1971-1979</unitdate>
+					<unitdate normal="1971/1979" type="inclusive">1971-1979</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">73</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">73</container>
 					<unittitle id="link78">Kheel - Biographical Materials</unittitle>
-					<unitdate type="inclusive" normal="1980/1993">1980-1993</unitdate>
+					<unitdate normal="1980/1993" type="inclusive">1980-1993</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">74</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">74</container>
 					<unittitle id="link79">Kheel - Corporate Directorships, Offices and Investments</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">75</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">75</container>
 					<unittitle id="link80">Kheel - Favorable Media and Official Comment</unittitle>
-					<unitdate type="inclusive" normal="1947/1963">1947-1963</unitdate>
+					<unitdate normal="1947/1963" type="inclusive">1947-1963</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">76</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">76</container>
 					<unittitle id="link81">Kheel - Favorable Media and Official Comment</unittitle>
 					<unitdate normal="1963">1963</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">77</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">77</container>
 					<unittitle id="link82">Kheel - Gilbane Housing Development in Panama</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">78</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">78</container>
 					<unittitle id="link83">Kheel - Litigation as Counsel </unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">79</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">79</container>
 					<unittitle id="link84">Kheel - Litigation as Party</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">80</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">80</container>
 					<unittitle id="link85">Kheel's Relations with Media</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link86">John V. Lindsay as Mayor</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link87">Local 6, International Typographical Union </unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link88">MARC (Metropolitan Applied Research Center)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link89">MGM Proxy Fight</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link90">Maritime Industry</unittitle>
-					<unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate>
+					<unitdate normal="1957/1959" type="inclusive">1957-1959</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link91">Maritime Industry</unittitle>
-					<unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
+					<unitdate normal="1962/1963" type="inclusive">1962-1963</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link92">Maritime Industry</unittitle>
 					<unitdate normal="1963">1963</unitdate>
 				</did>
@@ -815,16 +821,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link93">Maritime Industry </unittitle>
-					<unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
+					<unitdate normal="1963/1964" type="inclusive">1963-1964</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link94">Maritime Industry </unittitle>
 					<unitdate normal="1964">1964</unitdate>
 				</did>
@@ -834,39 +840,39 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link95">Maritime Industry</unittitle>
 					<unitdate normal="1965">1965</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link96">Maritime Industry</unittitle>
-					<unitdate type="inclusive" normal="1966/1973">1966-1973</unitdate>
+					<unitdate normal="1966/1973" type="inclusive">1966-1973</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link97">Milk Driver Discutes and Strikes </unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link98">Municipal Government Service 1946-1947 (Non Transit)</unittitle>
-					<unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate>
+					<unitdate normal="1946/1947" type="inclusive">1946-1947</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link99">Municipal Government Service (Non-Transit)</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -876,8 +882,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link100">Municipal Government Service (Non Transit)</unittitle>
 				</did>
 				<scopecontent>
@@ -886,8 +892,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link101">Municipal Government Service (Non Transit)</unittitle>
 				</did>
 				<scopecontent>
@@ -896,8 +902,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link102">Municipal Government Service (Non Transit)</unittitle>
 				</did>
 				<scopecontent>
@@ -906,8 +912,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link103">Report of the Mayor's Transit Advisory Committee</unittitle>
 					<unitdate normal="1946">1946</unitdate>
 				</did>
@@ -917,16 +923,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link104">Municipal Government Service (Transit)</unittitle>
-					<unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate>
+					<unitdate normal="1946/1947" type="inclusive">1946-1947</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link105">Municipal Government Service (Transit)</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -936,8 +942,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link106">Municipal Government Service (Transit)</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -947,115 +953,115 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link107">National Football League</unittitle>
-					<unitdate type="inclusive" normal="1968/1973">1968-1973</unitdate>
+					<unitdate normal="1968/1973" type="inclusive">1968-1973</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link108">National Football League</unittitle>
-					<unitdate type="inclusive" normal="1974/1982">1974-1982</unitdate>
+					<unitdate normal="1974/1982" type="inclusive">1974-1982</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link109">New York City and State Politics</unittitle>
-					<unitdate type="inclusive" normal="1946/1967">1946-1967</unitdate>
+					<unitdate normal="1946/1967" type="inclusive">1946-1967</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link110">New York City and State Politics </unittitle>
-					<unitdate type="inclusive" normal="1968/1978">1968-1978</unitdate>
+					<unitdate normal="1968/1978" type="inclusive">1968-1978</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link111">New York City and State Politics - Gubernatorial</unittitle>
 					<unitdate normal="1982">1982</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link112">New York City and State Politics - Mayoral; Kheel v. Koch</unittitle>
-					<unitdate type="inclusive" normal="1981/1989">1981-1989</unitdate>
+					<unitdate normal="1981/1989" type="inclusive">1981-1989</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link113">New York City Development and Economic Data </unittitle>
-					<unitdate type="inclusive" normal="1947/1965">1947-1965</unitdate>
+					<unitdate normal="1947/1965" type="inclusive">1947-1965</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link114">New York City Development and Economic Data </unittitle>
-					<unitdate type="inclusive" normal="1966/1979">1966-1979</unitdate>
+					<unitdate normal="1966/1979" type="inclusive">1966-1979</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link115">New York City Development and Economic Data - Ehrenhalt Reports</unittitle>
 					<unitdate normal="1993">1993</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle id="link116">New York Governmental Process and Structure and Kheel Articles</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle id="link117">New York City Private Transit (Buses) - Kheel as Impartial Chairman</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle id="link118">New York City Transit Authority and Transport Workers Union -Kheel as Impartial Arbitrator</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle id="link119">Kheel as Impartial Arbitrator Amalgamated-Queens, Nassau Lines</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">35</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">35</container>
 					<unittitle id="link120">New York City Transit - Mayors' Fact Finding and Mediation Boards</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">36</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">36</container>
 					<unittitle id="link121">New York City - Bus Strikes and Threats</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1065,8 +1071,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">37</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">37</container>
 					<unittitle id="link122">New York City - Bus Strikes and Threats</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -1076,8 +1082,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">38</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">38</container>
 					<unittitle id="link123">New York City - Bus Strikes and Threats</unittitle>
 					<unitdate normal="1950">1950</unitdate>
 				</did>
@@ -1087,8 +1093,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">39</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">39</container>
 					<unittitle id="link124">New York City - Bus Strikes and Threats</unittitle>
 					<unitdate normal="1951">1951</unitdate>
 				</did>
@@ -1098,8 +1104,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">40</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">40</container>
 					<unittitle id="link125">New York City - Bus Strikes and Threats</unittitle>
 					<unitdate normal="1951">1951</unitdate>
 				</did>
@@ -1109,48 +1115,48 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">41</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">41</container>
 					<unittitle id="link126">New York City - Bus Strikes and Threats</unittitle>
-					<unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate>
+					<unitdate normal="1952/1953" type="inclusive">1952-1953</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">42</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">42</container>
 					<unittitle id="link127">New York City - Bus Strikes and Threats</unittitle>
-					<unitdate type="inclusive" normal="1954/1960">1954-1960</unitdate>
+					<unitdate normal="1954/1960" type="inclusive">1954-1960</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">43</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">43</container>
 					<unittitle id="link128">New York City - Subway and Bus Strikes and Threats</unittitle>
 					<unitdate normal="1961">1961</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">44</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">44</container>
 					<unittitle id="link129">New York City - Subway and Bus Strikes and Threats</unittitle>
 					<unitdate normal="1962">1962</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">45</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">45</container>
 					<unittitle id="link130">New York City - Subway and Bus Strikes and Threats</unittitle>
-					<unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
+					<unitdate normal="1963/1964" type="inclusive">1963-1964</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">46</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">46</container>
 					<unittitle id="link131">New York City - Subway and Bus Strikes and Threats</unittitle>
 					<unitdate normal="1965">1965</unitdate>
 				</did>
@@ -1160,16 +1166,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">47</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">47</container>
 					<unittitle id="link132">New York City - Subway and Bus Strike</unittitle>
-					<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+					<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">48</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">48</container>
 					<unittitle id="link133">New York City - Subway and Bus Strike</unittitle>
 					<unitdate normal="1966">1966</unitdate>
 				</did>
@@ -1179,8 +1185,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">49</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">49</container>
 					<unittitle id="link134">New York City - Subway and Bus Strike</unittitle>
 					<unitdate normal="1966">1966</unitdate>
 				</did>
@@ -1190,76 +1196,76 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">50</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">50</container>
 					<unittitle id="link135">New York City - Subway and Bus Strikes and Threats</unittitle>
 					<unitdate normal="1967">1967</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">51</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">51</container>
 					<unittitle id="link136">New York City - Subway and Bus Strikes and Threats</unittitle>
-					<unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate>
+					<unitdate normal="1969/1971" type="inclusive">1969-1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">52</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">52</container>
 					<unittitle id="link137">New York City - Subway and Bus Strikes and Threats</unittitle>
-					<unitdate type="inclusive" normal="1973/1979">1973-1979</unitdate>
+					<unitdate normal="1973/1979" type="inclusive">1973-1979</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">53</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">53</container>
 					<unittitle id="link138">New York City - Subway and Bus Strikes and Threats</unittitle>
-					<unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate>
+					<unitdate normal="1980/1981" type="inclusive">1980-1981</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">54</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">54</container>
 					<unittitle id="link139">New York Metropolitan Transit Authority</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">55</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">55</container>
 					<unittitle id="link140">New York Magazine - Rupert Murdoch Controversy</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">56</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">56</container>
 					<unittitle id="link141">The New York Post - Gail '-Sheeny Profile of Dorothy Schiff</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">57</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">57</container>
 					<unittitle id="link142">The New York Times - Excerpt from The Kingdom and the Power</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link143">Newspaper Disputes and Strikes</unittitle>
 					<unitdate normal="1963">1963</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link144">Newspaper Disputes and Strikes</unittitle>
 					<unitdate normal="1965">1965</unitdate>
 				</did>
@@ -1269,8 +1275,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link145">Newspaper Disputes and Strikes</unittitle>
 					<unitdate normal="1965">1965</unitdate>
 				</did>
@@ -1280,8 +1286,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link146">Newspaper Disputes and Strikes</unittitle>
 					<unitdate normal="1965">1965</unitdate>
 				</did>
@@ -1291,8 +1297,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link147">Newspaper Disputes and Strikes</unittitle>
 					<unitdate normal="1965">1965</unitdate>
 				</did>
@@ -1302,8 +1308,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link148">Newspaper Disputes and Strikes</unittitle>
 					<unitdate normal="1965">1965</unitdate>
 				</did>
@@ -1313,16 +1319,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link149">Newspaper Disputes and Strikes</unittitle>
 					<unitdate normal="1966">1966</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link150">Newspaper Disputes and Strikes</unittitle>
 					<unitdate normal="1967">1967</unitdate>
 				</did>
@@ -1332,8 +1338,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link151">Newspaper Disputes and Strikes</unittitle>
 					<unitdate normal="1967">1967</unitdate>
 				</did>
@@ -1343,8 +1349,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link152">Newspaper Disputes and Strikes</unittitle>
 					<unitdate normal="1967">1967</unitdate>
 				</did>
@@ -1354,16 +1360,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link153">Newspaper Disputes and Strikes</unittitle>
 					<unitdate normal="1968">1968</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link154">Newspaper Disputes and Strikes</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1373,8 +1379,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link155">Newspaper Disputes and Strikes</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1384,8 +1390,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link156">Newspaper Disputes and Strikes</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
@@ -1395,32 +1401,32 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link157">Newspaper Disputes and Strikes</unittitle>
 					<unitdate normal="1973">1973</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link158">Newspaper Disputes and Strikes</unittitle>
 					<unitdate normal="1974">1974</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link159">Newspaper Disputes and Strikes</unittitle>
-					<unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate>
+					<unitdate normal="1975/1977" type="inclusive">1975-1977</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link160">Newspaper Disputes and Strikes</unittitle>
 					<unitdate normal="1978">1978</unitdate>
 				</did>
@@ -1430,8 +1436,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link161">Newspaper Disputes and Strikes</unittitle>
 					<unitdate normal="1978">1978</unitdate>
 				</did>
@@ -1441,16 +1447,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link162">Newspaper Disputes and Strikes; Possible Sale of New York Daily News</unittitle>
-					<unitdate type="inclusive" normal="1978/1982">1978-1982</unitdate>
+					<unitdate normal="1978/1982" type="inclusive">1978-1982</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link163">Newspaper Issues - Possible Sale of New York Daily News April 5 -May 25, 1982</unittitle>
 					<unitdate normal="1982">1982</unitdate>
 				</did>
@@ -1460,24 +1466,24 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link164">Newspaper Issues - Possible Sale of Amsterdam News</unittitle>
 					<unitdate normal="1983">1983</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link165">Newspaper Issues - Sale of New York Post</unittitle>
 					<unitdate normal="1988">1988</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link166">Newspaper Disputes and Strikes - New York Post</unittitle>
 					<unitdate normal="1990">1990</unitdate>
 				</did>
@@ -1487,8 +1493,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link167">Newspaper Disputes and Strikes - New York Post</unittitle>
 					<unitdate normal="1990">1990</unitdate>
 				</did>
@@ -1498,8 +1504,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link168">Newspaper Disputes and Strikes - New York Post</unittitle>
 					<unitdate normal="1990">1990</unitdate>
 				</did>
@@ -1509,516 +1515,516 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">27</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">27</container>
 					<unittitle id="link169">Newspaper Disputes and Strikes - New York Post</unittitle>
 					<unitdate normal="1990">1990</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">28</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">28</container>
 					<unittitle id="link170">New York Daily News Strike - Kneel and Freeman Manuscript</unittitle>
-					<unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate>
+					<unitdate normal="1990/1991" type="inclusive">1990-1991</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">29</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">29</container>
 					<unittitle id="link171">New York Daily News Strike - Chronology of Key Events</unittitle>
-					<unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate>
+					<unitdate normal="1990/1991" type="inclusive">1990-1991</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">30</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">30</container>
 					<unittitle id="link172">New York Daily News Strike and Sale</unittitle>
 					<unitdate normal="1991">1991</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">31</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">31</container>
 					<unittitle id="link173">Pennsylvania State University Controversy</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">32</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">32</container>
 					<unittitle id="link174">Samuel R. Pierce, Jr.</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">33</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">33</container>
 					<unittitle id="link175">Plumbing Industry </unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">34</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">34</container>
 					<unittitle id="link176">Police Disputes and Strikes</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">35</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">35</container>
 					<unittitle id="link177">Police Review Board</unittitle>
 					<unitdate normal="1966">1966</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">36</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">36</container>
 					<unittitle id="link178">Punta Cana Beach Resort</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">37</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">37</container>
 					<unittitle id="link179">Queens College Controversy </unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">38</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">38</container>
 					<unittitle id="link180">Railroad Disputes and Strikes</unittitle>
-					<unitdate type="inclusive" normal="1964/1967">1964-1967</unitdate>
+					<unitdate normal="1964/1967" type="inclusive">1964-1967</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">39</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">39</container>
 					<unittitle id="link181">Railroad Disputes and Strikes</unittitle>
 					<unitdate normal="1973">1973</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">40</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">40</container>
 					<unittitle id="link182">Railroad Disputes and Strikes</unittitle>
-					<unitdate type="inclusive" normal="1980/1983">1980-1983</unitdate>
+					<unitdate normal="1980/1983" type="inclusive">1980-1983</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">41</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">41</container>
 					<unittitle id="link183">Republic National Bank</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">42</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">42</container>
 					<unittitle id="link184">Sanitation Workers Disputes and Strikes</unittitle>
 					<unitdate normal="1968">1968</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">43</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">43</container>
 					<unittitle id="link185">P.L. "Roy" Siemiller (President International Association of Machinists and of American Foundation on Automation and Employment</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">44</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">44</container>
 					<unittitle id="link186">Stirling Homex Corp.</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">45</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">45</container>
 					<unittitle id="link187">Taxi Driver Disputes and Strikes</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">46</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">46</container>
 					<unittitle id="link188">Teachers Disputes and Strikes </unittitle>
 					<unitdate normal="1963">1963</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">47</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">47</container>
 					<unittitle id="link189">Teachers Disputes and Strikes </unittitle>
 					<unitdate normal="1965">1965</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">48</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">48</container>
 					<unittitle id="link190">Teachers Disputes and Strikes </unittitle>
 					<unitdate normal="1966">1966</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">49</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">49</container>
 					<unittitle id="link191">Teachers Disputes and Strikes </unittitle>
 					<unitdate normal="1967">1967</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">50</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">50</container>
 					<unittitle id="link192">Teachers Disputes and Strikes - Ocean Hill-Brownsville</unittitle>
 					<unitdate normal="1968">1968</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">51</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">51</container>
 					<unittitle id="link193">Teachers Disputes and Strikes</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">52</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">52</container>
 					<unittitle id="link194">Teachers Disputes and Strikes</unittitle>
-					<unitdate type="inclusive" normal="1970/1975">1970-1975</unitdate>
+					<unitdate normal="1970/1975" type="inclusive">1970-1975</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">53</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">53</container>
 					<unittitle id="link195">Transit Fares (incl. Kheel articles, speeches, statements)</unittitle>
-					<unitdate type="inclusive" normal="1955/1963">1955-1963</unitdate>
+					<unitdate normal="1955/1963" type="inclusive">1955-1963</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">54</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">54</container>
 					<unittitle id="link196">Transit Fares and Tolls</unittitle>
-					<unitdate type="inclusive" normal="1965/1968">1965-1968</unitdate>
+					<unitdate normal="1965/1968" type="inclusive">1965-1968</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">55</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">55</container>
 					<unittitle id="link197">Transit Fares and Tolls</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">56</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">56</container>
 					<unittitle id="link198">Transit Fares and Tolls</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">57</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">57</container>
 					<unittitle id="link199">Transit Fares and Tolls</unittitle>
-					<unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate>
+					<unitdate normal="1971/1973" type="inclusive">1971-1973</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">58</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">58</container>
 					<unittitle id="link200">Transit Fares and Tolls</unittitle>
-					<unitdate type="inclusive" normal="1974/1978">1974-1978</unitdate>
+					<unitdate normal="1974/1978" type="inclusive">1974-1978</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">59</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">59</container>
 					<unittitle id="link201">Transport Workers Union</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">60</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">60</container>
 					<unittitle id="link202">Transportation Bond Issue</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">61</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">61</container>
 					<unittitle id="link203">Transportation Bond Issue; Railroad Preservation Bond Issue</unittitle>
-					<unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
+					<unitdate normal="1973/1974" type="inclusive">1973-1974</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">62</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">62</container>
 					<unittitle id="link204">Transportation Policy (incl. TWK articles and statements)</unittitle>
-					<unitdate type="inclusive" normal="1955/1957">1955-1957</unitdate>
+					<unitdate normal="1955/1957" type="inclusive">1955-1957</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">63</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">63</container>
 					<unittitle id="link205">Transportation Policy (incl. TWK articles and statements)</unittitle>
 					<unitdate normal="1958">1958</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">64</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">64</container>
 					<unittitle id="link206">Transportation Policy</unittitle>
 					<unitdate normal="1965">1965</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">65</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">65</container>
 					<unittitle id="link207">Transportation Policy - Port of New York Authority</unittitle>
 					<unitdate normal="1969">1969</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">66</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">66</container>
 					<unittitle id="link208">Transportation Policy - Port of New York Authority</unittitle>
 					<unitdate normal="1970">1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">67</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">67</container>
 					<unittitle id="link209">Transportation Policy - Port of New York Authority</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">68</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">68</container>
 					<unittitle id="link210">Transportation Policy - Port of New York Authority</unittitle>
 					<unitdate normal="1972">1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">69</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">69</container>
 					<unittitle id="link211">Transportation Policy - Port of New York Authority - Covenant; Rutgers Law Review article</unittitle>
-					<unitdate type="inclusive" normal="1962/1973">1962-1973</unitdate>
+					<unitdate normal="1962/1973" type="inclusive">1962-1973</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">70</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">70</container>
 					<unittitle id="link212">Transportation Policy - Port of New York Authority</unittitle>
 					<unitdate normal="1973">1973</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">71</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">71</container>
 					<unittitle id="link213">Transportation Policy - Port of New York Authority</unittitle>
-					<unitdate type="inclusive" normal="1974/1981">1974-1981</unitdate>
+					<unitdate normal="1974/1981" type="inclusive">1974-1981</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">72</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">72</container>
 					<unittitle id="link214">United Nations</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">73</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">73</container>
 					<unittitle id="link215">United Nations Rio Conference; Earth Pledge; Earth Summit; Earth Summit Times</unittitle>
 					<unitdate normal="1992">1992</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">74</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">74</container>
 					<unittitle id="link216">United Nations Conferences - Vienna and Cairo -Sustainable Development</unittitle>
-					<unitdate type="inclusive" normal="1993/1994">1993-1994</unitdate>
+					<unitdate normal="1993/1994" type="inclusive">1993-1994</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">75</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">75</container>
 					<unittitle id="link217">Vietnam War - Paris Peace Talks </unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">76</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">76</container>
 					<unittitle id="link218">Wage Stabilization - Korean War </unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">77</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">77</container>
 					<unittitle id="link219">Wage Stabilization - Nixon Program</unittitle>
 					<unitdate normal="1971">1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">78</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">78</container>
 					<unittitle id="link220">Wage Stabilization - World War II</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">79</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">79</container>
 					<unittitle id="link221">Robert F. Wagner (on leaving office as Mayor)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">80</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">80</container>
 					<unittitle id="link222">War Labor Board</unittitle>
-					<unitdate type="inclusive" normal="1942/1946">1942-1946</unitdate>
+					<unitdate normal="1942/1946" type="inclusive">1942-1946</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">81</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">81</container>
 					<unittitle id="link223">West Side Convention Center </unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">82</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">82</container>
 					<unittitle id="link224">West Side Highway (Westway)</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">83</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">83</container>
 					<unittitle id="link225">Western Union - Ouster of Chairman and CEO Flanagan</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">84</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">84</container>
 					<unittitle id="link226">World Trade Center</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">85</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">85</container>
 					<unittitle id="link227">Whitney M. Young, Jr. </unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link228">News Clippings</unittitle>
-					<unitdate type="inclusive" normal="1941/1966">1941-1966</unitdate>
+					<unitdate normal="1941/1966" type="inclusive">1941-1966</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link229">News Clippings</unittitle>
-					<unitdate type="inclusive" normal="1966/1970">1966-1970</unitdate>
+					<unitdate normal="1966/1970" type="inclusive">1966-1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link230">News Clippings</unittitle>
-					<unitdate type="inclusive" normal="1970/1976">1970-1976</unitdate>
+					<unitdate normal="1970/1976" type="inclusive">1970-1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link231">Unused Duplicated</unittitle>
-					<unitdate type="inclusive" normal="1945/1980">1945-1980</unitdate>
+					<unitdate normal="1945/1980" type="inclusive">1945-1980</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link232">News Clippings</unittitle>
-					<unitdate type="inclusive" normal="1977/1993">1977-1993</unitdate>
+					<unitdate normal="1977/1993" type="inclusive">1977-1993</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link233">News Clippings - Foundation on Employee Health Medical Care and Welfare, Inc. - American Foundation on Automation and Employment, Inc.</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link234">News Clippings - Master Index</unittitle>
-					<unitdate type="inclusive" normal="1941/1993">1941-1993</unitdate>
+					<unitdate normal="1941/1993" type="inclusive">1941-1993</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">19</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">19</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link235">Theodore W. Kheel Scrapbook (1997-1999)</unittitle>
-					<unitdate type="inclusive" normal="1997/1999">1997-1999</unitdate>
+					<unitdate normal="1997/1999" type="inclusive">1997-1999</unitdate>
 				</did>
 				<scopecontent>
 					<p>binder of news clippings</p>
@@ -2026,10 +2032,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">19</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">19</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link236">Theodore W. Kheel Scrapbook (2000-2002)</unittitle>
-					<unitdate type="inclusive" normal="2000/2002">2000-2002</unitdate>
+					<unitdate normal="2000/2002" type="inclusive">2000-2002</unitdate>
 				</did>
 				<scopecontent>
 					<p>binder full of clippings</p>

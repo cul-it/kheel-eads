@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-078::ILGWU Research Department Reports.)//EN">KCL05780-078</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-078::ILGWU Research Department Reports.)//EN">KCL05780-078</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the ILGWU Research Department Reports<date>
@@ -24,20 +24,26 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>April 11,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
-            <titleproper>Guide to the ILGWU Research Department Reports<lb/></titleproper>
+            <titleproper>Guide to the ILGWU Research Department Reports</titleproper>
             <num>Collection Number: 5780/078</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -56,18 +62,18 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">ILGWU Research Department Reports,
-                    <unitdate encodinganalog="MARC 245$f">1938-1985</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">ILGWU Research Department Reports
+                    1938-1985
+            </unittitle><unitdate encodinganalog="MARC 245$f">1938-1985</unitdate>
             <unitid label="Collection Number:">5780/078</unitid>
             <origination label="Creator:">
                 <corpname encodinganalog="MARC 110" role="creator">International Ladies' Garment
-                    Workers' Union (ILGWU)</corpname>;<lb/>
+                    Workers' Union (ILGWU)</corpname>;
                 <corpname encodinganalog="MARC 110" role="creator"> International Ladies' Garment
                     Workers' Union (ILGWU). Research Dept.</corpname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">0.5 linear ft.</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">0.5 linear ft.</physdesc>
             <physdesc label="Forms of Material:">Records (documents).</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -78,7 +84,7 @@
             </langmaterial>
         <physdesc><extent>0.5 cubic feet</extent></physdesc></did>
         <bioghist encodinganalog="MARC 545">
-            <head id="a2" altrender="organizational history">ILGWU ORGANIZATIONAL HISTORY</head>
+            
             <p>The International Ladies' Garment Workers' Union was once one of the largest labor
                 unions in the United States founded in 1900 by local union delegates representing
                 about 2,000 members in cities in the northeastern United States. It was one of the
@@ -98,7 +104,7 @@
                 in 1969.</p>
         </bioghist>
         <bioghist encodinganalog="MARC 545">
-            <head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+            
             <p>Formed in 1937, the Research Department of the International Ladies' Garment Workers'
                 Union (ILGWU) supported the administrative operations of the Union and coordinated
                 the ILGWU's investigative operations. It provided union leaders with information on
@@ -124,7 +130,7 @@
                 Hopkins University. He died in New York City in 1985.</p>
         </bioghist>
         <scopecontent encodinganalog="MARC 520">
-            <head id="a3">COLLECTION DESCRIPTION</head>
+            
             <p>The Research Department records reflect the department's varied functions,
                 documenting its role in gathering and analyzing information for international and
                 local union leadership, representing the union before government and labor
@@ -158,15 +164,15 @@
                 Department, including its annual "Conditions in the Women's Clothing Industry."</p>
         </scopecontent>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union. </corpname>
                 <corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union.
                     Research Dept. </corpname>
             </controlaccess>
             <controlaccess>
-                <head>Subjects: </head>
+                
                 <subject encodinganalog="MARC 650">Women's clothing industry--New York (State) --
                     New York. </subject>
                 <subject encodinganalog="MARC 650">Clothing workers--Labor unions--New York (State)
@@ -178,75 +184,75 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>ILGWU Research Department Reports #5780/078. Kheel Center for Labor-Management
                     Documentation and Archives, Cornell University Library.</p>
             </prefercite>
         </descgrp>
         <relatedmaterial>
-            <head id="a6">RELATED MATERIALS</head>
-            <p>Related Collections:<lb/>
+            
+            <p>Related Collections:
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780.html"> 5780:
-                    ILGWU records</extref><lb/>
+                    ILGWU records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-045.html">
-                    5780/045: ILGWU Research Department Records</extref><lb/>
+                    5780/045: ILGWU Research Department Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-056.html">
-                    5780/056: ILGWU Research Department Collected Documents</extref><lb/>
+                    5780/056: ILGWU Research Department Collected Documents</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-105.html">
-                    5780/105: ILGWU Research Department Records</extref><lb/>
+                    5780/105: ILGWU Research Department Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-123.html">
-                    5780/123: ILGWU Research Department Records</extref><lb/>
+                    5780/123: ILGWU Research Department Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-168.html">
-                    5780/168: ILGWU Research Department Records</extref><lb/>
+                    5780/168: ILGWU Research Department Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-209.html">
-                    5780/209: ILGWU Research Department Records</extref><lb/>
+                    5780/209: ILGWU Research Department Records</extref>
             </p>
         </relatedmaterial>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link8">Research Department, ILGWU. "Conditions in the Women's
                         Clothing Industry"</unittitle>
-                    <unitdate type="inclusive" normal="1938/1943">1938-1943</unitdate>
+                    <unitdate normal="1938/1943" type="inclusive">1938-1943</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link9">Research Department, ILGWU. "Conditions in the Women's
                         Clothing Industry"</unittitle>
-                    <unitdate type="inclusive" normal="1945/1948">1945-1948</unitdate>
+                    <unitdate normal="1945/1948" type="inclusive">1945-1948</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link10">Research Department, IGLWU. "Conditions in the Women's
                         Clothing Industry"</unittitle>
-                    <unitdate type="inclusive" normal="1951/1985">1951-1985</unitdate>
+                    <unitdate normal="1951/1985" type="inclusive">1951-1985</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link11">Research Department, ILGWU. Dress Industry
                         Report</unittitle>
                     <unitdate normal="1940">1940</unitdate>
@@ -254,8 +260,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link12">"Trends in the Women's Garment Industry"</unittitle>
                     <unitdate normal="1941">1941</unitdate>
                 </did>
@@ -265,8 +271,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link13">"Probable Effects of the War on the New York Women's
                         Garment Industry and Some Recommendations" Report</unittitle>
                     <unitdate normal="1943">1943</unitdate>
@@ -274,8 +280,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link14">Statement of Lazare Teper</unittitle>
                     <unitdate normal="1949">1949</unitdate>
                 </did>
@@ -285,8 +291,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link15">Statements and Memos of Herman Starobin</unittitle>
                     <unitdate normal="1985">1985</unitdate>
                 </did>

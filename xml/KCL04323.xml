@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL04323::Tom Delaney Papers.)//EN">KCL04323</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL04323::Tom Delaney Papers.)//EN">KCL04323</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the Tom Delaney Papers<date> 1979-1996</date></titleproper>
@@ -23,20 +23,26 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>March 04,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
-            <titleproper>Guide to the Tom Delaney Papers<lb/></titleproper>
+            <titleproper>Guide to the Tom Delaney Papers</titleproper>
             <num>Collection Number: /4323</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -55,16 +61,16 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">Tom Delaney Papers, <unitdate encodinganalog="MARC 245$f">1979-1996</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">Tom Delaney Papers, 1979-1996
+            </unittitle><unitdate encodinganalog="MARC 245$f">1979-1996</unitdate>
             <unitid label="Collection Number:">/4323</unitid>
             <origination label="Creator:">
-                <persname encodinganalog="MARC 100" role="creator">Delaney, Tom</persname>;<lb/>
+                <persname encodinganalog="MARC 100" role="creator">Delaney, Tom</persname>;
                 <corpname encodinganalog="MARC 110" role="creator"> New York State School of
                     Industrial and Labor Relations (NYSSILR)</corpname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">3 linear ft.</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">3 linear ft.</physdesc>
             <physdesc label="Forms of Material:">Papers (documents).</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -72,9 +78,9 @@
             </langmaterial>
         <physdesc><extent>3 cubic feet</extent></physdesc></did>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <persname encodinganalog="MARC 600">Delaney, Tom </persname>
                 <corpname encodinganalog="MARC 610">New York State School of Industrial and Labor
                     Relations </corpname>
@@ -83,229 +89,229 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>Tom Delaney Papers #/4323. Kheel Center for Labor-Management Documentation and
                     Archives, Cornell University Library.</p>
             </prefercite>
         </descgrp>
         <relatedmaterial>
-            <head id="a6">RELATED MATERIALS</head>
-            <p>Related Collections:<lb/>
+            
+            <p>Related Collections:
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04164av.html"> /4164
-                    AV: Harrison M. Trice Audio-Visual Materials</extref><lb/>
+                    AV: Harrison M. Trice Audio-Visual Materials</extref>
             </p>
         </relatedmaterial>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link8">Archives</unittitle>
-                    <unitdate type="inclusive" normal="1989/1996">1989-1996</unitdate>
+                    <unitdate normal="1989/1996" type="inclusive">1989-1996</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link9">Ad Hoc Public Relations Committee</unittitle>
-                    <unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate>
+                    <unitdate normal="1981/1982" type="inclusive">1981-1982</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link10">Administration</unittitle>
-                    <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate>
+                    <unitdate normal="1988/1990" type="inclusive">1988-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link11">Aerospace 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link12">AFL-CIO</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link13">Al-Anon 1985</unittitle>
                     <unitdate normal="1985">1985</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link14">Alcohol and Drug Coalition 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link15">Alcohol and Drug Problems Association
                         1984-1989</unittitle>
-                    <unitdate type="inclusive" normal="1984/1989">1984-1989</unitdate>
+                    <unitdate normal="1984/1989" type="inclusive">1984-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link16">Alcohol Drug Study Group 1990</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link17">Alcohol and Drugs in the Workplace 1986</unittitle>
                     <unitdate normal="1986">1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link18">ALMACAN 1986-1989</unittitle>
-                    <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate>
+                    <unitdate normal="1986/1989" type="inclusive">1986-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link19">Use of ALMACAN Name and Logo 1987-1988</unittitle>
-                    <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>
+                    <unitdate normal="1987/1988" type="inclusive">1987-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link20">Alcoholism Study Committee 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link21">American Civic Liberties Union 1986-1990</unittitle>
-                    <unitdate type="inclusive" normal="1986/1990">1986-1990</unitdate>
+                    <unitdate normal="1986/1990" type="inclusive">1986-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link22">American Council on Alcoholism 1989</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link23">American Journal of Health Promotion 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link24">American Medical Association</unittitle>
-                    <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>
+                    <unitdate normal="1987/1988" type="inclusive">1987-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link25">American Occupation Therapy Association 1987</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link26">American Petroleum Institute 1990</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link27">American Productivity Center 1987-1988</unittitle>
-                    <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>
+                    <unitdate normal="1987/1988" type="inclusive">1987-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link28">American Psychological Association 1990</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">22</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">22</container>
                     <unittitle id="link29">American Public Health Association 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">23</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">23</container>
                     <unittitle id="link30">American Restaurant Association 1987</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">24</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">24</container>
                     <unittitle id="link31">American Society for Personnel Administrators
                         1982-1987</unittitle>
-                    <unitdate type="inclusive" normal="1982/1987">1982-1987</unitdate>
+                    <unitdate normal="1982/1987" type="inclusive">1982-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">25</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">25</container>
                     <unittitle id="link32">American Society for Public Administration
                         1987</unittitle>
                     <unitdate normal="1987">1987</unitdate>
@@ -313,8 +319,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">26</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">26</container>
                     <unittitle id="link33">American Society for Public Administrators
                         1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
@@ -322,40 +328,40 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">27</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">27</container>
                     <unittitle id="link34">American Society on Aging</unittitle>
                     <unitdate normal="1991">1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">28</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">28</container>
                     <unittitle id="link35">Americans for Substance Abuse Prevention 1984</unittitle>
                     <unitdate normal="1984">1984</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">29</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">29</container>
                     <unittitle id="link36">Areba-Casriel Institute 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">30</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">30</container>
                     <unittitle id="link37">Association for Fitness in Business 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">31</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">31</container>
                     <unittitle id="link38">Association of Halfway House Alcoholism Programs
                         1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
@@ -363,144 +369,144 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">32</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">32</container>
                     <unittitle id="link39">The Association of Junior Leagues 1986-1987</unittitle>
-                    <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate>
+                    <unitdate normal="1986/1987" type="inclusive">1986-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">33</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">33</container>
                     <unittitle id="link40">Association of Labor Assistance 1986</unittitle>
                     <unitdate normal="1986">1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">34</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">34</container>
                     <unittitle id="link41">Gary Atkins</unittitle>
-                    <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>
+                    <unitdate normal="1987/1988" type="inclusive">1987-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">35</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">35</container>
                     <unittitle id="link42">Board of Directors 1981-1987</unittitle>
-                    <unitdate type="inclusive" normal="1981/1987">1981-1987</unitdate>
+                    <unitdate normal="1981/1987" type="inclusive">1981-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">36</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">36</container>
                     <unittitle id="link43">Board of Directors 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">37</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">37</container>
                     <unittitle id="link44">Board of Directors 1989-1991</unittitle>
-                    <unitdate type="inclusive" normal="1989/1991">1989-1991</unitdate>
+                    <unitdate normal="1989/1991" type="inclusive">1989-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">38</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">38</container>
                     <unittitle id="link45">Brooklyn Committee on Alcoholism</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">39</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">39</container>
                     <unittitle id="link46">Budgets and Finance Commission 1986-1987</unittitle>
-                    <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate>
+                    <unitdate normal="1986/1987" type="inclusive">1986-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">40</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">40</container>
                     <unittitle id="link47">Bureau of National Affairs 1986</unittitle>
                     <unitdate normal="1986">1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">41</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">41</container>
                     <unittitle id="link48">Business Insurance 1989</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">42</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">42</container>
                     <unittitle id="link49">California Public Policy 1984-1990</unittitle>
-                    <unitdate type="inclusive" normal="1984/1990">1984-1990</unitdate>
+                    <unitdate normal="1984/1990" type="inclusive">1984-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">43</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">43</container>
                     <unittitle id="link50">Campus Alcohol Consultations 1987</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">44</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">44</container>
                     <unittitle id="link51">Canada 1987-1991</unittitle>
-                    <unitdate type="inclusive" normal="1987/1991">1987-1991</unitdate>
+                    <unitdate normal="1987/1991" type="inclusive">1987-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">45</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">45</container>
                     <unittitle id="link52">Certification</unittitle>
-                    <unitdate type="inclusive" normal="1985/1987">1985-1987</unitdate>
+                    <unitdate normal="1985/1987" type="inclusive">1985-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">46</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">46</container>
                     <unittitle id="link53">Chapter Presidents</unittitle>
-                    <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate>
+                    <unitdate normal="1986/1987" type="inclusive">1986-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">47</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">47</container>
                     <unittitle id="link54">Children of Alcoholics 1986</unittitle>
                     <unitdate normal="1986">1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">48</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">48</container>
                     <unittitle id="link55">Cocaine 1990</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">49</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">49</container>
                     <unittitle id="link56">Communism on Accreditation of Rehabilitation Facilities
                         1989</unittitle>
                     <unitdate normal="1989">1989</unitdate>
@@ -508,40 +514,40 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">50</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">50</container>
                     <unittitle id="link57">Committee on Insurance 1988</unittitle>
-                    <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+                    <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">51</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">51</container>
                     <unittitle id="link58">CompCare 1984-1988</unittitle>
-                    <unitdate type="inclusive" normal="1984/1988">1984-1988</unitdate>
+                    <unitdate normal="1984/1988" type="inclusive">1984-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">52</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">52</container>
                     <unittitle id="link59">The Conference Board 1986</unittitle>
                     <unitdate normal="1986">1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">53</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">53</container>
                     <unittitle id="link60">Confidentiality</unittitle>
-                    <unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate>
+                    <unitdate normal="1984/1985" type="inclusive">1984-1985</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">54</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">54</container>
                     <unittitle id="link61">Coordinator or Education, Training, and Certification
                         Interviews 1989</unittitle>
                     <unitdate normal="1989">1989</unitdate>
@@ -549,33 +555,33 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">55</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">55</container>
                     <unittitle id="link62">The Core Technology of Employee Assistance Programs
                         1985-1988</unittitle>
-                    <unitdate type="inclusive" normal="1985/1988">1985-1988</unitdate>
+                    <unitdate normal="1985/1988" type="inclusive">1985-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">56</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">56</container>
                     <unittitle id="link63">Cornell/ILR</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">57</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">57</container>
                     <unittitle id="link64">Corporation Against Drug Abuse 1990</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">58</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">58</container>
                     <unittitle id="link65">Council on Accreditation of Services for Families and
                         Children 1989</unittitle>
                     <unitdate normal="1989">1989</unitdate>
@@ -583,24 +589,24 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">59</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">59</container>
                     <unittitle id="link66">Council on Alcohol Policy 1986-1989</unittitle>
-                    <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate>
+                    <unitdate normal="1986/1989" type="inclusive">1986-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link67">Drug Abuse Act Correspondence 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link68">EAPA Role With Transportation Employees in Safety
                         Sensitive Positions 1989</unittitle>
                     <unitdate normal="1989">1989</unitdate>
@@ -608,347 +614,347 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link69">EAP Association Planning Opposite 1991</unittitle>
                     <unitdate normal="1991">1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link70">Education and Training Committee 1991</unittitle>
                     <unitdate normal="1991">1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link71">Frank Emig 1986</unittitle>
                     <unitdate normal="1986">1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link72">Employee Assistance Programs 1987-1988</unittitle>
-                    <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>
+                    <unitdate normal="1987/1988" type="inclusive">1987-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link73">Employee Assistance Society of North America
                         1986-1989</unittitle>
-                    <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate>
+                    <unitdate normal="1986/1989" type="inclusive">1986-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link74">Employer Coalitions 1988-1990</unittitle>
-                    <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate>
+                    <unitdate normal="1988/1990" type="inclusive">1988-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link75">Ethics</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link76">Employee Retirement Income Security Act (ERISA)
                         1983-1991</unittitle>
-                    <unitdate type="inclusive" normal="1983/1991">1983-1991</unitdate>
+                    <unitdate normal="1983/1991" type="inclusive">1983-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link77">Executive Committee 1980-1986</unittitle>
-                    <unitdate type="inclusive" normal="1980/1986">1980-1986</unitdate>
+                    <unitdate normal="1980/1986" type="inclusive">1980-1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link78">Executive Committee 1987</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link79">Executive 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link80">Executive Committee 1989-1991</unittitle>
-                    <unitdate type="inclusive" normal="1989/1991">1989-1991</unitdate>
+                    <unitdate normal="1989/1991" type="inclusive">1989-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link81">Executive Director 1983</unittitle>
                     <unitdate normal="1983">1983</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link82">Executive 1991</unittitle>
                     <unitdate normal="1991">1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link83">Executive Director Reports</unittitle>
                     <unitdate normal="1986">1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link84">Exxon Valdez 1989</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link85">Federal Highway Administration 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link86">Federal Railroad Administration 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link87">Florida Occupational Program Committee 1989</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">22</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">22</container>
                     <unittitle id="link88">Fundraising 1986-1987</unittitle>
-                    <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate>
+                    <unitdate normal="1986/1987" type="inclusive">1986-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">23</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">23</container>
                     <unittitle id="link89">Government Relations Director 1991</unittitle>
                     <unitdate normal="1991">1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">24</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">24</container>
                     <unittitle id="link90">Grace Church 1989</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">25</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">25</container>
                     <unittitle id="link91">Health and Human Services</unittitle>
-                    <unitdate type="inclusive" normal="1984/1987">1984-1987</unitdate>
+                    <unitdate normal="1984/1987" type="inclusive">1984-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">26</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">26</container>
                     <unittitle id="link92">Hughes Foundation 1990</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">27</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">27</container>
                     <unittitle id="link93">Institute for a Drug-Free Workplace 1990-1991</unittitle>
-                    <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate>
+                    <unitdate normal="1990/1991" type="inclusive">1990-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">28</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">28</container>
                     <unittitle id="link94">Insurance 1985</unittitle>
                     <unitdate normal="1985">1985</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">29</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">29</container>
                     <unittitle id="link95">Intergovernmental Health Policy Project 1990</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">30</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">30</container>
                     <unittitle id="link96">Joint Commission Accreditation of Hospitals
                         1984-1988</unittitle>
-                    <unitdate type="inclusive" normal="1984/1988">1984-1988</unitdate>
+                    <unitdate normal="1984/1988" type="inclusive">1984-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">31</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">31</container>
                     <unittitle id="link97">Legal</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">32</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">32</container>
                     <unittitle id="link98">Legal Action Center</unittitle>
-                    <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate>
+                    <unitdate normal="1988/1990" type="inclusive">1988-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">33</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">33</container>
                     <unittitle id="link99">Legislative Committee 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">34</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">34</container>
                     <unittitle id="link100">Legislative Committee 1989-1991</unittitle>
-                    <unitdate type="inclusive" normal="1989/1991">1989-1991</unitdate>
+                    <unitdate normal="1989/1991" type="inclusive">1989-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">35</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">35</container>
                     <unittitle id="link101">Legislation Committee Correspondence 1986</unittitle>
                     <unitdate normal="1986">1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">36</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">36</container>
                     <unittitle id="link102">Liability Insurance 1984-1990</unittitle>
-                    <unitdate type="inclusive" normal="1984/1990">1984-1990</unitdate>
+                    <unitdate normal="1984/1990" type="inclusive">1984-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">37</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">37</container>
                     <unittitle id="link103">Licensed Beverage Information Council 1986</unittitle>
                     <unitdate normal="1986">1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">38</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">38</container>
                     <unittitle id="link104">Managed Health Care 1987-1990</unittitle>
-                    <unitdate type="inclusive" normal="1987/1990">1987-1990</unitdate>
+                    <unitdate normal="1987/1990" type="inclusive">1987-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">39</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">39</container>
                     <unittitle id="link105">McDonnell Douglas 1985-1990</unittitle>
-                    <unitdate type="inclusive" normal="1985/1990">1985-1990</unitdate>
+                    <unitdate normal="1985/1990" type="inclusive">1985-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">40</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">40</container>
                     <unittitle id="link106">Mentally Disabled/Ill</unittitle>
-                    <unitdate type="inclusive" normal="1987/1989">1987-1989</unitdate>
+                    <unitdate normal="1987/1989" type="inclusive">1987-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">41</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">41</container>
                     <unittitle id="link107">Minority Concerns Committee 1988-1989</unittitle>
-                    <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+                    <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link108">More Change Committee</unittitle>
-                    <unitdate type="inclusive" normal="1983/1988">1983-1988</unitdate>
+                    <unitdate normal="1983/1988" type="inclusive">1983-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link109">National "21" Drinking Age</unittitle>
                     <unitdate normal="1984">1984</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link110">National Academy of Sciences 1987-1988</unittitle>
-                    <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>
+                    <unitdate normal="1987/1988" type="inclusive">1987-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link111">National Alcohol and Drug Treatment Consortium
                         1990</unittitle>
                     <unitdate normal="1990">1990</unitdate>
@@ -956,17 +962,17 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link112">National Association of Alcohol Treatment
                         Programs</unittitle>
-                    <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate>
+                    <unitdate normal="1988/1990" type="inclusive">1988-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link113">National Association Area Agencies on Aging
                         1987</unittitle>
                     <unitdate normal="1987">1987</unitdate>
@@ -974,34 +980,34 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link114">National Association of Social Workers
                         1981-1990</unittitle>
-                    <unitdate type="inclusive" normal="1981/1990">1981-1990</unitdate>
+                    <unitdate normal="1981/1990" type="inclusive">1981-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link115">National Association of State Alcohol and Drug Abuse
                         Directors 1980-1990</unittitle>
-                    <unitdate type="inclusive" normal="1980/1990">1980-1990</unitdate>
+                    <unitdate normal="1980/1990" type="inclusive">1980-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link116">National Black Alcoholism Council 1987</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link117">National Citizens Commission on Alcoholism
                         1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
@@ -1009,51 +1015,51 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link118">National Clearinghouse for Alcohol Information
                         1986-1988</unittitle>
-                    <unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate>
+                    <unitdate normal="1986/1988" type="inclusive">1986-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link119">National Coalition for Adequate Alcoholism Programs
                         1983-1987</unittitle>
-                    <unitdate type="inclusive" normal="1983/1987">1983-1987</unitdate>
+                    <unitdate normal="1983/1987" type="inclusive">1983-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link120">National Commission Against Drunk Driving
                         1986-1987</unittitle>
-                    <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate>
+                    <unitdate normal="1986/1987" type="inclusive">1986-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link121">National Council of Alcoholism</unittitle>
-                    <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>
+                    <unitdate normal="1987/1988" type="inclusive">1987-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link122">National Council on Compulsive Gambling 1981</unittitle>
                     <unitdate normal="1981">1981</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link123">National Directorate for the Prevention of Alcohol on
                         Drug Problems</unittitle>
                     <unitdate normal="1988">1988</unitdate>
@@ -1061,16 +1067,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link124">National Directory 1984-1987</unittitle>
-                    <unitdate type="inclusive" normal="1984/1987">1984-1987</unitdate>
+                    <unitdate normal="1984/1987" type="inclusive">1984-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link125">National Education Development and Training Center
                         1989</unittitle>
                     <unitdate normal="1989">1989</unitdate>
@@ -1078,16 +1084,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link126">National Employee Assistance Service 1987</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link127">National Episcopal Coalition of Alcohol and
                         Drugs</unittitle>
                     <unitdate normal="1988">1988</unitdate>
@@ -1095,8 +1101,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link128">National Federation of Societies for Clinical Social
                         Work 1986</unittitle>
                     <unitdate normal="1986">1986</unitdate>
@@ -1104,8 +1110,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">22</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">22</container>
                     <unittitle id="link129">National Foundation for Prevention of Chemical
                         Dependency Disease</unittitle>
                     <unitdate normal="1986">1986</unitdate>
@@ -1113,57 +1119,57 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">23</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">23</container>
                     <unittitle id="link130">National Institute on Alcoholism and Alcoholism
                         Abuse</unittitle>
-                    <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate>
+                    <unitdate normal="1986/1987" type="inclusive">1986-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">24</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">24</container>
                     <unittitle id="link131">National Institute of Mental Health</unittitle>
                     <unitdate normal="1986">1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">25</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">25</container>
                     <unittitle id="link132">National Institute on Drug Abuse 1987</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">26</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">26</container>
                     <unittitle id="link133">National Management Analysis 1986</unittitle>
                     <unitdate normal="1986">1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">27</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">27</container>
                     <unittitle id="link134">National treatment Consortium 1991</unittitle>
                     <unitdate normal="1991">1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">28</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">28</container>
                     <unittitle id="link135">National Medical Enterprises 1987</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">29</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">29</container>
                     <unittitle id="link136">National Partnership To Prevent Drug and Alcohol Abuse
                         Amongst Youth 1986</unittitle>
                     <unitdate normal="1986">1986</unitdate>
@@ -1171,67 +1177,67 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">30</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">30</container>
                     <unittitle id="link137">National School Boards Association 1987</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">31</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">31</container>
                     <unittitle id="link138">National Underwriter 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">32</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">32</container>
                     <unittitle id="link139">New York City Chapter 1987</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">33</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">33</container>
                     <unittitle id="link140">NYS Commission on Quality of Cars For The Mentally
                         Disabled 1987-1988</unittitle>
-                    <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>
+                    <unitdate normal="1987/1988" type="inclusive">1987-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">34</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">34</container>
                     <unittitle id="link141">New York State Council on Alcoholism
                         1984-1988</unittitle>
-                    <unitdate type="inclusive" normal="1984/1988">1984-1988</unitdate>
+                    <unitdate normal="1984/1988" type="inclusive">1984-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">35</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">35</container>
                     <unittitle id="link142">NYS Division of Alcoholism and Alcohol Abuse
                         1985-1988</unittitle>
-                    <unitdate type="inclusive" normal="1985/1988">1985-1988</unitdate>
+                    <unitdate normal="1985/1988" type="inclusive">1985-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">36</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">36</container>
                     <unittitle id="link143">New York State Legislature 1984-1989</unittitle>
-                    <unitdate type="inclusive" normal="1984/1989">1984-1989</unitdate>
+                    <unitdate normal="1984/1989" type="inclusive">1984-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">37</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">37</container>
                     <unittitle id="link144">North American Congress on Employee Assistance Programs
                         1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
@@ -1239,73 +1245,73 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">38</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">38</container>
                     <unittitle id="link145">Occupation Program Consultants Association
                         1980-1989</unittitle>
-                    <unitdate type="inclusive" normal="1980/1989">1980-1989</unitdate>
+                    <unitdate normal="1980/1989" type="inclusive">1980-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">39</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">39</container>
                     <unittitle id="link146">Office of Substance Abuse Program 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">40</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">40</container>
                     <unittitle id="link147">OSHA 1990</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">41</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">41</container>
                     <unittitle id="link148">Oxford House 1989</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">42</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">42</container>
                     <unittitle id="link149">President's Drug Advisory Council 1991</unittitle>
                     <unitdate normal="1991">1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">43</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">43</container>
                     <unittitle id="link150">Prevention Leadership Forum 1990</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">44</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">44</container>
                     <unittitle id="link151">Public Policy 1988-1990</unittitle>
-                    <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate>
+                    <unitdate normal="1988/1990" type="inclusive">1988-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">45</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">45</container>
                     <unittitle id="link152">Publishing Research 1984</unittitle>
                     <unitdate normal="1984">1984</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">46</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">46</container>
                     <unittitle id="link153">Reagan Executive Order: Drug-Free Federal Workplace
                         1986</unittitle>
                     <unitdate normal="1986">1986</unitdate>
@@ -1313,152 +1319,152 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">47</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">47</container>
                     <unittitle id="link154">Regional Conference Guidelines</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">48</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">48</container>
                     <unittitle id="link155">Organization of Regions</unittitle>
-                    <unitdate type="inclusive" normal="1987/1989">1987-1989</unitdate>
+                    <unitdate normal="1987/1989" type="inclusive">1987-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">49</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">49</container>
                     <unittitle id="link156">Central Regions</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">50</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">50</container>
                     <unittitle id="link157">Eastern Regions</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">51</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">51</container>
                     <unittitle id="link158">International Region</unittitle>
-                    <unitdate type="inclusive" normal="1986/1991">1986-1991</unitdate>
+                    <unitdate normal="1986/1991" type="inclusive">1986-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">52</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">52</container>
                     <unittitle id="link159">Southern Region</unittitle>
                     <unitdate normal="1983">1983</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">53</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">53</container>
                     <unittitle id="link160">Western Region 1979-1988</unittitle>
-                    <unitdate type="inclusive" normal="1979/1988">1979-1988</unitdate>
+                    <unitdate normal="1979/1988" type="inclusive">1979-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">54</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">54</container>
                     <unittitle id="link161">Running Amuk 1989</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">55</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">55</container>
                     <unittitle id="link162">Schenectady Gazette 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">56</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">56</container>
                     <unittitle id="link163">Schools</unittitle>
-                    <unitdate type="inclusive" normal="1987/1990">1987-1990</unitdate>
+                    <unitdate normal="1987/1990" type="inclusive">1987-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">57</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">57</container>
                     <unittitle id="link164">Secretary</unittitle>
                     <unitdate normal="1984">1984</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">58</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">58</container>
                     <unittitle id="link165">Security 1987</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">59</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">59</container>
                     <unittitle id="link166">Smithers Institute 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">60</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">60</container>
                     <unittitle id="link167">South Carolina</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">61</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">61</container>
                     <unittitle id="link168">State University of New York 1989</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">62</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">62</container>
                     <unittitle id="link169">Transportation Workers 1989-1990</unittitle>
-                    <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate>
+                    <unitdate normal="1989/1990" type="inclusive">1989-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">63</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">63</container>
                     <unittitle id="link170">United Jersey Banks 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">64</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">64</container>
                     <unittitle id="link171">U.S. Department of Labor</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">65</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">65</container>
                     <unittitle id="link172">U.S. House of Representatives Committee on Small
                         Business 1991</unittitle>
                     <unitdate normal="1991">1991</unitdate>
@@ -1466,64 +1472,64 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">66</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">66</container>
                     <unittitle id="link173">U.S, Nuclear Regulatory Commission 1990</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">67</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">67</container>
                     <unittitle id="link174">U.S. Senate 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">68</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">68</container>
                     <unittitle id="link175">University of California 1986-1987</unittitle>
-                    <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate>
+                    <unitdate normal="1986/1987" type="inclusive">1986-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">69</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">69</container>
                     <unittitle id="link176">University of Michigan 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">70</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">70</container>
                     <unittitle id="link177">University of Minnesota 1987</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">71</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">71</container>
                     <unittitle id="link178">Veteran's Administration 1988-1989</unittitle>
-                    <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+                    <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">72</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">72</container>
                     <unittitle id="link179">Washington Area EAP's</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">73</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">73</container>
                     <unittitle id="link180">White House Conference for a Drug-Free America
                         1987</unittitle>
                     <unitdate normal="1987">1987</unitdate>
@@ -1531,56 +1537,56 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">74</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">74</container>
                     <unittitle id="link181">Wine Institute</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">75</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">75</container>
                     <unittitle id="link182">Work in America Institute 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">76</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">76</container>
                     <unittitle id="link183">Worksite Assistance 1988</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">77</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">77</container>
                     <unittitle id="link184">Youth And Alcohol 1988-1989</unittitle>
-                    <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+                    <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">78</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">78</container>
                     <unittitle id="link185">News Clippings</unittitle>
                     <unitdate normal="1991">1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">78</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">78</container>
                     <unittitle id="link186">News Clippings</unittitle>
                     <unitdate normal="1991">1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">78</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">78</container>
                     <unittitle id="link187">News Clippings</unittitle>
                     <unitdate normal="1991">1991</unitdate>
                 </did>

@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-205::ILGWU Company Files.)//EN">KCL05780-205</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-205::ILGWU Company Files.)//EN">KCL05780-205</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the ILGWU Company Files<date> 1971-1995</date></titleproper>
@@ -23,20 +23,26 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>April 16,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
-            <titleproper>Guide to the ILGWU Company Files<lb/></titleproper>
+            <titleproper>Guide to the ILGWU Company Files</titleproper>
             <num>Collection Number: 5780/205</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -55,15 +61,15 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">ILGWU Company Files, <unitdate encodinganalog="MARC 245$f">1971-1995</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">ILGWU Company Files, 1971-1995
+            </unittitle><unitdate encodinganalog="MARC 245$f">1971-1995</unitdate>
             <unitid label="Collection Number:">5780/205</unitid>
             <origination label="Creator:">
                 <corpname encodinganalog="MARC 110" role="creator">International Ladies' Garment
                     Workers' Union (ILGWU)</corpname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">2.5 linear ft.</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">2.5 linear ft.</physdesc>
             <physdesc label="Forms of Material:">Records (documents).</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -74,7 +80,7 @@
             </langmaterial>
         <physdesc><extent>2.5 cubic feet</extent></physdesc></did>
         <bioghist encodinganalog="MARC 545">
-            <head id="a2" altrender="organizational history">ILGWU ORGANIZATIONAL HISTORY</head>
+            
             <p>The International Ladies' Garment Workers' Union was once one of the largest labor
                 unions in the United States founded in 1900 by local union delegates representing
                 about 2,000 members in cities in the northeastern United States. It was one of the
@@ -94,7 +100,7 @@
                 in 1969.</p>
         </bioghist>
         <bioghist encodinganalog="MARC 545">
-            <head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+            
             <p>The ILGWU established the Department of Organization and Field Services in 1980. The
                 department was responsible for, among other things, the coordination and survey of
                 organizing activities, coordination and administration of information services
@@ -115,7 +121,7 @@
                 to be successful."</p>
         </bioghist>
         <scopecontent encodinganalog="MARC 520">
-            <head id="a3">COLLECTION DESCRIPTION</head>
+            
             <p>Taken together, the two collections comprising the records of the Department of
                 Organization and Field Services provide a general sense of the work of the
                 department, though they are not physically extensive. Organizing efforts by
@@ -140,9 +146,9 @@
                 and efforts to organize workers therein, as well as some authorization cards.</p>
         </scopecontent>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <corpname encodinganalog="MARC 610">Air Filters, Inc. </corpname>
                 <corpname encodinganalog="MARC 610">Amalgamated Clothing and Textile Workers Union. </corpname>
                 <corpname encodinganalog="MARC 610">Amalgamated Clothing and Textile Workers Union.
@@ -178,1518 +184,1518 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>ILGWU Company Files #5780/205. Kheel Center for Labor-Management Documentation
                     and Archives, Cornell University Library.</p>
             </prefercite>
         </descgrp>
         <relatedmaterial>
-            <head id="a6">RELATED MATERIALS</head>
-            <p>Related Collections:<lb/>
+            
+            <p>Related Collections:
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780.html"> 5780:
-                    ILGWU records</extref><lb/>
+                    ILGWU records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-144.html">
-                    5780/144: ILGWU Organizing Department Records</extref><lb/>
+                    5780/144: ILGWU Organizing Department Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-012.html">
-                    5619/012: ACTWU Company Files</extref><lb/>
+                    5619/012: ACTWU Company Files</extref>
             </p>
         </relatedmaterial>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link8">A &amp; A Manufacturing</unittitle>
-                    <unitdate type="inclusive" normal="1988/1991">1988-1991</unitdate>
+                    <unitdate normal="1988/1991" type="inclusive">1988-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link9">A &amp; S Sportswear</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link10">A Brod, Inc.</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link11">AD &amp; ME (Hialeah, FL)</unittitle>
-                    <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+                    <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link12">Action Apparel</unittitle>
-                    <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate>
+                    <unitdate normal="1989/1990" type="inclusive">1989-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link13">ADA Outerwear</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link14">Adena Sportswear</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link15">Air Filters, Inc.</unittitle>
-                    <unitdate type="inclusive" normal="1982/1990">1982-1990</unitdate>
+                    <unitdate normal="1982/1990" type="inclusive">1982-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link16">Alema Knits</unittitle>
                     <unitdate normal="1985">1985</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link17">Alixandre</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link18">All Kind Quilting</unittitle>
                     <unitdate normal="1986">1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link19">Allison Tracy</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link20">Alyce Designs</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link21">American Bazaar</unittitle>
                     <unitdate normal="1991">1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link22">Animal Crackers</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link23">Apex Box</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link24">Apparel Affiliates</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link25">Applied Accessories</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link26">At Last</unittitle>
                     <unitdate normal="1985">1985</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link27">AVI Sewing Corp.</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link28">B F D Industries</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">22</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">22</container>
                     <unittitle id="link29">Baby Fair Inc.</unittitle>
-                    <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate>
+                    <unitdate normal="1988/1990" type="inclusive">1988-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">23</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">23</container>
                     <unittitle id="link30">Bara Fashions</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">24</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">24</container>
                     <unittitle id="link31">Baronessa John</unittitle>
-                    <unitdate type="inclusive" normal="1986/1989">1986-1989</unitdate>
+                    <unitdate normal="1986/1989" type="inclusive">1986-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">25</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">25</container>
                     <unittitle id="link32">Barrow Industries Inc.</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">26</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">26</container>
                     <unittitle id="link33">Beau-David (Expo, Inc.)</unittitle>
-                    <unitdate type="inclusive" normal="1983/1994">1983-1994</unitdate>
+                    <unitdate normal="1983/1994" type="inclusive">1983-1994</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">27</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">27</container>
                     <unittitle id="link34">Beldoch Industries</unittitle>
-                    <unitdate type="inclusive" normal="1983/1991">1983-1991</unitdate>
+                    <unitdate normal="1983/1991" type="inclusive">1983-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">28</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">28</container>
                     <unittitle id="link35">Billy Coat</unittitle>
-                    <unitdate type="inclusive" normal="1981/1993">1981-1993</unitdate>
+                    <unitdate normal="1981/1993" type="inclusive">1981-1993</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">29</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">29</container>
                     <unittitle id="link36">Billy Jack for Her</unittitle>
-                    <unitdate type="inclusive" normal="1981/1993">1981-1993</unitdate>
+                    <unitdate normal="1981/1993" type="inclusive">1981-1993</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">30</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">30</container>
                     <unittitle id="link37">Bloomingdale by Mail Ltd., Inc.</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">31</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">31</container>
                     <unittitle id="link38">Body Spirit</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">32</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">32</container>
                     <unittitle id="link39">Bolero Clairtex</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">33</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">33</container>
                     <unittitle id="link40">Bomaine Corp.</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">34</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">34</container>
                     <unittitle id="link41">Brenner International</unittitle>
-                    <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate>
+                    <unitdate normal="1988/1990" type="inclusive">1988-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">35</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">35</container>
                     <unittitle id="link42">Camden Tannery</unittitle>
-                    <unitdate type="inclusive" normal="1983/1991">1983-1991</unitdate>
+                    <unitdate normal="1983/1991" type="inclusive">1983-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">36</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">36</container>
                     <unittitle id="link43">Camelot Creations</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">37</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">37</container>
                     <unittitle id="link44">Cameo Courtures, Inc.</unittitle>
-                    <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate>
+                    <unitdate normal="1988/1990" type="inclusive">1988-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">38</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">38</container>
                     <unittitle id="link45">Caron/Caprino</unittitle>
-                    <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate>
+                    <unitdate normal="1988/1990" type="inclusive">1988-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">39</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">39</container>
                     <unittitle id="link46">Carroll Reed</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">40</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">40</container>
                     <unittitle id="link47">Certified Lumber (IDA Loan)</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">41</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">41</container>
                     <unittitle id="link48">Chang Lung Ind.</unittitle>
                     <unitdate normal="1991">1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">42</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">42</container>
                     <unittitle id="link49">Charles Jourdan</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">43</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">43</container>
                     <unittitle id="link50">Charlotte Neville</unittitle>
-                    <unitdate type="inclusive" normal="1987/1990">1987-1990</unitdate>
+                    <unitdate normal="1987/1990" type="inclusive">1987-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">44</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">44</container>
                     <unittitle id="link51">City Girl</unittitle>
-                    <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+                    <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">45</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">45</container>
                     <unittitle id="link52">Colbert</unittitle>
-                    <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+                    <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">46</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">46</container>
                     <unittitle id="link53">Collegetown</unittitle>
-                    <unitdate type="inclusive" normal="1984/1987">1984-1987</unitdate>
+                    <unitdate normal="1984/1987" type="inclusive">1984-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">47</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">47</container>
                     <unittitle id="link54">Costume Gallery</unittitle>
-                    <unitdate type="inclusive" normal="1984/1989">1984-1989</unitdate>
+                    <unitdate normal="1984/1989" type="inclusive">1984-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">48</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">48</container>
                     <unittitle id="link55">Country Miss</unittitle>
-                    <unitdate type="inclusive" normal="1981/1990">1981-1990</unitdate>
+                    <unitdate normal="1981/1990" type="inclusive">1981-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">49</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">49</container>
                     <unittitle id="link56">Cullinane Maureen</unittitle>
-                    <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate>
+                    <unitdate normal="1988/1990" type="inclusive">1988-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">50</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">50</container>
                     <unittitle id="link57">DMAS Corp.</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">51</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">51</container>
                     <unittitle id="link58">DEB Shops</unittitle>
-                    <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate>
+                    <unitdate normal="1989/1990" type="inclusive">1989-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">52</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">52</container>
                     <unittitle id="link59">Dexter Shoe/ Pam Am Shoe</unittitle>
-                    <unitdate type="inclusive" normal="1983/1989">1983-1989</unitdate>
+                    <unitdate normal="1983/1989" type="inclusive">1983-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">53</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">53</container>
                     <unittitle id="link60">Di Fini, Inc.</unittitle>
-                    <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+                    <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">54</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">54</container>
                     <unittitle id="link61">Don Elliot</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">55</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">55</container>
                     <unittitle id="link62">Eastern Apparel</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">56</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">56</container>
                     <unittitle id="link63">Elan</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">57</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">57</container>
                     <unittitle id="link64">EMSIG Mfg.</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">58</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">58</container>
                     <unittitle id="link65">Fairview Paper Box</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">59</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">59</container>
                     <unittitle id="link66">Fashion Rite</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">60</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">60</container>
                     <unittitle id="link67">Franklin Mushroom Farms, Inc.</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">61</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">61</container>
                     <unittitle id="link68">Fuller Brush</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">62</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">62</container>
                     <unittitle id="link69">G &amp; G Uniform Co., Inc.</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">63</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">63</container>
                     <unittitle id="link70">G T Sportswear</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">64</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">64</container>
                     <unittitle id="link71">Gem Knits Inc. Gem Knitting Mills</unittitle>
-                    <unitdate type="inclusive" normal="1988/1993">1988-1993</unitdate>
+                    <unitdate normal="1988/1993" type="inclusive">1988-1993</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">65</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">65</container>
                     <unittitle id="link72">Gianni Sportswear</unittitle>
-                    <unitdate type="inclusive" normal="1990/1995">1990-1995</unitdate>
+                    <unitdate normal="1990/1995" type="inclusive">1990-1995</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">66</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">66</container>
                     <unittitle id="link73">Gibor Knitting</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">67</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">67</container>
                     <unittitle id="link74">Ginger Peachy</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">68</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">68</container>
                     <unittitle id="link75">Glamour Blouse</unittitle>
-                    <unitdate type="inclusive" normal="1975/1989">1975-1989</unitdate>
+                    <unitdate normal="1975/1989" type="inclusive">1975-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">69</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">69</container>
                     <unittitle id="link76">Goodbuys/Lockewill</unittitle>
-                    <unitdate type="inclusive" normal="1987/1989">1987-1989</unitdate>
+                    <unitdate normal="1987/1989" type="inclusive">1987-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">70</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">70</container>
                     <unittitle id="link77">Goodwill-Evansville</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">71</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">71</container>
                     <unittitle id="link78">Graff California wear, Inc.</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">72</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">72</container>
                     <unittitle id="link79">Greater El Paso Corp.</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">73</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">73</container>
                     <unittitle id="link80">Grumbacher, S. and Son, Inc.</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">74</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">74</container>
                     <unittitle id="link81">H&amp;M of California</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">75</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">75</container>
                     <unittitle id="link82">HR Kaminsky and Sons</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">76</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">76</container>
                     <unittitle id="link83">Her Majesty Industries</unittitle>
-                    <unitdate type="inclusive" normal="1976/1987">1976-1987</unitdate>
+                    <unitdate normal="1976/1987" type="inclusive">1976-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">77</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">77</container>
                     <unittitle id="link84">Hickory Hills</unittitle>
-                    <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+                    <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">78</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">78</container>
                     <unittitle id="link85">High Fashion Garment/D.G.D.</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">79</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">79</container>
                     <unittitle id="link86">Hi Lo Mfg Co.</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">80</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">80</container>
                     <unittitle id="link87">Horchow Mail Order, Inc.</unittitle>
                     <unitdate normal="1991">1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">81</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">81</container>
                     <unittitle id="link88">Hotsy Totsy</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">82</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">82</container>
                     <unittitle id="link89">House of Perfection</unittitle>
-                    <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate>
+                    <unitdate normal="1986/1987" type="inclusive">1986-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">83</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">83</container>
                     <unittitle id="link90">Howard B. Wolf, Inc.</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">84</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">84</container>
                     <unittitle id="link91">In Group Limited</unittitle>
-                    <unitdate type="inclusive" normal="1986/1990">1986-1990</unitdate>
+                    <unitdate normal="1986/1990" type="inclusive">1986-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">85</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">85</container>
                     <unittitle id="link92">Its Jack</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">86</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">86</container>
                     <unittitle id="link93">Ivy Brown</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link94">J &amp; B Knitting Mills</unittitle>
-                    <unitdate type="inclusive" normal="1988/1992">1988-1992</unitdate>
+                    <unitdate normal="1988/1992" type="inclusive">1988-1992</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link95">J &amp; L Mfg.</unittitle>
-                    <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate>
+                    <unitdate normal="1988/1990" type="inclusive">1988-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link96">JA Knitting Mills</unittitle>
-                    <unitdate type="inclusive" normal="1984/1989">1984-1989</unitdate>
+                    <unitdate normal="1984/1989" type="inclusive">1984-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link97">JRE, Inc.</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link98">Jasper Sportswear</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link99">Jay Dee Sportswear</unittitle>
-                    <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate>
+                    <unitdate normal="1989/1990" type="inclusive">1989-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link100">Jeanette Maternities</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link101">Jessica Howard</unittitle>
-                    <unitdate type="inclusive" normal="1990/1992">1990-1992</unitdate>
+                    <unitdate normal="1990/1992" type="inclusive">1990-1992</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link102">Jet Styles</unittitle>
-                    <unitdate type="inclusive" normal="1987/1990">1987-1990</unitdate>
+                    <unitdate normal="1987/1990" type="inclusive">1987-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link103">Johnny Apple Seed</unittitle>
-                    <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate>
+                    <unitdate normal="1988/1990" type="inclusive">1988-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link104">Joyce</unittitle>
-                    <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+                    <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link105">Kids-At-Large</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link106">Kids R Us</unittitle>
-                    <unitdate type="inclusive" normal="1987/1989">1987-1989</unitdate>
+                    <unitdate normal="1987/1989" type="inclusive">1987-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link107">King Sales</unittitle>
-                    <unitdate type="inclusive" normal="1971/1990">1971-1990</unitdate>
+                    <unitdate normal="1971/1990" type="inclusive">1971-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link108">Klein and Co.</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link109">Knit waves (Ellen Gang)</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link110">Kutty Fashions</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link111">L Luria and Sons</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link112">La Clase</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link113">La Mode</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link114">Lease ways</unittitle>
-                    <unitdate type="inclusive" normal="1987/1989">1987-1989</unitdate>
+                    <unitdate normal="1987/1989" type="inclusive">1987-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">22</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">22</container>
                     <unittitle id="link115">Live-It-Up</unittitle>
-                    <unitdate type="inclusive" normal="1986/1987">1986-1987</unitdate>
+                    <unitdate normal="1986/1987" type="inclusive">1986-1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">23</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">23</container>
                     <unittitle id="link116">Loral Packaging, Inc.</unittitle>
                     <unitdate normal="1986">1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">24</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">24</container>
                     <unittitle id="link117">MAG/MDP</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">25</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">25</container>
                     <unittitle id="link118">Manny Industries</unittitle>
-                    <unitdate type="inclusive" normal="1986/1988">1986-1988</unitdate>
+                    <unitdate normal="1986/1988" type="inclusive">1986-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">26</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">26</container>
                     <unittitle id="link119">Members Only</unittitle>
-                    <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>
+                    <unitdate normal="1987/1988" type="inclusive">1987-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">27</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">27</container>
                     <unittitle id="link120">Miss Challenge Inc.</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">28</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">28</container>
                     <unittitle id="link121">Moonlighting Studio, Inc.</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">29</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">29</container>
                     <unittitle id="link122">Mopac</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">30</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">30</container>
                     <unittitle id="link123">Mouse feathers, Inc.</unittitle>
-                    <unitdate type="inclusive" normal="1983/1993">1983-1993</unitdate>
+                    <unitdate normal="1983/1993" type="inclusive">1983-1993</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">31</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">31</container>
                     <unittitle id="link124">Muri-Lu Knitting Mills</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">32</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">32</container>
                     <unittitle id="link125">Nancy Johnson/ Press</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">33</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">33</container>
                     <unittitle id="link126">National Embroidered Emblem Inc.</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">34</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">34</container>
                     <unittitle id="link127">New Yorker Dance Frocks</unittitle>
                     <unitdate normal="1985">1985</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">35</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">35</container>
                     <unittitle id="link128">Newark Auto Tops</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">36</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">36</container>
                     <unittitle id="link129">Omni Knit</unittitle>
-                    <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate>
+                    <unitdate normal="1990/1991" type="inclusive">1990-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">37</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">37</container>
                     <unittitle id="link130">Orbit Instrument</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">38</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">38</container>
                     <unittitle id="link131">Paulette Fashions</unittitle>
-                    <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate>
+                    <unitdate normal="1988/1990" type="inclusive">1988-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">39</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">39</container>
                     <unittitle id="link132">Periwinkle</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">40</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">40</container>
                     <unittitle id="link133">Pick Your Part Auto Wrecking</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">41</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">41</container>
                     <unittitle id="link134">Plastiflex</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">42</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">42</container>
                     <unittitle id="link135">Portier Rene, Inc.</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">43</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">43</container>
                     <unittitle id="link136">Prophecy Corp.</unittitle>
-                    <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate>
+                    <unitdate normal="1988/1990" type="inclusive">1988-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">44</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">44</container>
                     <unittitle id="link137">R &amp; M Kaufman</unittitle>
-                    <unitdate type="inclusive" normal="1990/1991">1990-1991</unitdate>
+                    <unitdate normal="1990/1991" type="inclusive">1990-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">45</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">45</container>
                     <unittitle id="link138">RBA Mfg</unittitle>
                     <unitdate normal="1983">1983</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">46</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">46</container>
                     <unittitle id="link139">RJMJ</unittitle>
-                    <unitdate type="inclusive" normal="1987/1989">1987-1989</unitdate>
+                    <unitdate normal="1987/1989" type="inclusive">1987-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">47</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">47</container>
                     <unittitle id="link140">Rangell Blas Co.</unittitle>
                     <unitdate normal="1986">1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">48</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">48</container>
                     <unittitle id="link141">Realite Optical</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">49</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">49</container>
                     <unittitle id="link142">Roam Corp Roberta, Inc., Hollywood Nites</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">50</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">50</container>
                     <unittitle id="link143">Rousso Apparel Group</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">51</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">51</container>
                     <unittitle id="link144">Royal Silk</unittitle>
-                    <unitdate type="inclusive" normal="1984/1990">1984-1990</unitdate>
+                    <unitdate normal="1984/1990" type="inclusive">1984-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">52</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">52</container>
                     <unittitle id="link145">Rubies Costumes</unittitle>
-                    <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate>
+                    <unitdate normal="1989/1990" type="inclusive">1989-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">53</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">53</container>
                     <unittitle id="link146">Ruby International</unittitle>
-                    <unitdate type="inclusive" normal="1983/1988">1983-1988</unitdate>
+                    <unitdate normal="1983/1988" type="inclusive">1983-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">54</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">54</container>
                     <unittitle id="link147">St. Anna, Inc.</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">55</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">55</container>
                     <unittitle id="link148">Sawyer of Napa</unittitle>
-                    <unitdate type="inclusive" normal="1990/1994">1990-1994</unitdate>
+                    <unitdate normal="1990/1994" type="inclusive">1990-1994</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">56</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">56</container>
                     <unittitle id="link149">Sawyer of Napa/General Company Information</unittitle>
-                    <unitdate type="inclusive" normal="1989/1991">1989-1991</unitdate>
+                    <unitdate normal="1989/1991" type="inclusive">1989-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">57</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">57</container>
                     <unittitle id="link150">Sawyer of Napa/Campaign Documents</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">58</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">58</container>
                     <unittitle id="link151">Sawyer of Napa/Press</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">59</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">59</container>
                     <unittitle id="link152">Sawyer of Napa/Customers</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">60</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">60</container>
                     <unittitle id="link153">Sawyer of Napa/Suppliers</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">61</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">61</container>
                     <unittitle id="link154">Scandia Trading Co.</unittitle>
-                    <unitdate type="inclusive" normal="1987/1990">1987-1990</unitdate>
+                    <unitdate normal="1987/1990" type="inclusive">1987-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">62</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">62</container>
                     <unittitle id="link155">SEMA Dist, Inc.</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">63</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">63</container>
                     <unittitle id="link156">Shaker Sportswear</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">64</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">64</container>
                     <unittitle id="link157">Sharlee MFG/Inner World</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">65</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">65</container>
                     <unittitle id="link158">Shufra Chocolate Food</unittitle>
                     <unitdate normal="1986">1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">66</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">66</container>
                     <unittitle id="link159">Simpatica LTD/St. Gillian</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">67</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">67</container>
                     <unittitle id="link160">Smart Novelty Blouse and Contractors
                         (Darwood)</unittitle>
-                    <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate>
+                    <unitdate normal="1988/1990" type="inclusive">1988-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">68</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">68</container>
                     <unittitle id="link161">Smoler Brothers Wicker Park</unittitle>
-                    <unitdate type="inclusive" normal="1985/1990">1985-1990</unitdate>
+                    <unitdate normal="1985/1990" type="inclusive">1985-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">69</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">69</container>
                     <unittitle id="link162">Snow White/American</unittitle>
-                    <unitdate type="inclusive" normal="1987/1986">1987-1986</unitdate>
+                    <unitdate type="inclusive">1987-1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">70</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">70</container>
                     <unittitle id="link163">Somerset Knit, Philadelphia</unittitle>
-                    <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>
+                    <unitdate normal="1987/1988" type="inclusive">1987-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link164">Sport Pillows</unittitle>
-                    <unitdate type="inclusive" normal="1987/1989">1987-1989</unitdate>
+                    <unitdate normal="1987/1989" type="inclusive">1987-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link165">Steven Michaels</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link166">Suitables, ETX.</unittitle>
-                    <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate>
+                    <unitdate normal="1989/1990" type="inclusive">1989-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link167">Sun Distributions, Inc.</unittitle>
-                    <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+                    <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link168">Sunrise Fashions</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link169">Swede Los Angles</unittitle>
                     <unitdate normal="1986">1986</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link170">Sweet Sage</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link171">Synari Ltd.</unittitle>
-                    <unitdate type="inclusive" normal="1989/1991">1989-1991</unitdate>
+                    <unitdate normal="1989/1991" type="inclusive">1989-1991</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link172">Tanner Companies</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link173">Technical Coated Fabric</unittitle>
                     <unitdate normal="1987">1987</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link174">T H M Strike [Folder 1 of 2]</unittitle>
-                    <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+                    <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link175">T H M Strike [Folder 2 of 2]</unittitle>
-                    <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+                    <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link176">Tif and Griff Designs</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link177">TLC for Girls, Inc.</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link178">Tococco</unittitle>
-                    <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate>
+                    <unitdate normal="1989/1990" type="inclusive">1989-1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link179">Trend Knits</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link180">Tri Chen, Inc.</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link181">Tribecca Corp</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">19</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">19</container>
                     <unittitle id="link182">Trimtex Knitting Mills</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">20</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">20</container>
                     <unittitle id="link183">Tripple O Enterprise</unittitle>
                     <unitdate normal="1989">1989</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">21</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">21</container>
                     <unittitle id="link184">Trutrim Corp.</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">22</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">22</container>
                     <unittitle id="link185">Ultra Knit</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">23</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">23</container>
                     <unittitle id="link186">Ursela of Switzerland</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">24</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">24</container>
                     <unittitle id="link187">Victoria Royal</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">25</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">25</container>
                     <unittitle id="link188">Virginia Metals</unittitle>
-                    <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>
+                    <unitdate normal="1987/1988" type="inclusive">1987-1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">26</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">26</container>
                     <unittitle id="link189">Vogue Alley</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">27</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">27</container>
                     <unittitle id="link190">Walsh Super Service</unittitle>
                     <unitdate normal="1984">1984</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">28</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">28</container>
                     <unittitle id="link191">Weinmac Mfg.</unittitle>
                     <unitdate normal="1988">1988</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">29</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">29</container>
                     <unittitle id="link192">West End Affiliate</unittitle>
                     <unitdate normal="1990">1990</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">30</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">30</container>
                     <unittitle id="link193">Winter Coat</unittitle>
-                    <unitdate type="inclusive" normal="1983/1990">1983-1990</unitdate>
+                    <unitdate normal="1983/1990" type="inclusive">1983-1990</unitdate>
                 </did>
             </c01>
         </dsc>

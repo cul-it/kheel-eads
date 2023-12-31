@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05713mf::Eugene V. Debs Papers on Microfilm.)//EN">KCL05713mf</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05713mf::Eugene V. Debs Papers on Microfilm.)//EN">KCL05713mf</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the Eugene V. Debs Papers on Microfilm<date>
@@ -24,20 +24,26 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>March 28,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
-            <titleproper>Guide to the Eugene V. Debs Papers on Microfilm<lb/></titleproper>
+            <titleproper>Guide to the Eugene V. Debs Papers on Microfilm</titleproper>
             <num>Collection Number: 5713 mf</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -56,15 +62,15 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">Eugene V. Debs Papers on
-                Microfilm, <unitdate encodinganalog="MARC 245$f">1834-1945</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">Eugene V. Debs Papers on
+                Microfilm, 1834-1945
+            </unittitle><unitdate encodinganalog="MARC 245$f">1834-1945</unitdate>
             <unitid label="Collection Number:">5713 mf</unitid>
             <origination label="Creator:">
                 <persname encodinganalog="MARC 100" role="creator">Debs, Eugene V.</persname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">21 microfilm reels</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">21 microfilm reels</physdesc>
             <physdesc label="Forms of Material:">Scrapbooks, speeches (documents),
                 microfilm.</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
@@ -75,7 +81,7 @@
             </langmaterial>
         <physdesc><extent>2.33 cubic feet</extent></physdesc></did>
         <bioghist encodinganalog="MARC 545">
-            <head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+            
             <p>Born and reared in Terre Haute, Indiana, Eugene Debs began work in a railroad
                 enginehouse and then became a locomotive fireman, serving as an officer of the
                 Brotherhood of Locomotive Firemen and Enginemen and as editor of the FIREMEN'S
@@ -92,7 +98,7 @@
                 Harding in 1921, Debs died in 1926.</p>
         </bioghist>
         <scopecontent encodinganalog="MARC 520">
-            <head id="a3">COLLECTION DESCRIPTION</head>
+            
             <p>Correspondence includes incoming and outgoing letters, telegrams, postcards, and
                 memoranda of Eugene V. Debs and various members of his family. Published writings
                 include editorials, articles, essays, letters to editors, epigrams, anecdotes and
@@ -106,9 +112,9 @@
                 are materials collected by Debs for research purposes.</p>
         </scopecontent>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <persname encodinganalog="MARC 600">Debs, Eugene V. (Eugene Victor),1855-1926. </persname>
                 <persname encodinganalog="MARC 600">Constantine, J. Robert. </persname>
                 <persname encodinganalog="MARC 600">Debs, Theodore, 1864-1945. </persname>
@@ -118,7 +124,7 @@
                 <corpname encodinganalog="MARC 610">Socialist Party (U.S.) </corpname>
             </controlaccess>
             <controlaccess>
-                <head>Subjects: </head>
+                
                 <subject encodinganalog="MARC 650">Presidential candidates--United States. </subject>
                 <subject encodinganalog="MARC 650">Presidents--United States--Election--1900. </subject>
                 <subject encodinganalog="MARC 650">Presidents--United States--Election--1904. </subject>
@@ -134,98 +140,98 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>Eugene V. Debs Papers on Microfilm #5713 mf. Kheel Center for Labor-Management
                     Documentation and Archives, Cornell University Library.</p>
             </prefercite>
         </descgrp>
         <relatedmaterial>
-            <head id="a6">RELATED MATERIALS</head>
-            <p>Related Collections:<lb/>
+            
+            <p>Related Collections:
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04073.html"> /4073:
-                    James O. Morris Office Files</extref><lb/>
+                    James O. Morris Office Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL04249.html"> /4249:
-                    Nick Salvatore Research files</extref><lb/>
+                    Nick Salvatore Research files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05021.html"> 5021:
-                    Brotherhood of Railroad Trainmen Additional Records</extref><lb/>
+                    Brotherhood of Railroad Trainmen Additional Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05141.html"> 5141:
-                    Brotherhood of Locomotive Firemen and Enginemen Records</extref><lb/>
+                    Brotherhood of Locomotive Firemen and Enginemen Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05149.html"> 5149:
-                    Brotherhood of Railroad Trainmen Records</extref><lb/>
+                    Brotherhood of Railroad Trainmen Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05210.html"> 5210: IWW
-                    Records</extref><lb/>
+                    Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05256.html"> 5256:
-                    Adolph Germer Papers</extref><lb/>
+                    Adolph Germer Papers</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05430mf.html"> 5430 mf:
-                    Morris Hillquit Papers on Microfilm</extref><lb/>
+                    Morris Hillquit Papers on Microfilm</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05484.html"> 5484:
-                    Railway Labor Executives' Association Records</extref><lb/>
+                    Railway Labor Executives' Association Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05518av.html"> 5518 AV:
-                    James O. Morris Collection of Labor Related Tape Recordings</extref><lb/>
+                    James O. Morris Collection of Labor Related Tape Recordings</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05583-3.html"> 5583/3:
-                    Archives Organization File (AOF) Part 3</extref><lb/>
+                    Archives Organization File (AOF) Part 3</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05583-5.html"> 5583/5:
-                    Archives Organization File (AOF) Part 5</extref><lb/>
+                    Archives Organization File (AOF) Part 5</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619c-smb.html"> 5619
                     C-S MB: ACTWU President Jack Sheinkman Additional Books, Memorabilia, and
-                    Files</extref><lb/>
+                    Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619pubs.html"> 5619
-                    PUBS: ACTWU Publications</extref><lb/>
+                    PUBS: ACTWU Publications</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-004.html">
-                    5619/004: ACTWU President Jacob Sheinkman Files</extref><lb/>
+                    5619/004: ACTWU President Jacob Sheinkman Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05642av.html"> 5642 AV:
-                    "Eugene V. Debs" Audio Recording</extref><lb/>
+                    "Eugene V. Debs" Audio Recording</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05646.html"> 5646:
-                    Brotherhood of Locomotive Firemen and Enginemen Additional Records</extref><lb/>
+                    Brotherhood of Locomotive Firemen and Enginemen Additional Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05693.html"> 5693:
-                    Labor Editorial Files</extref><lb/>
+                    Labor Editorial Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05763m.html"> 5763m:
-                    Eugene V. Debs Letter to Sidney Rissman</extref><lb/>
+                    Eugene V. Debs Letter to Sidney Rissman</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-002.html">
-                    5780/002: ILGWU David Dubinsky Correspondence</extref><lb/>
+                    5780/002: ILGWU David Dubinsky Correspondence</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-083.html">
-                    5780/083: ILGWU Sol Chaikin Papers</extref><lb/>
+                    5780/083: ILGWU Sol Chaikin Papers</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-178.html">
-                    5780/178: ILGWU Charles Zimmerman Collection of Radical Pamphlets</extref><lb/>
+                    5780/178: ILGWU Charles Zimmerman Collection of Radical Pamphlets</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-203.html">
-                    5780/203: ILGWU Jay Mazur Papers</extref><lb/>
+                    5780/203: ILGWU Jay Mazur Papers</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05809mf.html"> 5809 mf:
-                    Adolph Germer Papers on Microfilm</extref><lb/>
+                    Adolph Germer Papers on Microfilm</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05863mf.html"> 5863 mf:
                     Department of Justice Investigative Files on Industrial Workers of the World,
-                    Part 1 on Microfilm</extref><lb/>
+                    Part 1 on Microfilm</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05897mf.html"> 5897 mf:
-                    Strike Files of the U.S. Department of Justice, Pt. 1 on Microfilm</extref><lb/>
+                    Strike Files of the U.S. Department of Justice, Pt. 1 on Microfilm</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06034.html"> 6034: Rare
-                    Pamphlet Collection</extref><lb/>
+                    Pamphlet Collection</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06036-091pubs.html">
-                    6036/091 PUBS: Dolores Miller ILGWU and Other Publications</extref><lb/>
+                    6036/091 PUBS: Dolores Miller ILGWU and Other Publications</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06046.html"> 6046:
-                    Archives Union File (AUF)</extref><lb/>
+                    Archives Union File (AUF)</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06118av.html"> 6118 AV:
-                    Kheel Center AV Collection</extref><lb/>
+                    Kheel Center AV Collection</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL06221.html"> 6221:
                     Carolyn J. Jacobson Collection of "Eugene V. Debs for President"
-                    Materials</extref><lb/>
+                    Materials</extref>
             </p>
         </relatedmaterial>
         <dsc type="combined">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="series">
                 <did>
-                    <unittitle>The container list for this collecion can be found in the ProQuest Research Collection finding aid and is available <extref href="http://media2.proquest.com/documents/debs.pdf">HERE.</extref><lb/></unittitle>
+                    <unittitle>The container list for this collecion can be found in the ProQuest Research Collection finding aid and is available <extref href="http://media2.proquest.com/documents/debs.pdf">HERE.</extref></unittitle>
                 </did>
             </c01>
         </dsc>

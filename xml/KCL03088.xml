@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL03088::ILR School Dean''s Annual Reports.)//EN">KCL03088</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL03088::ILR School Dean''s Annual Reports.)//EN">KCL03088</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the ILR School Dean's Annual Reports<date> 1945-1985</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>September 20, 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the ILR School Dean's Annual Reports<lb/></titleproper>
+			<titleproper>Guide to the ILR School Dean's Annual Reports</titleproper>
 			<num>Collection Number: /3088</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,24 +54,24 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">ILR School Dean's Annual Reports, <unitdate encodinganalog="MARC 245$f">1945-1985</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">ILR School Dean's Annual Reports, 1945-1985
+			</unittitle><unitdate encodinganalog="MARC 245$f">1945-1985</unitdate>
 			<unitid label="Collection Number:">/3088</unitid>
 			<origination label="Creator:">
-				<corpname encodinganalog="MARC 110" role="creator">New York State School of Industrial and Labor Relations (NYSSILR)</corpname>;<lb/>
-				<persname encodinganalog="MARC 100" role="creator"> Ives, Irving M.</persname>;<lb/>
-				<persname encodinganalog="MARC 100" role="creator"> Emerson, Lynn A.</persname>;<lb/>
-				<persname encodinganalog="MARC 100" role="creator"> Neufeld, Maurice F.</persname>;<lb/>
-				<persname encodinganalog="MARC 100" role="creator"> Shank, Donald J.</persname>;<lb/>
-				<persname encodinganalog="MARC 100" role="creator"> Catherwood, Martin P.</persname>;<lb/>
-				<persname encodinganalog="MARC 100" role="creator"> Risley, Robert F.</persname>;<lb/>
-				<persname encodinganalog="MARC 100" role="creator"> McConnell, John W.</persname>;<lb/>
-				<persname encodinganalog="MARC 100" role="creator"> Moore, David G.</persname>;<lb/>
-				<persname encodinganalog="MARC 100" role="creator"> McKersie, Robert B.</persname>;<lb/>
+				<corpname encodinganalog="MARC 110" role="creator">New York State School of Industrial and Labor Relations (NYSSILR)</corpname>;
+				<persname encodinganalog="MARC 100" role="creator"> Ives, Irving M.</persname>;
+				<persname encodinganalog="MARC 100" role="creator"> Emerson, Lynn A.</persname>;
+				<persname encodinganalog="MARC 100" role="creator"> Neufeld, Maurice F.</persname>;
+				<persname encodinganalog="MARC 100" role="creator"> Shank, Donald J.</persname>;
+				<persname encodinganalog="MARC 100" role="creator"> Catherwood, Martin P.</persname>;
+				<persname encodinganalog="MARC 100" role="creator"> Risley, Robert F.</persname>;
+				<persname encodinganalog="MARC 100" role="creator"> McConnell, John W.</persname>;
+				<persname encodinganalog="MARC 100" role="creator"> Moore, David G.</persname>;
+				<persname encodinganalog="MARC 100" role="creator"> McKersie, Robert B.</persname>;
 				<persname encodinganalog="MARC 100" role="creator"> Doherty, Robert</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">3 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">3 linear ft.</physdesc>
 			<physdesc label="Forms  of Material:">Records (documents).</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">ILR Dean's annual reports to the University President, for the first 40 years of the school.</abstract>
@@ -73,9 +79,9 @@
 			</langmaterial>
 		<physdesc><extent>3 cubic feet</extent></physdesc></did>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Irving, Ives, M. </persname>
 				<persname encodinganalog="MARC 600">Emerson, Lynn A. </persname>
 				<persname encodinganalog="MARC 600">Neufeld, Maurice F. </persname>
@@ -93,396 +99,396 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>ILR School Dean's Annual Reports #/3088. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link8">Dean's Report to the President - 1945-46</unittitle>
-					<unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate>
+					<unitdate normal="1945/1946" type="inclusive">1945-1946</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link9">Dean's Report to the President - 1946-47</unittitle>
-					<unitdate type="inclusive" normal="1946/1947">1946-1947</unitdate>
+					<unitdate normal="1946/1947" type="inclusive">1946-1947</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link10">Dean's Report to the President - 1947-48</unittitle>
-					<unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate>
+					<unitdate normal="1947/1948" type="inclusive">1947-1948</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link11">Dean's Report to the President - 1948-49</unittitle>
-					<unitdate type="inclusive" normal="1948/1949">1948-1949</unitdate>
+					<unitdate normal="1948/1949" type="inclusive">1948-1949</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link12">Dean's Report to the President - 1949-50</unittitle>
-					<unitdate type="inclusive" normal="1949/1950">1949-1950</unitdate>
+					<unitdate normal="1949/1950" type="inclusive">1949-1950</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link13">Dean's Report to the President - 1951-52</unittitle>
-					<unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>
+					<unitdate normal="1951/1952" type="inclusive">1951-1952</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link14">Dean's Report to the President - 1950-51</unittitle>
-					<unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate>
+					<unitdate normal="1950/1951" type="inclusive">1950-1951</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link15">Dean's Report to the President - 1952-53</unittitle>
-					<unitdate type="inclusive" normal="1952/1953">1952-1953</unitdate>
+					<unitdate normal="1952/1953" type="inclusive">1952-1953</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link16">Dean's Report to the President - 1953-54</unittitle>
-					<unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>
+					<unitdate normal="1953/1954" type="inclusive">1953-1954</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link17">Dean's Report to the President - 1954-55</unittitle>
-					<unitdate type="inclusive" normal="1954/1955">1954-1955</unitdate>
+					<unitdate normal="1954/1955" type="inclusive">1954-1955</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link18">Dean's Report to the President - 1955-1956</unittitle>
-					<unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate>
+					<unitdate normal="1955/1956" type="inclusive">1955-1956</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link19">Dean's Report to the President - 1956-57</unittitle>
-					<unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>
+					<unitdate normal="1956/1957" type="inclusive">1956-1957</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle id="link20">Dean's Report to the President - 1957-58</unittitle>
-					<unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
+					<unitdate normal="1957/1958" type="inclusive">1957-1958</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle id="link21">Dean's Report to the President - 1958-59</unittitle>
-					<unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate>
+					<unitdate normal="1958/1959" type="inclusive">1958-1959</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle id="link22">Dean's Report to the President - 1959-60</unittitle>
-					<unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate>
+					<unitdate normal="1959/1960" type="inclusive">1959-1960</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle id="link23">Dean's Report to the President - 1960-61</unittitle>
-					<unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate>
+					<unitdate normal="1960/1961" type="inclusive">1960-1961</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle id="link24">Dean's Report to the President - 1961-62</unittitle>
-					<unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
+					<unitdate normal="1961/1962" type="inclusive">1961-1962</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle id="link25">Dean's Report to the President - 1962-63</unittitle>
-					<unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
+					<unitdate normal="1962/1963" type="inclusive">1962-1963</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">19</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">19</container>
 					<unittitle id="link26">Dean's Report to the President - 1963-64</unittitle>
-					<unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
+					<unitdate normal="1963/1964" type="inclusive">1963-1964</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">20</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">20</container>
 					<unittitle id="link27">Dean's Report to the President - 1964-65</unittitle>
-					<unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate>
+					<unitdate normal="1964/1965" type="inclusive">1964-1965</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">21</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">21</container>
 					<unittitle id="link28">Dean's Report to the President - 1965-66</unittitle>
-					<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+					<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">22</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">22</container>
 					<unittitle id="link29">Dean's Report to the President - 1965-66 (1 of 2)</unittitle>
-					<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+					<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">23</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">23</container>
 					<unittitle id="link30">Dean's Report to the President - 1965-66 (2 of 2)</unittitle>
-					<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+					<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">24</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">24</container>
 					<unittitle id="link31">Dean's Report to the President - 1966-67</unittitle>
-					<unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+					<unitdate normal="1966/1967" type="inclusive">1966-1967</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">25</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">25</container>
 					<unittitle id="link32">Dean's Report to the President - 1967-68</unittitle>
-					<unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+					<unitdate normal="1967/1968" type="inclusive">1967-1968</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">26</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">26</container>
 					<unittitle id="link33">Dean's Report to the President - 1967-68 (bound edition)</unittitle>
-					<unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+					<unitdate normal="1967/1968" type="inclusive">1967-1968</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link34">Dean's Report to the President - 1968-69</unittitle>
-					<unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
+					<unitdate normal="1968/1969" type="inclusive">1968-1969</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link35">Dean's Report to the President - 1969-70</unittitle>
-					<unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
+					<unitdate normal="1969/1970" type="inclusive">1969-1970</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link36">Dean's Report to the President - 1970-71</unittitle>
-					<unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+					<unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link37">Dean's Report to the President - 1971-72</unittitle>
-					<unitdate type="inclusive" normal="1971/1972">1971-1972</unitdate>
+					<unitdate normal="1971/1972" type="inclusive">1971-1972</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link38">Dean's Report to the President - 1972-73</unittitle>
-					<unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>
+					<unitdate normal="1972/1973" type="inclusive">1972-1973</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link39">Dean's Report to the President - 1973-74 (1 of 2)</unittitle>
-					<unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
+					<unitdate normal="1973/1974" type="inclusive">1973-1974</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link40">Dean's Report to the President - 1973-74 (2 of 2)</unittitle>
-					<unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
+					<unitdate normal="1973/1974" type="inclusive">1973-1974</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link41">Dean's Report to the President - 1973-74 (1 of 2)</unittitle>
-					<unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
+					<unitdate normal="1973/1974" type="inclusive">1973-1974</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link42">Dean's Report to the President - 1973-74 (2 of 2)</unittitle>
-					<unitdate type="inclusive" normal="1973/1974">1973-1974</unitdate>
+					<unitdate normal="1973/1974" type="inclusive">1973-1974</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle id="link43">Dean's Report to the President - 1974-175</unittitle>
-					<unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate>
+					<unitdate normal="1974/1975" type="inclusive">1974-1975</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle id="link44">Dean's Report to the President - 1975-76</unittitle>
-					<unitdate type="inclusive" normal="1975/1976">1975-1976</unitdate>
+					<unitdate normal="1975/1976" type="inclusive">1975-1976</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle id="link45">Dean's Report to the President - 1976-77</unittitle>
-					<unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate>
+					<unitdate normal="1976/1977" type="inclusive">1976-1977</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle id="link46">Dean's Report to the President - 1977-78</unittitle>
-					<unitdate type="inclusive" normal="1977/1978">1977-1978</unitdate>
+					<unitdate normal="1977/1978" type="inclusive">1977-1978</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle id="link47">Dean's Report to the President - 1978-79</unittitle>
-					<unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate>
+					<unitdate normal="1978/1979" type="inclusive">1978-1979</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle id="link48">Dean's Report to the President - 1978-79</unittitle>
-					<unitdate type="inclusive" normal="1978/1979">1978-1979</unitdate>
+					<unitdate normal="1978/1979" type="inclusive">1978-1979</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle id="link49">Dean's Report to the President - 1979-1980</unittitle>
-					<unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate>
+					<unitdate normal="1979/1980" type="inclusive">1979-1980</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle id="link50">Dean's Report to the President - 1979-1980</unittitle>
-					<unitdate type="inclusive" normal="1979/1980">1979-1980</unitdate>
+					<unitdate normal="1979/1980" type="inclusive">1979-1980</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle id="link51">Dean's Report to the President - 1980-1981</unittitle>
-					<unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate>
+					<unitdate normal="1980/1981" type="inclusive">1980-1981</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle id="link52">Dean's Report to the President - 1980-1981</unittitle>
-					<unitdate type="inclusive" normal="1980/1981">1980-1981</unitdate>
+					<unitdate normal="1980/1981" type="inclusive">1980-1981</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle id="link53">Dean's Report to the President - 1981-1982</unittitle>
-					<unitdate type="inclusive" normal="1981/1982">1981-1982</unitdate>
+					<unitdate normal="1981/1982" type="inclusive">1981-1982</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle id="link54">Dean's Report to the President - 1984-1985</unittitle>
-					<unitdate type="inclusive" normal="1984/1985">1984-1985</unitdate>
+					<unitdate normal="1984/1985" type="inclusive">1984-1985</unitdate>
 				</did>
 			</c01>
 		</dsc>

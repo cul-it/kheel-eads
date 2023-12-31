@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05360::Buck's Stove and Range Company vs. American Federation of Labor Court  Records.)//EN">KCL05360</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05360::Buck's Stove and Range Company vs. American Federation of Labor Court  Records.)//EN">KCL05360</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the Buck's Stove and Range Company vs. American Federation of
@@ -25,21 +25,27 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>March 11,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
             <titleproper>Guide to the Buck's Stove and Range Company vs. American Federation of
-                Labor Court Records<lb/></titleproper>
+                Labor Court Records</titleproper>
             <num>Collection Number: 5360</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -58,18 +64,18 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">Buck's Stove and Range Company
-                vs. American Federation of Labor Court Records, <unitdate encodinganalog="MARC 245$f">1908-1919</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">Buck's Stove and Range Company
+                vs. American Federation of Labor Court Records, 1908-1919
+            </unittitle><unitdate encodinganalog="MARC 245$f">1908-1919</unitdate>
             <unitid label="Collection Number:">5360</unitid>
             <origination label="Creator:">
                 <corpname encodinganalog="MARC 110" role="creator">Buck's Stove and Range
-                    Company</corpname>;<lb/>
+                    Company</corpname>;
                 <corpname encodinganalog="MARC 110" role="creator"> American Federation of Labor
                     (AFL)</corpname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">1 linear ft.</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">1 linear ft.</physdesc>
             <physdesc label="Forms of Material:">Briefs, transcripts .</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -81,7 +87,7 @@
             </langmaterial>
         <physdesc><extent>1 cubic feet</extent></physdesc></did>
         <bioghist encodinganalog="MARC 545">
-            <head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+            
             <p>In a six-year legal battle ending in the U.S. Supreme Court, the Buck's Stove and
                 Range Company sought, and ultimatly failed, to have an American Federation of Labor
                 boycott declared illegal on the grounds of anti-trust law. </p>
@@ -98,7 +104,7 @@
                 Court overruled the contempt charge on a technicality (1913).</p>
         </bioghist>
         <scopecontent encodinganalog="MARC 520">
-            <head id="a3">COLLECTION DESCRIPTION</head>
+            
             <p>Legal documents filed before the Supreme Court of the District of Columbia include:
                 application fo a temporary restraining order against the defendants (Samuel Gompers,
                 Frank Morrison, and John Mitchell); petition to have defendents ruled in contempt;
@@ -122,9 +128,9 @@
                 Gompers, Morrison, and Mitchell guilty of contempt (n.d.).</p>
         </scopecontent>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <persname encodinganalog="MARC 600">Gompers, Samuel, 1850-1924. </persname>
                 <persname encodinganalog="MARC 600">Mitchell, John, 1870-1919. </persname>
                 <persname encodinganalog="MARC 600">Morrison, Frank, 1859-1949. </persname>
@@ -133,7 +139,7 @@
                 <corpname encodinganalog="MARC 610">American Federation of Labor </corpname>
             </controlaccess>
             <controlaccess>
-                <head>Subjects: </head>
+                
                 <subject encodinganalog="MARC 690">Antitrust law--United States. </subject>
                 <subject encodinganalog="MARC 690">Boycott--United States. </subject>
                 <subject encodinganalog="MARC 690">Labor laws and legislation--United
@@ -143,30 +149,30 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>Buck's Stove and Range Company vs. American Federation of Labor Court Records
                     #5360. Kheel Center for Labor-Management Documentation and Archives, Cornell
                     University Library.</p>
             </prefercite>
         </descgrp>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link8">Decision of Justice Wright in contempt proceedings against
                         Samuel Gompers, Frank Morrison and John Mitchell, adjudging them guilty of
                         contempt of court and imposing sentence thereof; together with newspaper
@@ -179,40 +185,40 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link9">Brief for Appellee</unittitle>
                     <unitdate normal="1909">1909</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link10">Brief for respondent</unittitle>
                     <unitdate normal="1910">1910</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link11">Motion of consolidate and advance</unittitle>
                     <unitdate normal="1909">1909</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link12">Brief for the Buck's Stove and Range Company</unittitle>
                     <unitdate normal="1910">1910</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link13">Arguments in contempt proceeding</unittitle>
                     <unitdate normal="1909">1909</unitdate>
                 </did>
@@ -222,8 +228,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link14">Copies of Affidavits filed in court by plaintiffs for use
                         on hearing of application for a temporary injunction</unittitle>
                     <unitdate normal="1909">1909</unitdate>
@@ -231,31 +237,31 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link15">Application for a temporary injunction</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link16">Brief for the appellee</unittitle>
                     <unitdate normal="1908">1908</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link17">Supplemental brief for the appellee</unittitle>
                     <unitdate normal="1908">1908</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link18">Supplemental and reply brief for appellant in No. 190,
                         respondent in no. 372, and appellee in no. 394</unittitle>
                     <unitdate normal="1910">1910</unitdate>
@@ -263,16 +269,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link19">Transcript of record</unittitle>
                     <unitdate normal="1909">1909</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link20">Petition to have Samuel Gompers, Frank Morrison and John
                         Mitchell, defendants, adjudged guilty of contempt</unittitle>
                     <unitdate normal="1908">1908</unitdate>
@@ -280,8 +286,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">14</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">14</container>
                     <unittitle id="link21">Arguments of Daniel Davenport, Esq., General Counsel of
                         the American Anti-Boycott Association in support of the decision of Judge
                         Wright adjudging Samuel Gompers et al. guilty of contempt of court, and
@@ -294,8 +300,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">15</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">15</container>
                     <unittitle id="link22">Arguments in support of petition to have Samuel Gompers,
                         Frank Morrison and John Mitchell, defendants, adjudged guilty of
                         contempt</unittitle>
@@ -307,8 +313,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">16</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">16</container>
                     <unittitle id="link23">Appeal from the Supreme Court of the District of
                         Columbia</unittitle>
                     <unitdate normal="1909">1909</unitdate>
@@ -316,16 +322,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">17</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">17</container>
                     <unittitle id="link24">Brief by committee</unittitle>
                     <unitdate normal="1913">1913</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">18</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">18</container>
                     <unittitle id="link25">Supplemental and reply brief for appellant in no. 190,
                         respondent in no. 372, and appellee in no. 394</unittitle>
                     <unitdate normal="1919">1919</unitdate>

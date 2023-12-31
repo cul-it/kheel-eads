@@ -1,10 +1,10 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05619-003::ACWA's Sidney Hillman Scrapbooks)//EN">KCL05619-003</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05619-003::ACWA's Sidney Hillman Scrapbooks)//EN">KCL05619-003</eadid>
 		<filedesc>
 			<titlestmt>
-				<titleproper>Guide to the ACWA's Sidney Hillman Scrapbooks<date/></titleproper>
+				<titleproper>Guide to the ACWA's Sidney Hillman Scrapbooks</titleproper>
 				<titleproper type="sort">ACWA's Sidney Hillman Scrapbooks</titleproper>
 				<author>Compiled by R. Miles</author>
 			</titlestmt>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by MarcEdit, Ead McTaggart, and Randall Miles, <date>July 01, 2010</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the ACWA's Sidney Hillman Scrapbooks,<lb/><date type="inclusive" encodinganalog="245$g"> 1910-1964</date></titleproper>
-			<num type="kidb_reference_number" id="kc2757">Collection Number: 5619/003</num>
-			<publisher>Kheel Center for Labor-Management Documentation and Archives <lb/>Cornell University Library</publisher>
+			<titleproper>Guide to the ACWA's Sidney Hillman Scrapbooks,<date encodinganalog="245$g" type="inclusive"> 1910-1964</date></titleproper>
+			<num id="kc2757" type="kidb_reference_number">Collection Number: 5619/003</num>
+			<publisher>Kheel Center for Labor-Management Documentation and Archives Cornell University Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183<lb/><extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/><extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref><lb/></item>
+					<item> Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183<extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -50,11 +56,11 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">ACWA's Sidney Hillman Scrapbooks, <unitdate encodinganalog="MARC 245" type="inclusive">1910-1964</unitdate></unittitle>
+			
+			<unittitle encodinganalog="MARC 245" label="Title:">ACWA's Sidney Hillman Scrapbooks, 1910-1964</unittitle><unitdate encodinganalog="MARC 245" type="inclusive">1910-1964</unitdate>
 			<unitid label="Collection Number:">5619/003</unitid>
 			<origination label="Creator:"><corpname encodinganalog="MARC 110">Amalgamated Clothing Workers of America</corpname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">18 linear feet</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">18 linear feet</physdesc>
 			<physdesc label="Forms of Material:">Photograph albums, Scrapbooks, News clippings.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library</repository>
 			<abstract label="Abstract:">This collection consists of photograph albums and scrapbooks documenting strikes, organizing campaigns, and 
@@ -62,7 +68,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language> and <language encodinganalog="041" langcode="eng">Yiddish</language></langmaterial>
 		<physdesc><extent>21.67 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="organization">ACWA/ACTWU ORGANIZATIONAL HISTORY</head>
+			
 			<p>The Amalgamated Clothing Workers of America, the most significant union representing workers in the men's clothing industry, was founded in 
 				New York City in 1914 as a breakaway movement from the United Garment Workers. Radical and immigrant workers in the tailors’ and cutters’ locals 
 				were the core of the seceding group, which advocated industrial unionism and economic strikes in opposition to the UGW’s craft organization, which 
@@ -106,9 +112,9 @@
 				The new Union of Needletrades, Industrial and Textile Employees (UNITE!) seemed poised to infuse new life in a troubled union.</p>
 		</bioghist>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<corpname encodinganalog="MARC 110">Amalgamated Clothing Workers of America</corpname>
 				<persname encodinganalog="MARC 600">Hillman, Sidney, 1887-1946</persname>
 				<persname encodinganalog="MARC 600">Potofsky, Jacob, 1892-1979</persname>
@@ -119,45 +125,45 @@
 				<corpname encodinganalog="MARC 610">UNITE HERE (Organization) --Archives</corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects:</head>
+				
 				<subject encodinganalog="MARC 650">Textile workers--Labor unions--New York (State)</subject>
 				<subject encodinganalog="MARC 650">Clothing workers--Labor unions--New York (State)</subject>
 			</controlaccess>
 			<controlaccess>
-				<head>Form and Genre Terms:</head>
+				
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>ACWA's Sidney Hillman Scrapbooks #5619/003. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
-			<p>Related collections:<lb/>
+			
+			<p>Related collections:
 				<extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05619.html">
-					5619: Amalgamated Clothing Workers of America</extref><lb/>
+					5619: Amalgamated Clothing Workers of America</extref>
 				<extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05619-005.html">
-					5619/005: ACWA's Bessie Hillman Papers</extref><lb/>
+					5619/005: ACWA's Bessie Hillman Papers</extref>
 				<extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05619-010.html">
-					5619/010: ACWA's Jacob Potofsky Records from the President's Office</extref><lb/>
+					5619/010: ACWA's Jacob Potofsky Records from the President's Office</extref>
 				And all other 5619 collections.</p>
 		</relatedmaterial>
         <dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">22</container>
+					<container label="unspecified" type="box">22</container>
 					<unittitle>Federation of Jewish Charities</unittitle>
 					<unitdate normal="1941">1941</unitdate>
 				</did>
@@ -167,7 +173,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
+					<container label="unspecified" type="box">23</container>
 					<unittitle>Dinner for David Drechsler</unittitle>
 					<unitdate normal="1947">1947</unitdate>
 				</did>
@@ -177,9 +183,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">24</container>
+					<container label="unspecified" type="box">24</container>
 					<unittitle>Jacob S. Potofsky</unittitle>
-					<unitdate type="inclusive" normal="1947/1948">1947-1948</unitdate>
+					<unitdate normal="1947/1948" type="inclusive">1947-1948</unitdate>
 				</did>
 				<scopecontent>
 					<p>Photo Album, Vol. 3.</p>
@@ -187,7 +193,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">25</container>
+					<container label="unspecified" type="box">25</container>
 					<unittitle>Jacob S. Potofsky</unittitle>
 					<unitdate normal="1949">1949</unitdate>
 				</did>
@@ -197,7 +203,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">26</container>
+					<container label="unspecified" type="box">26</container>
 					<unittitle>Jacob S. Potofsky</unittitle>
 					<unitdate normal="1950">1950</unitdate>
 				</did>
@@ -207,9 +213,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">27</container>
+					<container label="unspecified" type="box">27</container>
 					<unittitle>Jacob S. Potofsky</unittitle>
-					<unitdate type="inclusive" normal="1950/1951">1950-1951</unitdate>
+					<unitdate normal="1950/1951" type="inclusive">1950-1951</unitdate>
 				</did>
 				<scopecontent>
 					<p>Photo Album, Vol. 6.</p>
@@ -217,9 +223,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">28</container>
+					<container label="unspecified" type="box">28</container>
 					<unittitle>Jacob S. Potofsky</unittitle>
-					<unitdate type="inclusive" normal="1951/9153">1951-9153</unitdate>
+					<unitdate normal="1951/9153" type="inclusive">1951-9153</unitdate>
 				</did>
 				<scopecontent>
 					<p>Photo Album, Vol. 7.</p>
@@ -227,9 +233,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">29</container>
+					<container label="unspecified" type="box">29</container>
 					<unittitle>Jacob S. Potofsky</unittitle>
-					<unitdate type="inclusive" normal="1954/1958">1954-1958</unitdate>
+					<unitdate normal="1954/1958" type="inclusive">1954-1958</unitdate>
 				</did>
 				<scopecontent>
 					<p>Photo Album, Vol. 8.</p>
@@ -237,9 +243,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">30</container>
+					<container label="unspecified" type="box">30</container>
 					<unittitle>Jacob S. Potofsky</unittitle>
-					<unitdate type="inclusive" normal="1957/1959">1957-1959</unitdate>
+					<unitdate normal="1957/1959" type="inclusive">1957-1959</unitdate>
 				</did>
 				<scopecontent>
 					<p>Photo Album, Vol. 9.</p>
@@ -247,9 +253,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">31</container>
+					<container label="unspecified" type="box">31</container>
 					<unittitle>Latin American Committee, CIO</unittitle>
-					<unitdate type="inclusive" normal="1946/1954">1946-1954</unitdate>
+					<unitdate normal="1946/1954" type="inclusive">1946-1954</unitdate>
 				</did>
 				<scopecontent>
 					<p>Photo Album, Vol. 10.</p>
@@ -257,7 +263,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">32</container>
+					<container label="unspecified" type="box">32</container>
 					<unittitle>Silver Jubilee</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 				</did>
@@ -267,7 +273,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">33</container>
+					<container label="unspecified" type="box">33</container>
 					<unittitle>15th Biennial Convention, ACWA</unittitle>
 					<unitdate normal="1946">1946</unitdate>
 				</did>
@@ -277,7 +283,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">34</container>
+					<container label="unspecified" type="box">34</container>
 					<unittitle>16th Biennial Convention, ACWA</unittitle>
 					<unitdate normal="1948">1948</unitdate>
 				</did>
@@ -287,7 +293,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">35</container>
+					<container label="unspecified" type="box">35</container>
 					<unittitle>17th Biennial Convention, ACWA</unittitle>
 					<unitdate normal="1950">1950</unitdate>
 				</did>
@@ -297,7 +303,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">36</container>
+					<container label="unspecified" type="box">36</container>
 					<unittitle>18th Biennial Convention, ACWA</unittitle>
 					<unitdate normal="1952">1952</unitdate>
 				</did>
@@ -307,7 +313,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">37</container>
+					<container label="unspecified" type="box">37</container>
 					<unittitle>19th Biennial Convention, 40th Anniversary, ACWA</unittitle>
 					<unitdate normal="1954">1954</unitdate>
 				</did>
@@ -317,7 +323,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">38</container>
+					<container label="unspecified" type="box">38</container>
 					<unittitle>20th Biennial Convention, ACWA</unittitle>
 					<unitdate normal="1956">1956</unitdate>
 				</did>
@@ -327,7 +333,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">39</container>
+					<container label="unspecified" type="box">39</container>
 					<unittitle>21st Biennial Convention, ACWA</unittitle>
 					<unitdate normal="1958">1958</unitdate>
 				</did>
@@ -337,7 +343,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">40</container>
+					<container label="unspecified" type="box">40</container>
 					<unittitle>22nd Biennial Convention, ACWA</unittitle>
 					<unitdate normal="1960">1960</unitdate>
 				</did>
@@ -347,7 +353,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">41</container>
+					<container label="unspecified" type="box">41</container>
 					<unittitle>23rd Biennial Convention, ACWA</unittitle>
 					<unitdate normal="1962">1962</unitdate>
 				</did>
@@ -357,7 +363,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">42</container>
+					<container label="unspecified" type="box">42</container>
 					<unittitle>30th Anniversary, Pennsylvania Joint Board. Honoring David Monas, August 24, 1963.</unittitle>
 					<unitdate normal="1963">1963</unitdate>
 				</did>
@@ -367,7 +373,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">43</container>
+					<container label="unspecified" type="box">43</container>
 					<unittitle>Chicago strike</unittitle>
 					<unitdate normal="1915">1915</unitdate>
 				</did>
@@ -377,9 +383,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">44</container>
+					<container label="unspecified" type="box">44</container>
 					<unittitle>ACWA clippings</unittitle>
-					<unitdate type="inclusive" normal="1920/1921">1920-1921</unitdate>
+					<unitdate normal="1920/1921" type="inclusive">1920-1921</unitdate>
 				</did>
 				<scopecontent>
 					<p>Scrapbook, Vol. 23.</p>
@@ -387,7 +393,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">45</container>
+					<container label="unspecified" type="box">45</container>
 					<unittitle>ACWA clippings</unittitle>
 					<unitdate normal="1921">1921</unitdate>
 				</did>
@@ -397,7 +403,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">46</container>
+					<container label="unspecified" type="box">46</container>
 					<unittitle>St. Louis strike</unittitle>
 					<unitdate normal="1933">1933</unitdate>
 				</did>
@@ -407,9 +413,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">47</container>
+					<container label="unspecified" type="box">47</container>
 					<unittitle>Leo Wolman</unittitle>
-					<unitdate type="inclusive" normal="1914/1933">1914-1933</unitdate>
+					<unitdate normal="1914/1933" type="inclusive">1914-1933</unitdate>
 				</did>
 				<scopecontent>
 					<p>Scrapbook, no number</p>
@@ -417,7 +423,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">48</container>
+					<container label="unspecified" type="box">48</container>
 					<unittitle>Baltimore strike</unittitle>
 					<unitdate normal="1932">1932</unitdate>
 				</did>
@@ -427,7 +433,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">49</container>
+					<container label="unspecified" type="box">49</container>
 					<unittitle>Baltimore strike</unittitle>
 					<unitdate normal="1932">1932</unitdate>
 				</did>
@@ -437,9 +443,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">50</container>
+					<container label="unspecified" type="box">50</container>
 					<unittitle>Jacob S. Potofsky</unittitle>
-					<unitdate type="inclusive" normal="1940/1945">1940-1945</unitdate>
+					<unitdate normal="1940/1945" type="inclusive">1940-1945</unitdate>
 				</did>
 				<scopecontent>
 					<p>Scrapbook, Vol. 35.</p>
@@ -447,9 +453,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">51</container>
+					<container label="unspecified" type="box">51</container>
 					<unittitle>American Labor Party, ALP</unittitle>
-					<unitdate type="inclusive" normal="1936/1944">1936-1944</unitdate>
+					<unitdate normal="1936/1944" type="inclusive">1936-1944</unitdate>
 				</did>
 				<scopecontent>
 					<p>Scrapbook, Vol. 38.</p>
@@ -457,9 +463,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">52</container>
+					<container label="unspecified" type="box">52</container>
 					<unittitle>Amalgamated Clothing Workers of America</unittitle>
-					<unitdate type="inclusive" normal="1936/1938">1936-1938</unitdate>
+					<unitdate normal="1936/1938" type="inclusive">1936-1938</unitdate>
 				</did>
 				<scopecontent>
 					<p>Scrapbook, Vol. 33. English and Yiddish</p>
@@ -467,7 +473,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">53</container>
+					<container label="unspecified" type="box">53</container>
 					<unittitle>Partners in Progress. Report of the International Advisory Board, March 1951</unittitle>
 					<unitdate normal="1951">1951</unitdate>
 				</did>
@@ -477,7 +483,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">54</container>
+					<container label="unspecified" type="box">54</container>
 					<unittitle>Press Book 1: General Magazines and Labor Press</unittitle>
 					<unitdate normal="1964">1964</unitdate>
 				</did>
@@ -487,7 +493,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">55</container>
+					<container label="unspecified" type="box">55</container>
 					<unittitle>Press Book 2: Newspapers</unittitle>
 					<unitdate normal="1964">1964</unitdate>
 				</did>
@@ -497,9 +503,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">56</container>
+					<container label="unspecified" type="box">56</container>
 					<unittitle>Sidney Hillman: With Love and Devotion</unittitle>
-					<unitdate type="inclusive" normal="1910/1921">1910-1921</unitdate>
+					<unitdate normal="1910/1921" type="inclusive">1910-1921</unitdate>
 				</did>
 				<scopecontent>
 					<p>Red Book. Vol. 1. English and Yiddish</p>
@@ -507,9 +513,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">57</container>
+					<container label="unspecified" type="box">57</container>
 					<unittitle>Sidney Hillman: The Statesman of the New Industrial Order</unittitle>
-					<unitdate type="inclusive" normal="1921/1924">1921-1924</unitdate>
+					<unitdate normal="1921/1924" type="inclusive">1921-1924</unitdate>
 				</did>
 				<scopecontent>
 					<p>Red Book. Vol. 2. English and Yiddish</p>
@@ -517,9 +523,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">58</container>
+					<container label="unspecified" type="box">58</container>
 					<unittitle>Sidney Hillman: The Statesman of the New Industrial Order</unittitle>
-					<unitdate type="inclusive" normal="1924/1928">1924-1928</unitdate>
+					<unitdate normal="1924/1928" type="inclusive">1924-1928</unitdate>
 				</did>
 				<scopecontent>
 					<p>Red Book. Vol. 3. English and Yiddish</p>
@@ -527,9 +533,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">59</container>
+					<container label="unspecified" type="box">59</container>
 					<unittitle>Sidney Hillman: The Statesman of the New Industrial Order</unittitle>
-					<unitdate type="inclusive" normal="1929/1932">1929-1932</unitdate>
+					<unitdate normal="1929/1932" type="inclusive">1929-1932</unitdate>
 				</did>
 				<scopecontent>
 					<p>Red Book. Vol. 4. English and Yiddish</p>
@@ -537,9 +543,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">60</container>
+					<container label="unspecified" type="box">60</container>
 					<unittitle>Sidney Hillman: The Statesman of the New Industrial Order</unittitle>
-					<unitdate type="inclusive" normal="1933/1935">1933-1935</unitdate>
+					<unitdate normal="1933/1935" type="inclusive">1933-1935</unitdate>
 				</did>
 				<scopecontent>
 					<p>Red Book. Vol. 5.</p>
@@ -547,9 +553,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">61</container>
+					<container label="unspecified" type="box">61</container>
 					<unittitle>Sidney Hillman: The Statesman of the New Industrial Order</unittitle>
-					<unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate>
+					<unitdate normal="1936/1937" type="inclusive">1936-1937</unitdate>
 				</did>
 				<scopecontent>
 					<p>Red Book. Vol. 6.</p>
@@ -557,9 +563,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">62</container>
+					<container label="unspecified" type="box">62</container>
 					<unittitle>Sidney Hillman: The Statesman of the New Industrial Order</unittitle>
-					<unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate>
+					<unitdate normal="1938/1939" type="inclusive">1938-1939</unitdate>
 				</did>
 				<scopecontent>
 					<p>Red Book. Vol. 7.</p>
@@ -567,9 +573,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">63</container>
+					<container label="unspecified" type="box">63</container>
 					<unittitle>Sidney Hillman: The Statesman of the New Industrial Order</unittitle>
-					<unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
+					<unitdate normal="1940/1941" type="inclusive">1940-1941</unitdate>
 				</did>
 				<scopecontent>
 					<p>Red Book. Vol. 8.</p>
@@ -577,9 +583,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">64</container>
+					<container label="unspecified" type="box">64</container>
 					<unittitle>Sidney Hillman: The Statesman of the New Industrial Order</unittitle>
-					<unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate>
+					<unitdate normal="1942/1943" type="inclusive">1942-1943</unitdate>
 				</did>
 				<scopecontent>
 					<p>Red Book. Vol. 9.</p>
@@ -587,7 +593,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">65</container>
+					<container label="unspecified" type="box">65</container>
 					<unittitle>Sidney Hillman: The Statesman of the New Industrial Order</unittitle>
 					<unitdate normal="1944">1944</unitdate>
 				</did>
@@ -597,7 +603,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">66</container>
+					<container label="unspecified" type="box">66</container>
 					<unittitle>Sidney Hillman: The Statesman of the New Industrial Order</unittitle>
 					<unitdate normal="1944">1944</unitdate>
 				</did>
@@ -607,9 +613,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">67</container>
+					<container label="unspecified" type="box">67</container>
 					<unittitle>Sidney Hillman: The Statesman of the New Industrial Order</unittitle>
-					<unitdate type="inclusive" normal="1945/1946">1945-1946</unitdate>
+					<unitdate normal="1945/1946" type="inclusive">1945-1946</unitdate>
 				</did>
 				<scopecontent>
 					<p>Red Book. Vol. 11.</p>
@@ -617,7 +623,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">68</container>
+					<container label="unspecified" type="box">68</container>
 					<unittitle>In Memory of Sidney Hillman: The Statesman of the New Industrial Order</unittitle>
 					<unitdate normal="1946">1946</unitdate>
 				</did>
@@ -627,9 +633,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">69</container>
+					<container label="unspecified" type="box">69</container>
 					<unittitle>Amalgamated Clothing Workers of America: The Record from the Press</unittitle>
-					<unitdate type="inclusive" normal="1946/1950">1946-1950</unitdate>
+					<unitdate normal="1946/1950" type="inclusive">1946-1950</unitdate>
 				</did>
 				<scopecontent>
 					<p>Red Book. Vol. 13.</p>
@@ -637,9 +643,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">70</container>
+					<container label="unspecified" type="box">70</container>
 					<unittitle>Amalgamated Clothing Workers of America: The Record from the Press</unittitle>
-					<unitdate type="inclusive" normal="1951/1952">1951-1952</unitdate>
+					<unitdate normal="1951/1952" type="inclusive">1951-1952</unitdate>
 				</did>
 				<scopecontent>
 					<p>Red Book. Vol. 14.</p>
@@ -647,9 +653,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">71</container>
+					<container label="unspecified" type="box">71</container>
 					<unittitle>Amalgamated Clothing Workers of America: The Record from the Press</unittitle>
-					<unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>
+					<unitdate normal="1953/1954" type="inclusive">1953-1954</unitdate>
 				</did>
 				<scopecontent>
 					<p>Red Book. Vol. 15.</p>
@@ -657,9 +663,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">72</container>
+					<container label="unspecified" type="box">72</container>
 					<unittitle>Amalgamated Clothing Workers of America: The Record from the Press</unittitle>
-					<unitdate type="inclusive" normal="1955/1956">1955-1956</unitdate>
+					<unitdate normal="1955/1956" type="inclusive">1955-1956</unitdate>
 				</did>
 				<scopecontent>
 					<p>Red Book. Vol. 16.</p>
@@ -667,9 +673,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">73</container>
+					<container label="unspecified" type="box">73</container>
 					<unittitle>Amalgamated Clothing Workers of America: The Record from the Press</unittitle>
-					<unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
+					<unitdate normal="1957/1958" type="inclusive">1957-1958</unitdate>
 				</did>
 				<scopecontent>
 					<p>Red Book. Vol. 17.</p>
@@ -677,9 +683,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">74</container>
+					<container label="unspecified" type="box">74</container>
 					<unittitle>Amalgamated Clothing Workers of America</unittitle>
-					<unitdate type="inclusive" normal="1959/1961">1959-1961</unitdate>
+					<unitdate normal="1959/1961" type="inclusive">1959-1961</unitdate>
 				</did>
 				<scopecontent>
 					<p>AMSL. Scrapbook.</p>
@@ -687,9 +693,9 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">75</container>
+					<container label="unspecified" type="box">75</container>
 					<unittitle>ACWA clippings</unittitle>
-					<unitdate type="inclusive" normal="1934/1936">1934-1936</unitdate>
+					<unitdate normal="1934/1936" type="inclusive">1934-1936</unitdate>
 				</did>
 				<scopecontent>
 					<p>Scrapbook. Vol. 32.</p>

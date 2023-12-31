@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05152::Lewis L. Lorwin Papers.)//EN">KCL05152</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05152::Lewis L. Lorwin Papers.)//EN">KCL05152</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the Lewis L. Lorwin Papers<date>
@@ -24,20 +24,26 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>March 07,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
-            <titleproper>Guide to the Lewis L. Lorwin Papers<lb/></titleproper>
+            <titleproper>Guide to the Lewis L. Lorwin Papers</titleproper>
             <num>Collection Number: 5152</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -56,14 +62,14 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">Lewis L. Lorwin Papers, <unitdate encodinganalog="MARC 245$f">1952-1962</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">Lewis L. Lorwin Papers, 1952-1962
+            </unittitle><unitdate encodinganalog="MARC 245$f">1952-1962</unitdate>
             <unitid label="Collection Number:">5152</unitid>
             <origination label="Creator:">
                 <persname encodinganalog="MARC 100" role="creator">Lorwin, Lewis L.</persname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">2 linear ft.</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">2 linear ft.</physdesc>
             <physdesc label="Forms of Material:">Reports .</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -75,7 +81,7 @@
             </langmaterial>
         <physdesc><extent>2 cubic feet</extent></physdesc></did>
         <bioghist encodinganalog="MARC 545">
-            <head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+            
             <p>Lewis Lorwin was an economist and labor historian, who over the course of his career,
                 worked as economic advisor to the International Labor Office, the New York State
                 Labor Department, the National Resources Planning Board, and the Foreign Economic
@@ -83,7 +89,7 @@
                 of International Trade of the Department of Commerce.</p>
         </bioghist>
         <scopecontent encodinganalog="MARC 520">
-            <head id="a3">COLLECTION DESCRIPTION</head>
+            
             <p>Consist chiefly of reports and agenda of the International Confederation of Free
                 Trade Unions (ICFTU) held in Brussels and New York, 1949-1962, which deal with
                 nuclear warfare and universal disarmament, World Refugee Year (1959), foreign
@@ -118,9 +124,9 @@
             <p>Also scattered holograph notes.</p>
         </scopecontent>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <persname encodinganalog="MARC 600">Lorwin, Lewis Levitzki, 1883-1970 </persname>
                 <persname encodinganalog="MARC 600">Marshall, George C. (George Catlett), 1880-1959 </persname>
                 <persname encodinganalog="MARC 600">Patterson, Robert P. (Robert Porter), 1891-1952 </persname>
@@ -131,7 +137,7 @@
                 <corpname encodinganalog="MARC 610">World Federation of Trade Unions. </corpname>
             </controlaccess>
             <controlaccess>
-                <head>Subjects: </head>
+                
                 <subject encodinganalog="MARC 650">Atomic weapons and disarmament. </subject>
                 <subject encodinganalog="MARC 650">Atomic power--International control. </subject>
                 <subject encodinganalog="MARC 650">Nuclear disarmament. </subject>
@@ -188,7 +194,7 @@
                 <subject encodinganalog="MARC 690">Steel industry. Europe. </subject>
             </controlaccess>
             <controlaccess>
-                <head>Geographic Subjects: </head>
+                
                 <subject encodinganalog="MARC 651">Berlin (Germany) -- History -- 1945-1990 </subject>
                 <subject encodinganalog="MARC 651">Germany--History--Allied occupation, 1945- </subject>
                 <subject encodinganalog="MARC 651">Hungary--History--Revolution, 1956. </subject>
@@ -201,329 +207,329 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>Lewis L. Lorwin Papers #5152. Kheel Center for Labor-Management Documentation and
                     Archives, Cornell University Library.</p>
             </prefercite>
         </descgrp>
         <relatedmaterial>
-            <head id="a6">RELATED MATERIALS</head>
-            <p>Related Collections:<lb/>
+            
+            <p>Related Collections:
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05582.html"> 5582:
-                    Archives Foreign File (AFF)</extref><lb/>
+                    Archives Foreign File (AFF)</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05956.html"> 5956:
-                    Archives Organization File Additional records</extref><lb/>
+                    Archives Organization File Additional records</extref>
             </p>
         </relatedmaterial>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link8">ICTFU Executive Board Minutes (folder 1 of 2)</unittitle>
                     <unitdate normal="1952">1952</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link9">ICTFU Executive Board Minutes (folder 2 of 2)</unittitle>
                     <unitdate normal="1952">1952</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link10">ICTFU Executive Board Minutes</unittitle>
                     <unitdate normal="1954">1954</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link11">ICTFU Executive Board Minutes (folder 1 of 4)</unittitle>
                     <unitdate normal="1955">1955</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link12">ICTFU Executive Board Minutes (folder 2 of 4)</unittitle>
                     <unitdate normal="1955">1955</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link13">ICTFU Executive Board Minutes (folder 3 of 4)</unittitle>
                     <unitdate normal="1955">1955</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link14">ICTFU Executive Board Minutes (folder 4 of 4)</unittitle>
                     <unitdate normal="1955">1955</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link15">ICTFU Executive Board Minutes (folder 1 of 3)</unittitle>
                     <unitdate normal="1956">1956</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link16">ICTFU Executive Board Minutes (folder 2 of 3)</unittitle>
                     <unitdate normal="1956">1956</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link17">ICTFU Executive Board Minutes (folder 3 of 3)</unittitle>
                     <unitdate normal="1956">1956</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link18">ICTFU Executive Board Minutes (folder 1 of 3)</unittitle>
                     <unitdate normal="1957">1957</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link19">ICTFU Executive Board Minutes (folder 2 of 3)</unittitle>
                     <unitdate normal="1957">1957</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link20">ICTFU Executive Board Minutes (folder 3 of 3)</unittitle>
                     <unitdate normal="1957">1957</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link21">ICTFU Executive Board Minutes (folder 1 of 4)</unittitle>
                     <unitdate normal="1958">1958</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link22">ICTFU Executive Board Minutes (folder 2 of 4)</unittitle>
                     <unitdate normal="1958">1958</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link23">ICTFU Executive Board Minutes (folder 3 of 4)</unittitle>
                     <unitdate normal="1958">1958</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link24">ICTFU Executive Board Minutes (folder 4 of 4)</unittitle>
                     <unitdate normal="1958">1958</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link25">ICTFU Executive Board Minutes (folder 1 of 2)</unittitle>
                     <unitdate normal="1959">1959</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link26">ICTFU Executive Board Minutes (folder 2 of 2)</unittitle>
                     <unitdate normal="1959">1959</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link27">ICTFU Executive Board Minutes (folder 1 of 2)</unittitle>
                     <unitdate normal="1960">1960</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link28">ICTFU Executive Board Minutes (folder 2 of 2)</unittitle>
                     <unitdate normal="1960">1960</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link29">ICTFU Executive Board Minutes (folder 1 of 2)</unittitle>
                     <unitdate normal="1961">1961</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link30">ICTFU Executive Board Minutes (folder 2 of 2)</unittitle>
                     <unitdate normal="1961">1961</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">2</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link31">ICTFU Executive Board Minutes</unittitle>
                     <unitdate normal="1962">1962</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link32">AFL Abroad</unittitle>
                     <unitdate normal="1947">1947</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link33">Communism</unittitle>
                     <unitdate normal="1956">1956</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link34">Communism</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link35">CIO Abroad</unittitle>
                     <unitdate normal="1947">1947</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link36">CIO Abroad</unittitle>
                     <unitdate normal="1948">1948</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link37">Labor Abroad Miscellaneous</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link38">Labor and The Economic Cooperation
                         Administration</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link39">WFTU</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">9</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">9</container>
                     <unittitle id="link40">WFTU - Background and Organization</unittitle>
-                    <unitdate type="inclusive" normal="1941/1945">1941-1945</unitdate>
+                    <unitdate normal="1941/1945" type="inclusive">1941-1945</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">10</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">10</container>
                     <unittitle id="link41">WFTU Communism</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">11</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">11</container>
                     <unittitle id="link42">WFTU</unittitle>
-                    <unitdate type="inclusive" normal="1945/1948">1945-1948</unitdate>
+                    <unitdate normal="1945/1948" type="inclusive">1945-1948</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">12</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">12</container>
                     <unittitle id="link43">World War II and After</unittitle>
-                    <unitdate type="inclusive" normal="1939/1951">1939-1951</unitdate>
+                    <unitdate normal="1939/1951" type="inclusive">1939-1951</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
-                    <container type="folder">13</container>
+                    <container label="unspecified" type="box">3</container>
+                    <container label="unspecified" type="folder">13</container>
                     <unittitle id="link44">ICFTU Info Bulletin</unittitle>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link45">Provisonal Report of the 2nd WFTU Enquiry Commission on
                         the Situation in Germany</unittitle>
                     <unitdate normal="1947">1947</unitdate>
@@ -534,8 +540,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link46">Federation of the Coal Industry in the World</unittitle>
                     <unitdate normal="1947">1947</unitdate>
                 </did>
@@ -547,8 +553,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link47">Columbia University Seminar on Labor</unittitle>
                     <unitdate normal="1965">1965</unitdate>
                 </did>
@@ -558,18 +564,18 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link48">Newsletters</unittitle>
-                    <unitdate type="inclusive" normal="1957/1971">1957-1971</unitdate>
+                    <unitdate normal="1957/1971" type="inclusive">1957-1971</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">5</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">5</container>
                     <unittitle id="link49">Socialist International Information</unittitle>
-                    <unitdate type="inclusive" normal="1951/1957">1951-1957</unitdate>
+                    <unitdate normal="1951/1957" type="inclusive">1951-1957</unitdate>
                 </did>
                 <scopecontent>
                     <p>v.1:no.29-30 (1951: July 21). Includes correspondence from May 13, 1957</p>
@@ -577,16 +583,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">6</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">6</container>
                     <unittitle id="link50">ICFTU Constitution and other publications</unittitle>
-                    <unitdate type="inclusive" normal="1949/1958">1949-1958</unitdate>
+                    <unitdate normal="1949/1958" type="inclusive">1949-1958</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">7</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">7</container>
                     <unittitle id="link51">Third World Trade Union Congress</unittitle>
                     <unitdate normal="1953">1953</unitdate>
                 </did>
@@ -596,16 +602,16 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
-                    <container type="folder">8</container>
+                    <container label="unspecified" type="box">4</container>
+                    <container label="unspecified" type="folder">8</container>
                     <unittitle id="link52">Reprints of Articles by Lewis L. Lorwin and his son Val
                         R. Lorwin</unittitle>
-                    <unitdate type="inclusive" normal="1936/1953">1936-1953</unitdate>
+                    <unitdate normal="1936/1953" type="inclusive">1936-1953</unitdate>
                 </did>
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
+                    <container label="unspecified" type="box">5</container>
                     <unittitle id="link53">Text digitized from the collection.</unittitle>
                 </did>
             </c01>

@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
- <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-  <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06036-019::Hourwich, Isaac A. Collection..)//EN">KCL06036-019</eadid>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06036-019::Hourwich, Isaac A. Collection..)//EN">KCL06036-019</eadid>
   <filedesc>
    <titlestmt>
     <titleproper>Guide to the Hourwich, Isaac A. Collection.<date> 1897-1917</date></titleproper>
@@ -23,20 +23,26 @@
    <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kathryn Dowgiewicz, <date>January 10,
      2013</date></creation>
   </profiledesc>
- </eadheader>
+ <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
  <frontmatter>
   <titlepage>
-   <titleproper>Guide to the Hourwich, Isaac A. Collection.<lb/></titleproper>
-   <num type="kidb_reference_number" id="kc447">Collection Number: 6036/019</num>
+   <titleproper>Guide to the Hourwich, Isaac A. Collection.</titleproper>
+   <num id="kc447" type="kidb_reference_number">Collection Number: 6036/019</num>
    <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University
     Library </publisher>
    <list type="deflist">
     <defitem>
      <label>Contact Information:</label>
-     <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood
-      Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607)
-      255-3183<lb/>
-      <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+     <item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood
+      Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607)
+      255-3183
+      <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 <extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref>
      </item>
     </defitem>
@@ -55,15 +61,15 @@
  </frontmatter>
  <archdesc level="collection">
   <did>
-   <head id="a1">DESCRIPTIVE SUMMARY</head>
-   <unittitle label="Title:" encodinganalog="MARC 245$a">Hourwich, Isaac A. Collection., <unitdate encodinganalog="MARC 245$f">1897-1917</unitdate>
-   </unittitle>
+   
+   <unittitle encodinganalog="MARC 245$a" label="Title:">Hourwich, Isaac A. Collection., 1897-1917
+   </unittitle><unitdate encodinganalog="MARC 245$f">1897-1917</unitdate>
    <unitid label="Collection Number:">6036/019</unitid>
    <origination label="Creator:">
     <corpname encodinganalog="MARC 110" role="creator">YIVO Institute for Jewish Research</corpname>
     <persname encodinganalog="MARC 100" role="creator">Hourwich, Issac</persname>
    </origination>
-   <physdesc label="Quantity:" encodinganalog="MARC 300">2.5 linear ft.</physdesc>
+   <physdesc encodinganalog="MARC 300" label="Quantity:">2.5 linear ft.</physdesc>
    <physdesc label="Forms of Material:">Articles, reprints, pamphlets, correspondence,
     photographs.</physdesc>
    <repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives,
@@ -75,7 +81,7 @@
    </langmaterial>
   <physdesc><extent>2.5 cubic feet</extent></physdesc></did>
   <bioghist encodinganalog="MARC 545">
-   <head id="a2" altrender="organizational history">ILGWU ORGANIZATIONAL HISTORY</head>
+   
    <p>Founded in 1900 by local union delegates representing about 2,000 members in cities in the
     northeastern United States, the ILGWU grew in geographical scope, membership size, political
     influence to become one of the most powerful forces in American organized labor by mid-century.
@@ -86,7 +92,7 @@
     the Union of Needletrades, Industrial and Textile Employees (UNITE).</p>
   </bioghist>
   <bioghist encodinganalog="MARC 545">
-   <head id="a4" altrender="biography">BIOGRAPHICAL NOTE </head>
+   
    <p>Isaac A. Hourwich was born on April 27, 1860 in Russia to a middle-class family, which
     afforded him the opportunity to attain an education. In response to his activity with a
     revolutionary Socialist circle in St. Petersburg, Hourwich was imprisoned in Siberia. After his
@@ -128,7 +134,7 @@
     died on July 9, 1924.</p>
   </bioghist>
   <scopecontent encodinganalog="MARC 520">
-   <head id="a3">COLLECTION DESCRIPTION</head>
+   
    <p>The collection consists solely of photocopies of original documents held at the archives of
     the YIVO Institute for Jewish Research located at the Center for Jewish History in New York
     City. The collection "Papers of Isaac A. Hourwich (1860- 1924)" dates from 1882-1924 and is
@@ -140,9 +146,9 @@
     the controversies and his resignation.</p>
   </scopecontent>
   <controlaccess>
-   <head id="a8">SUBJECTS</head>
+   
    <controlaccess>
-    <head>Names: </head>
+    
     <persname encodinganalog="MARC 600">Hourwich, Isaac A. -- (Isaac Aaronovich), -- 1860-1924. </persname>
     <corpname encodinganalog="MARC 610">Yivo Institute for Jewish Research -- Archives. </corpname>
     <corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union -- Archives.
@@ -152,38 +158,38 @@
     </controlaccess>
   </controlaccess>
   <descgrp>
-   <head id="a10">INFORMATION FOR USERS</head>
+   
    <accessrestrict>
-    <head>Access Restrictions:</head>
+    
     <p>Access to the collections in the Kheel Center is restricted. Please contact a reference
      archivist for access to these materials.</p>
    </accessrestrict>
    <userestrict>
-    <head>Restrictions on Use:</head>
+    
     <p>This collection must be used in keeping with the Kheel Center Information Sheet and
      Procedures for Document Use.</p>
    </userestrict>
    <prefercite>
-    <head>Cite As:</head>
+    
     <p>Hourwich, Isaac A. Collection. #6036/019. Kheel Center for Labor-Management Documentation and
      Archives, Cornell University Library.</p>
    </prefercite>
   </descgrp>
   <relatedmaterial>
-   <head id="a6">RELATED MATERIALS</head>
-   <p>Related Collections:<lb/>
+   
+   <p>Related Collections:
     <extref href="rmc.library.cornell.edu/ead/htmldocs/KCL05780.html"> 5780: ILGWU
-    records</extref><lb/>
+    records</extref>
    </p>
   </relatedmaterial>
   <dsc type="in-depth">
-   <head>CONTAINER LIST</head>
+   
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link6">Official documents</unittitle>
-     <unitdate type="inclusive" normal="1897/1914">1897-1914</unitdate>
+     <unitdate normal="1897/1914" type="inclusive">1897-1914</unitdate>
     </did>
     <scopecontent>
      <p>Includes: papers of incorporation of the Independent Childrens' Jacket Makers Union of New
@@ -194,8 +200,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link7">Minutes of the Session of the Joint Board of the Cloak, Suit, and Skirt
       Makers' Unions of New York</unittitle>
      <unitdate normal="1913">1913</unitdate>
@@ -206,8 +212,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link8">Minutes of the Board of Grievances</unittitle>
      <unitdate normal="1913">1913</unitdate>
     </did>
@@ -220,8 +226,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link9">Complaints before the Board of Grievances</unittitle>
      <unitdate normal="1913">1913</unitdate>
     </did>
@@ -233,8 +239,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link10">Arbitration Proceedings between the Cloak and Skirt Makers' Unions of
       New York and the Cloak, Suit, and Skirt Manufacturers' Protective Association [folder 1 of
       6]</unittitle>
@@ -246,8 +252,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link11">Arbitration Proceedings between the Cloak and Skirt Makers' Unions of
       New York and the Cloak, Suit, and Skirt Manufacturers' Protective Association [folder 2 of
       6]</unittitle>
@@ -259,8 +265,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link12">Arbitration Proceedings between the Cloak and Skirt Makers' Unions of
       New York and the Cloak, Suit, and Skirt Manufacturers' Protective Association [folder 3 of
       6]</unittitle>
@@ -272,8 +278,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link13">Arbitration Proceedings between the Cloak and Skirt Makers' Unions of
       New York and the Cloak, Suit, and Skirt Manufacturers' Protective Association [folder 4 of
       6]</unittitle>
@@ -285,8 +291,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link14">Arbitration Proceedings between the Cloak and Skirt Makers' Unions of
       New York and the Cloak, Suit, and Skirt Manufacturers' Protective Association [folder 5 of
       6]</unittitle>
@@ -298,8 +304,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link15">Arbitration Proceedings between the Cloak and Skirt Makers' Unions of
       New York and the Cloak, Suit, and Skirt Manufacturers' Protective Association [folder 6 of
       6]</unittitle>
@@ -311,8 +317,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link16">Arbitration Proceedings between the Cloak and Skirt Makers' Unions of
       New York and the Cloak, Suit, and Skirt Manufacturers' Protective Association [folder 1 of
       5]</unittitle>
@@ -324,8 +330,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link17">Arbitration Proceedings between the Cloak and Skirt Makers' Unions of
       New York and the Cloak, Suit, and Skirt Manufacturers' Protective Association [folder 2 of
       5]</unittitle>
@@ -337,8 +343,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link18">Arbitration Proceedings between the Cloak and Skirt Makers' Unions of
       New York and the Cloak, Suit, and Skirt Manufacturers' Protective Association [folder 3 of
       5]</unittitle>
@@ -350,8 +356,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link19">Arbitration Proceedings between the Cloak and Skirt Makers' Unions of
       New York and the Cloak, Suit, and Skirt Manufacturers' Protective Association [folder 4 of
       5]</unittitle>
@@ -363,8 +369,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link20">Arbitration Proceedings between the Cloak and Skirt Makers' Unions of
       New York and the Cloak, Suit, and Skirt Manufacturers' Protective Association [folder 5 of
       5]</unittitle>
@@ -376,8 +382,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link21">Report of a special meeting of the Board of Grievances</unittitle>
      <unitdate normal="1913">1913</unitdate>
     </did>
@@ -387,8 +393,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link22">Report on Board of Grievances matters and recommendations</unittitle>
      <unitdate normal="1913">1913</unitdate>
     </did>
@@ -398,8 +404,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link23">Minutes of the Board of Grievances</unittitle>
      <unitdate normal="1913">1913</unitdate>
     </did>
@@ -409,8 +415,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link24">Regular Meeting of the Board of Grievances</unittitle>
      <unitdate normal="1913">1913</unitdate>
     </did>
@@ -422,8 +428,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link25">Cloak and Suit Arbitration</unittitle>
      <unitdate normal="1913">1913</unitdate>
     </did>
@@ -433,8 +439,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link26">Minutes of the Meeting of the Board of Arbitrators with representatives
       of the Shirt and Cloak Makers' Unions of New York and with the Cloak, Suit and Skirt
       Manufacturers' Association [folder 1 of 3]</unittitle>
@@ -446,8 +452,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link27">Minutes of the Meeting of the Board of Arbitrators with representatives
       of the Shirt and Cloak Makers' Unions of New York and with the Cloak, Suit and Skirt
       Manufacturers' Association [folder 2 of 3]</unittitle>
@@ -459,8 +465,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link28">Minutes of the Meeting of the Board of Arbitrators with representatives
       of the Shirt and Cloak Makers' Unions of New York and with the Cloak, Suit and Skirt
       Manufacturers' Association [folder 3 of 3]</unittitle>
@@ -472,10 +478,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link29">Hourwich and Abraham Bisno</unittitle>
-     <unitdate type="inclusive" normal="1913/1914">1913-1914</unitdate>
+     <unitdate normal="1913/1914" type="inclusive">1913-1914</unitdate>
     </did>
     <scopecontent>
      <p>Includes: minutes of the meeting of the Court of Honor, convened to consider charges against
@@ -485,11 +491,11 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link30">Materials relating to the garment workers' unions [folder 1 of
       2]</unittitle>
-     <unitdate type="inclusive" normal="1912/1914">1912-1914</unitdate>
+     <unitdate normal="1912/1914" type="inclusive">1912-1914</unitdate>
     </did>
     <scopecontent>
      <p>Includes: especially the Joint Board of the Cloak and Skirt Makers' Union, including
@@ -499,11 +505,11 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link31">Materials relating to the garment workers' unions [folder 2 of
       2]</unittitle>
-     <unitdate type="inclusive" normal="1912/1914">1912-1914</unitdate>
+     <unitdate normal="1912/1914" type="inclusive">1912-1914</unitdate>
     </did>
     <scopecontent>
      <p>Includes: especially the Joint Board of the Cloak and Skirt Makers' Union, including
@@ -513,8 +519,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link32">Correspondence</unittitle>
     </did>
     <scopecontent>
@@ -524,8 +530,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link33">United States Commission on Industrial Relations [folder 1 of
       4]</unittitle>
     </did>
@@ -538,8 +544,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link34">United States Commission on Industrial Relations [folder 2 of
       4]</unittitle>
     </did>
@@ -552,8 +558,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link35">United States Commission on Industrial Relations [folder 3 of
       4]</unittitle>
     </did>
@@ -566,8 +572,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link36">United States Commission on Industrial Relations [folder 4 of
       4]</unittitle>
     </did>
@@ -580,8 +586,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link37">Minutes of the Meeting of the Board of Arbitrators</unittitle>
     </did>
     <scopecontent>
@@ -592,8 +598,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link38">Board of Arbitration</unittitle>
     </did>
     <scopecontent>
@@ -606,8 +612,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link39">Council of Conciliation in the Cloak, Suit, and Skirt
       Industry</unittitle>
     </did>
@@ -619,8 +625,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link40">Controversy between Cloak Operators' Union Local 1 and the ILGWU [folder
       1 of 2]</unittitle>
     </did>
@@ -632,8 +638,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link41">Controversy between Cloak Operators' Union Local 1 and the ILGWU [folder
       2 of 2]</unittitle>
     </did>
@@ -645,8 +651,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link42">Cloak Operators' Union, Local 1</unittitle>
     </did>
     <scopecontent>
@@ -656,8 +662,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link43">Articles [folder 1 of 3]</unittitle>
     </did>
     <scopecontent>
@@ -669,8 +675,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link44">Articles [folder 2 of 3]</unittitle>
     </did>
     <scopecontent>
@@ -682,8 +688,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link45">Articles [folder 3 of 3]</unittitle>
     </did>
     <scopecontent>

@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
- <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-  <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-079::ILGWU. Local 62. Managers'' correspondence.)//EN">KCL05780-079</eadid>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-079::ILGWU. Local 62. Managers'' correspondence.)//EN">KCL05780-079</eadid>
   <filedesc>
    <titlestmt>
     <titleproper>Guide to the ILGWU. Local 62. Managers' correspondence<date>
@@ -24,19 +24,25 @@
    <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kathryn Dowgiewicz, <date>June 10,
      2014</date></creation>
   </profiledesc>
- </eadheader>
+ <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
  <frontmatter>
   <titlepage>
-   <titleproper>Guide to the ILGWU. Local 62. Managers' correspondence<lb/></titleproper>
-   <num type="kidb_reference_number" id="kc1285">Collection Number: 5780/079</num>
+   <titleproper>Guide to the ILGWU. Local 62. Managers' correspondence</titleproper>
+   <num id="kc1285" type="kidb_reference_number">Collection Number: 5780/079</num>
    <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University
     Library </publisher>
    <list type="deflist">
     <defitem>
      <label>Contact Information:</label>
-     <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood
-      Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt;
-       <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+     <item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood
+      Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt;
+       <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
       <extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref>
      </item>
     </defitem>
@@ -55,10 +61,10 @@
  </frontmatter>
  <archdesc level="collection">
   <did>
-   <head id="a1">DESCRIPTIVE SUMMARY</head>
-   <unittitle label="Title:" encodinganalog="MARC 245$a">ILGWU. Local 62. Managers' correspondence,
-     <unitdate encodinganalog="MARC 245$f">1941-1981</unitdate>
-   </unittitle>
+   
+   <unittitle encodinganalog="MARC 245$a" label="Title:">ILGWU. Local 62. Managers' correspondence
+     1941-1981
+   </unittitle><unitdate encodinganalog="MARC 245$f">1941-1981</unitdate>
    <unitid label="Collection Number:">5780/079</unitid>
    <origination label="Creator:">
     <persname encodinganalog="MARC 100" role="creator">Schoenwald, Matthew</persname>
@@ -66,7 +72,7 @@
     <corpname encodinganalog="MARC 110" role="creator">International Ladies' Garment Workers'
      Union</corpname>
    </origination>
-   <physdesc label="Quantity:" encodinganalog="MARC 300">4 linear ft.</physdesc>
+   <physdesc encodinganalog="MARC 300" label="Quantity:">4 linear ft.</physdesc>
    <physdesc label="Forms of Material:">Correspondence, records, reports.</physdesc>
    <repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives,
     Cornell University Library </repository>
@@ -79,7 +85,7 @@
    </langmaterial>
   <physdesc><extent>4 cubic feet</extent></physdesc></did>
   <bioghist encodinganalog="MARC 545">
-   <head id="a2" altrender="organizational history">ILGWU ORGANIZATIONAL HISTORY</head>
+   
    <p>Founded in 1900 by local union delegates representing about 2,000 members in cities in the
     northeastern United States, the ILGWU grew in geographical scope, membership size, political
     influence to become one of the most powerful forces in American organized labor by mid-century.
@@ -90,7 +96,7 @@
     the Union of Needletrades, Industrial and Textile Employees (UNITE).</p>
   </bioghist>
   <bioghist encodinganalog="MARC 545">
-   <head id="a5" altrender="organizational history">LOCAL 62 ORGANIZATIONAL HISTORY </head>
+   
    <p>The White Goods Workers' Union Local 62, also known as the Underwear and White Goods Workers
     Union, was chartered in 1909, but was not fully organized until 1913. Rose Schneiderman and the
     Women's Trade Union League assisted with the early organizing efforts of the White Goods
@@ -106,7 +112,7 @@
     local became the Undergarment and Negligee Workers' Union Local 62.</p>
   </bioghist>
   <scopecontent encodinganalog="MARC 520">
-   <head id="a3">COLLECTION DESCRIPTION</head>
+   
    <p>The collection consists primarily of correspondence of Local 62's manager Matthew Schoenwald.
     Correspondents include staff in several of the ILGWU departments, as well as Presidents Louis
     Stulberg and David Dubinsky, James Lipsig (Assistant Executive Secretary) and Jack Gross. Gross
@@ -143,15 +149,15 @@
     lingerie shops in other areas, particularly Puerto Rico.</p>
   </scopecontent>
   <controlaccess>
-   <head id="a8">SUBJECTS</head>
+   
    <controlaccess>
-    <head>Names: </head>
+    
     <corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union. </corpname>
     <corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union. Local 62 (New
      York, N.Y.) </corpname>
    </controlaccess>
    <controlaccess>
-    <head>Subjects: </head>
+    
     <subject encodinganalog="MARC 650">Women's clothing industry--United States. </subject>
     <subject encodinganalog="MARC 650">Women's clothing industry--New York (State)--New York. </subject>
     <subject encodinganalog="MARC 650">Labor unions--Clothing workers--United States. </subject>
@@ -163,1188 +169,1188 @@
     </controlaccess>
   </controlaccess>
   <descgrp>
-   <head id="a10">INFORMATION FOR USERS</head>
+   
    <accessrestrict>
-    <head>Access Restrictions:</head>
+    
     <p>Access to the collections in the Kheel Center is restricted. Please contact a reference
      archivist for access to these materials.</p>
    </accessrestrict>
    <userestrict>
-    <head>Restrictions on Use:</head>
+    
     <p>This collection must be used in keeping with the Kheel Center Information Sheet and
      Procedures for Document Use.</p>
    </userestrict>
    <prefercite>
-    <head>Cite As:</head>
+    
     <p>ILGWU. Local 62. Managers' correspondence #5780/079. Kheel Center for Labor-Management
      Documentation and Archives, Cornell University Library.</p>
    </prefercite>
   </descgrp>
   <relatedmaterial>
-   <head id="a6">RELATED MATERIALS</head>
-   <p>Related Collections:<lb/>
+   
+   <p>Related Collections:
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780.html"> 5780: ILGWU
-     records</extref><lb/>
+     records</extref>
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-021.html"> 5780/021: ILGWU.
-     Local 62 records</extref><lb/>
+     Local 62 records</extref>
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-022.html"> 5780/022: ILGWU.
-     Local 62 correspondence</extref><lb/>
+     Local 62 correspondence</extref>
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-074.html"> 5780/074: ILGWU.
-     Mary Goff Schuster papers</extref><lb/>
+     Mary Goff Schuster papers</extref>
     <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05780-089.html"> 5780/089: ILGWU.
-     Local 62-32 agreements</extref><lb/>
+     Local 62-32 agreements</extref>
    </p>
   </relatedmaterial>
   <dsc type="in-depth">
-   <head>CONTAINER LIST</head>
+   
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link6">Wage-Hour Schedules (4 copies), no dates</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link7">ILGWU - James Lipsig</unittitle>
-     <unitdate type="inclusive" normal="1974/1976">1974-1976</unitdate>
+     <unitdate normal="1974/1976" type="inclusive">1974-1976</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link8">ILGWU - James Lipsig</unittitle>
-     <unitdate type="inclusive" normal="1970/1973">1970-1973</unitdate>
+     <unitdate normal="1970/1973" type="inclusive">1970-1973</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link9">ILGWU - James Lipsig</unittitle>
-     <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate>
+     <unitdate normal="1965/1969" type="inclusive">1965-1969</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link10">Liberal Party</unittitle>
      <unitdate normal="1968">1968</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link11">Liberal Party</unittitle>
      <unitdate normal="1967">1967</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link12">Liberal Party</unittitle>
      <unitdate normal="1966">1966</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link13">Liberal Party</unittitle>
      <unitdate normal="1965">1965</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link14">Liberal Party</unittitle>
      <unitdate normal="1964">1964</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link15">Liberal Party</unittitle>
-     <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
+     <unitdate normal="1962/1963" type="inclusive">1962-1963</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link16">Jewish Occupational Council</unittitle>
-     <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+     <unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link17">Jewish Labor Committee</unittitle>
-     <unitdate type="inclusive" normal="1963/1967">1963-1967</unitdate>
+     <unitdate normal="1963/1967" type="inclusive">1963-1967</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link18">Office Employees (165A) Local 62 Shops</unittitle>
-     <unitdate type="inclusive" normal="1970/1978">1970-1978</unitdate>
+     <unitdate normal="1970/1978" type="inclusive">1970-1978</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link19">Office Workers Division Collective Agreements (Assn's)
       (165A)</unittitle>
-     <unitdate type="inclusive" normal="1969/1970">1969-1970</unitdate>
+     <unitdate normal="1969/1970" type="inclusive">1969-1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link20">Office Employees (165A) Local 62 Shops</unittitle>
      <unitdate normal="1969">1969</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link21">ILGWU Auditing Department</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link22">ILGWU Auditing Department</unittitle>
      <unitdate normal="1969">1969</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link23">ILGWU Auditing Department</unittitle>
      <unitdate normal="1968">1968</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link24">ILGWU Auditing Department</unittitle>
      <unitdate normal="1967">1967</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link25">ILGWU Auditing Department</unittitle>
      <unitdate normal="1966">1966</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link26">ILGWU Auditing Department</unittitle>
      <unitdate normal="1965">1965</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link27">ILGWU Auditing Department</unittitle>
-     <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
+     <unitdate normal="1962/1963" type="inclusive">1962-1963</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link28">ILGWU Northeast Department</unittitle>
-     <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+     <unitdate normal="1967/1968" type="inclusive">1967-1968</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link29">ILGWU Northeast Department</unittitle>
-     <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+     <unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link30">ILGWU Northeast Department (special)</unittitle>
-     <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+     <unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">26</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">26</container>
      <unittitle id="link31">ILGWU Northeast Department</unittitle>
      <unitdate normal="1964">1964</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">27</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">27</container>
      <unittitle id="link32">ILGWU Northeast Department</unittitle>
-     <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
+     <unitdate normal="1962/1963" type="inclusive">1962-1963</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">28</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">28</container>
      <unittitle id="link33">ILGWU Northeast Department Agreement</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">29</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">29</container>
      <unittitle id="link34">ILGWU Puerto Rico Region</unittitle>
-     <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate>
+     <unitdate normal="1971/1973" type="inclusive">1971-1973</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">30</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">30</container>
      <unittitle id="link35">ILGWU Puerto Rico Region</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">31</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">31</container>
      <unittitle id="link36">ILGWU Puerto Rico Region</unittitle>
-     <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
+     <unitdate normal="1968/1969" type="inclusive">1968-1969</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">32</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">32</container>
      <unittitle id="link37">ILGWU Research Department</unittitle>
-     <unitdate type="inclusive" normal="1971/1973">1971-1973</unitdate>
+     <unitdate normal="1971/1973" type="inclusive">1971-1973</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">33</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">33</container>
      <unittitle id="link38">ILGWU Research Department</unittitle>
-     <unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+     <unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">34</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">34</container>
      <unittitle id="link39">ILGWU Retiree Services Department</unittitle>
-     <unitdate type="inclusive" normal="1968/1975">1968-1975</unitdate>
+     <unitdate normal="1968/1975" type="inclusive">1968-1975</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">35</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">35</container>
      <unittitle id="link40">Retirees - Misc. Locals Meeting</unittitle>
-     <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+     <unitdate normal="1966/1967" type="inclusive">1966-1967</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">36</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">36</container>
      <unittitle id="link41">ILGWU Special Assistance Fund</unittitle>
-     <unitdate type="inclusive" normal="1967/1977">1967-1977</unitdate>
+     <unitdate normal="1967/1977" type="inclusive">1967-1977</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">37</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">37</container>
      <unittitle id="link42">ILGWU Special Assistance Fund</unittitle>
-     <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate>
+     <unitdate normal="1966/1968" type="inclusive">1966-1968</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">38</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">38</container>
      <unittitle id="link43">Impartial Chairman</unittitle>
-     <unitdate type="inclusive" normal="1978/1981">1978-1981</unitdate>
+     <unitdate normal="1978/1981" type="inclusive">1978-1981</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">39</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">39</container>
      <unittitle id="link44">Miscellaneous Member Correspondence</unittitle>
-     <unitdate type="inclusive" normal="1974/1977">1974-1977</unitdate>
+     <unitdate normal="1974/1977" type="inclusive">1974-1977</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">40</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">40</container>
      <unittitle id="link45">Miscellaneous Member Correspondence</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">41</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">41</container>
      <unittitle id="link46">Miscellaneous Member Correspondence</unittitle>
      <unitdate normal="1969">1969</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">42</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">42</container>
      <unittitle id="link47">Miscellaneous Member Correspondence</unittitle>
      <unitdate normal="1968">1968</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link48">Vanity Fair</unittitle>
-     <unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate>
+     <unitdate normal="1976/1977" type="inclusive">1976-1977</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link49">U.S. Lingerie [folder 1 of 2]</unittitle>
-     <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate>
+     <unitdate normal="1966/1968" type="inclusive">1966-1968</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link50">U.S. Lingerie [folder 2 of 2]</unittitle>
-     <unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate>
+     <unitdate normal="1966/1968" type="inclusive">1966-1968</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link51">U.S. Pay Board</unittitle>
      <unitdate normal="1973">1973</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link52">U.S. Pay Board [folder 1 of 2]</unittitle>
      <unitdate normal="1972">1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link53">U.S. Pay Board [folder 2 of 2]</unittitle>
      <unitdate normal="1972">1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link54">Associated Hospital Service</unittitle>
      <unitdate normal="1973">1973</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link55">Associated Hospital Service</unittitle>
      <unitdate normal="1972">1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link56">Associated Hospital Service</unittitle>
      <unitdate normal="1971">1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link57">Associated Hospital Service</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link58">Associated Hospital Service</unittitle>
      <unitdate normal="1969">1969</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link59">Associated Hospital Service</unittitle>
      <unitdate normal="1968">1968</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link60">Blue Cross</unittitle>
-     <unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+     <unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link61">Celebrations</unittitle>
-     <unitdate type="inclusive" normal="1972/1975">1972-1975</unitdate>
+     <unitdate normal="1972/1975" type="inclusive">1972-1975</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link62">Celebrations [folder 1 of 2]</unittitle>
-     <unitdate type="inclusive" normal="1941/1971">1941-1971</unitdate>
+     <unitdate normal="1941/1971" type="inclusive">1941-1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link63">Celebrations [folder 2 of 2]</unittitle>
-     <unitdate type="inclusive" normal="1941/1971">1941-1971</unitdate>
+     <unitdate normal="1941/1971" type="inclusive">1941-1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link64">Chairladies' Notices</unittitle>
-     <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate>
+     <unitdate normal="1974/1975" type="inclusive">1974-1975</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link65">Chairladies' Notices</unittitle>
      <unitdate normal="1973">1973</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link66">Chairladies' Notices</unittitle>
      <unitdate normal="1972">1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link67">Chairladies' Notices</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link68">Miscellaneous Correspondence</unittitle>
      <unitdate normal="1964">1964</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link69">Miscellaneous Correspondence</unittitle>
      <unitdate normal="1963">1963</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link70">Contributions</unittitle>
      <unitdate normal="1978">1978</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link71">Contributions</unittitle>
      <unitdate normal="1977">1977</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link72">Contributions</unittitle>
      <unitdate normal="1976">1976</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">26</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">26</container>
      <unittitle id="link73">Contributions</unittitle>
      <unitdate normal="1975">1975</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">27</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">27</container>
      <unittitle id="link74">ILGWU - Louis Stulberg</unittitle>
      <unitdate normal="1967">1967</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">28</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">28</container>
      <unittitle id="link75">ILGWU - Louis Stulberg</unittitle>
      <unitdate normal="1966">1966</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">29</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">29</container>
      <unittitle id="link76">ILGWU - Louis Stulberg</unittitle>
      <unitdate normal="1965">1965</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">30</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">30</container>
      <unittitle id="link77">ILGWU - Louis Stulberg</unittitle>
      <unitdate normal="1964">1964</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">31</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">31</container>
      <unittitle id="link78">ILGWU - Louis Stulberg</unittitle>
-     <unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
+     <unitdate normal="1962/1963" type="inclusive">1962-1963</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">32</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">32</container>
      <unittitle id="link79">ILGWU - David Dubinsky</unittitle>
      <unitdate normal="1964">1964</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">33</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">33</container>
      <unittitle id="link80">ILGWU - David Dubinsky</unittitle>
      <unitdate normal="1963">1963</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">34</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">34</container>
      <unittitle id="link81">ILGWU - David Dubinsky</unittitle>
-     <unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+     <unitdate normal="1966/1967" type="inclusive">1966-1967</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">35</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">35</container>
      <unittitle id="link82">ILGWU - David Dubinsky</unittitle>
      <unitdate normal="1965">1965</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">36</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">36</container>
      <unittitle id="link83">Fifth Avenue Robes</unittitle>
-     <unitdate type="inclusive" normal="1975/1977">1975-1977</unitdate>
+     <unitdate normal="1975/1977" type="inclusive">1975-1977</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">37</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">37</container>
      <unittitle id="link84">ILGWU - Local 122</unittitle>
      <unitdate normal="1965">1965</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">38</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">38</container>
      <unittitle id="link85">ILGWU - Local 107</unittitle>
-     <unitdate type="inclusive" normal="1965/1967">1965-1967</unitdate>
+     <unitdate normal="1965/1967" type="inclusive">1965-1967</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">39</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">39</container>
      <unittitle id="link86">ILGWU - Louis Stulberg</unittitle>
      <unitdate normal="1972">1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">40</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">40</container>
      <unittitle id="link87">ILGWU - Louis Stulberg</unittitle>
      <unitdate normal="1971">1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">41</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">41</container>
      <unittitle id="link88">ILGWU - Louis Stulberg</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">42</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">42</container>
      <unittitle id="link89">ILGWU - Louis Stulberg</unittitle>
      <unitdate normal="1969">1969</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">43</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">43</container>
      <unittitle id="link90">ILGWU - Louis Stulberg</unittitle>
      <unitdate normal="1968">1968</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link91">Lieberman, Aronson and Rosenberg</unittitle>
      <unitdate normal="1977">1977</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link92">Lieberman, Aronson and Rosenberg</unittitle>
      <unitdate normal="1976">1976</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link93">Lieberman, Aronson and Rosenberg</unittitle>
      <unitdate normal="1975">1975</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link94">Lieberman, Aronson and Rosenberg</unittitle>
      <unitdate normal="1974">1974</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link95">Lieberman, Aronson and Rosenberg</unittitle>
      <unitdate normal="1973">1973</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link96">Lieberman, Aronson and Rosenberg</unittitle>
      <unitdate normal="1972">1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link97">Lieberman, Aronson and Rosenberg</unittitle>
      <unitdate normal="1971">1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link98">Lieberman, Katz and Aronson</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link99">Lieberman, Katz and Aronson</unittitle>
      <unitdate normal="1969">1969</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link100">Lieberman, Katz and Aronson</unittitle>
      <unitdate normal="1968">1968</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link101">Lieberman, Katz and Aronson</unittitle>
      <unitdate normal="1965">1965</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link102">Lieberman, Katz and Aronson</unittitle>
      <unitdate normal="1964">1964</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link103">Lieberman, Katz and Aronson</unittitle>
      <unitdate normal="1963">1963</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link104">Lieberman, Katz and Aronson</unittitle>
      <unitdate normal="1962">1962</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link105">Lieberman, Katz and Aronson</unittitle>
      <unitdate normal="1967">1967</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link106">Lieberman, Katz and Aronson</unittitle>
      <unitdate normal="1966">1966</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link107">Retirement Fund Meetings</unittitle>
      <unitdate normal="1965">1965</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link108">Retirement Fund Meetings</unittitle>
      <unitdate normal="1964">1964</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link109">Retirement Fund Meetings</unittitle>
      <unitdate normal="1963">1963</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link110">For Retirement Fund Meeting</unittitle>
      <unitdate normal="1962">1962</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link111">Retirement Fund</unittitle>
      <unitdate normal="1962">1962</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link112">Retirement Fund - Finance Committee re Investments</unittitle>
      <unitdate normal="1963">1963</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link113">Retirement Fund - Rules</unittitle>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link114">Child-Fit</unittitle>
-     <unitdate type="inclusive" normal="1966/1969">1966-1969</unitdate>
+     <unitdate normal="1966/1969" type="inclusive">1966-1969</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link115">Barsa, Odette (Fresoeur)</unittitle>
-     <unitdate type="inclusive" normal="1972/1973">1972-1973</unitdate>
+     <unitdate normal="1972/1973" type="inclusive">1972-1973</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link116">Betty Page Togs</unittitle>
      <unitdate normal="1965">1965</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link117">Baker, Zorita (member)</unittitle>
-     <unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+     <unitdate normal="1967/1968" type="inclusive">1967-1968</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link118">Amalgamated Clothing and Textile Workers</unittitle>
      <unitdate normal="1977">1977</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link119">Allied Underwear Association</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link120">Allied Underwear Association</unittitle>
-     <unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
+     <unitdate normal="1968/1969" type="inclusive">1968-1969</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link121">Allied Underwear Association</unittitle>
      <unitdate normal="1967">1967</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link122">Allied Underwear Association</unittitle>
      <unitdate normal="1966">1966</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link123">Allied Underwear Association</unittitle>
      <unitdate normal="1965">1965</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link124">Allied Underwear Association</unittitle>
      <unitdate normal="1964">1964</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link125">Allied Underwear Association</unittitle>
      <unitdate normal="1963">1963</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link126">Allied Underwear Association</unittitle>
-     <unitdate type="inclusive" normal="1974/1975">1974-1975</unitdate>
+     <unitdate normal="1974/1975" type="inclusive">1974-1975</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link127">Allied Underwear Association</unittitle>
      <unitdate normal="1973">1973</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link128">Allied Underwear Association</unittitle>
      <unitdate normal="1972">1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link129">Allied Underwear Association</unittitle>
      <unitdate normal="1971">1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link130">Contractors' Association</unittitle>
-     <unitdate type="inclusive" normal="1972/1975">1972-1975</unitdate>
+     <unitdate normal="1972/1975" type="inclusive">1972-1975</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link131">Jack Gross</unittitle>
-     <unitdate type="inclusive" normal="1973/1975">1973-1975</unitdate>
+     <unitdate normal="1973/1975" type="inclusive">1973-1975</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">26</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">26</container>
      <unittitle id="link132">Jack Gross</unittitle>
      <unitdate normal="1972">1972</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">27</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">27</container>
      <unittitle id="link133">Jack Gross</unittitle>
      <unitdate normal="1971">1971</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">28</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">28</container>
      <unittitle id="link134">Jack Gross</unittitle>
      <unitdate normal="1970">1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">29</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">29</container>
      <unittitle id="link135">Jack Gross</unittitle>
      <unitdate normal="1969">1969</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">30</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">30</container>
      <unittitle id="link136">Jack Gross</unittitle>
      <unitdate normal="1968">1968</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">31</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">31</container>
      <unittitle id="link137">Jack Gross</unittitle>
      <unitdate normal="1967">1967</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">32</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">32</container>
      <unittitle id="link138">Jack Gross</unittitle>
      <unitdate normal="1966">1966</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">33</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">33</container>
      <unittitle id="link139">Jack Gross</unittitle>
      <unitdate normal="1965">1965</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">34</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">34</container>
      <unittitle id="link140">Jack Gross</unittitle>
      <unitdate normal="1964">1964</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">35</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">35</container>
      <unittitle id="link141">Jack Gross</unittitle>
      <unitdate normal="1963">1963</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">36</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">36</container>
      <unittitle id="link142">Jack Gross</unittitle>
      <unitdate normal="1962">1962</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">37</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">37</container>
      <unittitle id="link143">Style Undies</unittitle>
-     <unitdate type="inclusive" normal="1965/1970">1965-1970</unitdate>
+     <unitdate normal="1965/1970" type="inclusive">1965-1970</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">38</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">38</container>
      <unittitle id="link144">Style Undies</unittitle>
      <unitdate normal="1964">1964</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">39</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">39</container>
      <unittitle id="link145">Style Undies</unittitle>
      <unitdate normal="1962">1962</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">40</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">40</container>
      <unittitle id="link146">Style Undies</unittitle>
      <unitdate normal="1963">1963</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">41</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">41</container>
      <unittitle id="link147">Superior Petticoat</unittitle>
-     <unitdate type="inclusive" normal="1970/1975">1970-1975</unitdate>
+     <unitdate normal="1970/1975" type="inclusive">1970-1975</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">42</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">42</container>
      <unittitle id="link148">Superior Petticoat</unittitle>
-     <unitdate type="inclusive" normal="1965/1969">1965-1969</unitdate>
+     <unitdate normal="1965/1969" type="inclusive">1965-1969</unitdate>
     </did>
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">43</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">43</container>
      <unittitle id="link149">Superior Petticoat - memo by and between Local 62</unittitle>
-     <unitdate type="inclusive" normal="1963/1968">1963-1968</unitdate>
+     <unitdate normal="1963/1968" type="inclusive">1963-1968</unitdate>
     </did>
    </c01>
   </dsc>

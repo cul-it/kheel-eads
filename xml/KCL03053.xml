@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL03053::Lynn Arthur Emerson  Papers.)//EN">KCL03053</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL03053::Lynn Arthur Emerson  Papers.)//EN">KCL03053</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Lynn Arthur Emerson Papers<date> 1919-1954</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>January 14, 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Lynn Arthur Emerson Papers<lb/></titleproper>
+			<titleproper>Guide to the Lynn Arthur Emerson Papers</titleproper>
 			<num>Collection Number: /3053</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,14 +54,14 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Lynn Arthur Emerson Papers, <unitdate encodinganalog="MARC 245$f">1919-1954</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Lynn Arthur Emerson Papers, 1919-1954
+			</unittitle><unitdate encodinganalog="MARC 245$f">1919-1954</unitdate>
 			<unitid label="Collection Number:">/3053</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">McConnell, John W.</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">2 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">2 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Papers (documents).</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">Reports and programs relating to the National Youth Administration.</abstract>
@@ -63,40 +69,40 @@
 			</langmaterial>
 		<physdesc><extent>2 cubic feet</extent></physdesc></did>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Emerson, Lynn A. (Lynn Arthur), 1890- </persname>
 			</controlaccess>
 			<controlaccess>
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Lynn Arthur Emerson Papers #/3053. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unittitle id="link6">Reports and programs relating to the National Youth Administration.</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link7">Pullman School Survey</unittitle>
 						<unitdate normal="1942">1942</unitdate>
 					</did>
@@ -106,8 +112,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link8">Survey Report Pullman Free School of Manual Training</unittitle>
 						<unitdate normal="1948">1948</unitdate>
 					</did>
@@ -117,8 +123,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link9">Administration, Instruction, and Guidance Bergen County Vocational and Technical High School</unittitle>
 						<unitdate normal="1951">1951</unitdate>
 					</did>
@@ -128,16 +134,16 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link10">NYA - Vocational Relationships</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link11">National Youth Administration</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -147,32 +153,32 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link12">National Youth Administration Policy Planning Staff Conference Memos</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link13">Reports of Visits to NYA Projects 1938-1940</unittitle>
-						<unitdate type="inclusive" normal="1938/1940">1938-1940</unitdate>
+						<unitdate normal="1938/1940" type="inclusive">1938-1940</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link14">National Youth Administration Residence Project Quoddy Village, Maine</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link15">National Youth Administration for Louisiana</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -182,15 +188,15 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link16">New Haven Survey</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link17">Education for Industry - "The Changing Rural School"</unittitle>
 						<unitdate normal="1950">1950</unitdate>
 					</did>
@@ -200,63 +206,63 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link18">President's Advisory Committee on Education</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link19">Summer Session - 1951</unittitle>
 						<unitdate normal="1951">1951</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link20">Summer Session 1950</unittitle>
 						<unitdate normal="1950">1950</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link21">Summer Session Planning -- 1953</unittitle>
 						<unitdate normal="1953">1953</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link22">National Youth Administration</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link23">Vocational Industrial Education in New Haven</unittitle>
 						<unitdate normal="1947">1947</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link24">Photos - Leaders in Ind. Educ.</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link25">Industrial Education and Proposed Development in the I.L.R. School</unittitle>
 						<unitdate normal="1943">1943</unitdate>
 					</did>
@@ -264,20 +270,20 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unittitle id="link26">Reports and programs relating to the National Youth Administration.</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link27">Portland, Oregon - Survey of Carpenters</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link28">Teacher Training Course</unittitle>
 						<unitdate normal="1919">1919</unitdate>
 					</did>
@@ -287,16 +293,16 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link29">Stenotype Report of Meeting of Working Comm. Feb. 1944</unittitle>
 						<unitdate normal="1944">1944</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link30">Report of the Study of Technical Institute Education</unittitle>
 						<unitdate normal="1930">1930</unitdate>
 					</did>
@@ -306,136 +312,136 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link31">Need for State University Lynn A. Emerson</unittitle>
 						<unitdate normal="1944">1944</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link32">Arkansas Survey</unittitle>
-						<unitdate type="inclusive" normal="1950/1954">1950-1954</unitdate>
+						<unitdate normal="1950/1954" type="inclusive">1950-1954</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link33">Vita Miscellaneous (Agenda, Announcements, Ballots, Photo, Lists)</unittitle>
 						<unitdate normal="1949">1949</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link34">Vita Club</unittitle>
 						<unitdate normal="1948">1948</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link35">Penziner, Bernard A. 1402 East Moyamensing Avenue</unittitle>
 						<unitdate normal="1952">1952</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link36">Vita Constitutions, Certificates of Membership</unittitle>
 						<unitdate normal="1947">1947</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link37">Vita - Advisory Committee</unittitle>
 						<unitdate normal="1948">1948</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link38">Vita 1952</unittitle>
 						<unitdate normal="1952">1952</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link39">Vita Dinner at Joe's Material</unittitle>
 						<unitdate normal="1948">1948</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link40">Vita Announcements 1949</unittitle>
 						<unitdate normal="1949">1949</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link41">Speakers for Vita</unittitle>
 						<unitdate normal="1949">1949</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link42">Vita - Finances</unittitle>
 						<unitdate normal="1950">1950</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link43">V.I.T.A. - Treasury Reports 1950-</unittitle>
 						<unitdate normal="1950">1950</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link44">Industrial License Requirements by States</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link45">Industrial Teacher Training</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link46">Methods and Techniques</unittitle>
 						<unitdate normal="1942">1942</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link47">Methods and Techniques</unittitle>
 						<unitdate normal="1942">1942</unitdate>
 					</did>

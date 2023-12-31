@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05878::James A. Dunn Papers.)//EN">KCL05878</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05878::James A. Dunn Papers.)//EN">KCL05878</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the James A. Dunn Papers<date> 1967-1981</date></titleproper>
@@ -23,16 +23,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>April 22, 2014</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the James A. Dunn Papers<lb/></titleproper>
-			<num type="kidb_reference_number" id="kc1047">Collection Number: 5878</num>
+			<titleproper>Guide to the James A. Dunn Papers</titleproper>
+			<num id="kc1047" type="kidb_reference_number">Collection Number: 5878</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref>
 					</item>
 				</defitem>
@@ -50,14 +56,14 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">James A. Dunn Papers, <unitdate encodinganalog="MARC 245$f">1967-1981</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">James A. Dunn Papers, 1967-1981
+			</unittitle><unitdate encodinganalog="MARC 245$f">1967-1981</unitdate>
 			<unitid label="Collection Number:">5878</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">Dunn, James A.</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">10 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">10 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Research proposals, reports.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">Proposals and reports concerning occupational education.</abstract>
@@ -65,17 +71,17 @@
 			</langmaterial>
 		<physdesc><extent>11.56 cubic feet</extent></physdesc></did>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a3">COLLECTION DESCRIPTION</head>
+			
 			<p>This collection consists of 27 bound volumes of proposals, and 41 bound volumes of project products and reports originating during James Dunn's tenure at : Cornell Institute for Occupational Education, The American Institutes for Research and the University of Michigan Inter-Professional Research Center for Pupil Personnel Services. In addition there are 21 paperback bound volumes of Career Education materials developed as a comprehensive K-12, Career Education Curriculum for the U.S. Office of Education.</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Dunn, James A. </persname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Vocational education. </subject>
 				<subject encodinganalog="MARC 650">Career education. </subject>
 				<subject encodinganalog="MARC 650">Occupational training. </subject>
@@ -84,34 +90,34 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>James A. Dunn Papers #5878. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unittitle id="link6">SERIES I - RESEARCH PROPOSALS</unittitle>
-					<unitdate type="inclusive" normal="1968/1980">1968-1980</unitdate>
+					<unitdate normal="1968/1980" type="inclusive">1968-1980</unitdate>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link7">PROPOSALS 1968-70</unittitle>
-						<unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate>
+						<unitdate normal="1968/1970" type="inclusive">1968-1970</unitdate>
 					</did>
 					<scopecontent>
 						<p>"A Procedure for Teacher Recognition of Children's Debilitating School Anxiety." "The Development and Validation of an Evaluation system for Ascertaining The Effectiveness of Educational Laboratories and Research and Development Centers." "A Proposal for the Evaluation of Teacher Training Activities Submitted to the Department of HEW."</p>
@@ -119,8 +125,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link8">PROPOSALS 1971</unittitle>
 						<unitdate normal="1971">1971</unitdate>
 					</did>
@@ -131,8 +137,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link9">PROPOSALS 1972</unittitle>
 						<unitdate normal="1972">1972</unitdate>
 					</did>
@@ -142,8 +148,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link10">PROPOSALS 1973 VOL. I</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
@@ -153,8 +159,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link11">PROPOSALS 1973 VOL. II</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
@@ -164,8 +170,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link12">PROPOSALS 1974 VOL. I</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
@@ -175,8 +181,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link13">PROPOSALS 1974 VOL. II</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
@@ -186,8 +192,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link14">PROPOSALS 1974 VOL. III</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
@@ -197,8 +203,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link15">PROPOSALS 1975</unittitle>
 						<unitdate normal="1975">1975</unitdate>
 					</did>
@@ -208,8 +214,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link16">PROPOSALS 1976 VOL. I</unittitle>
 						<unitdate normal="1976">1976</unitdate>
 					</did>
@@ -219,8 +225,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link17">PROPOSALS 1976 VOL. II</unittitle>
 						<unitdate normal="1976">1976</unitdate>
 					</did>
@@ -230,8 +236,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link18">PROPOSALS 1976 VOL. III</unittitle>
 						<unitdate normal="1976">1976</unitdate>
 					</did>
@@ -241,8 +247,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link19">PROPOSALS 1976 VOL. IV</unittitle>
 						<unitdate normal="1976">1976</unitdate>
 					</did>
@@ -252,8 +258,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link20">PROPOSALS 1976 VOL. V</unittitle>
 						<unitdate normal="1976">1976</unitdate>
 					</did>
@@ -263,8 +269,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link21">PROPOSALS 1977 VOL. I</unittitle>
 						<unitdate normal="1977">1977</unitdate>
 					</did>
@@ -274,8 +280,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link22">PROPOSALS 1977 VOL. I (con't)</unittitle>
 						<unitdate normal="1977">1977</unitdate>
 					</did>
@@ -285,8 +291,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link23">PROPOSALS 1977 VOL. II</unittitle>
 						<unitdate normal="1977">1977</unitdate>
 					</did>
@@ -296,8 +302,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link24">PROPOSALS 1978 VOL. I</unittitle>
 						<unitdate normal="1978">1978</unitdate>
 					</did>
@@ -307,8 +313,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link25">PROPOSALS 1978 VOL. II</unittitle>
 						<unitdate normal="1978">1978</unitdate>
 					</did>
@@ -318,8 +324,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link26">PROPOSALS 1978 VOL. III</unittitle>
 						<unitdate normal="1978">1978</unitdate>
 					</did>
@@ -329,8 +335,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link27">PROPOSALS 1978 VOL. IV</unittitle>
 						<unitdate normal="1978">1978</unitdate>
 					</did>
@@ -340,8 +346,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link28">PROPOSALS 1978 VOL. V</unittitle>
 						<unitdate normal="1978">1978</unitdate>
 					</did>
@@ -351,8 +357,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link29">PROPOSALS 1979 VOL. I</unittitle>
 						<unitdate normal="1979">1979</unitdate>
 					</did>
@@ -362,8 +368,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link30">PROPOSALS 1979 VOL. II</unittitle>
 						<unitdate normal="1979">1979</unitdate>
 					</did>
@@ -373,8 +379,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link31">PROPOSALS 1979 VOL. III</unittitle>
 						<unitdate normal="1979">1979</unitdate>
 					</did>
@@ -384,8 +390,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link32">PROPOSALS 1979 VOL. IV</unittitle>
 						<unitdate normal="1979">1979</unitdate>
 					</did>
@@ -395,8 +401,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link33">PROPOSALS 1980 VOL. I</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 					</did>
@@ -406,8 +412,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link34">PROPOSALS 1980 VOL. II</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 					</did>
@@ -417,8 +423,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link35">PROPOSALS 1980 VOL. III</unittitle>
 						<unitdate normal="1980">1980</unitdate>
 					</did>
@@ -430,29 +436,29 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unittitle id="link36">SERIES II - RESEARCH REPORTS</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link37">"Professional Characteristics and Functions of Selected Midwestern Pupil Personnel Workers." </unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link38">"A Study of School Classroom Behavior from Diverse Evaluative Frameworks: Developmental, Mental Health, Substantive Learning, Group Process." </unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link39">"Midwest Research Center for Pupil Personnel Service: Summary Status Report, Part I - Research and Service Activities." </unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
@@ -462,72 +468,72 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link40">"School Anxiety and Cognitive Functioning: Exploratory Studies." </unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link41">"Training and Certification of Midwestern Pupil Personnel workers." </unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link42">"Project Plan Development, Part I." </unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link43">"Project Plan Development, Part II."</unittitle>
-						<unitdate type="inclusive" normal="1967/1970">1967-1970</unitdate>
+						<unitdate normal="1967/1970" type="inclusive">1967-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link44">"NUEA ABE Summer Institutes: Evaluation and Documentation." </unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link45">"POS Specifications and Related Transformation Tables." </unittitle>
 						<unitdate normal="1970">1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link46">"Student-Parent Long Range Goal formulation Program." </unittitle>
 						<unitdate normal="1970">1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link47">"PLAN Master Objectives." </unittitle>
 						<unitdate normal="1970">1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link48">"Development of an Apprenticeship Work-Study Program Model for the Cross-Training of Physical Scientists for Work in Educational Research and Development." </unittitle>
 						<unitdate normal="1971">1971</unitdate>
 					</did>
@@ -537,8 +543,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link49">"AIR - Results of the Pilot Test of the NCERD/OPPE Products Evaluation System." </unittitle>
 						<unitdate normal="1972">1972</unitdate>
 					</did>
@@ -548,8 +554,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link50">"AIR - Knowledge Products, Part I - from the Regional Educational Laboratories and Research and Development Centers." </unittitle>
 						<unitdate normal="1972">1972</unitdate>
 					</did>
@@ -559,98 +565,98 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link51">"The AIR Career Guidance Program - Thinking About Your Future. A-H." </unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link52">"The AIR Career Guidance Program - Finding Out About Yourself. I-O."</unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link53">"AIR - Establishing Development Objectives." </unittitle>
 						<unitdate normal="1973">1973</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link54">"Resource Book of Sample Lesson Units for Career Education: Residual Modules." </unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link55">"Source Book of Teacher Developed Instructional Units." </unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link56">"Career Education Curriculum Development: Grades K-9." </unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link57">"Career Education: Sample Instructional Materials."</unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link58">"Resource Book of Sample Lesson Units For Career Education." </unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link59">"Teacher's Guide To Career Education: Primary Grades." </unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link60">"Instructional Systems Options and Guidelines for the Dissemination and Implementation of Career Education." </unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link61">"Procedures of the National Advisory Panel." </unittitle>
 						<unitdate normal="1974">1974</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link62">"VECES: Vocational Education Curriculum Specialist Project." </unittitle>
-						<unitdate type="inclusive" normal="1976/1977">1976-1977</unitdate>
+						<unitdate normal="1976/1977" type="inclusive">1976-1977</unitdate>
 					</did>
 					<scopecontent>
 						<p>Vol. I-IV and Final Report; Includes: Instructor/Administrator Guide; Study Guide - Teaching/Learning Modules; Final Report on VECES.</p>
@@ -658,72 +664,72 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link63">"Vocational Education: Instructional Systems Theory."</unittitle>
 						<unitdate normal="1976">1976</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link64">"Vocational Education: Introductory Material." </unittitle>
 						<unitdate normal="1976">1976</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link65">"CCEM: Career Curriculum Education Materials."</unittitle>
 						<unitdate normal="1976">1976</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link66">"CCEM: Career Curriculum Education Materials Modules." </unittitle>
 						<unitdate normal="1976">1976</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link67">"CCEM: Field Test Report of 130 Career Education Modules." </unittitle>
 						<unitdate normal="1976">1976</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">9</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">9</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link68">"CIOE Annual Reports, Vol. I." </unittitle>
-						<unitdate type="inclusive" normal="1971/1978">1971-1978</unitdate>
+						<unitdate normal="1971/1978" type="inclusive">1971-1978</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">9</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">9</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link69">CIOE: A Review of the Change Literature with Implications for ISSOE Dissemination." </unittitle>
-						<unitdate type="inclusive" normal="1978/1981">1978-1981</unitdate>
+						<unitdate normal="1978/1981" type="inclusive">1978-1981</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">9</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">9</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link70">"ISSOE: Managing Student Progress, Systems Overview." </unittitle>
 						<unitdate normal="1980">1980</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">9</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">9</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link71">"CIOE (Cornell Institute for Occupational Education): Teaching Basic Skills Through Vocational Educational, Technical Report - Literature Search." </unittitle>
 						<unitdate normal="1980">1980</unitdate>
 					</did>
@@ -733,8 +739,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">9</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">9</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link72">"CIOE: Teaching Basic Skills Through Vocational Education, Technical Report - Readability Analyses of Selected Vocational Texts." </unittitle>
 						<unitdate normal="1980">1980</unitdate>
 					</did>
@@ -744,8 +750,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">9</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">9</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link73">"CIOE: Teaching Basic Skills Through Vocational Education - Teacher's Guide." </unittitle>
 						<unitdate normal="1980">1980</unitdate>
 					</did>
@@ -753,13 +759,13 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unittitle id="link74">SERIES III: CAREER EDUCATION MATERIALS</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link75">"Field Test Report: 130 Career Education Modules, Part I-IV." </unittitle>
 						<unitdate normal="1976">1976</unitdate>
 					</did>
@@ -769,8 +775,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link76">"Goal Formulation and Personal Planning." </unittitle>
 						<unitdate normal="1977">1977</unitdate>
 					</did>
@@ -780,8 +786,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link77">"Learning About Self." </unittitle>
 						<unitdate normal="1977">1977</unitdate>
 					</did>
@@ -791,8 +797,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link78">"Learning About The World of Work." </unittitle>
 						<unitdate normal="1977">1977</unitdate>
 					</did>
@@ -802,16 +808,16 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link79">"Publisher Procurement For Educational Products." </unittitle>
 						<unitdate normal="1977">1977</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link80">"Toward More Natural Field Testing of Classroom Materials." </unittitle>
 						<unitdate normal="1977">1977</unitdate>
 					</did>

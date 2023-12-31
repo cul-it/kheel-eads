@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
- <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-  <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06174-005::NYSUT Legislative Department Files.)//EN">KCL06174-005</eadid>
+ <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+  <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06174-005::NYSUT Legislative Department Files.)//EN">KCL06174-005</eadid>
   <filedesc>
    <titlestmt>
     <titleproper>Guide to the NYSUT Legislative Department Files,<date> 1884-2005</date></titleproper>
@@ -21,16 +21,22 @@
   <profiledesc>
    <creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>October 29, 2013</date></creation>
   </profiledesc>
- </eadheader>
+ <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
  <frontmatter>
   <titlepage>
-   <titleproper>Guide to the NYSUT Legislative Department Files.<lb/></titleproper>
-   <num type="kidb_reference_number" id="kc2572">Collection Number: 6174/005</num>
+   <titleproper>Guide to the NYSUT Legislative Department Files.</titleproper>
+   <num id="kc2572" type="kidb_reference_number">Collection Number: 6174/005</num>
    <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
    <list type="deflist">
     <defitem>
      <label>Contact Information:</label>
-     <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+     <item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
       <extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref>
      </item>
     </defitem>
@@ -48,19 +54,19 @@
  </frontmatter>
  <archdesc level="collection">
   <did>
-   <head id="a1">DESCRIPTIVE SUMMARY</head>
-   <unittitle label="Title:" encodinganalog="MARC 245$a">NYSUT Legislative Department Files, <unitdate encodinganalog="MARC 245$f">1884- 2005</unitdate>
-   </unittitle>
+   
+   <unittitle encodinganalog="MARC 245$a" label="Title:">NYSUT Legislative Department Files, 1884- 2005
+   </unittitle><unitdate encodinganalog="MARC 245$f">1884- 2005</unitdate>
    <unitid label="Collection Number:">6174/005</unitid>
    <origination label="Creator:"><corpname encodinganalog="MARC 110" role="creator">New York State United Teachers (NYSUT)</corpname></origination>
-   <physdesc label="Quantity:" encodinganalog="MARC 300">15.5 linear ft.</physdesc>
+   <physdesc encodinganalog="MARC 300" label="Quantity:">15.5 linear ft.</physdesc>
    <physdesc label="Forms of Material:">Articles, reports, pamphlets, correspondence.</physdesc>
    <repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
    <langmaterial label="Language:">Collection material in <language encodinganalog="MARC 041" langcode="eng">English</language>
    </langmaterial>
   <physdesc><extent>15.5 cubic feet</extent></physdesc></did>
   <bioghist encodinganalog="MARC 545">
-   <head id="a2" altrender="organizational history">NYSUT ORGANIZATIONAL HISTORY</head>
+   
    <p>New York State United Teachers (NYSUT) was created in 1972 by the merger of the New York State Teachers Association (NYSTA) and the United Teachers of New York (UTNY). NYSTA had been affiliated with the National Education Association (NEA), and UTNY with the American Federation of Teachers (AFT). UTNY was the statewide organization whose United Federation of Teachers (UFT), led by Albert Shanker, was the predominant teachers' union in New York City. In joining with United Teachers and affiliating with the AFT, NYSUT also became a member union of the AFL-CIO. </p>
    <p>In 1976, NYSUT voted to disaffiliate with the NEA. Some locals left NYSUT and created the NYEA (New York Educators Association), which became the state affiliate for the NEA. In the early 1980s, NYEA changed its name to NEA-NY. </p>
    <p>NYEA/NEA- NY viewed association with the AFL-CIO's industrial unions as undermining the professional image and independence of teachers. The two organizations also differed strongly on aspects of the governance structure, particularly with respect to ethnic minority representation, with NYSUT opposed to mandatory minimums. The rivalry between NYSUT and NYEA/NEA-NY in organizing new locals expended a great deal of resources for both labor organizations. </p>
@@ -68,7 +74,7 @@
    <p>NEA-N Y merged with NYSUT in 2006, by which time NYSUT had grown to more than half a million members, becoming the largest union in New York State.</p>
   </bioghist>
   <bioghist encodinganalog="MARC 545">
-   <head id="a5" altrender="organizational history">LEGISLATIVE DEPRTMENT ORGANIZATIONAL HISTORY </head>
+   
    <p>NYSUT's Legislative Department, a relatively small unit composed of just about a dozen members, was the engine behind the political powerhouse NYSUT had become by the 1980s. Reporting to the executive vice president, the department coordinated with the Legal Department and the Division of Research and Educational Services to develop an annual Legislative Program for the union, and then to push it relentlessly though the state legislature, from finding a sponsor for it in the Assembly or Senate, until it was signed by the governor. In addition to initiating legislation, the department tracked bills proposed independently by legislators, including proposals it considered detrimental to NYSUT's interests. All bills -- typically, some 15,000 per session -- would be reviewed. Of those 15,000, the approximately 3,000 that were determined to have an impact on education or health care were tracked on a daily basis by the department's electronic monitoring system. Receiving especially
     careful scrutiny was the annual budget proposed by the governor, for its impact on state aid to public education, including higher education provided by the State University of New York (SUNY) and its community colleges, and the City University of New York (CUNY). NYSUT's affiliate, United University Professions (UUP), regularly coordinated lobbying efforts with the department on behalf of higher education funding. The Legislative Department's overall lobbying operation was carried out not only by its professional staff in one-on-one contacts with individual legislators, but by a large group of volunteers, including retirees, who comprised its Committee of 100. Appointed by local presidents throughout the state, these teachers, school bus drivers, cafeteria ladies (aka School-Related Personnel), community college local presidents, and nurses (though NYSUT's affiliate, Federation of Nurses and Health Professionals), converged on Albany at least once a year, like birds returning in
     spring, to visit their local legislators on targeted, high-priority pending legislation. </p>
@@ -77,14 +83,14 @@
     New York City, the United Federation of Teachers (UFT), the political proving ground headed by Albert Shanker.</p>
   </bioghist>
   <scopecontent encodinganalog="MARC 520">
-   <head id="a3">COLLECTION DESCRIPTION</head>
+   
    <p>1973-2005. Majority of materials cover 1990s, some 1980s. Contents include issues briefing materials for lobbying days by Committee of 100, members of NYSUT, including retirees, who volunteered to lobby legislators in Albany; voter registration and issues flyers by VOTE/COPE (Committee on Political Education), the political action committee of NYSUT; recommendations for candidate endorsements and related background materials (research on voting records, summaries of key legislation); resolutions for consideration at the NYSUT Representative Assembly; correspondence with elected officials; draft legislation initiated by NYSUT; legislative memoranda of support or opposition to specific bills; annual NYSUT legislative programs (comprehensive package of bills of interest to K-12 public education, higher education, and health professionals); analyses of proposed executive (governor's) budgets; annual reports on legislative sessions, including bills opposed by NYSUT and not passed,
     bills passed by one chamber, vetoed, or signed into law</p>
   </scopecontent>
   <controlaccess>
-   <head id="a8">SUBJECTS</head>
+   
    <controlaccess>
-    <head>Names: </head>
+    
     <persname encodinganalog="MARC 600">Magidson, Herb</persname>
     <persname encodinganalog="MARC 600">Sanders, Dan</persname>
     <persname encodinganalog="MARC 600">Shanker, Albert</persname>
@@ -95,33 +101,33 @@
     <corpname encodinganalog="MARC 610">New York State United Teachers, Committee of 100 </corpname>
    </controlaccess>
    <controlaccess>
-    <head>Subjects: </head>
+    
     <subject encodinganalog="MARC 650">Teachers' union, New York (State) </subject>
    </controlaccess>
    <controlaccess>
     </controlaccess>
   </controlaccess>
   <descgrp>
-   <head id="a10">INFORMATION FOR USERS</head>
+   
    <accessrestrict>
-    <head>Access Restrictions:</head>
+    
     <p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
    </accessrestrict>
    <userestrict>
-    <head>Restrictions on Use:</head>
+    
     <p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
    </userestrict>
    <prefercite>
-    <head>Cite As:</head>
+    
     <p>NYSUT Legislative Department Files. #6174/005. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
    </prefercite>
   </descgrp>
   <dsc type="in-depth">
-   <head>CONTAINER LIST</head>
+   
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link6">RA 1997</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -131,8 +137,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link7">RA 1997 (folder 2)</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -142,8 +148,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link8">Community College Luncheon</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -153,8 +159,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link9">UFT/NYSUT Lobby Day</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -164,8 +170,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link10">Todd French (Constitutional Convention)</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -175,8 +181,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link11">Legislative Reception</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -186,8 +192,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link12">UUP Dinner Meeting- Fort Orange Club</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -197,8 +203,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link13">1996 Campaign</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -208,8 +214,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link14">Committee of 100-Vouchers</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -219,8 +225,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link15">Committee of 100</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -230,8 +236,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link16">Committee of 100</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -241,10 +247,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link17">Committee of 100</unittitle>
-     <unitdate type="inclusive" normal="1995/1996">1995-1996</unitdate>
+     <unitdate normal="1995/1996" type="inclusive">1995-1996</unitdate>
     </did>
     <scopecontent>
      <p>Correspondence and tentative agenda for March 25-26, 1996, lobby day; lists of members of Committee of 100; list of United University Professions executive board; list of NYSUT School-Related Personnel Advisory Committee members</p>
@@ -252,8 +258,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link18">Community College Luncheon</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -263,8 +269,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link19">PEC Conference</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -274,8 +280,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link20">NYS AFL-CIO Meeting Concord Hotel</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -285,8 +291,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link21">UFT Retiree Meeting Jeanne DiLorenzo</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -296,8 +302,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link22">ED 12 Retirees</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -307,8 +313,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link23">Committee of 100-Bill Schultz</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -318,8 +324,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link24">New Board Members Orientation</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -329,8 +335,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link25">NYS AFL-CIO Legislative Conference</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -340,8 +346,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link26">National Conference of State Legislatures</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -351,8 +357,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link27">Pension Security in a Changing Environment</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -362,8 +368,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link28">Departmental Meetings</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -373,8 +379,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link29">Empire State Report Pension Conference</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -384,8 +390,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link30">AFT-AFL Meetings</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -395,8 +401,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">26</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">26</container>
      <unittitle id="link31">Public Employee Conference Legislative Breakfast</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -406,8 +412,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">27</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">27</container>
      <unittitle id="link32">NYSUT Legislative Reception</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -417,8 +423,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">28</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">28</container>
      <unittitle id="link33">Higher Education Lobby Day</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -428,8 +434,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">29</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">29</container>
      <unittitle id="link34">Representative Assembly</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -439,8 +445,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">30</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">30</container>
      <unittitle id="link35">RA Material</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -450,8 +456,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">31</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">31</container>
      <unittitle id="link36">Committee of 100-Issues</unittitle>
      <unitdate normal="1998">1998</unitdate>
     </did>
@@ -461,8 +467,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">32</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">32</container>
      <unittitle id="link37">Committee of 100</unittitle>
      <unitdate normal="1998">1998</unitdate>
     </did>
@@ -472,8 +478,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">33</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">33</container>
      <unittitle id="link38">Committee of 100</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -483,8 +489,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">34</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">34</container>
      <unittitle id="link39">Committee of 100</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -494,8 +500,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">35</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">35</container>
      <unittitle id="link40">Committee of 100</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -505,8 +511,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">36</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">36</container>
      <unittitle id="link41">Committee of 100</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -516,8 +522,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">37</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">37</container>
      <unittitle id="link42">Committee of 100</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -527,8 +533,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">38</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">38</container>
      <unittitle id="link43">Committee of 100</unittitle>
      <unitdate normal="1884">1884</unitdate>
     </did>
@@ -538,8 +544,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">39</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">39</container>
      <unittitle id="link44">Committee of 100</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -549,8 +555,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">40</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">40</container>
      <unittitle id="link45">Committee of 100</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -560,8 +566,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">41</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">41</container>
      <unittitle id="link46">Committee of 100</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -572,8 +578,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">1</container>
-     <container type="folder">42</container>
+     <container label="unspecified" type="box">1</container>
+     <container label="unspecified" type="folder">42</container>
      <unittitle id="link47">Committee of 100</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -583,8 +589,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link48">Committee of 100</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -595,8 +601,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link49">Committee of 100</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -606,8 +612,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link50">Committee of 100</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -617,8 +623,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link51">Higher Education Lobby Day (folder 1)</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -628,8 +634,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link52">Higher Education Lobby Day (folder 2)</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -639,8 +645,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link53">Higher Education Lobby Day</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -650,8 +656,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link54">Higher Education Lobby Day</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -661,8 +667,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link55">Higher Education Lobby Day</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -672,8 +678,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link56">Higher Education Lobby Day</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -683,8 +689,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link57">Higher Education Lobby Day</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -694,8 +700,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link58">Higher Education Lobby Day</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -705,8 +711,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link59">FNHP (Federation of Nurses and Health Professionals) Lobby Day</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -716,8 +722,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link60">FNHP Lobby Day</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -727,8 +733,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link61">FNHP Lobby Day</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -738,8 +744,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link62">Federal Legislative Reception</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -749,8 +755,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link63">Political Action Committee (PAC)</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -760,8 +766,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link64">Workshop Session III Delegate Selection Process 1995 Presidential Primaries</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -771,8 +777,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link65">Presidents' Conference</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -782,8 +788,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link66">ED 12 Retirees</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -793,8 +799,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link67">Retiree Lobbying Training</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -804,8 +810,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link68">Retiree Lobby Day</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -815,8 +821,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link69">Retiree Lobby Day</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -826,8 +832,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link70">Governor's Advisory Council</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -837,8 +843,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link71">Vacation Schedule</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -848,8 +854,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link72">Agency Fee</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -859,8 +865,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">26</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">26</container>
      <unittitle id="link73">Luncheon- Matt Scott, Swan Club, Glen Head Landing</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -870,8 +876,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">27</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">27</container>
      <unittitle id="link74">Luncheon ED 5-6 Canandaigua Yacht Club</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -881,8 +887,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">28</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">28</container>
      <unittitle id="link75">National Conference of State Legislatures</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -892,8 +898,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">29</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">29</container>
      <unittitle id="link76">NYC Republican Senators Dinner</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -903,8 +909,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">30</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">30</container>
      <unittitle id="link77">Weinstein Dinner</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -914,8 +920,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">31</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">31</container>
      <unittitle id="link78">AFL-CIO Workers Compensation Meeting</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -925,8 +931,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">32</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">32</container>
      <unittitle id="link79">AFT Special Conference on Vouchers</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -936,8 +942,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">33</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">33</container>
      <unittitle id="link80">AFT Northeast Regional Conference</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -947,8 +953,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">34</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">34</container>
      <unittitle id="link81">New Yorkers for Fiscal Fairness</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -958,8 +964,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">35</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">35</container>
      <unittitle id="link82">AFL-CIO Legislative Day</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -969,8 +975,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">36</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">36</container>
      <unittitle id="link83">Community College Luncheon-Fort Orange Club</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -980,8 +986,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">37</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">37</container>
      <unittitle id="link84">Teacher Center Lobby Day</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -991,8 +997,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">38</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">38</container>
      <unittitle id="link85">SUNY-UUP Dinner-Fort Orange Club</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1002,8 +1008,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">39</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">39</container>
      <unittitle id="link86">FNHP Lobby Day</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1013,8 +1019,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">40</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">40</container>
      <unittitle id="link87">Special Act Schools-Fort Orange Club</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1024,8 +1030,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">41</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">41</container>
      <unittitle id="link88">Committee of 100</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1035,8 +1041,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">42</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">42</container>
      <unittitle id="link89">Cuomo-Record on Education</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1046,8 +1052,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">43</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">43</container>
      <unittitle id="link90">1994 Election</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1057,8 +1063,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">44</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">44</container>
      <unittitle id="link91">Local Presidents' Endorsement Conference</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1068,8 +1074,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">45</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">45</container>
      <unittitle id="link92">VOTE/COPE Regional Campaign Coordinators</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1079,8 +1085,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">46</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">46</container>
      <unittitle id="link93">Presidents' Conference on Endorsements</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1090,8 +1096,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">47</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">47</container>
      <unittitle id="link94">Budget-End of Session Food Orders</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1101,8 +1107,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">48</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">48</container>
      <unittitle id="link95">NYSUT Endorsements</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1112,8 +1118,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">49</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">49</container>
      <unittitle id="link96">Committee of 100</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1123,8 +1129,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">2</container>
-     <container type="folder">50</container>
+     <container label="unspecified" type="box">2</container>
+     <container label="unspecified" type="folder">50</container>
      <unittitle id="link97">NYSUT Endorsement Recommendations</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1134,8 +1140,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link98">UFT Spring Education Conference</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1145,8 +1151,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link99">UUP Friend of SUNY</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1156,8 +1162,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link100">Ad Hoc Task Force on School Violence</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1167,8 +1173,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link101">Higher Education Lobby Day</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1178,8 +1184,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link102">Legislative Reception</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1189,8 +1195,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link103">Federal Legislative Reception</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1200,8 +1206,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link104">Federal Legislative Reception Manny's (Kafka) Material</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1211,8 +1217,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link105">Health Benefits Conference</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -1222,8 +1228,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link106">Campaigns and Elections Seminars</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -1233,8 +1239,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link107">Special Act Schools</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -1244,8 +1250,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link108">Chapter 437 Omnibus Retirement Bill</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -1255,8 +1261,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link109">Pat's (Ballard) Retirement Dinner Fort Orange Club</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -1266,8 +1272,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link110">Legislative Reception</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -1277,8 +1283,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link111">Federal Legislative Reception</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -1288,8 +1294,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link112">Committee of 100</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -1299,8 +1305,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link113">Committee of 100</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -1310,8 +1316,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link114">New Local Presidents' Conference</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -1321,8 +1327,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link115">Retirees Lobby Day</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1332,8 +1338,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link116">AFL-CIO AFT Meetings</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -1343,8 +1349,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link117">Community College Luncheon Ft. Orange</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -1354,8 +1360,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link118">Ulster County Democratic Committee Phone Bank</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -1365,8 +1371,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link119">End of Session Food Orders</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -1376,8 +1382,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link120">Teacher Center Lobby Day</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1387,8 +1393,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link121">FNHP Ft. Orange Club</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -1398,8 +1404,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link122">Committee of 100 Housing</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -1409,8 +1415,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">26</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">26</container>
      <unittitle id="link123">Higher Ed Lobby Day</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -1420,8 +1426,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">27</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">27</container>
      <unittitle id="link124">Community College Luncheon Ft. Orange Club</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1431,8 +1437,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">28</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">28</container>
      <unittitle id="link125">Teacher Center Lobby Day</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1442,8 +1448,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">29</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">29</container>
      <unittitle id="link126">FNHP Lobby Day</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1453,8 +1459,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">30</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">30</container>
      <unittitle id="link127">Committee of 100</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1464,8 +1470,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">31</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">31</container>
      <unittitle id="link128">Committee of 100</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1475,8 +1481,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">32</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">32</container>
      <unittitle id="link129">Legislative Reception</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1486,8 +1492,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">33</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">33</container>
      <unittitle id="link130">Political Action Committee (PAC) Meeting</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1497,8 +1503,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">34</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">34</container>
      <unittitle id="link131">PAC Housing</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1508,8 +1514,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">35</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">35</container>
      <unittitle id="link132">Dan Feldman Breakfast</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1519,8 +1525,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">36</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">36</container>
      <unittitle id="link133">FEC (Federal Election Commission) Conference Alan Lewis</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1530,8 +1536,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">37</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">37</container>
      <unittitle id="link134">Retiree Training Best Western</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1541,8 +1547,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">38</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">38</container>
      <unittitle id="link135">Retiree Lobby Day</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1552,8 +1558,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">39</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">39</container>
      <unittitle id="link136">Retiree Training</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1563,8 +1569,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">40</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">40</container>
      <unittitle id="link137">Budget End of Session Food Orders</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1574,8 +1580,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">41</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">41</container>
      <unittitle id="link138">Republican Senate</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1585,8 +1591,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">42</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">42</container>
      <unittitle id="link139">Community College Luncheon</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1596,8 +1602,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">43</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">43</container>
      <unittitle id="link140">Public Employee Conference (PEC) Breakfast</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1607,8 +1613,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">3</container>
-     <container type="folder">44</container>
+     <container label="unspecified" type="box">3</container>
+     <container label="unspecified" type="folder">44</container>
      <unittitle id="link141">TDA New York City Teachers' Retirement System</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1618,8 +1624,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link142">New York State Festival</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1629,8 +1635,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link143">PEC Conference</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1640,8 +1646,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link144">Higher Ed Lobby Day (folder 1)</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1651,8 +1657,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link145">Higher Education Lobby Day (folder 2)</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1662,8 +1668,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link146">New York's Moynihan</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -1673,8 +1679,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link147">New Local Presidents' Conference</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -1684,8 +1690,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link148">Committee of 100 (folder 1)</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -1695,8 +1701,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link149">Committee of 100 (folder 2)</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -1706,8 +1712,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link150">Committee of 100 Invitations</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -1717,8 +1723,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link151">Legislative Reception</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -1728,8 +1734,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link152">Wantagh Retirees Meeting</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -1739,8 +1745,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link153">NYS AFL-CIO Labor Recognition Dinner</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -1750,8 +1756,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link154">Yonkers Federal Workshop Arden House</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -1761,8 +1767,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link155">Belle Zeller Scholarship Award Dinner</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -1772,8 +1778,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link156">NYS AFL-CIO</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -1783,8 +1789,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link157">Committee of 100 (folder 1)</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -1794,8 +1800,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link158">Committee of 100 (folder 2)</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -1805,8 +1811,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link159">Committee of 100 (folder 3)</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -1816,8 +1822,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link160">Special Act Schools Lobby Day</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -1827,8 +1833,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link161">Higher Education Lobby Day</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -1838,8 +1844,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link162">Federal Legislative Reception</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -1849,8 +1855,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link163">Teacher Center Lobby Day</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -1860,8 +1866,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link164">New Local Presidents Conference</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -1871,8 +1877,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link165">New Local Presidents Conference</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -1882,8 +1888,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link166">Committee of 100</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -1893,8 +1899,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">26</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">26</container>
      <unittitle id="link167">Committee of 100 Print Shop Requests</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -1904,8 +1910,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">27</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">27</container>
      <unittitle id="link168">Federal Legislative Reception</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -1915,8 +1921,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">28</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">28</container>
      <unittitle id="link169">Higher Education Luncheon (folder 1)</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -1926,8 +1932,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">29</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">29</container>
      <unittitle id="link170">Higher Education Luncheon (folder 2)</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -1937,8 +1943,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">30</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">30</container>
      <unittitle id="link171">Higher Education Lobbying (folder 1)</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -1948,8 +1954,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">31</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">31</container>
      <unittitle id="link172">Higher Education Lobbying (folder 2)</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -1959,8 +1965,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">32</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">32</container>
      <unittitle id="link173">Higher Education Lobby Day</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -1970,8 +1976,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">33</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">33</container>
      <unittitle id="link174">Legislative Reception</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -1981,8 +1987,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">34</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">34</container>
      <unittitle id="link175">NYSUT Legislative Reception</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -1992,8 +1998,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">35</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">35</container>
      <unittitle id="link176">Federal Legislative Reception Representative Assembly</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -2003,8 +2009,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">36</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">36</container>
      <unittitle id="link177">Committee of 100-Vouchers</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -2014,8 +2020,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">37</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">37</container>
      <unittitle id="link178">Committee of 100-Invitations</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -2025,8 +2031,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">38</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">38</container>
      <unittitle id="link179">Committee of 100</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -2036,8 +2042,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">39</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">39</container>
      <unittitle id="link180">Committee of 100</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -2047,8 +2053,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">40</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">40</container>
      <unittitle id="link181">Committee of 100-Material for Kits</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -2058,8 +2064,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">41</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">41</container>
      <unittitle id="link182">FNHP Lobbying</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -2069,8 +2075,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">42</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">42</container>
      <unittitle id="link183">FNHP Lobbying</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -2080,8 +2086,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">43</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">43</container>
      <unittitle id="link184">Committee of 100</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -2091,8 +2097,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">4</container>
-     <container type="folder">44</container>
+     <container label="unspecified" type="box">4</container>
+     <container label="unspecified" type="folder">44</container>
      <unittitle id="link185">Committee of 100 Retirees</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -2102,8 +2108,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link186">Committee of 100</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -2113,8 +2119,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link187">Committee of 100</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -2124,8 +2130,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link188">AFT Convention</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -2135,8 +2141,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link189">Community College Lobbying</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -2146,8 +2152,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link190">Federal Reception and Lobbying</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -2157,8 +2163,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link191">UFT Steering Committee on Veterans' Pension Credit</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -2168,8 +2174,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link192">Political Action Workshop-Utica</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -2179,8 +2185,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link193">Correspondence</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -2190,8 +2196,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link194">Correspondence</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -2201,8 +2207,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link195">Correspondence</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -2212,8 +2218,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link196">Correspondence</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -2223,8 +2229,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link197">Correspondence</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -2234,8 +2240,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link198">Correspondence</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -2245,8 +2251,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link199">Correspondence</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -2256,8 +2262,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link200">Correspondence</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -2267,8 +2273,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link201">Correspondence</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -2278,8 +2284,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link202">Correspondence</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -2289,8 +2295,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link203">Correspondence</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -2300,8 +2306,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">5</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">5</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link204">Correspondence</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -2311,8 +2317,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link205">Correspondence</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -2322,8 +2328,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link206">Correspondence</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -2333,8 +2339,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link207">Correspondence</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -2344,8 +2350,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link208">Correspondence</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -2355,8 +2361,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link209">Correspondence</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -2366,8 +2372,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link210">Correspondence</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -2377,8 +2383,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link211">Correspondence</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -2388,8 +2394,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link212">Correspondence</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -2399,8 +2405,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link213">Correspondence</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -2410,8 +2416,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link214">Costello, John (1 of 2)</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -2421,8 +2427,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link215">Costello, John (2 of 2)</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -2432,8 +2438,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link216">Lewis, Alan</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -2443,8 +2449,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link217">Lewis, Alan</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -2454,8 +2460,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link218">Lewis, Alan</unittitle>
      <unitdate normal="1989">1989</unitdate>
     </did>
@@ -2465,8 +2471,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link219">Lewis, Alan (1 of 2)</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -2476,8 +2482,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link220">Lewis, Alan (2 of 2)</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -2487,8 +2493,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link221">Kafka, Emanuel</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -2498,8 +2504,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link222">Lewis, Alan</unittitle>
      <unitdate normal="1988">1988</unitdate>
     </did>
@@ -2509,8 +2515,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">6</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">6</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link223">Lewis, Alan</unittitle>
      <unitdate normal="1987">1987</unitdate>
     </did>
@@ -2520,8 +2526,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link224">Lewis, Alan</unittitle>
      <unitdate normal="1988">1988</unitdate>
     </did>
@@ -2531,8 +2537,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link225">Lewis, Alan</unittitle>
      <unitdate normal="1988">1988</unitdate>
     </did>
@@ -2542,8 +2548,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link226">Lewis, Alan</unittitle>
      <unitdate normal="1987">1987</unitdate>
     </did>
@@ -2553,8 +2559,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link227">Lewis, Alan</unittitle>
      <unitdate normal="1987">1987</unitdate>
     </did>
@@ -2564,8 +2570,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link228">Martineau, Peter</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -2575,8 +2581,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link229">Martineau, Peter</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -2586,8 +2592,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link230">Martineau, Peter</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -2597,8 +2603,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link231">Martineau, Peter (1 of 2)</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -2608,8 +2614,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link232">Martineau, Peter (2 of 2)</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -2619,8 +2625,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link233">Skuse, Ray</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -2630,10 +2636,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link234">Skuse, Ray</unittitle>
-     <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+     <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
     </did>
     <scopecontent>
      <p>Chronological correspondence including letters to local presidents re political action workshop</p>
@@ -2641,8 +2647,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link235">Skuse, Ray</unittitle>
      <unitdate normal="1988">1988</unitdate>
     </did>
@@ -2652,8 +2658,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link236">Skuse, Ray</unittitle>
      <unitdate normal="1987">1987</unitdate>
     </did>
@@ -2663,8 +2669,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link237">Skuse, Ray</unittitle>
      <unitdate normal="1987">1987</unitdate>
     </did>
@@ -2674,10 +2680,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link238">Support Statements-Bills Not Carried Over from 1985-1986</unittitle>
-     <unitdate type="inclusive" normal="1985/1986">1985-1986</unitdate>
+     <unitdate normal="1985/1986" type="inclusive">1985-1986</unitdate>
     </did>
     <scopecontent>
      <p>Summaries of proposed legislation and statements of support by NYSUT</p>
@@ -2685,8 +2691,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link239">Legislation (Ventura)</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -2696,8 +2702,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link240">Ballard, Pat</unittitle>
      <unitdate normal="1988">1988</unitdate>
     </did>
@@ -2707,10 +2713,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link241">Ballard, Pat</unittitle>
-     <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate>
+     <unitdate normal="1989/1990" type="inclusive">1989-1990</unitdate>
     </did>
     <scopecontent>
      <p>Draft Comprehensive Report, Legislation of Interest to Higher Education and Health Care Professionals; memo from Ballard to NYSUT president Tom Hobart re SUNY community colleges and state aid data, March 15; memo re Adolescent Tobacco Act, October 5; memo from Ballard to FNHP members, summary of 1990 legislative session, September 17; highlights of SUNY and CUNY state operations budgets and related fact sheets; testimony of officers of higher education labor unions at state legislative committee hearings</p>
@@ -2718,10 +2724,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link242">Ballard, Pat</unittitle>
-     <unitdate type="inclusive" normal="1989/1990">1989-1990</unitdate>
+     <unitdate normal="1989/1990" type="inclusive">1989-1990</unitdate>
     </did>
     <scopecontent>
      <p>Executive Budget Highlights of Health Care Proposals; Major Legislation of Interest: Higher Education and Health Care Professionals, 1989 and 1988; memo suggesting facts re SUNY community colleges for inclusion in VOTE/COPE pamphlet; tentative schedule and workshop descriptions for "Effective Unions in Community Colleges," November 3-5, 1989; memo re Legislative Department's activities for UUP, 1989-90; materials re letter-writing campaign to elected representatives; materials re lobbying day</p>
@@ -2729,8 +2735,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link243">Ballard, Pat (1 of 2)</unittitle>
      <unitdate normal="1988">1988</unitdate>
     </did>
@@ -2740,8 +2746,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link244">Ballard, Pat (2 of 2)</unittitle>
      <unitdate normal="1988">1988</unitdate>
     </did>
@@ -2751,8 +2757,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link245">Ballard, Pat</unittitle>
      <unitdate normal="1987">1987</unitdate>
     </did>
@@ -2762,8 +2768,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">7</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">7</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link246">Ballard, Pat</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -2773,8 +2779,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link247">Ballard, Pat</unittitle>
      <unitdate normal="1987">1987</unitdate>
     </did>
@@ -2784,8 +2790,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link248">Ballard, Pat</unittitle>
      <unitdate normal="1987">1987</unitdate>
     </did>
@@ -2795,8 +2801,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link249">Ballard, Pat</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -2806,8 +2812,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link250">Connolly, Kristan</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -2817,8 +2823,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link251">Costello, John</unittitle>
      <unitdate normal="1993">1993</unitdate>
     </did>
@@ -2828,8 +2834,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link252">Costello, John</unittitle>
      <unitdate normal="1991">1991</unitdate>
     </did>
@@ -2839,8 +2845,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link253">Bozzella, John</unittitle>
      <unitdate normal="1989">1989</unitdate>
     </did>
@@ -2850,8 +2856,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link254">Costello, John</unittitle>
      <unitdate normal="1987">1987</unitdate>
     </did>
@@ -2861,10 +2867,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link255">Costello, John</unittitle>
-     <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+     <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
     </did>
     <scopecontent>
      <p>List of key NYSUT program and support bills approved since August 29, 1988; memo from Costello to legislative director Ray Skuse re Hurd (small city) school aid formula and budget vote question, March 3, 1989; outline for remarks at health insurance hearing; summary of Coalition Finance Committee meeting, January 9, 1989; discussion of Yonkers Emergency Financial Control Board impact on collective bargaining, April 12, 1989; memo re 1989 Representative Assembly resolutions; draft text for VOTE/COPE brochures</p>
@@ -2872,8 +2878,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link256">Costello, John</unittitle>
      <unitdate normal="1988">1988</unitdate>
     </did>
@@ -2883,8 +2889,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link257">Costello, John</unittitle>
      <unitdate normal="1987">1987</unitdate>
     </did>
@@ -2894,8 +2900,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link258">Costello, John</unittitle>
      <unitdate normal="1987">1987</unitdate>
     </did>
@@ -2906,8 +2912,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link259">Frantz, Ronald</unittitle>
      <unitdate normal="1987">1987</unitdate>
     </did>
@@ -2917,8 +2923,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link260">Frantz, Ronald</unittitle>
      <unitdate normal="1987">1987</unitdate>
     </did>
@@ -2928,8 +2934,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link261">Lewis, Alan</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -2939,8 +2945,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link262">Lewis, Alan</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -2950,10 +2956,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link263">Kafka, Emanuel</unittitle>
-     <unitdate type="inclusive" normal="1988/1989">1988-1989</unitdate>
+     <unitdate normal="1988/1989" type="inclusive">1988-1989</unitdate>
     </did>
     <scopecontent>
      <p>Federal Legislative Highlights, first session, 101st Congress, 1989; legislative priorities of NYSUT and AFT in the 101st Congress; Federal Legislative Report; memo from Kafka to legislative director Ray Skuse re new state legislative program items, January 18, 1989; memo re lobbying results against the comprehensive child care bill, October 11, 1989; report on congressional legislative reception, March 22, 1989</p>
@@ -2961,8 +2967,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link264">Kafka, Emanuel</unittitle>
      <unitdate normal="1988">1988</unitdate>
     </did>
@@ -2972,8 +2978,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link265">Kafka, Emanuel</unittitle>
      <unitdate normal="1987">1987</unitdate>
     </did>
@@ -2983,8 +2989,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link266">Kafka, Emanuel</unittitle>
      <unitdate normal="1987">1987</unitdate>
     </did>
@@ -2994,8 +3000,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link267">Hartnell, Jeff</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -3005,8 +3011,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link268">Kafka, Emanuel-Clinton Health Care</unittitle>
      <unitdate normal="1988">1988</unitdate>
     </did>
@@ -3016,8 +3022,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">8</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">8</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link269">Gigi Georges</unittitle>
      <unitdate normal="1992">1992</unitdate>
     </did>
@@ -3027,8 +3033,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link270">Ron Frantz</unittitle>
      <unitdate normal="1988">1988</unitdate>
     </did>
@@ -3038,8 +3044,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link271">Read File A-L</unittitle>
      <unitdate normal="1998">1998</unitdate>
     </did>
@@ -3049,8 +3055,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link272">Read File M-Z</unittitle>
      <unitdate normal="1998">1998</unitdate>
     </did>
@@ -3060,8 +3066,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link273">Read File A-I</unittitle>
      <unitdate normal="1999">1999</unitdate>
     </did>
@@ -3071,8 +3077,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link274">Read File J-M</unittitle>
      <unitdate normal="1999">1999</unitdate>
     </did>
@@ -3082,8 +3088,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link275">Read File Mc-R</unittitle>
      <unitdate normal="1999">1999</unitdate>
     </did>
@@ -3093,8 +3099,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link276">Read File S-W</unittitle>
      <unitdate normal="1999">1999</unitdate>
     </did>
@@ -3104,8 +3110,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link277">Read File XYZ</unittitle>
      <unitdate normal="1999">1999</unitdate>
     </did>
@@ -3115,8 +3121,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link278">Read File A-E</unittitle>
      <unitdate normal="2000">2000</unitdate>
     </did>
@@ -3126,8 +3132,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link279">Read File F-K</unittitle>
      <unitdate normal="2000">2000</unitdate>
     </did>
@@ -3137,8 +3143,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link280">Read File L-Q</unittitle>
      <unitdate normal="2000">2000</unitdate>
     </did>
@@ -3148,8 +3154,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link281">Read File R-Z</unittitle>
      <unitdate normal="2000">2000</unitdate>
     </did>
@@ -3159,8 +3165,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link282">Read File A-F</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -3170,8 +3176,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link283">Read File G-K</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -3181,8 +3187,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link284">Read File L-N</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -3192,8 +3198,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link285">Read File O-S</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -3203,8 +3209,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link286">Read File T-Z</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -3214,8 +3220,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link287">Read File A-L</unittitle>
      <unitdate normal="2002">2002</unitdate>
     </did>
@@ -3225,8 +3231,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">9</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">9</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link288">Read File M-Z</unittitle>
      <unitdate normal="2002">2002</unitdate>
     </did>
@@ -3236,8 +3242,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link289">Read File A-E</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -3247,8 +3253,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link290">Read File F-L</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -3258,8 +3264,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link291">Read File M</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -3269,8 +3275,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link292">Read File N-Z</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -3280,8 +3286,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link293">Read File A-L</unittitle>
      <unitdate normal="2004">2004</unitdate>
     </did>
@@ -3291,8 +3297,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link294">Read File M-Z</unittitle>
      <unitdate normal="2004">2004</unitdate>
     </did>
@@ -3302,8 +3308,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link295">John Costello Chronological Files</unittitle>
      <unitdate normal="2005">2005</unitdate>
     </did>
@@ -3313,8 +3319,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link296">Representative Assembly Box Labels</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -3324,8 +3330,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link297">RA Agenda</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -3335,8 +3341,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link298">RA Travel Assignments</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -3346,8 +3352,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link299">RA Floor Plan</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -3357,8 +3363,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link300">RA Invites</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -3368,8 +3374,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link301">RA Print Orders</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -3379,8 +3385,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link302">RA Proposed Constitution Amendments and Resolutions (1 of 2)</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -3390,8 +3396,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link303">RA Proposed Constitution Amendments and Resolutions (2 of 2)</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -3401,8 +3407,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link304">RA PAC Center</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -3412,8 +3418,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link305">RA VOTE/COPE</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -3423,8 +3429,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link306">RA Intros and Speeches</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -3434,8 +3440,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link307">RA Other</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -3445,8 +3451,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link308">RA Convention Materials Mailed</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -3456,8 +3462,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link309">RA Invites</unittitle>
      <unitdate normal="2004">2004</unitdate>
     </did>
@@ -3467,8 +3473,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link310">RA Letters</unittitle>
      <unitdate normal="2004">2004</unitdate>
     </did>
@@ -3478,8 +3484,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link311">RA Print Orders (1 of 2)</unittitle>
      <unitdate normal="2004">2004</unitdate>
     </did>
@@ -3489,8 +3495,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link312">RA Print Orders (2 of 2)</unittitle>
      <unitdate normal="2004">2004</unitdate>
     </did>
@@ -3500,8 +3506,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link313">RA Solidarity Event (Rally)</unittitle>
      <unitdate normal="2004">2004</unitdate>
     </did>
@@ -3511,8 +3517,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">26</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">26</container>
      <unittitle id="link314">RA VOTE/COPE</unittitle>
      <unitdate normal="2004">2004</unitdate>
     </did>
@@ -3522,8 +3528,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">27</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">27</container>
      <unittitle id="link315">RA PAC Center</unittitle>
      <unitdate normal="2004">2004</unitdate>
     </did>
@@ -3533,8 +3539,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">28</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">28</container>
      <unittitle id="link316">RA Intros and Speeches</unittitle>
      <unitdate normal="2004">2004</unitdate>
     </did>
@@ -3544,8 +3550,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">29</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">29</container>
      <unittitle id="link317">RA Local Presidents' Conference</unittitle>
      <unitdate normal="2004">2004</unitdate>
     </did>
@@ -3555,8 +3561,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">30</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">30</container>
      <unittitle id="link318">RA Other</unittitle>
      <unitdate normal="2004">2004</unitdate>
     </did>
@@ -3566,8 +3572,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">31</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">31</container>
      <unittitle id="link319">RA Convention Materials Mailed</unittitle>
      <unitdate normal="2004">2004</unitdate>
     </did>
@@ -3577,8 +3583,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">32</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">32</container>
      <unittitle id="link320">RA Agenda Information</unittitle>
      <unitdate normal="1999">1999</unitdate>
     </did>
@@ -3588,8 +3594,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">33</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">33</container>
      <unittitle id="link321">RA Correspondence</unittitle>
      <unitdate normal="1999">1999</unitdate>
     </did>
@@ -3599,8 +3605,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">34</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">34</container>
      <unittitle id="link322">RA Give-Aways</unittitle>
      <unitdate normal="1999">1999</unitdate>
     </did>
@@ -3610,8 +3616,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">10</container>
-     <container type="folder">35</container>
+     <container label="unspecified" type="box">10</container>
+     <container label="unspecified" type="folder">35</container>
      <unittitle id="link323">RA Memos</unittitle>
      <unitdate normal="1999">1999</unitdate>
     </did>
@@ -3621,8 +3627,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link324">RA Floor Plan</unittitle>
      <unitdate normal="1999">1999</unitdate>
     </did>
@@ -3632,8 +3638,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link325">RA-Other</unittitle>
      <unitdate normal="1999">1999</unitdate>
     </did>
@@ -3643,8 +3649,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link326">RA Proposed Constitutional Amendments and Resolutions</unittitle>
      <unitdate normal="1999">1999</unitdate>
     </did>
@@ -3654,8 +3660,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link327">RA Agenda Information</unittitle>
      <unitdate normal="2000">2000</unitdate>
     </did>
@@ -3665,8 +3671,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link328">RA Correspondence</unittitle>
      <unitdate normal="2000">2000</unitdate>
     </did>
@@ -3676,8 +3682,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link329">RA Floor Plan</unittitle>
      <unitdate normal="2000">2000</unitdate>
     </did>
@@ -3687,8 +3693,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link330">RA Give-Aways</unittitle>
      <unitdate normal="2000">2000</unitdate>
     </did>
@@ -3698,8 +3704,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link331">RA Invites</unittitle>
      <unitdate normal="2000">2000</unitdate>
     </did>
@@ -3709,8 +3715,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link332">RA Memos</unittitle>
      <unitdate normal="2000">2000</unitdate>
     </did>
@@ -3720,8 +3726,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link333">RA Other</unittitle>
      <unitdate normal="2000">2000</unitdate>
     </did>
@@ -3731,8 +3737,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link334">RA Proposed Constitutional Amendments and Resolutions</unittitle>
      <unitdate normal="2000">2000</unitdate>
     </did>
@@ -3742,8 +3748,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">12</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">12</container>
      <unittitle id="link335">RA Agenda</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -3753,8 +3759,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">13</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">13</container>
      <unittitle id="link336">RA Delegate Bulletins</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -3764,8 +3770,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">14</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">14</container>
      <unittitle id="link337">RA Emails</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -3775,8 +3781,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">15</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">15</container>
      <unittitle id="link338">RA Invites</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -3786,8 +3792,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">16</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">16</container>
      <unittitle id="link339">RA Letters</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -3797,8 +3803,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">17</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">17</container>
      <unittitle id="link340">RA Memos</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -3808,8 +3814,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">18</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">18</container>
      <unittitle id="link341">RA Print Orders</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -3819,8 +3825,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">19</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">19</container>
      <unittitle id="link342">RA Proposed Constitutional Amendments and Resolutions</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -3830,8 +3836,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">20</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">20</container>
      <unittitle id="link343">RA VOTE/COPE Shirts</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -3841,8 +3847,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">21</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">21</container>
      <unittitle id="link344">RA Other</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -3852,8 +3858,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">22</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">22</container>
      <unittitle id="link345">RA Agenda</unittitle>
      <unitdate normal="2002">2002</unitdate>
     </did>
@@ -3863,8 +3869,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">23</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">23</container>
      <unittitle id="link346">RA Delegate Bulletins</unittitle>
      <unitdate normal="2002">2002</unitdate>
     </did>
@@ -3874,8 +3880,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">24</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">24</container>
      <unittitle id="link347">RA Emails</unittitle>
      <unitdate normal="2002">2002</unitdate>
     </did>
@@ -3885,8 +3891,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">25</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">25</container>
      <unittitle id="link348">RA Floor Plan</unittitle>
      <unitdate normal="2002">2002</unitdate>
     </did>
@@ -3896,8 +3902,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">26</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">26</container>
      <unittitle id="link349">RA Invites</unittitle>
      <unitdate normal="2002">2002</unitdate>
     </did>
@@ -3907,8 +3913,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">27</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">27</container>
      <unittitle id="link350">RA Letters</unittitle>
      <unitdate normal="2002">2002</unitdate>
     </did>
@@ -3918,8 +3924,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">28</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">28</container>
      <unittitle id="link351">RA Print Orders</unittitle>
      <unitdate normal="2002">2002</unitdate>
     </did>
@@ -3929,8 +3935,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">29</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">29</container>
      <unittitle id="link352">RA Proposed Constitutional Amendments and Resolutions</unittitle>
      <unitdate normal="2002">2002</unitdate>
     </did>
@@ -3940,8 +3946,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">30</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">30</container>
      <unittitle id="link353">RA Other</unittitle>
      <unitdate normal="2002">2002</unitdate>
     </did>
@@ -3951,8 +3957,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">31</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">31</container>
      <unittitle id="link354">15th New Local Presidents' Conference-Participants' Handbook- Monday</unittitle>
      <unitdate normal="2005">2005</unitdate>
     </did>
@@ -3962,8 +3968,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">32</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">32</container>
      <unittitle id="link355">15th New Local Presidents' Conference-Participants' Handbook-Tuesday</unittitle>
      <unitdate normal="2005">2005</unitdate>
     </did>
@@ -3973,8 +3979,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">11</container>
-     <container type="folder">33</container>
+     <container label="unspecified" type="box">11</container>
+     <container label="unspecified" type="folder">33</container>
      <unittitle id="link356">15th New Local Presidents' Conference-Participants' Handbook-Wednesday</unittitle>
      <unitdate normal="2005">2005</unitdate>
     </did>
@@ -3984,8 +3990,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">12</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">12</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link357">Lubin Calendar</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -3995,10 +4001,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">12</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">12</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link358">Lubin Calendar</unittitle>
-     <unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate>
+     <unitdate normal="2001/2002" type="inclusive">2001-2002</unitdate>
     </did>
     <scopecontent>
      <p>December 2001-December 2002</p>
@@ -4006,8 +4012,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">12</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">12</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link359">Lubin Calendar</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -4017,8 +4023,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">12</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">12</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link360">Vote/Cope Managers' Campaign</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -4028,8 +4034,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">12</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">12</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link361">Vote/Cope Managers' Campaign</unittitle>
      <unitdate normal="2002">2002</unitdate>
     </did>
@@ -4039,8 +4045,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">12</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">12</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link362">Vote/Cope Managers' Campaign</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -4050,8 +4056,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">12</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">12</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link363">Vote/Cope</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -4061,8 +4067,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">12</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">12</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link364">Vote/Cope Managers' Campaign</unittitle>
      <unitdate normal="1999">1999</unitdate>
     </did>
@@ -4072,8 +4078,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">12</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">12</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link365">Vote/Cope Managers' Campaign</unittitle>
      <unitdate normal="1998">1998</unitdate>
     </did>
@@ -4083,8 +4089,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">12</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">12</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link366">Vote/Cope Managers' Campaign</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -4094,8 +4100,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">12</container>
-     <container type="folder">11</container>
+     <container label="unspecified" type="box">12</container>
+     <container label="unspecified" type="folder">11</container>
      <unittitle id="link367">Vote/Cope Managers' Drive</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -4105,8 +4111,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link368">Vote/Cope Managers' Campaign</unittitle>
      <unitdate normal="1995">1995</unitdate>
     </did>
@@ -4116,8 +4122,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link369">Vote/Cope Letters</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -4127,8 +4133,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link370">Community School Board Reform Bill Draft</unittitle>
     </did>
     <scopecontent>
@@ -4137,8 +4143,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link371">Walk Through Memo, Weingarten Memo</unittitle>
      <unitdate normal="1994">1994</unitdate>
     </did>
@@ -4148,10 +4154,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link372">Legislative Programs</unittitle>
-     <unitdate type="inclusive" normal="1976/1979">1976-1979</unitdate>
+     <unitdate normal="1976/1979" type="inclusive">1976-1979</unitdate>
     </did>
     <scopecontent>
      <p>Spiral-bound booklets for NYSUT legislative agenda, April 20, 1976, January 24, 1976, March 22, 1978, April 5, 1979</p>
@@ -4159,10 +4165,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link373">Legislative Programs</unittitle>
-     <unitdate type="inclusive" normal="1980/1984">1980-1984</unitdate>
+     <unitdate normal="1980/1984" type="inclusive">1980-1984</unitdate>
     </did>
     <scopecontent>
      <p>NYSUT legislative programs</p>
@@ -4170,10 +4176,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link374">Legislative Programs</unittitle>
-     <unitdate type="inclusive" normal="1977/1979">1977-1979</unitdate>
+     <unitdate normal="1977/1979" type="inclusive">1977-1979</unitdate>
     </did>
     <scopecontent>
      <p>Preliminary and updated NYSUT legislative programs, including bills applicable to United University Professions</p>
@@ -4181,10 +4187,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">13</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">13</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link375">Legislative Programs</unittitle>
-     <unitdate type="inclusive" normal="1973/1977">1973-1977</unitdate>
+     <unitdate normal="1973/1977" type="inclusive">1973-1977</unitdate>
     </did>
     <scopecontent>
      <p>Tentative and updated NYSUT legislative programs, including bills applicable to Professional Staff Congress of CUNY, 1977</p>
@@ -4192,10 +4198,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link376">Legislative Programs</unittitle>
-     <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>
+     <unitdate normal="1987/1988" type="inclusive">1987-1988</unitdate>
     </did>
     <scopecontent>
      <p>Tentative and final NYSUT legislative programs and related memos</p>
@@ -4203,8 +4209,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link377">Legislative Program Original</unittitle>
      <unitdate normal="1987">1987</unitdate>
     </did>
@@ -4214,8 +4220,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link378">Legislative Material NYSUT New Local Presidents Conference</unittitle>
      <unitdate normal="1984">1984</unitdate>
     </did>
@@ -4225,10 +4231,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link379">Legislative Programs</unittitle>
-     <unitdate type="inclusive" normal="1991/1992">1991-1992</unitdate>
+     <unitdate normal="1991/1992" type="inclusive">1991-1992</unitdate>
     </did>
     <scopecontent>
      <p>Booklets, "The Impact of Executive Proposals on State Aid to Public Education 1991-92"; "1991 NYSUT Legislative Program for Pension Equity"; "Delegate Selection Process: Campaign '92"; "1992 Summary of New Legislation Affecting Education"; NYSUT 1991 Legislative Program</p>
@@ -4236,10 +4242,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link380">Legislative Programs</unittitle>
-     <unitdate type="inclusive" normal="1991/1993">1991-1993</unitdate>
+     <unitdate normal="1991/1993" type="inclusive">1991-1993</unitdate>
     </did>
     <scopecontent>
      <p>1991 Annual Report of the New York State Senate Standing Committee on Education; NYSUT booklet, "Delegate Selection Process: Campaign '92"; "Teacher Resource and Computer Training Centers Located in the Districts of Assembly Ways and Means Committee Members and Senate Finance Committee Members"; NYSUT Committee of 100 Pension, Retirement and Labor Issues, May 17- 18, 1993; "AFT and NYSUT Support: FY 93 Chapter 1 Supplemental Appropriations, Chapter 1 Reauthorization Issues, Comprehensive Health Care Reform Package"</p>
@@ -4247,10 +4253,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link381">Legislative Programs</unittitle>
-     <unitdate type="inclusive" normal="1991/1993">1991-1993</unitdate>
+     <unitdate normal="1991/1993" type="inclusive">1991-1993</unitdate>
     </did>
     <scopecontent>
      <p>NYSUT Legislative Program and Support Bills Signed into Law, 1991 and 1992; NYSUT's Major Legislative Program and Support Bills 1993 Final Report; NYSUT Committee of 100 Pension and Retirement Issues, May 18-19, 1992; NYSUT Legislative Program 1992; NYSUT 1993 Legislative Program; Personal Income Tax Reform: A NYSUT Proposal; Executive Budget Recommendations 1993-94: SUNY, CUNY, Community Colleges; 1993 Summary of New Legislation Affecting Education, State Education Department; Higher Education Budget Restoration Recommendations 1994-95: SUNY, CUNY, Community Colleges</p>
@@ -4258,10 +4264,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">14</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">14</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link382">Legislative Reports to Board</unittitle>
-     <unitdate type="inclusive" normal="1988/1990">1988-1990</unitdate>
+     <unitdate normal="1988/1990" type="inclusive">1988-1990</unitdate>
     </did>
     <scopecontent>
      <p>Legislative updates to NYSUT Board of Directors and Executive Committee re governor's state aid proposal re K-12, key bills, presidential election telephone calling update</p>
@@ -4269,10 +4275,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link383">Legislative Reports to Board</unittitle>
-     <unitdate type="inclusive" normal="1985/1988">1985-1988</unitdate>
+     <unitdate normal="1985/1988" type="inclusive">1985-1988</unitdate>
     </did>
     <scopecontent>
      <p>Executive vice president's reports; notes for Executive Committee meetings re governor's state of the state message, election of Regents, small city school district (Hurd) state aid, tuition tax credits, delegates to Democratic National Convention</p>
@@ -4280,8 +4286,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link384">Voter Registration Packet</unittitle>
      <unitdate normal="1988">1988</unitdate>
     </did>
@@ -4291,8 +4297,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link385">Photographs</unittitle>
     </did>
     <scopecontent>
@@ -4301,10 +4307,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link386">FNHP Lobby Days</unittitle>
-     <unitdate type="inclusive" normal="2000/2004">2000-2004</unitdate>
+     <unitdate normal="2000/2004" type="inclusive">2000-2004</unitdate>
     </did>
     <scopecontent>
      <p>Materials for Federation of Nurses and Health Professionals Lobby Day 2000: Lists of members of Assembly and state Senate, with office numbers; list of members of legislative health and finance committees; tip sheet on effective lobbying; debriefing form (reporting on results of individual visits with legislators); NYSUT/FNHP handbook, "What Every Health Care Processional Should Know"; FNHP Policy Statements on the Use of Unlicensed Assistive Personnel, on the Definition of Safe Health Care Staffing Levels, on School Nurse Staffing Levels; NYSUT/FNHP Lobby Day statements supporting Legislation to Allow Registered Nurses to Honor Non-Hospital Do Not Resuscitate Orders, and Legislation to Enact NYS Whistle Blower Protection for Health Care Workers; Memoranda in Support of various bills; cards reminding lobbyists to ask for action on specific legislation; materials for FNHP Lobby Day 2002: text of legislation; materials for 2004 re ending mandatory overtime, other legislative
@@ -4313,10 +4319,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link387">Teacher Center Lobby Day</unittitle>
-     <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate>
+     <unitdate normal="1997/1998" type="inclusive">1997-1998</unitdate>
     </did>
     <scopecontent>
      <p>Agendas for Teacher Center Lobby Day; Rogers' Pocket Directory: Your Guide to the NYS Senate, Assembly, Members of Congress, 1998 edition; testimony of NYSUT executive vice president Alan Lubin to legislative finance committees re 1998-99 Executive Budget recommendations for education; bullet points re Teacher Centers; related materials; invoices</p>
@@ -4324,10 +4330,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link388">Retiree Lobby Days</unittitle>
-     <unitdate type="inclusive" normal="1997/1998">1997-1998</unitdate>
+     <unitdate normal="1997/1998" type="inclusive">1997-1998</unitdate>
     </did>
     <scopecontent>
      <p>Briefing booklet, Tier Equity and Pension Improvement Lobby Day, June 4, 1997; lists of members of Assembly and Senate; briefing book for 1998; related memos</p>
@@ -4335,8 +4341,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">15</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">15</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link389">Political Action Committee</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -4346,10 +4352,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">16</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">16</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link390">Higher Education Lobby Day</unittitle>
-     <unitdate type="inclusive" normal="1997/2002">1997-2002</unitdate>
+     <unitdate normal="1997/2002" type="inclusive">1997-2002</unitdate>
     </did>
     <scopecontent>
      <p>Agendas; lists of members of Assembly and Senate; lists of members of finance and education committees; testimonies of NYSUT and United University Professions officials to legislative finance committee hearings; letters of invitation to community college local presidents; (missing 1999 and 2001)</p>
@@ -4357,10 +4363,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">16</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">16</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link391">NYSUT Materials</unittitle>
-     <unitdate type="inclusive" normal="1987/1988">1987-1988</unitdate>
+     <unitdate normal="1987/1988" type="inclusive">1987-1988</unitdate>
     </did>
     <scopecontent>
      <p>Booklets, "Campaign '88: November 12-14 Congressional District Liaison Conference," "Education. The State of Excellence: CUNY State Aid 1988-89," "SUNY State Aid 1988-89," "K-12 State Aid 1988-89"; legislative memoranda of support for various bills; flyers/print ads; opposition advertisements and legislative bulletins by NYS School Boards Association; letter to legislators from NYSUT executive vice president Herb Magidson</p>
@@ -4368,8 +4374,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">16</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">16</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link392">New Local Presidents' Conference</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -4379,8 +4385,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">16</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">16</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link393">NYSUT Committee of 100</unittitle>
      <unitdate normal="2004">2004</unitdate>
     </did>
@@ -4390,8 +4396,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">16</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">16</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link394">NYSUT Committee of 100</unittitle>
      <unitdate normal="2004">2004</unitdate>
     </did>
@@ -4401,8 +4407,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">16</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">16</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link395">NYSUT Committee of 100</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -4412,8 +4418,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">16</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">16</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link396">NYSUT Committee of 100</unittitle>
      <unitdate normal="2003">2003</unitdate>
     </did>
@@ -4423,8 +4429,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">16</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">16</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link397">NYSUT Committee of 100</unittitle>
      <unitdate normal="2002">2002</unitdate>
     </did>
@@ -4434,8 +4440,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">17</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">17</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link398">NYSUT Committee of 100</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -4445,8 +4451,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">17</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">17</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link399">NYSUT Committee of 100</unittitle>
      <unitdate normal="2000">2000</unitdate>
     </did>
@@ -4456,8 +4462,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">17</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">17</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link400">NYSUT Committee of 100 (C100)</unittitle>
      <unitdate normal="1999">1999</unitdate>
     </did>
@@ -4467,8 +4473,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">17</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">17</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link401">NYSUT Committee of 100</unittitle>
      <unitdate normal="1998">1998</unitdate>
     </did>
@@ -4478,10 +4484,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">17</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">17</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link402">NYSUT Committee of 100</unittitle>
-     <unitdate type="inclusive" normal="1998/2001">1998-2001</unitdate>
+     <unitdate normal="1998/2001" type="inclusive">1998-2001</unitdate>
     </did>
     <scopecontent>
      <p>Briefing books for Lobby Day</p>
@@ -4489,10 +4495,10 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">17</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">17</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link403">NYSUT Committee of 100</unittitle>
-     <unitdate type="inclusive" normal="1996/2000">1996-2000</unitdate>
+     <unitdate normal="1996/2000" type="inclusive">1996-2000</unitdate>
     </did>
     <scopecontent>
      <p>Briefing books for Lobby Day</p>
@@ -4500,8 +4506,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">17</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">17</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link404">NYSUT Committee of 100</unittitle>
      <unitdate normal="2002">2002</unitdate>
     </did>
@@ -4511,8 +4517,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">17</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">17</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link405">NYSUT Committee of 100</unittitle>
      <unitdate normal="2001">2001</unitdate>
     </did>
@@ -4522,8 +4528,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">17</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">17</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link406">NYSUT Committee of 100</unittitle>
      <unitdate normal="2000">2000</unitdate>
     </did>
@@ -4533,8 +4539,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">18</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">18</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link407">NYSUT Committee of 100</unittitle>
      <unitdate normal="1999">1999</unitdate>
     </did>
@@ -4544,8 +4550,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">18</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">18</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link408">NYSUT Committee of 100</unittitle>
      <unitdate normal="1998">1998</unitdate>
     </did>
@@ -4555,8 +4561,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">18</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">18</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link409">NYSUT Committee of 100</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -4566,8 +4572,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">18</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">18</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link410">NYSUT Committee of 100</unittitle>
      <unitdate normal="1997">1997</unitdate>
     </did>
@@ -4577,8 +4583,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">18</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">18</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link411">NYSUT Committee of 100</unittitle>
      <unitdate normal="1984">1984</unitdate>
     </did>
@@ -4588,8 +4594,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">18</container>
-     <container type="folder">6</container>
+     <container label="unspecified" type="box">18</container>
+     <container label="unspecified" type="folder">6</container>
      <unittitle id="link412">NYSUT Committee of 100</unittitle>
      <unitdate normal="1985">1985</unitdate>
     </did>
@@ -4599,8 +4605,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">18</container>
-     <container type="folder">7</container>
+     <container label="unspecified" type="box">18</container>
+     <container label="unspecified" type="folder">7</container>
      <unittitle id="link413">NYSUT Committee of 100</unittitle>
      <unitdate normal="1986">1986</unitdate>
     </did>
@@ -4610,8 +4616,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">18</container>
-     <container type="folder">8</container>
+     <container label="unspecified" type="box">18</container>
+     <container label="unspecified" type="folder">8</container>
      <unittitle id="link414">NYSUT Committee of 100</unittitle>
      <unitdate normal="1989">1989</unitdate>
     </did>
@@ -4621,8 +4627,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">18</container>
-     <container type="folder">9</container>
+     <container label="unspecified" type="box">18</container>
+     <container label="unspecified" type="folder">9</container>
      <unittitle id="link415">Higher Education Lobby Day</unittitle>
      <unitdate normal="1989">1989</unitdate>
     </did>
@@ -4632,8 +4638,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">18</container>
-     <container type="folder">10</container>
+     <container label="unspecified" type="box">18</container>
+     <container label="unspecified" type="folder">10</container>
      <unittitle id="link416">NYSUT Committee of 100</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -4643,8 +4649,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">19</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">19</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link417">NYSUT Committee of 100</unittitle>
      <unitdate normal="1990">1990</unitdate>
     </did>
@@ -4654,8 +4660,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">19</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">19</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link418">NYSUT Endorsements</unittitle>
      <unitdate normal="2004">2004</unitdate>
     </did>
@@ -4665,8 +4671,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">19</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">19</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link419">NYSUT Endorsements</unittitle>
      <unitdate normal="2004">2004</unitdate>
     </did>
@@ -4676,8 +4682,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">19</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">19</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link420">NYSUT Endorsements</unittitle>
      <unitdate normal="2002">2002</unitdate>
     </did>
@@ -4687,8 +4693,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">19</container>
-     <container type="folder">5</container>
+     <container label="unspecified" type="box">19</container>
+     <container label="unspecified" type="folder">5</container>
      <unittitle id="link421">NYSUT Endorsements</unittitle>
      <unitdate normal="2000">2000</unitdate>
     </did>
@@ -4698,8 +4704,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">1</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">1</container>
      <unittitle id="link422">NYSUT Endorsements</unittitle>
      <unitdate normal="1998">1998</unitdate>
     </did>
@@ -4709,8 +4715,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">2</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">2</container>
      <unittitle id="link423">NYSUT Endorsements</unittitle>
      <unitdate normal="1998">1998</unitdate>
     </did>
@@ -4720,8 +4726,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">3</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">3</container>
      <unittitle id="link424">NYSUT Endorsements</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>
@@ -4731,8 +4737,8 @@
    </c01>
    <c01 level="file">
     <did>
-     <container type="box">20</container>
-     <container type="folder">4</container>
+     <container label="unspecified" type="box">20</container>
+     <container label="unspecified" type="folder">4</container>
      <unittitle id="link425">NYSUT Endorsements</unittitle>
      <unitdate normal="1996">1996</unitdate>
     </did>

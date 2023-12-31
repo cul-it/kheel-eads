@@ -1,11 +1,11 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-148::ILGWU. Research Department wages and hours files,)//EN">KCL05780-148</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05780-148::ILGWU. Research Department wages and hours files,)//EN">KCL05780-148</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the ILGWU. Research Department wages and hours
-					files,<date/></titleproper>
+					files,</titleproper>
 				<titleproper type="sort">ILGWU. Research Department wages and hours
 					files,</titleproper>
 				<author>Compiled by Kheel Staff</author>
@@ -25,19 +25,25 @@
 			<creation>Finding aid encoded by MarcEdit, Ead McTaggart, and Cheryl Beredo,
 					<date>August 2011</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the ILGWU. Research Department Wages And Hours Files,<lb/><date type="bulk" encodinganalog="245$g"> [1938-1975]</date></titleproper>
-			<num type="kidb_reference_number" id="kc1203">Collection Number: 5780/148</num>
-			<publisher>Kheel Center for Labor-Management Documentation and Archives <lb/>Cornell
+			<titleproper>Guide to the ILGWU. Research Department Wages And Hours Files,<date encodinganalog="245$g" type="bulk"> [1938-1975]</date></titleproper>
+			<num id="kc1203" type="kidb_reference_number">Collection Number: 5780/148</num>
+			<publisher>Kheel Center for Labor-Management Documentation and Archives Cornell
 				University Library</publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item> Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-						P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-						Ithaca, NY 14853<lb/> (607) 255-3183<lb/><extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/><extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref><lb/></item>
+					<item> Kheel Center for Labor-Management Documentation and Archives Martin
+						P. Catherwood Library 227 Ives Hall Cornell University
+						Ithaca, NY 14853 (607) 255-3183<extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><extref href="http://www.ilr.cornell.edu/library/kheel">http://www.ilr.cornell.edu/library/kheel</extref></item>
 				</defitem>
 				<defitem>
 					<label>Compiled by:</label>
@@ -58,13 +64,13 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245">ILGWU. Research Department wages and
-				hours files, <unitdate encodinganalog="MARC 245" type="bulk">1938-1975</unitdate></unittitle>
+			
+			<unittitle encodinganalog="MARC 245" label="Title:">ILGWU. Research Department wages and
+				hours files, 1938-1975</unittitle><unitdate encodinganalog="MARC 245" type="bulk">1938-1975</unitdate>
 			<unitid label="Collection Number:">5780/148</unitid>
 			<origination label="Creator:"><corpname encodinganalog="MARC 110">International Ladies'
 					Garment Workers' Union. Research Dept.</corpname></origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">23 linear feet</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">23 linear feet</physdesc>
 			<physdesc label="Forms of Material:">Records</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and
 				Archives, Cornell University Library</repository>
@@ -82,7 +88,7 @@
 			<langmaterial label="Language:">Collection material in <language encodinganalog="041" langcode="eng">English</language></langmaterial>
 		<physdesc><extent>23 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a2" altrender="organization">ILGWU ORGANIZATIONAL HISTORY</head>
+			
 			<p>The International Ladies’ Garment Workers’ Union was founded in New York City in 1900
 				by mostly Socialist immigrant workers who sought to unite the various crafts in the
 				growing women’s garment industry. The union soon reflected changes in the sector and
@@ -123,7 +129,7 @@
 				the United States, Canada, and Puerto Rico. </p>
 		</bioghist>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a3" altrender="organization">ORGANIZATIONAL HISTORY </head>
+			
 			<p>The Research Department of the International Ladies' Garment Workers' Union (ILGWU)
 				supported the administrative operations of the Union. The Research Department was
 				organized to coordinate the ILGWU's investigative operations. It provided Union
@@ -135,7 +141,7 @@
 				and contract negotiations.</p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a5">COLLECTION DESCRIPTION</head>
+			
 			<p>This collection contains extensive files of hearings before, proceedings of, and
 				memoranda and briefs submitted to the Department of Labor's Wage and Hours Division
 				between 1938 and 1942, and 1950 and 1975. Committees represented in these files
@@ -149,9 +155,9 @@
 				Division and Research and Statistics Division.</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<corpname encodinganalog="MARC 110">International Ladies' Garment Workers'
 					Union.</corpname>
 				<corpname encodinganalog="MARC 610">International Ladies' Garment Workers' Union. </corpname>
@@ -159,7 +165,7 @@
 					Research Dept.</corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects:</head>
+				
 				<subject encodinganalog="MARC 650">Women's clothing industry--United
 					States.</subject>
 				<subject encodinganalog="MARC 650">Labor unions--Clothing workers--United
@@ -169,9 +175,9 @@
 			</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>The ILGWU Records, except for publications and materials produced for
 					publication, are restricted. Materials created prior to twenty years from the
 					current date are open to researchers only with prior written permission from the
@@ -180,14 +186,14 @@
 					information contact the Kheel Center.</p>
 			</accessrestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>ILGWU. Research Department wages and hours files. 5780/148. Kheel Center for
 					Labor-Management Documentation and Archives, Martin P. Catherwood Library,
 					Cornell University.</p>
 			</prefercite>
 		</descgrp>
 		<relatedmaterial>
-			<head id="a6">RELATED MATERIALS</head>
+			
 			<p>5780. ILGWU records</p>
 			<p>5780/045. ILGWU. Research Department records</p>
 			<p>5780/056. ILGWU. Research Department collected documents</p>
@@ -201,15 +207,15 @@
 			<p>5780/209. ILGWU. Research Department records</p>
 		</relatedmaterial>
 		<odd type="notes">
-			<head id="a7">NOTES</head>
+			
 			<p>"Permanent deposit"</p>
 		</odd>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -220,8 +226,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -232,8 +238,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wages and Hours Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -244,8 +250,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wages and Hours Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -256,8 +262,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -268,8 +274,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wages and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -280,8 +286,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wages and Hours Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -292,8 +298,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -304,8 +310,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -316,8 +322,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -328,8 +334,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour Division Textile Industry Committee Number
 						1</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -341,8 +347,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. Wage and Hour Division Embroideries Committee Number
 						45</unittitle>
 					<unitdate normal="1942">1942</unitdate>
@@ -353,8 +359,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. Wage and Hour Division Textile Industry Committee Number
 						1</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -366,8 +372,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -378,8 +384,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1938">1938</unitdate>
@@ -390,8 +396,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -404,8 +410,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -417,8 +423,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -430,8 +436,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -443,8 +449,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -457,8 +463,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -470,8 +476,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -484,8 +490,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -497,8 +503,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -510,8 +516,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -524,8 +530,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -537,8 +543,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>San Antonio Garment Manufacturers Association Petition for a Review
 						of the Findings and Opinion of the Administrator</unittitle>
 					<unitdate normal="1940">1940</unitdate>
@@ -549,8 +555,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1940">1940</unitdate>
@@ -562,8 +568,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1940">1940</unitdate>
@@ -575,11 +581,11 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour Division Women's Apparel Industry Committee Number
 						27</unittitle>
-					<unitdate type="inclusive" normal="1941/1942">1941-1942</unitdate>
+					<unitdate normal="1941/1942" type="inclusive">1941-1942</unitdate>
 				</did>
 				<scopecontent>
 					<p>Hearing in the Matter of the Recommendation of Industry Committee Number 27
@@ -588,8 +594,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour Division Women's Apparel Industry Committee Number
 						27</unittitle>
 					<unitdate normal="1941">1941</unitdate>
@@ -601,8 +607,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour Division Women's Apparel Industry Committee Number
 						27</unittitle>
 					<unitdate normal="1941">1941</unitdate>
@@ -614,8 +620,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour Division Embroideries Industry Committee Number
 						15</unittitle>
 					<unitdate normal="1940">1940</unitdate>
@@ -627,8 +633,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour Division Women's Apparel Industry Committee Number
 						27</unittitle>
 					<unitdate normal="1941">1941</unitdate>
@@ -639,8 +645,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour Division Women's Apparel Industry Committee Number
 						27</unittitle>
 					<unitdate normal="1941">1941</unitdate>
@@ -652,8 +658,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour Division Embroideries Industry Committee Number
 						15</unittitle>
 					<unitdate normal="1940">1940</unitdate>
@@ -665,8 +671,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour Division Embroideries Industry Committee Number
 						15</unittitle>
 					<unitdate normal="1940">1940</unitdate>
@@ -677,8 +683,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour Division Knitted Underwear and Commercial Knitting
 						Industry Committee Number 8</unittitle>
 					<unitdate normal="1940">1940</unitdate>
@@ -690,8 +696,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour Division Knitted Underwear and Commercial Knitting
 						Industry Committee Number 8</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -702,8 +708,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour Division Knitted Outerwear Industry Committee
 						Number 7</unittitle>
 					<unitdate normal="1940">1940</unitdate>
@@ -715,8 +721,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. Wage and Hour Division Knitted Outerwear Industry Committee
 						Number 7</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -727,8 +733,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. Wage and Hour Division Hosiery Industry Committee Number
 						3</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -740,8 +746,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>U.S. Wage and Hour Division Apparel Industry Committee Number
 						2</unittitle>
 					<unitdate normal="1940">1940</unitdate>
@@ -753,8 +759,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle>U.S. Wage and Hour Division Hosiery Industry Committee Number
 						3</unittitle>
 					<unitdate normal="1939">1939</unitdate>
@@ -767,8 +773,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle>U.S. Wage and Hour Division Women's Apparel Industry Committee Number
 						27</unittitle>
 					<unitdate normal="1941">1941</unitdate>
@@ -780,8 +786,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Economics
 						Branch</unittitle>
 					<unitdate normal="1942">1942</unitdate>
@@ -793,8 +799,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Economics
 						Branch</unittitle>
 					<unitdate normal="1942">1942</unitdate>
@@ -806,8 +812,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour Division Research and Statistics
 						Division</unittitle>
 					<unitdate normal="1941">1941</unitdate>
@@ -819,8 +825,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour Division Research and Statistics Division
 						Section</unittitle>
 					<unitdate normal="1941">1941</unitdate>
@@ -832,8 +838,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour Division Research and Statistics
 						Branch</unittitle>
 					<unitdate normal="1941">1941</unitdate>
@@ -845,8 +851,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour Division Research and Statistics
 						Section</unittitle>
 					<unitdate normal="1940">1940</unitdate>
@@ -858,8 +864,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour Industry Special Industry Committee for Puerto
 						Rico</unittitle>
 					<unitdate normal="1940">1940</unitdate>
@@ -870,8 +876,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour Division Special Industry Committee for Puerto
 						Rico</unittitle>
 					<unitdate normal="1941">1941</unitdate>
@@ -882,8 +888,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour Division Special Industry Committee for Puerto
 						Rico</unittitle>
 					<unitdate normal="1940">1940</unitdate>
@@ -894,8 +900,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour Division Special Industry Committee for Puerto
 						Rico</unittitle>
 					<unitdate normal="1941">1941</unitdate>
@@ -906,10 +912,10 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division</unittitle>
-					<unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate>
+					<unitdate normal="1966/1968" type="inclusive">1966-1968</unitdate>
 				</did>
 				<scopecontent>
 					<p>Applicability of the Minimum Wage to the Operations of the Fibers
@@ -918,8 +924,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division</unittitle>
 					<unitdate normal="1968">1968</unitdate>
 				</did>
@@ -930,8 +936,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour Public Contracts Division</unittitle>
 					<unitdate normal="1963">1963</unitdate>
 				</did>
@@ -942,8 +948,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. Wage and Hour Division Special Industry Committee for Puerto
 						Rico</unittitle>
 					<unitdate normal="1941">1941</unitdate>
@@ -954,8 +960,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. Wage and Hour Division Special Industry Committee on Puerto Rico
 						Number 4</unittitle>
 					<unitdate normal="1945">1945</unitdate>
@@ -966,8 +972,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>U.S. Wage and Hour Division</unittitle>
 					<unitdate normal="1940">1940</unitdate>
 				</did>
@@ -978,8 +984,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour Division Embroideries Industry Committee Number
 						45</unittitle>
 					<unitdate normal="1942">1942</unitdate>
@@ -992,8 +998,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour Division Embroideries Industry
 						Committee</unittitle>
 					<unitdate normal="1942">1942</unitdate>
@@ -1006,8 +1012,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour Division Embroideries Industry Committee Number
 						45</unittitle>
 					<unitdate normal="1942">1942</unitdate>
@@ -1020,8 +1026,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour Division Embroideries Industry Committee Number
 						45</unittitle>
 					<unitdate normal="1942">1942</unitdate>
@@ -1034,8 +1040,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour Division Embroideries Industry Committee Number
 						45</unittitle>
 					<unitdate normal="1942">1942</unitdate>
@@ -1048,8 +1054,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour Division Embroideries Industry Committee Number
 						45</unittitle>
 					<unitdate normal="1942">1942</unitdate>
@@ -1062,8 +1068,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour Division Embroideries Industry Committee Number
 						45</unittitle>
 					<unitdate normal="1942">1942</unitdate>
@@ -1076,8 +1082,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour Division Embroideries Industry Committee Number
 						45</unittitle>
 					<unitdate normal="1942">1942</unitdate>
@@ -1090,8 +1096,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour Division Embroideries Industry Committee Number
 						45</unittitle>
 					<unitdate normal="1941">1941</unitdate>
@@ -1103,8 +1109,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour Division Button and Buckle Manufacturing Industry
 						Committee Number 43</unittitle>
 					<unitdate normal="1942">1942</unitdate>
@@ -1116,8 +1122,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour Division Knitted Outerwear Industry Committee
 						Number 32</unittitle>
 					<unitdate normal="1941">1941</unitdate>
@@ -1129,8 +1135,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. Wage and Hour Division Miscellaneous Apparel Industry Committee
 						Number 31</unittitle>
 					<unitdate normal="1941">1941</unitdate>
@@ -1141,8 +1147,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. Wage and Hour Division Knitted and Men's Woven Underwear and
 						Commercial Knitting Industry Committee Number 28</unittitle>
 					<unitdate normal="1941">1941</unitdate>
@@ -1154,8 +1160,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>U.S. Wage and Hour Division Knitted and Men's Woven Underwear and
 						Commercial Knitting Industry Committee Number 28</unittitle>
 					<unitdate normal="1941">1941</unitdate>
@@ -1166,8 +1172,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle>U.S. Wage and Hour Division Knitted and Men's Woven Underwear and
 						Commercial Knitting Industry Committee Number 28</unittitle>
 					<unitdate normal="1941">1941</unitdate>
@@ -1178,8 +1184,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle>U.S. Wage and Hour Division Embroideries Committee Number
 						45</unittitle>
 					<unitdate normal="1942">1942</unitdate>
@@ -1192,8 +1198,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 8</unittitle>
 					<unitdate normal="1950">1950</unitdate>
@@ -1204,8 +1210,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hours and Public Contracts Division Special Industry
 						Committee Number 8</unittitle>
 					<unitdate normal="1950">1950</unitdate>
@@ -1217,8 +1223,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division</unittitle>
 					<unitdate normal="1950">1950</unitdate>
 				</did>
@@ -1229,8 +1235,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee</unittitle>
 					<unitdate normal="1950">1950</unitdate>
@@ -1242,8 +1248,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 8</unittitle>
 					<unitdate normal="1950">1950</unitdate>
@@ -1255,8 +1261,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special industry
 						Committee Number 8</unittitle>
 					<unitdate normal="1950">1950</unitdate>
@@ -1268,8 +1274,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 8</unittitle>
 					<unitdate normal="1950">1950</unitdate>
@@ -1281,8 +1287,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 8</unittitle>
 					<unitdate normal="1950">1950</unitdate>
@@ -1294,8 +1300,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division</unittitle>
 					<unitdate normal="1950">1950</unitdate>
 				</did>
@@ -1305,8 +1311,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division</unittitle>
 					<unitdate normal="950`">1950`</unitdate>
 				</did>
@@ -1316,8 +1322,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>ILGWU Research Department - Brief on Behalf of the ILGWU in the
 						Matter of the Re-examination by Special Industry Committee Number 5 for
 						Puerto Rico of Minimum Wage Rates Established by Wage Orders for Puerto Rico
@@ -1330,8 +1336,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. Wage and Hour Division Special Industry Committee for Puerto
 						Rico</unittitle>
 					<unitdate normal="1941">1941</unitdate>
@@ -1342,8 +1348,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special industry
 						Committee Number 7</unittitle>
 					<unitdate normal="1950">1950</unitdate>
@@ -1354,8 +1360,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>U.S. Wage and Hour Division Special Industries Committee for Puerto
 						Rico</unittitle>
 					<unitdate normal="1944">1944</unitdate>
@@ -1367,8 +1373,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 8</unittitle>
 					<unitdate normal="1950">1950</unitdate>
@@ -1380,8 +1386,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 8</unittitle>
 					<unitdate normal="1950">1950</unitdate>
@@ -1393,8 +1399,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 8</unittitle>
 					<unitdate normal="1950">1950</unitdate>
@@ -1406,8 +1412,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 22A</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1419,8 +1425,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour Division Special Industry Committee Number
 						19B</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1432,8 +1438,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 22A</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1445,8 +1451,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 20A</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1458,8 +1464,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 22A</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1471,8 +1477,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 22A</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1484,8 +1490,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 22A</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1497,8 +1503,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 22B</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1510,8 +1516,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Divisions Special Industry
 						Committee Number 22B</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1523,8 +1529,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 22A</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1536,8 +1542,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 22B</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1549,8 +1555,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee 22D</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1562,8 +1568,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Divisions Special Industry
 						Committee Number 22C</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1575,8 +1581,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 22B</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1589,8 +1595,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee 19A</unittitle>
 					<unitdate normal="1955">1955</unitdate>
@@ -1601,8 +1607,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">7</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1953">1953</unitdate>
@@ -1614,8 +1620,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hours and Public Contracts Division</unittitle>
 					<unitdate normal="1954">1954</unitdate>
 				</did>
@@ -1627,8 +1633,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 20A</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1640,8 +1646,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 20A</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1653,8 +1659,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 20A</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1666,8 +1672,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee 17A</unittitle>
 					<unitdate normal="1955">1955</unitdate>
@@ -1679,8 +1685,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee 18A</unittitle>
 					<unitdate normal="1955">1955</unitdate>
@@ -1691,11 +1697,11 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
-					<unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>
+					<unitdate normal="1953/1954" type="inclusive">1953-1954</unitdate>
 				</did>
 				<scopecontent>
 					<p>Appointment of Committee and Notices of Hearings, Volume 1</p>
@@ -1703,8 +1709,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee 19A</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1716,8 +1722,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee 19A</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1729,8 +1735,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee 19A</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1742,8 +1748,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 17A</unittitle>
 					<unitdate normal="1955">1955</unitdate>
@@ -1754,8 +1760,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 17A</unittitle>
 					<unitdate normal="1955">1955</unitdate>
@@ -1766,8 +1772,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 17A</unittitle>
 					<unitdate normal="1955">1955</unitdate>
@@ -1780,8 +1786,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>U.S. Wages and Hour and Public Contracts Division Industry Committee
 						Number 15</unittitle>
 					<unitdate normal="1954">1954</unitdate>
@@ -1793,8 +1799,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1954">1954</unitdate>
@@ -1806,8 +1812,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 20</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1819,8 +1825,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">17</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">17</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Industry Committee
 						Number 15</unittitle>
 					<unitdate normal="1955">1955</unitdate>
@@ -1832,8 +1838,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
-					<container type="folder">18</container>
+					<container label="unspecified" type="box">8</container>
+					<container label="unspecified" type="folder">18</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 20A</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -1845,8 +1851,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1954">1954</unitdate>
@@ -1858,8 +1864,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1954">1954</unitdate>
@@ -1871,11 +1877,11 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
-					<unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>
+					<unitdate normal="1953/1954" type="inclusive">1953-1954</unitdate>
 				</did>
 				<scopecontent>
 					<p>Public Hearing for the Needlework and Fabricated Textiles Industry. Exhibits
@@ -1884,8 +1890,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1953">1953</unitdate>
@@ -1897,8 +1903,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1954">1954</unitdate>
@@ -1910,11 +1916,11 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
-					<unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>
+					<unitdate normal="1953/1954" type="inclusive">1953-1954</unitdate>
 				</did>
 				<scopecontent>
 					<p>Public Hearing for the Men's and Boys' Clothing and Related Products
@@ -1923,8 +1929,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1954">1954</unitdate>
@@ -1936,8 +1942,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1954">1954</unitdate>
@@ -1950,8 +1956,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division</unittitle>
 					<unitdate normal="1954">1954</unitdate>
 				</did>
@@ -1963,8 +1969,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1954">1954</unitdate>
@@ -1976,8 +1982,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1954">1954</unitdate>
@@ -1990,8 +1996,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1953">1953</unitdate>
@@ -2002,8 +2008,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1954">1954</unitdate>
@@ -2016,8 +2022,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1954">1954</unitdate>
@@ -2030,8 +2036,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">9</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1954">1954</unitdate>
@@ -2043,8 +2049,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 38B</unittitle>
 					<unitdate normal="1958">1958</unitdate>
@@ -2056,8 +2062,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 31C</unittitle>
 					<unitdate normal="1957">1957</unitdate>
@@ -2069,8 +2075,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Divisions Special Industry
 						Committee Number 30A</unittitle>
 					<unitdate normal="1957">1957</unitdate>
@@ -2082,8 +2088,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 22E</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -2095,8 +2101,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 22E</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -2108,8 +2114,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 22E</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -2121,8 +2127,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 22C</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -2134,8 +2140,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee 22D</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -2147,8 +2153,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee 38A</unittitle>
 					<unitdate normal="1958">1958</unitdate>
@@ -2160,8 +2166,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 31E</unittitle>
 					<unitdate normal="1957">1957</unitdate>
@@ -2173,8 +2179,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 31D</unittitle>
 					<unitdate normal="1957">1957</unitdate>
@@ -2186,11 +2192,11 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">10</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee 38A</unittitle>
-					<unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
+					<unitdate normal="1957/1958" type="inclusive">1957-1958</unitdate>
 				</did>
 				<scopecontent>
 					<p>Public Hearing for Corsets, Brassieres, and Allied Garments Industry in
@@ -2199,8 +2205,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1954">1954</unitdate>
@@ -2212,8 +2218,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 				</did>
@@ -2224,8 +2230,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1954">1954</unitdate>
@@ -2237,8 +2243,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1954">1954</unitdate>
@@ -2250,8 +2256,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1954">1954</unitdate>
@@ -2263,8 +2269,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1954">1954</unitdate>
@@ -2276,8 +2282,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Divisions Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1954">1954</unitdate>
@@ -2289,8 +2295,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 9</unittitle>
 					<unitdate normal="1967">1967</unitdate>
@@ -2302,8 +2308,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division</unittitle>
 					<unitdate normal="1950">1950</unitdate>
 				</did>
@@ -2314,8 +2320,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Committee
 						Number 8</unittitle>
 					<unitdate normal="1950">1950</unitdate>
@@ -2327,8 +2333,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 8</unittitle>
 					<unitdate normal="1950">1950</unitdate>
@@ -2340,8 +2346,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 8</unittitle>
 					<unitdate normal="1950">1950</unitdate>
@@ -2353,8 +2359,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 8</unittitle>
 					<unitdate normal="1950">1950</unitdate>
@@ -2366,8 +2372,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 8</unittitle>
 					<unitdate normal="1950">1950</unitdate>
@@ -2379,8 +2385,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 8</unittitle>
 					<unitdate normal="1950">1950</unitdate>
@@ -2392,8 +2398,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">11</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Divisions Special Industry
 						Committee Number 15</unittitle>
 					<unitdate normal="1954">1954</unitdate>
@@ -2405,8 +2411,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee 38B</unittitle>
 					<unitdate normal="1958">1958</unitdate>
@@ -2418,8 +2424,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee 40A</unittitle>
 					<unitdate normal="1958">1958</unitdate>
@@ -2431,8 +2437,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and hour and Public Contracts Division Special Industry
 						Committee Number 40B</unittitle>
 					<unitdate normal="1958">1958</unitdate>
@@ -2444,8 +2450,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 31A</unittitle>
 					<unitdate normal="1957">1957</unitdate>
@@ -2457,8 +2463,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 30B</unittitle>
 					<unitdate normal="1957">1957</unitdate>
@@ -2470,8 +2476,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 30B</unittitle>
 					<unitdate normal="1957">1957</unitdate>
@@ -2483,8 +2489,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 31B</unittitle>
 					<unitdate normal="1957">1957</unitdate>
@@ -2496,8 +2502,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 31B</unittitle>
 					<unitdate normal="1957">1957</unitdate>
@@ -2509,8 +2515,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 31A</unittitle>
 					<unitdate normal="1957">1957</unitdate>
@@ -2522,8 +2528,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 31D</unittitle>
 					<unitdate normal="1957">1957</unitdate>
@@ -2535,11 +2541,11 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">12</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 38B</unittitle>
-					<unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate>
+					<unitdate normal="1956/1958" type="inclusive">1956-1958</unitdate>
 				</did>
 				<scopecontent>
 					<p>Public Hearing for Men's and Boy's Clothing and Related Products Industry in
@@ -2548,11 +2554,11 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 31A</unittitle>
-					<unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>
+					<unitdate normal="1956/1957" type="inclusive">1956-1957</unitdate>
 				</did>
 				<scopecontent>
 					<p>Public Hearing for Handkerchief, Square Scarf, and Art Linen Industry in
@@ -2562,11 +2568,11 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 30B</unittitle>
-					<unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>
+					<unitdate normal="1956/1957" type="inclusive">1956-1957</unitdate>
 				</did>
 				<scopecontent>
 					<p>Public Hearing for Men's and Boys' Clothing and Related Products Industry in
@@ -2575,8 +2581,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 30A</unittitle>
 					<unitdate normal="1957">1957</unitdate>
@@ -2588,8 +2594,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 31B</unittitle>
 					<unitdate normal="1957">1957</unitdate>
@@ -2602,8 +2608,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 31E</unittitle>
 					<unitdate normal="1957">1957</unitdate>
@@ -2615,8 +2621,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 31C</unittitle>
 					<unitdate normal="1957">1957</unitdate>
@@ -2629,8 +2635,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 48C</unittitle>
 					<unitdate normal="1960">1960</unitdate>
@@ -2643,8 +2649,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 40C</unittitle>
 					<unitdate normal="1958">1958</unitdate>
@@ -2657,8 +2663,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 40B</unittitle>
 					<unitdate normal="1958">1958</unitdate>
@@ -2671,8 +2677,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Divisions Special Industry
 						Committee Number 40E</unittitle>
 					<unitdate normal="1958">1958</unitdate>
@@ -2685,8 +2691,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Divisions Special Industry
 						Committee Number 40D</unittitle>
 					<unitdate normal="1958">1958</unitdate>
@@ -2699,8 +2705,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. Wage and Hour and Public Contract Division Special Industry
 						Committee 48A</unittitle>
 					<unitdate normal="1960">1960</unitdate>
@@ -2713,8 +2719,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 22E</unittitle>
 					<unitdate normal="1956">1956</unitdate>
@@ -2726,8 +2732,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 40D</unittitle>
 					<unitdate normal="1958">1958</unitdate>
@@ -2739,11 +2745,11 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">13</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 46B</unittitle>
-					<unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate>
+					<unitdate normal="1959/1960" type="inclusive">1959-1960</unitdate>
 				</did>
 				<scopecontent>
 					<p>Public Hearings for Men's and Boys' Clothing and Related Products Industry in
@@ -2753,8 +2759,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 48A</unittitle>
 					<unitdate normal="1960">1960</unitdate>
@@ -2766,8 +2772,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 46A</unittitle>
 					<unitdate normal="1960">1960</unitdate>
@@ -2779,8 +2785,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 40E</unittitle>
 					<unitdate normal="1958">1958</unitdate>
@@ -2792,8 +2798,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 56C</unittitle>
 					<unitdate normal="1962">1962</unitdate>
@@ -2805,8 +2811,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 46B</unittitle>
 					<unitdate normal="1960">1960</unitdate>
@@ -2818,8 +2824,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 56A</unittitle>
 					<unitdate normal="1962">1962</unitdate>
@@ -2831,8 +2837,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 40E</unittitle>
 					<unitdate normal="1958">1958</unitdate>
@@ -2844,8 +2850,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 40D</unittitle>
 					<unitdate normal="1958">1958</unitdate>
@@ -2857,11 +2863,11 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 81B</unittitle>
-					<unitdate type="inclusive" normal="1966/1968">1966-1968</unitdate>
+					<unitdate normal="1966/1968" type="inclusive">1966-1968</unitdate>
 				</did>
 				<scopecontent>
 					<p>Public Hearings for Corsets, Brassieres, and Allied Garments Industry in
@@ -2870,8 +2876,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 40C</unittitle>
 					<unitdate normal="1958">1958</unitdate>
@@ -2883,8 +2889,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 40A</unittitle>
 					<unitdate normal="1958">1958</unitdate>
@@ -2897,11 +2903,11 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">14</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">14</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. Wage and Hour and Public Contract Divisions Special Industry
 						Committee Number 46A</unittitle>
-					<unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate>
+					<unitdate normal="1959/1960" type="inclusive">1959-1960</unitdate>
 				</did>
 				<scopecontent>
 					<p>Public Hearings for Corsets, Brassieres, and Allied Garments Industry in
@@ -2911,8 +2917,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 56A</unittitle>
 					<unitdate normal="1962">1962</unitdate>
@@ -2925,8 +2931,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 56B</unittitle>
 					<unitdate normal="1962">1962</unitdate>
@@ -2939,8 +2945,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 48E</unittitle>
 					<unitdate normal="1960">1960</unitdate>
@@ -2953,8 +2959,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 48B</unittitle>
 					<unitdate normal="1960">1960</unitdate>
@@ -2967,8 +2973,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 48D</unittitle>
 					<unitdate normal="1960">1960</unitdate>
@@ -2981,8 +2987,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 58A</unittitle>
 					<unitdate normal="1962">1962</unitdate>
@@ -2995,8 +3001,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 58B</unittitle>
 					<unitdate normal="1962">1962</unitdate>
@@ -3009,8 +3015,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 68C</unittitle>
 					<unitdate normal="1964">1964</unitdate>
@@ -3023,8 +3029,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 68B</unittitle>
 					<unitdate normal="1964">1964</unitdate>
@@ -3037,8 +3043,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 68B</unittitle>
 					<unitdate normal="1964">1964</unitdate>
@@ -3050,8 +3056,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 57A</unittitle>
 					<unitdate normal="1962">1962</unitdate>
@@ -3064,8 +3070,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 57B</unittitle>
 					<unitdate normal="1962">1962</unitdate>
@@ -3078,8 +3084,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 57A</unittitle>
 					<unitdate normal="1962">1962</unitdate>
@@ -3091,8 +3097,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">15</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">15</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>U.S. Wage and Hour and Public Contract Division Review Committee
 						Number 12</unittitle>
 					<unitdate normal="1968">1968</unitdate>
@@ -3105,8 +3111,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 6B</unittitle>
 					<unitdate normal="1963">1963</unitdate>
@@ -3119,8 +3125,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 6A</unittitle>
 					<unitdate normal="1963">1963</unitdate>
@@ -3133,8 +3139,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 6B</unittitle>
 					<unitdate normal="1963">1963</unitdate>
@@ -3146,8 +3152,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 6B</unittitle>
 					<unitdate normal="1963">1963</unitdate>
@@ -3159,8 +3165,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 9</unittitle>
 					<unitdate normal="1967">1967</unitdate>
@@ -3173,8 +3179,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 6A</unittitle>
 					<unitdate normal="1963">1963</unitdate>
@@ -3186,8 +3192,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 12</unittitle>
 					<unitdate normal="1968">1968</unitdate>
@@ -3199,8 +3205,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 6C</unittitle>
 					<unitdate normal="1963">1963</unitdate>
@@ -3212,8 +3218,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 6C</unittitle>
 					<unitdate normal="1963">1963</unitdate>
@@ -3226,11 +3232,11 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 2C</unittitle>
-					<unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate>
+					<unitdate normal="1960/1961" type="inclusive">1960-1961</unitdate>
 				</did>
 				<scopecontent>
 					<p>Public Hearings for Handkerchief, Square Scarf, and Art Linen Industry in
@@ -3240,11 +3246,11 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">16</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">16</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 2A</unittitle>
-					<unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate>
+					<unitdate normal="1960/1961" type="inclusive">1960-1961</unitdate>
 				</did>
 				<scopecontent>
 					<p>Public Hearings for Sweater and Knit Swimwear Industry in Puerto Rico.
@@ -3254,8 +3260,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 58A</unittitle>
 					<unitdate normal="1962">1962</unitdate>
@@ -3267,8 +3273,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 68A</unittitle>
 					<unitdate normal="1964">1964</unitdate>
@@ -3281,8 +3287,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>Prehearing Statement of the Sweater and Knit Swimwear Industry in
 						Puerto Rico</unittitle>
 					<unitdate normal="1964">1964</unitdate>
@@ -3293,8 +3299,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 68A</unittitle>
 					<unitdate normal="1964">1964</unitdate>
@@ -3306,8 +3312,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 56C</unittitle>
 					<unitdate normal="1962">1962</unitdate>
@@ -3319,8 +3325,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 81B</unittitle>
 					<unitdate normal="1969">1969</unitdate>
@@ -3332,8 +3338,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 58A</unittitle>
 					<unitdate normal="1962">1962</unitdate>
@@ -3345,8 +3351,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 56B</unittitle>
 					<unitdate normal="1962">1962</unitdate>
@@ -3358,8 +3364,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 48B</unittitle>
 					<unitdate normal="1960">1960</unitdate>
@@ -3371,8 +3377,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 48D</unittitle>
 					<unitdate normal="1960">1960</unitdate>
@@ -3384,8 +3390,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 48E</unittitle>
 					<unitdate normal="1960">1960</unitdate>
@@ -3397,8 +3403,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 48C</unittitle>
 					<unitdate normal="1960">1960</unitdate>
@@ -3410,8 +3416,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 56C</unittitle>
 					<unitdate normal="1962">1962</unitdate>
@@ -3424,8 +3430,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 69C</unittitle>
 					<unitdate normal="1964">1964</unitdate>
@@ -3437,8 +3443,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Divisions Special Industry
 						Committee Number 69C</unittitle>
 					<unitdate normal="1964">1964</unitdate>
@@ -3451,8 +3457,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">17</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">17</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Divisions Special Industry
 						Committee Number 69B</unittitle>
 					<unitdate normal="1964">1964</unitdate>
@@ -3464,8 +3470,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						113B</unittitle>
 					<unitdate normal="1973">1973</unitdate>
@@ -3478,8 +3484,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						113C</unittitle>
 					<unitdate normal="1973">1973</unitdate>
@@ -3492,8 +3498,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						128B</unittitle>
 					<unitdate normal="1975">1975</unitdate>
@@ -3505,8 +3511,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 3B</unittitle>
 					<unitdate normal="1961">1961</unitdate>
@@ -3518,8 +3524,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Request for Review of PR Minimum Wages, Underwear and Blouse
 						Industry</unittitle>
 					<unitdate normal="1961">1961</unitdate>
@@ -3527,8 +3533,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 2A</unittitle>
 					<unitdate normal="1961">1961</unitdate>
@@ -3540,8 +3546,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 2A</unittitle>
 					<unitdate normal="1961">1961</unitdate>
@@ -3553,8 +3559,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 2A</unittitle>
 					<unitdate normal="1961">1961</unitdate>
@@ -3566,16 +3572,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>Request for Review of PR Minimum Wages, Knitgoods</unittitle>
 					<unitdate normal="1961">1961</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						138A</unittitle>
 					<unitdate normal="1976">1976</unitdate>
@@ -3588,8 +3594,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						138A</unittitle>
 					<unitdate normal="1976">1976</unitdate>
@@ -3601,8 +3607,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						128C</unittitle>
 					<unitdate normal="1975">1975</unitdate>
@@ -3614,8 +3620,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						128E</unittitle>
 					<unitdate normal="1975">1975</unitdate>
@@ -3627,11 +3633,11 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 2B</unittitle>
-					<unitdate type="inclusive" normal="1960/1961">1960-1961</unitdate>
+					<unitdate normal="1960/1961" type="inclusive">1960-1961</unitdate>
 				</did>
 				<scopecontent>
 					<p>Public Hearings for Women's and Children's Underwear and Women's Blouse and
@@ -3641,8 +3647,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">18</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">18</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						128F</unittitle>
 					<unitdate normal="1975">1975</unitdate>
@@ -3654,8 +3660,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">19</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">19</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						113A</unittitle>
 					<unitdate normal="1973">1973</unitdate>
@@ -3667,8 +3673,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">19</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">19</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						128B</unittitle>
 					<unitdate normal="1975">1975</unitdate>
@@ -3681,8 +3687,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">19</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">19</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						128F</unittitle>
 					<unitdate normal="1975">1975</unitdate>
@@ -3695,8 +3701,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">19</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">19</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						128E</unittitle>
 					<unitdate normal="1975">1975</unitdate>
@@ -3709,8 +3715,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">19</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">19</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						128C</unittitle>
 					<unitdate normal="1975">1975</unitdate>
@@ -3723,8 +3729,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">19</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">19</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>Request for Review of Puerto Rico Minimum Wages,
 						Handkerchief</unittitle>
 					<unitdate normal="1961">1961</unitdate>
@@ -3732,8 +3738,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">19</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">19</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 2B</unittitle>
 					<unitdate normal="1961">1961</unitdate>
@@ -3746,8 +3752,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">19</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">19</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 2C</unittitle>
 					<unitdate normal="1961">1961</unitdate>
@@ -3759,8 +3765,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">19</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">19</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 6A</unittitle>
 					<unitdate normal="1963">1963</unitdate>
@@ -3772,8 +3778,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">19</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">19</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 6C</unittitle>
 					<unitdate normal="1963">1963</unitdate>
@@ -3785,8 +3791,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">19</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">19</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Review Committee
 						Number 6A</unittitle>
 					<unitdate normal="1963">1963</unitdate>
@@ -3798,8 +3804,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">20</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">20</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 75</unittitle>
 					<unitdate normal="1965">1965</unitdate>
@@ -3812,8 +3818,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">20</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">20</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 81A</unittitle>
 					<unitdate normal="1969">1969</unitdate>
@@ -3825,8 +3831,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">20</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">20</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 75</unittitle>
 					<unitdate normal="1965">1965</unitdate>
@@ -3838,8 +3844,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">20</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">20</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 81D</unittitle>
 					<unitdate normal="1969">1969</unitdate>
@@ -3852,8 +3858,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">20</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">20</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 81D</unittitle>
 					<unitdate normal="1969">1969</unitdate>
@@ -3865,8 +3871,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">20</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">20</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 81C</unittitle>
 					<unitdate normal="1969">1969</unitdate>
@@ -3878,8 +3884,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">20</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">20</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 81B</unittitle>
 					<unitdate normal="1969">1969</unitdate>
@@ -3891,8 +3897,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">20</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">20</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 69D</unittitle>
 					<unitdate normal="1964">1964</unitdate>
@@ -3905,8 +3911,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">20</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">20</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 69D</unittitle>
 					<unitdate normal="1964">1964</unitdate>
@@ -3918,8 +3924,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">20</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">20</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 69B</unittitle>
 					<unitdate normal="1964">1964</unitdate>
@@ -3932,8 +3938,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">20</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">20</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 69A</unittitle>
 					<unitdate normal="1964">1964</unitdate>
@@ -3946,8 +3952,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">20</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">20</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 69A</unittitle>
 					<unitdate normal="1964">1964</unitdate>
@@ -3959,8 +3965,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">20</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">20</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 81C</unittitle>
 					<unitdate normal="1969">1969</unitdate>
@@ -3973,8 +3979,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">21</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">21</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 81A</unittitle>
 					<unitdate normal="1969">1969</unitdate>
@@ -3986,8 +3992,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">21</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">21</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 81A</unittitle>
 					<unitdate normal="1969">1969</unitdate>
@@ -3999,8 +4005,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">21</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">21</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour Divisions Special Industry Committee Number
 						101A</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -4012,11 +4018,11 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">21</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">21</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 75</unittitle>
-					<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+					<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 				</did>
 				<scopecontent>
 					<p>Public Hearings for Sweater and Knit Swimwear Industry in Puerto Rico. Volume
@@ -4025,8 +4031,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">21</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">21</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>Prehearing Statement of the Sweater and Knit Swimwear Industry in
 						Puerto Rico, Industry Committee Number 75</unittitle>
 					<unitdate normal="1965">1965</unitdate>
@@ -4037,8 +4043,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">21</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">21</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 82B</unittitle>
 					<unitdate normal="1969">1969</unitdate>
@@ -4051,8 +4057,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">21</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">21</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 82B</unittitle>
 					<unitdate normal="1969">1969</unitdate>
@@ -4064,8 +4070,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">21</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">21</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 82A</unittitle>
 					<unitdate normal="1969">1969</unitdate>
@@ -4077,8 +4083,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">21</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">21</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 82C</unittitle>
 					<unitdate normal="1969">1969</unitdate>
@@ -4090,8 +4096,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">21</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">21</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 82A</unittitle>
 					<unitdate normal="1969">1969</unitdate>
@@ -4104,8 +4110,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">21</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">21</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 82A</unittitle>
 					<unitdate normal="1969">1969</unitdate>
@@ -4117,8 +4123,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">21</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">21</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 68C</unittitle>
 					<unitdate normal="1964">1964</unitdate>
@@ -4130,8 +4136,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">21</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">21</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 82C</unittitle>
 					<unitdate normal="1969">1969</unitdate>
@@ -4144,8 +4150,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">22</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">22</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						102B</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -4158,8 +4164,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">22</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">22</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						102B</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -4171,8 +4177,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">22</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">22</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						102A</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -4185,8 +4191,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">22</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">22</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						102A</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -4198,8 +4204,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">22</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">22</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						101D</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -4211,8 +4217,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">22</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">22</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						101D</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -4224,8 +4230,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">22</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">22</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						101C</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -4238,8 +4244,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">22</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">22</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 101C</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -4251,8 +4257,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">22</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">22</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						101B</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -4265,8 +4271,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">22</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">22</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						101B</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -4278,11 +4284,11 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">22</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">22</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour Divisions Industry Committee Number
 						101A</unittitle>
-					<unitdate type="inclusive" normal="1970/1971">1970-1971</unitdate>
+					<unitdate normal="1970/1971" type="inclusive">1970-1971</unitdate>
 				</did>
 				<scopecontent>
 					<p>Public Hearings for the Corsets, Brassieres, and Allied Garments Industry in
@@ -4291,11 +4297,11 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">22</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">22</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. Wage and Hour Divisions Industry Committee Number
 						101</unittitle>
-					<unitdate type="inclusive" normal="1969/1971">1969-1971</unitdate>
+					<unitdate normal="1969/1971" type="inclusive">1969-1971</unitdate>
 				</did>
 				<scopecontent>
 					<p>Public Hearing for the Corsets, Brassieres, and Allied Garments Industry in
@@ -4304,8 +4310,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">22</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">22</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						101A</unittitle>
 					<unitdate normal="1971">1971</unitdate>
@@ -4318,8 +4324,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">22</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">22</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>U.S. Wage and Hour and Public Contracts Division Special Industry
 						Committee Number 111A</unittitle>
 					<unitdate normal="1973">1973</unitdate>
@@ -4331,8 +4337,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">22</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">22</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle>U.S. Wage and Hour and Public Contract Division Special Industry
 						Committee 111A</unittitle>
 					<unitdate normal="1973">1973</unitdate>
@@ -4345,8 +4351,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
-					<container type="folder">1</container>
+					<container label="unspecified" type="box">23</container>
+					<container label="unspecified" type="folder">1</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						113A</unittitle>
 					<unitdate normal="1973">1973</unitdate>
@@ -4359,8 +4365,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
-					<container type="folder">2</container>
+					<container label="unspecified" type="box">23</container>
+					<container label="unspecified" type="folder">2</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						113A</unittitle>
 					<unitdate normal="1973">1973</unitdate>
@@ -4372,8 +4378,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
-					<container type="folder">3</container>
+					<container label="unspecified" type="box">23</container>
+					<container label="unspecified" type="folder">3</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						113B</unittitle>
 					<unitdate normal="1973">1973</unitdate>
@@ -4385,11 +4391,11 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
-					<container type="folder">4</container>
+					<container label="unspecified" type="box">23</container>
+					<container label="unspecified" type="folder">4</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						113A</unittitle>
-					<unitdate type="inclusive" normal="1970/1972">1970-1972</unitdate>
+					<unitdate normal="1970/1972" type="inclusive">1970-1972</unitdate>
 				</did>
 				<scopecontent>
 					<p>Public Hearings for the Corsets, Brassieres, and Allied Garments Industry in
@@ -4398,8 +4404,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
-					<container type="folder">5</container>
+					<container label="unspecified" type="box">23</container>
+					<container label="unspecified" type="folder">5</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						113D</unittitle>
 					<unitdate normal="1973">1973</unitdate>
@@ -4411,8 +4417,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
-					<container type="folder">6</container>
+					<container label="unspecified" type="box">23</container>
+					<container label="unspecified" type="folder">6</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						113C</unittitle>
 					<unitdate normal="1973">1973</unitdate>
@@ -4424,8 +4430,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
-					<container type="folder">7</container>
+					<container label="unspecified" type="box">23</container>
+					<container label="unspecified" type="folder">7</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						113D</unittitle>
 					<unitdate normal="1973">1973</unitdate>
@@ -4438,8 +4444,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
-					<container type="folder">8</container>
+					<container label="unspecified" type="box">23</container>
+					<container label="unspecified" type="folder">8</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						113E</unittitle>
 					<unitdate normal="1973">1973</unitdate>
@@ -4452,8 +4458,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
-					<container type="folder">9</container>
+					<container label="unspecified" type="box">23</container>
+					<container label="unspecified" type="folder">9</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						113E</unittitle>
 					<unitdate normal="1973">1973</unitdate>
@@ -4465,8 +4471,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
-					<container type="folder">10</container>
+					<container label="unspecified" type="box">23</container>
+					<container label="unspecified" type="folder">10</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						127B</unittitle>
 					<unitdate normal="1975">1975</unitdate>
@@ -4478,8 +4484,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
-					<container type="folder">11</container>
+					<container label="unspecified" type="box">23</container>
+					<container label="unspecified" type="folder">11</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						127A</unittitle>
 					<unitdate normal="1975">1975</unitdate>
@@ -4492,8 +4498,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
-					<container type="folder">12</container>
+					<container label="unspecified" type="box">23</container>
+					<container label="unspecified" type="folder">12</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						127D</unittitle>
 					<unitdate normal="1975">1975</unitdate>
@@ -4505,8 +4511,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
-					<container type="folder">13</container>
+					<container label="unspecified" type="box">23</container>
+					<container label="unspecified" type="folder">13</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						128A</unittitle>
 					<unitdate normal="1975">1975</unitdate>
@@ -4519,8 +4525,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
-					<container type="folder">14</container>
+					<container label="unspecified" type="box">23</container>
+					<container label="unspecified" type="folder">14</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						127C</unittitle>
 					<unitdate normal="1975">1975</unitdate>
@@ -4533,8 +4539,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
-					<container type="folder">15</container>
+					<container label="unspecified" type="box">23</container>
+					<container label="unspecified" type="folder">15</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						128A</unittitle>
 					<unitdate normal="1975">1975</unitdate>
@@ -4546,8 +4552,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">23</container>
-					<container type="folder">16</container>
+					<container label="unspecified" type="box">23</container>
+					<container label="unspecified" type="folder">16</container>
 					<unittitle>U.S. Wage and Hour Division Industry Committee Number
 						128D</unittitle>
 					<unitdate normal="1975">1975</unitdate>

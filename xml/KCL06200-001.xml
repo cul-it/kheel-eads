@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06200-001::UNITE HERE Local 169 Files.)//EN">KCL06200-001</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL06200-001::UNITE HERE Local 169 Files.)//EN">KCL06200-001</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the UNITE HERE Local 169 Files<date> 1938-2007</date></titleproper>
@@ -23,16 +23,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>August 25, 2015</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the UNITE HERE Local 169 Files<lb/></titleproper>
+			<titleproper>Guide to the UNITE HERE Local 169 Files</titleproper>
 			<num>Collection Number: 6200/001</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -50,15 +56,15 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">UNITE HERE Local 169 Files, <unitdate encodinganalog="MARC 245$f">1938-2007</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">UNITE HERE Local 169 Files, 1938-2007
+			</unittitle><unitdate encodinganalog="MARC 245$f">1938-2007</unitdate>
 			<unitid label="Collection Number:">6200/001</unitid>
 			<origination label="Creator:">
 				<corpname encodinganalog="MARC 110" role="creator">UNITE HERE</corpname>
 				<corpname encodinganalog="MARC 110" role="creator"> UNITE HERE Local 169</corpname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">5.3 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">5.3 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Records.</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">Contains local union material regarding New School University security officers.</abstract>
@@ -66,9 +72,9 @@
 			</langmaterial>
 		<physdesc><extent>5.33 cubic feet</extent></physdesc></did>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<corpname encodinganalog="MARC 610">Hotel Employees &amp; Restaurant Employees International Union </corpname>
 				<corpname encodinganalog="MARC 610">UNITE HERE (Organization) </corpname>
 				<corpname encodinganalog="MARC 610">New School University </corpname>
@@ -77,250 +83,250 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>UNITE HERE Local 169 Files #6200/001. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">1</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">1</container>
 					<unittitle id="link6">Correspondence-Joanne Alicea (Payroll)</unittitle>
-					<unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate>
+					<unitdate normal="2004/2005" type="inclusive">2004-2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">2</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">2</container>
 					<unittitle id="link7">Petition to Kerrey</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">3</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">3</container>
 					<unittitle id="link8">Correspondence - NSU - Personnel -Farinella</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">4</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">4</container>
 					<unittitle id="link9">Correspondence - Murtha</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">5</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">5</container>
 					<unittitle id="link10">Letter to Muthra re: Fire Safety Director</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">6</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">6</container>
 					<unittitle id="link11">Letter to Murtha re: Gentle</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">7</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">7</container>
 					<unittitle id="link12">Letter to Reed</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">8</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">8</container>
 					<unittitle id="link13">Correspondence Greggory Spence</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">9</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">9</container>
 					<unittitle id="link14">Correspondence - Keila Tennent</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">10</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">10</container>
 					<unittitle id="link15">Absenteeism Info</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">11</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">11</container>
 					<unittitle id="link16">New School Security Guards Articles, Notes</unittitle>
-					<unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate>
+					<unitdate normal="2000/2001" type="inclusive">2000-2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">12</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">12</container>
 					<unittitle id="link17">New School Benefit Funds Merger</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">13</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">13</container>
 					<unittitle id="link18">NSU Differential 3-27-06</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">14</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">14</container>
 					<unittitle id="link19">NSU Grievance and Petition re Holiday Pay</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">15</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">15</container>
 					<unittitle id="link20">NSU Check Info</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">16</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">16</container>
 					<unittitle id="link21">High Rise Fire Safety Director</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">17</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">17</container>
 					<unittitle id="link22">New School - New Hire Lists</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">18</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">18</container>
 					<unittitle id="link23">Supervisors Working Posts 12-6-05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">19</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">19</container>
 					<unittitle id="link24">NSU - Temporary Employees</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">20</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">20</container>
 					<unittitle id="link25">Dues/Benefits Problems - '04</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">21</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">21</container>
 					<unittitle id="link26">Numerous Officers Back Dues and Benefits</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">22</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">22</container>
 					<unittitle id="link27">NSU - Payroll Issues - Direct Deposit</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">23</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">23</container>
 					<unittitle id="link28">New School Pay Problems</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">24</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">24</container>
 					<unittitle id="link29">Dues Checkoff Cards</unittitle>
-					<unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate>
+					<unitdate normal="2004/2005" type="inclusive">2004-2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">25</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">25</container>
 					<unittitle id="link30">New School University - Dues Cards Submitted to NSU</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">26</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">26</container>
 					<unittitle id="link31">New School - Dues Increase 2005</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">27</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">27</container>
 					<unittitle id="link32">NSU - Labor Mgt 12-8-05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">28</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">28</container>
 					<unittitle id="link33">New School Security Officers - Seniority List</unittitle>
-					<unitdate type="inclusive" normal="2002/2003">2002-2003</unitdate>
+					<unitdate normal="2002/2003" type="inclusive">2002-2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">29</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">29</container>
 					<unittitle id="link34">Labels - New School Officers</unittitle>
 				</did>
 				<scopecontent>
@@ -329,72 +335,72 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">30</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">30</container>
 					<unittitle id="link35">New School Shift Changes - Spring 2004</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">31</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">31</container>
 					<unittitle id="link36">NSU - New Schedules - 11/19/04</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">32</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">32</container>
 					<unittitle id="link37">recent Problems in Schedules - 5/20/04</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">33</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">33</container>
 					<unittitle id="link38">NSU - Tour Change Requests</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">34</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">34</container>
 					<unittitle id="link39">Roll Calls</unittitle>
-					<unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate>
+					<unitdate normal="2005/2006" type="inclusive">2005-2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">35</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">35</container>
 					<unittitle id="link40">NSU - Vacations</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">36</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">36</container>
 					<unittitle id="link41">MSU - Vacation Checks</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">37</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">37</container>
 					<unittitle id="link42">New School - Vacation Schedules</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">38</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">38</container>
 					<unittitle id="link43">Favoritism</unittitle>
 				</did>
 				<scopecontent>
@@ -403,144 +409,144 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">39</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">39</container>
 					<unittitle id="link44">Stuck Lists</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">40</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">40</container>
 					<unittitle id="link45">Voluntary Lists</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">41</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">41</container>
 					<unittitle id="link46">Volunteer Lists</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">42</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">42</container>
 					<unittitle id="link47">New School Weekly Schedules 10/5/04</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">43</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">43</container>
 					<unittitle id="link48">New School University - Collective Bargaining Agreement</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">44</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">44</container>
 					<unittitle id="link49">New School University - Security Officers' Manual</unittitle>
-					<unitdate type="inclusive" normal="2000/2002">2000-2002</unitdate>
+					<unitdate normal="2000/2002" type="inclusive">2000-2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">45</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">45</container>
 					<unittitle id="link50">New School Security Advisories</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">46</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">46</container>
 					<unittitle id="link51">New School - Security Advisors</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">47</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">47</container>
 					<unittitle id="link52">New School - NYU Contract/SEIU Contract/Teamsters Contract</unittitle>
-					<unitdate type="inclusive" normal="2002/2006">2002-2006</unitdate>
+					<unitdate normal="2002/2006" type="inclusive">2002-2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">48</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">48</container>
 					<unittitle id="link53">NSU Labor Management 12/2/04</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">49</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">49</container>
 					<unittitle id="link54">New School - Uniform Cleaning Services - Labor/Management 7-16-03</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">50</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">50</container>
 					<unittitle id="link55">New School University - Meeting with Management</unittitle>
-					<unitdate type="inclusive" normal="2001/2004">2001-2004</unitdate>
+					<unitdate normal="2001/2004" type="inclusive">2001-2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">51</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">51</container>
 					<unittitle id="link56">New School Schedules</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">52</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">52</container>
 					<unittitle id="link57">New School Security Officers' Schedules</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">53</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">53</container>
 					<unittitle id="link58">AAIS Split Second Security</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">54</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">54</container>
 					<unittitle id="link59">New School - ESL/Communications</unittitle>
-					<unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate>
+					<unitdate normal="2000/2001" type="inclusive">2000-2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">55</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">55</container>
 					<unittitle id="link60">New School - Fire Safety Requirements</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">56</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">56</container>
 					<unittitle id="link61">New School Insurance/Dues Checkoff Forms</unittitle>
 				</did>
 				<scopecontent>
@@ -549,8 +555,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">57</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">57</container>
 					<unittitle id="link62">NSU - 403(b) - TIAA/CREF</unittitle>
 				</did>
 				<scopecontent>
@@ -559,8 +565,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">58</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">58</container>
 					<unittitle id="link63">New School Meetings</unittitle>
 				</did>
 				<scopecontent>
@@ -569,224 +575,224 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
-					<container type="Folder">59</container>
+					<container label="unspecified" type="box">1</container>
+					<container label="unspecified" type="Folder">59</container>
 					<unittitle id="link64">New School - Miscellaneous</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">1</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">1</container>
 					<unittitle id="link65">NSU Blended Rate Info</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">2</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">2</container>
 					<unittitle id="link66">Local 169 New School - CBA MOA 2003/6</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">3</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">3</container>
 					<unittitle id="link67">New School - Contract Negotiations - 7-17-03</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">4</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">4</container>
 					<unittitle id="link68">New School Benefit Plans</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">5</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">5</container>
 					<unittitle id="link69">New School University - Negotiations - 2003</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">6</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">6</container>
 					<unittitle id="link70">New School University - Negotiations - 2003</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">7</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">7</container>
 					<unittitle id="link71">NSU - Negotiations - 2003 - SEIU, NYU, Teamsters Contracts</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">8</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">8</container>
 					<unittitle id="link72">New School - Side Letters</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">9</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">9</container>
 					<unittitle id="link73">Temporary Employment Grievance</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">10</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">10</container>
 					<unittitle id="link74">Uniform Cleaning Write UPS and Problems</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">11</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">11</container>
 					<unittitle id="link75">NSU Contract Ratification 2003</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">12</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">12</container>
 					<unittitle id="link76">Camera Stuff</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">13</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">13</container>
 					<unittitle id="link77">COPE School - 2004</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">14</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">14</container>
 					<unittitle id="link78">Drug Free - Workplace - NSU</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">15</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">15</container>
 					<unittitle id="link79">Drug Testing Employee Assistance Program</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">16</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">16</container>
 					<unittitle id="link80">New School Holiday Closing Policy</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">17</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">17</container>
 					<unittitle id="link81">Late Lunch Grievance</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">18</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">18</container>
 					<unittitle id="link82">Locker Room New School</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">19</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">19</container>
 					<unittitle id="link83">Late Lunch and Breaks</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">20</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">20</container>
 					<unittitle id="link84">New School - Punch-in/Punch-out</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">21</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">21</container>
 					<unittitle id="link85">post Problems</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">22</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">22</container>
 					<unittitle id="link86">New School - Refusal of Overtime</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">23</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">23</container>
 					<unittitle id="link87">Responses to Dropped Grievance - Various Officers - To Be Filed</unittitle>
-					<unitdate type="inclusive" normal="2002/2004">2002-2004</unitdate>
+					<unitdate normal="2002/2004" type="inclusive">2002-2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">24</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">24</container>
 					<unittitle id="link88">Retro Pay - NSU</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">25</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">25</container>
 					<unittitle id="link89">Seniority - 55 E. 13th St. Post</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">26</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">26</container>
 					<unittitle id="link90">NSU Steward Elections - 8/2004</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">27</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">27</container>
 					<unittitle id="link91">Stuck List Procedures</unittitle>
 				</did>
 				<scopecontent>
@@ -795,96 +801,96 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">28</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">28</container>
 					<unittitle id="link92">Supervisors on Posts</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">29</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">29</container>
 					<unittitle id="link93">New School University - Transit Strike Issue</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">30</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">30</container>
 					<unittitle id="link94">New School - Unresponsive People Memo</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">31</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">31</container>
 					<unittitle id="link95">NSU Vacation Selections - Summer 2004</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">32</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">32</container>
 					<unittitle id="link96">New School Various</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">33</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">33</container>
 					<unittitle id="link97">New School University - Workplace Violence</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">34</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">34</container>
 					<unittitle id="link98">Withdrawn NSU Grievances</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">35</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">35</container>
 					<unittitle id="link99">New School University - Summary Plan Description</unittitle>
-					<unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate>
+					<unitdate normal="2000/2001" type="inclusive">2000-2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">36</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">36</container>
 					<unittitle id="link100">ALICO - HIPAA Awareness Information</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">37</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">37</container>
 					<unittitle id="link101">Hire/Fire Lists</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">38</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">38</container>
 					<unittitle id="link102">New School Officers - Newsletters</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">39</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">39</container>
 					<unittitle id="link103">New School - Pension Plan</unittitle>
 				</did>
 				<scopecontent>
@@ -893,56 +899,56 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">40</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">40</container>
 					<unittitle id="link104">New School - Training Issues</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">41</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">41</container>
 					<unittitle id="link105">New School Transit Strikes Policy</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">42</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">42</container>
 					<unittitle id="link106">New School/ UAW Organizing</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">43</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">43</container>
 					<unittitle id="link107">New School - Upgraded Security Precautions</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">44</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">44</container>
 					<unittitle id="link108">New School Pension List 9/21/05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">45</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">45</container>
 					<unittitle id="link109">Fire Safety Director 3-05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">46</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">46</container>
 					<unittitle id="link110">NSU - Drug Free Workplace Policy</unittitle>
 				</did>
 				<scopecontent>
@@ -951,32 +957,32 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
-					<container type="Folder">47</container>
+					<container label="unspecified" type="box">2</container>
+					<container label="unspecified" type="Folder">47</container>
 					<unittitle id="link111">New School Contract Side Letters</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">1</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">1</container>
 					<unittitle id="link112">New School grievance case: Suspension 5/2/05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">2</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">2</container>
 					<unittitle id="link113">New School grievance</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">3</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">3</container>
 					<unittitle id="link114">New School grievance case: Harassment</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
@@ -986,784 +992,784 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">4</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">4</container>
 					<unittitle id="link115">New School grievance case: Back Pay For Unused Time Off</unittitle>
-					<unitdate type="inclusive" normal="2002/2004">2002-2004</unitdate>
+					<unitdate normal="2002/2004" type="inclusive">2002-2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">5</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">5</container>
 					<unittitle id="link116">New School grievance case: Unemployment Insurance</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">6</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">6</container>
 					<unittitle id="link117">New School grievance case: Suspension - Insubordination</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">7</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">7</container>
 					<unittitle id="link118">New School grievance case: Certification</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">8</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">8</container>
 					<unittitle id="link119">New School grievance case: Hours</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">9</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">9</container>
 					<unittitle id="link120">New School grievance case 1/13/05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">10</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">10</container>
 					<unittitle id="link121">New School grievance case: Return to Work</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">11</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">11</container>
 					<unittitle id="link122">New School grievance case: Health Issue - 2/06</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">12</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">12</container>
 					<unittitle id="link123">New School grievance case: Suspension/EAP</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">13</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">13</container>
 					<unittitle id="link124">New School grievance case: Promotion</unittitle>
-					<unitdate type="inclusive" normal="2002/2004">2002-2004</unitdate>
+					<unitdate normal="2002/2004" type="inclusive">2002-2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">14</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">14</container>
 					<unittitle id="link125">New School grievance case: Poor Job Performance 2-28-05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">15</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">15</container>
 					<unittitle id="link126">New School grievance case: Medical Condition</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">16</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">16</container>
 					<unittitle id="link127">New School grievance case: Suspension - Not Grieved</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">17</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">17</container>
 					<unittitle id="link128">New School grievance case: Off Post 4/6/05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">18</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">18</container>
 					<unittitle id="link129">New School grievance case: Extension of Probation</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">19</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">19</container>
 					<unittitle id="link130">New School grievance case: Promotion </unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">20</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">20</container>
 					<unittitle id="link131">New School grievance case: Termination</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">21</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">21</container>
 					<unittitle id="link132">New School grievance case: Out of Uniform and unnecessary Conversations</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">22</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">22</container>
 					<unittitle id="link133">New School grievance case: Chronic Absenteeism</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">23</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">23</container>
 					<unittitle id="link134">New School grievance case: Termination</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">24</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">24</container>
 					<unittitle id="link135">New School grievance case: Suspension - Insubordination</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">25</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">25</container>
 					<unittitle id="link136">New School grievance case: 9/9/03 - Refusal to Work O.T.</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">26</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">26</container>
 					<unittitle id="link137">New School grievance case: Suspension - Out of Uniform</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">27</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">27</container>
 					<unittitle id="link138">New School grievance case: Suspension Rescinded</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">28</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">28</container>
 					<unittitle id="link139">New School grievance case: Harassment</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">29</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">29</container>
 					<unittitle id="link140">New School grievance case: Unemployment Settlement</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">30</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">30</container>
 					<unittitle id="link141">New School grievance case: COBRA Application</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">31</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">31</container>
 					<unittitle id="link142">New School grievance case: Leave of Absence 2/6/06</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">32</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">32</container>
 					<unittitle id="link143">New School grievance case: Chronic Absenteeism</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">33</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">33</container>
 					<unittitle id="link144">New School grievance case: Vacation Accrual</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">34</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">34</container>
 					<unittitle id="link145">New School grievance case: Absences 2/4/05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">35</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">35</container>
 					<unittitle id="link146">New School grievance case: Suspension/FMLA 4-6-05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">36</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">36</container>
 					<unittitle id="link147">New School grievance case: Unexcused Absences</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">37</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">37</container>
 					<unittitle id="link148">New School grievance case: Harassment</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">38</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">38</container>
 					<unittitle id="link149">New School grievance case: Late Coming from Lunch</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">39</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">39</container>
 					<unittitle id="link150">New School grievance case: Lateness</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">40</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">40</container>
 					<unittitle id="link151">New School grievance case: Rafael Vera</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">41</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">41</container>
 					<unittitle id="link152">New School grievance case: Settlement</unittitle>
-					<unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate>
+					<unitdate normal="2001/2002" type="inclusive">2001-2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">42</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">42</container>
 					<unittitle id="link153">New School grievance case: Meals</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">43</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">43</container>
 					<unittitle id="link154">New School grievance case: Reading Paper at Post</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">44</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">44</container>
 					<unittitle id="link155">New School grievance case: Suspension 4/11/05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">45</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">45</container>
 					<unittitle id="link156">New School grievance case: Injury</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">46</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">46</container>
 					<unittitle id="link157">New School grievance case</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">47</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">47</container>
 					<unittitle id="link158">New School grievance case: Sick Day</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">48</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">48</container>
 					<unittitle id="link159">New School grievance case: Harassment, Suspension</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">49</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">49</container>
 					<unittitle id="link160">New School grievance case: Suspension 9-16-05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">50</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">50</container>
 					<unittitle id="link161">New School grievance case: Termination - Absenteeism</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">51</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">51</container>
 					<unittitle id="link162">New School grievance case: Unemployment</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">52</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">52</container>
 					<unittitle id="link163">New School grievance case: Suspension - Refusal of O.T.</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">53</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">53</container>
 					<unittitle id="link164">New School grievance case: Complaint Against Another Person - 1-12-06</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">54</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">54</container>
 					<unittitle id="link165">New School grievance case: Personal Day</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">55</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">55</container>
 					<unittitle id="link166">New School grievance case: Suspension, Sleeping</unittitle>
-					<unitdate type="inclusive" normal="2003/2006">2003-2006</unitdate>
+					<unitdate normal="2003/2006" type="inclusive">2003-2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">56</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">56</container>
 					<unittitle id="link167">New School grievance case: Alcohol on Breath 3 Day Suspension</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">57</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">57</container>
 					<unittitle id="link168">New School grievance case: Sleeping 11/28/05 One Day Suspension - not Grieved</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">58</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">58</container>
 					<unittitle id="link169">New School grievance case: Withdrawal of Post Grievance</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">59</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">59</container>
 					<unittitle id="link170">New School grievance case: Suspension</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">60</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">60</container>
 					<unittitle id="link171">New School grievance case: Chronic Absenteeism</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">61</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">61</container>
 					<unittitle id="link172">New School grievance case: Unauthorized Phone Call 3-10-05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">62</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">62</container>
 					<unittitle id="link173">New School grievance case: Call-In</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">63</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">63</container>
 					<unittitle id="link174">New School grievance case: AWOL Warning</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">64</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">64</container>
 					<unittitle id="link175">New School grievance case: Settlement 11-3-05 Alcohol on Breath</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">65</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">65</container>
 					<unittitle id="link176">New School grievance case</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">66</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">66</container>
 					<unittitle id="link177">New School grievance case</unittitle>
-					<unitdate type="inclusive" normal="2004/2006">2004-2006</unitdate>
+					<unitdate normal="2004/2006" type="inclusive">2004-2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">67</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">67</container>
 					<unittitle id="link178">New School grievance case: Vacation/Workers Comp Claim</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">68</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">68</container>
 					<unittitle id="link179">New School grievance case: Suspension - Nov 5, 2001</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">69</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">69</container>
 					<unittitle id="link180">New School grievance case</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">70</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">70</container>
 					<unittitle id="link181">New School grievance case: Denial of Leave of Absence</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">71</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">71</container>
 					<unittitle id="link182">New School grievance case: Refusal to Accept Packages</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">72</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">72</container>
 					<unittitle id="link183">New School grievance case: Mohammed Kalaz</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">73</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">73</container>
 					<unittitle id="link184">New School grievance case: Suspension 11/28/01</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">74</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">74</container>
 					<unittitle id="link185">New School grievance case: Failure to Notify Reed</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">75</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">75</container>
 					<unittitle id="link186">New School grievance case: Pre-Discipline 1) No Hat 2) Failure to Notify Reed</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">76</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">76</container>
 					<unittitle id="link187">New School grievance case: Lost Radio</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">77</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">77</container>
 					<unittitle id="link188">New School grievance case: Medical</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">78</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">78</container>
 					<unittitle id="link189">New School grievance case: Pension 718-467-4417</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">79</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">79</container>
 					<unittitle id="link190">New School grievance case: Termination</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">80</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">80</container>
 					<unittitle id="link191">New School grievance case: Suspension 7/27/01</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">81</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">81</container>
 					<unittitle id="link192">New School grievance case: Termination - Drug Test Failure</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">82</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">82</container>
 					<unittitle id="link193">New School grievance case: Termination</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">83</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">83</container>
 					<unittitle id="link194">New School grievance case: Chronic Lateness</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">84</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">84</container>
 					<unittitle id="link195">New School grievance case: Weekends</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">85</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">85</container>
 					<unittitle id="link196">New School grievance case: Harassment</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">86</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">86</container>
 					<unittitle id="link197">New School grievance case: Unnecessary Conversations</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">87</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">87</container>
 					<unittitle id="link198">New School grievance case: Late Lunches</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">88</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">88</container>
 					<unittitle id="link199">New School grievance case: Termination 1/13/06</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">89</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">89</container>
 					<unittitle id="link200">New School grievance case: Class Action Differential</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">90</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">90</container>
 					<unittitle id="link201">New School grievance case: Disability</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">91</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">91</container>
 					<unittitle id="link202">New School grievance case: Lateness</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">92</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">92</container>
 					<unittitle id="link203">New School grievance case: Pay - 7/27/01</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">93</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">93</container>
 					<unittitle id="link204">New School grievance case: Suspension</unittitle>
-					<unitdate type="inclusive" normal="2000/2001">2000-2001</unitdate>
+					<unitdate normal="2000/2001" type="inclusive">2000-2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">94</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">94</container>
 					<unittitle id="link205">New School grievance case</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">95</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">95</container>
 					<unittitle id="link206">New School grievance case: Days Off 10-17-01</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">96</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">96</container>
 					<unittitle id="link207">New School grievance case: Holiday Call-In</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">97</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">97</container>
 					<unittitle id="link208">New School grievance case: Lateness 1/28/02</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">98</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">98</container>
 					<unittitle id="link209">New School grievance case: Job Abandonment</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">99</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">99</container>
 					<unittitle id="link210">New School grievance case: Lost Days Grievance 10-17-01</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
-					<container type="Folder">100</container>
+					<container label="unspecified" type="box">3</container>
+					<container label="unspecified" type="Folder">100</container>
 					<unittitle id="link211">Recognition Agreement, Disclaimer &amp; Contract Extension Agreement</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">1</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">1</container>
 					<unittitle id="link212">New School grievance case: Statement re: Loeb Hall Incident</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
@@ -1773,24 +1779,24 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">2</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">2</container>
 					<unittitle id="link213">New School grievance case: Termination</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">3</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">3</container>
 					<unittitle id="link214">New School grievance case: Shift Change</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">4</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">4</container>
 					<unittitle id="link215">New School grievance case: Dues Deductions/Healthcare Payments</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
@@ -1800,16 +1806,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">5</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">5</container>
 					<unittitle id="link216">New School grievance case: Lateness</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">6</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">6</container>
 					<unittitle id="link217">New School grievance case: Insubordination</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
@@ -1819,8 +1825,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">7</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">7</container>
 					<unittitle id="link218">New School grievance case: Readng on Job</unittitle>
 				</did>
 				<scopecontent>
@@ -1829,311 +1835,311 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">8</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">8</container>
 					<unittitle id="link219">New School grievance case: Termination</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">9</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">9</container>
 					<unittitle id="link220">New School grievance case: 560 7th Post</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">10</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">10</container>
 					<unittitle id="link221">New School grievance case: Promotion</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">11</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">11</container>
 					<unittitle id="link222">New School grievance case: Health Benefit Payment</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">12</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">12</container>
 					<unittitle id="link223">New School grievance case: Insurance - Problems</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">13</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">13</container>
 					<unittitle id="link224">New School grievance case</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">14</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">14</container>
 					<unittitle id="link225">New School grievance case: Sleeping 1 Day Suspension 9-26-05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">15</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">15</container>
 					<unittitle id="link226">New School grievance case: Unsatisfactory Job Performance 11/30/05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">16</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">16</container>
 					<unittitle id="link227">New School grievance case: Chronic Lateness 9/6/05 - Warning Not Grieved</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">17</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">17</container>
 					<unittitle id="link228">New School grievance case: Termination</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">18</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">18</container>
 					<unittitle id="link229">New School grievance case: Job Abandonment</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">19</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">19</container>
 					<unittitle id="link230">New School grievance case: Lateness</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">20</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">20</container>
 					<unittitle id="link231">New School grievance case: Sleeping on Job</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">21</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">21</container>
 					<unittitle id="link232">New School grievance case: Statement re Camera Adjustment</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">22</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">22</container>
 					<unittitle id="link233">New School grievance case</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">23</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">23</container>
 					<unittitle id="link234">New School grievance case: Chronic Lateness 6-20-05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">24</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">24</container>
 					<unittitle id="link235">New School grievance case: Tour Change Request</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">25</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">25</container>
 					<unittitle id="link236">New School grievance case: AWOL 2-21-05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">26</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">26</container>
 					<unittitle id="link237">New School grievance case: Unexcused Absence 3-10-05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">27</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">27</container>
 					<unittitle id="link238">New School grievance case: Chronic Absenteeism</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">28</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">28</container>
 					<unittitle id="link239">New School grievance case: Suspension Refusing Overtime</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">29</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">29</container>
 					<unittitle id="link240">New School grievance case: Suspension Mocking Lasalle</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">30</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">30</container>
 					<unittitle id="link241">New School grievance case: Level IV Promotion Request</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">31</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">31</container>
 					<unittitle id="link242">New School grievance case: Pay Issue 4/13/06</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">32</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">32</container>
 					<unittitle id="link243">New School grievance case: Late from Lunch</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">33</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">33</container>
 					<unittitle id="link244">New School grievance case: Workers Comp</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">34</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">34</container>
 					<unittitle id="link245">New School grievance case: Reading on Duty 4/6/05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">35</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">35</container>
 					<unittitle id="link246">New School grievance case: Workers Comp</unittitle>
-					<unitdate type="inclusive" normal="2005/2006">2005-2006</unitdate>
+					<unitdate normal="2005/2006" type="inclusive">2005-2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">36</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">36</container>
 					<unittitle id="link247">New School grievance case: Letter to Move to Level D</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">37</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">37</container>
 					<unittitle id="link248">New School grievance case: Suspension 12/12/01</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">38</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">38</container>
 					<unittitle id="link249">New School grievance case: New School Personal</unittitle>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">39</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">39</container>
 					<unittitle id="link250">New School grievance case: Promotion to Level II</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">40</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">40</container>
 					<unittitle id="link251">New School grievance case: Incident at 65 5th Ave</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">41</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">41</container>
 					<unittitle id="link252">New School grievance case: Compliant 1/12/04</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">42</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">42</container>
 					<unittitle id="link253">New School grievance case: Inappropriate Behavior 0 Refer to EAP 10-17-05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">43</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">43</container>
 					<unittitle id="link254">New School grievance case: Suspension Refusing to do Overtime</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">44</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">44</container>
 					<unittitle id="link255">New School grievance case: Theft of Time</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">45</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">45</container>
 					<unittitle id="link256">New School grievance case: Discriminatory Harassment</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">46</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">46</container>
 					<unittitle id="link257">New School grievance case: Unsatisfactory Job Performance</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
@@ -2143,32 +2149,32 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">47</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">47</container>
 					<unittitle id="link258">New School grievance case: Lateness</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">48</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">48</container>
 					<unittitle id="link259">New School grievance case: Reading on Duty 4/8/05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">49</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">49</container>
 					<unittitle id="link260">New School grievance case: Prescription Problem</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">50</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">50</container>
 					<unittitle id="link261">New School grievance case: Denial of Overtime</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
@@ -2178,8 +2184,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">51</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">51</container>
 					<unittitle id="link262">New School grievance case: Denial of O.T. (Post Assignments)</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
@@ -2189,88 +2195,88 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">52</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">52</container>
 					<unittitle id="link263">New School grievance case: Direct Deposit Grievance</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">53</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">53</container>
 					<unittitle id="link264">New School grievance case: Lateness 11/14/05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">54</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">54</container>
 					<unittitle id="link265">New School grievance case: Changing Posts</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">55</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">55</container>
 					<unittitle id="link266">New School grievance case: Day Off Requests</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">56</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">56</container>
 					<unittitle id="link267">New School grievance case: Warning - Off Post</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">57</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">57</container>
 					<unittitle id="link268">New School grievance case: Lateness from Break</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">58</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">58</container>
 					<unittitle id="link269">New School grievance case: Warning Notice</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">59</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">59</container>
 					<unittitle id="link270">New School grievance case: Forced Overtime</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">60</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">60</container>
 					<unittitle id="link271">New School grievance case: Pay</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">61</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">61</container>
 					<unittitle id="link272">New School grievance case: Arbitration Settlement</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">62</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">62</container>
 					<unittitle id="link273">New School grievance case: Unnecessary Conversations</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
@@ -2280,136 +2286,136 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">63</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">63</container>
 					<unittitle id="link274">New School grievance case: Lateness</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">64</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">64</container>
 					<unittitle id="link275">New School grievance case: Overpay</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">65</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">65</container>
 					<unittitle id="link276">New School grievance case: Termination - Drinking on the Job</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">66</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">66</container>
 					<unittitle id="link277">New School grievance case: Senior Security Promotion</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">67</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">67</container>
 					<unittitle id="link278">New School grievance case: Off Post Warning</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">68</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">68</container>
 					<unittitle id="link279">New School grievance case: Suspension Personal Day</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">69</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">69</container>
 					<unittitle id="link280">New School grievance case: Statement</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">70</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">70</container>
 					<unittitle id="link281">New School grievance case: Medical NSU</unittitle>
-					<unitdate type="inclusive" normal="2002/2004">2002-2004</unitdate>
+					<unitdate normal="2002/2004" type="inclusive">2002-2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">71</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">71</container>
 					<unittitle id="link282">New School grievance case: Pension Calculation</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">72</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">72</container>
 					<unittitle id="link283">New School grievance case: Direct Deposit Problem 12-04</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">73</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">73</container>
 					<unittitle id="link284">New School grievance case: Medical Problems/Disability</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">74</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">74</container>
 					<unittitle id="link285">New School grievance case: LOA - 10/16/04</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">75</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">75</container>
 					<unittitle id="link286">New School grievance case: Scheduling and O.T.</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">76</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">76</container>
 					<unittitle id="link287">New School grievance case: Retirement</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">77</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">77</container>
 					<unittitle id="link288">New School grievance case: Medicaid/Medicare</unittitle>
-					<unitdate type="inclusive" normal="1985/1990">1985-1990</unitdate>
+					<unitdate normal="1985/1990" type="inclusive">1985-1990</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">78</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">78</container>
 					<unittitle id="link289">New School grievance case: FMLA</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">79</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">79</container>
 					<unittitle id="link290">New School grievance case: Unexcused Absences</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
@@ -2419,176 +2425,176 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">80</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">80</container>
 					<unittitle id="link291">New School grievance case: Personal Day</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">81</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">81</container>
 					<unittitle id="link292">New School grievance case: Asleep</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">82</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">82</container>
 					<unittitle id="link293">New School grievance case: Termination</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">83</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">83</container>
 					<unittitle id="link294">New School grievance case</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">84</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">84</container>
 					<unittitle id="link295">New School grievance case: Failure to Follow Instructions</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">85</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">85</container>
 					<unittitle id="link296">New School grievance case: Out of Uniform</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">86</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">86</container>
 					<unittitle id="link297">New School grievance case</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">87</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">87</container>
 					<unittitle id="link298">New School grievance case: Lateness from Break</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">88</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">88</container>
 					<unittitle id="link299">New School grievance case: Call Out Warning</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">89</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">89</container>
 					<unittitle id="link300">New School grievance case: Sleeping on Duty, Suspension</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">90</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">90</container>
 					<unittitle id="link301">New School grievance case: Chronic Lateness</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">91</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">91</container>
 					<unittitle id="link302">New School grievance case: Suspension - Absences</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">92</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">92</container>
 					<unittitle id="link303">New School grievance case: Warning Notice</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">93</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">93</container>
 					<unittitle id="link304">New School grievance case: Lateness</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">94</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">94</container>
 					<unittitle id="link305">New School grievance case: Termination Lateness</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">95</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">95</container>
 					<unittitle id="link306">New School grievance case: Unexpected Absences 3-10-05 (7/7/05-2nd)</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">96</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">96</container>
 					<unittitle id="link307">New School grievance case: Chronic Lateness 6/13/04</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">97</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">97</container>
 					<unittitle id="link308">New School grievance case: Expired License</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">98</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">98</container>
 					<unittitle id="link309">New School grievance case: 3 Day Suspension - Sleeping on Duty</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">99</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">99</container>
 					<unittitle id="link310">New School grievance case: Chronic Lateness</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">100</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">100</container>
 					<unittitle id="link311">New School grievance case: Personal/Sick Days</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">101</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">101</container>
 					<unittitle id="link312">New School grievance case: Lateness</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
@@ -2598,240 +2604,240 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">102</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">102</container>
 					<unittitle id="link313">New School grievance case: Reading on Duty 4/6/05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">103</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">103</container>
 					<unittitle id="link314">New School grievance case: Denial Of Overtime</unittitle>
-					<unitdate type="inclusive" normal="2003/2004">2003-2004</unitdate>
+					<unitdate normal="2003/2004" type="inclusive">2003-2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">104</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">104</container>
 					<unittitle id="link315">New School grievance case: Complaint Against Walsh</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">105</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">105</container>
 					<unittitle id="link316">New School grievance case: Unexpected Absences - Warning</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">106</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">106</container>
 					<unittitle id="link317">New School grievance case: Off Post - 1st and Second Warnings</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">107</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">107</container>
 					<unittitle id="link318">New School grievance case: Level 3 Qualifications</unittitle>
-					<unitdate type="inclusive" normal="1998/2000">1998-2000</unitdate>
+					<unitdate normal="1998/2000" type="inclusive">1998-2000</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">108</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">108</container>
 					<unittitle id="link319">New School grievance case: Disability</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">109</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">109</container>
 					<unittitle id="link320">New School grievance case: Termination</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">110</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">110</container>
 					<unittitle id="link321">New School grievance case: Post Abandonment 2 Day Suspension</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">111</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">111</container>
 					<unittitle id="link322">New School grievance case</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">112</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">112</container>
 					<unittitle id="link323">New School grievance case: Suspension Off Post 0 Not Grieved 10-7-05</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">113</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">113</container>
 					<unittitle id="link324">New School grievance case: Disability</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">114</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">114</container>
 					<unittitle id="link325">New School grievance case: Unexcused Absences - 12/2/04</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">115</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">115</container>
 					<unittitle id="link326">New School grievance case: Absenteeism</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">116</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">116</container>
 					<unittitle id="link327">New School grievance case: Sick, Vacation Accruals</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">117</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">117</container>
 					<unittitle id="link328">New School grievance case: Suspension - Refusal of O.T.</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">118</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">118</container>
 					<unittitle id="link329">New School grievance case: Termination Fraudulent Information</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">119</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">119</container>
 					<unittitle id="link330">New School grievance case: Sleeping</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">120</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">120</container>
 					<unittitle id="link331">New School grievance case: Sleeping on Duty</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">121</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">121</container>
 					<unittitle id="link332">New School grievance case: Shift Change</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">122</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">122</container>
 					<unittitle id="link333">New School grievance case: Weekend Request</unittitle>
 					<unitdate normal="2003">2003</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">123</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">123</container>
 					<unittitle id="link334">New School grievance case: RDO Change Request</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">124</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">124</container>
 					<unittitle id="link335">New School grievance case: Change in Days Off</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">125</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">125</container>
 					<unittitle id="link336">New School grievance case: Termination</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">126</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">126</container>
 					<unittitle id="link337">New School grievance case: Settlement</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">127</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">127</container>
 					<unittitle id="link338">New School grievance case: Termination Off Post 1/6/06</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">128</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">128</container>
 					<unittitle id="link339">New School grievance case: Arbitration 1/25/06 Notes and Summation</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">129</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">129</container>
 					<unittitle id="link340">New School grievance case</unittitle>
-					<unitdate type="inclusive" normal="2003/2006">2003-2006</unitdate>
+					<unitdate normal="2003/2006" type="inclusive">2003-2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">130</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">130</container>
 					<unittitle id="link341">New School grievance case: Cont'd</unittitle>
-					<unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate>
+					<unitdate normal="2004/2005" type="inclusive">2004-2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">131</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">131</container>
 					<unittitle id="link342">New School grievance case: Termination 9/29/04</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
@@ -2841,24 +2847,24 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
-					<container type="Folder">132</container>
+					<container label="unspecified" type="box">4</container>
+					<container label="unspecified" type="Folder">132</container>
 					<unittitle id="link343">New School grievance case: Responses Etc.</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">1</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">1</container>
 					<unittitle id="link344">UNITE Benefits Conference</unittitle>
 					<unitdate normal="2004">2004</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">2</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">2</container>
 					<unittitle id="link345">UNITE Health &amp; Welfare Summary Plan Description Leaflets</unittitle>
 				</did>
 				<scopecontent>
@@ -2867,8 +2873,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">3</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">3</container>
 					<unittitle id="link346">Leaflet UNITE for Workplace Headaches</unittitle>
 				</did>
 				<scopecontent>
@@ -2877,8 +2883,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">4</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">4</container>
 					<unittitle id="link347">UNITE - Textiles and Much, Much More!</unittitle>
 				</did>
 				<scopecontent>
@@ -2887,8 +2893,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">5</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">5</container>
 					<unittitle id="link348">Gallery 169</unittitle>
 				</did>
 				<scopecontent>
@@ -2897,24 +2903,24 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">6</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">6</container>
 					<unittitle id="link349">Local 169 Political Action Committee</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">7</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">7</container>
 					<unittitle id="link350">Constitutions - International and Local</unittitle>
 					<unitdate normal="1999">1999</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">8</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">8</container>
 					<unittitle id="link351">Press Lists</unittitle>
 				</did>
 				<scopecontent>
@@ -2923,32 +2929,32 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">9</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">9</container>
 					<unittitle id="link352">Local 168 Executive Council Meeting</unittitle>
-					<unitdate type="inclusive" normal="2001/2002">2001-2002</unitdate>
+					<unitdate normal="2001/2002" type="inclusive">2001-2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">10</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">10</container>
 					<unittitle id="link353">NYC Central Labor Council - Labor Community Advocacy</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">11</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">11</container>
 					<unittitle id="link354">Hotel - Laundries</unittitle>
 					<unitdate normal="1999">1999</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">12</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">12</container>
 					<unittitle id="link355">Targets - NYC Retail</unittitle>
 				</did>
 				<scopecontent>
@@ -2957,40 +2963,40 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">13</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">13</container>
 					<unittitle id="link356">Made in New York City Campaign</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">14</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">14</container>
 					<unittitle id="link357">Internet Search Engine Info</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">15</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">15</container>
 					<unittitle id="link358">Arts &amp; Letter (Executive Accessories)</unittitle>
 					<unitdate normal="2001">2001</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">16</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">16</container>
 					<unittitle id="link359">Organizing Plan</unittitle>
 					<unitdate normal="2002">2002</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">17</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">17</container>
 					<unittitle id="link360">NSU Correspondence - Greggory Spence</unittitle>
 				</did>
 				<scopecontent>
@@ -2999,16 +3005,16 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">18</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">18</container>
 					<unittitle id="link361">Tour 1</unittitle>
-					<unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate>
+					<unitdate normal="2004/2005" type="inclusive">2004-2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">19</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">19</container>
 					<unittitle id="link362">Tour II</unittitle>
 				</did>
 				<scopecontent>
@@ -3017,8 +3023,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">20</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">20</container>
 					<unittitle id="link363">Tour III</unittitle>
 				</did>
 				<scopecontent>
@@ -3027,56 +3033,56 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">21</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">21</container>
 					<unittitle id="link364">Mandatory OT List (Stuck List)</unittitle>
-					<unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate>
+					<unitdate normal="2004/2005" type="inclusive">2004-2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">22</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">22</container>
 					<unittitle id="link365">Birds Eye - 10K</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">23</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">23</container>
 					<unittitle id="link366">Interface Solutions</unittitle>
 					<unitdate normal="2005">2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">24</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">24</container>
 					<unittitle id="link367">Allied One Solution</unittitle>
-					<unitdate type="inclusive" normal="2004/2005">2004-2005</unitdate>
+					<unitdate normal="2004/2005" type="inclusive">2004-2005</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">25</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">25</container>
 					<unittitle id="link368">SEIU/New School CBA Hi-Lites</unittitle>
-					<unitdate type="inclusive" normal="2006/2007">2006-2007</unitdate>
+					<unitdate normal="2006/2007" type="inclusive">2006-2007</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">26</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">26</container>
 					<unittitle id="link369">Local 169 - New School Side Letter on Absenteeism</unittitle>
 					<unitdate normal="2006">2006</unitdate>
 				</did>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">27</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">27</container>
 					<unittitle id="link370">Amalg NE Joint Board Minutes - Kevin Finnegan</unittitle>
 				</did>
 				<scopecontent>
@@ -3085,8 +3091,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
-					<container type="Folder">28</container>
+					<container label="unspecified" type="box">5</container>
+					<container label="unspecified" type="Folder">28</container>
 					<unittitle id="link371">24 diskettes</unittitle>
 				</did>
 				<scopecontent>
@@ -3095,8 +3101,8 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
-					<container type="Folder">1</container>
+					<container label="unspecified" type="box">6</container>
+					<container label="unspecified" type="Folder">1</container>
 					<unittitle id="link372">Buttons and Print Blocks</unittitle>
 					<unitdate normal="1938">1938</unitdate>
 				</did>

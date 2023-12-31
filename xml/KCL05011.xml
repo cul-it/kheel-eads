@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05011::Morton Singer Papers.)//EN">KCL05011</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05011::Morton Singer Papers.)//EN">KCL05011</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the Morton Singer Papers<date> 1945-1969</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>October 20, 2016</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the Morton Singer Papers<lb/></titleproper>
+			<titleproper>Guide to the Morton Singer Papers</titleproper>
 			<num>Collection Number: 5011</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,14 +54,14 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">Morton Singer Papers, <unitdate encodinganalog="MARC 245$f">1945-1969</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">Morton Singer Papers, 1945-1969
+			</unittitle><unitdate encodinganalog="MARC 245$f">1945-1969</unitdate>
 			<unitid label="Collection Number:">5011</unitid>
 			<origination label="Creator:">
 				<persname encodinganalog="MARC 100" role="creator">Singer, Morton</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">13 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">13 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Papers (documents).</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">Case files, awards, and other legal documents of the arbitrator Morton Singer.</abstract>
@@ -63,260 +69,260 @@
 			</langmaterial>
 		<physdesc><extent>13 cubic feet</extent></physdesc></did>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Singer, Morton, 1906-1969 </persname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">Arbitration, Industrial--United States. </subject>
 			</controlaccess>
 			<controlaccess>
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>Morton Singer Papers #5011. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="file">
 				<did>
-					<container type="box">1</container>
+					<container label="unspecified" type="box">1</container>
 					<unittitle id="link8">A-C.</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link9">Ace Ice Cream</unittitle>
 						<unitdate normal="1944">1944</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link10">Allied Maintenance O.O. in with Loc. 366</unittitle>
-						<unitdate type="inclusive" normal="1952/1955">1952-1955</unitdate>
+						<unitdate normal="1952/1955" type="inclusive">1952-1955</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link11">Local 815 and American feel Seype</unittitle>
 						<unitdate normal="1969">1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link12">Automatic Sealing No. 119</unittitle>
-						<unitdate type="inclusive" normal="1963/1969">1963-1969</unitdate>
+						<unitdate normal="1963/1969" type="inclusive">1963-1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link13">City of Beacon P.B.A.</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link14">Belock - Awards</unittitle>
 						<unitdate normal="1958">1958</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link15">BELOCK</unittitle>
 						<unitdate normal="1958">1958</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link16">BELOCK</unittitle>
 						<unitdate normal="1958">1958</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link17">BELOCK</unittitle>
-						<unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>
+						<unitdate normal="1956/1957" type="inclusive">1956-1957</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link18">BELOCK</unittitle>
 						<unitdate normal="1956">1956</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link19">BELOCK - Transcript + Agreements</unittitle>
-						<unitdate type="inclusive" normal="1958/1959">1958-1959</unitdate>
+						<unitdate normal="1958/1959" type="inclusive">1958-1959</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link20">Bermuda Motor Car Renting with Local 522 I.B. of T</unittitle>
-						<unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
+						<unitdate normal="1968/1969" type="inclusive">1968-1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link21">Local 1278 I.A.M. AW - Borden Chemical</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link22">Borg. Warner and Loc. 239 IBJ</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link23">Boro Automatic vs. Peterson and Johanson</unittitle>
-						<unitdate type="inclusive" normal="1958/1961">1958-1961</unitdate>
+						<unitdate normal="1958/1961" type="inclusive">1958-1961</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link24">Bronx County Pharmaceutical Assoc. etc.</unittitle>
 						<unitdate normal="1951">1951</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link25">Busch Kredit Jewelry</unittitle>
 						<unitdate normal="1954">1954</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link26">Cagiano/ Automatic Coin + Vending Machine Employers Union Retail Clerks Intl. Association vs. Hirsch</unittitle>
-						<unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>
+						<unitdate normal="1956/1957" type="inclusive">1956-1957</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link27">Cagiano</unittitle>
 						<unitdate normal="1956">1956</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link28">Cagiano</unittitle>
 						<unitdate normal="1956">1956</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link29">Capital Counter Display</unittitle>
 						<unitdate normal="1963">1963</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link30">Capital Counter Display</unittitle>
 						<unitdate normal="1955">1955</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link31">Chappaqua Teachers Ass.</unittitle>
 						<unitdate normal="1969">1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link32">Cheesman-Elliot Co. vs. Paint Varnish and lacquer Workers Union AFL-CIO</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link33">Cigarette Merchandisers Assoc. vs. L. 805</unittitle>
-						<unitdate type="inclusive" normal="1956/1957">1956-1957</unitdate>
+						<unitdate normal="1956/1957" type="inclusive">1956-1957</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link34">Clarkwood Services Corp. and ITU</unittitle>
-						<unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+						<unitdate normal="1966/1967" type="inclusive">1966-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link35">Coca Cola</unittitle>
 						<unitdate normal="1955">1955</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle id="link36">Commercial Con w Loc. 810</unittitle>
 						<unitdate normal="1960">1960</unitdate>
 					</did>
@@ -324,285 +330,285 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">2</container>
+					<container label="unspecified" type="box">2</container>
 					<unittitle id="link37">D-Independent.</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link38">Local 1146 RCIA vs. Double Kay Plumbing Co.,</unittitle>
 						<unitdate normal="1966">1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link39">Cropper Bus with Local 252</unittitle>
 						<unitdate normal="1957">1957</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link40">Ebinger Baking Co. vs. L. 30, IUOE</unittitle>
 						<unitdate normal="1966">1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link41">Local 48 I.P.E.U. and Empire Extrusions Corp.</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link42">Eugene's Valet vs Cleaners + Dyers 1.239</unittitle>
 						<unitdate normal="1953">1953</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link43">Flohr Paint Co.</unittitle>
 						<unitdate normal="1960">1960</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link44">Franklin Gardens with 307 AFL</unittitle>
 						<unitdate normal="1953">1953</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link45">Galin Press with Printing Unions</unittitle>
-						<unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
+						<unitdate normal="1963/1964" type="inclusive">1963-1964</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link46">Gen'l Analing and Film Lodge 1807 IAM+AW</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link47">General Dynamics/Elec w Local 1 Roch. Ind. Workers</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link48">General Woodcraft Co. with Local 1702 ILA</unittitle>
 						<unitdate normal="1951">1951</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link49">Gilbert Carriers with Local 1021 ILGWU</unittitle>
-						<unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+						<unitdate normal="1967/1968" type="inclusive">1967-1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link50">Graham Chemical with Local 535</unittitle>
 						<unitdate normal="1951">1951</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link51">Industrial Div. - 1965-66 Atlantic Highlands L.1115</unittitle>
-						<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+						<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link52">Ind. Div. - 1965/66 Central General Hospital</unittitle>
-						<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+						<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link53">Indust. Div. 1965/66 - Docto5rs Hosp. Freeport</unittitle>
-						<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+						<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link54">Indust. Div. - 1965/66 Five Towns Nursing H./ Hotel Shalom/ Hudson View/ Inglemoor/ Lismore/ Lt. tides</unittitle>
-						<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+						<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link55">Ind. Div. - 1965/66 Mid-Island Hosp.</unittitle>
-						<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+						<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link56">Ind. Div. - 1965-66 Pinehaven</unittitle>
-						<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+						<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link57">Ind. Div. - 1965/66 Smithtown Gen. Hosp. Soth Shore Nursing Home</unittitle>
-						<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+						<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link58">Ind. Div. - 1966 - Miscellaneous</unittitle>
 						<unitdate normal="1966">1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link59">Ind. Div. 1967- Atlantic Highlands</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link60">Ind. Div. 1967 - Atlantic Highlands / Ocean View</unittitle>
-						<unitdate type="inclusive" normal="1966/1967">1966-1967</unitdate>
+						<unitdate normal="1966/1967" type="inclusive">1966-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link61">Ind. Div. - 1967 - Central Gen. Hosp. / Countryside Nursing</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link62">Ind. Div. 1967 - Five Towns Nursing Home</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link63">Ind. Div. 1967 - Miami Hotel/ Mid-Island Hosp.</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link64">Ind. Div. 1967 - Ocean View Retreat</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle id="link65">Ind. Div. 1967 Paramus Nursing Home</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">29</container>
 						<unittitle id="link66">Ind. Div. 1967 - Pinehaven</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">30</container>
 						<unittitle id="link67">Ind. Div. - 1967 - Promenade Hotel Royale</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">31</container>
 						<unittitle id="link68">Ind. Div. - 1967 - Scharf Hotel</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">32</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">32</container>
 						<unittitle id="link69">Indust. Div. - 1967 - Miscellaneous</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">33</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">33</container>
 						<unittitle id="link70">Ind. Div. 1968 - Atlantic Highlands/ Ocean View</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">34</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">34</container>
 						<unittitle id="link71">Ind. Div. 1968 - Bat Yam Hotel/ Blair House/ Breakers/ Brighton/ Carlton</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">2</container>
-						<container type="folder">35</container>
+						<container label="unspecified" type="box">2</container>
+						<container label="unspecified" type="folder">35</container>
 						<unittitle id="link72">Ind. Div. 1968 - Crown Hotel</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
@@ -610,253 +616,253 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">3</container>
+					<container label="unspecified" type="box">3</container>
 					<unittitle id="link73">Independent.</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link74">Ind. Div. 1968 - Doctors Hosp. / Fairfield Nursing</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link75">Ind. Div. 1968 - Five Town Nursing</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link76">Ind. Div. 1968 - Garden Restaurant/ Hotel Chai/ Hudson View Nursing H./ Ingelmoor</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link77">Ind. Div. 1968 - Lincoln Hotel/ Lesabell Lunch./ Mama's Kosher/ Miami Hotel/ Mid-Island Hosp.</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link78">Ind. Div. 1968 - Nassau Nursing Home/ Palace Hotel/ Paradise Hotel</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link79">Ind. Div. 1968 - Pinehaven Sanit./ Promenade H.</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link80">Ind. Div. 1968 - Royale Hotel</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link81">Ind. Div. 1968 - Sterling Nursing H. + Miscellaneous</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link82">Ind. Div. 1969 - Atlantic Highlands/ Central Gen./ Crown/ Doctors Hosp.</unittitle>
 						<unitdate normal="1969">1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link83">Ind. Div. 1969 - Hotel Shalom/ ILA Hotel/ Miami Hotel Ocean View Retreat/ Paradise Hotel/ Pinehaven Nursing Home/ Promenade Hotel</unittitle>
 						<unitdate normal="1969">1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link84">Ind. Div. 1969 - Scharf's Smithtown Gen./ Sterling Nursing Home</unittitle>
 						<unitdate normal="1969">1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link85">1969 Miscellaneous</unittitle>
 						<unitdate normal="1969">1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link86">Laundry Industry - Local 400 - N.L.R.B.</unittitle>
-						<unitdate type="inclusive" normal="1952/1958">1952-1958</unitdate>
+						<unitdate normal="1952/1958" type="inclusive">1952-1958</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link87">Lipsett vs. Housewreck. L.95</unittitle>
-						<unitdate type="inclusive" normal="1961/1964">1961-1964</unitdate>
+						<unitdate normal="1961/1964" type="inclusive">1961-1964</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link88">Long Island Tobacco Co. vs. Paramour</unittitle>
-						<unitdate type="inclusive" normal="1963/1964">1963-1964</unitdate>
+						<unitdate normal="1963/1964" type="inclusive">1963-1964</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link89">Luchow's vs. L.1</unittitle>
-						<unitdate type="inclusive" normal="1954/1959">1954-1959</unitdate>
+						<unitdate normal="1954/1959" type="inclusive">1954-1959</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link90">Lucky Rain Dear with Loc 815</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link91">Mahopac Teachers Assoc. vs. Central School Dist. 1, Towns of Carmel + Putnam</unittitle>
-						<unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+						<unitdate normal="1967/1968" type="inclusive">1967-1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link92">Mahopac Teacher's Assoc. vs. Central School Dist.</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link93">Margaretten with Local 408</unittitle>
-						<unitdate type="inclusive" normal="1961/1962">1961-1962</unitdate>
+						<unitdate normal="1961/1962" type="inclusive">1961-1962</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link94">Westers Inc. with Local 222</unittitle>
 						<unitdate normal="1962">1962</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link95">Local 517 with Nelson Bros.</unittitle>
-						<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+						<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link96">Palmer Plastics with Local 815</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link97">Permatex Co. MCW Local 806 IBT</unittitle>
 						<unitdate normal="1963">1963</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link98">Restaurant Industry 1957-1958 41 Foods/ 63 Nassau Rest. / 737 Third Ave. Corp.</unittitle>
-						<unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
+						<unitdate normal="1957/1958" type="inclusive">1957-1958</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link99">Restaurant Industry 1957-58 Brenner - Freeport Cinemaster Films</unittitle>
-						<unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
+						<unitdate normal="1957/1958" type="inclusive">1957-1958</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link100">Restaurant Industry 1957-58 - coach House/ Flamingo Coffee Shop</unittitle>
-						<unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
+						<unitdate normal="1957/1958" type="inclusive">1957-1958</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle id="link101">Restaurant Industry 1957-58 - Frank's Snackery Hamburg Bar Famous Luncheonette</unittitle>
-						<unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
+						<unitdate normal="1957/1958" type="inclusive">1957-1958</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">29</container>
 						<unittitle id="link102">Restaurant Industry 1957-58 Simple's 7th Ave. Rest. Corp. Steakburger Steak Pit of Long Island</unittitle>
-						<unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
+						<unitdate normal="1957/1958" type="inclusive">1957-1958</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">30</container>
 						<unittitle id="link103">Restaurant Industry 1957-58 Correspondence + Misc. Cases</unittitle>
-						<unitdate type="inclusive" normal="1957/1958">1957-1958</unitdate>
+						<unitdate normal="1957/1958" type="inclusive">1957-1958</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">31</container>
 						<unittitle id="link104">Restaurant - 1959 46th St. Food Shop 5th Ave. Corp./ A=M Lunch/ dam's Coffee Shop/ Bonnie's Food Shop/ Brenner - Freeport Effray Rest.</unittitle>
 						<unitdate normal="1959">1959</unitdate>
 					</did>
@@ -864,29 +870,29 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">4</container>
+					<container label="unspecified" type="box">4</container>
 					<unittitle id="link105">Restaurant.</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link106">Restaurant Industry with Local 1115</unittitle>
 						<unitdate normal="1960">1960</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link107">Restaurant Industry with Local 1115</unittitle>
-						<unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate>
+						<unitdate normal="1959/1962" type="inclusive">1959-1962</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link108">Restaurant Industry with Local 1115</unittitle>
 						<unitdate normal="1962">1962</unitdate>
 					</did>
@@ -894,45 +900,45 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">5</container>
+					<container label="unspecified" type="box">5</container>
 					<unittitle id="link109">Restaurant.</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link110">Restaurant Industry File #6</unittitle>
 						<unitdate normal="1963">1963</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link111">Restaurant Ind. With Local 1115</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link112">Restaurant Union Local 1115</unittitle>
 						<unitdate normal="1965">1965</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link113">Restaurant Industry - 1966 -</unittitle>
 						<unitdate normal="1966">1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link114">Local 1115 Cases Last Folder</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
@@ -940,481 +946,481 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">6</container>
+					<container label="unspecified" type="box">6</container>
 					<unittitle id="link115">Restaurant-Retail.</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link116">Rest. Industry</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link117">Retail Women's Apparel Salespeople's Union</unittitle>
-						<unitdate type="inclusive" normal="1959/1960">1959-1960</unitdate>
+						<unitdate normal="1959/1960" type="inclusive">1959-1960</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link118">Local 1115 Rest. Indus.</unittitle>
 						<unitdate normal="1969">1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link119">Local 1115 Cases ( Rest)</unittitle>
 						<unitdate normal="1969">1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link120">Local 340A Cases</unittitle>
 						<unitdate normal="1969">1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link121">Retail Merchants of Long Island, Inc. with Local 340-A</unittitle>
 						<unitdate normal="1966">1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link122">Local 340 A and ret. APP M-Ass'n.</unittitle>
-						<unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
+						<unitdate normal="1968/1969" type="inclusive">1968-1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link123">Long Island Merchants with Local 340-A ACWA</unittitle>
-						<unitdate type="inclusive" normal="1956/1958">1956-1958</unitdate>
+						<unitdate normal="1956/1958" type="inclusive">1956-1958</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link124">Retail Apparel Merchants Assoc. with Local 340 A-</unittitle>
-						<unitdate type="inclusive" normal="1959/1962">1959-1962</unitdate>
+						<unitdate normal="1959/1962" type="inclusive">1959-1962</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link125">Retail App. Merch. W Local 340-A</unittitle>
-						<unitdate type="inclusive" normal="1962/1963">1962-1963</unitdate>
+						<unitdate normal="1962/1963" type="inclusive">1962-1963</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link126">Loc. 340 Cases #4</unittitle>
-						<unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate>
+						<unitdate normal="1963/1965" type="inclusive">1963-1965</unitdate>
 					</did>
 				</c02>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unittitle id="link127">Retail-Z.</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link128">Strauss Stores Corporation vs. David Livingston as Pres. Etc. (District US)</unittitle>
-						<unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>
+						<unitdate normal="1953/1954" type="inclusive">1953-1954</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link129">S. Rosengarten and Co. Inc. with Retail, Wholesale and CH Chain Store Food Employees Union Loc. 338</unittitle>
 						<unitdate normal="1955">1955</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link130">S. Rosengarten and Coo. Inc. with Fish, Sea Food Etc. Workers Loc. 635 AFL</unittitle>
-						<unitdate type="inclusive" normal="1953/1956">1953-1956</unitdate>
+						<unitdate normal="1953/1956" type="inclusive">1953-1956</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link131">Superior P.V.D. Magneto</unittitle>
-						<unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate>
+						<unitdate normal="1964/1965" type="inclusive">1964-1965</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link132">#195 Superior Magneto and Independent Service Employees Union</unittitle>
 						<unitdate normal="1965">1965</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link133">Local 102 w Toni's Italian Food</unittitle>
-						<unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate>
+						<unitdate normal="1964/1965" type="inclusive">1964-1965</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link134">Local 719 International Production Service and Sales Employees Union #308</unittitle>
 						<unitdate normal="1958">1958</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link135">U.S. Tire Supply w/ Local 721</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link136">Ultra Slide</unittitle>
 						<unitdate normal="1965">1965</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link137">Victory Container and Local 307</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link138">Viking Merchants Ass'n w/ Loc 225 I.J.W.U. #205</unittitle>
-						<unitdate type="inclusive" normal="1964/1965">1964-1965</unitdate>
+						<unitdate normal="1964/1965" type="inclusive">1964-1965</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link139">Local 78 w/ Yales and Towne</unittitle>
 						<unitdate normal="1969">1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link140">S. Rosengarten and Co. Inc. with Butchers Workers Local 640</unittitle>
-						<unitdate type="inclusive" normal="1953/1954">1953-1954</unitdate>
+						<unitdate normal="1953/1954" type="inclusive">1953-1954</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link141">Local 340- Miscellaneous Cases.</unittitle>
-						<unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+						<unitdate normal="1967/1968" type="inclusive">1967-1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link142">Local 340-A</unittitle>
 						<unitdate normal="1969">1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link143">Rizzo and Sons with District w/ Local 27 IBT</unittitle>
-						<unitdate type="inclusive" normal="1963/1965">1963-1965</unitdate>
+						<unitdate normal="1963/1965" type="inclusive">1963-1965</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">7</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">7</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link144">Local 340-A Cases</unittitle>
-						<unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+						<unitdate normal="1967/1968" type="inclusive">1967-1968</unitdate>
 					</did>
 				</c02>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">8</container>
+					<container label="unspecified" type="box">8</container>
 					<unittitle id="link145">1956-1967.</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link146">Arbitration 1956</unittitle>
 						<unitdate normal="1956">1956</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link147">Arbitration 1956</unittitle>
 						<unitdate normal="1956">1956</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link148">Arbitration 1957</unittitle>
 						<unitdate normal="1957">1957</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link149">Arbitration 1957</unittitle>
 						<unitdate normal="1957">1957</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link150">Arbitration 1958</unittitle>
 						<unitdate normal="1958">1958</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link151">Arbitration 1958</unittitle>
 						<unitdate normal="1958">1958</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link152">Arbitration 1959</unittitle>
 						<unitdate normal="1959">1959</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link153">Arbitration 1959</unittitle>
 						<unitdate normal="1959">1959</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link154">Arbitration 1960</unittitle>
 						<unitdate normal="1960">1960</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link155">Arbitration 1960</unittitle>
 						<unitdate normal="1960">1960</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link156">Arbitration 1961</unittitle>
 						<unitdate normal="1961">1961</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link157">Arbitration 1961</unittitle>
 						<unitdate normal="1961">1961</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link158">Arbitration 1962</unittitle>
 						<unitdate normal="1962">1962</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link159">Arbitration 1962</unittitle>
 						<unitdate normal="1962">1962</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link160">Arbitration 1962</unittitle>
 						<unitdate normal="1962">1962</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link161">Arbitration 1963</unittitle>
 						<unitdate normal="1963">1963</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link162">Arbitration 1963</unittitle>
 						<unitdate normal="1963">1963</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link163">Arbitration 1963</unittitle>
 						<unitdate normal="1963">1963</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link164">Arbitration 1964</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link165">Arbitration 1964</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link166">Arbitration 1964</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link167">Arbitration 1965</unittitle>
 						<unitdate normal="1965">1965</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link168">Arbitration 1965</unittitle>
 						<unitdate normal="1965">1965</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link169">Arbitration 1966</unittitle>
 						<unitdate normal="1966">1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link170">Arbitration 1966</unittitle>
 						<unitdate normal="1966">1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link171">Arbitration 1966</unittitle>
 						<unitdate normal="1966">1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link172">Arbitration 1967</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle id="link173">Arbitration 1967</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">29</container>
 						<unittitle id="link174">Arbitration 1967</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">8</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">8</container>
+						<container label="unspecified" type="folder">30</container>
 						<unittitle id="link175">Arbitration 1967</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
@@ -1422,61 +1428,61 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">9</container>
+					<container label="unspecified" type="box">9</container>
 					<unittitle id="link176">1968-1969 - plus miscellaneous files.</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">9</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">9</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link177">Trial Memos and Briefs and Transcripts Herman vs Dean Jake Co./ Wertheimer Belger vs. Dis. 65 Kovacs v. Moss CNS vs. Arnold</unittitle>
-						<unitdate type="inclusive" normal="1959/1960">1959- 1960</unitdate>
+						<unitdate normal="1959/1960" type="inclusive">1959- 1960</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">9</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">9</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link178">Memos - Transcripts AMR + Loc 1 Admiral Loc. 442</unittitle>
-						<unitdate type="inclusive" normal="1953/1959">1953-1959</unitdate>
+						<unitdate normal="1953/1959" type="inclusive">1953-1959</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">9</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">9</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link179">Arbitration 1968</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">9</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">9</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link180">Arbitration 1968</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">9</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">9</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link181">Arbitration 1968</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">9</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">9</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link182">Arbitration 1968</unittitle>
 						<unitdate normal="1968">1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">9</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">9</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link183">Arbitration 1969</unittitle>
 						<unitdate normal="1969">1969</unitdate>
 					</did>
@@ -1484,692 +1490,692 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">10</container>
+					<container label="unspecified" type="box">10</container>
 					<unittitle id="link184">Non-arbitration files. Contains legal petitions, briefs, appeal records, transcripts, etc.</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link185">A.A. Tube Testing Co. v. Sohne</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link186">Mt. Vernon Amusement Co. v. Georgian Restaurant Corp.</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link187">CNS Taverns, Inc. v. Arnold</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link188">Herman Automatic Music Group v. Lenric Restaurant Corp.</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link189">Rye Cliff Apartments v. Stickel</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link190">John &amp; Associates v. Choate</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link191">Music Operators of NY v. Mortimer Pearl</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link192">Morgan Builders, Inc. v. Ginza Inc.</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link193">NLRB v. Ford Radio &amp; Mica Corporation - US Court of Appeals Joint Appendix</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link194">NLRB v. Ford Radio &amp; Mica Corporation - Briefs</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link195">Decicco v. Viviano Briefs</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link196">Decicco v. Viviano - Record on Appeal</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link197">Pace v. Pace - Plaintiff Briefs</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link198">Pace v. Pace - Respondent Briefs</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link199"> Pace v. Pace - Case on Appeals</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link200">Pace v. Pace - Pretrial Examination of Defendant</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link201">Pace v. Pace - Record on Appeal (Original)</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link202">Pace v. Pace - Record on Appeal (Copy)</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link203">Kessler v. Hunter - Briefs for Plaintiff</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link204">Kessler v. Hunter - Briefs for Defendant</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link205">Kessler v. Hunter - Record on Appeal</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link206">Kessler v. Hunter - Record on Appeal</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link207">Kessler v. Hunter - Record on Appeal</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link208">Pace v. Pace &amp; ECAP Holding Corp. - Case on Appeal</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">10</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">10</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link209">Miscellaneous Cases</unittitle>
 					</did>
 				</c02>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">11</container>
+					<container label="unspecified" type="box">11</container>
 					<unittitle id="link210">Non-arbitration files. Contains legal petitions, briefs, appeal records, transcripts, etc.</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link211">John &amp; Associates v. Choate Record on Appeal (Copies)</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link212">John &amp; Associates v. Choate Record on Appeal (Originals)</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link213">A.A. Tube Testing Co. v. Sohne</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link214">Kessler v. Hunter</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link215">Kessler v. Hunter Transcripts</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link216">Mt. Vernon Amusement v. Georgian Restaurant Corp.</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link217">Suffridge v. Lasky</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link218">Music Operators of NY v. Mortimer Pearl: Pre-Trial Examination of Cohen v. Cagiano</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link219">Local 1115 v. La Royale, Inc. Arbitration - pg. 1-103</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link220">Local 1115 v. La Royale, Inc. Arbitration - pg. 104-220</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link221">John &amp; Associates v. Choate Briefs</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link222">Pace v. Pace Briefs</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link223">Pace v. Pace - Trial Term, Part V</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link224">NLRB: Automatic Sealing Service, Inc. - Transcript pg. 1-207</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link225">NLRB: Automatic Sealing Service, Inc. - Transcript pg. 209-511</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link226">NLRB: Automatic Sealing Services, Inc. - Transcript pg. 521-667</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link227">NLRB: Automatic Sealing Service, Inc. - Transcript pg. 668-750; 816-900</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link228">Before the Intersatate Commerce Commission No. MC-F 5315</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link229">State of New York Cases</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link230">Supreme Court of the State of New York, Westchester County</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link231">New York Supreme Court - Fairchester Realty - Petitioner's Memorandum</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link232">NY State Supreme Court - Fairchester Realty - Briefs</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link233">NY Supreme Court Appellate Division - Fairchester Realty - Papers on Appeal</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link234">Miscellaneous Cases</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link235">Articles</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link236">Motion to Dismiss: Lack of Prosecution</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link237">Arbitration Confirmation</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle id="link238">Judgment CDLR 3215</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">29</container>
 						<unittitle id="link239">Vacate Arbitration</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">30</container>
 						<unittitle id="link240">Pre-Trial Witnesses</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">31</container>
 						<unittitle id="link241">Declaratory Judging</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">32</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">32</container>
 						<unittitle id="link242">Motion to Dismiss - Pleading</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">11</container>
-						<container type="folder">33</container>
+						<container label="unspecified" type="box">11</container>
+						<container label="unspecified" type="folder">33</container>
 						<unittitle id="link243">Articles</unittitle>
 					</did>
 				</c02>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">12</container>
+					<container label="unspecified" type="box">12</container>
 					<unittitle id="link244">Non-arbitration files. Contains legal petitions, briefs, appeal records, transcripts, etc.</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link245">United States of America v. Matthias Kohler</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link246">Matthias Kohler v. United States of America (Appeal)</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link247">United States of America v. August Klapprott (1 of 3)</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link248">United States of America v. August Klapprott (2 of 3)</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link249">United States of America v. August Klapprott (3 of 3)</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link250">United States of America v. Winfield E. Richards</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link251">United States of America v. Backofen</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link252">United States of America v. Bruno Peter Johann Koop</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link253">United States of America v. George Neupert</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link254">City Council of Rye, New York</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link255">City of Rye, New York (continued)</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link256">City of Rye, New York (continued)</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link257">Briefs and Documents for Trial Examiners</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link258">Wertheimer Stores Corporation and NLRB</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link259">Labor Arbitration Information</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link260">New York University Dissertations/Thesis</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">12</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">12</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link261">Gatto Engraving Company, Inc. and Public National Bank &amp; Trust Company of New York</unittitle>
 					</did>
 				</c02>
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">13</container>
+					<container label="unspecified" type="box">13</container>
 					<unittitle id="link262">Miscellaneous Files. Includes papers collected re Planning Commission, City of Rye; Handwritten notes, clippings, releases, memos, publications re National Academy of Arbitrators, PERB, OCB and other
 						miscellaneous.</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link263">Misc.</unittitle>
-						<unitdate type="inclusive" normal="1958/1968">1958-1968</unitdate>
+						<unitdate normal="1958/1968" type="inclusive">1958-1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link264">Misc.</unittitle>
-						<unitdate type="inclusive" normal="1962/1967">1962-1967</unitdate>
+						<unitdate normal="1962/1967" type="inclusive">1962-1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link265">OLB</unittitle>
-						<unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
+						<unitdate normal="1968/1969" type="inclusive">1968-1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link266">NAA</unittitle>
-						<unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
+						<unitdate normal="1968/1969" type="inclusive">1968-1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link267">Restaurant Info</unittitle>
-						<unitdate type="inclusive" normal="1960/1965">1960-1965</unitdate>
+						<unitdate normal="1960/1965" type="inclusive">1960-1965</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link268">NAA</unittitle>
 						<unitdate normal="1966">1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link269">NAA</unittitle>
-						<unitdate type="inclusive" normal="1965/1966">1965-1966</unitdate>
+						<unitdate normal="1965/1966" type="inclusive">1965-1966</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link270">NAA</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link271">NAA</unittitle>
 						<unitdate normal="1969">1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link272">NAA</unittitle>
 						<unitdate normal="1964">1964</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link273">PERB</unittitle>
-						<unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate>
+						<unitdate normal="1968/1970" type="inclusive">1968-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link274">PERB</unittitle>
-						<unitdate type="inclusive" normal="1968/1970">1968-1970</unitdate>
+						<unitdate normal="1968/1970" type="inclusive">1968-1970</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link275">PERB</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link276">PERB</unittitle>
-						<unitdate type="inclusive" normal="1968/1969">1968-1969</unitdate>
+						<unitdate normal="1968/1969" type="inclusive">1968-1969</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link277">PERB</unittitle>
-						<unitdate type="inclusive" normal="1967/1968">1967-1968</unitdate>
+						<unitdate normal="1967/1968" type="inclusive">1967-1968</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link278">PERB</unittitle>
 						<unitdate normal="1967">1967</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link279">Gatto Engraving Co. Profit Sharing Plan</unittitle>
 						<unitdate normal="1954">1954</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">13</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">13</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link280">Gatto Engraving Co. Profit Sharing Plan</unittitle>
 						<unitdate normal="1954">1954</unitdate>
 					</did>

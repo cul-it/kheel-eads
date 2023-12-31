@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-    <eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-        <eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05619oh::ACWA Oral History Project Records.)//EN">KCL05619oh</eadid>
+    <eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+        <eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05619oh::ACWA Oral History Project Records.)//EN">KCL05619oh</eadid>
         <filedesc>
             <titlestmt>
                 <titleproper>Guide to the ACWA Oral History Project Records<date>
@@ -24,20 +24,26 @@
             <creation>Finding aid encoded by KIDB, Ead McTaggart, and Kheel Staff, <date>March 21,
                     2019</date></creation>
         </profiledesc>
-    </eadheader>
+    <revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
     <frontmatter>
         <titlepage>
-            <titleproper>Guide to the ACWA Oral History Project Records<lb/></titleproper>
+            <titleproper>Guide to the ACWA Oral History Project Records</titleproper>
             <num>Collection Number: 5619 OH</num>
             <publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell
                 University Library </publisher>
             <list type="deflist">
                 <defitem>
                     <label>Contact Information:</label>
-                    <item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin
-                        P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/>
-                        Ithaca, NY 14853<lb/> (607) 255-3183<lb/>
-                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+                    <item>Kheel Center for Labor-Management Documentation and Archives Martin
+                        P. Catherwood Library 227 Ives Hall Cornell University
+                        Ithaca, NY 14853 (607) 255-3183
+                        <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
                         <extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
                     </item>
                 </defitem>
@@ -56,16 +62,16 @@
     </frontmatter>
     <archdesc level="collection">
         <did>
-            <head id="a1">DESCRIPTIVE SUMMARY</head>
-            <unittitle label="Title:" encodinganalog="MARC 245$a">ACWA Oral History Project Records,
-                    <unitdate encodinganalog="MARC 245$f">1990</unitdate>
-            </unittitle>
+            
+            <unittitle encodinganalog="MARC 245$a" label="Title:">ACWA Oral History Project Records
+                    1990
+            </unittitle><unitdate encodinganalog="MARC 245$f">1990</unitdate>
             <unitid label="Collection Number:">5619 OH</unitid>
             <origination label="Creator:">
                 <corpname encodinganalog="MARC 110" role="creator">Amalgamated Clothing Workers of
                     America (ACWA)</corpname>
             </origination>
-            <physdesc label="Quantity:" encodinganalog="MARC 300">1.6 linear ft.</physdesc>
+            <physdesc encodinganalog="MARC 300" label="Quantity:">1.6 linear ft.</physdesc>
             <physdesc label="Forms of Material:">Oral histories (document genres).</physdesc>
             <repository label="Repository:">Kheel Center for Labor-Management Documentation and
                 Archives, Cornell University Library </repository>
@@ -76,8 +82,7 @@
             </langmaterial>
         <physdesc><extent>1.61 cubic feet</extent></physdesc></did>
         <bioghist encodinganalog="MARC 545">
-            <head id="a2" altrender="organizational history">ACWA/ACTWU ORGANIZATIONAL
-                HISTORY</head>
+            
             <p>The Amalgamated Clothing Workers of America, the most significant union representing
                 workers in the men's clothing industry, was founded in New York City in 1914 as a
                 breakaway movement from the United Garment Workers. Radical and immigrant workers in
@@ -149,7 +154,7 @@
                 life in a troubled union.</p>
         </bioghist>
         <bioghist encodinganalog="MARC 545">
-            <head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+            
             <p>The Amalgamated Clothing Workers of America, the most significant union representing
                 workers in the men's clothing industry, was founded in New York City in 1914 as a
                 breakaway movement from the United Garment Workers. Radical and immigrant workers in
@@ -220,15 +225,15 @@
                 troubled union.</p>
         </bioghist>
         <scopecontent encodinganalog="MARC 520">
-            <head id="a3">COLLECTION DESCRIPTION</head>
+            
             <p>Interviews by Gail Malgreen with ACWA leaders. Releases signed and included from each
                 interviewee. Interviews with Henry Dropkin, Murray H. Finley, Scott Hoyman, and
                 Peter Swoboda.</p>
         </scopecontent>
         <controlaccess>
-            <head id="a8">SUBJECTS</head>
+            
             <controlaccess>
-                <head>Names: </head>
+                
                 <corpname encodinganalog="MARC 610">Amalgamated Clothing and Textile Workers Union. </corpname>
                 <persname encodinganalog="MARC 600">Dropkin, Henry. </persname>
                 <persname encodinganalog="MARC 600">Finley, Murray H. </persname>
@@ -242,85 +247,85 @@
                 </controlaccess>
         </controlaccess>
         <descgrp>
-            <head id="a10">INFORMATION FOR USERS</head>
+            
             <accessrestrict>
-                <head>Access Restrictions:</head>
+                
                 <p>Access to the collections in the Kheel Center is restricted. Please contact a
                     reference archivist for access to these materials.</p>
             </accessrestrict>
             <userestrict>
-                <head>Restrictions on Use:</head>
+                
                 <p>This collection must be used in keeping with the Kheel Center Information Sheet
                     and Procedures for Document Use.</p>
             </userestrict>
             <prefercite>
-                <head>Cite As:</head>
+                
                 <p>ACWA Oral History Project Records #5619 OH. Kheel Center for Labor-Management
                     Documentation and Archives, Cornell University Library.</p>
             </prefercite>
         </descgrp>
         <relatedmaterial>
-            <head id="a6">RELATED MATERIALS</head>
-            <p>Related Collections:<lb/>
+            
+            <p>Related Collections:
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619.html"> 5619: ACWA
-                    Records</extref><lb/>
+                    Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619av.html"> 5619 AV:
-                    ACTWU Audio-Visual Materials</extref><lb/>
+                    ACTWU Audio-Visual Materials</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619c-smb.html"> 5619
                     C-S MB: ACTWU President Jack Sheinkman Additional Books, Memorabilia, and
-                    Files</extref><lb/>
+                    Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619f.html"> 5619 F:
-                    ACTWU Motion Picture Films</extref><lb/>
+                    ACTWU Motion Picture Films</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619g.html"> 5619 G:
-                    ACTWU Graphics</extref><lb/>
+                    ACTWU Graphics</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619mb.html"> 5619 MB:
-                    ACTWU Memorabilia Collection</extref><lb/>
+                    ACTWU Memorabilia Collection</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619mf.html"> 5619 mf:
-                    ACWA Records Parts 1-3 on Microfilm</extref><lb/>
+                    ACWA Records Parts 1-3 on Microfilm</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619p.html"> 5619 P:
-                    ACTWU Photographs</extref><lb/>
+                    ACTWU Photographs</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619pubs.html"> 5619
-                    PUBS: ACTWU Publications</extref><lb/>
+                    PUBS: ACTWU Publications</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-001.html">
-                    5619/001: ACTWU Collective Bargaining Agreements</extref><lb/>
+                    5619/001: ACTWU Collective Bargaining Agreements</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-002.html">
-                    5619/002: ACWA Education Department Records</extref><lb/>
+                    5619/002: ACWA Education Department Records</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-003.html">
-                    5619/003: ACWA Sidney Hillman Scrapbooks</extref><lb/>
+                    5619/003: ACWA Sidney Hillman Scrapbooks</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-004.html">
-                    5619/004: ACTWU President Jacob Sheinkman Files</extref><lb/>
+                    5619/004: ACTWU President Jacob Sheinkman Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-004fiche.html">
-                    5619/004 fiche: ACTWU President Jacob Sheinkman Speeches on Microfiche</extref><lb/>
+                    5619/004 fiche: ACTWU President Jacob Sheinkman Speeches on Microfiche</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-005.html">
-                    5619/005: ACWA Bessie Hillman Papers</extref><lb/>
+                    5619/005: ACWA Bessie Hillman Papers</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-006.html">
-                    5619/006: ACTWU Executive Vice-President's Office Files</extref><lb/>
+                    5619/006: ACTWU Executive Vice-President's Office Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-007.html">
-                    5619/007: ACTWU Organizing Department Files</extref><lb/>
+                    5619/007: ACTWU Organizing Department Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-008.html">
-                    5619/008: ACWA Rieve-Pollock Foundation Files</extref><lb/>
+                    5619/008: ACWA Rieve-Pollock Foundation Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-009.html">
-                    5619/009: ACTWU Operations Department Sidney Hillman Awards Files</extref><lb/>
+                    5619/009: ACTWU Operations Department Sidney Hillman Awards Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-010.html">
-                    5619/010: ACWA Jacob Potofsky files</extref><lb/>
+                    5619/010: ACWA Jacob Potofsky files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-011.html">
-                    5619/011: ACTWU Southern Regional Joint Board Files</extref><lb/>
+                    5619/011: ACTWU Southern Regional Joint Board Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-012.html">
-                    5619/012: ACTWU Company Files</extref><lb/>
+                    5619/012: ACTWU Company Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-013.html">
-                    5619/013: ACTWU Research Department Correspondence Chronological Files</extref><lb/>
+                    5619/013: ACTWU Research Department Correspondence Chronological Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-014.html">
-                    5619/014: ACWA Local 169 Files</extref><lb/>
+                    5619/014: ACWA Local 169 Files</extref>
                 <extref href="http://rmc.library.cornell.edu/ead/htmldocs/KCL05619-015.html">
-                    5619/015: ACTWU Department of Occupational Safety and Health Files</extref><lb/>
+                    5619/015: ACTWU Department of Occupational Safety and Health Files</extref>
             </p>
         </relatedmaterial>
         <dsc type="in-depth">
-            <head>CONTAINER LIST</head>
+            
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">1</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">1</container>
                     <unittitle id="link8">Dropkin, H. (ACTWU)</unittitle>
                 </did>
                 <scopecontent>
@@ -329,8 +334,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">2</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">2</container>
                     <unittitle id="link9">Finley, M.</unittitle>
                 </did>
                 <scopecontent>
@@ -339,8 +344,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">3</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">3</container>
                     <unittitle id="link10">Hoyman, S.</unittitle>
                 </did>
                 <scopecontent>
@@ -349,8 +354,8 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">1</container>
-                    <container type="folder">4</container>
+                    <container label="unspecified" type="box">1</container>
+                    <container label="unspecified" type="folder">4</container>
                     <unittitle id="link11">Swoboda, P.</unittitle>
                 </did>
                 <scopecontent>
@@ -359,14 +364,14 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">2</container>
+                    <container label="unspecified" type="box">2</container>
                     <unittitle id="link12">Murray Finley Interview - 5/12/1990 : Session
                         1</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">2</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">2</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link13">Murray Finley Interview - 5/12/1990 : Session
                             1</unittitle>
                         <unitdate normal="1990">1990</unitdate>
@@ -375,14 +380,14 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">3</container>
+                    <container label="unspecified" type="box">3</container>
                     <unittitle id="link14">Murray Finley Interview - 5/12/1990 : Session
                         1</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">3</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">3</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link15">Murray Finley Interview - 5/12/1990 : Session 1 -
                             tape 2</unittitle>
                         <unitdate normal="1990">1990</unitdate>
@@ -391,14 +396,14 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">4</container>
+                    <container label="unspecified" type="box">4</container>
                     <unittitle id="link16"> Murray Finley Interview - 5/21/1990 : Session
                         2</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">4</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">4</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link17">Murray Finley Interview - 5/21/1990 : Session
                             2</unittitle>
                         <unitdate normal="1990">1990</unitdate>
@@ -407,14 +412,14 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">5</container>
+                    <container label="unspecified" type="box">5</container>
                     <unittitle id="link18"> Murray Finley Interview - 5/21/1990 : Session
                         2</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">5</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">5</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link19">Murray Finley Interview - 5/21/1990 : Session 2 -
                             tape 2</unittitle>
                         <unitdate normal="1990">1990</unitdate>
@@ -423,14 +428,14 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">6</container>
+                    <container label="unspecified" type="box">6</container>
                     <unittitle id="link20">Peter Swoboda Interview - 8/16/1990 : Session
                         1</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">6</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">6</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link21">Peter Swoboda Interview - 8/16/1990 : Session
                             1</unittitle>
                         <unitdate normal="1990">1990</unitdate>
@@ -439,14 +444,14 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">7</container>
+                    <container label="unspecified" type="box">7</container>
                     <unittitle id="link22">Peter Swoboda Interview - 8/22/1990 : Session
                         2</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">7</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">7</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link23">Peter Swoboda Interview - 8/22/1990 : Session
                             2</unittitle>
                         <unitdate normal="1990">1990</unitdate>
@@ -455,14 +460,14 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">8</container>
+                    <container label="unspecified" type="box">8</container>
                     <unittitle id="link24">Peter Swoboda Interview - 8/22/1990 : Session
                         2</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">8</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">8</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link25">Peter Swoboda Interview - 8/22/1990 : Session 2 -
                             tape 2</unittitle>
                         <unitdate normal="1990">1990</unitdate>
@@ -471,13 +476,13 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">9</container>
+                    <container label="unspecified" type="box">9</container>
                     <unittitle id="link26">Scott Hoyman Interview - 1/27-1/28/1990</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">9</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">9</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link27">Scott Hoyman Interview - 1/27-1/28/1990</unittitle>
                         <unitdate normal="1990">1990</unitdate>
                     </did>
@@ -485,13 +490,13 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">10</container>
+                    <container label="unspecified" type="box">10</container>
                     <unittitle id="link28">Scott Hoyman Interview - 1/27-1/28/1990</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">10</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">10</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link29">Scott Hoyman Interview - 1/27-1/28/1990 - tape
                             2</unittitle>
                         <unitdate normal="1990">1990</unitdate>
@@ -500,13 +505,13 @@
             </c01>
             <c01 level="file">
                 <did>
-                    <container type="box">11</container>
+                    <container label="unspecified" type="box">11</container>
                     <unittitle id="link30">Scott Hoyman Interview - 1/27-1/28/1990</unittitle>
                 </did>
                 <c02 level="file">
                     <did>
-                        <container type="box">11</container>
-                        <container type="folder">1</container>
+                        <container label="unspecified" type="box">11</container>
+                        <container label="unspecified" type="folder">1</container>
                         <unittitle id="link31">Scott Hoyman Interview - 1/27-1/28/1990 - tape
                             3</unittitle>
                         <unitdate normal="1990">1990</unitdate>

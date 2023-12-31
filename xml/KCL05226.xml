@@ -1,7 +1,7 @@
-<?xml version='1.0' encoding='utf-8'?>
+<?xml version="1.0" encoding="UTF-8"?>
 <ead>
-	<eadheader repositoryencoding="iso15511" relatedencoding="MARC21" countryencoding="iso3166-1" scriptencoding="iso15924" dateencoding="iso8601" langencoding="iso639-2b">
-		<eadid mainagencycode="nic" countrycode="us" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05226::National Council On Household Employment Records.)//EN">KCL05226</eadid>
+	<eadheader countryencoding="iso3166-1" dateencoding="iso8601" langencoding="iso639-2b" relatedencoding="MARC21" repositoryencoding="iso15511" scriptencoding="iso15924">
+		<eadid countrycode="us" mainagencycode="nic" publicid="-//Cornell University::Cornell University Library::Kheel Center for Labor-Management Documentation and Archives//TEXT(US::NIC::KCL05226::National Council On Household Employment Records.)//EN">KCL05226</eadid>
 		<filedesc>
 			<titlestmt>
 				<titleproper>Guide to the National Council On Household Employment Records<date> 1895-1951</date></titleproper>
@@ -21,16 +21,22 @@
 		<profiledesc>
 			<creation>Finding aid encoded by KIDB, Ead McTaggart, and Randall Miles, <date>February 21, 2017</date></creation>
 		</profiledesc>
-	</eadheader>
+	<revisiondesc>
+<change>
+  <date calendar="gregorian" era="ce" normal="20231219">12/19/2023</date>
+  <item>This resource was modified by the ArchivesSpace Preprocessor developed by the Harvard Library (https://github.com/harvard-library/archivesspace-preprocessor)</item>
+</change>
+
+</revisiondesc></eadheader>
 	<frontmatter>
 		<titlepage>
-			<titleproper>Guide to the National Council On Household Employment Records<lb/></titleproper>
+			<titleproper>Guide to the National Council On Household Employment Records</titleproper>
 			<num>Collection Number: 5226</num>
 			<publisher>Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </publisher>
 			<list type="deflist">
 				<defitem>
 					<label>Contact Information:</label>
-					<item>Kheel Center for Labor-Management Documentation and Archives<lb/> Martin P. Catherwood Library<lb/> 227 Ives Hall<lb/> Cornell University<lb/> Ithaca, NY 14853<lb/> (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref><lb/>
+					<item>Kheel Center for Labor-Management Documentation and Archives Martin P. Catherwood Library 227 Ives Hall Cornell University Ithaca, NY 14853 (607) 255-3183&gt; <extref href="mailto:kheel_center@cornell.edu">kheel_center@cornell.edu</extref>
 						<extref href="http://www.ilr.cornell.edu/library/kheel-center">http://www.ilr.cornell.edu/library/kheel-center</extref>
 					</item>
 				</defitem>
@@ -48,15 +54,15 @@
 	</frontmatter>
 	<archdesc level="collection">
 		<did>
-			<head id="a1">DESCRIPTIVE SUMMARY</head>
-			<unittitle label="Title:" encodinganalog="MARC 245$a">National Council On Household Employment Records, <unitdate encodinganalog="MARC 245$f">1895-1951</unitdate>
-			</unittitle>
+			
+			<unittitle encodinganalog="MARC 245$a" label="Title:">National Council On Household Employment Records, 1895-1951
+			</unittitle><unitdate encodinganalog="MARC 245$f">1895-1951</unitdate>
 			<unitid label="Collection Number:">5226</unitid>
 			<origination label="Creator:">
-				<corpname encodinganalog="MARC 110" role="creator">National Council On Household Employment</corpname>;<lb/>
+				<corpname encodinganalog="MARC 110" role="creator">National Council On Household Employment</corpname>;
 				<persname encodinganalog="MARC 100" role="creator"> Watson, Amey E.</persname>
 			</origination>
-			<physdesc label="Quantity:" encodinganalog="MARC 300">6 linear ft.</physdesc>
+			<physdesc encodinganalog="MARC 300" label="Quantity:">6 linear ft.</physdesc>
 			<physdesc label="Forms of Material:">Bibliographies, photographic prints, scripts (documents) .</physdesc>
 			<repository label="Repository:">Kheel Center for Labor-Management Documentation and Archives, Cornell University Library </repository>
 			<abstract label="Abstract:">Include materials of the National Committee on Employer- Employee Relationships in the Home, and the National Council on Household Employment (1928-1941); correspondence (carbons and originals) (1928-1941); and
@@ -65,7 +71,7 @@
 			</langmaterial>
 		<physdesc><extent>6 cubic feet</extent></physdesc></did>
 		<bioghist encodinganalog="MARC 545">
-			<head id="a5" altrender="organizational history">ORGANIZATIONAL HISTORY </head>
+			
 			<p>The National Committee on Employer-Employee Relationships at Home, (called the National Council on Household Employment from 1931 until its disbandment) functioned to coordinate educational and research activities of groups interested in this
 				field. </p>
 			<p>The Committee was created in October, 1928 by a national conference on the subject of household employment held in Washington, D.C. at the invitation of the Bureau of Home Economics, the Women's Bureau of the U.S. Department of Labor, and the
@@ -75,7 +81,7 @@
 				was then engaged in a study of household employment. Watson served as director of the Committee until the summer of 1930 and was a member during most of its existence. The organization continued to function until 1942.</p>
 		</bioghist>
 		<scopecontent encodinganalog="MARC 520">
-			<head id="a3">COLLECTION DESCRIPTION</head>
+			
 			<p>Administrative records of the National Council On Household Employment consist of minutes (1934-1942); financial records (1935-1939); membership files (1935-1939); legal documents, including model legal documents drafted by the Committee; and
 				promotional literature about the group. </p>
 			<p>General correspondence (carbons and originals, 1928-1942) is chiefly of Lucy P. Carner (chairman of the Committee, executive, Industrial Department of the National Board, Y.W.C.A.); Mary Anderson (director, Women's Bureau, U.S. Department of
@@ -95,9 +101,9 @@
 			<p>Publications (1908-1941, bulk 1935-1941) in these papers include excerpts, reprints, clippings, and writings in typescript on a wide variety of germane topics including race relations in domestic service.</p>
 		</scopecontent>
 		<controlaccess>
-			<head id="a8">SUBJECTS</head>
+			
 			<controlaccess>
-				<head>Names: </head>
+				
 				<persname encodinganalog="MARC 600">Anderson, Mary, 1872-1964. </persname>
 				<persname encodinganalog="MARC 600">Andrews, Benjamin R. (Benjamin Richard), 1877- </persname>
 				<persname encodinganalog="MARC 600">Burdick, Anna Laylor </persname>
@@ -130,7 +136,7 @@
 				<corpname encodinganalog="MARC 610">Young Women's Christian Association of the U.S.A. </corpname>
 			</controlaccess>
 			<controlaccess>
-				<head>Subjects: </head>
+				
 				<subject encodinganalog="MARC 650">African Americans -- Employment. </subject>
 				<subject encodinganalog="MARC 650">Household employees. </subject>
 				<subject encodinganalog="MARC 650">Household employees-- Labor contracts. </subject>
@@ -152,56 +158,56 @@
 				</controlaccess>
 		</controlaccess>
 		<descgrp>
-			<head id="a10">INFORMATION FOR USERS</head>
+			
 			<accessrestrict>
-				<head>Access Restrictions:</head>
+				
 				<p>Access to the collections in the Kheel Center is restricted. Please contact a reference archivist for access to these materials.</p>
 			</accessrestrict>
 			<userestrict>
-				<head>Restrictions on Use:</head>
+				
 				<p>This collection must be used in keeping with the Kheel Center Information Sheet and Procedures for Document Use.</p>
 			</userestrict>
 			<prefercite>
-				<head>Cite As:</head>
+				
 				<p>National Council On Household Employment Records #5226. Kheel Center for Labor-Management Documentation and Archives, Cornell University Library.</p>
 			</prefercite>
 		</descgrp>
 		<arrangement>
-			<head>SERIES LIST</head>
+			
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link8" show="replace" actuate="onrequest">Series I. National Council on Household Employment</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link8">Series I. National Council on Household Employment</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link29" show="replace" actuate="onrequest">Series II. General Correspondence</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link29">Series II. General Correspondence</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link52" show="replace" actuate="onrequest">Series III. Conference(s) - on employee-employer relationshiops in the home, 1928 and 1931 (and others)</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link52">Series III. Conference(s) - on employee-employer relationshiops in the home, 1928 and 1931 (and others)</ref></emph>
 			</p>
 			<p>
-				<ref linktype="simple" target="link53" show="replace" actuate="onrequest">Sub-Series A. Correspondence</ref>
-				<lb/>
-				<ref linktype="simple" target="link70" show="replace" actuate="onrequest">Sub-Series B. Conference Documents</ref>
+				<ref actuate="onrequest" linktype="simple" show="replace" target="link53">Sub-Series A. Correspondence</ref>
+				
+				<ref actuate="onrequest" linktype="simple" show="replace" target="link70">Sub-Series B. Conference Documents</ref>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link102" show="replace" actuate="onrequest">Series IV. Subject Files</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link102">Series IV. Subject Files</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link197" show="replace" actuate="onrequest">Series V. Publications and Miscellaneous Manuscripts</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link197">Series V. Publications and Miscellaneous Manuscripts</ref></emph>
 			</p>
 			<p>
-				<emph render="bold"><ref linktype="simple" target="link417" show="replace" actuate="onrequest">Series VI. MISCELLANEOUS MANUSCRIPTS</ref></emph>
+				<emph render="bold"><ref actuate="onrequest" linktype="simple" show="replace" target="link417">Series VI. MISCELLANEOUS MANUSCRIPTS</ref></emph>
 			</p>
 		</arrangement>
 		<dsc type="in-depth">
-			<head>CONTAINER LIST</head>
+			
 			<c01 level="series">
 				<did>
 					<unittitle id="link8">Series I. National Council on Household Employment</unittitle>
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link9">Constitution and By-Laws</unittitle>
 					</did>
 					<scopecontent>
@@ -210,103 +216,103 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link10">Minutes</unittitle>
-						<unitdate type="inclusive" normal="1934/1939">1934-1939</unitdate>
+						<unitdate normal="1934/1939" type="inclusive">1934-1939</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link11">Minutes of Meetings</unittitle>
-						<unitdate type="inclusive" normal="1939/1942">1939-1942</unitdate>
+						<unitdate normal="1939/1942" type="inclusive">1939-1942</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link12">Bulletins</unittitle>
-						<unitdate type="inclusive" normal="1932/1941">1932-1941</unitdate>
+						<unitdate normal="1932/1941" type="inclusive">1932-1941</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link13">Bulletins - Rough drafts, notes, correspondence</unittitle>
-						<unitdate type="inclusive" normal="1934/1940">1934-1940</unitdate>
+						<unitdate normal="1934/1940" type="inclusive">1934-1940</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link14">Certification of Incorporation</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link15">Chicago, Ill. - Affiliate</unittitle>
-						<unitdate type="inclusive" normal="1929/1934">1929-1934</unitdate>
+						<unitdate normal="1929/1934" type="inclusive">1929-1934</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link16">Clippings</unittitle>
-						<unitdate type="inclusive" normal="1910/1942">1910-1942</unitdate>
+						<unitdate normal="1910/1942" type="inclusive">1910-1942</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link17">Financial Records/Correspondence</unittitle>
-						<unitdate type="inclusive" normal="1935/1939">1935-1939</unitdate>
+						<unitdate normal="1935/1939" type="inclusive">1935-1939</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link18">Forum on household employment</unittitle>
 						<unitdate normal="1942">1942</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">11-12</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">11-12</container>
 						<unittitle id="link19">Membership files</unittitle>
-						<unitdate type="inclusive" normal="1934/1939">1934-1939</unitdate>
+						<unitdate normal="1934/1939" type="inclusive">1934-1939</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link20">Miscellaneous</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link21">New Haven, Conn. Council</unittitle>
-						<unitdate type="inclusive" normal="1940/1942">1940-1942</unitdate>
+						<unitdate normal="1940/1942" type="inclusive">1940-1942</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link22">Programs</unittitle>
 					</did>
 					<scopecontent>
@@ -315,44 +321,44 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link23">Promotional literature </unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link24">Proposals for a Voluntary Agreement in Household Employment</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link25">Questionnaires - Instructions</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link26">Recommendations in regard to the reorganization of the </unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link27">Relationship with Bryn Mawr College</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link28">Research Project</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
@@ -364,8 +370,8 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link30">Correspondence</unittitle>
 						<unitdate normal="1927">1927</unitdate>
 					</did>
@@ -375,10 +381,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link31">Correspondence</unittitle>
-						<unitdate type="inclusive" normal="1930/1932">1930-1932</unitdate>
+						<unitdate normal="1930/1932" type="inclusive">1930-1932</unitdate>
 					</did>
 					<scopecontent>
 						<p>Between Amey Watson &amp; Encyclopedia of Social Sciences re article by Watson - includes draft of article on domestic service; to Emma Gunther (Columbia University) from Mary Anderson, (Dir., U.S. Women`s Bureau) re copy of a
@@ -387,8 +393,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link32">Correspondence</unittitle>
 						<unitdate normal="1933">1933</unitdate>
 					</did>
@@ -401,8 +407,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link33">Correspondence</unittitle>
 						<unitdate normal="1934">1934</unitdate>
 					</did>
@@ -415,8 +421,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link34">Correspondence</unittitle>
 						<unitdate normal="1934">1934</unitdate>
 					</did>
@@ -429,8 +435,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link35">Correspondence</unittitle>
 						<unitdate normal="1935">1935</unitdate>
 					</did>
@@ -443,8 +449,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle id="link36">Correspondence</unittitle>
 						<unitdate normal="1935">1935</unitdate>
 					</did>
@@ -456,8 +462,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">29</container>
 						<unittitle id="link37">Correspondence</unittitle>
 						<unitdate normal="1935">1935</unitdate>
 					</did>
@@ -467,8 +473,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">30</container>
 						<unittitle id="link38">Correspondence</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 					</did>
@@ -479,8 +485,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">31</container>
 						<unittitle id="link39">Correspondence</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
@@ -492,8 +498,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">32</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">32</container>
 						<unittitle id="link40">Correspondence</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
@@ -504,8 +510,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">33</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">33</container>
 						<unittitle id="link41">Correspondence</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
@@ -515,10 +521,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">34</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">34</container>
 						<unittitle id="link42">Routine re publication requests, etc.</unittitle>
-						<unitdate type="inclusive" normal="1937/1939">1937-1939</unitdate>
+						<unitdate normal="1937/1939" type="inclusive">1937-1939</unitdate>
 					</did>
 					<scopecontent>
 						<p>October-December</p>
@@ -526,8 +532,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">35</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">35</container>
 						<unittitle id="link43">Routine correspondence of Dorothy P. Wells, Chairman, National Board, YWCA</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -537,8 +543,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">36</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">36</container>
 						<unittitle id="link44">Correspondence</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -549,8 +555,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">37</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">37</container>
 						<unittitle id="link45">Correspondence</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -561,8 +567,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">38</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">38</container>
 						<unittitle id="link46">Correspondence</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -573,8 +579,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">39</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">39</container>
 						<unittitle id="link47">Routine Correspondence</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -584,8 +590,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">40</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">40</container>
 						<unittitle id="link48">Correspondence</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -596,8 +602,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">41</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">41</container>
 						<unittitle id="link49">Correspondence</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -607,8 +613,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">42</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">42</container>
 						<unittitle id="link50">Correspondence</unittitle>
 						<unitdate normal="1942">1942</unitdate>
 					</did>
@@ -618,10 +624,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">1</container>
-						<container type="folder">43</container>
+						<container label="unspecified" type="box">1</container>
+						<container label="unspecified" type="folder">43</container>
 						<unittitle id="link51">Correspondence</unittitle>
-						<unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate>
+						<unitdate normal="1942/1943" type="inclusive">1942-1943</unitdate>
 					</did>
 					<scopecontent>
 						<p>Responses to B.R. Andrews request for information re household employees including workmen's compensation laws in various states; Summary of Discussion on Household Employment in War-Time, Philadelphia, 4/30/42; &amp; routine;
@@ -639,8 +645,8 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">1-5</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">1-5</container>
 							<unittitle id="link54">Correspondence</unittitle>
 							<unitdate normal="1928">1928</unitdate>
 						</did>
@@ -652,8 +658,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">6-8</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">6-8</container>
 							<unittitle id="link55">Correspondence</unittitle>
 							<unitdate normal="1928">1928</unitdate>
 						</did>
@@ -663,8 +669,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">9</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">9</container>
 							<unittitle id="link56">Undated Correspondence</unittitle>
 						</did>
 						<scopecontent>
@@ -673,8 +679,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">10-11</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">10-11</container>
 							<unittitle id="link57">Correspondence</unittitle>
 							<unitdate normal="1929">1929</unitdate>
 						</did>
@@ -685,8 +691,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">12</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">12</container>
 							<unittitle id="link58">Correspondence</unittitle>
 							<unitdate normal="1930">1930</unitdate>
 						</did>
@@ -697,8 +703,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">13</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">13</container>
 							<unittitle id="link59">Correspondence</unittitle>
 							<unitdate normal="1930">1930</unitdate>
 						</did>
@@ -709,8 +715,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">14</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">14</container>
 							<unittitle id="link60">Correspondence</unittitle>
 							<unitdate normal="1930">1930</unitdate>
 						</did>
@@ -721,8 +727,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">15</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">15</container>
 							<unittitle id="link61">Correspondence</unittitle>
 							<unitdate normal="1931">1931</unitdate>
 						</did>
@@ -733,8 +739,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">16</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">16</container>
 							<unittitle id="link62">Correspondence</unittitle>
 							<unitdate normal="1931">1931</unitdate>
 						</did>
@@ -744,8 +750,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">17</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">17</container>
 							<unittitle id="link63">Correspondence</unittitle>
 							<unitdate normal="1931">1931</unitdate>
 						</did>
@@ -755,8 +761,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">18</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">18</container>
 							<unittitle id="link64">Correspondence</unittitle>
 							<unitdate normal="1931">1931</unitdate>
 						</did>
@@ -766,8 +772,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">19</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">19</container>
 							<unittitle id="link65">Correspondence</unittitle>
 							<unitdate normal="1931">1931</unitdate>
 						</did>
@@ -777,8 +783,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">20</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">20</container>
 							<unittitle id="link66">Correspondence</unittitle>
 							<unitdate normal="1931">1931</unitdate>
 						</did>
@@ -789,8 +795,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">21</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">21</container>
 							<unittitle id="link67">Correspondence</unittitle>
 							<unitdate normal="1931">1931</unitdate>
 						</did>
@@ -800,8 +806,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">22</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">22</container>
 							<unittitle id="link68">Correspondence</unittitle>
 							<unitdate normal="1931">1931</unitdate>
 						</did>
@@ -812,10 +818,10 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">23</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">23</container>
 							<unittitle id="link69">Correspondence</unittitle>
-							<unitdate type="inclusive" normal="1932/1934">1932-1934</unitdate>
+							<unitdate normal="1932/1934" type="inclusive">1932-1934</unitdate>
 						</did>
 						<scopecontent>
 							<p>Correspondence between Watson, Carner &amp; Andrews re publishing the material of the National Committee; &amp; misc.</p>
@@ -828,8 +834,8 @@
 					</did>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">24</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">24</container>
 							<unittitle id="link71">Biography - re household employment</unittitle>
 						</did>
 						<scopecontent>
@@ -838,8 +844,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">25</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">25</container>
 							<unittitle id="link72">Bulletin - Household Employment Bulletin</unittitle>
 							<unitdate normal="1933">1933</unitdate>
 						</did>
@@ -849,8 +855,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">26</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">26</container>
 							<unittitle id="link73">"The Conference of the National Committee on Employer-Employee Relationships in the Home - And What Led Up To It," </unittitle>
 							<unitdate normal="1931">1931</unitdate>
 						</did>
@@ -860,10 +866,10 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">27</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">27</container>
 							<unittitle id="link74">"Conferences on Household Employment, Under the Auspices of - National Committee on Employer-Employee Relationships in the Home, 1928-3l," </unittitle>
-							<unitdate type="inclusive" normal="1928/1931">1928-1931</unitdate>
+							<unitdate normal="1928/1931" type="inclusive">1928-1931</unitdate>
 						</did>
 						<scopecontent>
 							<p>23 pp (draft copies)</p>
@@ -871,8 +877,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">28-29</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">28-29</container>
 							<unittitle id="link75">Conference Minutes</unittitle>
 							<unitdate normal="1928">1928</unitdate>
 						</did>
@@ -882,8 +888,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">30</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">30</container>
 							<unittitle id="link76">Executive Committee </unittitle>
 							<unitdate normal="1934">1934</unitdate>
 						</did>
@@ -893,8 +899,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">31</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">31</container>
 							<unittitle id="link77">Financial </unittitle>
 							<unitdate normal="1931">1931</unitdate>
 						</did>
@@ -904,8 +910,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">32</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">32</container>
 							<unittitle id="link78">History</unittitle>
 							<unitdate normal="1928">1928</unitdate>
 						</did>
@@ -915,42 +921,42 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">33</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">33</container>
 							<unittitle id="link79">Invitations, acceptances, etc. Includes lists, correspondence, etc. </unittitle>
 							<unitdate normal="1931">1931</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">34</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">34</container>
 							<unittitle id="link80">Lists of those attending and not attending</unittitle>
 							<unitdate normal="1928">1928</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">35</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">35</container>
 							<unittitle id="link81">Lists of organizations &amp; individuals interested in receiving findings of National Conference</unittitle>
 							<unitdate normal="1931">1931</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">36</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">36</container>
 							<unittitle id="link82">Members of the National Committee</unittitle>
 							<unitdate normal="1928">1928</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">37</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">37</container>
 							<unittitle id="link83">Minutes of meetings </unittitle>
-							<unitdate type="inclusive" normal="1928/1931">1928-1931</unitdate>
+							<unitdate normal="1928/1931" type="inclusive">1928-1931</unitdate>
 						</did>
 						<scopecontent>
 							<p>Minutes of the National Committee on Employer-Employee Relationships in the Home. Includes agendas, minutes, &amp; notes of meetings</p>
@@ -958,8 +964,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">38</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">38</container>
 							<unittitle id="link84">Miscellaneous</unittitle>
 						</did>
 						<scopecontent>
@@ -968,8 +974,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">39</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">39</container>
 							<unittitle id="link85">Miscellaneous "not used" material </unittitle>
 							<unitdate normal="1931">1931</unitdate>
 						</did>
@@ -979,8 +985,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">40</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">40</container>
 							<unittitle id="link86">National Committee - Functions</unittitle>
 							<unitdate normal="1928">1928</unitdate>
 						</did>
@@ -990,10 +996,10 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">41</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">41</container>
 							<unittitle id="link87">National Committee - Misc</unittitle>
-							<unitdate type="inclusive" normal="1928/1931">1928-1931</unitdate>
+							<unitdate normal="1928/1931" type="inclusive">1928-1931</unitdate>
 						</did>
 						<scopecontent>
 							<p>4 pp. summary &amp; information re the National Committee &amp; misc</p>
@@ -1001,8 +1007,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">42</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">42</container>
 							<unittitle id="link88">Problems/suggestions submitted to l928 Conference</unittitle>
 							<unitdate normal="1928">1928</unitdate>
 						</did>
@@ -1012,10 +1018,10 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">43</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">43</container>
 							<unittitle id="link89">Programs</unittitle>
-							<unitdate type="inclusive" normal="1928/1931">1928-1931</unitdate>
+							<unitdate normal="1928/1931" type="inclusive">1928-1931</unitdate>
 						</did>
 						<scopecontent>
 							<p>Includes programs, drafts of programs, tentative programs of the Conferences</p>
@@ -1023,10 +1029,10 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">44</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">44</container>
 							<unittitle id="link90">Publicity</unittitle>
-							<unitdate type="inclusive" normal="1928/1931">1928-1931</unitdate>
+							<unitdate normal="1928/1931" type="inclusive">1928-1931</unitdate>
 						</did>
 						<scopecontent>
 							<p>Clippings, correspondence re articles, mss. by Eva Von Baur Hansl, "Domesticity Dignified" &amp; misc</p>
@@ -1034,8 +1040,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">45</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">45</container>
 							<unittitle id="link91">Questionnaires</unittitle>
 						</did>
 						<scopecontent>
@@ -1044,8 +1050,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">46</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">46</container>
 							<unittitle id="link92">Release</unittitle>
 							<unitdate normal="1928">1928</unitdate>
 						</did>
@@ -1055,10 +1061,10 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">47</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">47</container>
 							<unittitle id="link93">Reports</unittitle>
-							<unitdate type="inclusive" normal="1928/1931">1928-1931</unitdate>
+							<unitdate normal="1928/1931" type="inclusive">1928-1931</unitdate>
 						</did>
 						<scopecontent>
 							<p>Includes 5 p. report by Amey Watson entitled, "Progress &amp; Problems in the Field Employer-Employee Relationships in the Home", &amp; other misc. reports</p>
@@ -1066,10 +1072,10 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">48</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">48</container>
 							<unittitle id="link94">Reports of the Findings Committee</unittitle>
-							<unitdate type="inclusive" normal="1928/1931">1928-1931</unitdate>
+							<unitdate normal="1928/1931" type="inclusive">1928-1931</unitdate>
 						</did>
 						<scopecontent>
 							<p>Includes reports of the Committee for both l928 &amp; l93l Conferences</p>
@@ -1077,8 +1083,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">49</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">49</container>
 							<unittitle id="link95">Standards</unittitle>
 							<unitdate normal="1931">1931</unitdate>
 						</did>
@@ -1088,8 +1094,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">50</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">50</container>
 							<unittitle id="link96">Summary - Conference - Watson</unittitle>
 							<unitdate normal="1928">1928</unitdate>
 						</did>
@@ -1099,8 +1105,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">51</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">51</container>
 							<unittitle id="link97">Summary - Conference</unittitle>
 							<unitdate normal="1931">1931</unitdate>
 						</did>
@@ -1110,16 +1116,16 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">52</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">52</container>
 							<unittitle id="link98">Summary of Problems Submitted For Conference</unittitle>
 							<unitdate normal="1928">1928</unitdate>
 						</did>
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">53</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">53</container>
 							<unittitle id="link99">Summary of Work of Organizations</unittitle>
 							<unitdate normal="1928">1928</unitdate>
 						</did>
@@ -1129,8 +1135,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">54</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">54</container>
 							<unittitle id="link100">"Other Conferences"</unittitle>
 							<unitdate normal="1933">1933</unitdate>
 						</did>
@@ -1140,8 +1146,8 @@
 					</c03>
 					<c03 level="file">
 						<did>
-							<container type="box">2</container>
-							<container type="folder">55-56</container>
+							<container label="unspecified" type="box">2</container>
+							<container label="unspecified" type="folder">55-56</container>
 							<unittitle id="link101">"Other Conferences"</unittitle>
 							<unitdate normal="1937">1937</unitdate>
 						</did>
@@ -1157,102 +1163,102 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link103">Apprenticeship - Household Employment - Mss. Notes</unittitle>
-						<unitdate type="inclusive" normal="1917/1921">1917-1921</unitdate>
+						<unitdate normal="1917/1921" type="inclusive">1917-1921</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link104">Bibliographies on Household Employment </unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link105">Britain Labor Party</unittitle>
 						<unitdate normal="1932">1932</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link106">California - Applications for Employment</unittitle>
-						<unitdate type="inclusive" normal="1931/1932">1931-1932</unitdate>
+						<unitdate normal="1931/1932" type="inclusive">1931-1932</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link107">California - Assembly Bill 794 - Hours of Work/Household Employees </unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link108">California - Division of Labor Statistics</unittitle>
-						<unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
+						<unitdate normal="1940/1941" type="inclusive">1940-1941</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link109">California - General</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link110">California, Los Angeles - Frank Wiggins Trade School</unittitle>
-						<unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
+						<unitdate normal="1940/1941" type="inclusive">1940-1941</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link111">California, Los Angeles </unittitle>
-						<unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
+						<unitdate normal="1940/1941" type="inclusive">1940-1941</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link112">California, Los Angeles - Training Course in Household Employment </unittitle>
 						<unitdate normal="1942">1942</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link113">California, San Diego</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link114">California, San Francisco</unittitle>
-						<unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
+						<unitdate normal="1940/1941" type="inclusive">1940-1941</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link115">California, Standards</unittitle>
 					</did>
 					<scopecontent>
@@ -1261,8 +1267,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link116">Canada. Home Service Training Schools</unittitle>
 					</did>
 					<scopecontent>
@@ -1271,16 +1277,16 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link117">Canada, Ontario Dept. of Labor </unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link118">Canada, Toronto - YWCA Notes</unittitle>
 						<unitdate normal="1934">1934</unitdate>
 					</did>
@@ -1290,8 +1296,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link119">Census Data - Household Employment</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
@@ -1301,8 +1307,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link120">Code of Ethics for Household Employees</unittitle>
 					</did>
 					<scopecontent>
@@ -1311,16 +1317,16 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link121">Colorado, Denver - Emily Griffith Opportunity School</unittitle>
-						<unitdate type="inclusive" normal="1935/1938">1935-1938</unitdate>
+						<unitdate normal="1935/1938" type="inclusive">1935-1938</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link122">Committee on Street Corner Markets for Household Workers in New York City </unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -1330,16 +1336,16 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link123">Committee on Supervised Homemaker - Housekeeper Service, National Conference on Social Work</unittitle>
-						<unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate>
+						<unitdate normal="1939/1940" type="inclusive">1939-1940</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link124">Community Councils on Household Employment</unittitle>
 					</did>
 					<scopecontent>
@@ -1348,8 +1354,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link125">Contracts </unittitle>
 					</did>
 					<scopecontent>
@@ -1358,24 +1364,24 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link126">Cost of Living Surveys</unittitle>
-						<unitdate type="inclusive" normal="1937/1938">1937-1938</unitdate>
+						<unitdate normal="1937/1938" type="inclusive">1937-1938</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link127">Denmark</unittitle>
-						<unitdate type="inclusive" normal="1906/1931">1906-1931</unitdate>
+						<unitdate normal="1906/1931" type="inclusive">1906-1931</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link128">Detroit</unittitle>
 					</did>
 					<scopecontent>
@@ -1384,72 +1390,72 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link129">Domestic Placement - Study, tests, etc. </unittitle>
-						<unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate>
+						<unitdate normal="1933/1934" type="inclusive">1933-1934</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle id="link130">Domestic Workers Association,</unittitle>
-						<unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
+						<unitdate normal="1940/1941" type="inclusive">1940-1941</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">29</container>
 						<unittitle id="link131">Domestic Workers - Germany</unittitle>
 						<unitdate normal="1934">1934</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">30</container>
 						<unittitle id="link132">Domestic Workers - Miscellaneous</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">31</container>
 						<unittitle id="link133">Domestic Workers - Photographs</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">32</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">32</container>
 						<unittitle id="link134">Domestic Workers - Social Insurance Research Project</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">33</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">33</container>
 						<unittitle id="link135">Domestic Workers Union - Organizing Literature</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">34</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">34</container>
 						<unittitle id="link136">Georgia (Atlanta) Community Employment Service Training School, Outline</unittitle>
-						<unitdate type="inclusive" normal="1930/1935">1930-1935</unitdate>
+						<unitdate normal="1930/1935" type="inclusive">1930-1935</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">35</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">35</container>
 						<unittitle id="link137">Home Economics Depts. (State and Local)</unittitle>
-						<unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate>
+						<unitdate normal="1934/1935" type="inclusive">1934-1935</unitdate>
 					</did>
 					<scopecontent>
 						<p>Requests for material on household employment</p>
@@ -1457,24 +1463,24 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">36</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">36</container>
 						<unittitle id="link138">Household Accidents - Student papers</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">37</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">37</container>
 						<unittitle id="link139">Household Employees, Attempts at Unionization</unittitle>
-						<unitdate type="inclusive" normal="1942/1943">1942-1943</unitdate>
+						<unitdate normal="1942/1943" type="inclusive">1942-1943</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">38</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">38</container>
 						<unittitle id="link140">Household Employers' Council - First Household Employment Institute, Detroit</unittitle>
 					</did>
 					<scopecontent>
@@ -1483,8 +1489,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">39</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">39</container>
 						<unittitle id="link141">Household Employment - Application for test, handwritten notes, etc.</unittitle>
 					</did>
 					<scopecontent>
@@ -1493,8 +1499,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">40</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">40</container>
 						<unittitle id="link142">Household Employment - Employer questionnaire</unittitle>
 					</did>
 					<scopecontent>
@@ -1503,15 +1509,15 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">41</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">41</container>
 						<unittitle id="link143">Household Employment - High School Students</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">42</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">42</container>
 						<unittitle id="link144">Household Employment - Household Employee Committee (St. Paul, Minneapolis)</unittitle>
 					</did>
 					<scopecontent>
@@ -1520,25 +1526,25 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">43</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">43</container>
 						<unittitle id="link145">Household Employment Institute (Colombia University)</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">44</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">44</container>
 						<unittitle id="link146">Household Employment Legislation</unittitle>
-						<unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate>
+						<unitdate normal="1939/1940" type="inclusive">1939-1940</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">45-47</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">45-47</container>
 						<unittitle id="link147">Household Employment</unittitle>
-						<unitdate type="inclusive" normal="1933/1934">1933-1934</unitdate>
+						<unitdate normal="1933/1934" type="inclusive">1933-1934</unitdate>
 					</did>
 					<scopecontent>
 						<p>Mss. and typescript tests designed to test potential confidence of servants</p>
@@ -1546,23 +1552,23 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">48</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">48</container>
 						<unittitle id="link148">Household Employment - Notes on a course </unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">49</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">49</container>
 						<unittitle id="link149">Household Employment - Pennsylvania </unittitle>
-						<unitdate type="inclusive" normal="1933/1939">1933-1939</unitdate>
+						<unitdate normal="1933/1939" type="inclusive">1933-1939</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">50</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">50</container>
 						<unittitle id="link150">Household Employment - Personnel problems</unittitle>
 					</did>
 					<scopecontent>
@@ -1571,8 +1577,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">51</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">51</container>
 						<unittitle id="link151">Household Employment Play</unittitle>
 					</did>
 					<scopecontent>
@@ -1581,8 +1587,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">52</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">52</container>
 						<unittitle id="link152">Household Employment Play </unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -1592,8 +1598,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">53</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">53</container>
 						<unittitle id="link153">Household Employment Play </unittitle>
 					</did>
 					<scopecontent>
@@ -1602,10 +1608,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">54</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">54</container>
 						<unittitle id="link154">Household Employment </unittitle>
-						<unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate>
+						<unitdate normal="1934/1935" type="inclusive">1934-1935</unitdate>
 					</did>
 					<scopecontent>
 						<p>Requests for Material from Emergency Relief Administration (State and Local)</p>
@@ -1613,52 +1619,52 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">55</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">55</container>
 						<unittitle id="link155">Household Employment - St. Louis</unittitle>
 						<unitdate normal="1935">1935</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">56</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">56</container>
 						<unittitle id="link156">Household Employment Symposium Program</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">57</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">57</container>
 						<unittitle id="link157">Household Employment Tests, Questionnaires, etc.</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">58</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">58</container>
 						<unittitle id="link158">Household Employment Training</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">59</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">59</container>
 						<unittitle id="link159">Household Employment Training Course</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">60</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">60</container>
 						<unittitle id="link160">Household Employment Training Project</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">61</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">61</container>
 						<unittitle id="link161">Household Employment - Washington State</unittitle>
 					</did>
 					<scopecontent>
@@ -1667,24 +1673,24 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">62</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">62</container>
 						<unittitle id="link162">Household Employment - Wisconsin</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">63</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">63</container>
 						<unittitle id="link163">Household Time Record</unittitle>
 						<unitdate normal="1924">1924</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">64</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">64</container>
 						<unittitle id="link164">Household Training</unittitle>
 					</did>
 					<scopecontent>
@@ -1693,16 +1699,16 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">65</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">65</container>
 						<unittitle id="link165">Household Workers Training Project</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">66</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">66</container>
 						<unittitle id="link166">Institute on Labor Relationships Within the Home</unittitle>
 					</did>
 					<scopecontent>
@@ -1711,16 +1717,16 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">67</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">67</container>
 						<unittitle id="link167">National Youth Administration</unittitle>
-						<unitdate type="inclusive" normal="1941/1951">1941-1951</unitdate>
+						<unitdate normal="1941/1951" type="inclusive">1941-1951</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">68</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">68</container>
 						<unittitle id="link168">New York Household Placement Association</unittitle>
 					</did>
 					<scopecontent>
@@ -1729,8 +1735,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">69</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">69</container>
 						<unittitle id="link169">New York Roslyn High School - Household Training in Domestic Service</unittitle>
 					</did>
 					<scopecontent>
@@ -1739,24 +1745,24 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">70</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">70</container>
 						<unittitle id="link170">New York State - Household Employment</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">71</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">71</container>
 						<unittitle id="link171">Oklahoma - Household Employment </unittitle>
-						<unitdate type="inclusive" normal="1940/1942">1940-1942</unitdate>
+						<unitdate normal="1940/1942" type="inclusive">1940-1942</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">72</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">72</container>
 						<unittitle id="link172">Pennsylvania - Medical Society Health Examination form</unittitle>
 					</did>
 					<scopecontent>
@@ -1765,8 +1771,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">73</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">73</container>
 						<unittitle id="link173">Pennsylvania (Philadelphia) Central Committee on Household Occupations</unittitle>
 					</did>
 					<scopecontent>
@@ -1775,8 +1781,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">74</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">74</container>
 						<unittitle id="link174">Pennsylvania (Philadelphia) Council on Household Occupations</unittitle>
 						<unitdate normal="1931">1931</unitdate>
 					</did>
@@ -1786,16 +1792,16 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">75</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">75</container>
 						<unittitle id="link175">Pennsylvania (Philadelphia) Institute on Household Occupations</unittitle>
-						<unitdate type="inclusive" normal="1937/1941">1937-1941</unitdate>
+						<unitdate normal="1937/1941" type="inclusive">1937-1941</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">76</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">76</container>
 						<unittitle id="link176">Pennsylvania (Philadelphia) YMCA</unittitle>
 						<unitdate normal="1945">1945</unitdate>
 					</did>
@@ -1805,8 +1811,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">77</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">77</container>
 						<unittitle id="link177">Philadelphia Committee on Household Employment</unittitle>
 						<unitdate normal="1929">1929</unitdate>
 					</did>
@@ -1816,8 +1822,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">78</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">78</container>
 						<unittitle id="link178">Pittsburgh Committee on Household Employment</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
@@ -1827,23 +1833,23 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">79</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">79</container>
 						<unittitle id="link179">Puerto Rico - Household Employees </unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">80</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">80</container>
 						<unittitle id="link180">Schedules for Household Employees</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">81</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">81</container>
 						<unittitle id="link181">Servant Problem</unittitle>
 						<unitdate normal="1925">1925</unitdate>
 					</did>
@@ -1853,23 +1859,23 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">82</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">82</container>
 						<unittitle id="link182">Servants</unittitle>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">3</container>
-						<container type="folder">83</container>
+						<container label="unspecified" type="box">3</container>
+						<container label="unspecified" type="folder">83</container>
 						<unittitle id="link183">Unemployment Compensation - Legislation</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link184">WPA Household Demonstration Project </unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -1879,18 +1885,18 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link185">WPA for Pennsylvania. Household Workers Training Project</unittitle>
-						<unitdate type="inclusive" normal="1938/1939">1938-1939</unitdate>
+						<unitdate normal="1938/1939" type="inclusive">1938-1939</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link186">WPA for Pennsylvania. Household Workers Training Project</unittitle>
-						<unitdate type="inclusive" normal="1938/1940">1938-1940</unitdate>
+						<unitdate normal="1938/1940" type="inclusive">1938-1940</unitdate>
 					</did>
 					<scopecontent>
 						<p>reports and forms</p>
@@ -1898,8 +1904,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link187">WPA for Pennsylvania. Household Service Demonstration Project </unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -1909,32 +1915,32 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">5-6</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">5-6</container>
 						<unittitle id="link188">WPA - Household Workers Project</unittitle>
-						<unitdate type="inclusive" normal="1934/1939">1934-1939</unitdate>
+						<unitdate normal="1934/1939" type="inclusive">1934-1939</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link189">World's YWCA - Misc</unittitle>
-						<unitdate type="inclusive" normal="1930/1940">1930-1940</unitdate>
+						<unitdate normal="1930/1940" type="inclusive">1930-1940</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link190">YWCA - Evaluation of Household Employment &amp; sample questionnaires</unittitle>
 						<unitdate normal="1929">1929</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link191">YWCA Hartford. Standards for Household Employment</unittitle>
 					</did>
 					<scopecontent>
@@ -1943,8 +1949,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link192">YWCA Industrial Department </unittitle>
 						<unitdate normal="1933">1933</unitdate>
 					</did>
@@ -1954,16 +1960,16 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link193">YWCA Philadephia, Pennsylvania - Household Institute Project</unittitle>
-						<unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate>
+						<unitdate normal="1936/1937" type="inclusive">1936-1937</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link194">YWCA Public Affairs Committee </unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -1973,16 +1979,16 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link195">YWCA. Trade School (NYC) - School of Household Employment</unittitle>
-						<unitdate type="inclusive" normal="1895/1933">1895-1933</unitdate>
+						<unitdate normal="1895/1933" type="inclusive">1895-1933</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link196">MISCELLANEOUS</unittitle>
 					</did>
 				</c02>
@@ -1993,8 +1999,8 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link198">Alameda County Committee on Household Employment for Girls</unittitle>
 					</did>
 					<scopecontent>
@@ -2003,8 +2009,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link199">All in the Family: A Good Way For Women to Reform Industry Is to Start With The Industry of Home-Making</unittitle>
 						<unitdate normal="1928">1928</unitdate>
 					</did>
@@ -2014,8 +2020,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link200">American Association for Labor Legislation. </unittitle>
 						<unitdate normal="1930">1930</unitdate>
 					</did>
@@ -2025,8 +2031,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link201">Anderson, Mary. "An Occupational Analysis of Household Employment."</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -2036,8 +2042,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link202">"Household Employment." </unittitle>
 					</did>
 					<scopecontent>
@@ -2046,8 +2052,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link203">Social Security for Household Employees</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -2057,8 +2063,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link204">Andrews, Benjamin R. "Household Employment and Community Resources." </unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -2068,8 +2074,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link205">"Household Employment: Its Background and Prospects." </unittitle>
 						<unitdate normal="1931">1931</unitdate>
 					</did>
@@ -2079,8 +2085,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link206">"New York Symposium on Household Employment." </unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -2090,8 +2096,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link207">Bartlett, Helen. Maid Service for the Average Household</unittitle>
 					</did>
 					<scopecontent>
@@ -2100,8 +2106,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link208">Belcher, Elizabeth C. Household Employment</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -2111,8 +2117,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link209">Beuter, Dorothy. The News Reel</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -2122,10 +2128,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link210">Boone, Gladys. Household Employment-Lynchburg Study</unittitle>
-						<unitdate type="inclusive" normal="1936/1937">1936-1937</unitdate>
+						<unitdate normal="1936/1937" type="inclusive">1936-1937</unitdate>
 					</did>
 					<scopecontent>
 						<p>Y.W.C.A., Lynchburg, Virginia. 6 p</p>
@@ -2133,8 +2139,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle id="link211">Brittain, W.M. "Advantages of the Port of Baltimore, U.S.A." </unittitle>
 						<unitdate normal="1924">1924</unitdate>
 					</did>
@@ -2144,8 +2150,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">29</container>
 						<unittitle id="link212">Bromley, Dorothy Dunbar. "Are Servants People? </unittitle>
 					</did>
 					<scopecontent>
@@ -2154,8 +2160,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">30</container>
 						<unittitle id="link213">Brown, Jean. Brief on Household Employment in Relation to Trade Union Organization</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -2165,8 +2171,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">31</container>
 						<unittitle id="link214">Concerns of Household Workers. Program With Household Workers in the Y.M.C.A</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -2176,8 +2182,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">32</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">32</container>
 						<unittitle id="link215">Domestic Workers and Unions</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -2187,8 +2193,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">33</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">33</container>
 						<unittitle id="link216">Household Workers</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -2198,8 +2204,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">34</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">34</container>
 						<unittitle id="link217">"Labor Relationships in the Home."</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -2209,8 +2215,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">35</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">35</container>
 						<unittitle id="link218">The Negro Woman Worker</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -2220,8 +2226,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">36</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">36</container>
 						<unittitle id="link219">S.O.S. for Social Security. A Memorandum Prepared for Household Employee Projects</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -2231,8 +2237,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">37</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">37</container>
 						<unittitle id="link220">"What Are Household Employers Going to Do?" Program Papers for Today and Tomorrow</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -2242,8 +2248,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">38</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">38</container>
 						<unittitle id="link221">"What Our $7 a Week Won't Buy"</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -2253,8 +2259,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">39</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">39</container>
 						<unittitle id="link222">Brown, Julie Craighead. "Mistress and Maid Sit Down Together"</unittitle>
 						<unitdate normal="1942">1942</unitdate>
 					</did>
@@ -2264,8 +2270,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">40</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">40</container>
 						<unittitle id="link223">Bulletin of the Domestic Reform League</unittitle>
 						<unitdate normal="1909">1909</unitdate>
 					</did>
@@ -2275,8 +2281,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">41</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">41</container>
 						<unittitle id="link224">Handbook for Instructors of Part-Time and Evening Trade Extension Classes in Care of the House</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -2286,8 +2292,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">42</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">42</container>
 						<unittitle id="link225">"A Butler's Life Story." </unittitle>
 						<unitdate normal="1910">1910</unitdate>
 					</did>
@@ -2297,8 +2303,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">43</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">43</container>
 						<unittitle id="link226">Byrne, Harriet A. &amp; Cecile Hillyer. Unattached Women on Relief in Chicago, 1937</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -2308,8 +2314,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">44</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">44</container>
 						<unittitle id="link227">Canada-Department of Labour. Training for Household Employment</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -2319,8 +2325,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">45</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">45</container>
 						<unittitle id="link228">Carr, Dolly. "Help Wanted"</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -2330,8 +2336,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">46</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">46</container>
 						<unittitle id="link229">Cheyney, Alice S. "Cinderella and the Law in Europe"</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -2341,8 +2347,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">47</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">47</container>
 						<unittitle id="link230">Chicago Girl</unittitle>
 						<unitdate normal="1930">1930</unitdate>
 					</did>
@@ -2352,8 +2358,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">48</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">48</container>
 						<unittitle id="link231">Cline, Doris A. Report on S.E.R.A. Project 82</unittitle>
 					</did>
 					<scopecontent>
@@ -2362,8 +2368,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">49</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">49</container>
 						<unittitle id="link232">Colwell, Irene. Report on the Community Employment Service Training School for Colored Servants</unittitle>
 						<unitdate normal="1934">1934</unitdate>
 					</did>
@@ -2373,8 +2379,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">50</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">50</container>
 						<unittitle id="link233">Health Tests for Household Workers</unittitle>
 					</did>
 					<scopecontent>
@@ -2383,8 +2389,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">51</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">51</container>
 						<unittitle id="link234">Employer-Employee Co-operation in the Home</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
@@ -2394,8 +2400,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">52</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">52</container>
 						<unittitle id="link235">Suggested Standards for Employment - General House Worker</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -2405,8 +2411,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">53</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">53</container>
 						<unittitle id="link236">Solving the Servant Problem</unittitle>
 					</did>
 					<scopecontent>
@@ -2415,8 +2421,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">54</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">54</container>
 						<unittitle id="link237">Household Employment in Hartford, Waterbury and Litchfield, Connecticut</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 					</did>
@@ -2426,10 +2432,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">55</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">55</container>
 						<unittitle id="link238">Colored Women as Industrial Workers in Philadelphia</unittitle>
-						<unitdate type="inclusive" normal="1919/1920">1919-1920</unitdate>
+						<unitdate normal="1919/1920" type="inclusive">1919-1920</unitdate>
 					</did>
 					<scopecontent>
 						<p>Consumers League of Eastern Pennsylvania. Philadelphia, 47p</p>
@@ -2437,8 +2443,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">56</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">56</container>
 						<unittitle id="link239">Cook, Cara. Help Wanted!</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -2448,8 +2454,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">57</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">57</container>
 						<unittitle id="link240">Cornell, Marie. Standards of Placement Agencies for Household Employees</unittitle>
 						<unitdate normal="1934">1934</unitdate>
 					</did>
@@ -2459,8 +2465,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">58</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">58</container>
 						<unittitle id="link241">Crafts, Mabel E. "Personnel and General Character Traits Important in Service Occupations."</unittitle>
 						<unitdate normal="1934">1934</unitdate>
 					</did>
@@ -2470,8 +2476,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">59</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">59</container>
 						<unittitle id="link242">"Placement Follow-Up of Women." </unittitle>
 						<unitdate normal="1933">1933</unitdate>
 					</did>
@@ -2481,8 +2487,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">60</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">60</container>
 						<unittitle id="link243">Racial Relations in Domestic Service</unittitle>
 						<unitdate normal="1932">1932</unitdate>
 					</did>
@@ -2492,8 +2498,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">61</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">61</container>
 						<unittitle id="link244">Analysis of Cancelled Orders</unittitle>
 						<unitdate normal="1931">1931</unitdate>
 					</did>
@@ -2503,8 +2509,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">62</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">62</container>
 						<unittitle id="link245">Davenport, Winifred A. "Can Women Solve the Servant Problem." </unittitle>
 						<unitdate normal="1931">1931</unitdate>
 					</did>
@@ -2514,8 +2520,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">63</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">63</container>
 						<unittitle id="link246">District of Columbia Works Progress Administration. Household Service Project</unittitle>
 					</did>
 					<scopecontent>
@@ -2524,8 +2530,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">64</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">64</container>
 						<unittitle id="link247">Training for Service</unittitle>
 					</did>
 					<scopecontent>
@@ -2534,8 +2540,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">65</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">65</container>
 						<unittitle id="link248">"Do Servants Need A Code? A Socratic Dialogue." </unittitle>
 						<unitdate normal="1934">1934</unitdate>
 					</did>
@@ -2545,8 +2551,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">66</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">66</container>
 						<unittitle id="link249">Domestic Bureau, Some Suggestions for Employers and Employees</unittitle>
 					</did>
 					<scopecontent>
@@ -2555,8 +2561,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">67</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">67</container>
 						<unittitle id="link250">"Would You Tolerate Domestic Slavery? Is There Such a Thing As Domestic Slavery Today?" </unittitle>
 					</did>
 					<scopecontent>
@@ -2565,10 +2571,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">68</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">68</container>
 						<unittitle id="link251">Domestic Worker's Guild, Hamstead and Area. First Annual Report</unittitle>
-						<unitdate type="inclusive" normal="1932/1933">1932-1933</unitdate>
+						<unitdate normal="1932/1933" type="inclusive">1932-1933</unitdate>
 					</did>
 					<scopecontent>
 						<p>England, 7 p</p>
@@ -2576,8 +2582,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">69</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">69</container>
 						<unittitle id="link252">Dummer,Mrs. W.F. The Responsibility of the Home</unittitle>
 						<unitdate normal="1921">1921</unitdate>
 					</did>
@@ -2587,8 +2593,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">70</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">70</container>
 						<unittitle id="link253">Emery, Ruby Nance. Detailed Unit Plans For A Course in Household Service</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -2598,8 +2604,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">71</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">71</container>
 						<unittitle id="link254">Detailed Unit Plans For A Course in Household Service</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -2609,8 +2615,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">72</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">72</container>
 						<unittitle id="link255">Fisher, Katharine. Training the Homemaker's Helper</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -2620,8 +2626,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">73</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">73</container>
 						<unittitle id="link256">Food Trades Department. Training Program for Household Service</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -2631,8 +2637,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">74</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">74</container>
 						<unittitle id="link257">Training Program for Household Service</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -2642,8 +2648,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">75</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">75</container>
 						<unittitle id="link258">"For the Preservation of the American Home"</unittitle>
 					</did>
 					<scopecontent>
@@ -2652,8 +2658,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">76</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">76</container>
 						<unittitle id="link259">Fox, Grace. "Woman Domestic Workers in Washington, D.C., l940." </unittitle>
 						<unitdate normal="1942">1942</unitdate>
 					</did>
@@ -2663,8 +2669,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">77</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">77</container>
 						<unittitle id="link260">Frankel, Ruth L. "Is Homemaking a Profession?" </unittitle>
 						<unitdate normal="1931">1931</unitdate>
 					</did>
@@ -2674,8 +2680,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">78</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">78</container>
 						<unittitle id="link261">"Training for Domestic Service"</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -2685,8 +2691,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">79</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">79</container>
 						<unittitle id="link262">"When We Consider the Servant Problem - From the Point of the Housewife"</unittitle>
 						<unitdate normal="1930">1930</unitdate>
 					</did>
@@ -2696,8 +2702,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">80</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">80</container>
 						<unittitle id="link263">Fredericks, Christine. Household Engineering: Scientific Management in the Home</unittitle>
 						<unitdate normal="1923">1923</unitdate>
 					</did>
@@ -2707,8 +2713,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">81</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">81</container>
 						<unittitle id="link264">Gordon, Allison. What Shall We Do About Household Employment? </unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -2718,8 +2724,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">82</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">82</container>
 						<unittitle id="link265">Greene, Lorenzo J. and Myra Colson Callis. The Employment of Negros in the District of Columbia</unittitle>
 					</did>
 					<scopecontent>
@@ -2728,8 +2734,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">83</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">83</container>
 						<unittitle id="link266">Hackett, Catherine. "A Code for Housewives."</unittitle>
 						<unitdate normal="1934">1934</unitdate>
 					</did>
@@ -2739,8 +2745,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">84</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">84</container>
 						<unittitle id="link267">Hale, Beatrice Forbes-Robertson. "The Future of Marriage As Forecast." </unittitle>
 						<unitdate normal="1931">1931</unitdate>
 					</did>
@@ -2750,8 +2756,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">85</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">85</container>
 						<unittitle id="link268">Haynes, Elizabeth Ross, A.M. "Negroes in Domestic Service in the United States"</unittitle>
 						<unitdate normal="1923">1923</unitdate>
 					</did>
@@ -2761,8 +2767,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">86</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">86</container>
 						<unittitle id="link269">Holmes, Henry W. "Homemaking and the Personal Equation"</unittitle>
 						<unitdate normal="1929">1929</unitdate>
 					</did>
@@ -2772,8 +2778,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">87</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">87</container>
 						<unittitle id="link270">Hope, Edward. "To Whom It May Concern" </unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -2783,8 +2789,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">88</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">88</container>
 						<unittitle id="link271">Horkheimer, Mary Foley and John W. Diffor, M.A. Educators Guide to Free Films</unittitle>
 						<unitdate normal="1946">1946</unitdate>
 					</did>
@@ -2794,8 +2800,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">89</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">89</container>
 						<unittitle id="link272">Household Employees News</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -2805,8 +2811,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">90</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">90</container>
 						<unittitle id="link273">Household Employment - A Symposium. (3 articles)</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -2817,8 +2823,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">91</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">91</container>
 						<unittitle id="link274">Household Employment Conference</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -2828,8 +2834,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">92</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">92</container>
 						<unittitle id="link275">Household Employment in Seattle</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
@@ -2839,8 +2845,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">93</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">93</container>
 						<unittitle id="link276">Training for Service</unittitle>
 					</did>
 					<scopecontent>
@@ -2849,8 +2855,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">94</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">94</container>
 						<unittitle id="link277">Humeston, Caroline. "Household Can Be Fun". </unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -2860,8 +2866,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">4</container>
-						<container type="folder">95</container>
+						<container label="unspecified" type="box">4</container>
+						<container label="unspecified" type="folder">95</container>
 						<unittitle id="link278">Hurst, Marion. Household Employees Handbook</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -2871,8 +2877,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link279">"Cost of Living Study, Household Employees"</unittitle>
 					</did>
 					<scopecontent>
@@ -2881,8 +2887,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link280">Industrial Women's Organizations, Standing Joint Committee of. Reports On Hospitals and the Patient and a Domestic Workers' Charter</unittitle>
 						<unitdate normal="1931">1931</unitdate>
 					</did>
@@ -2892,8 +2898,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link281">"A Movement in Home Economics For Self-Supporting Young Women &amp; Girls."</unittitle>
 					</did>
 					<scopecontent>
@@ -2902,8 +2908,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link282">Johnson, Eleanor. Household Employment in Chicago</unittitle>
 						<unitdate normal="1933">1933</unitdate>
 					</did>
@@ -2913,8 +2919,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link283">Keen, George. "Essentials of Co-operative Success." </unittitle>
 						<unitdate normal="1933">1933</unitdate>
 					</did>
@@ -2924,8 +2930,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link284">Keliher, Alice V., editor. Household Workers</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -2935,8 +2941,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link285">Kemmerer, Edwin Walter. The Gold Standard - Its Nature and Future</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -2946,8 +2952,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link286">Kerr, Clark and Paul S. Taylor. "The Self Help Cooperatives in California." </unittitle>
 						<unitdate normal="1935">1935</unitdate>
 					</did>
@@ -2957,8 +2963,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link287">Labour Party. What's Wrong With Domestic Service? We Want to Know What You Think</unittitle>
 					</did>
 					<scopecontent>
@@ -2967,8 +2973,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link288">League Light. Easter Greeting</unittitle>
 						<unitdate normal="1929">1929</unitdate>
 					</did>
@@ -2978,8 +2984,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link289">Lebengood, Anna M. and Amey Watson. "Training Household Workers in Pennsylvania." </unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -2989,8 +2995,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link290">Legal Aid Society. Domestic Employment, A Handbook.</unittitle>
 						<unitdate normal="1908">1908</unitdate>
 					</did>
@@ -3000,8 +3006,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link291">Lindsay, Malvina. "When We Consider the Servant Problem - From the Standpoint of the Modern Houseworker."</unittitle>
 						<unitdate normal="1930">1930</unitdate>
 					</did>
@@ -3011,8 +3017,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link292">Livingstone, Helen. Training for Household Occupations in the American Home</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 					</did>
@@ -3022,8 +3028,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link293">Lusby, Ruth M. "Teaching Employer-Employee Relations."</unittitle>
 						<unitdate normal="1929">1929</unitdate>
 					</did>
@@ -3033,8 +3039,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link294">Lyle, Mary S. and Rua Van Horn. Homemaking Education Programs for Adults</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -3044,8 +3050,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link295">MacDonald, Alice. "Do You Know Your Place?"</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -3055,8 +3061,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link296">"Housework, The Feudal Occupation"</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -3066,8 +3072,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link297">"Where Do We Go From Here?"</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -3077,8 +3083,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link298">MacLeod, Sarah. Housecleaning Made Easier</unittitle>
 						<unitdate normal="1933">1933</unitdate>
 					</did>
@@ -3088,8 +3094,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link299">Magnus, Erna. Domestic Workers in Philadelphia: Summary and Conclusion</unittitle>
 					</did>
 					<scopecontent>
@@ -3098,8 +3104,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link300">"Negro Domestic Workers in Private Homes In Baltimore. "</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -3109,8 +3115,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link301">McCormick, Ada. "Exit the Cook." </unittitle>
 						<unitdate normal="1931">1931</unitdate>
 					</did>
@@ -3120,8 +3126,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link302">McGregor, Virginia. A Study of the Wages of Household Employees in the Y.W.C.A.'s of Thirteen Illinois Communities.</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -3131,8 +3137,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link303">McGrew, Lilian Culbertson and J.R. Hawke. A Study of Household Employment in Omaha, Nebraska</unittitle>
 						<unitdate normal="1932">1932</unitdate>
 					</did>
@@ -3142,8 +3148,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link304">Millar's Chicago Letter. "Household Employment"</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -3153,8 +3159,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link305">Minneapolis Public Schools. Program of Studies in the Girl's Vocational High School</unittitle>
 						<unitdate normal="1929">1929</unitdate>
 					</did>
@@ -3164,8 +3170,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle id="link306">Moffett, Carol Willis. House Cleaning: Management &amp; Methods</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -3175,8 +3181,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">29</container>
 						<unittitle id="link307">"To Promote Efficiency Among Household Workers, So That Their Working Conditions Generally May Be Improved and Standardized." </unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
@@ -3186,8 +3192,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">30</container>
 						<unittitle id="link308">National Committee on Employer-Employee Relationships in the Home</unittitle>
 						<unitdate normal="1931">1931</unitdate>
 					</did>
@@ -3197,16 +3203,16 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">31</container>
 						<unittitle id="link309">National Committee on Household Employment Bulletin</unittitle>
-						<unitdate type="inclusive" normal="1934/1936">1934-1936</unitdate>
+						<unitdate normal="1934/1936" type="inclusive">1934-1936</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">32</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">32</container>
 						<unittitle id="link310">National Committee on Prisons and Prison Labor</unittitle>
 						<unitdate normal="1927">1927</unitdate>
 					</did>
@@ -3216,16 +3222,16 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">33</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">33</container>
 						<unittitle id="link311">National Council on Household Employment Bulletin</unittitle>
-						<unitdate type="inclusive" normal="1939/1941">1939-1941</unitdate>
+						<unitdate normal="1939/1941" type="inclusive">1939-1941</unitdate>
 					</did>
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">34</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">34</container>
 						<unittitle id="link312">A Voluntary Agreement in Household Employment</unittitle>
 						<unitdate normal="1942">1942</unitdate>
 					</did>
@@ -3235,8 +3241,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">35</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">35</container>
 						<unittitle id="link313">Women Are Cleaning House!</unittitle>
 					</did>
 					<scopecontent>
@@ -3245,8 +3251,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">36</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">36</container>
 						<unittitle id="link314">National Management Council of the U.S.A. Home Management Papers</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -3256,8 +3262,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">37</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">37</container>
 						<unittitle id="link315">National Management Council of the U.S.A. Proceedings</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -3267,10 +3273,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">38</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">38</container>
 						<unittitle id="link316">Circular of Information for the Twelfth Annual Session</unittitle>
-						<unitdate type="inclusive" normal="1921/1922">1921-1922</unitdate>
+						<unitdate normal="1921/1922" type="inclusive">1921-1922</unitdate>
 					</did>
 					<scopecontent>
 						<p>National Training School for Women and Girls, Inc. Washington, D.C.</p>
@@ -3278,8 +3284,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">39</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">39</container>
 						<unittitle id="link317">My Vocation With Special Reference To The Problems Faced by Negro Youth.</unittitle>
 					</did>
 					<scopecontent>
@@ -3288,8 +3294,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">40</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">40</container>
 						<unittitle id="link318">Today and Tomorrow. Statement of the Purposes and Plans of the Fourth Vocational Opportunity Campaign to Improve the Status of Negro Workers</unittitle>
 						<unitdate normal="1933">1933</unitdate>
 					</did>
@@ -3299,8 +3305,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">41</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">41</container>
 						<unittitle id="link319">The Need of Organization Among Household Employees</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
@@ -3310,8 +3316,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">42</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">42</container>
 						<unittitle id="link320">"American at Work." </unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -3321,8 +3327,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">43</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">43</container>
 						<unittitle id="link321">National Women's Trade Union League of America Life and Labor Bulletin</unittitle>
 						<unitdate normal="1931">1931</unitdate>
 					</did>
@@ -3332,8 +3338,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">44</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">44</container>
 						<unittitle id="link322">Life and Labor Bulletin</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -3343,8 +3349,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">45</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">45</container>
 						<unittitle id="link323">National Youth Administraton. Resident Home - Management School</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -3354,8 +3360,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">46</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">46</container>
 						<unittitle id="link324">National Youth Administration for Kentucky. Domestic Service</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
@@ -3365,8 +3371,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">47</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">47</container>
 						<unittitle id="link325">National Youth Administration of Illinois. Occupational Information</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 					</did>
@@ -3376,8 +3382,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">48</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">48</container>
 						<unittitle id="link326">Needleman, Rae L. "Are Domestic Workers Coming of Age." </unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -3387,8 +3393,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">49</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">49</container>
 						<unittitle id="link327">New York Household-Placement Association. Warning, Danger To All Employers of Domestic Labor</unittitle>
 					</did>
 					<scopecontent>
@@ -3397,10 +3403,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">50</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">50</container>
 						<unittitle id="link328">Miscellaneous Series. Help-Wanted Advertising. </unittitle>
-						<unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate>
+						<unitdate normal="1939/1940" type="inclusive">1939-1940</unitdate>
 					</did>
 					<scopecontent>
 						<p>New York State Division of Placement and Unemployment Insurance. Bureau of Research and Statistics. Statistics Report No. 3. New York City. l03 p</p>
@@ -3408,8 +3414,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">51</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">51</container>
 						<unittitle id="link329">New York State. National Youth Administration. Federal Security Agency. Resident Work Center Directory</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -3419,10 +3425,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">52</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">52</container>
 						<unittitle id="link330">New York Women's Trade Union League. Annual Report</unittitle>
-						<unitdate type="inclusive" normal="1939/1940">1939-1940</unitdate>
+						<unitdate normal="1939/1940" type="inclusive">1939-1940</unitdate>
 					</did>
 					<scopecontent>
 						<p>22p</p>
@@ -3430,8 +3436,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">53</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">53</container>
 						<unittitle id="link331">The New Step. A Guidebook for Pupils</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -3441,8 +3447,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">54</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">54</container>
 						<unittitle id="link332">Pasadena Study of Domestic Occupations</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
@@ -3452,8 +3458,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">55</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">55</container>
 						<unittitle id="link333">Pennsylvania State Employment Service. Household Employment As A Profession</unittitle>
 					</did>
 					<scopecontent>
@@ -3462,8 +3468,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">56</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">56</container>
 						<unittitle id="link334">Report of the Conference on Household Employment</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -3473,8 +3479,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">57</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">57</container>
 						<unittitle id="link335">Digest of Findings of the Philadelphia Study of Household Employment. </unittitle>
 					</did>
 					<scopecontent>
@@ -3483,8 +3489,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">58</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">58</container>
 						<unittitle id="link336">Philadelphia Institute on Household Occupations Final Report</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -3494,8 +3500,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">59</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">59</container>
 						<unittitle id="link337">Proposals For A Voluntary Agreement in Household Employment</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -3505,8 +3511,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">60</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">60</container>
 						<unittitle id="link338">Pidgeon, Mary Elizabeth and Margaret Thompson Mettert. Employed Women and Family Support</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -3516,8 +3522,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">61</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">61</container>
 						<unittitle id="link339">"Problems of the Home, Discussed by Outlook Readers"</unittitle>
 						<unitdate normal="1912">1912</unitdate>
 					</did>
@@ -3527,8 +3533,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">62</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">62</container>
 						<unittitle id="link340">Robinson, Elizabeth V. House Care Manual</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -3538,8 +3544,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">63</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">63</container>
 						<unittitle id="link341">Robinson, Grace. "My Maid - Impossible Female. A Search for the Perfect Servant."</unittitle>
 						<unitdate normal="1930">1930</unitdate>
 					</did>
@@ -3549,8 +3555,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">64</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">64</container>
 						<unittitle id="link342">Robinson, Mary V. A New Program for Household Workers</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -3560,8 +3566,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">65</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">65</container>
 						<unittitle id="link343">Domestic Workers and Their Employment Relations</unittitle>
 						<unitdate normal="1924">1924</unitdate>
 					</did>
@@ -3571,8 +3577,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">66</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">66</container>
 						<unittitle id="link344">"Why Workers Object to Household Employment." </unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
@@ -3582,8 +3588,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">67</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">67</container>
 						<unittitle id="link345">Robinson, Selma. "Mrs. Spencer's Maid is Leaving!" </unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -3593,8 +3599,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">68</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">68</container>
 						<unittitle id="link346">Roelofs, Henrietta. "Studies of Labor Problems in Household Employment"</unittitle>
 						<unitdate normal="1916">1916</unitdate>
 					</did>
@@ -3604,8 +3610,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">69</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">69</container>
 						<unittitle id="link347">"The Road to Trained Service in the Household". </unittitle>
 						<unitdate normal="1915">1915</unitdate>
 					</did>
@@ -3615,8 +3621,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">5</container>
-						<container type="folder">70</container>
+						<container label="unspecified" type="box">5</container>
+						<container label="unspecified" type="folder">70</container>
 						<unittitle id="link348">Ross, Ishbel. "The Vanishing Domestic." </unittitle>
 						<unitdate normal="1942">1942</unitdate>
 					</did>
@@ -3626,8 +3632,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">35</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">35</container>
 						<unittitle id="link349">Darling Resident Center. Information for Applicants. </unittitle>
 					</did>
 					<scopecontent>
@@ -3636,10 +3642,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">1</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">1</container>
 						<unittitle id="link350">School of Scientific Housekeeping</unittitle>
-						<unitdate type="inclusive" normal="1940/1941">1940-1941</unitdate>
+						<unitdate normal="1940/1941" type="inclusive">1940-1941</unitdate>
 					</did>
 					<scopecontent>
 						<p>New York, no date. 35 p</p>
@@ -3647,8 +3653,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">2</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">2</container>
 						<unittitle id="link351">Schools for Women Workers in Industry</unittitle>
 						<unitdate normal="1929">1929</unitdate>
 					</did>
@@ -3658,8 +3664,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">3</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">3</container>
 						<unittitle id="link352">Seeley, Evelyn. "Our Feudal Housewives."</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -3669,8 +3675,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">4</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">4</container>
 						<unittitle id="link353">Sergel, Ruth. The Women In the House: Stories of Household Employment</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -3680,8 +3686,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">5</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">5</container>
 						<unittitle id="link354">"Servant in the Home." </unittitle>
 						<unitdate normal="1931">1931</unitdate>
 					</did>
@@ -3691,8 +3697,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">6</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">6</container>
 						<unittitle id="link355">"Servants are Humans." </unittitle>
 					</did>
 					<scopecontent>
@@ -3701,8 +3707,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">7</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">7</container>
 						<unittitle id="link356">Smith, Florence P. State Minimum-Wage Laws and Orders: An Analysis</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -3712,8 +3718,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">8</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">8</container>
 						<unittitle id="link357">School and Employment Standards for Household Service</unittitle>
 					</did>
 					<scopecontent>
@@ -3722,8 +3728,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">9</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">9</container>
 						<unittitle id="link358">Snyder, Eleanor M. Job Histories of Women Workers at the Summer Schools, 1931-34 and 1938</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -3733,8 +3739,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">10</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">10</container>
 						<unittitle id="link359">Home Assistants: Vocational Training Program</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -3744,8 +3750,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">11</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">11</container>
 						<unittitle id="link360">Stitt, Louise. Household Employment: The Problem Nationally</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -3755,8 +3761,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">12</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">12</container>
 						<unittitle id="link361">Stocks, Ester H. A Community Home Assistants Experiment. An Experimental Demonstration of the Institute for the Co-ordination of Women's Interests</unittitle>
 						<unitdate normal="1928">1928</unitdate>
 					</did>
@@ -3766,8 +3772,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">13</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">13</container>
 						<unittitle id="link362">"New Days - New Ways Women Are Cleaning House." </unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -3777,8 +3783,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">14</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">14</container>
 						<unittitle id="link363">Tolman, Edna. "So You Can't Keep a Maid!" </unittitle>
 						<unitdate normal="1943">1943</unitdate>
 					</did>
@@ -3788,8 +3794,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">15</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">15</container>
 						<unittitle id="link364">Trade and Industrial Education. Guideposts for Employers. </unittitle>
 					</did>
 					<scopecontent>
@@ -3799,8 +3805,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">16</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">16</container>
 						<unittitle id="link365">"Training for Household Employment." </unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -3810,8 +3816,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">17</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">17</container>
 						<unittitle id="link366">"Holidays on Vacation for Household Workers: Bulletin Survey to Report on Programs in l9 Cities." </unittitle>
 						<unitdate normal="1947">1947</unitdate>
 					</did>
@@ -3821,8 +3827,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">18</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">18</container>
 						<unittitle id="link367">Domestic Workers and Legislation</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -3832,8 +3838,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">19</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">19</container>
 						<unittitle id="link368">Domestic Workers and Legislation</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -3843,8 +3849,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">20</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">20</container>
 						<unittitle id="link369">Household Employment: An Outlook for Study Groups</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -3854,8 +3860,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">21</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">21</container>
 						<unittitle id="link370">"Household Workers Earnings and Outgo"</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -3865,8 +3871,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">22</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">22</container>
 						<unittitle id="link371">Old Age Insurance for Household Workers</unittitle>
 						<unitdate normal="1947">1947</unitdate>
 					</did>
@@ -3876,8 +3882,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">23</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">23</container>
 						<unittitle id="link372">Reading List of References on Household Employment</unittitle>
 						<unitdate normal="1935">1935</unitdate>
 					</did>
@@ -3887,8 +3893,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">24</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">24</container>
 						<unittitle id="link373">Reading List of References on Household Employment</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 					</did>
@@ -3898,8 +3904,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">25</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">25</container>
 						<unittitle id="link374">Reading List of References on Household Employment</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -3909,8 +3915,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">26</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">26</container>
 						<unittitle id="link375">Reading List of References on Household Employment</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -3920,8 +3926,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">27</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">27</container>
 						<unittitle id="link376">The Effect of Minimum-Wage Determinations in Service Industries</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -3931,8 +3937,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">28</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">28</container>
 						<unittitle id="link377">What It Is, What It Does, What It Publishes</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -3942,8 +3948,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">29</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">29</container>
 						<unittitle id="link378">Women at Work, A Century of Industrial Change</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -3953,8 +3959,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">30</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">30</container>
 						<unittitle id="link379">An Educational Program for Household Employment, Trade and Industrial and Home Economics Education. </unittitle>
 						<unitdate normal="1935">1935</unitdate>
 					</did>
@@ -3964,8 +3970,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">31</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">31</container>
 						<unittitle id="link380">Household Employment Problems: A Handbook for Round-Table Discussions Among Household Employers.</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
@@ -3975,8 +3981,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">32</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">32</container>
 						<unittitle id="link381">Vocational Training for Household Employment</unittitle>
 						<unitdate normal="1935">1935</unitdate>
 					</did>
@@ -3986,8 +3992,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">33</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">33</container>
 						<unittitle id="link382">Official Directory </unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -3997,8 +4003,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">34</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">34</container>
 						<unittitle id="link383">Housekeeping Aide Circular. W.P.A. Technical Series Welfare Circular No. 3</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -4008,8 +4014,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">36</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">36</container>
 						<unittitle id="link384">Household Employment Problems: A Handbook for Round-Table Discussions Among Household Employers</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -4019,8 +4025,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">37</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">37</container>
 						<unittitle id="link385">U.S. Women's Bureau. Woman Worker</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -4030,8 +4036,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">38</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">38</container>
 						<unittitle id="link386">Home Economics in the W.P.A. Program.</unittitle>
 					</did>
 					<scopecontent>
@@ -4040,8 +4046,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">39</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">39</container>
 						<unittitle id="link387">Household Service Demonstration Circular No. l</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
@@ -4051,8 +4057,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">40</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">40</container>
 						<unittitle id="link388">Washington League of Women Shoppers. Household Occupation in the District of Columbia</unittitle>
 					</did>
 					<scopecontent>
@@ -4061,8 +4067,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">41</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">41</container>
 						<unittitle id="link389">Watson, Amey E., PhD. "Employer-Employee Relationships in the Home." </unittitle>
 						<unitdate normal="1929">1929</unitdate>
 					</did>
@@ -4072,8 +4078,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">42</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">42</container>
 						<unittitle id="link390">Household Employment and National Defense</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -4083,8 +4089,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">43</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">43</container>
 						<unittitle id="link391">"Household Employment in Outline." </unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -4094,8 +4100,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">44</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">44</container>
 						<unittitle id="link392">Household Employment in Philadelphia</unittitle>
 						<unitdate normal="1932">1932</unitdate>
 					</did>
@@ -4105,8 +4111,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">45</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">45</container>
 						<unittitle id="link393">"The Responsibility of the Home Economist for Improving Employer-Employee Relationships in the Home."</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -4116,8 +4122,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">46</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">46</container>
 						<unittitle id="link394">Watson, Dr. Amey E. and Helen Goodspeed. "A New Pattern in Democratic Living." </unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -4127,8 +4133,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">47</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">47</container>
 						<unittitle id="link395">Watson, Dr. Amey E. and Dorothy P. Wells. Well-Managed Employer-Employee Relationships in the Home</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -4138,8 +4144,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">48</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">48</container>
 						<unittitle id="link396">Wells, Dorothy P. "Household Employees-l,500,000 Women." </unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -4149,8 +4155,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">49</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">49</container>
 						<unittitle id="link397">Household Employment</unittitle>
 						<unitdate normal="1934">1934</unitdate>
 					</did>
@@ -4160,8 +4166,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">50</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">50</container>
 						<unittitle id="link398">"The Y.M.C.A. and Household Employment"</unittitle>
 						<unitdate normal="1935">1935</unitdate>
 					</did>
@@ -4171,8 +4177,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">51</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">51</container>
 						<unittitle id="link399">Wells, Dorothy P. and Carol Biba. Fair and Clear in the Home: A Symposium on Household Employment</unittitle>
 						<unitdate normal="1936">1936</unitdate>
 					</did>
@@ -4182,8 +4188,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">52</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">52</container>
 						<unittitle id="link400">West, Elizabeth S. Housework as a Profession</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -4193,8 +4199,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">53</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">53</container>
 						<unittitle id="link401">West Virginia State Employment Service affiliated with Social Security Board</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -4204,8 +4210,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">54</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">54</container>
 						<unittitle id="link402">White, Marie. Duties and Responsibilities of the General Household Employee: Some Bases for Determining Content for Vocational Courses in Household Employment</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -4215,8 +4221,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">55</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">55</container>
 						<unittitle id="link403">Williams, Harriet Walton. Manual for Coordinators of Part-time Home Service Program</unittitle>
 						<unitdate normal="1941">1941</unitdate>
 					</did>
@@ -4226,8 +4232,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">56</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">56</container>
 						<unittitle id="link404">Woldman, Elinore R. Care of Children In Their Homes Through Supervised Homemaker Service</unittitle>
 						<unitdate normal="1940">1940</unitdate>
 					</did>
@@ -4237,8 +4243,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">57</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">57</container>
 						<unittitle id="link405">Suggested Standards for Employment: General House Worker.</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -4248,10 +4254,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">58</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">58</container>
 						<unittitle id="link406">Report of a Two Years' Experiment in Social Economics.</unittitle>
-						<unitdate type="inclusive" normal="1903/1905">1903-1905</unitdate>
+						<unitdate normal="1903/1905" type="inclusive">1903-1905</unitdate>
 					</did>
 					<scopecontent>
 						<p>Woman's Education Association. Committee on Domestic Economy. Household Aid Company. Boston. 21 p</p>
@@ -4259,8 +4265,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">59</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">59</container>
 						<unittitle id="link407">Woodward, Ellen S. "The W.P.A. Prepares Women for Housework." </unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -4270,8 +4276,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">60</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">60</container>
 						<unittitle id="link408">It Can Happen In Your Home, 32,000 Deaths Each Year From Home Accidents</unittitle>
 					</did>
 					<scopecontent>
@@ -4280,8 +4286,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">61</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">61</container>
 						<unittitle id="link409">W.P.A. Technical Series. Household Service Demonstration Circular No. l</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
@@ -4291,8 +4297,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">62</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">62</container>
 						<unittitle id="link410">Young, Donald PhD. "The Modern American Family." </unittitle>
 						<unitdate normal="1932">1932</unitdate>
 					</did>
@@ -4302,8 +4308,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">63</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">63</container>
 						<unittitle id="link411">Young Women's Christian Association. Domestic Service Questionnaire</unittitle>
 						<unitdate normal="1933">1933</unitdate>
 					</did>
@@ -4313,8 +4319,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">64</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">64</container>
 						<unittitle id="link412">First Report of the Committee on Household Employment to the Fifth National Convention</unittitle>
 						<unitdate normal="1915">1915</unitdate>
 					</did>
@@ -4324,8 +4330,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">65</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">65</container>
 						<unittitle id="link413">Statement on Training</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -4335,10 +4341,10 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">66</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">66</container>
 						<unittitle id="link414">The Y.W.C.A. Trade School</unittitle>
-						<unitdate type="inclusive" normal="1934/1935">1934-1935</unitdate>
+						<unitdate normal="1934/1935" type="inclusive">1934-1935</unitdate>
 					</did>
 					<scopecontent>
 						<p>New York, 32 p</p>
@@ -4346,8 +4352,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">67</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">67</container>
 						<unittitle id="link415">Household Employment Mass Meeting</unittitle>
 						<unitdate normal="1938">1938</unitdate>
 					</did>
@@ -4357,8 +4363,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">68</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">68</container>
 						<unittitle id="link416">Suggestions for Better Household Employer-Employee Relations</unittitle>
 						<unitdate normal="1937">1937</unitdate>
 					</did>
@@ -4373,8 +4379,8 @@
 				</did>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">69</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">69</container>
 						<unittitle id="link418">Alsop, Natalie. no title</unittitle>
 					</did>
 					<scopecontent>
@@ -4383,8 +4389,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">70</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">70</container>
 						<unittitle id="link419">Barber, Edith. </unittitle>
 					</did>
 					<scopecontent>
@@ -4393,8 +4399,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">71</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">71</container>
 						<unittitle id="link420">Magnus, Erma. Coverage of Domestic Workers by Social Insurance</unittitle>
 						<unitdate normal="1939">1939</unitdate>
 					</did>
@@ -4404,8 +4410,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">72</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">72</container>
 						<unittitle id="link421">"Negro Domestic Workers in Private Homes In Baltimore. "</unittitle>
 					</did>
 					<scopecontent>
@@ -4414,8 +4420,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">73</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">73</container>
 						<unittitle id="link422">It's Fun to Work In A Home. I Really Mean It. </unittitle>
 					</did>
 					<scopecontent>
@@ -4424,8 +4430,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">74</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">74</container>
 						<unittitle id="link423">Progress in the Field of Employer-Employee Relationships in the Home</unittitle>
 					</did>
 					<scopecontent>
@@ -4434,8 +4440,8 @@
 				</c02>
 				<c02 level="file">
 					<did>
-						<container type="box">6</container>
-						<container type="folder">75</container>
+						<container label="unspecified" type="box">6</container>
+						<container label="unspecified" type="folder">75</container>
 						<unittitle id="link424">The Extent and Types of Domestic Service</unittitle>
 					</did>
 					<scopecontent>
@@ -4445,7 +4451,7 @@
 			</c01>
 			<c01 level="file">
 				<did>
-					<container type="box">7</container>
+					<container label="unspecified" type="box">7</container>
 					<unittitle id="link425">Images digitized from the collection.</unittitle>
 				</did>
 			</c01>
